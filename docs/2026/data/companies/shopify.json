@@ -1,0 +1,356 @@
+{
+  "company": "shopify",
+  "slug": "shopify",
+  "summary": {
+    "tech_canonical_name": "shopify",
+    "net_total": 10020,
+    "n_donors": 6,
+    "n_contributions": 23,
+    "n_committees": 6,
+    "sectors": "ecommerce",
+    "amt_dem": 10020,
+    "amt_mixed": 0,
+    "amt_rep": 0,
+    "amt_unknown": 0,
+    "amt_other": 0,
+    "classified_recipient_total": 10020,
+    "pct_dem": 100.0,
+    "pct_classified_recipients": 100.0,
+    "donor_amt_D": 10020,
+    "donor_amt_Mixed": 0,
+    "donor_amt_R": 0,
+    "donor_amt_Unknown": 0,
+    "n_donors_D": 6,
+    "n_donors_Mixed": 0,
+    "n_donors_R": 0,
+    "n_donors_Unknown": 0,
+    "donor_amt_total": 10020,
+    "n_donors_total": 6,
+    "pct_dem_by_donor": 100.0,
+    "slug": "shopify"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2026,
+      "week_end": "2025-01-19",
+      "net_total": 100,
+      "cumulative_net_total": 100,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-02-23",
+      "net_total": 100,
+      "cumulative_net_total": 200,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-03-23",
+      "net_total": 100,
+      "cumulative_net_total": 300,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-04-20",
+      "net_total": 100,
+      "cumulative_net_total": 400,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-05-25",
+      "net_total": 100,
+      "cumulative_net_total": 500,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-06-22",
+      "net_total": 100,
+      "cumulative_net_total": 600,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-13",
+      "net_total": 20,
+      "cumulative_net_total": 620,
+      "gross_positive": 20,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-20",
+      "net_total": 100,
+      "cumulative_net_total": 720,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-27",
+      "net_total": 7000,
+      "cumulative_net_total": 7720,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-10",
+      "net_total": 1000,
+      "cumulative_net_total": 8720,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-17",
+      "net_total": 20,
+      "cumulative_net_total": 8740,
+      "gross_positive": 20,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-24",
+      "net_total": 100,
+      "cumulative_net_total": 8840,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-09-07",
+      "net_total": 500,
+      "cumulative_net_total": 9340,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-09-14",
+      "net_total": 20,
+      "cumulative_net_total": 9360,
+      "gross_positive": 20,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-09-21",
+      "net_total": 100,
+      "cumulative_net_total": 9460,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-19",
+      "net_total": 120,
+      "cumulative_net_total": 9580,
+      "gross_positive": 120,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-16",
+      "net_total": 20,
+      "cumulative_net_total": 9600,
+      "gross_positive": 20,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-23",
+      "net_total": 100,
+      "cumulative_net_total": 9700,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-12-14",
+      "net_total": 20,
+      "cumulative_net_total": 9720,
+      "gross_positive": 20,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-12-21",
+      "net_total": 300,
+      "cumulative_net_total": 10020,
+      "gross_positive": 300,
+      "n_contributions": 2,
+      "n_donors": 2
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "SZE, AIDAN",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "CA",
+      "top_committee": "ELKIND FOR NEW YORK",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "ALVES DE SA, JESSICA",
+      "net_total": 1200,
+      "gross_positive": 1200,
+      "n_contributions": 12,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "DC",
+      "top_committee": "VOTE SAVE AMERICA",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1200
+    },
+    {
+      "name": "SMARR, JOSEPH",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "CA",
+      "top_committee": "INDIGO PAC",
+      "top_committee_type": "O",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "HAFEEZ MALIK, SAARA",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "NY",
+      "top_committee": "MARK POCAN FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "MUELLER, JENNIFER",
+      "net_total": 200,
+      "gross_positive": 200,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "MT",
+      "top_committee": "CLEVELAND FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 200
+    },
+    {
+      "name": "FONTAINE, ROBIN",
+      "net_total": 120,
+      "gross_positive": 120,
+      "n_contributions": 6,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "CA",
+      "top_committee": "MOVEON.ORG POLITICAL ACTION",
+      "top_committee_type": "W",
+      "top_committee_amt": 120
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00913871",
+      "cmte_nm": "ELKIND FOR NEW YORK",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00835587",
+      "cmte_nm": "VOTE SAVE AMERICA",
+      "cmte_tp": "Q",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 1200,
+      "n_donors": 1,
+      "n_contributions": 12
+    },
+    {
+      "cmte_id": "C00909465",
+      "cmte_nm": "INDIGO PAC",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00502179",
+      "cmte_nm": "MARK POCAN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00902395",
+      "cmte_nm": "CLEVELAND FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 200,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00341396",
+      "cmte_nm": "MOVEON.ORG POLITICAL ACTION",
+      "cmte_tp": "W",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "outside_spending",
+      "net_total": 120,
+      "n_donors": 1,
+      "n_contributions": 6
+    }
+  ]
+}

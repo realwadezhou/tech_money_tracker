@@ -1,0 +1,499 @@
+{
+  "company": "accel",
+  "slug": "accel",
+  "summary": {
+    "tech_canonical_name": "accel",
+    "net_total": 63561,
+    "n_donors": 9,
+    "n_contributions": 70,
+    "n_committees": 10,
+    "sectors": "vc",
+    "amt_dem": 29000,
+    "amt_mixed": 22500,
+    "amt_rep": 10,
+    "amt_unknown": 12051,
+    "amt_other": 34551,
+    "classified_recipient_total": 29010,
+    "pct_dem": 99.9655291279,
+    "pct_classified_recipients": 45.6411950725,
+    "donor_amt_D": 51000,
+    "donor_amt_Mixed": 0,
+    "donor_amt_R": 61,
+    "donor_amt_Unknown": 12500,
+    "n_donors_D": 5,
+    "n_donors_Mixed": 0,
+    "n_donors_R": 1,
+    "n_donors_Unknown": 3,
+    "donor_amt_total": 63561,
+    "n_donors_total": 9,
+    "pct_dem_by_donor": 99.8805350463,
+    "slug": "accel"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2026,
+      "week_end": "2025-03-30",
+      "net_total": 14000,
+      "cumulative_net_total": 14000,
+      "gross_positive": 14000,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-04-20",
+      "net_total": 5000,
+      "cumulative_net_total": 19000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-05-04",
+      "net_total": 12000,
+      "cumulative_net_total": 31000,
+      "gross_positive": 12000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-05-11",
+      "net_total": 12500,
+      "cumulative_net_total": 43500,
+      "gross_positive": 12500,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-06",
+      "net_total": 0,
+      "cumulative_net_total": 43500,
+      "gross_positive": 0,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-13",
+      "net_total": 0,
+      "cumulative_net_total": 43500,
+      "gross_positive": 0,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-20",
+      "net_total": 0,
+      "cumulative_net_total": 43500,
+      "gross_positive": 0,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-27",
+      "net_total": 20,
+      "cumulative_net_total": 43520,
+      "gross_positive": 20,
+      "n_contributions": 5,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-03",
+      "net_total": 0,
+      "cumulative_net_total": 43520,
+      "gross_positive": 0,
+      "n_contributions": 6,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-10",
+      "net_total": 0,
+      "cumulative_net_total": 43520,
+      "gross_positive": 0,
+      "n_contributions": 5,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-17",
+      "net_total": 0,
+      "cumulative_net_total": 43520,
+      "gross_positive": 0,
+      "n_contributions": 4,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-24",
+      "net_total": 0,
+      "cumulative_net_total": 43520,
+      "gross_positive": 0,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-31",
+      "net_total": 0,
+      "cumulative_net_total": 43520,
+      "gross_positive": 0,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-09-07",
+      "net_total": 9,
+      "cumulative_net_total": 43529,
+      "gross_positive": 9,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-09-28",
+      "net_total": 0,
+      "cumulative_net_total": 43529,
+      "gross_positive": 0,
+      "n_contributions": 4,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-05",
+      "net_total": 0,
+      "cumulative_net_total": 43529,
+      "gross_positive": 0,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-12",
+      "net_total": 1000,
+      "cumulative_net_total": 44529,
+      "gross_positive": 1000,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-19",
+      "net_total": 0,
+      "cumulative_net_total": 44529,
+      "gross_positive": 0,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-26",
+      "net_total": 0,
+      "cumulative_net_total": 44529,
+      "gross_positive": 0,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-16",
+      "net_total": 0,
+      "cumulative_net_total": 44529,
+      "gross_positive": 0,
+      "n_contributions": 4,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-23",
+      "net_total": 15,
+      "cumulative_net_total": 44544,
+      "gross_positive": 15,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-30",
+      "net_total": 7000,
+      "cumulative_net_total": 51544,
+      "gross_positive": 7000,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-12-07",
+      "net_total": 5000,
+      "cumulative_net_total": 56544,
+      "gross_positive": 5000,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-12-21",
+      "net_total": 12,
+      "cumulative_net_total": 56556,
+      "gross_positive": 12,
+      "n_contributions": 3,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-12-28",
+      "net_total": 5,
+      "cumulative_net_total": 56561,
+      "gross_positive": 5,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-01-04",
+      "net_total": 0,
+      "cumulative_net_total": 56561,
+      "gross_positive": 0,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-02-08",
+      "net_total": 7000,
+      "cumulative_net_total": 63561,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "GANDHI, SAMEER",
+      "net_total": 26000,
+      "gross_positive": 26000,
+      "n_contributions": 7,
+      "n_committees": 4,
+      "employers": "ACCEL",
+      "states": "CA",
+      "top_committee": "ERIC JONES FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "GOLDEN, BRUCE",
+      "net_total": 12000,
+      "gross_positive": 12000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ACCEL",
+      "states": "CA",
+      "top_committee": "KATHERINE CLARK MAJORITY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 12000
+    },
+    {
+      "name": "WONG, RICH",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "ACCEL",
+      "states": "CA",
+      "top_committee": "RO FOR CONGRESS INC",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "GANDHI, SAMEER MR.",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ACCEL",
+      "states": "CA",
+      "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "LEVINE, DANIEL",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ACCEL",
+      "states": "CA",
+      "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "WONG, RICHARD P MR.",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ACCEL",
+      "states": "CA",
+      "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "KUMAR, AMIT",
+      "net_total": 2500,
+      "gross_positive": 2500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ACCEL",
+      "states": "CA",
+      "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 2500
+    },
+    {
+      "name": "SALINS, NATASHA",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ACCEL",
+      "states": "CA",
+      "top_committee": "COOKE FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "HAYNES, LETITIA",
+      "net_total": 61,
+      "gross_positive": 61,
+      "n_contributions": 55,
+      "n_committees": 3,
+      "employers": "ACCEL",
+      "states": "AZ",
+      "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
+      "top_committee_type": "N",
+      "top_committee_amt": 42
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00150367",
+      "cmte_nm": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
+      "cmte_tp": "Q",
+      "party_dr": "Mixed",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 17500,
+      "n_donors": 4,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00503185",
+      "cmte_nm": "RO FOR CONGRESS INC",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 14000,
+      "n_donors": 2,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00831669",
+      "cmte_nm": "KATHERINE CLARK MAJORITY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 12000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00904466",
+      "cmte_nm": "RAJA FOR ILLINOIS",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00919100",
+      "cmte_nm": "ERIC JONES FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00451153",
+      "cmte_nm": "GRIDIRON-PAC",
+      "cmte_tp": "Q",
+      "party_dr": "Mixed",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 5000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00844993",
+      "cmte_nm": "COOKE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00873893",
+      "cmte_nm": "TRUMP NATIONAL COMMITTEE JFC, INC.",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 42,
+      "n_donors": 1,
+      "n_contributions": 53
+    },
+    {
+      "cmte_id": "C00894071",
+      "cmte_nm": "LOVE AMERICA UPHOLD FREEDOM PAC",
+      "cmte_tp": "O",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "outside_spending",
+      "net_total": 10,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00833566",
+      "cmte_nm": "CONSTITUTIONAL CONSERVATIVES FUND",
+      "cmte_tp": "O",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
+      "net_total": 9,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}

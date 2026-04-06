@@ -1,0 +1,101 @@
+[
+  {
+    "cycle": 2024,
+    "week_end": "2023-11-26",
+    "net_total": 2000,
+    "cumulative_net_total": 2000,
+    "gross_positive": 2000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-01-14",
+    "net_total": 500,
+    "cumulative_net_total": 2500,
+    "gross_positive": 500,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-05-12",
+    "net_total": 1000,
+    "cumulative_net_total": 3500,
+    "gross_positive": 1000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-06-16",
+    "net_total": 1000,
+    "cumulative_net_total": 4500,
+    "gross_positive": 1000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-07-28",
+    "net_total": 3500,
+    "cumulative_net_total": 8000,
+    "gross_positive": 3500,
+    "n_contributions": 2,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-08-25",
+    "net_total": 1000,
+    "cumulative_net_total": 9000,
+    "gross_positive": 1000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-09-15",
+    "net_total": 1250,
+    "cumulative_net_total": 10250,
+    "gross_positive": 1250,
+    "n_contributions": 2,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-09-29",
+    "net_total": 1000,
+    "cumulative_net_total": 11250,
+    "gross_positive": 1000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-10-13",
+    "net_total": 47,
+    "cumulative_net_total": 11297,
+    "gross_positive": 47,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-10-20",
+    "net_total": 47,
+    "cumulative_net_total": 11344,
+    "gross_positive": 47,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-10-27",
+    "net_total": 2047,
+    "cumulative_net_total": 13391,
+    "gross_positive": 2047,
+    "n_contributions": 3,
+    "n_donors": 3
+  }
+]

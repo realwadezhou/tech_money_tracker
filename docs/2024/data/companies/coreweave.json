@@ -1,0 +1,241 @@
+{
+  "company": "coreweave",
+  "slug": "coreweave",
+  "summary": {
+    "tech_canonical_name": "coreweave",
+    "net_total": 13391,
+    "n_donors": 5,
+    "n_contributions": 15,
+    "n_committees": 4,
+    "sectors": "cloud",
+    "amt_dem": 13250,
+    "amt_mixed": 0,
+    "amt_rep": 0,
+    "amt_unknown": 141,
+    "amt_other": 141,
+    "classified_recipient_total": 13250,
+    "pct_dem": 100.0,
+    "pct_classified_recipients": 98.9470539915,
+    "donor_amt_D": 10750,
+    "donor_amt_Mixed": 2500,
+    "donor_amt_R": 0,
+    "donor_amt_Unknown": 141,
+    "n_donors_D": 3,
+    "n_donors_Mixed": 1,
+    "n_donors_R": 0,
+    "n_donors_Unknown": 1,
+    "donor_amt_total": 13391,
+    "n_donors_total": 5,
+    "pct_dem_by_donor": 100.0,
+    "slug": "coreweave"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2024,
+      "week_end": "2023-11-26",
+      "net_total": 2000,
+      "cumulative_net_total": 2000,
+      "gross_positive": 2000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-01-14",
+      "net_total": 500,
+      "cumulative_net_total": 2500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-05-12",
+      "net_total": 1000,
+      "cumulative_net_total": 3500,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-06-16",
+      "net_total": 1000,
+      "cumulative_net_total": 4500,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-07-28",
+      "net_total": 3500,
+      "cumulative_net_total": 8000,
+      "gross_positive": 3500,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-08-25",
+      "net_total": 1000,
+      "cumulative_net_total": 9000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-15",
+      "net_total": 1250,
+      "cumulative_net_total": 10250,
+      "gross_positive": 1250,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-29",
+      "net_total": 1000,
+      "cumulative_net_total": 11250,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-13",
+      "net_total": 47,
+      "cumulative_net_total": 11297,
+      "gross_positive": 47,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-20",
+      "net_total": 47,
+      "cumulative_net_total": 11344,
+      "gross_positive": 47,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-27",
+      "net_total": 2047,
+      "cumulative_net_total": 13391,
+      "gross_positive": 2047,
+      "n_contributions": 3,
+      "n_donors": 3
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "MILLER, SANFORD",
+      "net_total": 8000,
+      "gross_positive": 8000,
+      "n_contributions": 8,
+      "n_committees": 2,
+      "employers": "COREWEAVE",
+      "states": "NY",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "HJELM, MAX",
+      "net_total": 2500,
+      "gross_positive": 2500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "COREWEAVE",
+      "states": "NJ",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
+      "top_committee_amt": 2500
+    },
+    {
+      "name": "SULLIVAN, JEFF",
+      "net_total": 2500,
+      "gross_positive": 2500,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "COREWEAVE",
+      "states": "CO",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
+      "top_committee_amt": 2500
+    },
+    {
+      "name": "MILLER, ERIC",
+      "net_total": 250,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "COREWEAVE",
+      "states": "IL",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
+      "top_committee_amt": 250
+    },
+    {
+      "name": "KNAPPE, JEREMY",
+      "net_total": 141,
+      "gross_positive": 141,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "COREWEAVE",
+      "states": "VA",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 141
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00010603",
+      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 7
+    },
+    {
+      "cmte_id": "C00703975",
+      "cmte_nm": "HARRIS FOR PRESIDENT",
+      "cmte_tp": "P",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 5250,
+      "n_donors": 3,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00000935",
+      "cmte_nm": "DCCC",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00744946",
+      "cmte_nm": "HARRIS VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 141,
+      "n_donors": 1,
+      "n_contributions": 3
+    }
+  ]
+}

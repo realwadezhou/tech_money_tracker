@@ -1,0 +1,102 @@
+{
+  "company": "groq",
+  "slug": "groq",
+  "summary": {
+    "tech_canonical_name": "groq",
+    "net_total": 1025,
+    "n_donors": 2,
+    "n_contributions": 2,
+    "n_committees": 2,
+    "sectors": "semiconductors",
+    "amt_dem": 1000,
+    "amt_mixed": 0,
+    "amt_rep": 0,
+    "amt_unknown": 25,
+    "amt_other": 25,
+    "classified_recipient_total": 1000,
+    "pct_dem": 100.0,
+    "pct_classified_recipients": 97.5609756098,
+    "donor_amt_D": 1025,
+    "donor_amt_Mixed": 0,
+    "donor_amt_R": 0,
+    "donor_amt_Unknown": 0,
+    "n_donors_D": 2,
+    "n_donors_Mixed": 0,
+    "n_donors_R": 0,
+    "n_donors_Unknown": 0,
+    "donor_amt_total": 1025,
+    "n_donors_total": 2,
+    "pct_dem_by_donor": 100.0,
+    "slug": "groq"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-20",
+      "net_total": 1000,
+      "cumulative_net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-11-17",
+      "net_total": 25,
+      "cumulative_net_total": 1025,
+      "gross_positive": 25,
+      "n_contributions": 1,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "EDWARDS, GRANT",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "GROQ",
+      "states": "WA",
+      "top_committee": "CONROY FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "BOOTH, MICHAEL",
+      "net_total": 25,
+      "gross_positive": 25,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "GROQ",
+      "states": "TN",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 25
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00849794",
+      "cmte_nm": "CONROY FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00744946",
+      "cmte_nm": "HARRIS VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 25,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}

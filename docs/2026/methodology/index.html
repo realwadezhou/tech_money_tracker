@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Methodology - Tech Money</title>
+  <link rel="stylesheet" href="../static/site.css">
+</head>
+<body>
+  <div class="page">
+    
+<div class="site-header">
+  <div class="site-title">Tech Money</div>
+  <p class="site-tagline">A plain web document about tech-linked money in federal politics.</p>
+  <div class="cycle-toggle"><span class="cycle-label">Cycle</span><span class="cycle-pill current">2026</span><a class="cycle-pill" href="../../2024/methodology/">2024</a></div>
+  <hr class="rule">
+  <div class="navline"><a href="../index.html">Home</a> | <a href="../companies/">Companies</a> | <a href="../candidates/">Candidates</a> | <a href="../political-bodies/">Political Bodies</a> | <a href="../donors/">Donors</a> | <a href="../methodology/">Methodology</a> | <a href="../data/">Data</a></div>
+  <hr class="rule">
+</div>
+
+    <p class="meta"><strong>Data as of 2026-03-18.</strong><br>This page uses the validated 2026 export included in this build.</p>
+    
+<h1>Methodology</h1>
+
+<p>This site is built from the validated tech-money pipeline in this repository.</p>
+
+<h2>What is counted</h2>
+<ul>
+  <li>Validated individual-contribution transaction types from <code>itcont</code>.</li>
+  <li>Refund types are subtracted from totals.</li>
+  <li>Employer strings are matched against a manually tagged tech-employer lookup.</li>
+  <li>Committee and donor lean is inferred from committee party filings plus candidate-facing spending patterns.</li>
+</ul>
+
+<h2>What is not yet fully captured</h2>
+<ul>
+  <li>People whose filings do not identify them through a tracked tech employer string.</li>
+  <li>Per-candidate detail pages beyond the current national, state, Senate, and House district navigation.</li>
+  <li>Outbound committee spending as a core public view; the current committee-spending export is still too broad.</li>
+</ul>
+
+<h2>Current limits</h2>
+<ul>
+  <li>This public build currently includes validated 2024 and 2026 cycle views.</li>
+  <li>Committee tech share is a share of itemized individual contribution receipts, not all money received by a committee.</li>
+  <li>Weekly charts shown on the site begin at 2025-01-01 for display purposes, while aggregate totals keep the full validated export.</li>
+</ul>
+
+<h2>Column glossary</h2>
+<p>The table below gives a plain-language meaning for every column label currently used on the public site.</p>
+<table border="1" cellpadding="4" cellspacing="0"><thead><tr><th>Column</th><th>Plain English</th></tr></thead><tbody><tr><td>Section</td><td>The site area or page family listed in a navigation table.</td></tr><tr><td>What It Shows</td><td>A short plain-language description of that page or export.</td></tr><tr><td>Company</td><td>The tracked tech company or firm tied to a donor-employer tag.</td></tr><tr><td>Candidate Committee</td><td>A candidate-linked committee receiving contributions.</td></tr><tr><td>Committee</td><td>A political committee, which may be a candidate committee, PAC, party committee, Super PAC, or another filer.</td></tr><tr><td>Donor</td><td>A contributor name as grouped in the validated export.</td></tr><tr><td>Name</td><td>The donor name shown on the major-donor table.</td></tr><tr><td>State</td><td>The state-level Senate contest bucket or state navigation row.</td></tr><tr><td>District</td><td>A U.S. House district row.</td></tr><tr><td>Jurisdiction</td><td>A non-state jurisdiction such as DC or a territory.</td></tr><tr><td>Candidate</td><td>An individual candidate in the FEC candidate master and linkage data.</td></tr><tr><td>D Candidate</td><td>The Democratic candidate with the most tech receipts in that Senate or House summary row.</td></tr><tr><td>R Candidate</td><td>The Republican candidate with the most tech receipts in that Senate or House summary row.</td></tr><tr><td>Party</td><td>The candidate or committee party label shown in the export.</td></tr><tr><td>Lean</td><td>A simplified D, R, Mixed, or Unknown label based on where classified tech money flowed, not a race rating.</td></tr><tr><td>Type</td><td>The committee type from FEC filings, such as candidate committee, PAC, or party committee.</td></tr><tr><td>Bucket</td><td>A broad committee category used on this site, such as candidate, party, leadership PAC, or outside group.</td></tr><tr><td>Sector</td><td>The company-sector label from the tracked-company lookup.</td></tr><tr><td>Total</td><td>The total dollars for that row's main entity in that specific table. On company, donor, and committee tables this is the full amount shown for that entity within the export.</td></tr><tr><td>Total ($)</td><td>The donor's full validated total in dollars.</td></tr><tr><td>Total Receipts</td><td>All itemized individual contributions flowing into linked candidate committees, not just the tech-matched subset and not outside spending.</td></tr><tr><td>Tech Receipts</td><td>The portion of candidate or committee receipts matched to tracked tech employers.</td></tr><tr><td>Tech-Linked Giving</td><td>The site-wide sum of validated tech-matched contribution dollars in the current build.</td></tr><tr><td>Tech Share</td><td>The share of itemized individual receipts coming from tracked tech donors.</td></tr><tr><td>Tech Donors</td><td>The count of distinct donors in the tech-matched subset for that row.</td></tr><tr><td>Donors</td><td>The count of distinct donors represented by that row.</td></tr><tr><td>Committees</td><td>The number of committees represented or linked in that table row.</td></tr><tr><td>Linked Committees</td><td>The count of committees linked to a candidate through FEC candidate-committee linkage files.</td></tr><tr><td>Committee Names</td><td>The names of committees linked to that candidate.</td></tr><tr><td>Top Committee</td><td>The committee receiving the largest share of money from that donor or company row.</td></tr><tr><td>Top Committee Funded</td><td>The committee that received the most money from that donor in the public export.</td></tr><tr><td>Company Tags</td><td>The tracked tech-company labels attached to a donor or committee through matched contributions.</td></tr><tr><td>Pct Classified</td><td>The share of dollars that could be assigned a party direction under the site's classification rules.</td></tr><tr><td>Pct Dem by Donor</td><td>The share of classified donors, not dollars, whose giving leaned Democratic in that company summary.</td></tr><tr><td>$ to Dem</td><td>Dollars from that donor row that the pipeline classified as Democratic-leaning.</td></tr><tr><td>% to Dem</td><td>The Democratic share of that donor's classified giving.</td></tr><tr><td>$ to Rep</td><td>Dollars from that donor row that the pipeline classified as Republican-leaning.</td></tr><tr><td>% to Rep</td><td>The Republican share of that donor's classified giving.</td></tr><tr><td>IE Support</td><td>Independent expenditures by outside committees reported as supporting the candidate. These are not direct receipts to the candidate committee.</td></tr><tr><td>IE Oppose</td><td>Independent expenditures by outside committees reported as opposing the candidate. These are not direct receipts to the candidate committee.</td></tr><tr><td>Rows</td><td>The number of validated contribution rows rolled into that summary entry.</td></tr><tr><td>House Districts</td><td>The number of House districts represented in that state or jurisdiction row.</td></tr><tr><td>Senate Candidates</td><td>The number of Senate candidates represented in that state or jurisdiction row.</td></tr><tr><td>File</td><td>A downloadable frontend-ready export file.</td></tr><tr><td>JSON</td><td>A JSON payload produced for the site.</td></tr><tr><td>Cycle</td><td>The election cycle for that site build.</td></tr><tr><td>Data As Of</td><td>The latest transaction date present in the current validated build.</td></tr><tr><td>Tracked Companies</td><td>The number of companies or firms currently included in the employer-tag lookup.</td></tr></tbody></table>
+
+<h2>Why the site looks like this</h2>
+<p>The design goal is plain HTML, minimal CSS, and JavaScript only where charts require it.</p>
+
+  </div>
+  
+  
+</body>
+</html>

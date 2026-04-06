@@ -1,0 +1,90 @@
+{
+  "company": "dell",
+  "slug": "dell",
+  "summary": {
+    "tech_canonical_name": "dell",
+    "net_total": 228,
+    "n_donors": 1,
+    "n_contributions": 4,
+    "n_committees": 2,
+    "sectors": "hardware",
+    "amt_dem": 0,
+    "amt_mixed": 0,
+    "amt_rep": 10,
+    "amt_unknown": 218,
+    "amt_other": 218,
+    "classified_recipient_total": 10,
+    "pct_dem": 0.0,
+    "pct_classified_recipients": 4.3859649123,
+    "donor_amt_D": 0,
+    "donor_amt_Mixed": 228,
+    "donor_amt_R": 0,
+    "donor_amt_Unknown": 0,
+    "n_donors_D": 0,
+    "n_donors_Mixed": 1,
+    "n_donors_R": 0,
+    "n_donors_Unknown": 0,
+    "donor_amt_total": 228,
+    "n_donors_total": 1,
+    "pct_dem_by_donor": null,
+    "slug": "dell"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2024,
+      "week_end": "2024-08-18",
+      "net_total": 114,
+      "cumulative_net_total": 114,
+      "gross_positive": 114,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-29",
+      "net_total": 114,
+      "cumulative_net_total": 228,
+      "gross_positive": 114,
+      "n_contributions": 2,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "JACKSON, ROBERT",
+      "net_total": 228,
+      "gross_positive": 228,
+      "n_contributions": 4,
+      "n_committees": 2,
+      "employers": "DELL RETIREMENT SERVICES",
+      "states": "PA",
+      "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
+      "top_committee_type": "N",
+      "top_committee_amt": 218
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00873893",
+      "cmte_nm": "TRUMP NATIONAL COMMITTEE JFC, INC.",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 218,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00694323",
+      "cmte_nm": "WINRED",
+      "cmte_tp": "V",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 10,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}

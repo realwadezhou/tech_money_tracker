@@ -1,0 +1,25 @@
+{
+  "cycle": 2026,
+  "built_at_utc": "2026-04-06T07:06:03+00:00",
+  "data_as_of": "2026-03-18",
+  "latest_bulk_release_utc": "2026-04-06T05:40:32+00:00",
+  "stale_bulk_sources": [
+    "committee_master",
+    "candidate_master",
+    "candidate_committee_linkage",
+    "itemized_individual_contributions",
+    "committee_to_committee_transactions",
+    "candidate_contributions"
+  ],
+  "total_tech_linked_giving": 162008593.0,
+  "tech_donor_count": 12468,
+  "tracked_company_count": 36,
+  "committees_receiving_tech_money": 1375,
+  "tech_dominated_committees": 36,
+  "notes": [
+    "All exports in this folder reflect the validated 2026 pipeline output.",
+    "Committee tech_pct is based on itemized individual contribution receipts, not all committee money.",
+    "Recipient committee lean is inferred from candidate-facing spending when direct committee party is absent.",
+    "Candidate navigation now includes national, state, Senate, and House district pages."
+  ]
+}

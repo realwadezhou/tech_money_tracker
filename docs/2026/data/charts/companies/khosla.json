@@ -1,0 +1,101 @@
+[
+  {
+    "cycle": 2026,
+    "week_end": "2025-01-19",
+    "net_total": 6600,
+    "cumulative_net_total": 6600,
+    "gross_positive": 6600,
+    "n_contributions": 2,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-03-16",
+    "net_total": 3500,
+    "cumulative_net_total": 10100,
+    "gross_positive": 3500,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-03-23",
+    "net_total": 1000000,
+    "cumulative_net_total": 1010100,
+    "gross_positive": 1000000,
+    "n_contributions": 2,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-03-30",
+    "net_total": 7000,
+    "cumulative_net_total": 1017100,
+    "gross_positive": 7000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-06-22",
+    "net_total": 7000,
+    "cumulative_net_total": 1024100,
+    "gross_positive": 7000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-07-06",
+    "net_total": 1000000,
+    "cumulative_net_total": 2024100,
+    "gross_positive": 1000000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-09-07",
+    "net_total": 2500,
+    "cumulative_net_total": 2026600,
+    "gross_positive": 2500,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-10-26",
+    "net_total": 60000,
+    "cumulative_net_total": 2086600,
+    "gross_positive": 60000,
+    "n_contributions": 2,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-12-21",
+    "net_total": 3500,
+    "cumulative_net_total": 2090100,
+    "gross_positive": 3500,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-01-04",
+    "net_total": 7000,
+    "cumulative_net_total": 2097100,
+    "gross_positive": 7000,
+    "n_contributions": 2,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-02-22",
+    "net_total": 443000,
+    "cumulative_net_total": 2540100,
+    "gross_positive": 443000,
+    "n_contributions": 4,
+    "n_donors": 1
+  }
+]

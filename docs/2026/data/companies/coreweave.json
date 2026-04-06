@@ -1,0 +1,365 @@
+{
+  "company": "coreweave",
+  "slug": "coreweave",
+  "summary": {
+    "tech_canonical_name": "coreweave",
+    "net_total": 14850,
+    "n_donors": 7,
+    "n_contributions": 19,
+    "n_committees": 9,
+    "sectors": "cloud",
+    "amt_dem": 12000,
+    "amt_mixed": 0,
+    "amt_rep": 1500,
+    "amt_unknown": 1350,
+    "amt_other": 1350,
+    "classified_recipient_total": 13500,
+    "pct_dem": 88.8888888889,
+    "pct_classified_recipients": 90.9090909091,
+    "donor_amt_D": 10350,
+    "donor_amt_Mixed": 4000,
+    "donor_amt_R": 0,
+    "donor_amt_Unknown": 500,
+    "n_donors_D": 5,
+    "n_donors_Mixed": 1,
+    "n_donors_R": 0,
+    "n_donors_Unknown": 1,
+    "donor_amt_total": 14850,
+    "n_donors_total": 7,
+    "pct_dem_by_donor": 100.0,
+    "slug": "coreweave"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2026,
+      "week_end": "2025-03-16",
+      "net_total": 3675,
+      "cumulative_net_total": 3675,
+      "gross_positive": 3675,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-03-30",
+      "net_total": 50,
+      "cumulative_net_total": 3725,
+      "gross_positive": 50,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-04-06",
+      "net_total": 50,
+      "cumulative_net_total": 3775,
+      "gross_positive": 50,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-05-18",
+      "net_total": 500,
+      "cumulative_net_total": 4275,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-06-08",
+      "net_total": 125,
+      "cumulative_net_total": 4400,
+      "gross_positive": 125,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-06-22",
+      "net_total": 125,
+      "cumulative_net_total": 4525,
+      "gross_positive": 125,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-20",
+      "net_total": 1500,
+      "cumulative_net_total": 6025,
+      "gross_positive": 1500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-09-21",
+      "net_total": 3500,
+      "cumulative_net_total": 9525,
+      "gross_positive": 3500,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-09-28",
+      "net_total": 100,
+      "cumulative_net_total": 9625,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-05",
+      "net_total": 50,
+      "cumulative_net_total": 9675,
+      "gross_positive": 50,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-19",
+      "net_total": 550,
+      "cumulative_net_total": 10225,
+      "gross_positive": 550,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-09",
+      "net_total": 3500,
+      "cumulative_net_total": 13725,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-23",
+      "net_total": 500,
+      "cumulative_net_total": 14225,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-30",
+      "net_total": 100,
+      "cumulative_net_total": 14325,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-01-04",
+      "net_total": 25,
+      "cumulative_net_total": 14350,
+      "gross_positive": 25,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-02-08",
+      "net_total": 500,
+      "cumulative_net_total": 14850,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "SANDERS, COREY",
+      "net_total": 7850,
+      "gross_positive": 7850,
+      "n_contributions": 12,
+      "n_committees": 3,
+      "employers": "COREWEAVE",
+      "states": "NJ",
+      "top_committee": "MALINOWSKI FOR NEW JERSEY",
+      "top_committee_type": "H",
+      "top_committee_amt": 3500
+    },
+    {
+      "name": "HOLSHOUSER, CARL",
+      "net_total": 4000,
+      "gross_positive": 4000,
+      "n_contributions": 2,
+      "n_committees": 2,
+      "employers": "COREWEAVE",
+      "states": "DC",
+      "top_committee": "FRIENDS OF MARK WARNER",
+      "top_committee_type": "S",
+      "top_committee_amt": 2500
+    },
+    {
+      "name": "ROSENZWEIG, RICHARD",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "COREWEAVE",
+      "states": "DC",
+      "top_committee": "FRIENDS OF MARK WARNER",
+      "top_committee_type": "S",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "BECKSTOFFER, JAY",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "COREWEAVE",
+      "states": "VA",
+      "top_committee": "MARK WARNER VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "BUTLER, MARCUS",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "COREWEAVE",
+      "states": "ME",
+      "top_committee": "GRAHAM FOR MAINE",
+      "top_committee_type": "S",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "CHEN, TIN LEE",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "COREWEAVE",
+      "states": "NY",
+      "top_committee": "JACK FOR NEW YORK",
+      "top_committee_type": "H",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "MILLER, ERIC",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "COREWEAVE",
+      "states": "IL",
+      "top_committee": "JULIANA FOR ILLINOIS",
+      "top_committee_type": "S",
+      "top_committee_amt": 500
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00438713",
+      "cmte_nm": "FRIENDS OF MARK WARNER",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00897165",
+      "cmte_nm": "REBECCA BENNETT FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00925388",
+      "cmte_nm": "MALINOWSKI FOR NEW JERSEY",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00445023",
+      "cmte_nm": "GUTHRIE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00401224",
+      "cmte_nm": "ACTBLUE",
+      "cmte_tp": "V",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 850,
+      "n_donors": 1,
+      "n_contributions": 10
+    },
+    {
+      "cmte_id": "C00895219",
+      "cmte_nm": "MARK WARNER VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00903252",
+      "cmte_nm": "JULIANA FOR ILLINOIS",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00916437",
+      "cmte_nm": "GRAHAM FOR MAINE",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00926287",
+      "cmte_nm": "JACK FOR NEW YORK",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 500,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "cycle": 2024,
+    "week_end": "2023-07-23",
+    "net_total": 500,
+    "cumulative_net_total": 500,
+    "gross_positive": 500,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2023-12-24",
+    "net_total": 3,
+    "cumulative_net_total": 503,
+    "gross_positive": 3,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2023-12-31",
+    "net_total": 7,
+    "cumulative_net_total": 510,
+    "gross_positive": 7,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-03-03",
+    "net_total": 247,
+    "cumulative_net_total": 757,
+    "gross_positive": 247,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-03-24",
+    "net_total": 250,
+    "cumulative_net_total": 1007,
+    "gross_positive": 250,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-05-05",
+    "net_total": 100,
+    "cumulative_net_total": 1107,
+    "gross_positive": 100,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-06-16",
+    "net_total": 100,
+    "cumulative_net_total": 1207,
+    "gross_positive": 100,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-07-21",
+    "net_total": 50,
+    "cumulative_net_total": 1257,
+    "gross_positive": 50,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-08-04",
+    "net_total": 250,
+    "cumulative_net_total": 1507,
+    "gross_positive": 250,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-08-11",
+    "net_total": 250,
+    "cumulative_net_total": 1757,
+    "gross_positive": 250,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-08-25",
+    "net_total": 1010,
+    "cumulative_net_total": 2767,
+    "gross_positive": 1010,
+    "n_contributions": 2,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-10-06",
+    "net_total": 250,
+    "cumulative_net_total": 3017,
+    "gross_positive": 250,
+    "n_contributions": 1,
+    "n_donors": 1
+  }
+]

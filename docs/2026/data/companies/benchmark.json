@@ -1,0 +1,70 @@
+{
+  "company": "benchmark",
+  "slug": "benchmark",
+  "summary": {
+    "tech_canonical_name": "benchmark",
+    "net_total": 7000,
+    "n_donors": 1,
+    "n_contributions": 2,
+    "n_committees": 1,
+    "sectors": "vc",
+    "amt_dem": 7000,
+    "amt_mixed": 0,
+    "amt_rep": 0,
+    "amt_unknown": 0,
+    "amt_other": 0,
+    "classified_recipient_total": 7000,
+    "pct_dem": 100.0,
+    "pct_classified_recipients": 100.0,
+    "donor_amt_D": 7000,
+    "donor_amt_Mixed": 0,
+    "donor_amt_R": 0,
+    "donor_amt_Unknown": 0,
+    "n_donors_D": 1,
+    "n_donors_Mixed": 0,
+    "n_donors_R": 0,
+    "n_donors_Unknown": 0,
+    "donor_amt_total": 7000,
+    "n_donors_total": 1,
+    "pct_dem_by_donor": 100.0,
+    "slug": "benchmark"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2026,
+      "week_end": "2025-03-16",
+      "net_total": 7000,
+      "cumulative_net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "VISHRIA, ERIC",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "BENCHMARK CAPITAL",
+      "states": "CA",
+      "top_committee": "RO FOR CONGRESS INC",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00503185",
+      "cmte_nm": "RO FOR CONGRESS INC",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    }
+  ]
+}

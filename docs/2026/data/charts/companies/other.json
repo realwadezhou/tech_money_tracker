@@ -1,0 +1,29 @@
+[
+  {
+    "cycle": 2026,
+    "week_end": "2025-05-04",
+    "net_total": 100,
+    "cumulative_net_total": 100,
+    "gross_positive": 100,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-05-11",
+    "net_total": 100,
+    "cumulative_net_total": 200,
+    "gross_positive": 100,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-06-01",
+    "net_total": 100,
+    "cumulative_net_total": 300,
+    "gross_positive": 100,
+    "n_contributions": 1,
+    "n_donors": 1
+  }
+]

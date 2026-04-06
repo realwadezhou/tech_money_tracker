@@ -1,0 +1,101 @@
+[
+  {
+    "cycle": 2026,
+    "week_end": "2025-02-02",
+    "net_total": 31,
+    "cumulative_net_total": 31,
+    "gross_positive": 31,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-03-02",
+    "net_total": 31,
+    "cumulative_net_total": 62,
+    "gross_positive": 31,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-03-30",
+    "net_total": 31,
+    "cumulative_net_total": 93,
+    "gross_positive": 31,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-05-04",
+    "net_total": 31,
+    "cumulative_net_total": 124,
+    "gross_positive": 31,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-06-01",
+    "net_total": 31,
+    "cumulative_net_total": 155,
+    "gross_positive": 31,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-06-08",
+    "net_total": 250000,
+    "cumulative_net_total": 250155,
+    "gross_positive": 250000,
+    "n_contributions": 3,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-07-06",
+    "net_total": 7031,
+    "cumulative_net_total": 257186,
+    "gross_positive": 7031,
+    "n_contributions": 3,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-07-20",
+    "net_total": 250,
+    "cumulative_net_total": 257436,
+    "gross_positive": 250,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-08-03",
+    "net_total": 31,
+    "cumulative_net_total": 257467,
+    "gross_positive": 31,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-08-31",
+    "net_total": 31,
+    "cumulative_net_total": 257498,
+    "gross_positive": 31,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-10-05",
+    "net_total": 31,
+    "cumulative_net_total": 257529,
+    "gross_positive": 31,
+    "n_contributions": 1,
+    "n_donors": 1
+  }
+]

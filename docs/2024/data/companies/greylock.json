@@ -1,0 +1,1467 @@
+{
+  "company": "greylock",
+  "slug": "greylock",
+  "summary": {
+    "tech_canonical_name": "greylock",
+    "net_total": 33844935,
+    "n_donors": 17,
+    "n_contributions": 362,
+    "n_committees": 153,
+    "sectors": "vc",
+    "amt_dem": 27862732,
+    "amt_mixed": 1540000,
+    "amt_rep": 548103,
+    "amt_unknown": 3894100,
+    "amt_other": 5434100,
+    "classified_recipient_total": 28410835,
+    "pct_dem": 98.0707958777,
+    "pct_classified_recipients": 83.9441263516,
+    "donor_amt_D": 33246226,
+    "donor_amt_Mixed": 273509,
+    "donor_amt_R": 317600,
+    "donor_amt_Unknown": 7600,
+    "n_donors_D": 11,
+    "n_donors_Mixed": 1,
+    "n_donors_R": 3,
+    "n_donors_Unknown": 2,
+    "donor_amt_total": 33844935,
+    "n_donors_total": 17,
+    "pct_dem_by_donor": 99.0537431579,
+    "slug": "greylock"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2024,
+      "week_end": "2023-01-29",
+      "net_total": 1000,
+      "cumulative_net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-02-05",
+      "net_total": 3500000,
+      "cumulative_net_total": 3501000,
+      "gross_positive": 3500000,
+      "n_contributions": 3,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-02-12",
+      "net_total": 25203,
+      "cumulative_net_total": 3526203,
+      "gross_positive": 25206,
+      "n_contributions": 11,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-02-19",
+      "net_total": 6600,
+      "cumulative_net_total": 3532803,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-03-05",
+      "net_total": 6600,
+      "cumulative_net_total": 3539403,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-03-12",
+      "net_total": 210100,
+      "cumulative_net_total": 3749503,
+      "gross_positive": 210100,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-03-19",
+      "net_total": 26400,
+      "cumulative_net_total": 3775903,
+      "gross_positive": 29700,
+      "n_contributions": 9,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-03-26",
+      "net_total": 13200,
+      "cumulative_net_total": 3789103,
+      "gross_positive": 13200,
+      "n_contributions": 3,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-04-02",
+      "net_total": 1000,
+      "cumulative_net_total": 3790103,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-04-23",
+      "net_total": -8700,
+      "cumulative_net_total": 3781403,
+      "gross_positive": 0,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-04-30",
+      "net_total": 699600,
+      "cumulative_net_total": 4481003,
+      "gross_positive": 699600,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-05-07",
+      "net_total": 12803,
+      "cumulative_net_total": 4493806,
+      "gross_positive": 12803,
+      "n_contributions": 4,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-05-21",
+      "net_total": 6600,
+      "cumulative_net_total": 4500406,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-05-28",
+      "net_total": 6203,
+      "cumulative_net_total": 4506609,
+      "gross_positive": 6203,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-06-04",
+      "net_total": 18200,
+      "cumulative_net_total": 4524809,
+      "gross_positive": 18200,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-06-11",
+      "net_total": 2000000,
+      "cumulative_net_total": 6524809,
+      "gross_positive": 2000000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-06-18",
+      "net_total": 613200,
+      "cumulative_net_total": 7138009,
+      "gross_positive": 613200,
+      "n_contributions": 4,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-06-25",
+      "net_total": 289100,
+      "cumulative_net_total": 7427109,
+      "gross_positive": 289100,
+      "n_contributions": 3,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-07-16",
+      "net_total": 21000,
+      "cumulative_net_total": 7448109,
+      "gross_positive": 21000,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-07-30",
+      "net_total": 6600,
+      "cumulative_net_total": 7454709,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-08-20",
+      "net_total": 647796,
+      "cumulative_net_total": 8102505,
+      "gross_positive": 647796,
+      "n_contributions": 4,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-08-27",
+      "net_total": 6600,
+      "cumulative_net_total": 8109105,
+      "gross_positive": 252600,
+      "n_contributions": 5,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-09-03",
+      "net_total": 250000,
+      "cumulative_net_total": 8359105,
+      "gross_positive": 250000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-09-24",
+      "net_total": 1521600,
+      "cumulative_net_total": 9880705,
+      "gross_positive": 1521600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-10-01",
+      "net_total": 13200,
+      "cumulative_net_total": 9893905,
+      "gross_positive": 13200,
+      "n_contributions": 3,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-10-08",
+      "net_total": 10000,
+      "cumulative_net_total": 9903905,
+      "gross_positive": 10000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-10-15",
+      "net_total": 90800,
+      "cumulative_net_total": 9994705,
+      "gross_positive": 90800,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-10-29",
+      "net_total": 100000,
+      "cumulative_net_total": 10094705,
+      "gross_positive": 103300,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-11-05",
+      "net_total": 50000,
+      "cumulative_net_total": 10144705,
+      "gross_positive": 50000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-11-12",
+      "net_total": 950000,
+      "cumulative_net_total": 11094705,
+      "gross_positive": 950000,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-11-19",
+      "net_total": 276400,
+      "cumulative_net_total": 11371105,
+      "gross_positive": 276400,
+      "n_contributions": 9,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-11-26",
+      "net_total": 13200,
+      "cumulative_net_total": 11384305,
+      "gross_positive": 13200,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-12-03",
+      "net_total": 11600,
+      "cumulative_net_total": 11395905,
+      "gross_positive": 11600,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-12-10",
+      "net_total": 6600,
+      "cumulative_net_total": 11402505,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-12-17",
+      "net_total": 1023200,
+      "cumulative_net_total": 12425705,
+      "gross_positive": 1023200,
+      "n_contributions": 6,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-12-24",
+      "net_total": 160000,
+      "cumulative_net_total": 12585705,
+      "gross_positive": 160000,
+      "n_contributions": 17,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-12-31",
+      "net_total": 1005000,
+      "cumulative_net_total": 13590705,
+      "gross_positive": 1005000,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-01-07",
+      "net_total": 6600,
+      "cumulative_net_total": 13597305,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-01-14",
+      "net_total": 1032900,
+      "cumulative_net_total": 14630205,
+      "gross_positive": 1032900,
+      "n_contributions": 5,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-01-21",
+      "net_total": 16500,
+      "cumulative_net_total": 14646705,
+      "gross_positive": 19800,
+      "n_contributions": 5,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-01-28",
+      "net_total": 2010000,
+      "cumulative_net_total": 16656705,
+      "gross_positive": 2010000,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-02-04",
+      "net_total": 16500,
+      "cumulative_net_total": 16673205,
+      "gross_positive": 23100,
+      "n_contributions": 8,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-02-11",
+      "net_total": 829100,
+      "cumulative_net_total": 17502305,
+      "gross_positive": 829100,
+      "n_contributions": 81,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-02-18",
+      "net_total": 17600,
+      "cumulative_net_total": 17519905,
+      "gross_positive": 17600,
+      "n_contributions": 4,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-03-03",
+      "net_total": 3300,
+      "cumulative_net_total": 17523205,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-03-10",
+      "net_total": 219800,
+      "cumulative_net_total": 17743005,
+      "gross_positive": 219800,
+      "n_contributions": 8,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-03-17",
+      "net_total": 64900,
+      "cumulative_net_total": 17807905,
+      "gross_positive": 64900,
+      "n_contributions": 5,
+      "n_donors": 5
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-03-24",
+      "net_total": 6128300,
+      "cumulative_net_total": 23936205,
+      "gross_positive": 6137000,
+      "n_contributions": 5,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-03-31",
+      "net_total": 9900,
+      "cumulative_net_total": 23946105,
+      "gross_positive": 13200,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-04-21",
+      "net_total": 356600,
+      "cumulative_net_total": 24302705,
+      "gross_positive": 356600,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-04-28",
+      "net_total": 19800,
+      "cumulative_net_total": 24322505,
+      "gross_positive": 19800,
+      "n_contributions": 5,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-05-05",
+      "net_total": 1143200,
+      "cumulative_net_total": 25465705,
+      "gross_positive": 1143200,
+      "n_contributions": 6,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-05-12",
+      "net_total": 61600,
+      "cumulative_net_total": 25527305,
+      "gross_positive": 61600,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-05-19",
+      "net_total": 256600,
+      "cumulative_net_total": 25783905,
+      "gross_positive": 256600,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-05-26",
+      "net_total": 6600,
+      "cumulative_net_total": 25790505,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-06-02",
+      "net_total": 84300,
+      "cumulative_net_total": 25874805,
+      "gross_positive": 84300,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-06-09",
+      "net_total": 19800,
+      "cumulative_net_total": 25894605,
+      "gross_positive": 23100,
+      "n_contributions": 5,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-06-16",
+      "net_total": 3300,
+      "cumulative_net_total": 25897905,
+      "gross_positive": 6600,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-06-23",
+      "net_total": 3007600,
+      "cumulative_net_total": 28905505,
+      "gross_positive": 3007600,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-06-30",
+      "net_total": 154300,
+      "cumulative_net_total": 29059805,
+      "gross_positive": 154300,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-07-14",
+      "net_total": 6600,
+      "cumulative_net_total": 29066405,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-08-11",
+      "net_total": 14100,
+      "cumulative_net_total": 29080505,
+      "gross_positive": 14100,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-08-25",
+      "net_total": 339030,
+      "cumulative_net_total": 29419535,
+      "gross_positive": 339030,
+      "n_contributions": 17,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-01",
+      "net_total": 50000,
+      "cumulative_net_total": 29469535,
+      "gross_positive": 50000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-08",
+      "net_total": 108300,
+      "cumulative_net_total": 29577835,
+      "gross_positive": 108300,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-15",
+      "net_total": 5000,
+      "cumulative_net_total": 29582835,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-22",
+      "net_total": 110000,
+      "cumulative_net_total": 29692835,
+      "gross_positive": 110000,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-29",
+      "net_total": 528300,
+      "cumulative_net_total": 30221135,
+      "gross_positive": 528300,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-06",
+      "net_total": 675000,
+      "cumulative_net_total": 30896135,
+      "gross_positive": 675000,
+      "n_contributions": 3,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-13",
+      "net_total": 743300,
+      "cumulative_net_total": 31639435,
+      "gross_positive": 743300,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-20",
+      "net_total": 523100,
+      "cumulative_net_total": 32162535,
+      "gross_positive": 523100,
+      "n_contributions": 8,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-27",
+      "net_total": 1000000,
+      "cumulative_net_total": 33162535,
+      "gross_positive": 1000000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-11-03",
+      "net_total": 80000,
+      "cumulative_net_total": 33242535,
+      "gross_positive": 80000,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-11-10",
+      "net_total": 352400,
+      "cumulative_net_total": 33594935,
+      "gross_positive": 600200,
+      "n_contributions": 7,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-12-08",
+      "net_total": 250000,
+      "cumulative_net_total": 33844935,
+      "gross_positive": 250000,
+      "n_contributions": 1,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "HOFFMAN, REID",
+      "net_total": 29836400,
+      "gross_positive": 30343400,
+      "n_contributions": 180,
+      "n_committees": 93,
+      "employers": "GREYLOCK; GREYLOCK PARTNERS",
+      "states": "CA; MA; WA",
+      "top_committee": "FF PAC",
+      "top_committee_type": "V",
+      "top_committee_amt": 10250000
+    },
+    {
+      "name": "HOFFMAN, REID G.",
+      "net_total": 2129900,
+      "gross_positive": 2129900,
+      "n_contributions": 10,
+      "n_committees": 6,
+      "employers": "GREYLOCK; GREYLOCK PARTNERS",
+      "states": "CA; WA",
+      "top_committee": "HMP",
+      "top_committee_type": "W",
+      "top_committee_amt": 1550000
+    },
+    {
+      "name": "HOFFMAN, REID G",
+      "net_total": 568400,
+      "gross_positive": 568400,
+      "n_contributions": 57,
+      "n_committees": 9,
+      "employers": "GREYLOCK; GREYLOCK PARTNERS",
+      "states": "CA",
+      "top_committee": "FORWARD PAC INC.",
+      "top_committee_type": "V",
+      "top_committee_amt": 250000
+    },
+    {
+      "name": "SZE, DAVID",
+      "net_total": 413230,
+      "gross_positive": 413230,
+      "n_contributions": 18,
+      "n_committees": 17,
+      "employers": "GREYLOCK; GREYLOCK PARTNERS",
+      "states": "CA",
+      "top_committee": "REPUBLICAN ACCOUNTABILITY PAC",
+      "top_committee_type": "O",
+      "top_committee_amt": 350000
+    },
+    {
+      "name": "COX, HOWARD",
+      "net_total": 300000,
+      "gross_positive": 300000,
+      "n_contributions": 3,
+      "n_committees": 3,
+      "employers": "GREYLOCK PARTNERS",
+      "states": "MA",
+      "top_committee": "SENATE PATH TO VICTORY 2024",
+      "top_committee_type": "N",
+      "top_committee_amt": 100000
+    },
+    {
+      "name": "EVANS, ROGER",
+      "net_total": 273509,
+      "gross_positive": 304112,
+      "n_contributions": 62,
+      "n_committees": 27,
+      "employers": "GREYLOCK PARTNERS",
+      "states": "CA",
+      "top_committee": "DCCC",
+      "top_committee_type": "Y",
+      "top_committee_amt": 91300
+    },
+    {
+      "name": "HOFFMAN, REID GARRETT",
+      "net_total": 135496,
+      "gross_positive": 135496,
+      "n_contributions": 13,
+      "n_committees": 8,
+      "employers": "GREYLOCK; GREYLOCK PARTNERS",
+      "states": "CA",
+      "top_committee": "2024 DEMOCRATIC NATIONAL CONVENTION COMMITTEE",
+      "top_committee_type": "X",
+      "top_committee_amt": 25000
+    },
+    {
+      "name": "KAISER, BILL",
+      "net_total": 102800,
+      "gross_positive": 102800,
+      "n_contributions": 2,
+      "n_committees": 2,
+      "employers": "GREYLOCK PARTNERS",
+      "states": "MA",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 100000
+    },
+    {
+      "name": "SLAVET, JAMES",
+      "net_total": 37500,
+      "gross_positive": 37500,
+      "n_contributions": 3,
+      "n_committees": 2,
+      "employers": "GREYLOCK PARTNERS",
+      "states": "CA",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 30000
+    },
+    {
+      "name": "CHANDNA, ASHEEM",
+      "net_total": 13200,
+      "gross_positive": 13200,
+      "n_contributions": 4,
+      "n_committees": 2,
+      "employers": "GREYLOCK; GREYLOCK PARTNERS",
+      "states": "CA",
+      "top_committee": "DIXON FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 6600
+    },
+    {
+      "name": "HELMAN, WILLIAM",
+      "net_total": 11000,
+      "gross_positive": 11000,
+      "n_contributions": 2,
+      "n_committees": 2,
+      "employers": "GREYLOCK",
+      "states": "NY",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 10000
+    },
+    {
+      "name": "EVANS, ROGER MR.",
+      "net_total": 6600,
+      "gross_positive": 9900,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "GREYLOCK PARTNERS",
+      "states": "CA",
+      "top_committee": "HOGAN FOR MARYLAND INC.",
+      "top_committee_type": "S",
+      "top_committee_amt": 6600
+    },
+    {
+      "name": "CHEN, GERALD",
+      "net_total": 6600,
+      "gross_positive": 6600,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "GREYLOCK",
+      "states": "CA",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 6600
+    },
+    {
+      "name": "LILLY, JOHN",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "GREYLOCK PARTNERS",
+      "states": "CA",
+      "top_committee": "DIGIDEMS PAC",
+      "top_committee_type": "W",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "ALAS, IAN",
+      "net_total": 3300,
+      "gross_positive": 3300,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "GREYLOCK",
+      "states": "WA",
+      "top_committee": "GABE AMO FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 3300
+    },
+    {
+      "name": "HANEY, LEE",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "GREYLOCK",
+      "states": "CO",
+      "top_committee": "DIXON FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "NAVARRO, BRIAN",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "GREYLOCK",
+      "states": "CT",
+      "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
+      "top_committee_type": "N",
+      "top_committee_amt": 1000
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00669259",
+      "cmte_nm": "FF PAC",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "pac",
+      "net_total": 10250000,
+      "n_donors": 1,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00804856",
+      "cmte_nm": "REPUBLICAN ACCOUNTABILITY PAC",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 6490000,
+      "n_donors": 2,
+      "n_contributions": 5
+    },
+    {
+      "cmte_id": "C00752691",
+      "cmte_nm": "ONE FOR ALL COMMITTEE",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 3303500,
+      "n_donors": 1,
+      "n_contributions": 7
+    },
+    {
+      "cmte_id": "C00744946",
+      "cmte_nm": "HARRIS VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 1832500,
+      "n_donors": 6,
+      "n_contributions": 8
+    },
+    {
+      "cmte_id": "C00495028",
+      "cmte_nm": "HMP",
+      "cmte_tp": "W",
+      "party_dr": "D",
+      "classification_source": "24k_contributions+ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 1550000,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00850040",
+      "cmte_nm": "FREE AND FAIR PAC, INC.",
+      "cmte_tp": "O",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
+      "net_total": 1500000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00804823",
+      "cmte_nm": "MAINSTREAM DEMOCRATS PAC",
+      "cmte_tp": "O",
+      "party_dr": "Mixed",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 1280000,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00492140",
+      "cmte_nm": "AB PAC",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "pac",
+      "net_total": 1000000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00786830",
+      "cmte_nm": "WELCOMEPAC",
+      "cmte_tp": "W",
+      "party_dr": "D",
+      "classification_source": "24k_contributions+ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 671000,
+      "n_donors": 1,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00000935",
+      "cmte_nm": "DCCC",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 667700,
+      "n_donors": 2,
+      "n_contributions": 13
+    },
+    {
+      "cmte_id": "C00812495",
+      "cmte_nm": "STATE DEMOCRACY DEFENDERS PAC",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "pac",
+      "net_total": 650000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00754069",
+      "cmte_nm": "PAF",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "pac",
+      "net_total": 650000,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00042366",
+      "cmte_nm": "DSCC",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 578200,
+      "n_donors": 1,
+      "n_contributions": 6
+    },
+    {
+      "cmte_id": "C00609388",
+      "cmte_nm": "BLACKPAC",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 500000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00679191",
+      "cmte_nm": "DIGIDEMS PAC",
+      "cmte_tp": "W",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "outside_spending",
+      "net_total": 253600,
+      "n_donors": 2,
+      "n_contributions": 50
+    },
+    {
+      "cmte_id": "C00828061",
+      "cmte_nm": "SFA FUND, INC",
+      "cmte_tp": "V",
+      "party_dr": "Mixed",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "pac",
+      "net_total": 250000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00893362",
+      "cmte_nm": "FORWARD PAC INC.",
+      "cmte_tp": "V",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 250000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00341396",
+      "cmte_nm": "MOVEON.ORG POLITICAL ACTION",
+      "cmte_tp": "W",
+      "party_dr": "D",
+      "classification_source": "24k_contributions+ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 150000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00868935",
+      "cmte_nm": "BUCKEYES FOR VALUES",
+      "cmte_tp": "O",
+      "party_dr": "R",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 150000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00868448",
+      "cmte_nm": "CLEAR CHOICE PAC, INC",
+      "cmte_tp": "O",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
+      "net_total": 125000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00834077",
+      "cmte_nm": "NEVER BACK DOWN INC.",
+      "cmte_tp": "O",
+      "party_dr": "R",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 100000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00854893",
+      "cmte_nm": "RAILROADERS FOR PUBLIC SAFETY",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 100000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00849489",
+      "cmte_nm": "KEYSTONE RENEWAL PAC",
+      "cmte_tp": "O",
+      "party_dr": "R",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 100000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00874487",
+      "cmte_nm": "SENATE PATH TO VICTORY 2024",
+      "cmte_tp": "N",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 100000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00845289",
+      "cmte_nm": "DEMOCRATIC FUTURE LEADERSHIP FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 90800,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00716423",
+      "cmte_nm": "THE NEXT 50 PAC",
+      "cmte_tp": "W",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "outside_spending",
+      "net_total": 50000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00885749",
+      "cmte_nm": "CONSENSUS DEMOCRATS PAC",
+      "cmte_tp": "V",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 50000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00807321",
+      "cmte_nm": "PROJECT DEMOCRACY",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "pac",
+      "net_total": 50000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00854059",
+      "cmte_nm": "ONE GIANT LEAP PAC",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 50000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00631549",
+      "cmte_nm": "FORWARD MAJORITY ACTION",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 50000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00636027",
+      "cmte_nm": "TECH FOR CAMPAIGNS",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "pac",
+      "net_total": 40000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00859611",
+      "cmte_nm": "RING THE BELL",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 35000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00877191",
+      "cmte_nm": "COMMON SENSE NEW YORK",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "pac",
+      "net_total": 25000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00827022",
+      "cmte_nm": "2024 DEMOCRATIC NATIONAL CONVENTION COMMITTEE",
+      "cmte_tp": "X",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 25000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00653816",
+      "cmte_nm": "COMMITTEE TO ELECT JARED GOLDEN",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 22703,
+      "n_donors": 2,
+      "n_contributions": 5
+    },
+    {
+      "cmte_id": "C00830687",
+      "cmte_nm": "BALDWIN FOR WISCONSIN",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 21600,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00165688",
+      "cmte_nm": "NORTH CAROLINA DEMOCRATIC PARTY - FEDERAL",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 20496,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00178038",
+      "cmte_nm": "NEW HAMPSHIRE DEMOCRATIC PARTY",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 20000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00166710",
+      "cmte_nm": "ARIZONA DEMOCRATIC PARTY",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 20000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00025254",
+      "cmte_nm": "MINNESOTA DEMOCRATIC-FARMER-LABOR PARTY",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 20000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00031054",
+      "cmte_nm": "MICHIGAN DEMOCRATIC STATE CENTRAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 20000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00019331",
+      "cmte_nm": "DEMOCRATIC PARTY OF WISCONSIN FEDERAL",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 20000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00607416",
+      "cmte_nm": "BRIAN FITZPATRICK FOR ALL OF US",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 19800,
+      "n_donors": 1,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00728360",
+      "cmte_nm": "MOVEMENT VOTER PAC",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00859439",
+      "cmte_nm": "DIXON FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 14200,
+      "n_donors": 3,
+      "n_contributions": 5
+    },
+    {
+      "cmte_id": "C00647339",
+      "cmte_nm": "JOHN CURTIS FOR UTAH",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 13200,
+      "n_donors": 1,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00607200",
+      "cmte_nm": "SUOZZI FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 13200,
+      "n_donors": 2,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00706614",
+      "cmte_nm": "TONY GONZALES FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 13200,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00503185",
+      "cmte_nm": "RO FOR CONGRESS INC",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 13200,
+      "n_donors": 2,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00831750",
+      "cmte_nm": "AGUILAR HOUSE MAJORITY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 11600,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}

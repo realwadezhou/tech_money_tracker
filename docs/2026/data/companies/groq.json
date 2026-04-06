@@ -1,0 +1,229 @@
+{
+  "company": "groq",
+  "slug": "groq",
+  "summary": {
+    "tech_canonical_name": "groq",
+    "net_total": 257529,
+    "n_donors": 4,
+    "n_contributions": 15,
+    "n_committees": 4,
+    "sectors": "semiconductors",
+    "amt_dem": 7250,
+    "amt_mixed": 0,
+    "amt_rep": 250279,
+    "amt_unknown": 0,
+    "amt_other": 0,
+    "classified_recipient_total": 257529,
+    "pct_dem": 2.815216927,
+    "pct_classified_recipients": 100.0,
+    "donor_amt_D": 7250,
+    "donor_amt_Mixed": 0,
+    "donor_amt_R": 250279,
+    "donor_amt_Unknown": 0,
+    "n_donors_D": 2,
+    "n_donors_Mixed": 0,
+    "n_donors_R": 2,
+    "n_donors_Unknown": 0,
+    "donor_amt_total": 257529,
+    "n_donors_total": 4,
+    "pct_dem_by_donor": 2.815216927,
+    "slug": "groq"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2026,
+      "week_end": "2025-02-02",
+      "net_total": 31,
+      "cumulative_net_total": 31,
+      "gross_positive": 31,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-03-02",
+      "net_total": 31,
+      "cumulative_net_total": 62,
+      "gross_positive": 31,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-03-30",
+      "net_total": 31,
+      "cumulative_net_total": 93,
+      "gross_positive": 31,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-05-04",
+      "net_total": 31,
+      "cumulative_net_total": 124,
+      "gross_positive": 31,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-06-01",
+      "net_total": 31,
+      "cumulative_net_total": 155,
+      "gross_positive": 31,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-06-08",
+      "net_total": 250000,
+      "cumulative_net_total": 250155,
+      "gross_positive": 250000,
+      "n_contributions": 3,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-06",
+      "net_total": 7031,
+      "cumulative_net_total": 257186,
+      "gross_positive": 7031,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-20",
+      "net_total": 250,
+      "cumulative_net_total": 257436,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-03",
+      "net_total": 31,
+      "cumulative_net_total": 257467,
+      "gross_positive": 31,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-08-31",
+      "net_total": 31,
+      "cumulative_net_total": 257498,
+      "gross_positive": 31,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-05",
+      "net_total": 31,
+      "cumulative_net_total": 257529,
+      "gross_positive": 31,
+      "n_contributions": 1,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "MADRA, SUNDEEP SINGH",
+      "net_total": 250000,
+      "gross_positive": 250000,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "GROQ",
+      "states": "CA",
+      "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 250000
+    },
+    {
+      "name": "MADRA, SUNDEEP",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "GROQ",
+      "states": "CA",
+      "top_committee": "RO FOR CONGRESS INC",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "HEYFITCH, VADIM",
+      "net_total": 279,
+      "gross_positive": 279,
+      "n_contributions": 9,
+      "n_committees": 1,
+      "employers": "GROQ",
+      "states": "CA",
+      "top_committee": "TIM SCOTT FOR AMERICA",
+      "top_committee_type": "S",
+      "top_committee_amt": 279
+    },
+    {
+      "name": "WAJSGRAS, RICHARD",
+      "net_total": 250,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "GROQ",
+      "states": "VA",
+      "top_committee": "ELFRETH FOR MARYLAND",
+      "top_committee_type": "H",
+      "top_committee_amt": 250
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00003418",
+      "cmte_nm": "REPUBLICAN NATIONAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 250000,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00503185",
+      "cmte_nm": "RO FOR CONGRESS INC",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00540302",
+      "cmte_nm": "TIM SCOTT FOR AMERICA",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 279,
+      "n_donors": 1,
+      "n_contributions": 9
+    },
+    {
+      "cmte_id": "C00855353",
+      "cmte_nm": "ELFRETH FOR MARYLAND",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}

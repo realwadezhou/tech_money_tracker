@@ -1,0 +1,20 @@
+[
+  {
+    "cycle": 2024,
+    "week_end": "2024-10-20",
+    "net_total": 1000,
+    "cumulative_net_total": 1000,
+    "gross_positive": 1000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2024,
+    "week_end": "2024-11-17",
+    "net_total": 25,
+    "cumulative_net_total": 1025,
+    "gross_positive": 25,
+    "n_contributions": 1,
+    "n_donors": 1
+  }
+]

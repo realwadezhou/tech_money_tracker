@@ -1,0 +1,83 @@
+[
+  {
+    "cycle": 2026,
+    "week_end": "2025-04-20",
+    "net_total": 1000,
+    "cumulative_net_total": 1000,
+    "gross_positive": 1000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-04-27",
+    "net_total": 2000,
+    "cumulative_net_total": 3000,
+    "gross_positive": 7300,
+    "n_contributions": 4,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-06-01",
+    "net_total": 4800,
+    "cumulative_net_total": 7800,
+    "gross_positive": 4800,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-07-06",
+    "net_total": 50000,
+    "cumulative_net_total": 57800,
+    "gross_positive": 50000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-09-14",
+    "net_total": 7000,
+    "cumulative_net_total": 64800,
+    "gross_positive": 7000,
+    "n_contributions": 2,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-10-26",
+    "net_total": 25000,
+    "cumulative_net_total": 89800,
+    "gross_positive": 25000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-11-09",
+    "net_total": 15000,
+    "cumulative_net_total": 104800,
+    "gross_positive": 15000,
+    "n_contributions": 2,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-12-07",
+    "net_total": 3500,
+    "cumulative_net_total": 108300,
+    "gross_positive": 7000,
+    "n_contributions": 3,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2025-12-14",
+    "net_total": 5000,
+    "cumulative_net_total": 113300,
+    "gross_positive": 5000,
+    "n_contributions": 2,
+    "n_donors": 1
+  }
+]

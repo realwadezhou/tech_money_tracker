@@ -1,0 +1,661 @@
+{
+  "company": "union_square_ventures",
+  "slug": "union-square-ventures",
+  "summary": {
+    "tech_canonical_name": "union_square_ventures",
+    "net_total": 1436640,
+    "n_donors": 13,
+    "n_contributions": 49,
+    "n_committees": 22,
+    "sectors": "vc",
+    "amt_dem": 95300,
+    "amt_mixed": 1047540,
+    "amt_rep": 6600,
+    "amt_unknown": 287200,
+    "amt_other": 1334740,
+    "classified_recipient_total": 101900,
+    "pct_dem": 93.5230618253,
+    "pct_classified_recipients": 7.0929390801,
+    "donor_amt_D": 1406340,
+    "donor_amt_Mixed": 0,
+    "donor_amt_R": 0,
+    "donor_amt_Unknown": 30300,
+    "n_donors_D": 11,
+    "n_donors_Mixed": 0,
+    "n_donors_R": 0,
+    "n_donors_Unknown": 2,
+    "donor_amt_total": 1436640,
+    "n_donors_total": 13,
+    "pct_dem_by_donor": 100.0,
+    "slug": "union-square-ventures"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2024,
+      "week_end": "2023-04-02",
+      "net_total": 6600,
+      "cumulative_net_total": 6600,
+      "gross_positive": 6600,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-04-23",
+      "net_total": 3300,
+      "cumulative_net_total": 9900,
+      "gross_positive": 3300,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-05-14",
+      "net_total": 15000,
+      "cumulative_net_total": 24900,
+      "gross_positive": 15000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-06-25",
+      "net_total": 9100,
+      "cumulative_net_total": 34000,
+      "gross_positive": 9100,
+      "n_contributions": 4,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-07-09",
+      "net_total": 2000,
+      "cumulative_net_total": 36000,
+      "gross_positive": 2000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-07-30",
+      "net_total": 11600,
+      "cumulative_net_total": 47600,
+      "gross_positive": 11600,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-09-03",
+      "net_total": 11600,
+      "cumulative_net_total": 59200,
+      "gross_positive": 11600,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-09-24",
+      "net_total": 21200,
+      "cumulative_net_total": 80400,
+      "gross_positive": 21200,
+      "n_contributions": 10,
+      "n_donors": 6
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-10-22",
+      "net_total": 26000,
+      "cumulative_net_total": 106400,
+      "gross_positive": 26000,
+      "n_contributions": 4,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-10-29",
+      "net_total": 5000,
+      "cumulative_net_total": 111400,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-11-05",
+      "net_total": 25000,
+      "cumulative_net_total": 136400,
+      "gross_positive": 25000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-12-24",
+      "net_total": 1048040,
+      "cumulative_net_total": 1184440,
+      "gross_positive": 1048040,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-01-07",
+      "net_total": 10000,
+      "cumulative_net_total": 1194440,
+      "gross_positive": 10000,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-02-04",
+      "net_total": 3300,
+      "cumulative_net_total": 1197740,
+      "gross_positive": 3300,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-03-31",
+      "net_total": 1500,
+      "cumulative_net_total": 1199240,
+      "gross_positive": 1500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-04-07",
+      "net_total": 42800,
+      "cumulative_net_total": 1242040,
+      "gross_positive": 42800,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-04-14",
+      "net_total": 18700,
+      "cumulative_net_total": 1260740,
+      "gross_positive": 18700,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-04-28",
+      "net_total": 5000,
+      "cumulative_net_total": 1265740,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-05-12",
+      "net_total": 11600,
+      "cumulative_net_total": 1277340,
+      "gross_positive": 11600,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-06-02",
+      "net_total": 5000,
+      "cumulative_net_total": 1282340,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-06-23",
+      "net_total": 125000,
+      "cumulative_net_total": 1407340,
+      "gross_positive": 125000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-08-04",
+      "net_total": 3300,
+      "cumulative_net_total": 1410640,
+      "gross_positive": 3300,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-22",
+      "net_total": 5000,
+      "cumulative_net_total": 1415640,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-09-29",
+      "net_total": 1500,
+      "cumulative_net_total": 1417140,
+      "gross_positive": 1500,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-27",
+      "net_total": 19500,
+      "cumulative_net_total": 1436640,
+      "gross_positive": 19500,
+      "n_contributions": 5,
+      "n_donors": 3
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "WILSON, FRED",
+      "net_total": 1086740,
+      "gross_positive": 1086740,
+      "n_contributions": 6,
+      "n_committees": 5,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "FAIRSHAKE",
+      "top_committee_type": "O",
+      "top_committee_amt": 1047540
+    },
+    {
+      "name": "WILSON, FREDERICK",
+      "net_total": 168600,
+      "gross_positive": 168600,
+      "n_contributions": 5,
+      "n_committees": 5,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "SMP",
+      "top_committee_type": "O",
+      "top_committee_amt": 125000
+    },
+    {
+      "name": "WILSON, FREDERICK R.",
+      "net_total": 41300,
+      "gross_positive": 41300,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "DSCC",
+      "top_committee_type": "Y",
+      "top_committee_amt": 41300
+    },
+    {
+      "name": "WENGER, ALBERT",
+      "net_total": 37800,
+      "gross_positive": 37800,
+      "n_contributions": 6,
+      "n_committees": 5,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "NEW YORK MAJORITY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 18700
+    },
+    {
+      "name": "BUTTRICK, JOHN",
+      "net_total": 22600,
+      "gross_positive": 22600,
+      "n_contributions": 10,
+      "n_committees": 6,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "TORRES FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 6000
+    },
+    {
+      "name": "BUTTRICK, JOHN W.",
+      "net_total": 18700,
+      "gross_positive": 18700,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "NEW YORK MAJORITY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 18700
+    },
+    {
+      "name": "BURNHAM, BRADFORD",
+      "net_total": 18200,
+      "gross_positive": 18200,
+      "n_contributions": 5,
+      "n_committees": 4,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "TORRES FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 6600
+    },
+    {
+      "name": "WEISSMAN, ANDREW",
+      "net_total": 15000,
+      "gross_positive": 15000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "JEFFRIES VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 15000
+    },
+    {
+      "name": "WEISSMAN, ANDY",
+      "net_total": 11600,
+      "gross_positive": 11600,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "TORRES VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 11600
+    },
+    {
+      "name": "BURNHAM, BRAD",
+      "net_total": 6600,
+      "gross_positive": 6600,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "RO FOR CONGRESS INC",
+      "top_committee_type": "H",
+      "top_committee_amt": 6600
+    },
+    {
+      "name": "GROSSMAN, NICHOLAS",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 3,
+      "n_committees": 3,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "MA; NY",
+      "top_committee": "DAN GOLDMAN FOR NEW YORK",
+      "top_committee_type": "H",
+      "top_committee_amt": 2500
+    },
+    {
+      "name": "KADEN, REBECCA",
+      "net_total": 3000,
+      "gross_positive": 3000,
+      "n_contributions": 3,
+      "n_committees": 3,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "TORRES FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1500
+    },
+    {
+      "name": "MESELE, SAMSON",
+      "net_total": 1500,
+      "gross_positive": 1500,
+      "n_contributions": 3,
+      "n_committees": 3,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "WILEY NICKEL FOR NORTH CAROLINA",
+      "top_committee_type": "S",
+      "top_committee_amt": 500
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00835959",
+      "cmte_nm": "FAIRSHAKE",
+      "cmte_tp": "O",
+      "party_dr": "Mixed",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 1047540,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00484642",
+      "cmte_nm": "SMP",
+      "cmte_tp": "O",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
+      "net_total": 125000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00831164",
+      "cmte_nm": "NEW YORK MAJORITY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 57900,
+      "n_donors": 4,
+      "n_contributions": 7
+    },
+    {
+      "cmte_id": "C00768200",
+      "cmte_nm": "JEFFRIES VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 56000,
+      "n_donors": 6,
+      "n_contributions": 6
+    },
+    {
+      "cmte_id": "C00042366",
+      "cmte_nm": "DSCC",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 41300,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00754598",
+      "cmte_nm": "TORRES VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 23200,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00699744",
+      "cmte_nm": "TORRES FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 22200,
+      "n_donors": 5,
+      "n_contributions": 10
+    },
+    {
+      "cmte_id": "C00833319",
+      "cmte_nm": "MEEKS VICTORY FUND 2024",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 11600,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00503185",
+      "cmte_nm": "RO FOR CONGRESS INC",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00544650",
+      "cmte_nm": "TEAM MCHENRY",
+      "cmte_tp": "N",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00870568",
+      "cmte_nm": "JOHN AVLON FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6300,
+      "n_donors": 2,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00744946",
+      "cmte_nm": "HARRIS VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 5500,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00545830",
+      "cmte_nm": "CASEY KEYSTONE VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 5000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00816660",
+      "cmte_nm": "DAN GOLDMAN FOR NEW YORK",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 5000,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00438713",
+      "cmte_nm": "FRIENDS OF MARK WARNER",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3300,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00711150",
+      "cmte_nm": "MONDAIRE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3300,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00845461",
+      "cmte_nm": "MANNION FOR NEW YORK",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3300,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00763045",
+      "cmte_nm": "WILEY NICKEL FOR NORTH CAROLINA",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 2500,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00830885",
+      "cmte_nm": "WHITEHOUSE VICTORY FUND 2024",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 2000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00806620",
+      "cmte_nm": "JAKE AUCHINCLOSS VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00858688",
+      "cmte_nm": "LICCARDO FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00859439",
+      "cmte_nm": "DIXON FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 500,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}

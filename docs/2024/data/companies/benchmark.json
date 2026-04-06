@@ -1,0 +1,133 @@
+{
+  "company": "benchmark",
+  "slug": "benchmark",
+  "summary": {
+    "tech_canonical_name": "benchmark",
+    "net_total": 1012500,
+    "n_donors": 2,
+    "n_contributions": 4,
+    "n_committees": 4,
+    "sectors": "vc",
+    "amt_dem": 4300,
+    "amt_mixed": 0,
+    "amt_rep": 1000000,
+    "amt_unknown": 8200,
+    "amt_other": 8200,
+    "classified_recipient_total": 1004300,
+    "pct_dem": 0.4281589167,
+    "pct_classified_recipients": 99.1901234568,
+    "donor_amt_D": 12500,
+    "donor_amt_Mixed": 0,
+    "donor_amt_R": 1000000,
+    "donor_amt_Unknown": 0,
+    "n_donors_D": 1,
+    "n_donors_Mixed": 0,
+    "n_donors_R": 1,
+    "n_donors_Unknown": 0,
+    "donor_amt_total": 1012500,
+    "n_donors_total": 2,
+    "pct_dem_by_donor": 1.2345679012,
+    "slug": "benchmark"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2024,
+      "week_end": "2023-06-18",
+      "net_total": 1000000,
+      "cumulative_net_total": 1000000,
+      "gross_positive": 1000000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-06",
+      "net_total": 4300,
+      "cumulative_net_total": 1004300,
+      "gross_positive": 4300,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-20",
+      "net_total": 8200,
+      "cumulative_net_total": 1012500,
+      "gross_positive": 8200,
+      "n_contributions": 1,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "KAGLE, ROBERT C MR.",
+      "net_total": 1000000,
+      "gross_positive": 1000000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "BENCHMARK CAPITAL",
+      "states": "CA",
+      "top_committee": "BEST OF AMERICA PAC",
+      "top_committee_type": "O",
+      "top_committee_amt": 1000000
+    },
+    {
+      "name": "PUTTAGUNTA, CHETAN",
+      "net_total": 12500,
+      "gross_positive": 12500,
+      "n_contributions": 3,
+      "n_committees": 3,
+      "employers": "BENCHMARK CAPITAL",
+      "states": "CA",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 8200
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00842344",
+      "cmte_nm": "BEST OF AMERICA PAC",
+      "cmte_tp": "O",
+      "party_dr": "R",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 1000000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00744946",
+      "cmte_nm": "HARRIS VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 8200,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00703975",
+      "cmte_nm": "HARRIS FOR PRESIDENT",
+      "cmte_tp": "P",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3300,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00639146",
+      "cmte_nm": "JOSH HARDER FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}

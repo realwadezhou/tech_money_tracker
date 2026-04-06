@@ -1,0 +1,274 @@
+{
+  "company": "other",
+  "slug": "other",
+  "summary": {
+    "tech_canonical_name": "other",
+    "net_total": 3017,
+    "n_donors": 7,
+    "n_contributions": 13,
+    "n_committees": 4,
+    "sectors": "data; other; tech_giant; wearables",
+    "amt_dem": 560,
+    "amt_mixed": 0,
+    "amt_rep": 1457,
+    "amt_unknown": 1000,
+    "amt_other": 1000,
+    "classified_recipient_total": 2017,
+    "pct_dem": 27.7640059494,
+    "pct_classified_recipients": 66.8544912164,
+    "donor_amt_D": 320,
+    "donor_amt_Mixed": 250,
+    "donor_amt_R": 2447,
+    "donor_amt_Unknown": 0,
+    "n_donors_D": 3,
+    "n_donors_Mixed": 1,
+    "n_donors_R": 3,
+    "n_donors_Unknown": 0,
+    "donor_amt_total": 3017,
+    "n_donors_total": 7,
+    "pct_dem_by_donor": 11.5648717022,
+    "slug": "other"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2024,
+      "week_end": "2023-07-23",
+      "net_total": 500,
+      "cumulative_net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-12-24",
+      "net_total": 3,
+      "cumulative_net_total": 503,
+      "gross_positive": 3,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2023-12-31",
+      "net_total": 7,
+      "cumulative_net_total": 510,
+      "gross_positive": 7,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-03-03",
+      "net_total": 247,
+      "cumulative_net_total": 757,
+      "gross_positive": 247,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-03-24",
+      "net_total": 250,
+      "cumulative_net_total": 1007,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-05-05",
+      "net_total": 100,
+      "cumulative_net_total": 1107,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-06-16",
+      "net_total": 100,
+      "cumulative_net_total": 1207,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-07-21",
+      "net_total": 50,
+      "cumulative_net_total": 1257,
+      "gross_positive": 50,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-08-04",
+      "net_total": 250,
+      "cumulative_net_total": 1507,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-08-11",
+      "net_total": 250,
+      "cumulative_net_total": 1757,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-08-25",
+      "net_total": 1010,
+      "cumulative_net_total": 2767,
+      "gross_positive": 1010,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2024,
+      "week_end": "2024-10-06",
+      "net_total": 250,
+      "cumulative_net_total": 3017,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "EPSTEIN, JONATHAN",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "TESLA GOVT INC.",
+      "states": "MD",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "HASSANI, ROBIN",
+      "net_total": 947,
+      "gross_positive": 947,
+      "n_contributions": 5,
+      "n_committees": 1,
+      "employers": "TESLA GOVERNMENT INC.",
+      "states": "VA",
+      "top_committee": "TEAM KENNEDY",
+      "top_committee_type": "P",
+      "top_committee_amt": 947
+    },
+    {
+      "name": "CHATRANJAN SANDHU, ANJU",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "TESLAR.COM",
+      "states": "CA",
+      "top_committee": "TEAM KENNEDY",
+      "top_committee_type": "P",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "STEED, JOHN",
+      "net_total": 250,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "TESLA GOVERNMENT INC.",
+      "states": "ME",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
+      "top_committee_amt": 250
+    },
+    {
+      "name": "T WILSON, JAMES",
+      "net_total": 250,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "TESLA GOVERNMENT INC",
+      "states": "VA",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
+      "top_committee_amt": 250
+    },
+    {
+      "name": "WESTON, PATRICK",
+      "net_total": 60,
+      "gross_positive": 60,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "PALANTIR.NET",
+      "states": "OH",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
+      "top_committee_amt": 60
+    },
+    {
+      "name": "HAMISU, IBRAHIM",
+      "net_total": 10,
+      "gross_positive": 10,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "FORMERLY GOOGLE",
+      "states": "FL",
+      "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 10
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00836916",
+      "cmte_nm": "TEAM KENNEDY",
+      "cmte_tp": "P",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "candidate",
+      "net_total": 1447,
+      "n_donors": 2,
+      "n_contributions": 6
+    },
+    {
+      "cmte_id": "C00744946",
+      "cmte_nm": "HARRIS VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00703975",
+      "cmte_nm": "HARRIS FOR PRESIDENT",
+      "cmte_tp": "P",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 560,
+      "n_donors": 3,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00003418",
+      "cmte_nm": "REPUBLICAN NATIONAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 10,
+      "n_donors": 1,
+      "n_contributions": 2
+    }
+  ]
+}

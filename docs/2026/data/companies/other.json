@@ -1,0 +1,88 @@
+{
+  "company": "other",
+  "slug": "other",
+  "summary": {
+    "tech_canonical_name": "other",
+    "net_total": 300,
+    "n_donors": 1,
+    "n_contributions": 3,
+    "n_committees": 1,
+    "sectors": "data",
+    "amt_dem": 0,
+    "amt_mixed": 0,
+    "amt_rep": 300,
+    "amt_unknown": 0,
+    "amt_other": 0,
+    "classified_recipient_total": 300,
+    "pct_dem": 0.0,
+    "pct_classified_recipients": 100.0,
+    "donor_amt_D": 0,
+    "donor_amt_Mixed": 0,
+    "donor_amt_R": 300,
+    "donor_amt_Unknown": 0,
+    "n_donors_D": 0,
+    "n_donors_Mixed": 0,
+    "n_donors_R": 1,
+    "n_donors_Unknown": 0,
+    "donor_amt_total": 300,
+    "n_donors_total": 1,
+    "pct_dem_by_donor": 0.0,
+    "slug": "other"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2026,
+      "week_end": "2025-05-04",
+      "net_total": 100,
+      "cumulative_net_total": 100,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-05-11",
+      "net_total": 100,
+      "cumulative_net_total": 200,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-06-01",
+      "net_total": 100,
+      "cumulative_net_total": 300,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "HASSANI, ROBIN",
+      "net_total": 300,
+      "gross_positive": 300,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "TESLA GOVERNMENT INC",
+      "states": "VA",
+      "top_committee": "RAND PAUL FOR US SENATE",
+      "top_committee_type": "S",
+      "top_committee_amt": 300
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00496075",
+      "cmte_nm": "RAND PAUL FOR US SENATE",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 300,
+      "n_donors": 1,
+      "n_contributions": 3
+    }
+  ]
+}

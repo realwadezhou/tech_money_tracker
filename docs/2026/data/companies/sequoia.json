@@ -1,0 +1,289 @@
+{
+  "company": "sequoia",
+  "slug": "sequoia",
+  "summary": {
+    "tech_canonical_name": "sequoia",
+    "net_total": 113300,
+    "n_donors": 5,
+    "n_contributions": 17,
+    "n_committees": 10,
+    "sectors": "vc",
+    "amt_dem": 16800,
+    "amt_mixed": 1000,
+    "amt_rep": 5500,
+    "amt_unknown": 90000,
+    "amt_other": 91000,
+    "classified_recipient_total": 22300,
+    "pct_dem": 75.33632287,
+    "pct_classified_recipients": 19.6822594881,
+    "donor_amt_D": 12000,
+    "donor_amt_Mixed": 43300,
+    "donor_amt_R": 57000,
+    "donor_amt_Unknown": 1000,
+    "n_donors_D": 2,
+    "n_donors_Mixed": 1,
+    "n_donors_R": 1,
+    "n_donors_Unknown": 1,
+    "donor_amt_total": 113300,
+    "n_donors_total": 5,
+    "pct_dem_by_donor": 17.3913043478,
+    "slug": "sequoia"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2026,
+      "week_end": "2025-04-20",
+      "net_total": 1000,
+      "cumulative_net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-04-27",
+      "net_total": 2000,
+      "cumulative_net_total": 3000,
+      "gross_positive": 7300,
+      "n_contributions": 4,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-06-01",
+      "net_total": 4800,
+      "cumulative_net_total": 7800,
+      "gross_positive": 4800,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-07-06",
+      "net_total": 50000,
+      "cumulative_net_total": 57800,
+      "gross_positive": 50000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-09-14",
+      "net_total": 7000,
+      "cumulative_net_total": 64800,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-26",
+      "net_total": 25000,
+      "cumulative_net_total": 89800,
+      "gross_positive": 25000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-09",
+      "net_total": 15000,
+      "cumulative_net_total": 104800,
+      "gross_positive": 15000,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-12-07",
+      "net_total": 3500,
+      "cumulative_net_total": 108300,
+      "gross_positive": 7000,
+      "n_contributions": 3,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-12-14",
+      "net_total": 5000,
+      "cumulative_net_total": 113300,
+      "gross_positive": 5000,
+      "n_contributions": 2,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "STEPHENSON, THOMAS F.",
+      "net_total": 57000,
+      "gross_positive": 62300,
+      "n_contributions": 6,
+      "n_committees": 3,
+      "employers": "SEQUOIA CAPITAL",
+      "states": "CA",
+      "top_committee": "GROW THE MAJORITY",
+      "top_committee_type": "N",
+      "top_committee_amt": 50000
+    },
+    {
+      "name": "STEPHENSON, THOMAS F. MR.",
+      "net_total": 43300,
+      "gross_positive": 46800,
+      "n_contributions": 6,
+      "n_committees": 4,
+      "employers": "SEQUOIA CAPITAL",
+      "states": "CA",
+      "top_committee": "CORNYN LONESTAR VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 25000
+    },
+    {
+      "name": "KANG, DUCKJU",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "SEQUOIA CAPITAL GLOBAL EQUITIES",
+      "states": "CA",
+      "top_committee": "ERIC JONES FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "SCHREIER, BRYAN",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "SEQUOIA CAPITAL",
+      "states": "CA",
+      "top_committee": "TOM PERRIELLO FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "VIEIRA, DON",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SEQUOIA CAPITAL",
+      "states": "CA",
+      "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1000
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00858373",
+      "cmte_nm": "GROW THE MAJORITY",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 50000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00866947",
+      "cmte_nm": "CORNYN LONESTAR VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 25000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00770180",
+      "cmte_nm": "CORNYN VICTORY COMMITTEE",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 10000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00919100",
+      "cmte_nm": "ERIC JONES FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00884262",
+      "cmte_nm": "CONSERVATIVE MAJORITY PROJECT SUPER PAC",
+      "cmte_tp": "O",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
+      "net_total": 5000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00929968",
+      "cmte_nm": "TOM PERRIELLO FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 5000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00542217",
+      "cmte_nm": "TEXANS FOR A CONSERVATIVE MAJORITY",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 4800,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00369033",
+      "cmte_nm": "TEXANS FOR SENATOR JOHN CORNYN INC.",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00718627",
+      "cmte_nm": "TEAM HAGERTY",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 2000,
+      "n_donors": 1,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00150367",
+      "cmte_nm": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
+      "cmte_tp": "Q",
+      "party_dr": "Mixed",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}

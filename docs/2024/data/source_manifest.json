@@ -1,0 +1,106 @@
+{
+  "cycle": 2024,
+  "checked_at_utc": "2026-04-06T07:06:14+00:00",
+  "latest_bulk_release_utc": "2026-04-06T05:40:31+00:00",
+  "bulk_sources": [
+    {
+      "key": "committee_master",
+      "label": "Committee master",
+      "remote_url": "https://www.fec.gov/files/bulk-downloads/2024/cm24.zip",
+      "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\raw\\fec\\2024\\cm24.zip",
+      "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2024\\cm24\\cm.txt",
+      "local_exists": true,
+      "local_last_modified_utc": "2026-03-25T02:56:34.453389+00:00",
+      "remote_last_modified_utc": "2026-04-06T05:40:27+00:00",
+      "remote_content_length": 883617,
+      "remote_etag": "\"7d969e490d0a38a215be7cd29b02fd35\"",
+      "remote_is_newer": true,
+      "remote_error": ""
+    },
+    {
+      "key": "candidate_master",
+      "label": "Candidate master",
+      "remote_url": "https://www.fec.gov/files/bulk-downloads/2024/cn24.zip",
+      "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\interim\\fec\\2024\\cn24\\cn24.zip",
+      "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2024\\cn24\\cn.txt",
+      "local_exists": true,
+      "local_last_modified_utc": "2026-04-02T09:47:16+00:00",
+      "remote_last_modified_utc": "2026-04-06T05:40:23+00:00",
+      "remote_content_length": 356610,
+      "remote_etag": "\"855cccbc6180af73074748d0ee317d2b\"",
+      "remote_is_newer": true,
+      "remote_error": ""
+    },
+    {
+      "key": "candidate_committee_linkage",
+      "label": "Candidate-committee linkage",
+      "remote_url": "https://www.fec.gov/files/bulk-downloads/2024/ccl24.zip",
+      "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\interim\\fec\\2024\\ccl24\\ccl24.zip",
+      "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2024\\ccl24\\ccl.txt",
+      "local_exists": true,
+      "local_last_modified_utc": "2026-04-02T09:47:24+00:00",
+      "remote_last_modified_utc": "2026-04-06T05:40:31+00:00",
+      "remote_content_length": 94298,
+      "remote_etag": "\"2bcb0310555d49bdda0568c35560f45c\"",
+      "remote_is_newer": true,
+      "remote_error": ""
+    },
+    {
+      "key": "itemized_individual_contributions",
+      "label": "Itemized individual contributions",
+      "remote_url": "https://www.fec.gov/files/bulk-downloads/2024/indiv24.zip",
+      "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\raw\\fec\\2024\\indiv24.zip",
+      "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2024\\indiv24\\itcont.txt",
+      "local_exists": true,
+      "local_last_modified_utc": "2026-03-25T03:03:41.663493+00:00",
+      "remote_last_modified_utc": "2026-03-08T21:45:42+00:00",
+      "remote_content_length": 4244259029,
+      "remote_etag": "\"a722f580f5cfffbd5bf905f76ce4e9f4-506\"",
+      "remote_is_newer": false,
+      "remote_error": ""
+    },
+    {
+      "key": "committee_to_committee_transactions",
+      "label": "Committee-to-committee transactions",
+      "remote_url": "https://www.fec.gov/files/bulk-downloads/2024/oth24.zip",
+      "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\raw\\fec\\2024\\oth24.zip",
+      "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2024\\oth24\\itoth.txt",
+      "local_exists": true,
+      "local_last_modified_utc": "2026-03-25T03:04:29.787590+00:00",
+      "remote_last_modified_utc": "2026-03-08T21:48:05+00:00",
+      "remote_content_length": 505214543,
+      "remote_etag": "\"a98f157279ec9243a6fc66436f984c5f-61\"",
+      "remote_is_newer": false,
+      "remote_error": ""
+    },
+    {
+      "key": "candidate_contributions",
+      "label": "Contributions to candidates",
+      "remote_url": "https://www.fec.gov/files/bulk-downloads/2024/pas224.zip",
+      "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\raw\\fec\\2024\\pas224.zip",
+      "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2024\\pas224\\itpas2.txt",
+      "local_exists": true,
+      "local_last_modified_utc": "2026-03-25T03:04:31.885827+00:00",
+      "remote_last_modified_utc": "2026-03-08T21:46:14+00:00",
+      "remote_content_length": 24683218,
+      "remote_etag": "\"f739d6b53c494e61b3959b3bbeb6aa60-3\"",
+      "remote_is_newer": false,
+      "remote_error": ""
+    }
+  ],
+  "sources_with_remote_newer_than_local": [
+    "committee_master",
+    "candidate_master",
+    "candidate_committee_linkage"
+  ],
+  "all_local_bulk_files_present": true,
+  "openfec": {
+    "developers_url": "https://api.open.fec.gov/developers/",
+    "base_url": "https://api.open.fec.gov/v1/",
+    "env_var": "OPENFEC_API_KEY",
+    "notes": [
+      "Use OpenFEC between bulk releases when fresher receipts or filings matter.",
+      "FEC browse-data pages note that newly filed summary data may not appear for up to 48 hours."
+    ]
+  }
+}

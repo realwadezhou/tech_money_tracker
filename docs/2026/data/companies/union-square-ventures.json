@@ -1,0 +1,255 @@
+{
+  "company": "union_square_ventures",
+  "slug": "union-square-ventures",
+  "summary": {
+    "tech_canonical_name": "union_square_ventures",
+    "net_total": 25052,
+    "n_donors": 4,
+    "n_contributions": 10,
+    "n_committees": 8,
+    "sectors": "vc",
+    "amt_dem": 25052,
+    "amt_mixed": 0,
+    "amt_rep": 0,
+    "amt_unknown": 0,
+    "amt_other": 0,
+    "classified_recipient_total": 25052,
+    "pct_dem": 100.0,
+    "pct_classified_recipients": 100.0,
+    "donor_amt_D": 25052,
+    "donor_amt_Mixed": 0,
+    "donor_amt_R": 0,
+    "donor_amt_Unknown": 0,
+    "n_donors_D": 4,
+    "n_donors_Mixed": 0,
+    "n_donors_R": 0,
+    "n_donors_Unknown": 0,
+    "donor_amt_total": 25052,
+    "n_donors_total": 4,
+    "pct_dem_by_donor": 100.0,
+    "slug": "union-square-ventures"
+  },
+  "weekly_series": [
+    {
+      "cycle": 2026,
+      "week_end": "2025-05-04",
+      "net_total": 2026,
+      "cumulative_net_total": 2026,
+      "gross_positive": 2026,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-05-25",
+      "net_total": 2026,
+      "cumulative_net_total": 4052,
+      "gross_positive": 2026,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-06-15",
+      "net_total": 7000,
+      "cumulative_net_total": 11052,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-06-29",
+      "net_total": 3500,
+      "cumulative_net_total": 14552,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-09-28",
+      "net_total": 1000,
+      "cumulative_net_total": 15552,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-10-19",
+      "net_total": 1000,
+      "cumulative_net_total": 16552,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-11-02",
+      "net_total": 3500,
+      "cumulative_net_total": 20052,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2025-12-14",
+      "net_total": 3500,
+      "cumulative_net_total": 23552,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-01-04",
+      "net_total": 1500,
+      "cumulative_net_total": 25052,
+      "gross_positive": 1500,
+      "n_contributions": 1,
+      "n_donors": 1
+    }
+  ],
+  "top_donors": [
+    {
+      "name": "BUTTRICK, JOHN",
+      "net_total": 12000,
+      "gross_positive": 12000,
+      "n_contributions": 4,
+      "n_committees": 2,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "RO FOR CONGRESS INC",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "GROSSMAN, NICHOLAS",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 2,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "SETH FOR MASSACHUSETTS, INC",
+      "top_committee_type": "S",
+      "top_committee_amt": 3500
+    },
+    {
+      "name": "WILSON, FREDERICK",
+      "net_total": 5052,
+      "gross_positive": 5052,
+      "n_contributions": 3,
+      "n_committees": 3,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "TREBLE FOR ARIZONA",
+      "top_committee_type": "H",
+      "top_committee_amt": 2026
+    },
+    {
+      "name": "KADEN, REBECCA",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UNION SQUARE VENTURES",
+      "states": "NY",
+      "top_committee": "JAKE LEVINE FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    }
+  ],
+  "top_committees": [
+    {
+      "cmte_id": "C00503185",
+      "cmte_nm": "RO FOR CONGRESS INC",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00845461",
+      "cmte_nm": "MANNION FOR NEW YORK",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 5000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00547240",
+      "cmte_nm": "SETH FOR MASSACHUSETTS, INC",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00699744",
+      "cmte_nm": "TORRES FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00856955",
+      "cmte_nm": "VINDMAN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 2026,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00901215",
+      "cmte_nm": "TREBLE FOR ARIZONA",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 2026,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00914820",
+      "cmte_nm": "JAKE LEVINE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00918565",
+      "cmte_nm": "LASHER FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    }
+  ]
+}
