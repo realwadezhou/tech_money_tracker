@@ -8,9 +8,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-FEC_DATA_ROOT = PROJECT_ROOT.parent / "spending_tracker" / "data" / "interim" / "fec"
+from pipeline.paths import DATA_ROOT, FEC_INTERIM_ROOT
 
 
 @dataclass(frozen=True)
@@ -97,7 +95,7 @@ def bulk_download_url(cycle: int, spec: BulkFileSpec) -> str:
 def local_bulk_path(cycle: int, spec: BulkFileSpec) -> Path:
     suffix = cycle_suffix(cycle)
     return (
-        FEC_DATA_ROOT
+        FEC_INTERIM_ROOT
         / str(cycle)
         / spec.local_dir.format(suffix=suffix)
         / spec.local_file
@@ -108,7 +106,7 @@ def local_zip_path(cycle: int, spec: BulkFileSpec) -> Path:
     suffix = cycle_suffix(cycle)
     relative_dir = spec.local_zip_dir_template.format(cycle=cycle, suffix=suffix)
     filename = spec.local_zip_filename.format(cycle=cycle, suffix=suffix)
-    return PROJECT_ROOT.parent / "spending_tracker" / "data" / relative_dir / filename
+    return DATA_ROOT / relative_dir / filename
 
 
 def _iso_utc_from_timestamp(timestamp: float) -> str:

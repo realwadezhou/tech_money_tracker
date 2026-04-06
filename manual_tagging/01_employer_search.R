@@ -11,11 +11,19 @@ library(tidyverse)
 library(janitor)
 
 # --- paths ---
-# Reference the spending_tracker project for the raw FEC data
-data_root <- "C:/Users/Wade/Documents/projects/spending_tracker/data"
-out_dir   <- "C:/Users/Wade/Documents/projects/tech_money/manual_tagging"
+args <- commandArgs(trailingOnly = FALSE)
+file_arg <- grep("^--file=", args, value = TRUE)
+if (length(file_arg) > 0) {
+  script_dir <- dirname(normalizePath(sub("^--file=", "", file_arg[1])))
+} else {
+  script_dir <- getwd()
+}
 
-itcont_path <- file.path(data_root, "interim", "fec", "2024", "indiv24", "itcont.txt")
+project_root <- normalizePath(file.path(script_dir, ".."))
+data_root <- file.path(project_root, "data")
+out_dir <- file.path(project_root, "data", "reference", "tech_employers")
+
+itcont_path <- file.path(data_root, "fec", "interim", "2024", "indiv24", "itcont.txt")
 
 # --- load itcont ---
 message("Loading itcont (this takes a minute)...")

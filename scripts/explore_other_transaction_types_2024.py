@@ -24,7 +24,7 @@ Also: what about memo_cd = "X" across all types? When is it safe to include?
 from pathlib import Path
 import pandas as pd
 
-DATA_ROOT = Path(__file__).resolve().parent.parent.parent / "spending_tracker" / "data"
+DATA_ROOT = Path(__file__).resolve().parent.parent / "data"
 OUT_DIR = Path(__file__).resolve().parent.parent / "outputs"
 
 ITCONT_COLS = [

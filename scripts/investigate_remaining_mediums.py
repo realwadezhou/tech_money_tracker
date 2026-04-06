@@ -13,7 +13,7 @@ Remaining mediums:
 from pathlib import Path
 import pandas as pd
 
-DATA_ROOT = Path(__file__).resolve().parent.parent.parent / "spending_tracker" / "data"
+DATA_ROOT = Path(__file__).resolve().parent.parent / "data"
 
 ITCONT_COLS = [
     "cmte_id", "amndt_ind", "rpt_tp", "transaction_pgi", "image_num",

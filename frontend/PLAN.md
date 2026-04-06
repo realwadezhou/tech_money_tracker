@@ -179,11 +179,11 @@ aligned with the practical start of the 2024 cycle.
 
 Current outputs already support a first version of the frontend:
 
-- `outputs/tables/tech_company_summary.csv`
-- `outputs/tables/tech_donor_summary.csv`
-- `outputs/tables/committee_tech_receipts.csv`
-- `outputs/tables/tech_company_partisan.csv`
-- `outputs/tables/committee_party_classification.csv`
+- `data/fec/derived/<cycle>/tech_company_summary.csv`
+- `data/fec/derived/<cycle>/tech_donor_summary.csv`
+- `data/fec/derived/<cycle>/committee_tech_receipts.csv`
+- `data/fec/derived/<cycle>/tech_company_partisan.csv`
+- `data/fec/derived/<cycle>/committee_party_classification.csv`
 
 These are enough for:
 

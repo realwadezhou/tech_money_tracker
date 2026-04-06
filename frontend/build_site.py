@@ -10,7 +10,7 @@ from pathlib import Path
 FRONTEND_ROOT = Path(__file__).resolve().parent
 ASSET_ROOT = FRONTEND_ROOT / "assets"
 SITE_ROOT = FRONTEND_ROOT / "site"
-EXPORT_ROOT = FRONTEND_ROOT.parent / "outputs" / "frontend_data"
+EXPORT_ROOT = FRONTEND_ROOT.parent / "exports" / "site"
 
 AVAILABLE_CYCLES: list[int] = []
 CYCLE_PAGE_DIRS: dict[int, set[str]] = {}

@@ -8,7 +8,7 @@ products — the pipeline's main output.
 Usage:
     python -m pipeline.build_summaries
 
-Outputs (as CSV files in outputs/tables/):
+Outputs (as CSV files in data/fec/derived/<cycle>/):
     - tech_donor_summary.csv
     - tech_company_summary.csv
     - committee_tech_receipts.csv
@@ -16,8 +16,6 @@ Outputs (as CSV files in outputs/tables/):
     - tech_sankey_edges.csv
     - entity_party_lean.csv
 """
-
-from pathlib import Path
 
 import pandas as pd
 
@@ -32,9 +30,7 @@ from pipeline.classify_partisan import (
     PARTY_MAP,
 )
 from pipeline.load_fec import load_cycle, tag_tech_donors
-
-
-OUT_DIR = Path(__file__).resolve().parent.parent / "outputs" / "tables"
+from pipeline.paths import fec_cycle_derived_dir
 
 
 def build_tech_donor_summary(
@@ -1123,7 +1119,8 @@ def build_sankey_edges(
 
 def main(cycle: int = 2024):
     """Build all summary tables and save to disk."""
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir = fec_cycle_derived_dir(cycle)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     # Load filtered data
     data = load_cycle(cycle)
@@ -1173,20 +1170,20 @@ def main(cycle: int = 2024):
 
     # Save as CSV (pyarrow not available for parquet)
     print("\nSaving...")
-    donor_summary.to_csv(OUT_DIR / "tech_donor_summary.csv", index=False)
-    company_summary.to_csv(OUT_DIR / "tech_company_summary.csv", index=False)
-    cmte_tech.to_csv(OUT_DIR / "committee_tech_receipts.csv", index=False)
-    outbound.to_csv(OUT_DIR / "committee_outbound_spending.csv", index=False)
-    sankey.to_csv(OUT_DIR / "tech_sankey_edges.csv", index=False)
-    entity_lean.to_csv(OUT_DIR / "entity_party_lean.csv", index=False)
-    candidate_race.to_csv(OUT_DIR / "candidate_race_summary.csv", index=False)
-    candidate_state.to_csv(OUT_DIR / "candidate_state_summary.csv", index=False)
+    donor_summary.to_csv(out_dir / "tech_donor_summary.csv", index=False)
+    company_summary.to_csv(out_dir / "tech_company_summary.csv", index=False)
+    cmte_tech.to_csv(out_dir / "committee_tech_receipts.csv", index=False)
+    outbound.to_csv(out_dir / "committee_outbound_spending.csv", index=False)
+    sankey.to_csv(out_dir / "tech_sankey_edges.csv", index=False)
+    entity_lean.to_csv(out_dir / "entity_party_lean.csv", index=False)
+    candidate_race.to_csv(out_dir / "candidate_race_summary.csv", index=False)
+    candidate_state.to_csv(out_dir / "candidate_state_summary.csv", index=False)
     candidate_house_district.to_csv(
-        OUT_DIR / "candidate_house_district_summary.csv", index=False
+        out_dir / "candidate_house_district_summary.csv", index=False
     )
-    candidate_senate.to_csv(OUT_DIR / "candidate_senate_summary.csv", index=False)
+    candidate_senate.to_csv(out_dir / "candidate_senate_summary.csv", index=False)
 
-    print(f"\nAll tables saved to {OUT_DIR}/")
+    print(f"\nAll tables saved to {out_dir}/")
 
     # Print headline numbers
     print("\n" + "=" * 60)

@@ -53,7 +53,7 @@ FEC bulk file column mappings per fec.gov data dictionary:
 from pathlib import Path
 import pandas as pd
 
-DATA_ROOT = Path(__file__).resolve().parent.parent.parent / "spending_tracker" / "data"
+DATA_ROOT = Path(__file__).resolve().parent.parent / "data"
 OUT_DIR = Path(__file__).resolve().parent.parent / "outputs"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

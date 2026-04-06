@@ -4,8 +4,8 @@ Generated frontend-ready exports no longer live in this directory.
 
 They are now written to:
 
-- `outputs/frontend_data/<cycle>/`
+- `exports/site/<cycle>/`
 
-This keeps generated data with other pipeline outputs instead of mixing it into the frontend source tree.
+This keeps publishable site exports outside the frontend source tree while still making them easy for the static site builder to consume.
 
-The site builder still copies those exports into `frontend/site/data/<cycle>/` for the static site output.
+The site builder copies those exports into `frontend/site/<cycle>/data/` as part of the generated static site.

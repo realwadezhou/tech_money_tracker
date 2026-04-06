@@ -10,9 +10,18 @@
 library(tidyverse)
 
 # --- paths ---
-data_root <- "C:/Users/Wade/Documents/projects/spending_tracker/data"
-out_dir   <- "C:/Users/Wade/Documents/projects/tech_money/manual_tagging"
-cm_path   <- file.path(data_root, "interim", "fec", "2024", "cm24", "cm.txt")
+args <- commandArgs(trailingOnly = FALSE)
+file_arg <- grep("^--file=", args, value = TRUE)
+if (length(file_arg) > 0) {
+  script_dir <- dirname(normalizePath(sub("^--file=", "", file_arg[1])))
+} else {
+  script_dir <- getwd()
+}
+
+project_root <- normalizePath(file.path(script_dir, ".."))
+data_root <- file.path(project_root, "data")
+out_dir <- file.path(project_root, "manual_tagging")
+cm_path <- file.path(data_root, "fec", "interim", "2024", "cm24", "cm.txt")
 
 # --- load ---
 cm <- read_delim(cm_path, delim = "|", col_names = FALSE,

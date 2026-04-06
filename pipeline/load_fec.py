@@ -20,11 +20,12 @@ from typing import Optional
 
 import pandas as pd
 
+from pipeline.paths import FEC_INTERIM_ROOT, tech_employer_lookup_path
+
 
 # ── Paths ────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATA_ROOT = PROJECT_ROOT.parent / "spending_tracker" / "data"
-TAGGING_DIR = PROJECT_ROOT / "manual_tagging"
+DATA_ROOT = PROJECT_ROOT / "data"
 
 
 # ── Column definitions ──────────────────────────────────────────────
@@ -106,7 +107,7 @@ class FECData:
 def _load_raw(cycle: int) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """Load raw FEC bulk files for a given election cycle."""
     suffix = str(cycle)[2:]  # e.g. 2024 -> "24"
-    base = DATA_ROOT / "interim" / "fec" / str(cycle)
+    base = FEC_INTERIM_ROOT / str(cycle)
 
     print(f"Loading {cycle} committee master...")
     cm = pd.read_csv(
@@ -144,7 +145,7 @@ def _load_raw(cycle: int) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
 
 def _load_tech_employers() -> pd.DataFrame:
     """Load the manually tagged employer lookup table."""
-    path = TAGGING_DIR / "employer_matches_for_review_manual_mar31temp.csv"
+    path = tech_employer_lookup_path()
     df = pd.read_csv(path, dtype="string", na_filter=False)
 
     # Fix truncated column name from Excel

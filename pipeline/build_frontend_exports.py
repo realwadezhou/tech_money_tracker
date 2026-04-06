@@ -8,7 +8,7 @@ Usage:
     python -m pipeline.build_frontend_exports
 
 Outputs:
-    outputs/frontend_data/<cycle>/
+    exports/site/<cycle>/
         site_metadata.json
         source_manifest.json
         homepage_summary.json
@@ -56,11 +56,8 @@ from pipeline.classify_partisan import (
 )
 from pipeline.fec_sources import write_source_manifest
 from pipeline.load_fec import load_cycle, tag_tech_donors
+from pipeline.paths import fec_cycle_derived_dir, site_export_cycle_dir
 
-
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-TABLE_DIR = PROJECT_ROOT / "outputs" / "tables"
-FRONTEND_EXPORT_ROOT = PROJECT_ROOT / "outputs" / "frontend_data"
 
 MAJOR_DONOR_THRESHOLD = 100_000
 FEATURED_COMMITTEE_RECEIPTS = 100_000
@@ -398,7 +395,8 @@ def ensure_summary_tables(
     pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame,
     pd.DataFrame, pd.DataFrame,
 ]:
-    TABLE_DIR.mkdir(parents=True, exist_ok=True)
+    table_dir = fec_cycle_derived_dir(cycle)
+    table_dir.mkdir(parents=True, exist_ok=True)
 
     cand_party = load_candidate_parties(committees, cycle)
     committee_party_classification = classify_committees_from_party_field(committees)
@@ -434,25 +432,25 @@ def ensure_summary_tables(
     )
     candidate_senate_summary = build_candidate_senate_summary(candidate_race_summary)
 
-    donor_summary.to_csv(TABLE_DIR / "tech_donor_summary.csv", index=False)
-    company_summary.to_csv(TABLE_DIR / "tech_company_summary.csv", index=False)
-    committee_tech_receipts.to_csv(TABLE_DIR / "committee_tech_receipts.csv", index=False)
+    donor_summary.to_csv(table_dir / "tech_donor_summary.csv", index=False)
+    company_summary.to_csv(table_dir / "tech_company_summary.csv", index=False)
+    committee_tech_receipts.to_csv(table_dir / "committee_tech_receipts.csv", index=False)
     committee_party_classification.to_csv(
-        TABLE_DIR / "committee_party_classification.csv",
+        table_dir / "committee_party_classification.csv",
         index=False,
     )
     donor_party_classification.to_csv(
-        TABLE_DIR / "donor_party_classification.csv",
+        table_dir / "donor_party_classification.csv",
         index=False,
     )
-    company_partisan.to_csv(TABLE_DIR / "tech_company_partisan.csv", index=False)
-    entity_party_lean.to_csv(TABLE_DIR / "entity_party_lean.csv", index=False)
-    candidate_race_summary.to_csv(TABLE_DIR / "candidate_race_summary.csv", index=False)
-    candidate_state_summary.to_csv(TABLE_DIR / "candidate_state_summary.csv", index=False)
+    company_partisan.to_csv(table_dir / "tech_company_partisan.csv", index=False)
+    entity_party_lean.to_csv(table_dir / "entity_party_lean.csv", index=False)
+    candidate_race_summary.to_csv(table_dir / "candidate_race_summary.csv", index=False)
+    candidate_state_summary.to_csv(table_dir / "candidate_state_summary.csv", index=False)
     candidate_house_district_summary.to_csv(
-        TABLE_DIR / "candidate_house_district_summary.csv", index=False
+        table_dir / "candidate_house_district_summary.csv", index=False
     )
-    candidate_senate_summary.to_csv(TABLE_DIR / "candidate_senate_summary.csv", index=False)
+    candidate_senate_summary.to_csv(table_dir / "candidate_senate_summary.csv", index=False)
     for entity_type, suffix in [
         ("company", "companies"),
         ("committee", "committees"),
@@ -460,7 +458,7 @@ def ensure_summary_tables(
     ]:
         entity_party_lean[
             entity_party_lean["entity_type"] == entity_type
-        ].to_csv(TABLE_DIR / f"entity_party_lean_{suffix}.csv", index=False)
+        ].to_csv(table_dir / f"entity_party_lean_{suffix}.csv", index=False)
 
     return (
         donor_summary,
@@ -477,7 +475,7 @@ def ensure_summary_tables(
 
 
 def build_frontend_exports(cycle: int = 2024) -> Path:
-    cycle_out_dir = FRONTEND_EXPORT_ROOT / str(cycle)
+    cycle_out_dir = site_export_cycle_dir(cycle)
     company_out_dir = cycle_out_dir / "companies"
     chart_out_dir = cycle_out_dir / "charts"
     company_chart_out_dir = chart_out_dir / "companies"

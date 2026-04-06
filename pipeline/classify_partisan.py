@@ -19,10 +19,10 @@ from pathlib import Path
 
 import pandas as pd
 
-from pipeline.load_fec import load_cycle, tag_tech_donors, ITCONT_COLS, CM_COLS, DATA_ROOT
+from pipeline.load_fec import load_cycle, tag_tech_donors, ITCONT_COLS, CM_COLS
+from pipeline.paths import FEC_INTERIM_ROOT, fec_cycle_derived_dir
 
 
-OUT_DIR = Path(__file__).resolve().parent.parent / "outputs" / "tables"
 PARTY_MAP = {"DEM": "D", "REP": "R"}
 PARTISAN_LEAN_THRESHOLD = 0.70
 CN_COLS = [
@@ -39,12 +39,12 @@ CCL_COLS = [
 
 def _candidate_master_path(cycle: int) -> Path:
     suffix = str(cycle)[2:]
-    return DATA_ROOT / "interim" / "fec" / str(cycle) / f"cn{suffix}" / "cn.txt"
+    return FEC_INTERIM_ROOT / str(cycle) / f"cn{suffix}" / "cn.txt"
 
 
 def _candidate_linkage_path(cycle: int) -> Path:
     suffix = str(cycle)[2:]
-    return DATA_ROOT / "interim" / "fec" / str(cycle) / f"ccl{suffix}" / "ccl.txt"
+    return FEC_INTERIM_ROOT / str(cycle) / f"ccl{suffix}" / "ccl.txt"
 
 
 def load_candidate_linkage_table(cycle: int) -> pd.DataFrame:
@@ -136,7 +136,7 @@ def classify_committees_from_party_field(cm: pd.DataFrame) -> pd.DataFrame:
 
 def _load_itpas2(cycle: int) -> pd.DataFrame:
     suffix = str(cycle)[2:]
-    base = DATA_ROOT / "interim" / "fec" / str(cycle)
+    base = FEC_INTERIM_ROOT / str(cycle)
     itpas2 = pd.read_csv(
         base / f"pas2{suffix}" / "itpas2.txt",
         sep="|", header=None, names=[
@@ -160,7 +160,7 @@ def build_behavioral_committee_classification(
 ) -> pd.DataFrame:
     """Build committee-level partisan evidence from candidate-facing activity."""
     suffix = str(cycle)[2:]
-    base = DATA_ROOT / "interim" / "fec" / str(cycle)
+    base = FEC_INTERIM_ROOT / str(cycle)
     ccl = load_candidate_linkage_table(cycle)
     cmte_to_cand = (
         ccl.loc[ccl["cand_id"] != "", ["cmte_id", "cand_id"]]
@@ -437,7 +437,8 @@ def classify_donors(
 
 
 def main(cycle: int = 2024):
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir = fec_cycle_derived_dir(cycle)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     data = load_cycle(cycle)
 
@@ -453,7 +454,7 @@ def main(cycle: int = 2024):
     print(classified["classification_source"].value_counts().to_string())
 
     # Save committee classification
-    cmte_class.to_csv(OUT_DIR / "committee_party_classification.csv", index=False)
+    cmte_class.to_csv(out_dir / "committee_party_classification.csv", index=False)
 
     # Tag tech donors and classify them
     print("\nTagging tech donors...")
@@ -463,7 +464,7 @@ def main(cycle: int = 2024):
     donor_class = classify_donors(tagged, cmte_class)
 
     # Save donor classification
-    donor_class.to_csv(OUT_DIR / "donor_party_classification.csv", index=False)
+    donor_class.to_csv(out_dir / "donor_party_classification.csv", index=False)
 
     # Merge donor classification with tech donor summary
     tech_donors = tagged[tagged["is_tech_employer"]].copy()
@@ -517,7 +518,7 @@ def main(cycle: int = 2024):
 
     print(company_pivot.head(20).to_string(index=False))
 
-    company_pivot.to_csv(OUT_DIR / "tech_company_partisan.csv", index=False)
+    company_pivot.to_csv(out_dir / "tech_company_partisan.csv", index=False)
 
     # Spot-check known donors
     print("\n" + "=" * 60)
@@ -534,7 +535,7 @@ def main(cycle: int = 2024):
         else:
             print(f"  {pattern}: not found")
 
-    print(f"\nSaved to {OUT_DIR}/")
+    print(f"\nSaved to {out_dir}/")
 
 
 if __name__ == "__main__":
