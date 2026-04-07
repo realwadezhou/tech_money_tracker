@@ -29,8 +29,8 @@ from pipeline.classify_partisan import (
     load_candidate_parties,
     PARTY_MAP,
 )
-from pipeline.load_fec import load_cycle, tag_tech_donors
-from pipeline.paths import fec_cycle_derived_dir
+from pipeline.common.paths import fec_cycle_derived_dir
+from pipeline.fec.load import load_cycle, tag_tech_donors
 
 
 def build_tech_donor_summary(

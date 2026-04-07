@@ -54,9 +54,9 @@ from pipeline.classify_partisan import (
     classify_ie_committees,
     load_candidate_parties,
 )
-from pipeline.fec_sources import write_source_manifest
-from pipeline.load_fec import load_cycle, tag_tech_donors
-from pipeline.paths import fec_cycle_derived_dir, site_export_cycle_dir
+from pipeline.common.paths import fec_cycle_derived_dir, site_export_cycle_dir
+from pipeline.fec.load import load_cycle, tag_tech_donors
+from pipeline.fec.sources import write_source_manifest
 
 
 MAJOR_DONOR_THRESHOLD = 100_000
@@ -543,6 +543,7 @@ def build_frontend_exports(cycle: int = 2024) -> Path:
     site_metadata = {
         "cycle": cycle,
         "built_at_utc": built_at,
+        "generated_at_utc": built_at,
         "data_as_of": max_txn.date().isoformat() if pd.notna(max_txn) else None,
         "latest_bulk_release_utc": source_manifest["latest_bulk_release_utc"],
         "stale_bulk_sources": source_manifest["sources_with_remote_newer_than_local"],

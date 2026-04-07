@@ -19,8 +19,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from pipeline.load_fec import load_cycle, tag_tech_donors, ITCONT_COLS, CM_COLS
-from pipeline.paths import FEC_INTERIM_ROOT, fec_cycle_derived_dir
+from pipeline.common.paths import FEC_INTERIM_ROOT, fec_cycle_derived_dir
+from pipeline.fec.load import CM_COLS, ITCONT_COLS, load_cycle, tag_tech_donors
 
 
 PARTY_MAP = {"DEM": "D", "REP": "R"}

@@ -5,6 +5,8 @@ __pycache__/
 .venv/
 venv/
 .claude/
+.env
+.env.*
 
 outputs/
 frontend/site/
