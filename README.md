@@ -71,3 +71,12 @@ The pipeline is organized by source first, then by shared/publish layers:
   Rebuilds cycle-specific derived tables and site export bundles
 - `python -m frontend.build_site`
   Rebuilds the static HTML site from `exports/site/<cycle>/`
+- `python scripts/publish_site_to_docs.py`
+  Copies the built static site into `docs/` for GitHub Pages publishing
+
+## Deploy
+
+GitHub Pages is currently published from the committed `docs/` snapshot.
+
+- Local rebuilds still happen on your machine because the full data pipeline depends on large repo-external working data.
+- GitHub Actions handles deployment of the committed `docs/` folder after pushes to `main`.
