@@ -2,8 +2,10 @@ from __future__ import annotations
 
 import json
 import os
+import time
 from dataclasses import dataclass
 from typing import Iterator
+from urllib.error import HTTPError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
@@ -22,6 +24,7 @@ class LDAClient:
     api_key: str | None = None
     base_url: str = DEFAULT_BASE_URL
     user_agent: str = "tech-money/1.0"
+    max_retries: int = 8
 
     def __post_init__(self) -> None:
         load_project_env()
@@ -42,11 +45,27 @@ class LDAClient:
     def get(self, path: str, **params) -> dict:
         url = self.build_url(path, **params)
         request = Request(url, headers=self._headers())
-        try:
-            with urlopen(request, timeout=30) as response:
-                return json.loads(response.read().decode("utf-8"))
-        except Exception as exc:  # pragma: no cover - network/auth dependent
-            raise LDAError(f"LDA request failed for {url}: {exc}") from exc
+        for attempt in range(self.max_retries + 1):
+            try:
+                with urlopen(request, timeout=30) as response:
+                    return json.loads(response.read().decode("utf-8"))
+            except HTTPError as exc:  # pragma: no cover - network/auth dependent
+                should_retry = exc.code in {429, 500, 502, 503, 504}
+                if not should_retry or attempt >= self.max_retries:
+                    raise LDAError(f"LDA request failed for {url}: {exc}") from exc
+
+                retry_after = exc.headers.get("Retry-After")
+                if retry_after and retry_after.isdigit():
+                    sleep_seconds = int(retry_after)
+                else:
+                    sleep_seconds = min(60, 2 ** attempt)
+                time.sleep(max(1, sleep_seconds))
+            except Exception as exc:  # pragma: no cover - network/auth dependent
+                if attempt >= self.max_retries:
+                    raise LDAError(f"LDA request failed for {url}: {exc}") from exc
+                time.sleep(min(30, 2 ** attempt))
+
+        raise LDAError(f"LDA request failed for {url}: exhausted retries")
 
     def iter_results(
         self,

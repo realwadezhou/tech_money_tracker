@@ -13,6 +13,11 @@ FEC_RAW_ROOT = FEC_ROOT / "raw"
 FEC_INTERIM_ROOT = FEC_ROOT / "interim"
 FEC_DERIVED_ROOT = FEC_ROOT / "derived"
 
+LDA_ROOT = DATA_ROOT / "lda"
+LDA_RAW_ROOT = LDA_ROOT / "raw"
+LDA_INTERIM_ROOT = LDA_ROOT / "interim"
+LDA_DERIVED_ROOT = LDA_ROOT / "derived"
+
 EXPORTS_ROOT = PROJECT_ROOT / "exports"
 SITE_EXPORT_ROOT = EXPORTS_ROOT / "site"
 
@@ -29,6 +34,22 @@ def fec_cycle_interim_dir(cycle: int) -> Path:
 
 def fec_cycle_derived_dir(cycle: int) -> Path:
     return FEC_DERIVED_ROOT / str(cycle)
+
+
+def lda_year_raw_dir(year: int) -> Path:
+    return LDA_RAW_ROOT / str(year)
+
+
+def lda_year_interim_dir(year: int) -> Path:
+    return LDA_INTERIM_ROOT / str(year)
+
+
+def lda_year_derived_dir(year: int) -> Path:
+    return LDA_DERIVED_ROOT / str(year)
+
+
+def lda_lookup_raw_dir() -> Path:
+    return LDA_RAW_ROOT / "lookups"
 
 
 def site_export_cycle_dir(cycle: int) -> Path:

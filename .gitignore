@@ -13,6 +13,12 @@ frontend/site/
 data/fec/raw/
 data/fec/interim/
 data/fec/derived/
+data/lda/raw/*
+!data/lda/raw/.gitkeep
+data/lda/interim/*
+!data/lda/interim/.gitkeep
+data/lda/derived/*
+!data/lda/derived/.gitkeep
 exports/site/
 
 .DS_Store
