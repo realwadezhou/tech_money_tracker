@@ -9,9 +9,9 @@ import pandas as pd
 from pandas.errors import EmptyDataError
 
 from pipeline.common.paths import (
+    company_curated_path,
     lda_year_derived_dir,
     lda_year_interim_dir,
-    tech_employer_lookup_path,
 )
 
 
@@ -87,11 +87,7 @@ def _read_csv(year: int, filename: str, **kwargs) -> pd.DataFrame:
 
 
 def _load_tech_aliases() -> pd.DataFrame:
-    aliases = pd.read_csv(tech_employer_lookup_path(), dtype="string", na_filter=False)
-
-    if "canonical_me" in aliases.columns and "canonical_name" not in aliases.columns:
-        aliases = aliases.rename(columns={"canonical_me": "canonical_name"})
-
+    aliases = pd.read_csv(company_curated_path(), dtype="string", na_filter=False)
     aliases = aliases[aliases["include"].str.upper() == "TRUE"].copy()
 
     for column in ["employer", "matched_searches", "canonical_name", "sector", "notes"]:
@@ -436,7 +432,7 @@ def build_year(year: int) -> dict[str, object]:
     manifest = {
         "year": year,
         "built_at_utc": _iso_utc_now(),
-        "source_lookup_path": str(tech_employer_lookup_path()),
+        "source_lookup_path": str(company_curated_path()),
         "note": (
             "These outputs are a project-curated, review-oriented classification layer built "
             "from the existing tech employer alias list. They are not complete or authoritative."

@@ -56,13 +56,46 @@ def site_export_cycle_dir(cycle: int) -> Path:
     return SITE_EXPORT_ROOT / str(cycle)
 
 
-def tech_employer_reference_dir() -> Path:
-    return REFERENCE_ROOT / "tech_employers"
+def company_reference_dir() -> Path:
+    return REFERENCE_ROOT / "companies"
 
 
-def tech_employer_review_path() -> Path:
-    return tech_employer_reference_dir() / "employer_matches_for_review.csv"
+def company_curated_path() -> Path:
+    """Hand-curated employer → canonical tech-company lookup. Source of truth.
+
+    Read by the pipeline. Edited by hand. Never overwritten by automation.
+    """
+    return company_reference_dir() / "curated.csv"
 
 
-def tech_employer_lookup_path() -> Path:
-    return tech_employer_reference_dir() / "employer_matches_for_review_manual_mar31temp.csv"
+def company_candidates_path() -> Path:
+    """All candidate employer strings surfaced by the crude regex filters.
+
+    Fully regenerated whenever `pipeline.tagging.companies` runs. Safe to delete.
+    """
+    return company_reference_dir() / "candidates.csv"
+
+
+def company_review_queue_path() -> Path:
+    """Candidates not yet present in curated.csv — the reviewer's worklist.
+
+    Regenerated alongside candidates.csv. Safe to delete.
+    """
+    return company_reference_dir() / "review_queue.csv"
+
+
+def individual_reference_dir() -> Path:
+    return REFERENCE_ROOT / "individuals"
+
+
+def individual_curated_path() -> Path:
+    """Hand-curated donor name → consolidated identity lookup. Source of truth."""
+    return individual_reference_dir() / "curated.csv"
+
+
+def individual_candidates_path() -> Path:
+    return individual_reference_dir() / "candidates.csv"
+
+
+def individual_review_queue_path() -> Path:
+    return individual_reference_dir() / "review_queue.csv"

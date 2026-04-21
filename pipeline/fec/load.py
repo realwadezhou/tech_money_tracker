@@ -20,7 +20,7 @@ from typing import Optional
 
 import pandas as pd
 
-from pipeline.common.paths import FEC_INTERIM_ROOT, tech_employer_lookup_path
+from pipeline.common.paths import FEC_INTERIM_ROOT, company_curated_path
 
 
 # ── Paths ────────────────────────────────────────────────────────────
@@ -144,22 +144,12 @@ def _load_raw(cycle: int) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
 
 
 def _load_tech_employers() -> pd.DataFrame:
-    """Load the manually tagged employer lookup table."""
-    path = tech_employer_lookup_path()
+    """Load the curated company-alias table (data/reference/companies/curated.csv)."""
+    path = company_curated_path()
     df = pd.read_csv(path, dtype="string", na_filter=False)
 
-    # Fix truncated column name from Excel
-    if "canonical_me" in df.columns and "canonical_name" not in df.columns:
-        df = df.rename(columns={"canonical_me": "canonical_name"})
-
-    # Keep only included rows
     df = df[df["include"].str.upper() == "TRUE"].copy()
 
-    # Fill missing canonical_name from matched_searches
-    mask = (df["canonical_name"] == "") | df["canonical_name"].isna()
-    df.loc[mask, "canonical_name"] = df.loc[mask, "matched_searches"]
-
-    # Normalize
     df["employer_upper"] = df["employer"].str.strip().str.upper()
 
     print(f"  Tech employers: {len(df)} strings across "

@@ -20,7 +20,8 @@ data/
 │   ├── interim/
 │   └── derived/
 └── reference/              # Small curated lookups that live with the code
-    └── tech_employers/     # The hand-tagged employer lookup — the core cleaning layer
+    ├── companies/          # Hand-tagged employer → tech company alias layer
+    └── individuals/        # Donor-name consolidation layer (skeleton)
 ```
 
 ## The three-stage convention
@@ -45,5 +46,7 @@ the hand-curated part of the project.
 
 - [`fec/README.md`](fec/README.md) — details on the FEC pipeline stages
 - [`lda/README.md`](lda/README.md) — details on lobbying ingestion
-- [`reference/tech_employers/README.md`](reference/tech_employers/README.md) —
-  the employer lookup that decides what counts as "tech"
+- [`reference/companies/README.md`](reference/companies/README.md) —
+  the employer → tech-company alias layer (the core cleaning layer)
+- [`reference/individuals/README.md`](reference/individuals/README.md) —
+  donor-name consolidation (skeleton; not yet wired into the pipeline)

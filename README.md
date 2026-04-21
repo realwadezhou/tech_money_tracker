@@ -38,7 +38,7 @@ data/fec/raw/<cycle>/                       (original ZIPs)
     ▼
 data/fec/interim/<cycle>/                   (FEC text files: itcont, cm, cn, ccl, itpas2, itoth)
     │  pipeline.build_frontend_exports (per cycle) — runs:
-    │    - pipeline.fec.load           → apply transaction-type rules, join to tech_employers lookup
+    │    - pipeline.fec.load           → apply transaction-type rules, join to the curated company-alias lookup
     │    - pipeline.classify_partisan  → label committees / donors D, R, Mixed
     │    - pipeline.build_summaries    → build analytical tables
     ▼
@@ -103,7 +103,9 @@ python -m frontend.build_site && python scripts/publish_site_to_docs.py
 | `data/fec/interim/<cycle>/` | Extracted FEC text files used as pipeline input |
 | `data/fec/derived/<cycle>/` | Analytical CSVs produced by the pipeline |
 | `data/lda/` | Lobbying Disclosure Act data (ingested, not yet on the site) |
-| `data/reference/tech_employers/` | **The hand-tagged employer lookup.** The heart of the cleaning work. |
+| `data/reference/companies/` | **The hand-tagged employer → tech-company alias lookup.** The heart of the cleaning work. |
+| `data/reference/individuals/` | Donor-name consolidation layer (skeleton; not yet wired into the pipeline). |
+| `pipeline/tagging/` | Generators that produce `candidates.csv` / `review_queue.csv` for the alias layer |
 | `pipeline/` | All ingest, load, classify, and summarize code |
 | `pipeline/fec/` | FEC-specific ingest and loading |
 | `pipeline/lda/` | LDA-specific ingest and normalization |
@@ -115,7 +117,6 @@ python -m frontend.build_site && python scripts/publish_site_to_docs.py
 | `exports/site/<cycle>/` | Site-ready bundles produced by `build_frontend_exports` |
 | `docs/` | The committed snapshot GitHub Pages serves |
 | `scripts/` | Ad-hoc investigation scripts and the site → docs publisher |
-| `manual_tagging/` | Workspace for curating the tech-employer lookup |
 
 ## Key FEC files (per cycle)
 
@@ -161,7 +162,7 @@ These are real. They affect every number on the site.
   in scope yet.
 
 If you're using these numbers for anything more serious than browsing, read
-`data/reference/tech_employers/README.md` for more on the matching layer, and
+`data/reference/companies/README.md` for more on the matching layer, and
 the [Methodology page on the site](https://realwadezhou.github.io/tech_money_tracker/2026/methodology/)
 for what's counted and what isn't.
 

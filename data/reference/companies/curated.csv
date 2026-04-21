@@ -1,0 +1,703 @@
+employer,include,canonical_name,sector,notes,matched_searches
+A16Z,TRUE,a16z,vc,,a16z
+A16Z CRYPTO,TRUE,a16z,vc,,a16z
+ANDREESSEN HOROWITZ,TRUE,a16z,vc,,a16z
+"ANDREESSEN HOROWITZ, LLC",TRUE,a16z,vc,,a16z
+ACCEL,TRUE,accel,vc,,accel
+"ALAMEDA COUNTY, AMAZON",TRUE,amazon,tech_giant,,amazon
+AMAZON,TRUE,amazon,tech_giant,,amazon
+"AMAZON , MGM",TRUE,amazon,tech_giant,,amazon
+AMAZON ADVERTISING LLC,TRUE,amazon,tech_giant,,amazon
+AMAZON AWS,TRUE,amazon,tech_giant,,amazon
+AMAZON BOARD OF DIRECTORS,TRUE,amazon,tech_giant,,amazon
+AMAZON COM,TRUE,amazon,tech_giant,,amazon
+AMAZON DATA SERVICES,TRUE,amazon,tech_giant,,amazon
+"AMAZON DATA SERVICES, INC.",TRUE,amazon,tech_giant,,amazon
+"AMAZON DEV CENTER U.S., INC.",TRUE,amazon,tech_giant,,amazon
+AMAZON FILMS,TRUE,amazon,tech_giant,,amazon
+AMAZON INC,TRUE,amazon,tech_giant,,amazon
+AMAZON INC.,TRUE,amazon,tech_giant,,amazon
+AMAZON KUIPER MANUFACTURING,TRUE,amazon,tech_giant,,amazon
+AMAZON LLC,TRUE,amazon,tech_giant,,amazon
+AMAZON MARKEPLACE,TRUE,amazon,tech_giant,,amazon
+AMAZON MGM,TRUE,amazon,tech_giant,,amazon
+AMAZON MGM STUDIOS,TRUE,amazon,tech_giant,,amazon
+AMAZON PAC,TRUE,amazon,tech_giant,pac?,amazon
+AMAZON PRIME,TRUE,amazon,tech_giant,,amazon
+AMAZON PRIME VIDEO,TRUE,amazon,tech_giant,,amazon
+AMAZON PRODUCE NETWORK,TRUE,amazon,tech_giant,,amazon
+AMAZON ROBOTICS,TRUE,amazon,tech_giant,,amazon
+AMAZON STORES,TRUE,amazon,tech_giant,,amazon
+AMAZON STUDIOS,TRUE,amazon,tech_giant,,amazon
+AMAZON UK SERVICES LTD.,TRUE,amazon,tech_giant,,amazon
+AMAZON WATCH,TRUE,amazon,tech_giant,,amazon
+AMAZON WEB SERVICE,TRUE,amazon,tech_giant,,amazon
+AMAZON WEB SERVICES,TRUE,amazon,tech_giant,,amazon
+AMAZON WEB SERVICES INC,TRUE,amazon,tech_giant,,amazon
+AMAZON WEB SERVICES INC.,TRUE,amazon,tech_giant,,amazon
+"AMAZON WEB SERVICES, INC.",TRUE,amazon,tech_giant,,amazon
+"AMAZON, INC.",TRUE,amazon,tech_giant,,amazon
+AMAZON.COM,TRUE,amazon,tech_giant,,amazon
+AMAZON.COM INC,TRUE,amazon,tech_giant,,amazon
+AMAZON.COM INC.,TRUE,amazon,tech_giant,,amazon
+AMAZON.COM LLC,TRUE,amazon,tech_giant,,amazon
+AMAZON.COM SERVICES LLC,TRUE,amazon,tech_giant,,amazon
+"AMAZON.COM, INC",TRUE,amazon,tech_giant,,amazon
+"AMAZON.COM, INC.",TRUE,amazon,tech_giant,,amazon
+"AMAZON/EXECUTIVE/SEATTLE, WA",TRUE,amazon,tech_giant,,amazon
+AMAZONCOM,TRUE,amazon,tech_giant,,amazon
+AMZN,TRUE,amazon,tech_giant,,amazon
+AWS,TRUE,amazon,tech_giant,,amazon
+AWS LLC,TRUE,amazon,tech_giant,,amazon
+AWS REAL ESTATE,TRUE,amazon,tech_giant,,amazon
+"AWS, INC.",TRUE,amazon,tech_giant,,amazon
+"DOORDASH, AMAZON",TRUE,amazon,tech_giant,,amazon; doordash
+IMDB / AMAZON,TRUE,amazon,tech_giant,,amazon
+SELF AMAZON BOARD OF DIRECTORS,TRUE,amazon,tech_giant,,amazon
+"SELF, AMAZON BOARD OF DIRECTORS",TRUE,amazon,tech_giant,,amazon
+TWITCH,TRUE,amazon,tech_giant,,amazon
+TWITCH INTERACTIVE,TRUE,amazon,tech_giant,,amazon
+"TWITCH INTERACTIVE, INC.",TRUE,amazon,tech_giant,,amazon
+WORLDWIDE AMAZON STORES,TRUE,amazon,tech_giant,,amazon
+ZOOX,TRUE,amazon,tech_giant,,amazon
+ZOOX INC,TRUE,amazon,tech_giant,,amazon
+ZOOX INC.,TRUE,amazon,tech_giant,,amazon
+"ZOOX, INC.",TRUE,amazon,tech_giant,,amazon
+ADVANCED MICRO DEVICES,TRUE,amd,semiconductors,,amd
+ADVANCED MICRO DEVICES (AMD),TRUE,amd,semiconductors,,amd
+ADVANCED MICRO DEVICES INC,TRUE,amd,semiconductors,,amd
+ADVANCED MICRO DEVICES INC.,TRUE,amd,semiconductors,,amd
+"ADVANCED MICRO DEVICES, INC",TRUE,amd,semiconductors,,amd
+"ADVANCED MICRO DEVICES, INC.",TRUE,amd,semiconductors,,amd
+AMD,TRUE,amd,semiconductors,,amd
+AMD INC,TRUE,amd,semiconductors,,amd
+AMD INC.,TRUE,amd,semiconductors,,amd
+"AMD, INC",TRUE,amd,semiconductors,,amd
+"AMD, INC.",TRUE,amd,semiconductors,,amd
+ANDURIL,TRUE,anduril,defense,,anduril
+ANDURIL INC.,TRUE,anduril,defense,,anduril
+ANDURIL INDUSTRIAL,TRUE,anduril,defense,,anduril
+ANDURIL INDUSTRIES,TRUE,anduril,defense,,anduril
+ANDURIL INDUSTRIES INC,TRUE,anduril,defense,,anduril
+ANDURIL INDUSTRIES INC.,TRUE,anduril,defense,,anduril
+"ANDURIL INDUSTRIES, INC",TRUE,anduril,defense,,anduril
+"ANDURIL INDUSTRIES, INC,",TRUE,anduril,defense,,anduril
+"ANDURIL INDUSTRIES, INC.",TRUE,anduril,defense,,anduril
+"ANDURIL INDUSTRIES,INC",TRUE,anduril,defense,,anduril
+"ANDURIL, INC.",TRUE,anduril,defense,,anduril
+ANTHROPIC,TRUE,anthropic,ai,,anthropic
+ANTHROPIC PBC,TRUE,anthropic,ai,,anthropic
+"ANTHROPIC, PBC",TRUE,anthropic,ai,,anthropic
+AAPL,TRUE,apple,tech_giant,,apple
+APPLE,TRUE,apple,tech_giant,,apple
+APPLE COMPUTER,TRUE,apple,tech_giant,,apple
+APPLE INC,TRUE,apple,tech_giant,,apple
+APPLE INC.,TRUE,apple,tech_giant,,apple
+APPLE TV,TRUE,apple,tech_giant,,apple
+APPLE TV +,TRUE,apple,tech_giant,,apple
+"APPLE, INC",TRUE,apple,tech_giant,,apple
+"APPLE, INC.",TRUE,apple,tech_giant,,apple
+"APPLE, INC.; UNIV OF CALIFORNIA",TRUE,apple,tech_giant,,apple
+APPLE.COM,TRUE,apple,tech_giant,,apple
+BENCHMARK CAPITAL,TRUE,benchmark,vc,,benchmark
+COINBASE,TRUE,coinbase,fintech,,coinbase
+COREWEAVE,TRUE,coreweave,cloud,,coreweave
+DELL RETIREMENT SERVICES,TRUE,dell,hardware,,dell
+"EBAY, INC.",TRUE,ebay,ecommerce,,ebay
+A VILLAGE WELLNESS CENTER / GOOGLE CLO,TRUE,google,tech_giant,,google
+ADECCO/GOOGLE,TRUE,google,tech_giant,,google
+ALGO FOR GOOGLE,TRUE,google,tech_giant,,google
+ALPHABET,TRUE,google,tech_giant,,google
+ALPHABET (GOOGLE),TRUE,google,tech_giant,,google
+ALPHABET / GOOGLE,TRUE,google,tech_giant,,google
+ALPHABET INC,TRUE,google,tech_giant,,google
+ALPHABET INC.,TRUE,google,tech_giant,,google
+ALPHABET LLC,TRUE,google,tech_giant,,google
+"ALPHABET SOUP PRODUCTIONS, INC.",TRUE,google,tech_giant,,google
+"ALPHABET, INC",TRUE,google,tech_giant,,google
+"ALPHABET, INC.",TRUE,google,tech_giant,,google
+ALPHABET. INC.,TRUE,google,tech_giant,,google
+DEEPMIND,TRUE,google,tech_giant,,google
+GOOG,TRUE,google,tech_giant,,google
+GOOGL,TRUE,google,tech_giant,,google
+GOOGLE,TRUE,google,tech_giant,,google
+GOOGLE  INC,TRUE,google,tech_giant,,google
+GOOGLE / ALPHABET,TRUE,google,tech_giant,,google
+GOOGLE / WAZE,TRUE,google,tech_giant,,google
+GOOGLE ASIA PACIFIC,TRUE,google,tech_giant,,google
+GOOGLE BUT THEY SHOULDNT ASK,TRUE,google,tech_giant,,google
+GOOGLE CANADA CORPORATION,TRUE,google,tech_giant,,google
+GOOGLE CLIENT SERVICES LLC,TRUE,google,tech_giant,,google
+GOOGLE CLOUD,TRUE,google,tech_giant,,google
+GOOGLE CLOUD CORPORATION CANADA,TRUE,google,tech_giant,,google
+GOOGLE CLOUD PLATFORM,TRUE,google,tech_giant,,google
+GOOGLE DEEPMIND,TRUE,google,tech_giant,,google
+GOOGLE FIBER,TRUE,google,tech_giant,,google
+GOOGLE FIBER WEBPASS,TRUE,google,tech_giant,,google
+GOOGLE GERMANY GMBH,TRUE,google,tech_giant,,google
+GOOGLE INC,TRUE,google,tech_giant,,google
+GOOGLE INC.,TRUE,google,tech_giant,,google
+GOOGLE INC. CO BSTOLER,TRUE,google,tech_giant,,google
+GOOGLE INC. LLC,TRUE,google,tech_giant,,google
+GOOGLE INC/ALPHABET,TRUE,google,tech_giant,,google
+GOOGLE JAPAN G.K.,TRUE,google,tech_giant,,google
+GOOGLE JIGSAW,TRUE,google,tech_giant,,google
+GOOGLE LCC,TRUE,google,tech_giant,,google
+GOOGLE LLC,TRUE,google,tech_giant,,google
+GOOGLE LLC.,TRUE,google,tech_giant,,google
+GOOGLE MINISTRIES,TRUE,google,tech_giant,,google
+GOOGLE OPERATIONS CENTER,TRUE,google,tech_giant,,google
+GOOGLE PLAY STORE,TRUE,google,tech_giant,,google
+GOOGLE PROGRAM MANAGER,TRUE,google,tech_giant,,google
+GOOGLE PUBLIC POLICY,TRUE,google,tech_giant,,google
+GOOGLE PUBLIC SECTOR,TRUE,google,tech_giant,,google
+GOOGLE PUBLIC SECTOR LLC,TRUE,google,tech_giant,,google
+"GOOGLE PUBLIC SECTOR, LLC",TRUE,google,tech_giant,,google
+GOOGLE QUANTUM AI,TRUE,google,tech_giant,,google
+GOOGLE SUPPORT SERVICES LLC,TRUE,google,tech_giant,,google
+GOOGLE SWITZERLAND GMBH,TRUE,google,tech_giant,,google
+"GOOGLE SWITZERLAND, GMBH",TRUE,google,tech_giant,,google
+GOOGLE UK,TRUE,google,tech_giant,,google
+GOOGLE UK LTD,TRUE,google,tech_giant,,google
+GOOGLE VENTURES,TRUE,google,tech_giant,,google
+GOOGLE VIA PRO UNLIMITED,TRUE,google,tech_giant,,google
+GOOGLE WEB TOOLKIT,TRUE,google,tech_giant,,google
+GOOGLE'S,TRUE,google,tech_giant,,google
+"GOOGLE, INC",TRUE,google,tech_giant,,google
+"GOOGLE, INC.",TRUE,google,tech_giant,,google
+"GOOGLE, LLC",TRUE,google,tech_giant,,google
+"GOOGLE, LLC.",TRUE,google,tech_giant,,google
+"GOOGLE, WOMEN TECHMAKERS",TRUE,google,tech_giant,,google
+"GOOGLE,INC",TRUE,google,tech_giant,,google
+GOOGLE.,TRUE,google,tech_giant,,google
+GOOGLE.COM,TRUE,google,tech_giant,,google
+GOOGLE.ORG,TRUE,google,tech_giant,,google
+GOOGLE/ALPHABET,TRUE,google,tech_giant,,google
+GOOGLEINC,TRUE,google,tech_giant,,google
+GOOGLER,TRUE,google,tech_giant,,google
+HARVARD/GOOGLE,TRUE,google,tech_giant,,google
+HHGLOBAL/GOOGLE,TRUE,google,tech_giant,,google
+"MOTOROLA MOBILITY, A GOOGLE COMPANY",TRUE,google,tech_giant,,google
+MOTOROLA MOBILITY/GOOGLE,TRUE,google,tech_giant,,google
+PSK-ALPHABET CORP.,TRUE,google,tech_giant,psk also a semiconductors co,google
+SELF EMPLOYED/GOOGLE,TRUE,google,tech_giant,,google
+VERILY,TRUE,google,tech_giant,,google
+VERILY LIFE SCIENCES,TRUE,google,tech_giant,,google
+VERILY LIFE SCIENCES LLC,TRUE,google,tech_giant,,google
+"VERILY LIFE SCIENCES, LLC",TRUE,google,tech_giant,,google
+VERILY LIFE SCIENCEZ,TRUE,google,tech_giant,,google
+VERILY LLC,TRUE,google,tech_giant,,google
+WAYMO,TRUE,google,tech_giant,,google
+WAYMO INC,TRUE,google,tech_giant,,google
+WAYMO LLC,TRUE,google,tech_giant,,google
+"WAYMO, INC.",TRUE,google,tech_giant,,google
+"WAYMO, LLC",TRUE,google,tech_giant,,google
+YOUTUBE,TRUE,google,tech_giant,,google
+"YOUTUBE, LLC",TRUE,google,tech_giant,,google
+GREYLOCK,TRUE,greylock,vc,,greylock
+GREYLOCK PARTNERS,TRUE,greylock,vc,,greylock
+GROQ,TRUE,groq,semiconductors,,groq
+IBM,TRUE,ibm,tech_giant,,ibm
+IBM CONSULTING,TRUE,ibm,tech_giant,,ibm
+IBM CORP,TRUE,ibm,tech_giant,,ibm
+IBM CORP.,TRUE,ibm,tech_giant,,ibm
+IBM CORPORATION,TRUE,ibm,tech_giant,,ibm
+IBM RESEARCH,TRUE,ibm,tech_giant,,ibm
+IBM WATSON HEALTH,TRUE,ibm,tech_giant,,ibm
+KHOSLA PARTNERS,TRUE,khosla,vc,,khosla
+KHOSLA VENTURES,TRUE,khosla,vc,,khosla
+KHOSLA VENTURES LLC,TRUE,khosla,vc,,khosla
+"KHOSLA VENTURES, LLC",TRUE,khosla,vc,,khosla
+KLEINER PERKINS,TRUE,kleiner,vc,,kleiner
+KLEINER PERKINS CAUFIELD,TRUE,kleiner,vc,,kleiner
+KLEINER PERKINS CAUFIELD & BYERS,TRUE,kleiner,vc,,kleiner
+KLEINER PERKINS CAUFIELD & BYERS LLC,TRUE,kleiner,vc,,kleiner
+KLEINER PERKINS CAUFIELD AND BYERS,TRUE,kleiner,vc,,kleiner
+KLEINER PERKINS CAUFIELD BYERS,TRUE,kleiner,vc,,kleiner
+KLEINER PERKINS CAULFIELD & BYERS,TRUE,kleiner,vc,,kleiner
+"KLEINER, PERKINS, CAUFIELD & BYERS",TRUE,kleiner,vc,,kleiner
+"KLEINER, PERKINS, CAUFIELD, & BYERS",TRUE,kleiner,vc,,kleiner
+KLEINERPERKINS,TRUE,kleiner,vc,,kleiner
+PARTNER AT KLEINER,TRUE,kleiner,vc,,kleiner
+PARTNER AT KLEINER PERKINS CAUFIELD &,TRUE,kleiner,vc,,kleiner
+CBRE AT FACEBOOK,TRUE,meta,tech_giant,,meta
+EVIL FACEBOOK EMPIRE,TRUE,meta,tech_giant,,meta
+FACEBOOK,TRUE,meta,tech_giant,,meta
+FACEBOOK / META,TRUE,meta,tech_giant,,meta
+FACEBOOK INC,TRUE,meta,tech_giant,,meta
+FACEBOOK INC.,TRUE,meta,tech_giant,,meta
+"FACEBOOK, INC",TRUE,meta,tech_giant,,meta
+"FACEBOOK, INC.",TRUE,meta,tech_giant,,meta
+FACEBOOK. INC.,TRUE,meta,tech_giant,,meta
+INSTAGRAM,TRUE,meta,tech_giant,,meta
+META,TRUE,meta,tech_giant,,meta
+META FACEBOOK,TRUE,meta,tech_giant,,meta
+META PLATFORMS,TRUE,meta,tech_giant,,meta
+META PLATFORMS (FB),TRUE,meta,tech_giant,,meta
+META PLATFORMS INC,TRUE,meta,tech_giant,,meta
+META PLATFORMS INC.,TRUE,meta,tech_giant,,meta
+META PLATFORMS LLC,TRUE,meta,tech_giant,,meta
+"META PLATFORMS TECHNOLOGIES, LLC",TRUE,meta,tech_giant,,meta
+"META PLATFORMS, INC",TRUE,meta,tech_giant,,meta
+"META PLATFORMS, INC.",TRUE,meta,tech_giant,,meta
+"META PLATFORMS, LLC",TRUE,meta,tech_giant,,meta
+"META PLATFORMS,INC",TRUE,meta,tech_giant,,meta
+META REALITY LABS,TRUE,meta,tech_giant,,meta
+META/FACEBOOK,TRUE,meta,tech_giant,,meta
+WHATSAPP,TRUE,meta,tech_giant,,meta
+1159 SPRING AZURE WAY,TRUE,microsoft,tech_giant,,microsoft
+ACTIVISION BLIZZARD / MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+"CHIEF SCIENTIFIC OFFICER, MICROSOFT",TRUE,microsoft,tech_giant,,microsoft
+CONSULTANT WITH MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+CONTRACTED TO MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+GITHUB,TRUE,microsoft,tech_giant,,microsoft
+GITHUB (OWNED BY MICROSOFT),TRUE,microsoft,tech_giant,,microsoft
+GITHUB INC,TRUE,microsoft,tech_giant,,microsoft
+GITHUB INC.,TRUE,microsoft,tech_giant,,microsoft
+"GITHUB, INC",TRUE,microsoft,tech_giant,,microsoft
+"GITHUB, INC.",TRUE,microsoft,tech_giant,,microsoft
+GITHUB/MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+INSIGHT GLOBAL / MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+LINKEDIN,TRUE,microsoft,tech_giant,,microsoft
+LINKEDIN CORP,TRUE,microsoft,tech_giant,,microsoft
+LINKEDIN CORP.,TRUE,microsoft,tech_giant,,microsoft
+LINKEDIN CORPORATION,TRUE,microsoft,tech_giant,,microsoft
+LINKEDIN LEARNING,TRUE,microsoft,tech_giant,,microsoft
+LINKEDIN U.S. POLICY AND ECONOMIC GRAP,TRUE,microsoft,tech_giant,,microsoft
+LINKEDIN/MSFT,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT ALUMNI FOUNDATION,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT ALUMNI NETWORK,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT CO,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT COMPANY,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT CONSULTANT,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT CORP,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT CORP.,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT CORPORATION,TRUE,microsoft,tech_giant,,microsoft
+"MICROSOFT CORPORATION, INC.",TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT CORPORTATION,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT FEDERAL,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT GAMING,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT HEALTH & LIFE SCIENCES,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT IBERIA,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT INC,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT INC.,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT IT CONSULTANT,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT JAPAN,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT RESEARCH,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT'S,TRUE,microsoft,tech_giant,,microsoft
+"MICROSOFT, CORP.",TRUE,microsoft,tech_giant,,microsoft
+"MICROSOFT, INC",TRUE,microsoft,tech_giant,,microsoft
+"MICROSOFT, INC.",TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT.,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT/USGA,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFT/XBOX,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFTQ,TRUE,microsoft,tech_giant,,microsoft
+MICROSOFTRR,TRUE,microsoft,tech_giant,,microsoft
+MSFT,TRUE,microsoft,tech_giant,,microsoft
+MV TRANSPORTATION/MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+NOWLAND - MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+NUANCE A MICROSOFT COMPANY,TRUE,microsoft,tech_giant,,microsoft
+"NUANCE, A MICROSOFT COMPANY",TRUE,microsoft,tech_giant,,microsoft
+WIPRO/MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+ZENIMAX MEDIA INC/MICROSOFT,TRUE,microsoft,tech_giant,,microsoft
+NETFLIX,TRUE,netflix,tech_giant,,netflix
+INVIDIA,TRUE,nvidia,semiconductors,,nvidia
+INVIDIA CORPORATION,TRUE,nvidia,semiconductors,,nvidia
+NVDA,TRUE,nvidia,semiconductors,,nvidia
+NVIDIA,TRUE,nvidia,semiconductors,,nvidia
+NVIDIA ARC GMBH,TRUE,nvidia,semiconductors,,nvidia
+NVIDIA CORE,TRUE,nvidia,semiconductors,,nvidia
+NVIDIA CORP,TRUE,nvidia,semiconductors,,nvidia
+NVIDIA CORP.,TRUE,nvidia,semiconductors,,nvidia
+NVIDIA CORPERATION,TRUE,nvidia,semiconductors,,nvidia
+NVIDIA CORPORATION,TRUE,nvidia,semiconductors,,nvidia
+NVIDIA INC,TRUE,nvidia,semiconductors,,nvidia
+NVIDIA INC.,TRUE,nvidia,semiconductors,,nvidia
+"NVIDIA, INC.",TRUE,nvidia,semiconductors,,nvidia
+UC IRVINE AND NVIDIA,TRUE,nvidia,semiconductors,,nvidia
+UCI & NVIDIA,TRUE,nvidia,semiconductors,,nvidia
+OPEN AI,TRUE,openai,ai,,openai
+OPENAI,TRUE,openai,ai,,openai
+OPENAI LP,TRUE,openai,ai,,openai
+"OPENAI, LP",TRUE,openai,ai,,openai
+ORACLE,TRUE,oracle,cloud,,oracle
+ORACLE (DON'T JUDGE ME),TRUE,oracle,cloud,,oracle
+ORACLE AMERICA,TRUE,oracle,cloud,,oracle
+ORACLE AMERICA INC,TRUE,oracle,cloud,,oracle
+ORACLE AMERICA INC.,TRUE,oracle,cloud,,oracle
+ORACLE AMERICA INCORPORATED,TRUE,oracle,cloud,,oracle
+"ORACLE AMERICA, INC",TRUE,oracle,cloud,,oracle
+"ORACLE AMERICA, INC.",TRUE,oracle,cloud,,oracle
+ORACLE AMERICAS,TRUE,oracle,cloud,,oracle
+ORACLE CERNER,TRUE,oracle,cloud,,oracle
+ORACLE CLOAD INFRASTRUCTION,TRUE,oracle,cloud,,oracle
+ORACLE CLOUD INFRASTRUCTURE,TRUE,oracle,cloud,,oracle
+ORACLE CORP,TRUE,oracle,cloud,,oracle
+ORACLE CORP.,TRUE,oracle,cloud,,oracle
+ORACLE CORPORATION,TRUE,oracle,cloud,,oracle
+ORACLE CORPORATION CANADA,TRUE,oracle,cloud,,oracle
+ORACLE CRP,TRUE,oracle,cloud,,oracle
+ORACLE CZECH REPUBLIC,TRUE,oracle,cloud,,oracle
+ORACLE DATA CLOUD,TRUE,oracle,cloud,,oracle
+ORACLE DATABASE ADMINISTRATOR,TRUE,oracle,cloud,,oracle
+ORACLE ERP CLOUD,TRUE,oracle,cloud,,oracle
+ORACLE GLOBAL SERVICES,TRUE,oracle,cloud,,oracle
+ORACLE GLOBAL SERVICES CZECH REPUBLIC,TRUE,oracle,cloud,,oracle
+ORACLE HEALTH,TRUE,oracle,cloud,,oracle
+ORACLE HEALTH AND LIFE SCIENCES,TRUE,oracle,cloud,,oracle
+ORACLE HEALTH FOUNDATION,TRUE,oracle,cloud,,oracle
+ORACLE HEALTHCARE,TRUE,oracle,cloud,,oracle
+ORACLE HEART AND VASCULAR,TRUE,oracle,cloud,,oracle
+ORACLE HHC,TRUE,oracle,cloud,,oracle
+ORACLE INC,TRUE,oracle,cloud,,oracle
+ORACLE INC.,TRUE,oracle,cloud,,oracle
+ORACLE MGMT,TRUE,oracle,cloud,,oracle
+ORACLE NETSUITE,TRUE,oracle,cloud,,oracle
+ORACLE SYSTEMS,TRUE,oracle,cloud,,oracle
+ORACLE SYSTEMS LLP,TRUE,oracle,cloud,,oracle
+ORACLE USA,TRUE,oracle,cloud,,oracle
+ORACLE USA INC,TRUE,oracle,cloud,,oracle
+"ORACLE, CORP",TRUE,oracle,cloud,,oracle
+"ORACLE, CORP.",TRUE,oracle,cloud,,oracle
+"ORACLE, INC",TRUE,oracle,cloud,,oracle
+"ORACLE, INC.",TRUE,oracle,cloud,,oracle
+"ORACLE, USA",TRUE,oracle,cloud,,oracle
+ORACLE.,TRUE,oracle,cloud,,oracle
+ORACLE/CERNER,TRUE,oracle,cloud,,oracle
+ORACLE/NETSUITE,TRUE,oracle,cloud,,oracle
+FORMERLY GOOGLE,TRUE,other,tech_giant,,google
+PALANTIR.NET,TRUE,other,other,not the famous palantir,palantir
+TESLA GOVERNMENT INC,TRUE,other,data,,tesla
+TESLA GOVERNMENT INC.,TRUE,other,data,,tesla
+"TESLA GOVERNMENT, INC",TRUE,other,data,,tesla
+TESLA GOVT INC.,TRUE,other,data,,tesla
+"TESLA GOVT, INC.",TRUE,other,data,,tesla
+TESLAR.COM,TRUE,other,wearables,weird,tesla
+PALANTIR,TRUE,palantir,,,palantir
+PALANTIR TECHNOLOGIES,TRUE,palantir,defense,,palantir
+QCOM,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM ATHEROS INC,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM ATHEROS INC.,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM CORP.,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM EDUCATION,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM INC,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM INC.,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM INCORPORATED,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM LIFE,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM TECHNOLOGIES,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM TECHNOLOGIES INC,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM TECHNOLOGIES INC.,TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMM TECHNOLOGIES INCORPORATED,TRUE,qualcomm,semiconductors,,qualcomm
+"QUALCOMM TECHNOLOGIES, INC",TRUE,qualcomm,semiconductors,,qualcomm
+"QUALCOMM TECHNOLOGIES, INC.",TRUE,qualcomm,semiconductors,,qualcomm
+"QUALCOMM TECNOLOGIES, INC.",TRUE,qualcomm,semiconductors,,qualcomm
+"QUALCOMM, INC",TRUE,qualcomm,semiconductors,,qualcomm
+"QUALCOMM, INC.",TRUE,qualcomm,semiconductors,,qualcomm
+QUALCOMMM,TRUE,qualcomm,semiconductors,,qualcomm
+RIPPLE,TRUE,ripple,fintech,,ripple
+SALESFORCE,TRUE,salesforce,,,salesforce
+SEQUOIA CAPITAL,TRUE,sequoia,vc,,sequoia
+SEQUOIA CAPITAL GLOBAL EQUITIES,TRUE,sequoia,vc,,sequoia
+SEQUOIA CAPITOL,TRUE,sequoia,vc,,sequoia
+SHOPIFY,TRUE,shopify,ecommerce,,shopify
+STRIPE,TRUE,stripe,fintech,,stripe
+STRIPE INC,TRUE,stripe,fintech,,stripe
+STRIPE INC.,TRUE,stripe,fintech,,stripe
+STRIPE INCE,TRUE,stripe,fintech,,stripe
+"STRIPE, INC",TRUE,stripe,fintech,,stripe
+"STRIPE, INC.",TRUE,stripe,fintech,,stripe
+"STRIPE, WIX",TRUE,stripe,fintech,,stripe
+TESLA,TRUE,tesla,cars,,tesla
+TESLA ENERGY,TRUE,tesla,cars,,tesla
+TESLA INC,TRUE,tesla,cars,,tesla
+TESLA INC.,TRUE,tesla,cars,,tesla
+TESLA MOTORS,TRUE,tesla,cars,,tesla
+TESLA MOTORS INC,TRUE,tesla,cars,,tesla
+TESLA MOTORS INC.,TRUE,tesla,cars,,tesla
+"TESLA, INC",TRUE,tesla,cars,,tesla
+"TESLA, INC.",TRUE,tesla,cars,,tesla
+TESLA. INC.,TRUE,tesla,cars,,tesla
+UBER,TRUE,uber,,,uber
+UNION SQUARE VENTURES,TRUE,union_square_ventures,vc,,block_inc
+IT NETWORK SYSTEMS AT SPACE X,TRUE,x_twitter_spacex,elon_empire,,spacex
+JACINTHA-JFI; DAVID-SPACEX,TRUE,x_twitter_spacex,elon_empire,,spacex
+SPACE EXPLORATION TECH,TRUE,x_twitter_spacex,elon_empire,,spacex
+SPACE EXPLORATION TECHNOLOGIES,TRUE,x_twitter_spacex,elon_empire,,spacex
+SPACE EXPLORATION TECHNOLOGIES CORP,TRUE,x_twitter_spacex,elon_empire,,spacex
+SPACE EXPLORATION TECHNOLOGIES CORP.,TRUE,x_twitter_spacex,elon_empire,,spacex
+SPACE EXPLORATION TECHNOLOGIES CORPORA,TRUE,x_twitter_spacex,elon_empire,,spacex
+SPACE EXPLORATION TECHNOLOGIES INC.,TRUE,x_twitter_spacex,elon_empire,,spacex
+SPACE X,TRUE,x_twitter_spacex,elon_empire,,spacex
+SPACE X - TESLA MOTORS,TRUE,x_twitter_spacex,elon_empire,,tesla; spacex
+SPACEX,TRUE,x_twitter_spacex,elon_empire,,spacex
+SPACEX/TESLA,TRUE,x_twitter_spacex,elon_empire,,tesla; spacex
+TWITTER,TRUE,x_twitter_spacex,tech,elon_empire,twitter
+TWITTER INC,TRUE,x_twitter_spacex,tech,,twitter
+TWITTER INC.,TRUE,x_twitter_spacex,tech,,twitter
+"TWITTER, INC",TRUE,x_twitter_spacex,tech,,twitter
+"TWITTER, INC.",TRUE,x_twitter_spacex,tech,,twitter
+ZOOM,TRUE,zoom,communications,,zoom
+ZOOM VIDEO COMMUNICATION,TRUE,zoom,communications,,zoom
+ZOOM VIDEO COMMUNICATIONS,TRUE,zoom,communications,,zoom
+ZOOM VIDEO COMMUNICATIONS INC,TRUE,zoom,communications,,zoom
+ZOOM VIDEO COMMUNICATIONS INC.,TRUE,zoom,communications,,zoom
+"ZOOM VIDEO COMMUNICATIONS, INC",TRUE,zoom,communications,,zoom
+"ZOOM VIDEO COMMUNICATIONS, INC.",TRUE,zoom,communications,,zoom
+ZOOM.US,TRUE,zoom,communications,MAYBE,zoom
+1847 PHILANTHROPIC,FALSE,,,,anthropic
+ABX AIR,FALSE,,,,xai
+ABX AIR INC,FALSE,,,,xai
+ABX AIR INC.,FALSE,,,,xai
+"ABX AIR, INC.",FALSE,,,,xai
+ACCENT STRIPE,FALSE,,,,stripe
+ACCENT STRIPE INC,FALSE,,,,stripe
+"ACCENT STRIPE, INC",FALSE,,,,stripe
+ADVANCED MICRON TOOL,FALSE,,,,micron
+ADVANCED MICRONUTRIENTS,FALSE,,,,micron
+ALPHABET ACADEMY,FALSE,,,,google
+ALPHABET SOUP,FALSE,,,,google
+ALPHABET SOUP ABA,FALSE,,,,google
+ALPHABET SOUP CHILDCARE INC.,FALSE,,,,google
+"ALPHABET SOUP CHILDCARE, INC.",FALSE,,,,google
+AMAZON/RETIRED,FALSE,,,RETIRED,amazon
+AMD ENVIRONMENTAL CONSULTANTS,FALSE,,,,amd
+AMD HOMES LLC,FALSE,,,,amd
+AMD HOMES LLC SELF,FALSE,,,,amd
+AMD HOMES LLC.   SELF EMPLOYED,FALSE,,,,amd
+AMD HOMES SELF,FALSE,,,,amd
+"AMD HOMES, LLC",FALSE,,,,amd
+AMD TECHNOLOGIES,FALSE,,,,amd
+AMERICAN PHILANTHROPIC,FALSE,,,,anthropic
+AMZN EXPAND LLC,FALSE,,,maybe,amazon
+ANDY'S PRECISION SEAL & STRIPE,FALSE,,,,stripe
+APPLE FRUITS,FALSE,,,,apple
+AT&T (RETIRED),FALSE,,,RETIRED,att
+AT&T - RETIRED,FALSE,,,RETIRED,att
+AT&T- RETIRED,FALSE,,,RETIRED,att
+AURORA PHILANTHROPIC,FALSE,,,,anthropic
+AUTO ZOOM DISTRUBTION CENTER,FALSE,,,,zoom
+AZURE,FALSE,,,MAYBE,microsoft
+AZURE HOLDINGS INC,FALSE,,,,microsoft
+"AZURE HOLDINGS, INC",FALSE,,,,microsoft
+AZURE MICRODYNAMICS,FALSE,,,,microsoft
+AZURE MICRODYNAMICS INC,FALSE,,,,microsoft
+AZURE MICRODYNAMICSM INC,FALSE,,,,microsoft
+AZURE MICRODYNAMICSM INC.,FALSE,,,,microsoft
+AZURE MIDSTREAM,FALSE,,,,microsoft
+AZURE NORTHWEST,FALSE,,,,microsoft
+AZURE PARTNERS,FALSE,,,,microsoft
+AZURE PLATINUM GROUP LLC,FALSE,,,,microsoft
+AZURE POOLS,FALSE,,,,microsoft
+AZURE POOLS AND SPAS,FALSE,,,,microsoft
+AZURE POWER SYSTEMS,FALSE,,,,microsoft
+AZURE PRISM,FALSE,,,,microsoft
+AZURE SHORE,FALSE,,,,microsoft
+AZURE SKIN CARE,FALSE,,,,microsoft
+AZURE SPA,FALSE,,,,microsoft
+AZURE SPRING,FALSE,,,,microsoft
+AZURE SPRING WATER SOLUTIONS,FALSE,,,,microsoft
+AZURE SUMMIT TECHNOLOGY,FALSE,,,,microsoft
+AZURE SUMMIT TECHNOLOGY INC.,FALSE,,,,microsoft
+"AZURE SUMMIT TECHNOLOGY, INC.",FALSE,,,,microsoft
+AZURE TECHNOLOGIES,FALSE,,,,microsoft
+AZURE VIEW CONSULTING,FALSE,,,,microsoft
+AZURE WATER MANAGEMENT,FALSE,,,,microsoft
+AZUREGREEN.NET,FALSE,,,,microsoft
+AZURES CARE,FALSE,,,,microsoft
+AZUREST PARTNERS,FALSE,,,,microsoft
+BRIDGE PHILANTHROPIC CONSULTING LLC,FALSE,,,,anthropic
+"BRIDGE PHILANTHROPIC CONSULTING, LLC",FALSE,,,,anthropic
+CAL STRIPE INC,FALSE,,,,stripe
+CLUB AZURE,FALSE,,,,microsoft
+CO STRIPE,FALSE,,,,stripe
+CO-IMPACT PHILANTHROPIC FUNDS,FALSE,,,,anthropic
+CO-IMPACT PHILANTHROPIC FUNDS INC.,FALSE,,,,anthropic
+"CO-IMPACT PHILANTHROPIC FUNDS, INC.",FALSE,,,,anthropic
+CODY ENT INC  DBA  ZOOM TOY STORE,FALSE,,,,zoom
+CODY ENT INC DBA ZOOM TOY STORE,FALSE,,,,zoom
+CONCORDIA PHILANTHROPIC FUND,FALSE,,,,anthropic
+CSX CORPORATION,FALSE,,,this is not twitter,twitter
+DIFFERENT STRIPE,FALSE,,,,stripe
+ERIC KLEINER,FALSE,,,,kleiner
+EVERGREEN PHILANTHROPIC SOLUTIONS,FALSE,,,,anthropic
+FINN CREEK OPEN AIR MUSEUM,FALSE,,,,openai
+FJC: A FOUNDATION OF PHILANTHROPIC FUN,FALSE,,,,anthropic
+FORCED TO RETIRE FROM AT&T IN 2005,FALSE,,,RETIRED,att
+FOX CORPORATION,FALSE,,,,twitter
+GRISTEDES FOODS & RED APPLE GROUP,FALSE,,,,apple
+GRYPHON PHILANTHROPIC PARTNERS,FALSE,,,,anthropic
+"GRYPHON PHILANTHROPIC PARTNERS,",FALSE,,,,anthropic
+HORIZON PHILANTHROPIC,FALSE,,,,anthropic
+HUE & STRIPE,FALSE,,,,stripe
+IBM  RETIRED,FALSE,,,RETIRED,ibm
+IBM (RETIRED),FALSE,,,RETIRED,ibm
+IBM - RETIRED,FALSE,,,RETIRED,ibm
+IBM - RETIRED 1/1/1992,FALSE,,,RETIRED,ibm
+IBM CORP RETIRED,FALSE,,,RETIRED,ibm
+IBM RESEARCH (RETIRED),FALSE,,,RETIRED,ibm
+IBM RETIRED,FALSE,,,RETIRED,ibm
+INTERLINKEDINTERPUBLIC GROUP,FALSE,,,,microsoft
+JMC PHILANTHROPIC ADVISORS,FALSE,,,,anthropic
+"KARIN KLEINER, MFT",FALSE,,,,kleiner
+KUIPERKRAEMER PC,FALSE,,,,amazon
+LATHAM AMD WATKINS,FALSE,,,,amd
+MANALAPAN ORACLE,FALSE,,,,oracle
+MANALAPAN ORACLE CAPITAL,FALSE,,,,oracle
+MANALAPAN ORACLE CAPITAL MANAGEMENT LL,FALSE,,,,oracle
+MAZUREK LAW FIRM,FALSE,,,,microsoft
+MCQUEEN PHILANTHROPIC,FALSE,,,,anthropic
+MEAZURE LEARNING,FALSE,,,,microsoft
+MIDNIGHT ORACLE LLC,FALSE,,,,oracle
+"MIDNIGHT ORACLE, LLC",FALSE,,,,oracle
+MILLER APPLE LP,FALSE,,,,apple
+MILLER-APPLE LP,FALSE,,,,apple
+MORGAN TIDALGO SUKHODREV & AZZOLINO LL,FALSE,,,,block_inc
+NATIONAL PHILANTHROPIC,FALSE,,,,anthropic
+NATIONAL PHILANTHROPIC TRUST,FALSE,,,,anthropic
+NEBRASKA PHILANTHROPIC TRUST,FALSE,,,,anthropic
+NGROK,FALSE,,,,xai
+NORTON PHILANTHROPIC COUNSEL,FALSE,,,,anthropic
+OPEN AIR ARCHITECTURE,FALSE,,,,openai
+ORACLE CAPITAL LLC,FALSE,,,,oracle
+ORACLE CONSTRUCTION,FALSE,,,,oracle
+ORACLE ELECTRIC SERVICE,FALSE,,,maybe,oracle
+ORACLE ELEVATOR,FALSE,,,,oracle
+ORACLE ENCODER,FALSE,,,,oracle
+ORACLE ENERGY AND WATER,FALSE,,,maybe,oracle
+ORACLE FINANCIAL SOLUTIONS,FALSE,,,,oracle
+ORACLE FOOD,FALSE,,,,oracle
+ORACLE FORENSICS,FALSE,,,,oracle
+ORACLE GLOBAL SERVICES CR,FALSE,,,maybe,oracle
+ORACLE HOSPITALITY,FALSE,,,,oracle
+ORACLE INS GROUP,FALSE,,,,oracle
+ORACLE INVESTMENT MANAGEMENT,FALSE,,,,oracle
+ORACLE INVESTMENT MGT,FALSE,,,,oracle
+ORACLE LAND & HOMES,FALSE,,,,oracle
+ORACLE LIGHTING OF HOUSTON,FALSE,,,,oracle
+ORACLE SAFETY CONSULTING,FALSE,,,,oracle
+ORACLE STRATEGIES,FALSE,,,,oracle
+ORACLE UTILITIES,FALSE,,,,oracle
+PAMELA MURRAY/ PHILANTHROPIC ADVISOR,FALSE,,,,anthropic
+PERSHING SQUARE CAPITAL MANAGEMENT,FALSE,,hedge fund,bill ackman,block_inc
+PHILANTHROPIC ADVISORS,FALSE,,,,anthropic
+PHILANTHROPIC FOUNDATION,FALSE,,,,anthropic
+PHILANTHROPIC ORGANIZATION,FALSE,,,,anthropic
+"PHILANTHROPIC SOLUTIONS, LTD",FALSE,,,,anthropic
+PHILANTHROPIC VENTURES FOUNDATION,FALSE,,,,anthropic
+PT PHILANTHROPIC,FALSE,,,,anthropic
+QUICK STRIPE PARING,FALSE,,,,stripe
+QUINN'S HOUSE AMAZON INC,FALSE,,,,amazon
+"QUINN'S HOUSE AMAZON, INC",FALSE,,,,amazon
+RED APPLE GROUP,FALSE,,,,apple
+RED STRIPE PLANE GROUP,FALSE,,,,stripe
+RETIRED - AT&T,FALSE,,,RETIRED,att
+RETIRED AT&T,FALSE,,,RETIRED,att
+RETIRED ATT,FALSE,,,RETIRED,att
+RETIRED FROM APPLE INC,FALSE,,,RETIRED,apple
+RETIRED FROM AT&T,FALSE,,,RETIRED,att
+RETIRED FROM GOOGLE,FALSE,,,RETIRED,google
+RETIRED FROM LAWRENCE UNIVERSITY APPLE,FALSE,,,RETIRED,apple
+RETIRED GOV (INTEL COMMUNITY),FALSE,,,RETIRED,intel
+RETIRED IBM,FALSE,,,RETIRED,ibm
+RETIRED VERIZON,FALSE,,,RETIRED,verizon
+"ROBINHOOD MARKETS, INC.",FALSE,,fintech,,robinhood
+ROC2 (GOOGLE IT),FALSE,,,,google
+ROCKEFELLER PHILANTHROPIC ADVISORS,FALSE,,,,anthropic
+ROOTED PHILANTHROPIC,FALSE,,,,anthropic
+RUTH MAZUREK,FALSE,,,,microsoft
+S. FLA. PHILANTHROPIC CONSULTING SERVI,FALSE,,,,anthropic
+SOCIAL ENTERPRISE/PHILANTHROPIC/PUBLIC,FALSE,,,,anthropic
+SQUARE D CO. RETIRED,FALSE,,,RETIRED,block_inc
+STRATEGIC PHILANTHROPIC CONSULTING,FALSE,,,,anthropic
+STRIPE RITE INC,FALSE,,,,stripe
+STRIPE SPECIALIST LLC,FALSE,,,,stripe
+SUPER SEAL AND STRIPE,FALSE,,,,stripe
+TESLA COIL WORKS,FALSE,,,,tesla
+TESLA REALTY,FALSE,,,,tesla
+TESLA REALTY GROUP LLC,FALSE,,,,tesla
+THE PHILANTHROPIC GROUP,FALSE,,,,anthropic
+THE PHILANTHROPIC INITIATIV E,FALSE,,,,anthropic
+THE PHILANTHROPIC INITIATIVE,FALSE,,,,anthropic
+THE WETLANDS CHILDCARE CENTER GOOGLE,FALSE,,,,google
+TIDES -PHILANTHROPIC INITIATIVE FOR RA,FALSE,,,,anthropic
+TSM CORPORATION,FALSE,,,,tsmc
+VALMARK ADVISERS - ORACLE FINANCIAL SO,FALSE,,,,oracle
+VERY LIBERAL LAW FIRM IN TIMES SQUARE,FALSE,,,,block_inc
+VISIONARY PHILANTHROPIC CONSULTANTS,FALSE,,,,anthropic
+WAYMON LYNCH & ASSOCIATES INC,FALSE,,,,google
+"WAYMON LYNCH & ASSOCIATES, INC",FALSE,,,,google
+WAYMON LYNCH INSURANCE AGENCY,FALSE,,,,google
+WAYMOUTH FARMS,FALSE,,,,google
+WELLSPRING PHILANTHROPIC FUND,FALSE,,,,anthropic
+WHITE STRIPE ANESTHESIA PLLC,FALSE,,,,stripe
+WWW.LINKEDIN.COM/IN/SANDRASLATER/,FALSE,,,,microsoft
+YHE PHILANTHROPIC COLLABORATIVE FOR ED,FALSE,,,,anthropic
+ZOOM 7 INC,FALSE,,,,zoom
+ZOOM AUTOMOTIVE LLC,FALSE,,,,zoom
+ZOOM CONTRACTING,FALSE,,,,zoom
+ZOOM DISPOSAL,FALSE,,,,zoom
+ZOOM DISPOSAL SERVICES,FALSE,,,,zoom
+"ZOOM FILM, INC.",FALSE,,,,zoom
+ZOOM FILMS INC,FALSE,,,,zoom
+ZOOM FILMS INC.,FALSE,,,,zoom
+"ZOOM FILMS, INC.",FALSE,,,,zoom
+ZOOM FOUNDATION,FALSE,,,,zoom
+ZOOM INC,FALSE,,,,zoom
+ZOOM LOANS,FALSE,,,,zoom
+ZOOM MARKETING,FALSE,,,,zoom
+ZOOM SMILE PC,FALSE,,,,zoom
+ZOOM TECHNICAL SERVICES,FALSE,,,,zoom
+ZOOM TELEPHONICS INC,FALSE,,,,zoom
+ZOOM TELEPHONICS INC.,FALSE,,,,zoom
+"ZOOM TELEPHONICS, INC.",FALSE,,,,zoom
+ZOOM THRU,FALSE,,,,zoom
+ZOOM TOY STORE,FALSE,,,,zoom
+ZOOM VIDEO COMMUNICSTIONS INC.,FALSE,,,,zoom
+ZOOM+,FALSE,,,,zoom
+ZOOM+CARE,FALSE,,,,zoom
+"ZOOM, INC.",FALSE,,,,zoom
+"ANTHROPIC, INC",FALSE,anthropic,ai,,anthropic
+BLOOMBERG,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG ASSOCIATES,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG ASSOCIATES LLC,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG BETA,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG BNA,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG BNA / SELF,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG COMPANY,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG FINANCIAL LP,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG FINANCIAL NEWS,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG FOUNDATION,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG INC,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG INC.,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG INDG,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG INDUSTRY GROUP,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG INSTITUTE,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG L. P.,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG L.P,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG L.P.,FALSE,bloomberg,tech_media,,atlassian
+"BLOOMBERG LAW FIRM, P.C.",FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG LLC,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG LLP,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG LP,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG LS,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG MEDIA,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG PHILANTHANIES,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG PHILANTHROPIES,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG PHILANTHROPISTS,FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERG TAX & ACCOUNTING,FALSE,bloomberg,tech_media,,atlassian
+"BLOOMBERG, INC.",FALSE,bloomberg,tech_media,,atlassian
+"BLOOMBERG, L.P.",FALSE,bloomberg,tech_media,,atlassian
+"BLOOMBERG, LLC",FALSE,bloomberg,tech_media,,atlassian
+"BLOOMBERG, LLP",FALSE,bloomberg,tech_media,,atlassian
+"BLOOMBERG, LP",FALSE,bloomberg,tech_media,,atlassian
+BLOOMBERGLP,FALSE,bloomberg,tech_media,,atlassian
+BNA (NOW KNOWN AS BLOOMBERG-BNA),FALSE,bloomberg,tech_media,,atlassian
+BURKHARDT PECORA BLOOMBERG,FALSE,bloomberg,tech_media,,atlassian
+BURKHARDT PECORA BLOOMBERG ORTHODONTIS,FALSE,bloomberg,tech_media,,atlassian
+FIERST BLOOMBERG OHM LLP,FALSE,bloomberg,tech_media,,atlassian
+JOHNS HOPKINS BLOOMBERG SCHOOL OF PUBL,FALSE,bloomberg,tech_media,,atlassian
+MAYOR MICHAEL R. BLOOMBERG,FALSE,bloomberg,tech_media,,atlassian
+ROBERT BLOOMBERG MD,FALSE,bloomberg,tech_media,,atlassian
+JOHNS HOPKINS BLOOMBERG SCHOOL OF PUB.,FALSE,other,education,,atlassian
