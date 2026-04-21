@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About - Tech Money</title>
+  <link rel="stylesheet" href="../static/site.css">
+  <script src="../static/tables.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    
+<div class="site-header">
+  <div class="site-title">Tech Money</div>
+  <p class="site-tagline">A plain web document about tech-linked money in federal politics.</p>
+  <div class="cycle-toggle"><span class="cycle-label">Cycle</span><span class="cycle-pill current">2026</span><a class="cycle-pill" href="../../2024/about/">2024</a></div>
+  <hr class="rule">
+  <div class="navline"><a href="../index.html">Home</a> | <strong>Elections 2026:</strong> <a href="../donors/">Donors</a> | <a href="../candidates/">Candidates</a> | <a href="../races/">Races</a> | <a href="../political-bodies/">Political bodies</a> | <a href="../companies/">Tech employees</a><br><a href="../federal-lobbying/">Federal lobbying</a> | <a href="../campaign-finance-101/">Campaign Finance 101</a> | <a href="../methodology/">Methodology</a> | <a href="../data/">Data</a> | <a href="../about/">About</a></div>
+  <hr class="rule">
+</div>
+
+    <p class="meta"><strong>Data as of 2026-04-04.</strong></p>
+    
+<h1>About</h1>
+
+<p>Tech Money is a personal project to make tech-industry political giving easier to read.</p>
+
+<h2>What's on this site</h2>
+<p>Every number here is built from Federal Election Commission filings &mdash; the disclosures that campaigns, PACs, and party committees submit by law. The focus is contributions where the donor's listed employer matches a tracked tech company (Google, Meta, Nvidia, Anthropic, and so on), plus giving from those companies' own PACs.</p>
+
+<h2>Why it's not trivial</h2>
+<p>The FEC publishes raw filings. Employers on those filings are free text &mdash; "Google," "Google LLC," "google inc," "goog," and "alphabet" all come in as different strings. Identifying tech donors means building and maintaining a lookup that maps messy employer strings to clean company names, one by one. That manual tagging is the core of what this site does; it is also the main limit.</p>
+
+<h2>What's missing</h2>
+<ul>
+  <li>Employer matching is incomplete. Someone who wrote "Self-employed" or an unusual abbreviation of a tech employer won't be counted here.</li>
+  <li>The tracked-company list is curated, not exhaustive.</li>
+  <li>Unitemized contributions (under $200 per cycle) aren't reported by name to the FEC at all, so they can't be here either.</li>
+</ul>
+
+<h2>Related pages</h2>
+<ul>
+  <li><a href="../campaign-finance-101/">Campaign Finance 101</a> &mdash; a plain-English intro to how U.S. federal campaign finance works.</li>
+  <li><a href="../methodology/">Methodology</a> &mdash; what's counted, what isn't, and what each column label means.</li>
+</ul>
+
+<h2>Who made this</h2>
+<p>Wade Zhou.</p>
+
+  </div>
+  
+  
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campaign Finance 101 - Tech Money</title>
+  <link rel="stylesheet" href="../static/site.css">
+  <script src="../static/tables.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    
+<div class="site-header">
+  <div class="site-title">Tech Money</div>
+  <p class="site-tagline">A plain web document about tech-linked money in federal politics.</p>
+  <div class="cycle-toggle"><span class="cycle-label">Cycle</span><span class="cycle-pill current">2026</span><a class="cycle-pill" href="../../2024/campaign-finance-101/">2024</a></div>
+  <hr class="rule">
+  <div class="navline"><a href="../index.html">Home</a> | <strong>Elections 2026:</strong> <a href="../donors/">Donors</a> | <a href="../candidates/">Candidates</a> | <a href="../races/">Races</a> | <a href="../political-bodies/">Political bodies</a> | <a href="../companies/">Tech employees</a><br><a href="../federal-lobbying/">Federal lobbying</a> | <a href="../campaign-finance-101/">Campaign Finance 101</a> | <a href="../methodology/">Methodology</a> | <a href="../data/">Data</a> | <a href="../about/">About</a></div>
+  <hr class="rule">
+</div>
+
+    <p class="meta"><strong>Data as of 2026-04-04.</strong></p>
+    
+<h1>Campaign Finance 101</h1>
+
+<p>A short plain-English guide to how U.S. federal political money works &mdash; enough to read the rest of this site.</p>
+
+<h2>Who regulates it</h2>
+<p>The <strong>Federal Election Commission (FEC)</strong> runs disclosure for federal elections: President, Senate, and House. Every campaign, PAC, and party committee files periodic reports listing money received and money spent. The FEC publishes these reports as bulk data, and this site is built from that bulk data.</p>
+
+<h2>Itemized vs. unitemized contributions</h2>
+<p>Campaigns must name a contributor (name, address, employer, occupation) only when the person gives <strong>more than $200 in a cycle</strong>. Those are <em>itemized</em> contributions. Smaller gifts are reported as one aggregate total &mdash; <em>unitemized</em>. This site can only see itemized giving, because the unitemized total has no names attached.</p>
+
+<h2>Kinds of committees</h2>
+<ul>
+  <li><strong>Candidate committee</strong> &mdash; a candidate's own campaign. Takes capped contributions directly.</li>
+  <li><strong>Party committee</strong> &mdash; national, state, or local parties (DNC, RNC, DCCC, NRCC, and so on).</li>
+  <li><strong>PAC (political action committee)</strong> &mdash; a committee that pools contributions to give to candidates. Most companies, unions, and trade groups have one. Capped on both sides (what it can take in and what it can give out).</li>
+  <li><strong>Super PAC</strong> &mdash; a PAC that can raise and spend <strong>unlimited</strong> amounts, on condition that it does not coordinate with candidates. It cannot give money to a candidate directly; it spends on ads and other outside activity.</li>
+  <li><strong>Leadership PAC</strong> &mdash; a side PAC that an elected official uses to give money to other candidates.</li>
+</ul>
+
+<h2>Contributions vs. independent expenditures</h2>
+<p>A <strong>contribution</strong> is money given to a candidate's committee &mdash; capped, direct. An <strong>independent expenditure</strong> (IE) is money that an outside group (usually a Super PAC) spends to support or oppose a candidate, without coordinating with the campaign &mdash; uncapped, indirect.</p>
+<p>So when this site shows <em>IE Support</em> or <em>IE Oppose</em> for a candidate, that money did not go <em>to</em> the candidate. It was spent <em>for</em> or <em>against</em> them by an outside group.</p>
+
+<h2>Why employer data is messy</h2>
+<p>Donors fill in their employer as free text on a contribution form. "Google," "Google LLC," "Google Inc.," "alphabet," "GOOG," and "google inc" are all separate strings in the raw FEC data. Grouping those together takes manual work. That cleaning step is the core data task this site is built on &mdash; see <a href="../methodology/">Methodology</a> for the rules.</p>
+
+  </div>
+  
+  
+</body>
+</html>

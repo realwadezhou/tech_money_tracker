@@ -28,6 +28,9 @@ Current workflow:
   If a reconciled `snapshot.jsonl` exists, normalization reads that instead of raw pages.
 - `python -m pipeline.lda.build_summaries <year>`
   Builds exploratory summary tables from the interim flat tables.
+- `python -m pipeline.lda.build_tech_overlay <year>`
+  Builds a review-oriented "likely tech clients / registrants" layer from the existing project alias list.
+  This is an analytical overlay, not source truth.
 - `python -m pipeline.lda.profile <year>`
   Writes a structure report showing how the nested API payloads map to flat tables.
 
@@ -61,6 +64,11 @@ Current derived exploratory outputs:
 - `client_lobbyist_summary.csv`
 - `government_entity_issue_summary.csv`
 - `contribution_summary.csv`
+- `tech_entity_match_candidates.csv`
+- `tech_entity_review.csv`
+- `tech_client_review.csv`
+- `tech_registrant_review.csv`
+- `tech_overlay_manifest.json`
 - `structure_profile.json`
 - `table_shapes.csv`
 - `flattening_guide.csv`
