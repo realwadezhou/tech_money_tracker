@@ -1,20 +1,8 @@
 # Tech Money
 
-Multi-source project for tracking tech-linked influence in US federal politics.
-
-## Why this exists
-
-An earlier project (`../spending_tracker/`) did exploratory work on FEC data but left open questions about whether the transaction type and memo code filters were excluding real dollars. This project started by re-deriving FEC counting rules from scratch against 2024 data, then applying validated rules to 2026.
-
-The longer-term goal is broader than campaign contributions alone. The repo is being organized so multiple federal transparency datasets can sit side by side, including:
-
-- FEC campaign finance data
-- LDA lobbying disclosures
-- future congressional datasets such as STOCK Act disclosures
+This project tracks the tech sector's influence in American politics via money. Currently, we have data on campaign contributions via the FEC. Future updates will include lobbying data (via the LDA) and what stocks members of Congress hold.
 
 ## Data
-
-The active working data for this project now lives inside this repository.
 
 Current structure:
 
@@ -31,6 +19,10 @@ Current structure:
 - `exports/site/<cycle>/`
   Frontend-ready cycle exports consumed by the static site builder
 
+Most of these datasets are too big for GitHub.
+
+
+## FEC Files
 The key FEC files for each active cycle are:
 
 - `data/fec/interim/2024/indiv24/itcont.txt` - itemized individual contributions
@@ -51,19 +43,11 @@ The pipeline is organized by source first, then by shared/publish layers:
 - `pipeline/common/`
   Shared environment loading and project paths
 - `pipeline/fec/`
-  FEC-specific ingestion, loading, and source metadata
+  Downloads and processes FEC data
 - `pipeline/lda/`
-  LDA-specific API access and exploration helpers
+  Downloads and processes LDA data
 - `pipeline/build_*.py`, `pipeline/classify_partisan.py`
   Cross-source or presentation-oriented build steps that still power the current site
-
-## Approach
-
-1. Start with known donors (Musk, etc.) in 2024 data with zero filters
-2. Inspect every transaction type, memo code, and recipient to understand what each row represents
-3. Build counting rules bottom-up from evidence, not top-down from assumptions
-4. Validate against public benchmarks (OpenSecrets, FEC candidate pages, news reports)
-5. Use source-specific normalized outputs as inputs to shared analysis and publishing layers
 
 ## Build outputs
 
