@@ -1,11 +1,11 @@
-# Frontend Data
+# frontend/data/
 
-Generated frontend-ready exports no longer live in this directory.
+This directory is empty on purpose. Site-ready data exports no longer live
+here.
 
-They are now written to:
+They are written to **`exports/site/<cycle>/`** and consumed by the static-site
+builder, which copies the needed pieces into `frontend/site/<cycle>/data/` as
+part of generating the site.
 
-- `exports/site/<cycle>/`
-
-This keeps publishable site exports outside the frontend source tree while still making them easy for the static site builder to consume.
-
-The site builder copies those exports into `frontend/site/<cycle>/data/` as part of the generated static site.
+This split keeps publishable exports outside the frontend source tree while
+still making them easy for the builder to pick up.
