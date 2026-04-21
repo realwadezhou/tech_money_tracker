@@ -3,30 +3,30 @@
   "slug": "microsoft",
   "summary": {
     "tech_canonical_name": "microsoft",
-    "net_total": 2325910,
-    "n_donors": 2926,
-    "n_contributions": 17071,
-    "n_committees": 372,
+    "net_total": 2365945,
+    "n_donors": 2934,
+    "n_contributions": 17102,
+    "n_committees": 379,
     "sectors": "tech_giant",
-    "amt_dem": 1088013,
-    "amt_mixed": 554446,
-    "amt_rep": 155719,
-    "amt_unknown": 527732,
-    "amt_other": 1082178,
-    "classified_recipient_total": 1243732,
-    "pct_dem": 87.4796981986,
-    "pct_classified_recipients": 53.4729202764,
-    "donor_amt_D": 1402803,
-    "donor_amt_Mixed": 198932,
-    "donor_amt_R": 185439,
-    "donor_amt_Unknown": 538736,
-    "n_donors_D": 684,
-    "n_donors_Mixed": 52,
-    "n_donors_R": 131,
-    "n_donors_Unknown": 2059,
-    "donor_amt_total": 2325910,
-    "n_donors_total": 2926,
-    "pct_dem_by_donor": 88.3242604087,
+    "amt_dem": 1103298,
+    "amt_mixed": 554546,
+    "amt_rep": 167369,
+    "amt_unknown": 540732,
+    "amt_other": 1095278,
+    "classified_recipient_total": 1270667,
+    "pct_dem": 86.828256341,
+    "pct_classified_recipients": 53.7065316396,
+    "donor_amt_D": 1419565,
+    "donor_amt_Mixed": 222047,
+    "donor_amt_R": 184187,
+    "donor_amt_Unknown": 540146,
+    "n_donors_D": 691,
+    "n_donors_Mixed": 55,
+    "n_donors_R": 130,
+    "n_donors_Unknown": 2058,
+    "donor_amt_total": 2365945,
+    "n_donors_total": 2934,
+    "pct_dem_by_donor": 88.5152442522,
     "slug": "microsoft"
   },
   "weekly_series": [
@@ -510,17 +510,17 @@
     {
       "cycle": 2026,
       "week_end": "2026-01-04",
-      "net_total": 151494,
-      "cumulative_net_total": 2248290,
-      "gross_positive": 151494,
-      "n_contributions": 1240,
-      "n_donors": 1216
+      "net_total": 151544,
+      "cumulative_net_total": 2248340,
+      "gross_positive": 151544,
+      "n_contributions": 1242,
+      "n_donors": 1218
     },
     {
       "cycle": 2026,
       "week_end": "2026-01-11",
       "net_total": 8954,
-      "cumulative_net_total": 2257244,
+      "cumulative_net_total": 2257294,
       "gross_positive": 8954,
       "n_contributions": 11,
       "n_donors": 8
@@ -529,7 +529,7 @@
       "cycle": 2026,
       "week_end": "2026-01-18",
       "net_total": 4928,
-      "cumulative_net_total": 2262172,
+      "cumulative_net_total": 2262222,
       "gross_positive": 4928,
       "n_contributions": 24,
       "n_donors": 24
@@ -537,56 +537,83 @@
     {
       "cycle": 2026,
       "week_end": "2026-01-25",
-      "net_total": 8650,
-      "cumulative_net_total": 2270822,
-      "gross_positive": 8650,
-      "n_contributions": 11,
-      "n_donors": 11
+      "net_total": 9200,
+      "cumulative_net_total": 2271422,
+      "gross_positive": 9200,
+      "n_contributions": 13,
+      "n_donors": 13
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-01",
-      "net_total": 36176,
-      "cumulative_net_total": 2306998,
-      "gross_positive": 36176,
-      "n_contributions": 40,
-      "n_donors": 38
+      "net_total": 43701,
+      "cumulative_net_total": 2315123,
+      "gross_positive": 43701,
+      "n_contributions": 47,
+      "n_donors": 44
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-08",
-      "net_total": 426,
-      "cumulative_net_total": 2307424,
-      "gross_positive": 426,
-      "n_contributions": 4,
-      "n_donors": 4
+      "net_total": 7786,
+      "cumulative_net_total": 2322909,
+      "gross_positive": 7786,
+      "n_contributions": 8,
+      "n_donors": 6
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-15",
-      "net_total": 6289,
-      "cumulative_net_total": 2313713,
-      "gross_positive": 6289,
-      "n_contributions": 46,
-      "n_donors": 45
+      "net_total": 7289,
+      "cumulative_net_total": 2330198,
+      "gross_positive": 7289,
+      "n_contributions": 47,
+      "n_donors": 46
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-22",
-      "net_total": 3596,
-      "cumulative_net_total": 2317309,
-      "gross_positive": 3596,
-      "n_contributions": 9,
-      "n_donors": 8
+      "net_total": 3846,
+      "cumulative_net_total": 2334044,
+      "gross_positive": 3846,
+      "n_contributions": 10,
+      "n_donors": 9
     },
     {
       "cycle": 2026,
       "week_end": "2026-03-01",
-      "net_total": 8601,
-      "cumulative_net_total": 2325910,
-      "gross_positive": 8656,
-      "n_contributions": 92,
-      "n_donors": 92
+      "net_total": 9476,
+      "cumulative_net_total": 2343520,
+      "gross_positive": 9531,
+      "n_contributions": 97,
+      "n_donors": 97
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-08",
+      "net_total": 10275,
+      "cumulative_net_total": 2353795,
+      "gross_positive": 10275,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-29",
+      "net_total": 11650,
+      "cumulative_net_total": 2365445,
+      "gross_positive": 14750,
+      "n_contributions": 5,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-05",
+      "net_total": 500,
+      "cumulative_net_total": 2365945,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
     }
   ],
   "top_donors": [
@@ -616,10 +643,10 @@
     },
     {
       "name": "SMITH, BRAD",
-      "net_total": 109600,
-      "gross_positive": 113100,
-      "n_contributions": 14,
-      "n_committees": 11,
+      "net_total": 116200,
+      "gross_positive": 122800,
+      "n_contributions": 17,
+      "n_committees": 12,
       "employers": "MICROSOFT CORPORATION",
       "states": "WA",
       "top_committee": "DSCC",
@@ -634,8 +661,8 @@
       "n_committees": 16,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "CA; WA",
-      "top_committee": "DCCC",
-      "top_committee_type": "Y",
+      "top_committee": "REPRODUCTIVE FREEDOM FOR ALL PAC",
+      "top_committee_type": "Q",
       "top_committee_amt": 10000
     },
     {
@@ -663,6 +690,18 @@
       "top_committee_amt": 25000
     },
     {
+      "name": "SMITH, BRADFORD L",
+      "net_total": 38600,
+      "gross_positive": 41700,
+      "n_contributions": 8,
+      "n_committees": 5,
+      "employers": "MICROSOFT CORPORATION",
+      "states": "WA",
+      "top_committee": "SCALISE LEADERSHIP FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 12000
+    },
+    {
       "name": "JAFFE, SONIA",
       "net_total": 33000,
       "gross_positive": 33000,
@@ -670,7 +709,7 @@
       "n_committees": 7,
       "employers": "MICROSOFT; MICROSOFT CORP",
       "states": "WA",
-      "top_committee": "SCOTT WIENER FOR CONGRESS",
+      "top_committee": "ALEX BORES FOR NY",
       "top_committee_type": "H",
       "top_committee_amt": 7000
     },
@@ -723,15 +762,15 @@
       "top_committee_amt": 25826
     },
     {
-      "name": "WHITTINGHILL, JOSEPH",
+      "name": "JERSIN, JOHN",
       "net_total": 25000,
       "gross_positive": 25000,
-      "n_contributions": 2,
+      "n_contributions": 1,
       "n_committees": 1,
-      "employers": "MICROSOFT",
-      "states": "WA",
-      "top_committee": "DIGIDEMS PAC",
-      "top_committee_type": "W",
+      "employers": "LINKEDIN",
+      "states": "CA",
+      "top_committee": "ZINC COLLECTIVE PAC",
+      "top_committee_type": "O",
       "top_committee_amt": 25000
     },
     {
@@ -747,28 +786,28 @@
       "top_committee_amt": 25000
     },
     {
-      "name": "JERSIN, JOHN",
+      "name": "WHITTINGHILL, JOSEPH",
       "net_total": 25000,
       "gross_positive": 25000,
-      "n_contributions": 1,
+      "n_contributions": 2,
       "n_committees": 1,
-      "employers": "LINKEDIN",
-      "states": "CA",
-      "top_committee": "ZINC COLLECTIVE PAC",
-      "top_committee_type": "O",
+      "employers": "MICROSOFT",
+      "states": "WA",
+      "top_committee": "DIGIDEMS PAC",
+      "top_committee_type": "W",
       "top_committee_amt": 25000
     },
     {
-      "name": "SMITH, BRADFORD L",
-      "net_total": 23600,
-      "gross_positive": 26700,
-      "n_contributions": 6,
-      "n_committees": 3,
-      "employers": "MICROSOFT CORPORATION",
+      "name": "CHIN, RICHARD",
+      "net_total": 22600,
+      "gross_positive": 22600,
+      "n_contributions": 19,
+      "n_committees": 5,
+      "employers": "MICROSOFT",
       "states": "WA",
-      "top_committee": "SCALISE LEADERSHIP FUND",
-      "top_committee_type": "N",
-      "top_committee_amt": 12000
+      "top_committee": "SARAH FOR IOWA",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
     },
     {
       "name": "PRESTON-WERNER, THOMAS",
@@ -915,18 +954,6 @@
       "top_committee_amt": 10000
     },
     {
-      "name": "CHIN, RICHARD",
-      "net_total": 11100,
-      "gross_positive": 11100,
-      "n_contributions": 15,
-      "n_committees": 3,
-      "employers": "MICROSOFT",
-      "states": "WA",
-      "top_committee": "CHRISTINA BOHANNAN FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 7000
-    },
-    {
       "name": "MOCKE, SARAH C.",
       "net_total": 10325,
       "gross_positive": 10325,
@@ -939,16 +966,16 @@
       "top_committee_amt": 10325
     },
     {
-      "name": "HEU-WELLER, MERISA",
-      "net_total": 10000,
-      "gross_positive": 10000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "MICROSOFT CORPORATION",
+      "name": "BERNSTEIN, PHILIP",
+      "net_total": 10063,
+      "gross_positive": 10063,
+      "n_contributions": 86,
+      "n_committees": 15,
+      "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "WA",
-      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee": "DCCC",
       "top_committee_type": "Y",
-      "top_committee_amt": 10000
+      "top_committee_amt": 4340
     },
     {
       "name": "CLARKE, ALEXANDER",
@@ -963,16 +990,16 @@
       "top_committee_amt": 10000
     },
     {
-      "name": "BERNSTEIN, PHILIP",
-      "net_total": 9728,
-      "gross_positive": 9728,
-      "n_contributions": 85,
-      "n_committees": 15,
-      "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
+      "name": "HEU-WELLER, MERISA",
+      "net_total": 10000,
+      "gross_positive": 10000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "MICROSOFT CORPORATION",
       "states": "WA",
-      "top_committee": "DCCC",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
-      "top_committee_amt": 4005
+      "top_committee_amt": 10000
     },
     {
       "name": "SANDERS, COREY",
@@ -1059,6 +1086,18 @@
       "top_committee_amt": 3500
     },
     {
+      "name": "BANKS, STEVEN",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "MICROSOFT",
+      "states": "WA",
+      "top_committee": "ALEX BORES FOR NY",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    },
+    {
       "name": "CUMMINGS, CAITLIN",
       "net_total": 7000,
       "gross_positive": 7000,
@@ -1071,14 +1110,26 @@
       "top_committee_amt": 7000
     },
     {
-      "name": "HACKING, CHRISTOPHER",
+      "name": "ABRAHIM, ZEINAB",
       "net_total": 7000,
       "gross_positive": 7000,
       "n_contributions": 2,
       "n_committees": 1,
       "employers": "MICROSOFT",
-      "states": "CA",
-      "top_committee": "ALEX BORES FOR NY",
+      "states": "NC",
+      "top_committee": "ABDUL FOR U.S. SENATE",
+      "top_committee_type": "S",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "POWELL, FERRELL HOBSON",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "LINKEDIN",
+      "states": "NE",
+      "top_committee": "DENISE POWELL FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 7000
     },
@@ -1095,13 +1146,25 @@
       "top_committee_amt": 7000
     },
     {
-      "name": "BANKS, STEVEN",
+      "name": "KRAUS, LEONE",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "MSFT",
+      "states": "WA",
+      "top_committee": "KINNEY FOR DC",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "HACKING, CHRISTOPHER",
       "net_total": 7000,
       "gross_positive": 7000,
       "n_contributions": 2,
       "n_committees": 1,
       "employers": "MICROSOFT",
-      "states": "WA",
+      "states": "CA",
       "top_committee": "ALEX BORES FOR NY",
       "top_committee_type": "H",
       "top_committee_amt": 7000
@@ -1119,18 +1182,6 @@
       "top_committee_amt": 7000
     },
     {
-      "name": "POWELL, FERRELL HOBSON",
-      "net_total": 7000,
-      "gross_positive": 7000,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "LINKEDIN",
-      "states": "NE",
-      "top_committee": "DENISE POWELL FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 7000
-    },
-    {
       "name": "BANKS, STEPHEN",
       "net_total": 7000,
       "gross_positive": 7000,
@@ -1140,30 +1191,6 @@
       "states": "WA",
       "top_committee": "SCOTT WIENER FOR CONGRESS",
       "top_committee_type": "H",
-      "top_committee_amt": 7000
-    },
-    {
-      "name": "KRAUS, LEONE",
-      "net_total": 7000,
-      "gross_positive": 7000,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "MSFT",
-      "states": "WA",
-      "top_committee": "KINNEY FOR DC",
-      "top_committee_type": "H",
-      "top_committee_amt": 7000
-    },
-    {
-      "name": "ABRAHIM, ZEINAB",
-      "net_total": 7000,
-      "gross_positive": 7000,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "MICROSOFT",
-      "states": "NC",
-      "top_committee": "ABDUL FOR U.S. SENATE",
-      "top_committee_type": "S",
       "top_committee_amt": 7000
     },
     {
@@ -1232,9 +1259,9 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 82140,
-      "n_donors": 83,
-      "n_contributions": 352
+      "net_total": 83390,
+      "n_donors": 85,
+      "n_contributions": 354
     },
     {
       "cmte_id": "C00042366",
@@ -1254,9 +1281,9 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 55508,
+      "net_total": 55893,
       "n_donors": 30,
-      "n_contributions": 124
+      "n_contributions": 126
     },
     {
       "cmte_id": "C00895219",
@@ -1358,6 +1385,17 @@
       "n_contributions": 1
     },
     {
+      "cmte_id": "C00747840",
+      "cmte_nm": "AGUILAR LEADERSHIP FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 22000,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
       "cmte_id": "C00668608",
       "cmte_nm": "RASHIDA TLAIB FOR CONGRESS",
       "cmte_tp": "H",
@@ -1424,17 +1462,6 @@
       "n_contributions": 55
     },
     {
-      "cmte_id": "C00771246",
-      "cmte_nm": "JOHNSON LEADERSHIP FUND",
-      "cmte_tp": "N",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00079541",
       "cmte_nm": "REPRODUCTIVE FREEDOM FOR ALL PAC",
       "cmte_tp": "Q",
@@ -1444,6 +1471,17 @@
       "net_total": 15000,
       "n_donors": 2,
       "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00771246",
+      "cmte_nm": "JOHNSON LEADERSHIP FUND",
+      "cmte_tp": "N",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 1,
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00902668",
@@ -1468,17 +1506,6 @@
       "n_contributions": 212
     },
     {
-      "cmte_id": "C00787820",
-      "cmte_nm": "CHRISTINA BOHANNAN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 14000,
-      "n_donors": 2,
-      "n_contributions": 4
-    },
-    {
       "cmte_id": "C00871152",
       "cmte_nm": "GUTHRIE VICTORY FUND",
       "cmte_tp": "N",
@@ -1488,6 +1515,17 @@
       "net_total": 14000,
       "n_donors": 3,
       "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00787820",
+      "cmte_nm": "CHRISTINA BOHANNAN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 14000,
+      "n_donors": 2,
+      "n_contributions": 4
     },
     {
       "cmte_id": "C00768762",
@@ -1534,8 +1572,19 @@
       "n_contributions": 9
     },
     {
-      "cmte_id": "C00831669",
-      "cmte_nm": "KATHERINE CLARK MAJORITY FUND",
+      "cmte_id": "C00859058",
+      "cmte_nm": "EMMER MAJORITY BUILDERS",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 12000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00868091",
+      "cmte_nm": "LISA MCCLAIN LEADERSHIP FUND",
       "cmte_tp": "N",
       "party_dr": "Unknown",
       "classification_source": "",
@@ -1567,30 +1616,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00747840",
-      "cmte_nm": "AGUILAR LEADERSHIP FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 12000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00868091",
-      "cmte_nm": "LISA MCCLAIN LEADERSHIP FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 12000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00859058",
-      "cmte_nm": "EMMER MAJORITY BUILDERS",
+      "cmte_id": "C00831669",
+      "cmte_nm": "KATHERINE CLARK MAJORITY FUND",
       "cmte_tp": "N",
       "party_dr": "Unknown",
       "classification_source": "",
@@ -1655,6 +1682,17 @@
       "n_contributions": 6
     },
     {
+      "cmte_id": "C00774703",
+      "cmte_nm": "COTTON MAJORITY COMMITTEE",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 10000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
       "cmte_id": "C00706861",
       "cmte_nm": "MARK KELLY VICTORY FUND",
       "cmte_tp": "N",
@@ -1666,15 +1704,15 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00774703",
-      "cmte_nm": "COTTON MAJORITY COMMITTEE",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
+      "cmte_id": "C00494302",
+      "cmte_nm": "LEAD ENCOURAGE ELECT PAC",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
       "net_total": 10000,
-      "n_donors": 1,
-      "n_contributions": 1
+      "n_donors": 2,
+      "n_contributions": 2
     },
     {
       "cmte_id": "C00411330",
@@ -1730,17 +1768,6 @@
       "net_total": 8375,
       "n_donors": 4,
       "n_contributions": 5
-    },
-    {
-      "cmte_id": "C00678839",
-      "cmte_nm": "INDIVISIBLE ACTION",
-      "cmte_tp": "W",
-      "party_dr": "D",
-      "classification_source": "24k_contributions+ie_spending",
-      "recipient_bucket": "outside_spending",
-      "net_total": 8371,
-      "n_donors": 10,
-      "n_contributions": 42
     }
   ]
 }

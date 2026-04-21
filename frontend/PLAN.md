@@ -17,17 +17,20 @@ The site should be:
 
 These are not suggestions. They are the design constraints.
 
-- `Times New Roman` is the default font
-- white background
-- black text
-- default blue links and purple visited links
+- `Times New Roman` is the default body font
+- tables use a monospace font, with bold header text
+- background is `#FCF9EA`
+- text is `#1A1A1A`
+- links use `#6f4a86`, with visited links at `#50365f`
+- Democratic and Republican color accents use `#5EABD6` and `#E14434`
+- table headers use `#e3d8bd`
 - no card UI
 - no gradients
 - no rounded-corner component chrome
 - no icon packs
 - minimal images
 - minimal CSS
-- JavaScript only where necessary for charts or very light page behavior
+- JavaScript only where necessary for charts, table sorting, table filtering, or very light page behavior
 
 The target is not "retro-themed." The target is "plain serious web document."
 

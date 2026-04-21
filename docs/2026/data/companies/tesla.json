@@ -3,30 +3,30 @@
   "slug": "tesla",
   "summary": {
     "tech_canonical_name": "tesla",
-    "net_total": 48520,
-    "n_donors": 59,
-    "n_contributions": 709,
+    "net_total": 49020,
+    "n_donors": 60,
+    "n_contributions": 712,
     "n_committees": 69,
     "sectors": "cars",
-    "amt_dem": 36891,
+    "amt_dem": 37391,
     "amt_mixed": 0,
     "amt_rep": 3245,
     "amt_unknown": 8384,
     "amt_other": 8384,
-    "classified_recipient_total": 40136,
-    "pct_dem": 91.9149890373,
-    "pct_classified_recipients": 82.7205276175,
-    "donor_amt_D": 40821,
+    "classified_recipient_total": 40636,
+    "pct_dem": 92.0144699281,
+    "pct_classified_recipients": 82.8967768258,
+    "donor_amt_D": 41571,
     "donor_amt_Mixed": 223,
     "donor_amt_R": 3468,
-    "donor_amt_Unknown": 4008,
-    "n_donors_D": 32,
+    "donor_amt_Unknown": 3758,
+    "n_donors_D": 34,
     "n_donors_Mixed": 1,
     "n_donors_R": 10,
-    "n_donors_Unknown": 16,
-    "donor_amt_total": 48520,
-    "n_donors_total": 59,
-    "pct_dem_by_donor": 92.1696132222,
+    "n_donors_Unknown": 15,
+    "donor_amt_total": 49020,
+    "n_donors_total": 60,
+    "pct_dem_by_donor": 92.3000066609,
     "slug": "tesla"
   },
   "weekly_series": [
@@ -501,17 +501,17 @@
     {
       "cycle": 2026,
       "week_end": "2026-01-04",
-      "net_total": 2325,
-      "cumulative_net_total": 47505,
-      "gross_positive": 2325,
-      "n_contributions": 12,
-      "n_donors": 7
+      "net_total": 2425,
+      "cumulative_net_total": 47605,
+      "gross_positive": 2425,
+      "n_contributions": 13,
+      "n_donors": 8
     },
     {
       "cycle": 2026,
       "week_end": "2026-01-11",
       "net_total": 400,
-      "cumulative_net_total": 47905,
+      "cumulative_net_total": 48005,
       "gross_positive": 400,
       "n_contributions": 3,
       "n_donors": 3
@@ -520,7 +520,7 @@
       "cycle": 2026,
       "week_end": "2026-01-18",
       "net_total": 10,
-      "cumulative_net_total": 47915,
+      "cumulative_net_total": 48015,
       "gross_positive": 10,
       "n_contributions": 1,
       "n_donors": 1
@@ -529,7 +529,7 @@
       "cycle": 2026,
       "week_end": "2026-01-25",
       "net_total": 310,
-      "cumulative_net_total": 48225,
+      "cumulative_net_total": 48325,
       "gross_positive": 310,
       "n_contributions": 2,
       "n_donors": 2
@@ -538,7 +538,7 @@
       "cycle": 2026,
       "week_end": "2026-02-08",
       "net_total": 100,
-      "cumulative_net_total": 48325,
+      "cumulative_net_total": 48425,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -547,7 +547,7 @@
       "cycle": 2026,
       "week_end": "2026-02-15",
       "net_total": 175,
-      "cumulative_net_total": 48500,
+      "cumulative_net_total": 48600,
       "gross_positive": 175,
       "n_contributions": 5,
       "n_donors": 2
@@ -555,11 +555,11 @@
     {
       "cycle": 2026,
       "week_end": "2026-02-22",
-      "net_total": 20,
-      "cumulative_net_total": 48520,
-      "gross_positive": 20,
-      "n_contributions": 3,
-      "n_donors": 1
+      "net_total": 420,
+      "cumulative_net_total": 49020,
+      "gross_positive": 420,
+      "n_contributions": 5,
+      "n_donors": 3
     }
   ],
   "top_donors": [
@@ -624,18 +624,6 @@
       "top_committee_amt": 1200
     },
     {
-      "name": "BABST, BEAU",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "TESLA INC.",
-      "states": "CA",
-      "top_committee": "ERIC JONES FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
       "name": "GLASER, KENNETH",
       "net_total": 1000,
       "gross_positive": 1000,
@@ -648,18 +636,6 @@
       "top_committee_amt": 1000
     },
     {
-      "name": "MERAS, IGNACIO",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "TESLA",
-      "states": "CA",
-      "top_committee": "MANNY RUTINEL FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
       "name": "YAO, CONWAY",
       "net_total": 1000,
       "gross_positive": 1000,
@@ -668,6 +644,30 @@
       "employers": "TESLA",
       "states": "CA",
       "top_committee": "TAYLOR WETTACH FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "BABST, BEAU",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "TESLA INC.",
+      "states": "CA",
+      "top_committee": "ERIC JONES FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "MERAS, IGNACIO",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "TESLA",
+      "states": "CA",
+      "top_committee": "MANNY RUTINEL FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
     },
@@ -696,18 +696,6 @@
       "top_committee_amt": 1000
     },
     {
-      "name": "BARRERA, CARLOS",
-      "net_total": 750,
-      "gross_positive": 750,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "TESLA",
-      "states": "TX",
-      "top_committee": "CHRISTIAN D MENEFEE FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 750
-    },
-    {
       "name": "RUSHING, DAVID",
       "net_total": 750,
       "gross_positive": 750,
@@ -717,6 +705,18 @@
       "states": "AL",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
+      "top_committee_amt": 750
+    },
+    {
+      "name": "BARRERA, CARLOS",
+      "net_total": 750,
+      "gross_positive": 750,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "TESLA",
+      "states": "TX",
+      "top_committee": "CHRISTIAN D MENEFEE FOR CONGRESS",
+      "top_committee_type": "H",
       "top_committee_amt": 750
     },
     {
@@ -804,16 +804,16 @@
       "top_committee_amt": 504
     },
     {
-      "name": "HUYNH, HOA",
+      "name": "ROSENBERG, KOURI",
       "net_total": 500,
       "gross_positive": 500,
       "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "TESLA MOTORS",
+      "n_committees": 2,
+      "employers": "TESLA",
       "states": "CA",
-      "top_committee": "CHARLIE NGUYEN FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 500
+      "top_committee": "CAMPAIGN FOR DEMOCRACY COMMITTEE",
+      "top_committee_type": "N",
+      "top_committee_amt": 250
     },
     {
       "name": "MENSHAWY, ISLAM",
@@ -824,6 +824,18 @@
       "employers": "TESLA",
       "states": "WA",
       "top_committee": "THOMAS MASSIE FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "HUYNH, HOA",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "TESLA MOTORS",
+      "states": "CA",
+      "top_committee": "CHARLIE NGUYEN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 500
     },
@@ -876,18 +888,6 @@
       "top_committee_amt": 432
     },
     {
-      "name": "SCHREIBER, ELAINE",
-      "net_total": 400,
-      "gross_positive": 400,
-      "n_contributions": 8,
-      "n_committees": 1,
-      "employers": "TESLA",
-      "states": "TX",
-      "top_committee": "FRIENDS OF BERNIE SANDERS",
-      "top_committee_type": "S",
-      "top_committee_amt": 400
-    },
-    {
       "name": "CUMMINGS, KIMBERLEY",
       "net_total": 400,
       "gross_positive": 400,
@@ -897,6 +897,18 @@
       "states": "NV",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
+      "top_committee_amt": 400
+    },
+    {
+      "name": "SCHREIBER, ELAINE",
+      "net_total": 400,
+      "gross_positive": 400,
+      "n_contributions": 8,
+      "n_committees": 1,
+      "employers": "TESLA",
+      "states": "TX",
+      "top_committee": "FRIENDS OF BERNIE SANDERS",
+      "top_committee_type": "S",
       "top_committee_amt": 400
     },
     {
@@ -924,16 +936,16 @@
       "top_committee_amt": 335
     },
     {
-      "name": "ROSENBERG, KOURI",
-      "net_total": 250,
-      "gross_positive": 250,
-      "n_contributions": 1,
+      "name": "SELMECKI, CHAD",
+      "net_total": 350,
+      "gross_positive": 350,
+      "n_contributions": 2,
       "n_committees": 1,
       "employers": "TESLA",
-      "states": "CA",
-      "top_committee": "CAMPAIGN FOR DEMOCRACY COMMITTEE",
-      "top_committee_type": "N",
-      "top_committee_amt": 250
+      "states": "MN",
+      "top_committee": "SARAH FOR IOWA",
+      "top_committee_type": "H",
+      "top_committee_amt": 350
     },
     {
       "name": "LANE, DANIEL",
@@ -945,18 +957,6 @@
       "states": "NV",
       "top_committee": "CITIZENS AGAINST AIPAC CORRUPTION",
       "top_committee_type": "V",
-      "top_committee_amt": 250
-    },
-    {
-      "name": "SELMECKI, CHAD",
-      "net_total": 250,
-      "gross_positive": 250,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "TESLA",
-      "states": "MN",
-      "top_committee": "SARAH FOR IOWA",
-      "top_committee_type": "H",
       "top_committee_amt": 250
     },
     {
@@ -1044,6 +1044,18 @@
       "top_committee_amt": 150
     },
     {
+      "name": "BORELLI, TREVOR",
+      "net_total": 150,
+      "gross_positive": 150,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "TESLA",
+      "states": "NV",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 150
+    },
+    {
       "name": "RODRIGUEZ, ROMINA",
       "net_total": 120,
       "gross_positive": 120,
@@ -1092,18 +1104,6 @@
       "top_committee_amt": 103
     },
     {
-      "name": "GATPAYAT, ANDREW",
-      "net_total": 100,
-      "gross_positive": 100,
-      "n_contributions": 4,
-      "n_committees": 1,
-      "employers": "TESLA",
-      "states": "CA",
-      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
-      "top_committee_amt": 100
-    },
-    {
       "name": "AXELROD, TRAVIS",
       "net_total": 100,
       "gross_positive": 100,
@@ -1113,18 +1113,6 @@
       "states": "CA",
       "top_committee": "TALARICO FOR TEXAS",
       "top_committee_type": "S",
-      "top_committee_amt": 100
-    },
-    {
-      "name": "RAMIREZ, GARY CUEVAS",
-      "net_total": 100,
-      "gross_positive": 100,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "TESLA",
-      "states": "CA",
-      "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
       "top_committee_amt": 100
     },
     {
@@ -1140,6 +1128,30 @@
       "top_committee_amt": 100
     },
     {
+      "name": "GATPAYAT, ANDREW",
+      "net_total": 100,
+      "gross_positive": 100,
+      "n_contributions": 4,
+      "n_committees": 1,
+      "employers": "TESLA",
+      "states": "CA",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 100
+    },
+    {
+      "name": "RAMIREZ, GARY CUEVAS",
+      "net_total": 100,
+      "gross_positive": 100,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "TESLA",
+      "states": "CA",
+      "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 100
+    },
+    {
       "name": "ESTEBAN, JONATHAN",
       "net_total": 94,
       "gross_positive": 94,
@@ -1150,18 +1162,6 @@
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 94
-    },
-    {
-      "name": "SCHROEDER, KEITH",
-      "net_total": 87,
-      "gross_positive": 87,
-      "n_contributions": 3,
-      "n_committees": 1,
-      "employers": "TESLA",
-      "states": "NC",
-      "top_committee": "NRSC",
-      "top_committee_type": "Y",
-      "top_committee_amt": 87
     }
   ],
   "top_committees": [
@@ -1232,17 +1232,6 @@
       "n_contributions": 18
     },
     {
-      "cmte_id": "C00795005",
-      "cmte_nm": "KEVIN MULLIN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 1500,
-      "n_donors": 1,
-      "n_contributions": 10
-    },
-    {
       "cmte_id": "C00896670",
       "cmte_nm": "MANNY RUTINEL FOR CONGRESS",
       "cmte_tp": "H",
@@ -1252,6 +1241,17 @@
       "net_total": 1500,
       "n_donors": 2,
       "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00795005",
+      "cmte_nm": "KEVIN MULLIN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1500,
+      "n_donors": 1,
+      "n_contributions": 10
     },
     {
       "cmte_id": "C00401224",
@@ -1298,9 +1298,9 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00914747",
-      "cmte_nm": "JACKIE NORRIS FOR US SENATE",
-      "cmte_tp": "S",
+      "cmte_id": "C00919100",
+      "cmte_nm": "ERIC JONES FOR CONGRESS",
+      "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
@@ -1309,8 +1309,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00652719",
-      "cmte_nm": "LAUREN UNDERWOOD FOR CONGRESS",
+      "cmte_id": "C00856237",
+      "cmte_nm": "COMMITTEE TO ELECT SHOMARI FIGURES FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1331,9 +1331,9 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00919100",
-      "cmte_nm": "ERIC JONES FOR CONGRESS",
-      "cmte_tp": "H",
+      "cmte_id": "C00914747",
+      "cmte_nm": "JACKIE NORRIS FOR US SENATE",
+      "cmte_tp": "S",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
@@ -1342,8 +1342,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00856237",
-      "cmte_nm": "COMMITTEE TO ELECT SHOMARI FIGURES FOR CONGRESS",
+      "cmte_id": "C00652719",
+      "cmte_nm": "LAUREN UNDERWOOD FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1373,6 +1373,17 @@
       "net_total": 880,
       "n_donors": 3,
       "n_contributions": 10
+    },
+    {
+      "cmte_id": "C00010603",
+      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 827,
+      "n_donors": 6,
+      "n_contributions": 20
     },
     {
       "cmte_id": "C00696526",
@@ -1529,17 +1540,6 @@
       "n_contributions": 12
     },
     {
-      "cmte_id": "C00010603",
-      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "cmte_tp": "Y",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "party",
-      "net_total": 427,
-      "n_donors": 4,
-      "n_contributions": 18
-    },
-    {
       "cmte_id": "C00834028",
       "cmte_nm": "GEORGE WHITESIDES FOR CONGRESS",
       "cmte_tp": "H",
@@ -1547,6 +1547,28 @@
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 400,
+      "n_donors": 1,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00904086",
+      "cmte_nm": "SARAH FOR IOWA",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 350,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00867978",
+      "cmte_nm": "GOLDEN STATE DEMOCRACY PAC",
+      "cmte_tp": "N",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 350,
       "n_donors": 1,
       "n_contributions": 4
     },
@@ -1560,17 +1582,6 @@
       "net_total": 350,
       "n_donors": 2,
       "n_contributions": 5
-    },
-    {
-      "cmte_id": "C00867978",
-      "cmte_nm": "GOLDEN STATE DEMOCRACY PAC",
-      "cmte_tp": "N",
-      "party_dr": "D",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 350,
-      "n_donors": 1,
-      "n_contributions": 4
     },
     {
       "cmte_id": "C00908640",
@@ -1631,17 +1642,6 @@
       "cmte_id": "C00901173",
       "cmte_nm": "MCMORROW FOR MICHIGAN",
       "cmte_tp": "S",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 250,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00904086",
-      "cmte_nm": "SARAH FOR IOWA",
-      "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",

@@ -3,30 +3,30 @@
   "slug": "x-twitter-spacex",
   "summary": {
     "tech_canonical_name": "x_twitter_spacex",
-    "net_total": 74979167,
-    "n_donors": 3461,
-    "n_contributions": 18953,
+    "net_total": 74975867,
+    "n_donors": 3460,
+    "n_contributions": 18952,
     "n_committees": 64,
     "sectors": "elon_empire; tech",
-    "amt_dem": 29558,
+    "amt_dem": 26258,
     "amt_mixed": 0,
     "amt_rep": 64933563,
     "amt_unknown": 10016046,
     "amt_other": 10016046,
-    "classified_recipient_total": 64963121,
-    "pct_dem": 0.0454996613,
-    "pct_classified_recipients": 86.641561382,
-    "donor_amt_D": 70885,
-    "donor_amt_Mixed": 79721,
-    "donor_amt_R": 74813146,
+    "classified_recipient_total": 64959821,
+    "pct_dem": 0.0404219094,
+    "pct_classified_recipients": 86.6409734215,
+    "donor_amt_D": 68866,
+    "donor_amt_Mixed": 78220,
+    "donor_amt_R": 74813366,
     "donor_amt_Unknown": 15415,
-    "n_donors_D": 159,
-    "n_donors_Mixed": 182,
-    "n_donors_R": 3103,
+    "n_donors_D": 158,
+    "n_donors_Mixed": 181,
+    "n_donors_R": 3104,
     "n_donors_Unknown": 17,
-    "donor_amt_total": 74979167,
-    "n_donors_total": 3461,
-    "pct_dem_by_donor": 0.0946597012,
+    "donor_amt_total": 74975867,
+    "n_donors_total": 3460,
+    "pct_dem_by_donor": 0.0919657416,
     "slug": "x-twitter-spacex"
   },
   "weekly_series": [
@@ -41,18 +41,9 @@
     },
     {
       "cycle": 2026,
-      "week_end": "2023-05-28",
-      "net_total": 3300,
-      "cumulative_net_total": 5300,
-      "gross_positive": 3300,
-      "n_contributions": 1,
-      "n_donors": 1
-    },
-    {
-      "cycle": 2026,
       "week_end": "2025-01-05",
       "net_total": 1250,
-      "cumulative_net_total": 6550,
+      "cumulative_net_total": 3250,
       "gross_positive": 1250,
       "n_contributions": 2,
       "n_donors": 2
@@ -61,7 +52,7 @@
       "cycle": 2026,
       "week_end": "2025-01-12",
       "net_total": 875,
-      "cumulative_net_total": 7425,
+      "cumulative_net_total": 4125,
       "gross_positive": 875,
       "n_contributions": 3,
       "n_donors": 3
@@ -70,7 +61,7 @@
       "cycle": 2026,
       "week_end": "2025-01-19",
       "net_total": 96467,
-      "cumulative_net_total": 103892,
+      "cumulative_net_total": 100592,
       "gross_positive": 96467,
       "n_contributions": 164,
       "n_donors": 162
@@ -79,7 +70,7 @@
       "cycle": 2026,
       "week_end": "2025-01-26",
       "net_total": 1985,
-      "cumulative_net_total": 105877,
+      "cumulative_net_total": 102577,
       "gross_positive": 1985,
       "n_contributions": 7,
       "n_donors": 6
@@ -88,7 +79,7 @@
       "cycle": 2026,
       "week_end": "2025-02-02",
       "net_total": 10130,
-      "cumulative_net_total": 116007,
+      "cumulative_net_total": 112707,
       "gross_positive": 10130,
       "n_contributions": 46,
       "n_donors": 44
@@ -97,7 +88,7 @@
       "cycle": 2026,
       "week_end": "2025-02-09",
       "net_total": 443,
-      "cumulative_net_total": 116450,
+      "cumulative_net_total": 113150,
       "gross_positive": 443,
       "n_contributions": 4,
       "n_donors": 3
@@ -106,7 +97,7 @@
       "cycle": 2026,
       "week_end": "2025-02-16",
       "net_total": 3453,
-      "cumulative_net_total": 119903,
+      "cumulative_net_total": 116603,
       "gross_positive": 3453,
       "n_contributions": 15,
       "n_donors": 13
@@ -115,7 +106,7 @@
       "cycle": 2026,
       "week_end": "2025-02-23",
       "net_total": 4205662,
-      "cumulative_net_total": 4325565,
+      "cumulative_net_total": 4322265,
       "gross_positive": 4205662,
       "n_contributions": 13,
       "n_donors": 7
@@ -124,7 +115,7 @@
       "cycle": 2026,
       "week_end": "2025-03-02",
       "net_total": 4011232,
-      "cumulative_net_total": 8336797,
+      "cumulative_net_total": 8333497,
       "gross_positive": 4011232,
       "n_contributions": 89,
       "n_donors": 84
@@ -133,7 +124,7 @@
       "cycle": 2026,
       "week_end": "2025-03-09",
       "net_total": 621,
-      "cumulative_net_total": 8337418,
+      "cumulative_net_total": 8334118,
       "gross_positive": 621,
       "n_contributions": 3,
       "n_donors": 3
@@ -142,7 +133,7 @@
       "cycle": 2026,
       "week_end": "2025-03-16",
       "net_total": 1255,
-      "cumulative_net_total": 8338673,
+      "cumulative_net_total": 8335373,
       "gross_positive": 1255,
       "n_contributions": 17,
       "n_donors": 16
@@ -151,7 +142,7 @@
       "cycle": 2026,
       "week_end": "2025-03-23",
       "net_total": 5545776,
-      "cumulative_net_total": 13884449,
+      "cumulative_net_total": 13881149,
       "gross_positive": 5560476,
       "n_contributions": 27,
       "n_donors": 4
@@ -160,7 +151,7 @@
       "cycle": 2026,
       "week_end": "2025-03-30",
       "net_total": 1142116,
-      "cumulative_net_total": 15026565,
+      "cumulative_net_total": 15023265,
       "gross_positive": 1167156,
       "n_contributions": 532,
       "n_donors": 490
@@ -169,7 +160,7 @@
       "cycle": 2026,
       "week_end": "2025-04-06",
       "net_total": 13500,
-      "cumulative_net_total": 15040065,
+      "cumulative_net_total": 15036765,
       "gross_positive": 13500,
       "n_contributions": 6,
       "n_donors": 2
@@ -178,7 +169,7 @@
       "cycle": 2026,
       "week_end": "2025-04-13",
       "net_total": 3253526,
-      "cumulative_net_total": 18293591,
+      "cumulative_net_total": 18290291,
       "gross_positive": 3253526,
       "n_contributions": 20,
       "n_donors": 17
@@ -187,7 +178,7 @@
       "cycle": 2026,
       "week_end": "2025-04-20",
       "net_total": 706,
-      "cumulative_net_total": 18294297,
+      "cumulative_net_total": 18290997,
       "gross_positive": 706,
       "n_contributions": 8,
       "n_donors": 4
@@ -196,7 +187,7 @@
       "cycle": 2026,
       "week_end": "2025-04-27",
       "net_total": 61846,
-      "cumulative_net_total": 18356143,
+      "cumulative_net_total": 18352843,
       "gross_positive": 61846,
       "n_contributions": 505,
       "n_donors": 502
@@ -205,7 +196,7 @@
       "cycle": 2026,
       "week_end": "2025-05-04",
       "net_total": 900,
-      "cumulative_net_total": 18357043,
+      "cumulative_net_total": 18353743,
       "gross_positive": 900,
       "n_contributions": 3,
       "n_donors": 2
@@ -214,7 +205,7 @@
       "cycle": 2026,
       "week_end": "2025-05-11",
       "net_total": 751,
-      "cumulative_net_total": 18357794,
+      "cumulative_net_total": 18354494,
       "gross_positive": 751,
       "n_contributions": 10,
       "n_donors": 10
@@ -223,7 +214,7 @@
       "cycle": 2026,
       "week_end": "2025-05-18",
       "net_total": 196,
-      "cumulative_net_total": 18357990,
+      "cumulative_net_total": 18354690,
       "gross_positive": 196,
       "n_contributions": 5,
       "n_donors": 3
@@ -232,7 +223,7 @@
       "cycle": 2026,
       "week_end": "2025-05-25",
       "net_total": 67614,
-      "cumulative_net_total": 18425604,
+      "cumulative_net_total": 18422304,
       "gross_positive": 67614,
       "n_contributions": 1761,
       "n_donors": 1753
@@ -241,7 +232,7 @@
       "cycle": 2026,
       "week_end": "2025-06-01",
       "net_total": 5050,
-      "cumulative_net_total": 18430654,
+      "cumulative_net_total": 18427354,
       "gross_positive": 5050,
       "n_contributions": 3,
       "n_donors": 3
@@ -250,7 +241,7 @@
       "cycle": 2026,
       "week_end": "2025-06-08",
       "net_total": 2081,
-      "cumulative_net_total": 18432735,
+      "cumulative_net_total": 18429435,
       "gross_positive": 2081,
       "n_contributions": 41,
       "n_donors": 41
@@ -259,7 +250,7 @@
       "cycle": 2026,
       "week_end": "2025-06-15",
       "net_total": 3805,
-      "cumulative_net_total": 18436540,
+      "cumulative_net_total": 18433240,
       "gross_positive": 3805,
       "n_contributions": 10,
       "n_donors": 8
@@ -268,7 +259,7 @@
       "cycle": 2026,
       "week_end": "2025-06-22",
       "net_total": 98488,
-      "cumulative_net_total": 18535028,
+      "cumulative_net_total": 18531728,
       "gross_positive": 98488,
       "n_contributions": 1907,
       "n_donors": 1899
@@ -277,7 +268,7 @@
       "cycle": 2026,
       "week_end": "2025-06-29",
       "net_total": 15004640,
-      "cumulative_net_total": 33539668,
+      "cumulative_net_total": 33536368,
       "gross_positive": 15004640,
       "n_contributions": 9,
       "n_donors": 6
@@ -286,7 +277,7 @@
       "cycle": 2026,
       "week_end": "2025-07-06",
       "net_total": 27350207,
-      "cumulative_net_total": 60889875,
+      "cumulative_net_total": 60886575,
       "gross_positive": 27350207,
       "n_contributions": 24,
       "n_donors": 22
@@ -295,7 +286,7 @@
       "cycle": 2026,
       "week_end": "2025-07-13",
       "net_total": 375,
-      "cumulative_net_total": 60890250,
+      "cumulative_net_total": 60886950,
       "gross_positive": 375,
       "n_contributions": 2,
       "n_donors": 2
@@ -304,7 +295,7 @@
       "cycle": 2026,
       "week_end": "2025-07-20",
       "net_total": 93492,
-      "cumulative_net_total": 60983742,
+      "cumulative_net_total": 60980442,
       "gross_positive": 93492,
       "n_contributions": 1870,
       "n_donors": 1863
@@ -313,7 +304,7 @@
       "cycle": 2026,
       "week_end": "2025-07-27",
       "net_total": 43,
-      "cumulative_net_total": 60983785,
+      "cumulative_net_total": 60980485,
       "gross_positive": 43,
       "n_contributions": 1,
       "n_donors": 1
@@ -322,7 +313,7 @@
       "cycle": 2026,
       "week_end": "2025-08-03",
       "net_total": 861,
-      "cumulative_net_total": 60984646,
+      "cumulative_net_total": 60981346,
       "gross_positive": 901,
       "n_contributions": 31,
       "n_donors": 31
@@ -331,7 +322,7 @@
       "cycle": 2026,
       "week_end": "2025-08-10",
       "net_total": 400670,
-      "cumulative_net_total": 61385316,
+      "cumulative_net_total": 61382016,
       "gross_positive": 400670,
       "n_contributions": 5,
       "n_donors": 5
@@ -340,7 +331,7 @@
       "cycle": 2026,
       "week_end": "2025-08-17",
       "net_total": 1714,
-      "cumulative_net_total": 61387030,
+      "cumulative_net_total": 61383730,
       "gross_positive": 1714,
       "n_contributions": 28,
       "n_donors": 27
@@ -349,7 +340,7 @@
       "cycle": 2026,
       "week_end": "2025-08-24",
       "net_total": 344,
-      "cumulative_net_total": 61387374,
+      "cumulative_net_total": 61384074,
       "gross_positive": 344,
       "n_contributions": 5,
       "n_donors": 5
@@ -358,7 +349,7 @@
       "cycle": 2026,
       "week_end": "2025-08-31",
       "net_total": 135641,
-      "cumulative_net_total": 61523015,
+      "cumulative_net_total": 61519715,
       "gross_positive": 135641,
       "n_contributions": 1829,
       "n_donors": 1822
@@ -367,7 +358,7 @@
       "cycle": 2026,
       "week_end": "2025-09-07",
       "net_total": 350,
-      "cumulative_net_total": 61523365,
+      "cumulative_net_total": 61520065,
       "gross_positive": 350,
       "n_contributions": 2,
       "n_donors": 2
@@ -376,7 +367,7 @@
       "cycle": 2026,
       "week_end": "2025-09-14",
       "net_total": 2285,
-      "cumulative_net_total": 61525650,
+      "cumulative_net_total": 61522350,
       "gross_positive": 2285,
       "n_contributions": 26,
       "n_donors": 26
@@ -385,7 +376,7 @@
       "cycle": 2026,
       "week_end": "2025-09-21",
       "net_total": 2514,
-      "cumulative_net_total": 61528164,
+      "cumulative_net_total": 61524864,
       "gross_positive": 2514,
       "n_contributions": 9,
       "n_donors": 9
@@ -394,7 +385,7 @@
       "cycle": 2026,
       "week_end": "2025-09-28",
       "net_total": 90390,
-      "cumulative_net_total": 61618554,
+      "cumulative_net_total": 61615254,
       "gross_positive": 90390,
       "n_contributions": 1819,
       "n_donors": 1812
@@ -403,7 +394,7 @@
       "cycle": 2026,
       "week_end": "2025-10-05",
       "net_total": 755,
-      "cumulative_net_total": 61619309,
+      "cumulative_net_total": 61616009,
       "gross_positive": 755,
       "n_contributions": 5,
       "n_donors": 5
@@ -412,7 +403,7 @@
       "cycle": 2026,
       "week_end": "2025-10-12",
       "net_total": 2135,
-      "cumulative_net_total": 61621444,
+      "cumulative_net_total": 61618144,
       "gross_positive": 2135,
       "n_contributions": 34,
       "n_donors": 34
@@ -421,7 +412,7 @@
       "cycle": 2026,
       "week_end": "2025-10-19",
       "net_total": 35,
-      "cumulative_net_total": 61621479,
+      "cumulative_net_total": 61618179,
       "gross_positive": 35,
       "n_contributions": 2,
       "n_donors": 2
@@ -430,7 +421,7 @@
       "cycle": 2026,
       "week_end": "2025-10-26",
       "net_total": 98712,
-      "cumulative_net_total": 61720191,
+      "cumulative_net_total": 61716891,
       "gross_positive": 99132,
       "n_contributions": 2251,
       "n_donors": 2240
@@ -439,7 +430,7 @@
       "cycle": 2026,
       "week_end": "2025-11-02",
       "net_total": 121,
-      "cumulative_net_total": 61720312,
+      "cumulative_net_total": 61717012,
       "gross_positive": 121,
       "n_contributions": 5,
       "n_donors": 5
@@ -448,7 +439,7 @@
       "cycle": 2026,
       "week_end": "2025-11-09",
       "net_total": 768,
-      "cumulative_net_total": 61721080,
+      "cumulative_net_total": 61717780,
       "gross_positive": 988,
       "n_contributions": 14,
       "n_donors": 14
@@ -457,7 +448,7 @@
       "cycle": 2026,
       "week_end": "2025-11-16",
       "net_total": 1415,
-      "cumulative_net_total": 61722495,
+      "cumulative_net_total": 61719195,
       "gross_positive": 1415,
       "n_contributions": 5,
       "n_donors": 3
@@ -466,7 +457,7 @@
       "cycle": 2026,
       "week_end": "2025-11-23",
       "net_total": 99947,
-      "cumulative_net_total": 61822442,
+      "cumulative_net_total": 61819142,
       "gross_positive": 99947,
       "n_contributions": 2255,
       "n_donors": 2243
@@ -475,7 +466,7 @@
       "cycle": 2026,
       "week_end": "2025-11-30",
       "net_total": 821,
-      "cumulative_net_total": 61823263,
+      "cumulative_net_total": 61819963,
       "gross_positive": 821,
       "n_contributions": 7,
       "n_donors": 6
@@ -484,7 +475,7 @@
       "cycle": 2026,
       "week_end": "2025-12-07",
       "net_total": 1286,
-      "cumulative_net_total": 61824549,
+      "cumulative_net_total": 61821249,
       "gross_positive": 1286,
       "n_contributions": 33,
       "n_donors": 33
@@ -493,7 +484,7 @@
       "cycle": 2026,
       "week_end": "2025-12-14",
       "net_total": 3873,
-      "cumulative_net_total": 61828422,
+      "cumulative_net_total": 61825122,
       "gross_positive": 3873,
       "n_contributions": 13,
       "n_donors": 13
@@ -502,7 +493,7 @@
       "cycle": 2026,
       "week_end": "2025-12-21",
       "net_total": 10845726,
-      "cumulative_net_total": 72674148,
+      "cumulative_net_total": 72670848,
       "gross_positive": 10845726,
       "n_contributions": 2227,
       "n_donors": 2213
@@ -511,7 +502,7 @@
       "cycle": 2026,
       "week_end": "2025-12-28",
       "net_total": 1735,
-      "cumulative_net_total": 72675883,
+      "cumulative_net_total": 72672583,
       "gross_positive": 1735,
       "n_contributions": 6,
       "n_donors": 6
@@ -520,7 +511,7 @@
       "cycle": 2026,
       "week_end": "2026-01-04",
       "net_total": 1732132,
-      "cumulative_net_total": 74408015,
+      "cumulative_net_total": 74404715,
       "gross_positive": 1732132,
       "n_contributions": 10,
       "n_donors": 8
@@ -529,7 +520,7 @@
       "cycle": 2026,
       "week_end": "2026-01-11",
       "net_total": 4710,
-      "cumulative_net_total": 74412725,
+      "cumulative_net_total": 74409425,
       "gross_positive": 4710,
       "n_contributions": 7,
       "n_donors": 7
@@ -538,7 +529,7 @@
       "cycle": 2026,
       "week_end": "2026-01-18",
       "net_total": 6378,
-      "cumulative_net_total": 74419103,
+      "cumulative_net_total": 74415803,
       "gross_positive": 6378,
       "n_contributions": 15,
       "n_donors": 15
@@ -547,7 +538,7 @@
       "cycle": 2026,
       "week_end": "2026-01-25",
       "net_total": 35465,
-      "cumulative_net_total": 74454568,
+      "cumulative_net_total": 74451268,
       "gross_positive": 35465,
       "n_contributions": 49,
       "n_donors": 49
@@ -556,7 +547,7 @@
       "cycle": 2026,
       "week_end": "2026-02-01",
       "net_total": 492958,
-      "cumulative_net_total": 74947526,
+      "cumulative_net_total": 74944226,
       "gross_positive": 492958,
       "n_contributions": 955,
       "n_donors": 942
@@ -565,7 +556,7 @@
       "cycle": 2026,
       "week_end": "2026-02-08",
       "net_total": 6550,
-      "cumulative_net_total": 74954076,
+      "cumulative_net_total": 74950776,
       "gross_positive": 6550,
       "n_contributions": 12,
       "n_donors": 12
@@ -574,7 +565,7 @@
       "cycle": 2026,
       "week_end": "2026-02-15",
       "net_total": 2799,
-      "cumulative_net_total": 74956875,
+      "cumulative_net_total": 74953575,
       "gross_positive": 2799,
       "n_contributions": 13,
       "n_donors": 13
@@ -583,7 +574,7 @@
       "cycle": 2026,
       "week_end": "2026-02-22",
       "net_total": 1692,
-      "cumulative_net_total": 74958567,
+      "cumulative_net_total": 74955267,
       "gross_positive": 1692,
       "n_contributions": 3,
       "n_donors": 3
@@ -592,7 +583,7 @@
       "cycle": 2026,
       "week_end": "2026-03-01",
       "net_total": 20600,
-      "cumulative_net_total": 74979167,
+      "cumulative_net_total": 74975867,
       "gross_positive": 21021,
       "n_contributions": 169,
       "n_donors": 167
@@ -624,18 +615,6 @@
       "top_committee_amt": 10000
     },
     {
-      "name": "SHOTWELL, GWYNNE",
-      "net_total": 8068,
-      "gross_positive": 8068,
-      "n_contributions": 15,
-      "n_committees": 2,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
-      "states": "CA; TX",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5568
-    },
-    {
       "name": "JUNCOSA, MARK",
       "net_total": 8068,
       "gross_positive": 8068,
@@ -648,31 +627,19 @@
       "top_committee_amt": 5568
     },
     {
+      "name": "SHOTWELL, GWYNNE",
+      "net_total": 8068,
+      "gross_positive": 8068,
+      "n_contributions": 15,
+      "n_committees": 2,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
+      "states": "CA; TX",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5568
+    },
+    {
       "name": "URSENBACH, JOSHUA",
-      "net_total": 5568,
-      "gross_positive": 5568,
-      "n_contributions": 14,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5568
-    },
-    {
-      "name": "BJELDE, BRIAN N.",
-      "net_total": 5568,
-      "gross_positive": 5568,
-      "n_contributions": 14,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5568
-    },
-    {
-      "name": "JOHNSEN, BRET",
       "net_total": 5568,
       "gross_positive": 5568,
       "n_contributions": 14,
@@ -696,6 +663,30 @@
       "top_committee_amt": 5568
     },
     {
+      "name": "JOHNSEN, BRET",
+      "net_total": 5568,
+      "gross_positive": 5568,
+      "n_contributions": 14,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5568
+    },
+    {
+      "name": "BJELDE, BRIAN N.",
+      "net_total": 5568,
+      "gross_positive": 5568,
+      "n_contributions": 14,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5568
+    },
+    {
       "name": "JENSEN, JESSICA",
       "net_total": 5040,
       "gross_positive": 5040,
@@ -708,31 +699,19 @@
       "top_committee_amt": 5040
     },
     {
-      "name": "TOOLEY, JEFFREY",
-      "net_total": 5000,
-      "gross_positive": 5000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5000
-    },
-    {
-      "name": "KEECH, STUART",
-      "net_total": 5000,
-      "gross_positive": 5000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5000
-    },
-    {
       "name": "RILEY, WILLIAM B.",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "BUSS, JORDAN",
       "net_total": 5000,
       "gross_positive": 5000,
       "n_contributions": 1,
@@ -756,7 +735,19 @@
       "top_committee_amt": 5000
     },
     {
-      "name": "BUSS, JORDAN",
+      "name": "TOOLEY, JEFFREY",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "KEECH, STUART",
       "net_total": 5000,
       "gross_positive": 5000,
       "n_contributions": 1,
@@ -840,18 +831,6 @@
       "top_committee_amt": 3500
     },
     {
-      "name": "CULVER, LEAH",
-      "net_total": 3300,
-      "gross_positive": 3300,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "TWITTER",
-      "states": "CA",
-      "top_committee": "SCOTT WIENER FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 3300
-    },
-    {
       "name": "KNAPP, DAVID",
       "net_total": 3100,
       "gross_positive": 3100,
@@ -888,7 +867,7 @@
       "top_committee_amt": 2821
     },
     {
-      "name": "TUCKNESS, MATTHEW",
+      "name": "O'SHAUGHNESSY, TERRENCE",
       "net_total": 2700,
       "gross_positive": 2700,
       "n_contributions": 14,
@@ -900,7 +879,7 @@
       "top_committee_amt": 2700
     },
     {
-      "name": "O'SHAUGHNESSY, TERRENCE",
+      "name": "TUCKNESS, MATTHEW",
       "net_total": 2700,
       "gross_positive": 2700,
       "n_contributions": 14,
@@ -1116,6 +1095,18 @@
       "top_committee_amt": 1952
     },
     {
+      "name": "REUBER, TUCKER",
+      "net_total": 1842,
+      "gross_positive": 1842,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1842
+    },
+    {
       "name": "GURAL, GENEVIEVE",
       "net_total": 1842,
       "gross_positive": 1842,
@@ -1129,18 +1120,6 @@
     },
     {
       "name": "POWELL, CHRISTOPHER",
-      "net_total": 1842,
-      "gross_positive": 1842,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1842
-    },
-    {
-      "name": "REUBER, TUCKER",
       "net_total": 1842,
       "gross_positive": 1842,
       "n_contributions": 2,
@@ -1176,7 +1155,7 @@
       "top_committee_amt": 1763
     },
     {
-      "name": "PEMBERTON, TRAVIS",
+      "name": "MEIER, MICHAEL",
       "net_total": 1762,
       "gross_positive": 1762,
       "n_contributions": 12,
@@ -1188,7 +1167,19 @@
       "top_committee_amt": 1762
     },
     {
-      "name": "MEIER, MICHAEL",
+      "name": "LOPEZ, JOSHUA",
+      "net_total": 1762,
+      "gross_positive": 1762,
+      "n_contributions": 12,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1762
+    },
+    {
+      "name": "PEMBERTON, TRAVIS",
       "net_total": 1762,
       "gross_positive": 1762,
       "n_contributions": 12,
@@ -1270,10 +1261,10 @@
     {
       "cmte_id": "C00708289",
       "cmte_nm": "PUTTING PEOPLE BEFORE POLITICIANS INC",
-      "cmte_tp": "H",
+      "cmte_tp": "N",
       "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
       "net_total": 9700,
       "n_donors": 1,
       "n_contributions": 2
@@ -1510,17 +1501,6 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00909283",
-      "cmte_nm": "SCOTT WIENER FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6550,
-      "n_donors": 4,
-      "n_contributions": 4
-    },
-    {
       "cmte_id": "C00784934",
       "cmte_nm": "ELI CRANE FOR CONGRESS",
       "cmte_tp": "H",
@@ -1585,6 +1565,17 @@
       "net_total": 3300,
       "n_donors": 1,
       "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00909283",
+      "cmte_nm": "SCOTT WIENER FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3250,
+      "n_donors": 3,
+      "n_contributions": 3
     },
     {
       "cmte_id": "C00639591",

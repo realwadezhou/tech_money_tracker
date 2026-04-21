@@ -3,30 +3,30 @@
   "slug": "accel",
   "summary": {
     "tech_canonical_name": "accel",
-    "net_total": 63561,
+    "net_total": 63570,
     "n_donors": 9,
-    "n_contributions": 70,
+    "n_contributions": 71,
     "n_committees": 10,
     "sectors": "vc",
     "amt_dem": 29000,
     "amt_mixed": 22500,
     "amt_rep": 10,
-    "amt_unknown": 12051,
-    "amt_other": 34551,
+    "amt_unknown": 12060,
+    "amt_other": 34560,
     "classified_recipient_total": 29010,
     "pct_dem": 99.9655291279,
-    "pct_classified_recipients": 45.6411950725,
+    "pct_classified_recipients": 45.6347333648,
     "donor_amt_D": 51000,
     "donor_amt_Mixed": 0,
-    "donor_amt_R": 61,
+    "donor_amt_R": 70,
     "donor_amt_Unknown": 12500,
     "n_donors_D": 5,
     "n_donors_Mixed": 0,
     "n_donors_R": 1,
     "n_donors_Unknown": 3,
-    "donor_amt_total": 63561,
+    "donor_amt_total": 63570,
     "n_donors_total": 9,
-    "pct_dem_by_donor": 99.8805350463,
+    "pct_dem_by_donor": 99.8629332289,
     "slug": "accel"
   },
   "weekly_series": [
@@ -272,6 +272,15 @@
       "gross_positive": 7000,
       "n_contributions": 2,
       "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-08",
+      "net_total": 9,
+      "cumulative_net_total": 63570,
+      "gross_positive": 9,
+      "n_contributions": 1,
+      "n_donors": 1
     }
   ],
   "top_donors": [
@@ -373,9 +382,9 @@
     },
     {
       "name": "HAYNES, LETITIA",
-      "net_total": 61,
-      "gross_positive": 61,
-      "n_contributions": 55,
+      "net_total": 70,
+      "gross_positive": 70,
+      "n_contributions": 56,
       "n_committees": 3,
       "employers": "ACCEL",
       "states": "AZ",
@@ -474,6 +483,17 @@
       "n_contributions": 53
     },
     {
+      "cmte_id": "C00833566",
+      "cmte_nm": "CONSTITUTIONAL CONSERVATIVES FUND",
+      "cmte_tp": "O",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
+      "net_total": 18,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
       "cmte_id": "C00894071",
       "cmte_nm": "LOVE AMERICA UPHOLD FREEDOM PAC",
       "cmte_tp": "O",
@@ -481,17 +501,6 @@
       "classification_source": "24k_contributions",
       "recipient_bucket": "outside_spending",
       "net_total": 10,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00833566",
-      "cmte_nm": "CONSTITUTIONAL CONSERVATIVES FUND",
-      "cmte_tp": "O",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "outside_spending",
-      "net_total": 9,
       "n_donors": 1,
       "n_contributions": 1
     }

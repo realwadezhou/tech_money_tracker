@@ -2,6 +2,9 @@
   "use strict";
 
   var SVG_NS = "http://www.w3.org/2000/svg";
+  var TEXT_COLOR = "#1A1A1A";
+  var LINK_COLOR = "#6f4a86";
+  var BAR_COLOR = "#d8d0be";
 
   function createSvgNode(name, attrs) {
     var node = document.createElementNS(SVG_NS, name);
@@ -97,7 +100,7 @@
       y1: zeroY,
       x2: margin.left + innerWidth,
       y2: zeroY,
-      stroke: "#000",
+      stroke: TEXT_COLOR,
       "stroke-width": 1
     }));
 
@@ -106,7 +109,7 @@
       y1: margin.top,
       x2: margin.left,
       y2: margin.top + innerHeight,
-      stroke: "#000",
+      stroke: TEXT_COLOR,
       "stroke-width": 1
     }));
 
@@ -115,7 +118,7 @@
       y1: margin.top,
       x2: margin.left + innerWidth,
       y2: margin.top + innerHeight,
-      stroke: "#000",
+      stroke: TEXT_COLOR,
       "stroke-width": 1
     }));
 
@@ -128,7 +131,7 @@
         y1: weeklyTickY,
         x2: margin.left,
         y2: weeklyTickY,
-        stroke: "#000",
+        stroke: TEXT_COLOR,
         "stroke-width": 1
       }));
 
@@ -149,7 +152,7 @@
         y1: rightTickY,
         x2: margin.left + innerWidth + 4,
         y2: rightTickY,
-        stroke: "#000",
+        stroke: TEXT_COLOR,
         "stroke-width": 1
       }));
 
@@ -172,8 +175,8 @@
         y: weeklyValue >= 0 ? y : zeroY,
         width: barWidth,
         height: Math.max(heightValue, 1),
-        fill: "#c8c8c8",
-        stroke: "#000",
+        fill: BAR_COLOR,
+        stroke: TEXT_COLOR,
         "stroke-width": 0.3
       });
       svg.appendChild(rect);
@@ -186,7 +189,7 @@
     svg.appendChild(createSvgNode("polyline", {
       points: linePoints,
       fill: "none",
-      stroke: "#0000EE",
+      stroke: LINK_COLOR,
       "stroke-width": 2
     }));
 
@@ -201,7 +204,7 @@
         y1: margin.top + innerHeight,
         x2: tickX,
         y2: margin.top + innerHeight + 4,
-        stroke: "#000",
+        stroke: TEXT_COLOR,
         "stroke-width": 1
       }));
 

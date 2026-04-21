@@ -10,388 +10,388 @@
     "cumulative_net_total": 6600
   },
   {
-    "week_end": "2023-03-19",
-    "net_total": 500,
-    "cumulative_net_total": 7100
-  },
-  {
     "week_end": "2023-03-26",
     "net_total": 6600,
-    "cumulative_net_total": 13700
+    "cumulative_net_total": 13200
   },
   {
     "week_end": "2023-04-16",
     "net_total": 3100,
-    "cumulative_net_total": 16800
+    "cumulative_net_total": 16300
   },
   {
     "week_end": "2023-04-23",
     "net_total": 3800,
-    "cumulative_net_total": 20600
+    "cumulative_net_total": 20100
   },
   {
     "week_end": "2023-05-07",
     "net_total": 5300,
-    "cumulative_net_total": 25900
-  },
-  {
-    "week_end": "2023-05-14",
-    "net_total": 3300,
-    "cumulative_net_total": 29200
+    "cumulative_net_total": 25400
   },
   {
     "week_end": "2023-05-28",
-    "net_total": 7300,
-    "cumulative_net_total": 36500
+    "net_total": 4000,
+    "cumulative_net_total": 29400
   },
   {
     "week_end": "2023-06-11",
     "net_total": 2100,
-    "cumulative_net_total": 38600
+    "cumulative_net_total": 31500
   },
   {
     "week_end": "2023-06-18",
     "net_total": 4550,
-    "cumulative_net_total": 43150
+    "cumulative_net_total": 36050
   },
   {
     "week_end": "2023-06-25",
-    "net_total": 4300,
-    "cumulative_net_total": 47450
+    "net_total": 7600,
+    "cumulative_net_total": 43650
   },
   {
     "week_end": "2023-07-02",
     "net_total": 9700,
-    "cumulative_net_total": 57150
-  },
-  {
-    "week_end": "2023-08-27",
-    "net_total": 500,
-    "cumulative_net_total": 57650
+    "cumulative_net_total": 53350
   },
   {
     "week_end": "2023-11-05",
     "net_total": 5000,
-    "cumulative_net_total": 62650
+    "cumulative_net_total": 58350
   },
   {
     "week_end": "2024-12-29",
     "net_total": 375,
-    "cumulative_net_total": 63025
+    "cumulative_net_total": 58725
   },
   {
     "week_end": "2025-01-05",
     "net_total": 41791,
-    "cumulative_net_total": 104816
+    "cumulative_net_total": 100516
   },
   {
     "week_end": "2025-01-12",
     "net_total": 45760,
-    "cumulative_net_total": 150576
+    "cumulative_net_total": 146276
   },
   {
     "week_end": "2025-01-19",
     "net_total": 196212,
-    "cumulative_net_total": 346788
+    "cumulative_net_total": 342488
   },
   {
     "week_end": "2025-01-26",
     "net_total": 71501,
-    "cumulative_net_total": 418289
+    "cumulative_net_total": 413989
   },
   {
     "week_end": "2025-02-02",
     "net_total": 272846,
-    "cumulative_net_total": 691135
+    "cumulative_net_total": 686835
   },
   {
     "week_end": "2025-02-09",
     "net_total": 1098462,
-    "cumulative_net_total": 1789597
+    "cumulative_net_total": 1785297
   },
   {
     "week_end": "2025-02-16",
     "net_total": 155044,
-    "cumulative_net_total": 1944641
+    "cumulative_net_total": 1940341
   },
   {
     "week_end": "2025-02-23",
     "net_total": 4629728,
-    "cumulative_net_total": 6574369
+    "cumulative_net_total": 6570069
   },
   {
     "week_end": "2025-03-02",
     "net_total": 4414915,
-    "cumulative_net_total": 10989284
+    "cumulative_net_total": 10984984
   },
   {
     "week_end": "2025-03-09",
     "net_total": 541383,
-    "cumulative_net_total": 11530667
+    "cumulative_net_total": 11526367
   },
   {
     "week_end": "2025-03-16",
     "net_total": 434488,
-    "cumulative_net_total": 11965155
+    "cumulative_net_total": 11960855
   },
   {
     "week_end": "2025-03-23",
     "net_total": 7007292,
-    "cumulative_net_total": 18972447
+    "cumulative_net_total": 18968147
   },
   {
     "week_end": "2025-03-30",
     "net_total": 1971305,
-    "cumulative_net_total": 20943752
+    "cumulative_net_total": 20939452
   },
   {
     "week_end": "2025-04-06",
     "net_total": 6116817,
-    "cumulative_net_total": 27060569
+    "cumulative_net_total": 27056269
   },
   {
     "week_end": "2025-04-13",
-    "net_total": 3505645,
-    "cumulative_net_total": 30566214
+    "net_total": 3505595,
+    "cumulative_net_total": 30561864
   },
   {
     "week_end": "2025-04-20",
     "net_total": 207001,
-    "cumulative_net_total": 30773215
+    "cumulative_net_total": 30768865
   },
   {
     "week_end": "2025-04-27",
     "net_total": 300939,
-    "cumulative_net_total": 31074154
+    "cumulative_net_total": 31069804
   },
   {
     "week_end": "2025-05-04",
     "net_total": 190706,
-    "cumulative_net_total": 31264860
+    "cumulative_net_total": 31260510
   },
   {
     "week_end": "2025-05-11",
     "net_total": 494449,
-    "cumulative_net_total": 31759309
+    "cumulative_net_total": 31754959
   },
   {
     "week_end": "2025-05-18",
     "net_total": 1535134,
-    "cumulative_net_total": 33294443
+    "cumulative_net_total": 33290093
   },
   {
     "week_end": "2025-05-25",
     "net_total": 545364,
-    "cumulative_net_total": 33839807
+    "cumulative_net_total": 33835457
   },
   {
     "week_end": "2025-06-01",
-    "net_total": 282114,
-    "cumulative_net_total": 34121921
+    "net_total": 281764,
+    "cumulative_net_total": 34117221
   },
   {
     "week_end": "2025-06-08",
     "net_total": 440939,
-    "cumulative_net_total": 34562860
+    "cumulative_net_total": 34558160
   },
   {
     "week_end": "2025-06-15",
     "net_total": 294849,
-    "cumulative_net_total": 34857709
+    "cumulative_net_total": 34853009
   },
   {
     "week_end": "2025-06-22",
     "net_total": 2588715,
-    "cumulative_net_total": 37446424
+    "cumulative_net_total": 37441724
   },
   {
     "week_end": "2025-06-29",
     "net_total": 15806822,
-    "cumulative_net_total": 53253246
+    "cumulative_net_total": 53248546
   },
   {
     "week_end": "2025-07-06",
-    "net_total": 29061475,
-    "cumulative_net_total": 82314721
+    "net_total": 29061625,
+    "cumulative_net_total": 82310171
   },
   {
     "week_end": "2025-07-13",
-    "net_total": 225272,
-    "cumulative_net_total": 82539993
+    "net_total": 225372,
+    "cumulative_net_total": 82535543
   },
   {
     "week_end": "2025-07-20",
     "net_total": 510805,
-    "cumulative_net_total": 83050798
+    "cumulative_net_total": 83046348
   },
   {
     "week_end": "2025-07-27",
     "net_total": 177116,
-    "cumulative_net_total": 83227914
+    "cumulative_net_total": 83223464
   },
   {
     "week_end": "2025-08-03",
-    "net_total": 272083,
-    "cumulative_net_total": 83499997
+    "net_total": 272133,
+    "cumulative_net_total": 83495597
   },
   {
     "week_end": "2025-08-10",
-    "net_total": 789078,
-    "cumulative_net_total": 84289075
+    "net_total": 789228,
+    "cumulative_net_total": 84284825
   },
   {
     "week_end": "2025-08-17",
-    "net_total": 191016,
-    "cumulative_net_total": 84480091
+    "net_total": 189516,
+    "cumulative_net_total": 84474341
   },
   {
     "week_end": "2025-08-24",
     "net_total": 25107750,
-    "cumulative_net_total": 109587841
+    "cumulative_net_total": 109582091
   },
   {
     "week_end": "2025-08-31",
-    "net_total": 596239,
-    "cumulative_net_total": 110184080
+    "net_total": 596489,
+    "cumulative_net_total": 110178580
   },
   {
     "week_end": "2025-09-07",
-    "net_total": 171244,
-    "cumulative_net_total": 110355324
+    "net_total": 171644,
+    "cumulative_net_total": 110350224
   },
   {
     "week_end": "2025-09-14",
-    "net_total": 25296992,
-    "cumulative_net_total": 135652316
+    "net_total": 25297492,
+    "cumulative_net_total": 135647716
   },
   {
     "week_end": "2025-09-21",
     "net_total": 449742,
-    "cumulative_net_total": 136102058
+    "cumulative_net_total": 136097458
   },
   {
     "week_end": "2025-09-28",
-    "net_total": 998916,
-    "cumulative_net_total": 137100974
+    "net_total": 981916,
+    "cumulative_net_total": 137079374
   },
   {
     "week_end": "2025-10-05",
-    "net_total": 809462,
-    "cumulative_net_total": 137910436
+    "net_total": 809487,
+    "cumulative_net_total": 137888861
   },
   {
     "week_end": "2025-10-12",
-    "net_total": 794108,
-    "cumulative_net_total": 138704544
+    "net_total": 795758,
+    "cumulative_net_total": 138684619
   },
   {
     "week_end": "2025-10-19",
     "net_total": 490730,
-    "cumulative_net_total": 139195274
+    "cumulative_net_total": 139175349
   },
   {
     "week_end": "2025-10-26",
-    "net_total": 1094604,
-    "cumulative_net_total": 140289878
+    "net_total": 1094104,
+    "cumulative_net_total": 140269453
   },
   {
     "week_end": "2025-11-02",
     "net_total": 359814,
-    "cumulative_net_total": 140649692
+    "cumulative_net_total": 140629267
   },
   {
     "week_end": "2025-11-09",
-    "net_total": 1368934,
-    "cumulative_net_total": 142018626
+    "net_total": 1372172,
+    "cumulative_net_total": 142001439
   },
   {
     "week_end": "2025-11-16",
     "net_total": 324697,
-    "cumulative_net_total": 142343323
+    "cumulative_net_total": 142326136
   },
   {
     "week_end": "2025-11-23",
-    "net_total": 522776,
-    "cumulative_net_total": 142866099
+    "net_total": 523038,
+    "cumulative_net_total": 142849174
   },
   {
     "week_end": "2025-11-30",
     "net_total": 335235,
-    "cumulative_net_total": 143201334
+    "cumulative_net_total": 143184409
   },
   {
     "week_end": "2025-12-07",
-    "net_total": 679435,
-    "cumulative_net_total": 143880769
+    "net_total": 679458,
+    "cumulative_net_total": 143863867
   },
   {
     "week_end": "2025-12-14",
-    "net_total": 382426,
-    "cumulative_net_total": 144263195
+    "net_total": 382562,
+    "cumulative_net_total": 144246429
   },
   {
     "week_end": "2025-12-21",
-    "net_total": 11314531,
-    "cumulative_net_total": 155577726
+    "net_total": 11314696,
+    "cumulative_net_total": 155561125
   },
   {
     "week_end": "2025-12-28",
-    "net_total": 202974,
-    "cumulative_net_total": 155780700
+    "net_total": 204128,
+    "cumulative_net_total": 155765253
   },
   {
     "week_end": "2026-01-04",
-    "net_total": 2425264,
-    "cumulative_net_total": 158205964
+    "net_total": 2426069,
+    "cumulative_net_total": 158191322
   },
   {
     "week_end": "2026-01-11",
-    "net_total": 46188,
-    "cumulative_net_total": 158252152
+    "net_total": 46391,
+    "cumulative_net_total": 158237713
   },
   {
     "week_end": "2026-01-18",
-    "net_total": 166022,
-    "cumulative_net_total": 158418174
+    "net_total": 166067,
+    "cumulative_net_total": 158403780
   },
   {
     "week_end": "2026-01-25",
-    "net_total": 83616,
-    "cumulative_net_total": 158501790
+    "net_total": 87082,
+    "cumulative_net_total": 158490862
   },
   {
     "week_end": "2026-02-01",
-    "net_total": 1216472,
-    "cumulative_net_total": 159718262
+    "net_total": 1227832,
+    "cumulative_net_total": 159718694
   },
   {
     "week_end": "2026-02-08",
-    "net_total": 373015,
-    "cumulative_net_total": 160091277
+    "net_total": 485075,
+    "cumulative_net_total": 160203769
   },
   {
     "week_end": "2026-02-15",
-    "net_total": 582087,
-    "cumulative_net_total": 160673364
+    "net_total": 601621,
+    "cumulative_net_total": 160805390
   },
   {
     "week_end": "2026-02-22",
-    "net_total": 629979,
-    "cumulative_net_total": 161303343
+    "net_total": 635226,
+    "cumulative_net_total": 161440616
   },
   {
     "week_end": "2026-03-01",
-    "net_total": 701460,
-    "cumulative_net_total": 162004803
+    "net_total": 774990,
+    "cumulative_net_total": 162215606
+  },
+  {
+    "week_end": "2026-03-08",
+    "net_total": 24812,
+    "cumulative_net_total": 162240418
   },
   {
     "week_end": "2026-03-15",
-    "net_total": 3775,
-    "cumulative_net_total": 162008578
+    "net_total": 17775,
+    "cumulative_net_total": 162258193
   },
   {
     "week_end": "2026-03-22",
-    "net_total": 15,
-    "cumulative_net_total": 162008593
+    "net_total": 34939,
+    "cumulative_net_total": 162293132
+  },
+  {
+    "week_end": "2026-03-29",
+    "net_total": 23300,
+    "cumulative_net_total": 162316432
+  },
+  {
+    "week_end": "2026-04-05",
+    "net_total": 45809,
+    "cumulative_net_total": 162362241
   }
 ]

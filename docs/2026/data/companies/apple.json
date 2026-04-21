@@ -3,30 +3,30 @@
   "slug": "apple",
   "summary": {
     "tech_canonical_name": "apple",
-    "net_total": 659227,
-    "n_donors": 491,
-    "n_contributions": 2976,
-    "n_committees": 300,
+    "net_total": 673137,
+    "n_donors": 498,
+    "n_contributions": 2997,
+    "n_committees": 306,
     "sectors": "tech_giant",
-    "amt_dem": 537110,
-    "amt_mixed": 500,
-    "amt_rep": 23322,
-    "amt_unknown": 98295,
-    "amt_other": 98795,
-    "classified_recipient_total": 560432,
-    "pct_dem": 95.8385673909,
-    "pct_classified_recipients": 85.0135082453,
-    "donor_amt_D": 577052,
-    "donor_amt_Mixed": 6862,
-    "donor_amt_R": 27900,
-    "donor_amt_Unknown": 47413,
-    "n_donors_D": 367,
-    "n_donors_Mixed": 18,
+    "amt_dem": 549511,
+    "amt_mixed": 1000,
+    "amt_rep": 22831,
+    "amt_unknown": 99795,
+    "amt_other": 100795,
+    "classified_recipient_total": 572342,
+    "pct_dem": 96.010951494,
+    "pct_classified_recipients": 85.0260793865,
+    "donor_amt_D": 590453,
+    "donor_amt_Mixed": 6637,
+    "donor_amt_R": 27634,
+    "donor_amt_Unknown": 48413,
+    "n_donors_D": 372,
+    "n_donors_Mixed": 17,
     "n_donors_R": 33,
-    "n_donors_Unknown": 73,
-    "donor_amt_total": 659227,
-    "n_donors_total": 491,
-    "pct_dem_by_donor": 95.3880638464,
+    "n_donors_Unknown": 76,
+    "donor_amt_total": 673137,
+    "n_donors_total": 498,
+    "pct_dem_by_donor": 95.5291083618,
     "slug": "apple"
   },
   "weekly_series": [
@@ -447,17 +447,17 @@
     {
       "cycle": 2026,
       "week_end": "2025-11-09",
-      "net_total": 6984,
-      "cumulative_net_total": 536000,
-      "gross_positive": 6984,
-      "n_contributions": 71,
-      "n_donors": 61
+      "net_total": 6722,
+      "cumulative_net_total": 535738,
+      "gross_positive": 6722,
+      "n_contributions": 70,
+      "n_donors": 60
     },
     {
       "cycle": 2026,
       "week_end": "2025-11-16",
       "net_total": 7754,
-      "cumulative_net_total": 543754,
+      "cumulative_net_total": 543492,
       "gross_positive": 7754,
       "n_contributions": 74,
       "n_donors": 57
@@ -465,11 +465,11 @@
     {
       "cycle": 2026,
       "week_end": "2025-11-23",
-      "net_total": 7931,
+      "net_total": 8193,
       "cumulative_net_total": 551685,
-      "gross_positive": 7931,
-      "n_contributions": 66,
-      "n_donors": 56
+      "gross_positive": 8193,
+      "n_contributions": 67,
+      "n_donors": 57
     },
     {
       "cycle": 2026,
@@ -537,65 +537,92 @@
     {
       "cycle": 2026,
       "week_end": "2026-01-18",
-      "net_total": 2965,
-      "cumulative_net_total": 630071,
-      "gross_positive": 2965,
-      "n_contributions": 11,
-      "n_donors": 11
-    },
-    {
-      "cycle": 2026,
-      "week_end": "2026-01-25",
-      "net_total": 1945,
-      "cumulative_net_total": 632016,
-      "gross_positive": 1945,
-      "n_contributions": 13,
+      "net_total": 2974,
+      "cumulative_net_total": 630080,
+      "gross_positive": 2974,
+      "n_contributions": 12,
       "n_donors": 12
     },
     {
       "cycle": 2026,
+      "week_end": "2026-01-25",
+      "net_total": 2396,
+      "cumulative_net_total": 632476,
+      "gross_positive": 2396,
+      "n_contributions": 15,
+      "n_donors": 14
+    },
+    {
+      "cycle": 2026,
       "week_end": "2026-02-01",
-      "net_total": 10120,
-      "cumulative_net_total": 642136,
-      "gross_positive": 10120,
-      "n_contributions": 21,
-      "n_donors": 20
+      "net_total": 10370,
+      "cumulative_net_total": 642846,
+      "gross_positive": 10370,
+      "n_contributions": 22,
+      "n_donors": 21
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-08",
-      "net_total": 1676,
-      "cumulative_net_total": 643812,
-      "gross_positive": 1676,
-      "n_contributions": 12,
-      "n_donors": 10
+      "net_total": 8676,
+      "cumulative_net_total": 651522,
+      "gross_positive": 8676,
+      "n_contributions": 17,
+      "n_donors": 14
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-15",
-      "net_total": 12840,
-      "cumulative_net_total": 656652,
-      "gross_positive": 12840,
-      "n_contributions": 11,
-      "n_donors": 11
+      "net_total": 13090,
+      "cumulative_net_total": 664612,
+      "gross_positive": 13090,
+      "n_contributions": 12,
+      "n_donors": 12
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-22",
-      "net_total": 1025,
-      "cumulative_net_total": 657677,
-      "gross_positive": 1025,
+      "net_total": 2125,
+      "cumulative_net_total": 666737,
+      "gross_positive": 2125,
+      "n_contributions": 4,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-01",
+      "net_total": 5150,
+      "cumulative_net_total": 671887,
+      "gross_positive": 5150,
+      "n_contributions": 10,
+      "n_donors": 9
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-15",
+      "net_total": 250,
+      "cumulative_net_total": 672137,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 500,
+      "cumulative_net_total": 672637,
+      "gross_positive": 500,
       "n_contributions": 2,
       "n_donors": 2
     },
     {
       "cycle": 2026,
-      "week_end": "2026-03-01",
-      "net_total": 1550,
-      "cumulative_net_total": 659227,
-      "gross_positive": 1550,
-      "n_contributions": 6,
-      "n_donors": 6
+      "week_end": "2026-03-29",
+      "net_total": 500,
+      "cumulative_net_total": 673137,
+      "gross_positive": 500,
+      "n_contributions": 2,
+      "n_donors": 2
     }
   ],
   "top_donors": [
@@ -625,15 +652,27 @@
     },
     {
       "name": "MARKS, AMANDA",
-      "net_total": 35450,
-      "gross_positive": 35450,
-      "n_contributions": 34,
-      "n_committees": 19,
+      "net_total": 37200,
+      "gross_positive": 37200,
+      "n_contributions": 38,
+      "n_committees": 23,
       "employers": "APPLE; APPLE INC; APPLE INC.; APPLE, INC.",
       "states": "CA",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 10000
+    },
+    {
+      "name": "POWDERLY, TIM",
+      "net_total": 20041,
+      "gross_positive": 21541,
+      "n_contributions": 11,
+      "n_committees": 8,
+      "employers": "APPLE INC.; APPLE, INC.",
+      "states": "UT; VA",
+      "top_committee": "JOSH RILEY FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
     },
     {
       "name": "TRUMBULL, BENJAMIN",
@@ -684,18 +723,6 @@
       "top_committee_amt": 6600
     },
     {
-      "name": "POWDERLY, TIM",
-      "net_total": 15041,
-      "gross_positive": 16541,
-      "n_contributions": 10,
-      "n_committees": 7,
-      "employers": "APPLE INC.; APPLE, INC.",
-      "states": "UT; VA",
-      "top_committee": "JOSH RILEY FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 7000
-    },
-    {
       "name": "TAYLOR, HOLLAND",
       "net_total": 12475,
       "gross_positive": 12475,
@@ -720,18 +747,6 @@
       "top_committee_amt": 7000
     },
     {
-      "name": "ADAMS, KATHERINE",
-      "net_total": 10000,
-      "gross_positive": 13500,
-      "n_contributions": 5,
-      "n_committees": 3,
-      "employers": "APPLE; APPLE INC.; APPLE, INC.",
-      "states": "NJ",
-      "top_committee": "JOSH RILEY FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 7000
-    },
-    {
       "name": "DANDIYA, PIA",
       "net_total": 10000,
       "gross_positive": 10000,
@@ -742,6 +757,18 @@
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 10000
+    },
+    {
+      "name": "ADAMS, KATHERINE",
+      "net_total": 10000,
+      "gross_positive": 13500,
+      "n_contributions": 5,
+      "n_committees": 3,
+      "employers": "APPLE; APPLE INC.; APPLE, INC.",
+      "states": "NJ",
+      "top_committee": "JOSH RILEY FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
     },
     {
       "name": "TRUMBULL, ELIZABETH",
@@ -792,6 +819,18 @@
       "top_committee_amt": 3500
     },
     {
+      "name": "FORSSELL, LISA",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 3,
+      "n_committees": 3,
+      "employers": "APPLE",
+      "states": "CA",
+      "top_committee": "RO FOR CONGRESS INC",
+      "top_committee_type": "H",
+      "top_committee_amt": 3500
+    },
+    {
       "name": "DAVID, RONALD",
       "net_total": 7000,
       "gross_positive": 7000,
@@ -799,19 +838,31 @@
       "n_committees": 5,
       "employers": "APPLE INC.; APPLE, INC; APPLE, INC.",
       "states": "CA",
-      "top_committee": "STATES WIN FEDERAL PAC",
+      "top_committee": "STATES WIN",
       "top_committee_type": "V",
       "top_committee_amt": 3000
     },
     {
-      "name": "HODLOFSKI, NICHOLAS",
+      "name": "NANO, DAVID A",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "APPLE INC.",
+      "states": "CA",
+      "top_committee": "DCCC",
+      "top_committee_type": "Y",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "RATHBUN, ROBERT JR",
       "net_total": 7000,
       "gross_positive": 7000,
       "n_contributions": 2,
       "n_committees": 1,
-      "employers": "APPLE",
-      "states": "CA",
-      "top_committee": "ALEX BORES FOR NY",
+      "employers": "APPLE INC",
+      "states": "VA",
+      "top_committee": "JAMES OSYF FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 7000
     },
@@ -828,28 +879,16 @@
       "top_committee_amt": 7000
     },
     {
-      "name": "RATHBUN, ROBERT JR",
+      "name": "HODLOFSKI, NICHOLAS",
       "net_total": 7000,
       "gross_positive": 7000,
       "n_contributions": 2,
       "n_committees": 1,
-      "employers": "APPLE INC",
-      "states": "VA",
-      "top_committee": "JAMES OSYF FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 7000
-    },
-    {
-      "name": "FORSSELL, LISA",
-      "net_total": 7000,
-      "gross_positive": 7000,
-      "n_contributions": 3,
-      "n_committees": 3,
       "employers": "APPLE",
       "states": "CA",
-      "top_committee": "RO FOR CONGRESS INC",
+      "top_committee": "ALEX BORES FOR NY",
       "top_committee_type": "H",
-      "top_committee_amt": 3500
+      "top_committee_amt": 7000
     },
     {
       "name": "ALWARID, OMAR",
@@ -895,7 +934,7 @@
       "n_committees": 5,
       "employers": "APPLE INC; APPLE, INC.",
       "states": "CA",
-      "top_committee": "FRIENDS OF JANELLE STELSON",
+      "top_committee": "DON DAVIS FOR NC",
       "top_committee_type": "H",
       "top_committee_amt": 1000
     },
@@ -984,16 +1023,16 @@
       "top_committee_amt": 1000
     },
     {
-      "name": "NANO, DAVID A",
-      "net_total": 4000,
-      "gross_positive": 4000,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "APPLE INC.",
+      "name": "SOLEY, WILLIAM",
+      "net_total": 3797,
+      "gross_positive": 3797,
+      "n_contributions": 33,
+      "n_committees": 10,
+      "employers": "APPLE; APPLE INC",
       "states": "CA",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
-      "top_committee_amt": 4000
+      "top_committee_amt": 1100
     },
     {
       "name": "ROSSI, NICHOLAS",
@@ -1003,8 +1042,8 @@
       "n_committees": 4,
       "employers": "APPLE INC.",
       "states": "DC",
-      "top_committee": "TED CRUZ FOR SENATE",
-      "top_committee_type": "S",
+      "top_committee": "COMMON VALUES PAC",
+      "top_committee_type": "Q",
       "top_committee_amt": 1000
     },
     {
@@ -1020,18 +1059,6 @@
       "top_committee_amt": 3460
     },
     {
-      "name": "BORCHERS, ROBERT",
-      "net_total": 3500,
-      "gross_positive": 3500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "APPLE",
-      "states": "CA",
-      "top_committee": "SWALWELL FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 3500
-    },
-    {
       "name": "SANCHEZ, CHLOE",
       "net_total": 3500,
       "gross_positive": 3500,
@@ -1040,6 +1067,18 @@
       "employers": "APPLE",
       "states": "CA",
       "top_committee": "EVERTON BLAIR FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 3500
+    },
+    {
+      "name": "BORCHERS, ROBERT",
+      "net_total": 3500,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "APPLE",
+      "states": "CA",
+      "top_committee": "SWALWELL FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3500
     },
@@ -1056,16 +1095,16 @@
       "top_committee_amt": 3500
     },
     {
-      "name": "SOLEY, WILLIAM",
-      "net_total": 3297,
-      "gross_positive": 3297,
-      "n_contributions": 31,
-      "n_committees": 10,
-      "employers": "APPLE; APPLE INC",
-      "states": "CA",
-      "top_committee": "DSCC",
+      "name": "UNT, LORE A",
+      "net_total": 3250,
+      "gross_positive": 3250,
+      "n_contributions": 13,
+      "n_committees": 1,
+      "employers": "APPLE",
+      "states": "MD",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
-      "top_committee_amt": 750
+      "top_committee_amt": 3250
     },
     {
       "name": "JUDD, MAXX",
@@ -1092,16 +1131,16 @@
       "top_committee_amt": 3000
     },
     {
-      "name": "BRAUER, JOSHUA",
+      "name": "RAHMAN, INAM",
       "net_total": 3000,
       "gross_positive": 3000,
-      "n_contributions": 2,
-      "n_committees": 1,
+      "n_contributions": 5,
+      "n_committees": 3,
       "employers": "APPLE",
-      "states": "ID",
-      "top_committee": "CAMMIE FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 3000
+      "states": "CA",
+      "top_committee": "REVOLUTIONARY CHANGE PAC",
+      "top_committee_type": "O",
+      "top_committee_amt": 2250
     },
     {
       "name": "BECKETT, ALICE",
@@ -1116,6 +1155,18 @@
       "top_committee_amt": 3000
     },
     {
+      "name": "BRAUER, JOSHUA",
+      "net_total": 3000,
+      "gross_positive": 3000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "APPLE",
+      "states": "ID",
+      "top_committee": "CAMMIE FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 3000
+    },
+    {
       "name": "HARVEY, AMANDA",
       "net_total": 3000,
       "gross_positive": 3000,
@@ -1126,18 +1177,6 @@
       "top_committee": "KSHAMA FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3000
-    },
-    {
-      "name": "UNT, LORE A",
-      "net_total": 2900,
-      "gross_positive": 2900,
-      "n_contributions": 11,
-      "n_committees": 1,
-      "employers": "APPLE",
-      "states": "MD",
-      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
-      "top_committee_amt": 2900
     },
     {
       "name": "O'GRADY, JOHN",
@@ -1186,18 +1225,6 @@
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 2581
-    },
-    {
-      "name": "POPPEN, RICHARD",
-      "net_total": 2575,
-      "gross_positive": 2575,
-      "n_contributions": 2,
-      "n_committees": 2,
-      "employers": "APPLE INC.",
-      "states": "CA",
-      "top_committee": "EQUALITY CALIFORNIA FEDERAL PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 2325
     }
   ],
   "top_committees": [
@@ -1208,9 +1235,9 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 54302,
-      "n_donors": 18,
-      "n_contributions": 73
+      "net_total": 62802,
+      "n_donors": 19,
+      "n_contributions": 77
     },
     {
       "cmte_id": "C00042366",
@@ -1224,6 +1251,17 @@
       "n_contributions": 61
     },
     {
+      "cmte_id": "C00010603",
+      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 30821,
+      "n_donors": 50,
+      "n_contributions": 263
+    },
+    {
       "cmte_id": "C00503185",
       "cmte_nm": "RO FOR CONGRESS INC",
       "cmte_tp": "H",
@@ -1233,17 +1271,6 @@
       "net_total": 29377,
       "n_donors": 8,
       "n_contributions": 23
-    },
-    {
-      "cmte_id": "C00010603",
-      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "cmte_tp": "Y",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "party",
-      "net_total": 29371,
-      "n_donors": 47,
-      "n_contributions": 257
     },
     {
       "cmte_id": "C00718866",
@@ -1378,17 +1405,6 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00835587",
-      "cmte_nm": "VOTE SAVE AMERICA",
-      "cmte_tp": "Q",
-      "party_dr": "D",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 7000,
-      "n_donors": 5,
-      "n_contributions": 58
-    },
-    {
       "cmte_id": "C00923706",
       "cmte_nm": "ALEX BORES FOR NY",
       "cmte_tp": "H",
@@ -1398,6 +1414,17 @@
       "net_total": 7000,
       "n_donors": 1,
       "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00835587",
+      "cmte_nm": "VOTE SAVE AMERICA",
+      "cmte_tp": "Q",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 7000,
+      "n_donors": 5,
+      "n_contributions": 58
     },
     {
       "cmte_id": "C00909283",
@@ -1500,7 +1527,7 @@
     },
     {
       "cmte_id": "C00636944",
-      "cmte_nm": "STATES WIN FEDERAL PAC",
+      "cmte_nm": "STATES WIN",
       "cmte_tp": "V",
       "party_dr": "Unknown",
       "classification_source": "",
@@ -1532,19 +1559,19 @@
       "n_contributions": 6
     },
     {
-      "cmte_id": "C00834028",
-      "cmte_nm": "GEORGE WHITESIDES FOR CONGRESS",
+      "cmte_id": "C00845487",
+      "cmte_nm": "SEAN DOUGHERTY FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 3750,
-      "n_donors": 2,
-      "n_contributions": 2
+      "net_total": 3760,
+      "n_donors": 3,
+      "n_contributions": 3
     },
     {
-      "cmte_id": "C00729277",
-      "cmte_nm": "DEBORAH ROSS FOR CONGRESS",
+      "cmte_id": "C00648253",
+      "cmte_nm": "JOE NEGUSE FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1565,8 +1592,19 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00648253",
-      "cmte_nm": "JOE NEGUSE FOR CONGRESS",
+      "cmte_id": "C00729277",
+      "cmte_nm": "DEBORAH ROSS FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3750,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00834028",
+      "cmte_nm": "GEORGE WHITESIDES FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1587,17 +1625,6 @@
       "n_contributions": 60
     },
     {
-      "cmte_id": "C00845487",
-      "cmte_nm": "SEAN DOUGHERTY FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3510,
-      "n_donors": 2,
-      "n_contributions": 2
-    },
-    {
       "cmte_id": "C00836346",
       "cmte_nm": "CAMPAIGN FOR DEMOCRACY COMMITTEE",
       "cmte_tp": "N",
@@ -1609,8 +1636,8 @@
       "n_contributions": 15
     },
     {
-      "cmte_id": "C00502294",
-      "cmte_nm": "SWALWELL FOR CONGRESS",
+      "cmte_id": "C00901157",
+      "cmte_nm": "EVERTON BLAIR FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1620,9 +1647,9 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00901157",
-      "cmte_nm": "EVERTON BLAIR FOR CONGRESS",
-      "cmte_tp": "H",
+      "cmte_id": "C00909572",
+      "cmte_nm": "ALLRED FOR TEXAS 2026",
+      "cmte_tp": "S",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
@@ -1637,6 +1664,17 @@
       "party_dr": "Unknown",
       "classification_source": "",
       "recipient_bucket": "pac",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00502294",
+      "cmte_nm": "SWALWELL FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
       "net_total": 3500,
       "n_donors": 1,
       "n_contributions": 1
@@ -1662,17 +1700,6 @@
       "net_total": 3500,
       "n_donors": 2,
       "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00909572",
-      "cmte_nm": "ALLRED FOR TEXAS 2026",
-      "cmte_tp": "S",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
     },
     {
       "cmte_id": "C00573709",
@@ -1719,17 +1746,6 @@
       "n_contributions": 28
     },
     {
-      "cmte_id": "C00492645",
-      "cmte_nm": "FRIENDS OF CHRIS MURPHY",
-      "cmte_tp": "S",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3000,
-      "n_donors": 4,
-      "n_contributions": 5
-    },
-    {
       "cmte_id": "C00653816",
       "cmte_nm": "COMMITTEE TO ELECT JARED GOLDEN",
       "cmte_tp": "H",
@@ -1750,6 +1766,17 @@
       "net_total": 3000,
       "n_donors": 1,
       "n_contributions": 6
+    },
+    {
+      "cmte_id": "C00492645",
+      "cmte_nm": "FRIENDS OF CHRIS MURPHY",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3000,
+      "n_donors": 4,
+      "n_contributions": 5
     }
   ]
 }

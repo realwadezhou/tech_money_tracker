@@ -3,30 +3,30 @@
   "slug": "greylock",
   "summary": {
     "tech_canonical_name": "greylock",
-    "net_total": 2682600,
+    "net_total": 2713600,
     "n_donors": 12,
-    "n_contributions": 40,
-    "n_committees": 27,
+    "n_contributions": 45,
+    "n_committees": 29,
     "sectors": "vc",
     "amt_dem": 873500,
-    "amt_mixed": 0,
-    "amt_rep": 551000,
-    "amt_unknown": 1258100,
-    "amt_other": 1258100,
-    "classified_recipient_total": 1424500,
-    "pct_dem": 61.3197613198,
-    "pct_classified_recipients": 53.1014687244,
+    "amt_mixed": 1000,
+    "amt_rep": 557000,
+    "amt_unknown": 1282100,
+    "amt_other": 1283100,
+    "classified_recipient_total": 1430500,
+    "pct_dem": 61.0625655365,
+    "pct_classified_recipients": 52.7159492925,
     "donor_amt_D": 831500,
     "donor_amt_Mixed": 0,
-    "donor_amt_R": 983100,
-    "donor_amt_Unknown": 868000,
+    "donor_amt_R": 1013100,
+    "donor_amt_Unknown": 869000,
     "n_donors_D": 3,
     "n_donors_Mixed": 0,
-    "n_donors_R": 4,
-    "n_donors_Unknown": 5,
-    "donor_amt_total": 2682600,
+    "n_donors_R": 3,
+    "n_donors_Unknown": 6,
+    "donor_amt_total": 2713600,
     "n_donors_total": 12,
-    "pct_dem_by_donor": 45.8227708586,
+    "pct_dem_by_donor": 45.0775235823,
     "slug": "greylock"
   },
   "weekly_series": [
@@ -190,7 +190,7 @@
       "cumulative_net_total": 1725600,
       "gross_positive": 53000,
       "n_contributions": 5,
-      "n_donors": 3
+      "n_donors": 2
     },
     {
       "cycle": 2026,
@@ -204,10 +204,37 @@
     {
       "cycle": 2026,
       "week_end": "2026-02-15",
-      "net_total": 457000,
-      "cumulative_net_total": 2682600,
-      "gross_positive": 457000,
+      "net_total": 471000,
+      "cumulative_net_total": 2696600,
+      "gross_positive": 471000,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-01",
+      "net_total": 7000,
+      "cumulative_net_total": 2703600,
+      "gross_positive": 7000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-08",
+      "net_total": 0,
+      "cumulative_net_total": 2703600,
+      "gross_positive": 3500,
       "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 10000,
+      "cumulative_net_total": 2713600,
+      "gross_positive": 10000,
+      "n_contributions": 1,
       "n_donors": 1
     }
   ],
@@ -226,10 +253,10 @@
     },
     {
       "name": "HOFFMAN, REID G.",
-      "net_total": 667000,
-      "gross_positive": 667000,
-      "n_contributions": 3,
-      "n_committees": 3,
+      "net_total": 650000,
+      "gross_positive": 650000,
+      "n_contributions": 2,
+      "n_committees": 2,
       "employers": "GREYLOCK",
       "states": "WA",
       "top_committee": "NEW JERSEY VOICES AND FAMILIES",
@@ -261,7 +288,7 @@
       "top_committee_amt": 250000
     },
     {
-      "name": "HELMAN, WILLIAM W.",
+      "name": "HELMAN, WILLIAM H",
       "net_total": 134000,
       "gross_positive": 134000,
       "n_contributions": 1,
@@ -297,28 +324,28 @@
       "top_committee_amt": 50000
     },
     {
+      "name": "COX, HOWARD",
+      "net_total": 41000,
+      "gross_positive": 44500,
+      "n_contributions": 6,
+      "n_committees": 3,
+      "employers": "GREYLOCK; GREYLOCK PARTNERS",
+      "states": "FL; MA",
+      "top_committee": "MAST VICTORY COMMITTEE",
+      "top_committee_type": "N",
+      "top_committee_amt": 24000
+    },
+    {
       "name": "HOFFMAN, REID GARRETT",
-      "net_total": 17000,
-      "gross_positive": 17000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "GREYLOCK PARTNERS",
+      "net_total": 34000,
+      "gross_positive": 34000,
+      "n_contributions": 2,
+      "n_committees": 2,
+      "employers": "GREYLOCK; GREYLOCK PARTNERS",
       "states": "WA",
       "top_committee": "OSSOFF VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 17000
-    },
-    {
-      "name": "COX, HOWARD",
-      "net_total": 10000,
-      "gross_positive": 10000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "GREYLOCK PARTNERS",
-      "states": "MA",
-      "top_committee": "SULLIVAN VICTORY",
-      "top_committee_type": "N",
-      "top_committee_amt": 10000
     },
     {
       "name": "KAISER, BILL",
@@ -458,6 +485,17 @@
       "n_contributions": 2
     },
     {
+      "cmte_id": "C00583161",
+      "cmte_nm": "MAST VICTORY COMMITTEE",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 24000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
       "cmte_id": "C00734319",
       "cmte_nm": "BOOKER VICTORY FUND",
       "cmte_tp": "N",
@@ -535,23 +573,23 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00609255",
-      "cmte_nm": "SULLIVAN VICTORY",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 10000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00909465",
       "cmte_nm": "INDIGO PAC",
       "cmte_tp": "O",
       "party_dr": "D",
       "classification_source": "ie_spending",
       "recipient_bucket": "outside_spending",
+      "net_total": 10000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00609255",
+      "cmte_nm": "SULLIVAN VICTORY",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
       "net_total": 10000,
       "n_donors": 1,
       "n_contributions": 1
@@ -583,6 +621,17 @@
       "cmte_nm": "PAT RYAN FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00932574",
+      "cmte_nm": "SCOTT SINGER FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 7000,
@@ -637,7 +686,7 @@
       "cmte_id": "C00131185",
       "cmte_nm": "AIRCRAFT OWNERS AND PILOTS ASSOCIATION POLITICAL ACTION COMMITTEE",
       "cmte_tp": "Q",
-      "party_dr": "R",
+      "party_dr": "Mixed",
       "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
       "net_total": 1000,

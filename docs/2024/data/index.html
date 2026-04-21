@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Data - Tech Money</title>
   <link rel="stylesheet" href="../static/site.css">
+  <script src="../static/tables.js" defer></script>
 </head>
 <body>
   <div class="page">
@@ -14,7 +15,7 @@
   <p class="site-tagline">A plain web document about tech-linked money in federal politics.</p>
   <div class="cycle-toggle"><span class="cycle-label">Cycle</span><a class="cycle-pill" href="../../2026/data/">2026</a><span class="cycle-pill current">2024</span></div>
   <hr class="rule">
-  <div class="navline"><a href="../index.html">Home</a> | <a href="../companies/">Companies</a> | <a href="../candidates/">Candidates</a> | <a href="../political-bodies/">Political Bodies</a> | <a href="../donors/">Donors</a> | <a href="../methodology/">Methodology</a> | <a href="../data/">Data</a></div>
+  <div class="navline"><a href="../index.html">Home</a> | <strong>Elections 2024:</strong> <a href="../donors/">Donors</a> | <a href="../candidates/">Candidates</a> | <a href="../races/">Races</a> | <a href="../political-bodies/">Political bodies</a> | <a href="../companies/">Tech employees</a> | <a href="../federal-lobbying/">Federal lobbying</a> | <a href="../methodology/">Methodology</a> | <a href="../data/">Data</a></div>
   <hr class="rule">
 </div>
 
@@ -22,7 +23,7 @@
     
 <h1>Data</h1>
 <p>These are the current frontend-ready exports for the validated 2024 build.</p>
-<table border="1" cellpadding="4" cellspacing="0"><thead><tr><th>File</th></tr></thead><tbody><tr><td><a href="site_metadata.json">site_metadata.json</a></td></tr><tr><td><a href="source_manifest.json">source_manifest.json</a></td></tr><tr><td><a href="homepage_summary.json">homepage_summary.json</a></td></tr><tr><td><a href="companies.json">companies.json</a></td></tr><tr><td><a href="committees.json">committees.json</a></td></tr><tr><td><a href="major_donors.json">major_donors.json</a></td></tr><tr><td><a href="charts/home_weekly_totals.json">charts/home_weekly_totals.json</a></td></tr><tr><td><a href="weekly_totals.csv">weekly_totals.csv</a></td></tr><tr><td><a href="weekly_by_company.csv">weekly_by_company.csv</a></td></tr><tr><td><a href="weekly_by_recipient_bucket.csv">weekly_by_recipient_bucket.csv</a></td></tr><tr><td><a href="weekly_by_recipient_party.csv">weekly_by_recipient_party.csv</a></td></tr><tr><td><a href="entity_party_lean.csv">entity_party_lean.csv</a></td></tr><tr><td><a href="entity_party_lean_companies.csv">entity_party_lean_companies.csv</a></td></tr><tr><td><a href="entity_party_lean_committees.csv">entity_party_lean_committees.csv</a></td></tr><tr><td><a href="entity_party_lean_donors.csv">entity_party_lean_donors.csv</a></td></tr><tr><td><a href="candidate_race_summary.csv">candidate_race_summary.csv</a></td></tr><tr><td><a href="candidate_state_summary.csv">candidate_state_summary.csv</a></td></tr><tr><td><a href="candidate_house_district_summary.csv">candidate_house_district_summary.csv</a></td></tr><tr><td><a href="candidate_senate_summary.csv">candidate_senate_summary.csv</a></td></tr></tbody></table>
+<div class="table-control"><label>Filter <input class="table-filter" type="search" autocomplete="off"></label></div><div class="table-wrap"><table class="data-table" border="1" cellpadding="4" cellspacing="0"><thead><tr><th scope="col"><button type="button" class="sort-button">File</button></th></tr></thead><tbody><tr><td><a href="site_metadata.json">site_metadata.json</a></td></tr><tr><td><a href="source_manifest.json">source_manifest.json</a></td></tr><tr><td><a href="homepage_summary.json">homepage_summary.json</a></td></tr><tr><td><a href="companies.json">companies.json</a></td></tr><tr><td><a href="committees.json">committees.json</a></td></tr><tr><td><a href="major_donors.json">major_donors.json</a></td></tr><tr><td><a href="charts/home_weekly_totals.json">charts/home_weekly_totals.json</a></td></tr><tr><td><a href="weekly_totals.csv">weekly_totals.csv</a></td></tr><tr><td><a href="weekly_by_company.csv">weekly_by_company.csv</a></td></tr><tr><td><a href="weekly_by_recipient_bucket.csv">weekly_by_recipient_bucket.csv</a></td></tr><tr><td><a href="weekly_by_recipient_party.csv">weekly_by_recipient_party.csv</a></td></tr><tr><td><a href="entity_party_lean.csv">entity_party_lean.csv</a></td></tr><tr><td><a href="entity_party_lean_companies.csv">entity_party_lean_companies.csv</a></td></tr><tr><td><a href="entity_party_lean_committees.csv">entity_party_lean_committees.csv</a></td></tr><tr><td><a href="entity_party_lean_donors.csv">entity_party_lean_donors.csv</a></td></tr><tr><td><a href="candidate_race_summary.csv">candidate_race_summary.csv</a></td></tr><tr><td><a href="candidate_state_summary.csv">candidate_state_summary.csv</a></td></tr><tr><td><a href="candidate_house_district_summary.csv">candidate_house_district_summary.csv</a></td></tr><tr><td><a href="candidate_senate_summary.csv">candidate_senate_summary.csv</a></td></tr></tbody></table></div>
 <p><a href="companies/">Company detail JSON files</a></p>
 <p><a href="charts/companies/">Company chart JSON files</a></p>
 

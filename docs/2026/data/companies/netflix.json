@@ -3,30 +3,30 @@
   "slug": "netflix",
   "summary": {
     "tech_canonical_name": "netflix",
-    "net_total": 3340546,
-    "n_donors": 111,
-    "n_contributions": 425,
-    "n_committees": 93,
+    "net_total": 3344346,
+    "n_donors": 113,
+    "n_contributions": 427,
+    "n_committees": 94,
     "sectors": "tech_giant",
     "amt_dem": 1807430,
     "amt_mixed": 750,
     "amt_rep": 3810,
-    "amt_unknown": 1528556,
-    "amt_other": 1529306,
+    "amt_unknown": 1532356,
+    "amt_other": 1533106,
     "classified_recipient_total": 1811240,
     "pct_dem": 99.7896468718,
-    "pct_classified_recipients": 54.2198790258,
-    "donor_amt_D": 3290449,
+    "pct_classified_recipients": 54.1582719013,
+    "donor_amt_D": 3293949,
     "donor_amt_Mixed": 3785,
     "donor_amt_R": 4140,
-    "donor_amt_Unknown": 42172,
-    "n_donors_D": 76,
+    "donor_amt_Unknown": 42472,
+    "n_donors_D": 77,
     "n_donors_Mixed": 7,
     "n_donors_R": 6,
-    "n_donors_Unknown": 22,
-    "donor_amt_total": 3340546,
-    "n_donors_total": 111,
-    "pct_dem_by_donor": 99.8743394093,
+    "n_donors_Unknown": 23,
+    "donor_amt_total": 3344346,
+    "n_donors_total": 113,
+    "pct_dem_by_donor": 99.8744727629,
     "slug": "netflix"
   },
   "weekly_series": [
@@ -429,17 +429,17 @@
     {
       "cycle": 2026,
       "week_end": "2025-11-09",
-      "net_total": 1007627,
-      "cumulative_net_total": 3297758,
-      "gross_positive": 1007627,
-      "n_contributions": 12,
-      "n_donors": 12
+      "net_total": 1011127,
+      "cumulative_net_total": 3301258,
+      "gross_positive": 1011127,
+      "n_contributions": 13,
+      "n_donors": 13
     },
     {
       "cycle": 2026,
       "week_end": "2025-11-16",
       "net_total": 22095,
-      "cumulative_net_total": 3319853,
+      "cumulative_net_total": 3323353,
       "gross_positive": 22095,
       "n_contributions": 10,
       "n_donors": 9
@@ -448,7 +448,7 @@
       "cycle": 2026,
       "week_end": "2025-11-23",
       "net_total": 3956,
-      "cumulative_net_total": 3323809,
+      "cumulative_net_total": 3327309,
       "gross_positive": 3956,
       "n_contributions": 18,
       "n_donors": 17
@@ -457,7 +457,7 @@
       "cycle": 2026,
       "week_end": "2025-11-30",
       "net_total": 293,
-      "cumulative_net_total": 3324102,
+      "cumulative_net_total": 3327602,
       "gross_positive": 293,
       "n_contributions": 8,
       "n_donors": 7
@@ -466,7 +466,7 @@
       "cycle": 2026,
       "week_end": "2025-12-07",
       "net_total": 4577,
-      "cumulative_net_total": 3328679,
+      "cumulative_net_total": 3332179,
       "gross_positive": 4577,
       "n_contributions": 11,
       "n_donors": 11
@@ -475,7 +475,7 @@
       "cycle": 2026,
       "week_end": "2025-12-14",
       "net_total": 2095,
-      "cumulative_net_total": 3330774,
+      "cumulative_net_total": 3334274,
       "gross_positive": 2095,
       "n_contributions": 9,
       "n_donors": 9
@@ -484,7 +484,7 @@
       "cycle": 2026,
       "week_end": "2025-12-21",
       "net_total": 301,
-      "cumulative_net_total": 3331075,
+      "cumulative_net_total": 3334575,
       "gross_positive": 301,
       "n_contributions": 8,
       "n_donors": 8
@@ -493,7 +493,7 @@
       "cycle": 2026,
       "week_end": "2025-12-28",
       "net_total": 460,
-      "cumulative_net_total": 3331535,
+      "cumulative_net_total": 3335035,
       "gross_positive": 460,
       "n_contributions": 9,
       "n_donors": 9
@@ -502,7 +502,7 @@
       "cycle": 2026,
       "week_end": "2026-01-04",
       "net_total": 551,
-      "cumulative_net_total": 3332086,
+      "cumulative_net_total": 3335586,
       "gross_positive": 551,
       "n_contributions": 4,
       "n_donors": 4
@@ -511,7 +511,7 @@
       "cycle": 2026,
       "week_end": "2026-01-11",
       "net_total": 25,
-      "cumulative_net_total": 3332111,
+      "cumulative_net_total": 3335611,
       "gross_positive": 25,
       "n_contributions": 1,
       "n_donors": 1
@@ -520,7 +520,7 @@
       "cycle": 2026,
       "week_end": "2026-01-18",
       "net_total": 550,
-      "cumulative_net_total": 3332661,
+      "cumulative_net_total": 3336161,
       "gross_positive": 550,
       "n_contributions": 2,
       "n_donors": 2
@@ -528,17 +528,17 @@
     {
       "cycle": 2026,
       "week_end": "2026-01-25",
-      "net_total": 250,
-      "cumulative_net_total": 3332911,
-      "gross_positive": 250,
-      "n_contributions": 1,
-      "n_donors": 1
+      "net_total": 550,
+      "cumulative_net_total": 3336711,
+      "gross_positive": 550,
+      "n_contributions": 2,
+      "n_donors": 2
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-08",
       "net_total": 110,
-      "cumulative_net_total": 3333021,
+      "cumulative_net_total": 3336821,
       "gross_positive": 110,
       "n_contributions": 2,
       "n_donors": 2
@@ -547,7 +547,7 @@
       "cycle": 2026,
       "week_end": "2026-02-15",
       "net_total": 7525,
-      "cumulative_net_total": 3340546,
+      "cumulative_net_total": 3344346,
       "gross_positive": 7525,
       "n_contributions": 4,
       "n_donors": 3
@@ -639,30 +639,6 @@
       "top_committee_amt": 8000
     },
     {
-      "name": "GANON, CAROLYN",
-      "net_total": 7000,
-      "gross_positive": 7000,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "NC",
-      "top_committee": "ERIC JONES FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 7000
-    },
-    {
-      "name": "BLACK, DUSTIN LANCE",
-      "net_total": 7000,
-      "gross_positive": 7000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "CA",
-      "top_committee": "OSSOFF VICTORY FUND",
-      "top_committee_type": "N",
-      "top_committee_amt": 7000
-    },
-    {
       "name": "CASTLEBERRY, WILL D.",
       "net_total": 7000,
       "gross_positive": 7000,
@@ -682,9 +658,33 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "MD",
-      "top_committee": "GILL FOR NEW JERSEY",
-      "top_committee_type": "H",
+      "top_committee": "MILLS FOR MAINE",
+      "top_committee_type": "S",
       "top_committee_amt": 3500
+    },
+    {
+      "name": "BLACK, DUSTIN LANCE",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "CA",
+      "top_committee": "OSSOFF VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "GANON, CAROLYN",
+      "net_total": 7000,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "NC",
+      "top_committee": "ERIC JONES FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
     },
     {
       "name": "STEWART, EMMA",
@@ -699,6 +699,18 @@
       "top_committee_amt": 3300
     },
     {
+      "name": "WEISS, DAN",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "CA",
+      "top_committee": "TED LIEU VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 5000
+    },
+    {
       "name": "KEYSER, CHRIS",
       "net_total": 5000,
       "gross_positive": 6500,
@@ -711,16 +723,28 @@
       "top_committee_amt": 5000
     },
     {
-      "name": "WEISS, DAN",
-      "net_total": 5000,
-      "gross_positive": 5000,
+      "name": "SPIEGELMAN, MICHAEL ALEX",
+      "net_total": 3500,
+      "gross_positive": 3500,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "TED LIEU VICTORY FUND",
+      "top_committee": "COOPER VICTORY FUND",
       "top_committee_type": "N",
-      "top_committee_amt": 5000
+      "top_committee_amt": 3500
+    },
+    {
+      "name": "LEE, CHESTON",
+      "net_total": 3500,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "WA",
+      "top_committee": "TODD LOMBARDO FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 3500
     },
     {
       "name": "BEERS, ELIZABETH S",
@@ -743,18 +767,6 @@
       "employers": "NETFLIX",
       "states": "CA",
       "top_committee": "BROOKE PINTO FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 3500
-    },
-    {
-      "name": "LEE, CHESTON",
-      "net_total": 3500,
-      "gross_positive": 3500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "WA",
-      "top_committee": "TODD LOMBARDO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3500
     },
@@ -838,33 +850,9 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "ALEXANDRIA OCASIO-CORTEZ FOR CONGRESS",
-      "top_committee_type": "H",
+      "top_committee": "FRIENDS OF BERNIE SANDERS",
+      "top_committee_type": "S",
       "top_committee_amt": 500
-    },
-    {
-      "name": "MITCHELL, MIKE",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "CA",
-      "top_committee": "OSSOFF VICTORY FUND",
-      "top_committee_type": "N",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "MOORE, JOSHUA",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "CA",
-      "top_committee": "STEAM FORWARD PAC",
-      "top_committee_type": "N",
-      "top_committee_amt": 1000
     },
     {
       "name": "QUANRUD, KASEY",
@@ -875,6 +863,30 @@
       "employers": "NETFLIX",
       "states": "WA",
       "top_committee": "THOMAS MASSIE FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "SCHARLOTT, WILL",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "CA",
+      "top_committee": "PAUL BARRINGER FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "MACIAS, MANNY",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "FL",
+      "top_committee": "REED SHOWALTER FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
     },
@@ -891,15 +903,27 @@
       "top_committee_amt": 1000
     },
     {
-      "name": "SCHARLOTT, WILL",
+      "name": "SPIEGEL, MICHAEL",
       "net_total": 1000,
       "gross_positive": 1000,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "PAUL BARRINGER FOR CONGRESS",
+      "top_committee": "ADAM GRAY FOR CONGRESS",
       "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "MITCHELL, MIKE",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "CA",
+      "top_committee": "OSSOFF VICTORY FUND",
+      "top_committee_type": "N",
       "top_committee_amt": 1000
     },
     {
@@ -922,9 +946,21 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
+      "top_committee": "TED LIEU FOR CONGRESS",
+      "top_committee_type": "H",
       "top_committee_amt": 500
+    },
+    {
+      "name": "MOORE, JOSHUA",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "CA",
+      "top_committee": "STEAM FORWARD PAC",
+      "top_committee_type": "N",
+      "top_committee_amt": 1000
     },
     {
       "name": "STEDMAN, SHAWN",
@@ -934,33 +970,9 @@
       "n_committees": 4,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "FRIENDS OF CHRIS MURPHY",
-      "top_committee_type": "S",
+      "top_committee": "JASMINE FOR US",
+      "top_committee_type": "H",
       "top_committee_amt": 250
-    },
-    {
-      "name": "SPIEGEL, MICHAEL",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "CA",
-      "top_committee": "ADAM GRAY FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "MACIAS, MANNY",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "FL",
-      "top_committee": "REED SHOWALTER FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
     },
     {
       "name": "TINDLE, C. SHANNON",
@@ -999,18 +1011,6 @@
       "top_committee_amt": 830
     },
     {
-      "name": "DAVIS, WADE",
-      "net_total": 800,
-      "gross_positive": 800,
-      "n_contributions": 8,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "CA",
-      "top_committee": "FORWARD BLUE",
-      "top_committee_type": "O",
-      "top_committee_amt": 800
-    },
-    {
       "name": "ALPERT, KAYLA",
       "net_total": 800,
       "gross_positive": 800,
@@ -1021,6 +1021,18 @@
       "top_committee": "MCMORROW FOR MICHIGAN",
       "top_committee_type": "S",
       "top_committee_amt": 550
+    },
+    {
+      "name": "DAVIS, WADE",
+      "net_total": 800,
+      "gross_positive": 800,
+      "n_contributions": 8,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "CA",
+      "top_committee": "FORWARD BLUE",
+      "top_committee_type": "O",
+      "top_committee_amt": 800
     },
     {
       "name": "BARNOW, KATE",
@@ -1035,18 +1047,6 @@
       "top_committee_amt": 780
     },
     {
-      "name": "SINGER, LOWELL",
-      "net_total": 750,
-      "gross_positive": 750,
-      "n_contributions": 2,
-      "n_committees": 2,
-      "employers": "NETFLIX",
-      "states": "CA",
-      "top_committee": "BOOKER VICTORY FUND",
-      "top_committee_type": "N",
-      "top_committee_amt": 500
-    },
-    {
       "name": "HARTMAN EDWARDS, REBECCA",
       "net_total": 750,
       "gross_positive": 750,
@@ -1059,16 +1059,16 @@
       "top_committee_amt": 500
     },
     {
-      "name": "JUN, SEO-YOUNG",
-      "net_total": 550,
-      "gross_positive": 550,
+      "name": "SINGER, LOWELL",
+      "net_total": 750,
+      "gross_positive": 750,
       "n_contributions": 2,
-      "n_committees": 1,
+      "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "FRIENDS OF BERNIE SANDERS",
-      "top_committee_type": "S",
-      "top_committee_amt": 550
+      "top_committee": "BOOKER VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 500
     },
     {
       "name": "LEVINE, PAMELA",
@@ -1083,16 +1083,16 @@
       "top_committee_amt": 250
     },
     {
-      "name": "SANTOS, LOUIS",
-      "net_total": 500,
-      "gross_positive": 500,
+      "name": "JUN, SEO-YOUNG",
+      "net_total": 550,
+      "gross_positive": 550,
       "n_contributions": 2,
-      "n_committees": 2,
+      "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "ENGAGE Y'ALL PAC",
-      "top_committee_type": "W",
-      "top_committee_amt": 250
+      "top_committee": "FRIENDS OF BERNIE SANDERS",
+      "top_committee_type": "S",
+      "top_committee_amt": 550
     },
     {
       "name": "MORRIS, KEVIN",
@@ -1104,18 +1104,6 @@
       "states": "CA",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
-      "top_committee_amt": 500
-    },
-    {
-      "name": "SCHIFF, ROBIN",
-      "net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "CA",
-      "top_committee": "THE PAC FOR AMERICA'S FUTURE",
-      "top_committee_type": "V",
       "top_committee_amt": 500
     },
     {
@@ -1131,28 +1119,40 @@
       "top_committee_amt": 500
     },
     {
-      "name": "SANCHEZ, ZACHERY",
+      "name": "RINDELSHILL, EMMA",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "DC",
+      "top_committee": "EMMER FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "YIN, CHRISTOPHER",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "NETFLIX",
+      "states": "CA",
+      "top_committee": "ESTHER KIM VARET FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "LANDECKER, AMY",
       "net_total": 500,
       "gross_positive": 500,
       "n_contributions": 2,
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "FRIENDS OF BERNIE SANDERS",
-      "top_committee_type": "S",
-      "top_committee_amt": 250
-    },
-    {
-      "name": "MCKAY, IAN",
-      "net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "NETFLIX",
-      "states": "WA",
-      "top_committee": "KAT FOR ILLINOIS",
+      "top_committee": "JASMINE FOR US",
       "top_committee_type": "H",
-      "top_committee_amt": 500
+      "top_committee_amt": 250
     }
   ],
   "top_committees": [
@@ -1223,6 +1223,17 @@
       "n_contributions": 25
     },
     {
+      "cmte_id": "C00913574",
+      "cmte_nm": "COOPER VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 12000,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
       "cmte_id": "C00503185",
       "cmte_nm": "RO FOR CONGRESS INC",
       "cmte_tp": "H",
@@ -1232,17 +1243,6 @@
       "net_total": 11000,
       "n_donors": 3,
       "n_contributions": 4
-    },
-    {
-      "cmte_id": "C00816611",
-      "cmte_nm": "TED LIEU VICTORY FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 10000,
-      "n_donors": 2,
-      "n_contributions": 2
     },
     {
       "cmte_id": "C00631549",
@@ -1256,13 +1256,13 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00913574",
-      "cmte_nm": "COOPER VICTORY FUND",
+      "cmte_id": "C00816611",
+      "cmte_nm": "TED LIEU VICTORY FUND",
       "cmte_tp": "N",
       "party_dr": "Unknown",
       "classification_source": "",
       "recipient_bucket": "pac",
-      "net_total": 8500,
+      "net_total": 10000,
       "n_donors": 2,
       "n_contributions": 2
     },
@@ -1322,17 +1322,6 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00787820",
-      "cmte_nm": "CHRISTINA BOHANNAN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00902833",
       "cmte_nm": "TODD LOMBARDO FOR CONGRESS",
       "cmte_tp": "H",
@@ -1355,8 +1344,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00922369",
-      "cmte_nm": "BROOKE PINTO FOR CONGRESS",
+      "cmte_id": "C00787820",
+      "cmte_nm": "CHRISTINA BOHANNAN FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1369,6 +1358,17 @@
       "cmte_id": "C00923144",
       "cmte_nm": "MILLS FOR MAINE",
       "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00922369",
+      "cmte_nm": "BROOKE PINTO FOR CONGRESS",
+      "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
@@ -1520,17 +1520,6 @@
       "n_contributions": 5
     },
     {
-      "cmte_id": "C00831537",
-      "cmte_nm": "DAVE MIN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 1000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00801431",
       "cmte_nm": "ADAM GRAY FOR CONGRESS",
       "cmte_tp": "H",
@@ -1557,8 +1546,19 @@
       "cmte_nm": "STEAM FORWARD PAC",
       "cmte_tp": "N",
       "party_dr": "D",
-      "classification_source": "",
+      "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00831537",
+      "cmte_nm": "DAVE MIN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
       "net_total": 1000,
       "n_donors": 1,
       "n_contributions": 1
@@ -1652,6 +1652,28 @@
       "n_contributions": 1
     },
     {
+      "cmte_id": "C00668228",
+      "cmte_nm": "NEVADANS FOR STEVEN HORSFORD",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00655613",
+      "cmte_nm": "SUSIE LEE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
       "cmte_id": "C00509729",
       "cmte_nm": "THOMAS MASSIE FOR CONGRESS",
       "cmte_tp": "H",
@@ -1674,30 +1696,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00193433",
-      "cmte_nm": "EMILYS LIST",
-      "cmte_tp": "Q",
-      "party_dr": "D",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 1000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00734319",
-      "cmte_nm": "BOOKER VICTORY FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 1000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00668228",
-      "cmte_nm": "NEVADANS FOR STEVEN HORSFORD",
+      "cmte_id": "C00639146",
+      "cmte_nm": "JOSH HARDER FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",

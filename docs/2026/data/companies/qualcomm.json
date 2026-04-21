@@ -3,30 +3,30 @@
   "slug": "qualcomm",
   "summary": {
     "tech_canonical_name": "qualcomm",
-    "net_total": 280923,
+    "net_total": 281023,
     "n_donors": 125,
-    "n_contributions": 1288,
+    "n_contributions": 1289,
     "n_committees": 65,
     "sectors": "semiconductors",
     "amt_dem": 170202,
     "amt_mixed": 600,
-    "amt_rep": 89474,
+    "amt_rep": 89574,
     "amt_unknown": 20647,
     "amt_other": 21247,
-    "classified_recipient_total": 259676,
-    "pct_dem": 65.543985582,
-    "pct_classified_recipients": 92.4367175347,
+    "classified_recipient_total": 259776,
+    "pct_dem": 65.5187546194,
+    "pct_classified_recipients": 92.439408874,
     "donor_amt_D": 180910,
     "donor_amt_Mixed": 3261,
-    "donor_amt_R": 92123,
+    "donor_amt_R": 92223,
     "donor_amt_Unknown": 4629,
     "n_donors_D": 101,
     "n_donors_Mixed": 4,
     "n_donors_R": 9,
     "n_donors_Unknown": 11,
-    "donor_amt_total": 280923,
+    "donor_amt_total": 281023,
     "n_donors_total": 125,
-    "pct_dem_by_donor": 66.2593898906,
+    "pct_dem_by_donor": 66.2351308703,
     "slug": "qualcomm"
   },
   "weekly_series": [
@@ -465,17 +465,17 @@
     {
       "cycle": 2026,
       "week_end": "2025-12-14",
-      "net_total": 1230,
-      "cumulative_net_total": 222818,
-      "gross_positive": 1230,
-      "n_contributions": 12,
-      "n_donors": 9
+      "net_total": 1330,
+      "cumulative_net_total": 222918,
+      "gross_positive": 1330,
+      "n_contributions": 13,
+      "n_donors": 10
     },
     {
       "cycle": 2026,
       "week_end": "2025-12-21",
       "net_total": 3383,
-      "cumulative_net_total": 226201,
+      "cumulative_net_total": 226301,
       "gross_positive": 3383,
       "n_contributions": 53,
       "n_donors": 48
@@ -484,7 +484,7 @@
       "cycle": 2026,
       "week_end": "2025-12-28",
       "net_total": 565,
-      "cumulative_net_total": 226766,
+      "cumulative_net_total": 226866,
       "gross_positive": 565,
       "n_contributions": 11,
       "n_donors": 9
@@ -493,7 +493,7 @@
       "cycle": 2026,
       "week_end": "2026-01-04",
       "net_total": 3695,
-      "cumulative_net_total": 230461,
+      "cumulative_net_total": 230561,
       "gross_positive": 3695,
       "n_contributions": 49,
       "n_donors": 49
@@ -502,7 +502,7 @@
       "cycle": 2026,
       "week_end": "2026-01-11",
       "net_total": 250,
-      "cumulative_net_total": 230711,
+      "cumulative_net_total": 230811,
       "gross_positive": 250,
       "n_contributions": 1,
       "n_donors": 1
@@ -511,7 +511,7 @@
       "cycle": 2026,
       "week_end": "2026-02-01",
       "net_total": 250,
-      "cumulative_net_total": 230961,
+      "cumulative_net_total": 231061,
       "gross_positive": 250,
       "n_contributions": 1,
       "n_donors": 1
@@ -520,7 +520,7 @@
       "cycle": 2026,
       "week_end": "2026-02-08",
       "net_total": 45500,
-      "cumulative_net_total": 276461,
+      "cumulative_net_total": 276561,
       "gross_positive": 45500,
       "n_contributions": 3,
       "n_donors": 3
@@ -529,7 +529,7 @@
       "cycle": 2026,
       "week_end": "2026-02-15",
       "net_total": 4462,
-      "cumulative_net_total": 280923,
+      "cumulative_net_total": 281023,
       "gross_positive": 4462,
       "n_contributions": 25,
       "n_donors": 13
@@ -826,15 +826,15 @@
     },
     {
       "name": "KOEKEMOER, PHILIP",
-      "net_total": 2576,
-      "gross_positive": 2576,
-      "n_contributions": 26,
+      "net_total": 2676,
+      "gross_positive": 2676,
+      "n_contributions": 27,
       "n_committees": 2,
       "employers": "QUALCOMM",
       "states": "CA",
       "top_committee": "NRCC",
       "top_committee_type": "Y",
-      "top_committee_amt": 1876
+      "top_committee_amt": 1976
     },
     {
       "name": "MONDAY, JEFF",
@@ -1288,9 +1288,9 @@
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 1876,
+      "net_total": 1976,
       "n_donors": 1,
-      "n_contributions": 19
+      "n_contributions": 20
     },
     {
       "cmte_id": "C00010603",

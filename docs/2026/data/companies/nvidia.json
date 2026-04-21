@@ -3,30 +3,30 @@
   "slug": "nvidia",
   "summary": {
     "tech_canonical_name": "nvidia",
-    "net_total": 288904,
-    "n_donors": 154,
-    "n_contributions": 828,
-    "n_committees": 143,
+    "net_total": 291654,
+    "n_donors": 155,
+    "n_contributions": 836,
+    "n_committees": 145,
     "sectors": "semiconductors",
-    "amt_dem": 207429,
+    "amt_dem": 214879,
     "amt_mixed": 0,
     "amt_rep": 6328,
-    "amt_unknown": 75147,
-    "amt_other": 75147,
-    "classified_recipient_total": 213757,
-    "pct_dem": 97.0396291116,
-    "pct_classified_recipients": 73.9889375017,
-    "donor_amt_D": 245710,
+    "amt_unknown": 70447,
+    "amt_other": 70447,
+    "classified_recipient_total": 221207,
+    "pct_dem": 97.1393310338,
+    "pct_classified_recipients": 75.8456938701,
+    "donor_amt_D": 253160,
     "donor_amt_Mixed": 2412,
     "donor_amt_R": 8704,
-    "donor_amt_Unknown": 32078,
-    "n_donors_D": 120,
+    "donor_amt_Unknown": 27378,
+    "n_donors_D": 122,
     "n_donors_Mixed": 5,
     "n_donors_R": 11,
-    "n_donors_Unknown": 18,
-    "donor_amt_total": 288904,
-    "n_donors_total": 154,
-    "pct_dem_by_donor": 96.5788046255,
+    "n_donors_Unknown": 17,
+    "donor_amt_total": 291654,
+    "n_donors_total": 155,
+    "pct_dem_by_donor": 96.6761372315,
     "slug": "nvidia"
   },
   "weekly_series": [
@@ -510,17 +510,17 @@
     {
       "cycle": 2026,
       "week_end": "2026-01-11",
-      "net_total": 1645,
-      "cumulative_net_total": 277943,
-      "gross_positive": 1645,
-      "n_contributions": 4,
-      "n_donors": 4
+      "net_total": 1745,
+      "cumulative_net_total": 278043,
+      "gross_positive": 1745,
+      "n_contributions": 5,
+      "n_donors": 5
     },
     {
       "cycle": 2026,
       "week_end": "2026-01-18",
       "net_total": 3000,
-      "cumulative_net_total": 280943,
+      "cumulative_net_total": 281043,
       "gross_positive": 3000,
       "n_contributions": 6,
       "n_donors": 6
@@ -529,7 +529,7 @@
       "cycle": 2026,
       "week_end": "2026-01-25",
       "net_total": 5432,
-      "cumulative_net_total": 286375,
+      "cumulative_net_total": 286475,
       "gross_positive": 5432,
       "n_contributions": 9,
       "n_donors": 7
@@ -537,17 +537,17 @@
     {
       "cycle": 2026,
       "week_end": "2026-02-01",
-      "net_total": 1154,
-      "cumulative_net_total": 287529,
-      "gross_positive": 1154,
-      "n_contributions": 5,
-      "n_donors": 5
+      "net_total": 1404,
+      "cumulative_net_total": 287879,
+      "gross_positive": 1404,
+      "n_contributions": 6,
+      "n_donors": 6
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-08",
       "net_total": 100,
-      "cumulative_net_total": 287629,
+      "cumulative_net_total": 287979,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -555,27 +555,45 @@
     {
       "cycle": 2026,
       "week_end": "2026-02-15",
-      "net_total": 250,
-      "cumulative_net_total": 287879,
-      "gross_positive": 250,
+      "net_total": 400,
+      "cumulative_net_total": 288379,
+      "gross_positive": 400,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-02-22",
+      "net_total": 150,
+      "cumulative_net_total": 288529,
+      "gross_positive": 150,
       "n_contributions": 1,
       "n_donors": 1
     },
     {
       "cycle": 2026,
       "week_end": "2026-03-01",
-      "net_total": 1000,
-      "cumulative_net_total": 288879,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_donors": 1
+      "net_total": 2000,
+      "cumulative_net_total": 290529,
+      "gross_positive": 2000,
+      "n_contributions": 2,
+      "n_donors": 2
     },
     {
       "cycle": 2026,
       "week_end": "2026-03-15",
-      "net_total": 25,
-      "cumulative_net_total": 288904,
-      "gross_positive": 25,
+      "net_total": 125,
+      "cumulative_net_total": 290654,
+      "gross_positive": 125,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-29",
+      "net_total": 1000,
+      "cumulative_net_total": 291654,
+      "gross_positive": 1000,
       "n_contributions": 1,
       "n_donors": 1
     }
@@ -607,10 +625,10 @@
     },
     {
       "name": "PETTERSON, AL",
-      "net_total": 17725,
-      "gross_positive": 17725,
-      "n_contributions": 8,
-      "n_committees": 6,
+      "net_total": 18725,
+      "gross_positive": 18725,
+      "n_contributions": 9,
+      "n_committees": 7,
       "employers": "NVIDIA",
       "states": "CA",
       "top_committee": "JON OSSOFF FOR SENATE",
@@ -750,6 +768,18 @@
       "top_committee_amt": 6000
     },
     {
+      "name": "HOOSE, MARK",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 4,
+      "n_committees": 3,
+      "employers": "NVIDIA",
+      "states": "CA",
+      "top_committee": "LICCARDO FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 2000
+    },
+    {
       "name": "CIMPRICH, MIKE",
       "net_total": 5000,
       "gross_positive": 5000,
@@ -808,18 +838,6 @@
       "top_committee": "JOSH WEIL FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 1000
-    },
-    {
-      "name": "HOOSE, MARK",
-      "net_total": 4000,
-      "gross_positive": 4000,
-      "n_contributions": 3,
-      "n_committees": 3,
-      "employers": "NVIDIA",
-      "states": "CA",
-      "top_committee": "LICCARDO FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 2000
     },
     {
       "name": "HASAN, ZAFAR",
@@ -942,6 +960,18 @@
       "top_committee_amt": 2000
     },
     {
+      "name": "BISHOP, DARRELL P",
+      "net_total": 2000,
+      "gross_positive": 2000,
+      "n_contributions": 15,
+      "n_committees": 1,
+      "employers": "NVIDIA CORPORATION",
+      "states": "CA",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 2000
+    },
+    {
       "name": "RIPPERDA, TERENCE",
       "net_total": 2000,
       "gross_positive": 2000,
@@ -976,18 +1006,6 @@
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 1000
-    },
-    {
-      "name": "BISHOP, DARRELL P",
-      "net_total": 1800,
-      "gross_positive": 1800,
-      "n_contributions": 13,
-      "n_committees": 1,
-      "employers": "NVIDIA CORPORATION",
-      "states": "CA",
-      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
-      "top_committee_amt": 1800
     },
     {
       "name": "POULTON, JOHN",
@@ -1069,8 +1087,8 @@
       "n_committees": 3,
       "employers": "NVIDIA",
       "states": "OR",
-      "top_committee": "SAGE FOR SENATE",
-      "top_committee_type": "S",
+      "top_committee": "TEXAS DEMOCRATIC PARTY",
+      "top_committee_type": "Y",
       "top_committee_amt": 500
     },
     {
@@ -1190,9 +1208,9 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 17350,
+      "net_total": 17550,
       "n_donors": 17,
-      "n_contributions": 65
+      "n_contributions": 67
     },
     {
       "cmte_id": "C00341396",
@@ -1385,8 +1403,8 @@
       "cmte_id": "C00742429",
       "cmte_nm": "WV CAN'T WAIT ACTION COMMITTEE",
       "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
       "net_total": 5000,
       "n_donors": 1,
@@ -1448,10 +1466,10 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00930032",
-      "cmte_nm": "MARK NEWGENT FOR CONGRESS",
+      "cmte_id": "C00791780",
+      "cmte_nm": "SUMMER LEE FOR CONGRESS",
       "cmte_tp": "H",
-      "party_dr": "R",
+      "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 3500,
@@ -1459,10 +1477,10 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00791780",
-      "cmte_nm": "SUMMER LEE FOR CONGRESS",
+      "cmte_id": "C00930032",
+      "cmte_nm": "MARK NEWGENT FOR CONGRESS",
       "cmte_tp": "H",
-      "party_dr": "D",
+      "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 3500,
@@ -1536,6 +1554,17 @@
       "n_contributions": 7
     },
     {
+      "cmte_id": "C00904086",
+      "cmte_nm": "SARAH FOR IOWA",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 2000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
       "cmte_id": "C00915652",
       "cmte_nm": "THOMAS FISHER FOR CONGRESS",
       "cmte_tp": "H",
@@ -1545,17 +1574,6 @@
       "net_total": 2000,
       "n_donors": 1,
       "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00901678",
-      "cmte_nm": "CHRISTINA FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 1750,
-      "n_donors": 1,
-      "n_contributions": 3
     },
     {
       "cmte_id": "C00558627",
@@ -1569,6 +1587,17 @@
       "n_contributions": 4
     },
     {
+      "cmte_id": "C00901678",
+      "cmte_nm": "CHRISTINA FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1750,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
@@ -1580,15 +1609,26 @@
       "n_contributions": 62
     },
     {
-      "cmte_id": "C00834291",
-      "cmte_nm": "LATEEFAH FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
+      "cmte_id": "C00075820",
+      "cmte_nm": "NRCC",
+      "cmte_tp": "Y",
+      "party_dr": "R",
       "classification_source": "party_field",
-      "recipient_bucket": "candidate",
+      "recipient_bucket": "party",
       "net_total": 1500,
-      "n_donors": 2,
-      "n_contributions": 3
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00872549",
+      "cmte_nm": "BATTLEGROUND CALIFORNIA",
+      "cmte_tp": "O",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
+      "net_total": 1500,
+      "n_donors": 1,
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00754242",
@@ -1613,26 +1653,15 @@
       "n_contributions": 4
     },
     {
-      "cmte_id": "C00075820",
-      "cmte_nm": "NRCC",
-      "cmte_tp": "Y",
-      "party_dr": "R",
+      "cmte_id": "C00834291",
+      "cmte_nm": "LATEEFAH FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
       "classification_source": "party_field",
-      "recipient_bucket": "party",
+      "recipient_bucket": "candidate",
       "net_total": 1500,
-      "n_donors": 1,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00872549",
-      "cmte_nm": "BATTLEGROUND CALIFORNIA",
-      "cmte_tp": "O",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "outside_spending",
-      "net_total": 1500,
-      "n_donors": 1,
-      "n_contributions": 1
+      "n_donors": 2,
+      "n_contributions": 3
     },
     {
       "cmte_id": "C00343871",
@@ -1721,17 +1750,6 @@
       "net_total": 1100,
       "n_donors": 3,
       "n_contributions": 8
-    },
-    {
-      "cmte_id": "C00911966",
-      "cmte_nm": "ROBIN PEGUERO FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 1024,
-      "n_donors": 1,
-      "n_contributions": 1
     }
   ]
 }

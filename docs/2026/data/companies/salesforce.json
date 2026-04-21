@@ -3,47 +3,38 @@
   "slug": "salesforce",
   "summary": {
     "tech_canonical_name": "salesforce",
-    "net_total": 146663,
-    "n_donors": 162,
-    "n_contributions": 670,
-    "n_committees": 109,
+    "net_total": 149163,
+    "n_donors": 166,
+    "n_contributions": 674,
+    "n_committees": 113,
     "sectors": "",
-    "amt_dem": 90992,
+    "amt_dem": 93492,
     "amt_mixed": 2501,
     "amt_rep": 5119,
     "amt_unknown": 48051,
     "amt_other": 50552,
-    "classified_recipient_total": 96111,
-    "pct_dem": 94.673866675,
-    "pct_classified_recipients": 65.5318655694,
-    "donor_amt_D": 96943,
-    "donor_amt_Mixed": 5662,
+    "classified_recipient_total": 98611,
+    "pct_dem": 94.8088955593,
+    "pct_classified_recipients": 66.1095580003,
+    "donor_amt_D": 98943,
+    "donor_amt_Mixed": 6162,
     "donor_amt_R": 31127,
     "donor_amt_Unknown": 12931,
-    "n_donors_D": 116,
-    "n_donors_Mixed": 2,
+    "n_donors_D": 119,
+    "n_donors_Mixed": 3,
     "n_donors_R": 14,
     "n_donors_Unknown": 30,
-    "donor_amt_total": 146663,
-    "n_donors_total": 162,
-    "pct_dem_by_donor": 75.6953228703,
+    "donor_amt_total": 149163,
+    "n_donors_total": 166,
+    "pct_dem_by_donor": 76.0690397478,
     "slug": "salesforce"
   },
   "weekly_series": [
     {
       "cycle": 2026,
-      "week_end": "2023-03-19",
-      "net_total": 500,
-      "cumulative_net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 1,
-      "n_donors": 1
-    },
-    {
-      "cycle": 2026,
       "week_end": "2023-03-26",
       "net_total": 3300,
-      "cumulative_net_total": 3800,
+      "cumulative_net_total": 3300,
       "gross_positive": 3300,
       "n_contributions": 1,
       "n_donors": 1
@@ -52,7 +43,7 @@
       "cycle": 2026,
       "week_end": "2023-07-02",
       "net_total": 300,
-      "cumulative_net_total": 4100,
+      "cumulative_net_total": 3600,
       "gross_positive": 300,
       "n_contributions": 1,
       "n_donors": 1
@@ -61,7 +52,7 @@
       "cycle": 2026,
       "week_end": "2025-01-05",
       "net_total": 1288,
-      "cumulative_net_total": 5388,
+      "cumulative_net_total": 4888,
       "gross_positive": 1288,
       "n_contributions": 5,
       "n_donors": 4
@@ -70,7 +61,7 @@
       "cycle": 2026,
       "week_end": "2025-01-12",
       "net_total": 410,
-      "cumulative_net_total": 5798,
+      "cumulative_net_total": 5298,
       "gross_positive": 410,
       "n_contributions": 5,
       "n_donors": 5
@@ -79,7 +70,7 @@
       "cycle": 2026,
       "week_end": "2025-01-19",
       "net_total": 327,
-      "cumulative_net_total": 6125,
+      "cumulative_net_total": 5625,
       "gross_positive": 327,
       "n_contributions": 3,
       "n_donors": 3
@@ -88,7 +79,7 @@
       "cycle": 2026,
       "week_end": "2025-01-26",
       "net_total": 1243,
-      "cumulative_net_total": 7368,
+      "cumulative_net_total": 6868,
       "gross_positive": 1243,
       "n_contributions": 5,
       "n_donors": 5
@@ -97,7 +88,7 @@
       "cycle": 2026,
       "week_end": "2025-02-02",
       "net_total": 1223,
-      "cumulative_net_total": 8591,
+      "cumulative_net_total": 8091,
       "gross_positive": 1223,
       "n_contributions": 5,
       "n_donors": 5
@@ -106,7 +97,7 @@
       "cycle": 2026,
       "week_end": "2025-02-09",
       "net_total": 2505,
-      "cumulative_net_total": 11096,
+      "cumulative_net_total": 10596,
       "gross_positive": 2505,
       "n_contributions": 9,
       "n_donors": 8
@@ -115,7 +106,7 @@
       "cycle": 2026,
       "week_end": "2025-02-16",
       "net_total": 1125,
-      "cumulative_net_total": 12221,
+      "cumulative_net_total": 11721,
       "gross_positive": 1125,
       "n_contributions": 5,
       "n_donors": 5
@@ -124,7 +115,7 @@
       "cycle": 2026,
       "week_end": "2025-02-23",
       "net_total": 1980,
-      "cumulative_net_total": 14201,
+      "cumulative_net_total": 13701,
       "gross_positive": 1980,
       "n_contributions": 7,
       "n_donors": 7
@@ -133,7 +124,7 @@
       "cycle": 2026,
       "week_end": "2025-03-02",
       "net_total": 6223,
-      "cumulative_net_total": 20424,
+      "cumulative_net_total": 19924,
       "gross_positive": 6223,
       "n_contributions": 12,
       "n_donors": 11
@@ -142,7 +133,7 @@
       "cycle": 2026,
       "week_end": "2025-03-09",
       "net_total": 580,
-      "cumulative_net_total": 21004,
+      "cumulative_net_total": 20504,
       "gross_positive": 580,
       "n_contributions": 8,
       "n_donors": 8
@@ -151,7 +142,7 @@
       "cycle": 2026,
       "week_end": "2025-03-16",
       "net_total": 27310,
-      "cumulative_net_total": 48314,
+      "cumulative_net_total": 47814,
       "gross_positive": 27310,
       "n_contributions": 11,
       "n_donors": 8
@@ -160,7 +151,7 @@
       "cycle": 2026,
       "week_end": "2025-03-23",
       "net_total": 8747,
-      "cumulative_net_total": 57061,
+      "cumulative_net_total": 56561,
       "gross_positive": 12247,
       "n_contributions": 12,
       "n_donors": 6
@@ -169,7 +160,7 @@
       "cycle": 2026,
       "week_end": "2025-03-30",
       "net_total": 3000,
-      "cumulative_net_total": 60061,
+      "cumulative_net_total": 59561,
       "gross_positive": 3000,
       "n_contributions": 12,
       "n_donors": 10
@@ -178,7 +169,7 @@
       "cycle": 2026,
       "week_end": "2025-04-06",
       "net_total": 1320,
-      "cumulative_net_total": 61381,
+      "cumulative_net_total": 60881,
       "gross_positive": 1320,
       "n_contributions": 8,
       "n_donors": 8
@@ -187,7 +178,7 @@
       "cycle": 2026,
       "week_end": "2025-04-13",
       "net_total": 648,
-      "cumulative_net_total": 62029,
+      "cumulative_net_total": 61529,
       "gross_positive": 648,
       "n_contributions": 7,
       "n_donors": 7
@@ -196,7 +187,7 @@
       "cycle": 2026,
       "week_end": "2025-04-20",
       "net_total": 1685,
-      "cumulative_net_total": 63714,
+      "cumulative_net_total": 63214,
       "gross_positive": 1685,
       "n_contributions": 10,
       "n_donors": 8
@@ -205,7 +196,7 @@
       "cycle": 2026,
       "week_end": "2025-04-27",
       "net_total": 3700,
-      "cumulative_net_total": 67414,
+      "cumulative_net_total": 66914,
       "gross_positive": 3700,
       "n_contributions": 4,
       "n_donors": 4
@@ -214,7 +205,7 @@
       "cycle": 2026,
       "week_end": "2025-05-04",
       "net_total": 1192,
-      "cumulative_net_total": 68606,
+      "cumulative_net_total": 68106,
       "gross_positive": 1192,
       "n_contributions": 15,
       "n_donors": 14
@@ -223,7 +214,7 @@
       "cycle": 2026,
       "week_end": "2025-05-11",
       "net_total": 1715,
-      "cumulative_net_total": 70321,
+      "cumulative_net_total": 69821,
       "gross_positive": 1715,
       "n_contributions": 11,
       "n_donors": 10
@@ -232,7 +223,7 @@
       "cycle": 2026,
       "week_end": "2025-05-18",
       "net_total": 467,
-      "cumulative_net_total": 70788,
+      "cumulative_net_total": 70288,
       "gross_positive": 467,
       "n_contributions": 7,
       "n_donors": 7
@@ -241,7 +232,7 @@
       "cycle": 2026,
       "week_end": "2025-05-25",
       "net_total": 353,
-      "cumulative_net_total": 71141,
+      "cumulative_net_total": 70641,
       "gross_positive": 353,
       "n_contributions": 5,
       "n_donors": 5
@@ -250,7 +241,7 @@
       "cycle": 2026,
       "week_end": "2025-06-01",
       "net_total": 1440,
-      "cumulative_net_total": 72581,
+      "cumulative_net_total": 72081,
       "gross_positive": 1440,
       "n_contributions": 14,
       "n_donors": 14
@@ -259,7 +250,7 @@
       "cycle": 2026,
       "week_end": "2025-06-08",
       "net_total": 2876,
-      "cumulative_net_total": 75457,
+      "cumulative_net_total": 74957,
       "gross_positive": 2876,
       "n_contributions": 7,
       "n_donors": 7
@@ -268,7 +259,7 @@
       "cycle": 2026,
       "week_end": "2025-06-15",
       "net_total": 2388,
-      "cumulative_net_total": 77845,
+      "cumulative_net_total": 77345,
       "gross_positive": 2388,
       "n_contributions": 10,
       "n_donors": 10
@@ -277,7 +268,7 @@
       "cycle": 2026,
       "week_end": "2025-06-22",
       "net_total": 1585,
-      "cumulative_net_total": 79430,
+      "cumulative_net_total": 78930,
       "gross_positive": 1585,
       "n_contributions": 9,
       "n_donors": 9
@@ -286,7 +277,7 @@
       "cycle": 2026,
       "week_end": "2025-06-29",
       "net_total": 1208,
-      "cumulative_net_total": 80638,
+      "cumulative_net_total": 80138,
       "gross_positive": 1208,
       "n_contributions": 8,
       "n_donors": 7
@@ -295,7 +286,7 @@
       "cycle": 2026,
       "week_end": "2025-07-06",
       "net_total": 1690,
-      "cumulative_net_total": 82328,
+      "cumulative_net_total": 81828,
       "gross_positive": 1690,
       "n_contributions": 19,
       "n_donors": 19
@@ -304,7 +295,7 @@
       "cycle": 2026,
       "week_end": "2025-07-13",
       "net_total": 2545,
-      "cumulative_net_total": 84873,
+      "cumulative_net_total": 84373,
       "gross_positive": 2545,
       "n_contributions": 16,
       "n_donors": 16
@@ -313,7 +304,7 @@
       "cycle": 2026,
       "week_end": "2025-07-20",
       "net_total": 4079,
-      "cumulative_net_total": 88952,
+      "cumulative_net_total": 88452,
       "gross_positive": 4079,
       "n_contributions": 17,
       "n_donors": 16
@@ -322,7 +313,7 @@
       "cycle": 2026,
       "week_end": "2025-07-27",
       "net_total": 1216,
-      "cumulative_net_total": 90168,
+      "cumulative_net_total": 89668,
       "gross_positive": 1216,
       "n_contributions": 11,
       "n_donors": 11
@@ -331,7 +322,7 @@
       "cycle": 2026,
       "week_end": "2025-08-03",
       "net_total": 363,
-      "cumulative_net_total": 90531,
+      "cumulative_net_total": 90031,
       "gross_positive": 363,
       "n_contributions": 7,
       "n_donors": 7
@@ -340,7 +331,7 @@
       "cycle": 2026,
       "week_end": "2025-08-10",
       "net_total": 2094,
-      "cumulative_net_total": 92625,
+      "cumulative_net_total": 92125,
       "gross_positive": 2094,
       "n_contributions": 18,
       "n_donors": 18
@@ -349,7 +340,7 @@
       "cycle": 2026,
       "week_end": "2025-08-17",
       "net_total": 680,
-      "cumulative_net_total": 93305,
+      "cumulative_net_total": 92805,
       "gross_positive": 680,
       "n_contributions": 14,
       "n_donors": 14
@@ -358,7 +349,7 @@
       "cycle": 2026,
       "week_end": "2025-08-24",
       "net_total": 761,
-      "cumulative_net_total": 94066,
+      "cumulative_net_total": 93566,
       "gross_positive": 761,
       "n_contributions": 12,
       "n_donors": 12
@@ -367,7 +358,7 @@
       "cycle": 2026,
       "week_end": "2025-08-31",
       "net_total": 688,
-      "cumulative_net_total": 94754,
+      "cumulative_net_total": 94254,
       "gross_positive": 688,
       "n_contributions": 10,
       "n_donors": 10
@@ -376,7 +367,7 @@
       "cycle": 2026,
       "week_end": "2025-09-07",
       "net_total": 675,
-      "cumulative_net_total": 95429,
+      "cumulative_net_total": 94929,
       "gross_positive": 675,
       "n_contributions": 15,
       "n_donors": 14
@@ -385,7 +376,7 @@
       "cycle": 2026,
       "week_end": "2025-09-14",
       "net_total": 916,
-      "cumulative_net_total": 96345,
+      "cumulative_net_total": 95845,
       "gross_positive": 916,
       "n_contributions": 17,
       "n_donors": 15
@@ -394,7 +385,7 @@
       "cycle": 2026,
       "week_end": "2025-09-21",
       "net_total": 2574,
-      "cumulative_net_total": 98919,
+      "cumulative_net_total": 98419,
       "gross_positive": 2574,
       "n_contributions": 19,
       "n_donors": 18
@@ -403,7 +394,7 @@
       "cycle": 2026,
       "week_end": "2025-09-28",
       "net_total": 7242,
-      "cumulative_net_total": 106161,
+      "cumulative_net_total": 105661,
       "gross_positive": 7242,
       "n_contributions": 18,
       "n_donors": 18
@@ -412,7 +403,7 @@
       "cycle": 2026,
       "week_end": "2025-10-05",
       "net_total": 5432,
-      "cumulative_net_total": 111593,
+      "cumulative_net_total": 111093,
       "gross_positive": 5432,
       "n_contributions": 16,
       "n_donors": 16
@@ -421,7 +412,7 @@
       "cycle": 2026,
       "week_end": "2025-10-12",
       "net_total": 930,
-      "cumulative_net_total": 112523,
+      "cumulative_net_total": 112023,
       "gross_positive": 930,
       "n_contributions": 20,
       "n_donors": 17
@@ -430,7 +421,7 @@
       "cycle": 2026,
       "week_end": "2025-10-19",
       "net_total": 1676,
-      "cumulative_net_total": 114199,
+      "cumulative_net_total": 113699,
       "gross_positive": 1676,
       "n_contributions": 16,
       "n_donors": 15
@@ -439,7 +430,7 @@
       "cycle": 2026,
       "week_end": "2025-10-26",
       "net_total": 3039,
-      "cumulative_net_total": 117238,
+      "cumulative_net_total": 116738,
       "gross_positive": 3039,
       "n_contributions": 16,
       "n_donors": 16
@@ -448,7 +439,7 @@
       "cycle": 2026,
       "week_end": "2025-11-02",
       "net_total": 9171,
-      "cumulative_net_total": 126409,
+      "cumulative_net_total": 125909,
       "gross_positive": 9171,
       "n_contributions": 20,
       "n_donors": 19
@@ -457,7 +448,7 @@
       "cycle": 2026,
       "week_end": "2025-11-09",
       "net_total": 617,
-      "cumulative_net_total": 127026,
+      "cumulative_net_total": 126526,
       "gross_positive": 617,
       "n_contributions": 17,
       "n_donors": 14
@@ -466,7 +457,7 @@
       "cycle": 2026,
       "week_end": "2025-11-16",
       "net_total": 718,
-      "cumulative_net_total": 127744,
+      "cumulative_net_total": 127244,
       "gross_positive": 718,
       "n_contributions": 16,
       "n_donors": 16
@@ -475,7 +466,7 @@
       "cycle": 2026,
       "week_end": "2025-11-23",
       "net_total": 620,
-      "cumulative_net_total": 128364,
+      "cumulative_net_total": 127864,
       "gross_positive": 620,
       "n_contributions": 16,
       "n_donors": 16
@@ -484,7 +475,7 @@
       "cycle": 2026,
       "week_end": "2025-11-30",
       "net_total": 7923,
-      "cumulative_net_total": 136287,
+      "cumulative_net_total": 135787,
       "gross_positive": 7923,
       "n_contributions": 18,
       "n_donors": 17
@@ -493,7 +484,7 @@
       "cycle": 2026,
       "week_end": "2025-12-07",
       "net_total": 1020,
-      "cumulative_net_total": 137307,
+      "cumulative_net_total": 136807,
       "gross_positive": 1020,
       "n_contributions": 22,
       "n_donors": 20
@@ -502,7 +493,7 @@
       "cycle": 2026,
       "week_end": "2025-12-14",
       "net_total": 1217,
-      "cumulative_net_total": 138524,
+      "cumulative_net_total": 138024,
       "gross_positive": 1217,
       "n_contributions": 19,
       "n_donors": 18
@@ -511,7 +502,7 @@
       "cycle": 2026,
       "week_end": "2025-12-21",
       "net_total": 1263,
-      "cumulative_net_total": 139787,
+      "cumulative_net_total": 139287,
       "gross_positive": 1263,
       "n_contributions": 19,
       "n_donors": 16
@@ -520,7 +511,7 @@
       "cycle": 2026,
       "week_end": "2025-12-28",
       "net_total": 1895,
-      "cumulative_net_total": 141682,
+      "cumulative_net_total": 141182,
       "gross_positive": 1895,
       "n_contributions": 17,
       "n_donors": 17
@@ -529,7 +520,7 @@
       "cycle": 2026,
       "week_end": "2026-01-04",
       "net_total": 839,
-      "cumulative_net_total": 142521,
+      "cumulative_net_total": 142021,
       "gross_positive": 839,
       "n_contributions": 9,
       "n_donors": 9
@@ -538,7 +529,7 @@
       "cycle": 2026,
       "week_end": "2026-01-11",
       "net_total": 1130,
-      "cumulative_net_total": 143651,
+      "cumulative_net_total": 143151,
       "gross_positive": 1130,
       "n_contributions": 4,
       "n_donors": 4
@@ -547,7 +538,7 @@
       "cycle": 2026,
       "week_end": "2026-01-25",
       "net_total": 1105,
-      "cumulative_net_total": 144756,
+      "cumulative_net_total": 144256,
       "gross_positive": 1105,
       "n_contributions": 5,
       "n_donors": 5
@@ -555,17 +546,17 @@
     {
       "cycle": 2026,
       "week_end": "2026-02-01",
-      "net_total": 652,
-      "cumulative_net_total": 145408,
-      "gross_positive": 652,
-      "n_contributions": 4,
-      "n_donors": 4
+      "net_total": 902,
+      "cumulative_net_total": 145158,
+      "gross_positive": 902,
+      "n_contributions": 5,
+      "n_donors": 5
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-08",
       "net_total": 150,
-      "cumulative_net_total": 145558,
+      "cumulative_net_total": 145308,
       "gross_positive": 150,
       "n_contributions": 3,
       "n_donors": 3
@@ -573,20 +564,47 @@
     {
       "cycle": 2026,
       "week_end": "2026-02-15",
-      "net_total": 5,
-      "cumulative_net_total": 145563,
-      "gross_positive": 5,
-      "n_contributions": 1,
-      "n_donors": 1
+      "net_total": 1005,
+      "cumulative_net_total": 146313,
+      "gross_positive": 1005,
+      "n_contributions": 2,
+      "n_donors": 2
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-22",
       "net_total": 1100,
-      "cumulative_net_total": 146663,
+      "cumulative_net_total": 147413,
       "gross_positive": 1100,
       "n_contributions": 2,
       "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-01",
+      "net_total": 500,
+      "cumulative_net_total": 147913,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 250,
+      "cumulative_net_total": 148163,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-05",
+      "net_total": 1000,
+      "cumulative_net_total": 149163,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_donors": 1
     }
   ],
   "top_donors": [
@@ -706,8 +724,8 @@
       "n_committees": 3,
       "employers": "SALESFORCE",
       "states": "CA",
-      "top_committee": "JOSH WEIL FOR SENATE",
-      "top_committee_type": "S",
+      "top_committee": "ENGAGE Y'ALL PAC",
+      "top_committee_type": "W",
       "top_committee_amt": 1000
     },
     {
@@ -771,18 +789,6 @@
       "top_committee_amt": 1567
     },
     {
-      "name": "BROMLEY, DENNIS",
-      "net_total": 1500,
-      "gross_positive": 1500,
-      "n_contributions": 2,
-      "n_committees": 2,
-      "employers": "SALESFORCE",
-      "states": "WA",
-      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
-      "top_committee_amt": 1000
-    },
-    {
       "name": "BIRMAN, BRIANNA",
       "net_total": 1500,
       "gross_positive": 1500,
@@ -807,6 +813,18 @@
       "top_committee_amt": 1500
     },
     {
+      "name": "BROMLEY, DENNIS",
+      "net_total": 1500,
+      "gross_positive": 1500,
+      "n_contributions": 2,
+      "n_committees": 2,
+      "employers": "SALESFORCE",
+      "states": "WA",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 1000
+    },
+    {
       "name": "AUGUSTUS, KATHERINE",
       "net_total": 1250,
       "gross_positive": 1250,
@@ -817,30 +835,6 @@
       "top_committee": "FRIENDS OF PATRICK ROATH",
       "top_committee_type": "H",
       "top_committee_amt": 1250
-    },
-    {
-      "name": "KUSTER, THEODORE",
-      "net_total": 1200,
-      "gross_positive": 1200,
-      "n_contributions": 12,
-      "n_committees": 1,
-      "employers": "SALESFORCE",
-      "states": "CA",
-      "top_committee": "ILHAN FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 1200
-    },
-    {
-      "name": "BLUMEN, DANIELLE",
-      "net_total": 1200,
-      "gross_positive": 1200,
-      "n_contributions": 12,
-      "n_committees": 1,
-      "employers": "SALESFORCE",
-      "states": "CA",
-      "top_committee": "VOTE SAVE AMERICA",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1200
     },
     {
       "name": "MOFFATT, CHRIS",
@@ -865,6 +859,30 @@
       "top_committee": "VOTE SAVE AMERICA",
       "top_committee_type": "Q",
       "top_committee_amt": 900
+    },
+    {
+      "name": "KUSTER, THEODORE",
+      "net_total": 1200,
+      "gross_positive": 1200,
+      "n_contributions": 12,
+      "n_committees": 1,
+      "employers": "SALESFORCE",
+      "states": "CA",
+      "top_committee": "ILHAN FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1200
+    },
+    {
+      "name": "BLUMEN, DANIELLE",
+      "net_total": 1200,
+      "gross_positive": 1200,
+      "n_contributions": 12,
+      "n_committees": 1,
+      "employers": "SALESFORCE",
+      "states": "CA",
+      "top_committee": "VOTE SAVE AMERICA",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1200
     },
     {
       "name": "GOARD, ANDREW",
@@ -903,18 +921,6 @@
       "top_committee_amt": 1001
     },
     {
-      "name": "BIRK, JOSHUA",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 10,
-      "n_committees": 1,
-      "employers": "SALESFORCE",
-      "states": "IL",
-      "top_committee": "HARRIS VICTORY FUND",
-      "top_committee_type": "N",
-      "top_committee_amt": 1000
-    },
-    {
       "name": "PARRISH, NOAH C.",
       "net_total": 1000,
       "gross_positive": 1000,
@@ -927,15 +933,39 @@
       "top_committee_amt": 1000
     },
     {
-      "name": "CHIN, THOMAS",
+      "name": "CROCKER, MATT",
       "net_total": 1000,
       "gross_positive": 1000,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "SALESFORCE",
-      "states": "WA",
-      "top_committee": "MOVEMENT VOTER PAC",
-      "top_committee_type": "V",
+      "states": "CA",
+      "top_committee": "JOSH WEIL FOR SENATE",
+      "top_committee_type": "S",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "CONSTANTINE, JUSTIN",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SALESFORCE",
+      "states": "CA",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "WOOLFOLK, AUSTION",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SALESFORCE",
+      "states": "CO",
+      "top_committee": "JULIANA FOR ILLINOIS",
+      "top_committee_type": "S",
       "top_committee_amt": 1000
     },
     {
@@ -963,6 +993,30 @@
       "top_committee_amt": 1000
     },
     {
+      "name": "CHIN, THOMAS",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SALESFORCE",
+      "states": "WA",
+      "top_committee": "MOVEMENT VOTER PAC",
+      "top_committee_type": "V",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "BIRK, JOSHUA",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 10,
+      "n_committees": 1,
+      "employers": "SALESFORCE",
+      "states": "IL",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 1000
+    },
+    {
       "name": "JOHNSON, JENAYE",
       "net_total": 1000,
       "gross_positive": 1000,
@@ -975,27 +1029,15 @@
       "top_committee_amt": 1000
     },
     {
-      "name": "CROCKER, MATT",
+      "name": "GUSS, CAROLYN",
       "net_total": 1000,
       "gross_positive": 1000,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "SALESFORCE",
-      "states": "CA",
-      "top_committee": "JOSH WEIL FOR SENATE",
-      "top_committee_type": "S",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "WOOLFOLK, AUSTION",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "SALESFORCE",
-      "states": "CO",
-      "top_committee": "JULIANA FOR ILLINOIS",
-      "top_committee_type": "S",
+      "states": "UT",
+      "top_committee": "FRIENDS OF BEN MCADAMS",
+      "top_committee_type": "H",
       "top_committee_amt": 1000
     },
     {
@@ -1165,30 +1207,6 @@
       "top_committee": "JULIANA FOR ILLINOIS",
       "top_committee_type": "S",
       "top_committee_amt": 550
-    },
-    {
-      "name": "KALIFEH, PAUL",
-      "net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "SALESFORCE",
-      "states": "CA",
-      "top_committee": "ROBERT GARCIA FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 500
-    },
-    {
-      "name": "MURPHY, LUKE D",
-      "net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "SALESFORCE",
-      "states": "FL",
-      "top_committee": "ALEX BORES FOR NY",
-      "top_committee_type": "H",
-      "top_committee_amt": 500
     }
   ],
   "top_committees": [
@@ -1210,9 +1228,9 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 11950,
-      "n_donors": 6,
-      "n_contributions": 12
+      "net_total": 11450,
+      "n_donors": 5,
+      "n_contributions": 11
     },
     {
       "cmte_id": "C00900431",
@@ -1237,6 +1255,17 @@
       "n_contributions": 2
     },
     {
+      "cmte_id": "C00010603",
+      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 5440,
+      "n_donors": 11,
+      "n_contributions": 30
+    },
+    {
       "cmte_id": "C00492421",
       "cmte_nm": "NANCY PELOSI VICTORY FUND",
       "cmte_tp": "N",
@@ -1246,17 +1275,6 @@
       "net_total": 5000,
       "n_donors": 1,
       "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00010603",
-      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "cmte_tp": "Y",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "party",
-      "net_total": 4440,
-      "n_donors": 10,
-      "n_contributions": 29
     },
     {
       "cmte_id": "C00893321",
@@ -1468,23 +1486,23 @@
       "n_contributions": 15
     },
     {
-      "cmte_id": "C00729954",
-      "cmte_nm": "GARBARINO FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 1500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00797670",
       "cmte_nm": "AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE POLITICAL ACTION COMMITTEE",
       "cmte_tp": "Q",
       "party_dr": "Mixed",
       "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
+      "net_total": 1500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00729954",
+      "cmte_nm": "GARBARINO FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
       "net_total": 1500,
       "n_donors": 1,
       "n_contributions": 1
@@ -1589,12 +1607,12 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00913574",
-      "cmte_nm": "COOPER VICTORY FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
+      "cmte_id": "C00839407",
+      "cmte_nm": "GET OUT THE VOTE PAC",
+      "cmte_tp": "W",
+      "party_dr": "D",
+      "classification_source": "24k_contributions+ie_spending",
+      "recipient_bucket": "outside_spending",
       "net_total": 1000,
       "n_donors": 1,
       "n_contributions": 1
@@ -1611,12 +1629,12 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00839407",
-      "cmte_nm": "GET OUT THE VOTE PAC",
-      "cmte_tp": "W",
+      "cmte_id": "C00658633",
+      "cmte_nm": "FRIENDS OF BEN MCADAMS",
+      "cmte_tp": "H",
       "party_dr": "D",
-      "classification_source": "24k_contributions+ie_spending",
-      "recipient_bucket": "outside_spending",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
       "net_total": 1000,
       "n_donors": 1,
       "n_contributions": 1
@@ -1631,6 +1649,17 @@
       "net_total": 1000,
       "n_donors": 3,
       "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00913574",
+      "cmte_nm": "COOPER VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00903948",
@@ -1688,8 +1717,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00797795",
-      "cmte_nm": "ROBERT GARCIA FOR CONGRESS",
+      "cmte_id": "C00926527",
+      "cmte_nm": "FRIENDS OF LUCIA",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1699,8 +1728,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00912261",
-      "cmte_nm": "ZACH DEMBO FOR CONGRESS",
+      "cmte_id": "C00923706",
+      "cmte_nm": "ALEX BORES FOR NY",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1710,8 +1739,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00903922",
-      "cmte_nm": "NEIL FOR CONGRESS",
+      "cmte_id": "C00906446",
+      "cmte_nm": "STEFANY SHAHEEN FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1721,26 +1750,15 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00836346",
-      "cmte_nm": "CAMPAIGN FOR DEMOCRACY COMMITTEE",
-      "cmte_tp": "N",
+      "cmte_id": "C00731042",
+      "cmte_nm": "POWERED BY PEOPLE",
+      "cmte_tp": "V",
       "party_dr": "Unknown",
       "classification_source": "",
       "recipient_bucket": "pac",
       "net_total": 500,
       "n_donors": 2,
       "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00727529",
-      "cmte_nm": "MRVAN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 500,
-      "n_donors": 1,
-      "n_contributions": 1
     }
   ]
 }

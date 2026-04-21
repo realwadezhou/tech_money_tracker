@@ -3,30 +3,30 @@
   "slug": "uber",
   "summary": {
     "tech_canonical_name": "uber",
-    "net_total": 60776,
-    "n_donors": 103,
-    "n_contributions": 889,
-    "n_committees": 73,
+    "net_total": 62376,
+    "n_donors": 106,
+    "n_contributions": 917,
+    "n_committees": 74,
     "sectors": "",
-    "amt_dem": 41236,
+    "amt_dem": 42286,
     "amt_mixed": 0,
-    "amt_rep": 8572,
+    "amt_rep": 9122,
     "amt_unknown": 10968,
     "amt_other": 10968,
-    "classified_recipient_total": 49808,
-    "pct_dem": 82.7899132669,
-    "pct_classified_recipients": 81.9534026589,
-    "donor_amt_D": 39486,
+    "classified_recipient_total": 51408,
+    "pct_dem": 82.2556800498,
+    "pct_classified_recipients": 82.4163139669,
+    "donor_amt_D": 40591,
     "donor_amt_Mixed": 3170,
-    "donor_amt_R": 9521,
+    "donor_amt_R": 10016,
     "donor_amt_Unknown": 8599,
-    "n_donors_D": 47,
+    "n_donors_D": 49,
     "n_donors_Mixed": 8,
-    "n_donors_R": 23,
+    "n_donors_R": 24,
     "n_donors_Unknown": 25,
-    "donor_amt_total": 60776,
-    "n_donors_total": 103,
-    "pct_dem_by_donor": 80.5721631604,
+    "donor_amt_total": 62376,
+    "n_donors_total": 106,
+    "pct_dem_by_donor": 80.208271583,
     "slug": "uber"
   },
   "weekly_series": [
@@ -501,56 +501,110 @@
     {
       "cycle": 2026,
       "week_end": "2026-01-04",
-      "net_total": 3766,
-      "cumulative_net_total": 57938,
-      "gross_positive": 3766,
-      "n_contributions": 19,
-      "n_donors": 8
+      "net_total": 3796,
+      "cumulative_net_total": 57968,
+      "gross_positive": 3796,
+      "n_contributions": 21,
+      "n_donors": 10
     },
     {
       "cycle": 2026,
-      "week_end": "2026-01-18",
-      "net_total": 0,
-      "cumulative_net_total": 57938,
-      "gross_positive": 0,
+      "week_end": "2026-01-11",
+      "net_total": 3,
+      "cumulative_net_total": 57971,
+      "gross_positive": 3,
       "n_contributions": 1,
       "n_donors": 1
     },
     {
       "cycle": 2026,
-      "week_end": "2026-01-25",
-      "net_total": 502,
-      "cumulative_net_total": 58440,
-      "gross_positive": 502,
-      "n_contributions": 2,
+      "week_end": "2026-01-18",
+      "net_total": 1,
+      "cumulative_net_total": 57972,
+      "gross_positive": 1,
+      "n_contributions": 9,
       "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-01-25",
+      "net_total": 526,
+      "cumulative_net_total": 58498,
+      "gross_positive": 526,
+      "n_contributions": 3,
+      "n_donors": 3
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-01",
       "net_total": 2086,
-      "cumulative_net_total": 60526,
+      "cumulative_net_total": 60584,
       "gross_positive": 2086,
-      "n_contributions": 7,
-      "n_donors": 2
+      "n_contributions": 9,
+      "n_donors": 3
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-08",
-      "net_total": 0,
-      "cumulative_net_total": 60526,
-      "gross_positive": 0,
-      "n_contributions": 1,
-      "n_donors": 1
+      "net_total": 25,
+      "cumulative_net_total": 60609,
+      "gross_positive": 25,
+      "n_contributions": 4,
+      "n_donors": 3
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-15",
-      "net_total": 250,
-      "cumulative_net_total": 60776,
-      "gross_positive": 250,
-      "n_contributions": 1,
-      "n_donors": 1
+      "net_total": 254,
+      "cumulative_net_total": 60863,
+      "gross_positive": 254,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-02-22",
+      "net_total": 26,
+      "cumulative_net_total": 60889,
+      "gross_positive": 26,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-01",
+      "net_total": 404,
+      "cumulative_net_total": 61293,
+      "gross_positive": 404,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-08",
+      "net_total": 0,
+      "cumulative_net_total": 61293,
+      "gross_positive": 0,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-15",
+      "net_total": 809,
+      "cumulative_net_total": 62102,
+      "gross_positive": 809,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 274,
+      "cumulative_net_total": 62376,
+      "gross_positive": 274,
+      "n_contributions": 2,
+      "n_donors": 2
     }
   ],
   "top_donors": [
@@ -579,18 +633,6 @@
       "top_committee_amt": 7000
     },
     {
-      "name": "KAWADA PAGE, JODI",
-      "net_total": 3500,
-      "gross_positive": 3500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "UBER",
-      "states": "MD",
-      "top_committee": "HEWITT FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 3500
-    },
-    {
       "name": "MCKELVY, PETER",
       "net_total": 3500,
       "gross_positive": 3500,
@@ -615,6 +657,18 @@
       "top_committee_amt": 3500
     },
     {
+      "name": "KAWADA PAGE, JODI",
+      "net_total": 3500,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UBER",
+      "states": "MD",
+      "top_committee": "HEWITT FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 3500
+    },
+    {
       "name": "LI, JIAN",
       "net_total": 2082,
       "gross_positive": 2082,
@@ -625,18 +679,6 @@
       "top_committee": "CALIFORNIA REPUBLICAN PARTY FEDERAL ACCT.",
       "top_committee_type": "Y",
       "top_committee_amt": 2082
-    },
-    {
-      "name": "AUTERI, FRANK",
-      "net_total": 2000,
-      "gross_positive": 2000,
-      "n_contributions": 8,
-      "n_committees": 1,
-      "employers": "UBER",
-      "states": "IL",
-      "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
-      "top_committee_type": "N",
-      "top_committee_amt": 2000
     },
     {
       "name": "BARNARD, BRIAN",
@@ -651,16 +693,28 @@
       "top_committee_amt": 2000
     },
     {
+      "name": "AUTERI, FRANK",
+      "net_total": 2000,
+      "gross_positive": 2000,
+      "n_contributions": 8,
+      "n_committees": 1,
+      "employers": "UBER",
+      "states": "IL",
+      "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
+      "top_committee_type": "N",
+      "top_committee_amt": 2000
+    },
+    {
       "name": "CAFASSO, CERISSA",
-      "net_total": 1475,
-      "gross_positive": 1475,
-      "n_contributions": 5,
+      "net_total": 1725,
+      "gross_positive": 1725,
+      "n_contributions": 6,
       "n_committees": 1,
       "employers": "UBER",
       "states": "VA",
       "top_committee": "ALEXANDRIA DEMOCRATIC COMMITTEE",
       "top_committee_type": "X",
-      "top_committee_amt": 1475
+      "top_committee_amt": 1725
     },
     {
       "name": "ELKERSON, ALVIN",
@@ -699,6 +753,18 @@
       "top_committee_amt": 1040
     },
     {
+      "name": "GOLD, JOSH",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UBER",
+      "states": "NY",
+      "top_committee": "GRACE FOR NEW YORK",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
       "name": "MENDOZA, KAITLYN",
       "net_total": 1000,
       "gross_positive": 1000,
@@ -708,6 +774,18 @@
       "states": "TX",
       "top_committee": "TALARICO FOR TEXAS",
       "top_committee_type": "S",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "WANG, RAYMOND",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UBER",
+      "states": "NY",
+      "top_committee": "TAYLOR WETTACH FOR CONGRESS",
+      "top_committee_type": "H",
       "top_committee_amt": 1000
     },
     {
@@ -731,30 +809,6 @@
       "employers": "UBER",
       "states": "FL",
       "top_committee": "ROD JOSEPH FOR CONGRESS COMMITTEE",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "GOLD, JOSH",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "UBER",
-      "states": "NY",
-      "top_committee": "GRACE FOR NEW YORK",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "WANG, RAYMOND",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "UBER",
-      "states": "NY",
-      "top_committee": "TAYLOR WETTACH FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
     },
@@ -783,6 +837,18 @@
       "top_committee_amt": 900
     },
     {
+      "name": "WANG, ZHI YONG",
+      "net_total": 800,
+      "gross_positive": 800,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UBER",
+      "states": "NY",
+      "top_committee": "GRACE FOR NEW YORK",
+      "top_committee_type": "H",
+      "top_committee_amt": 800
+    },
+    {
       "name": "NG, OIKIT",
       "net_total": 700,
       "gross_positive": 700,
@@ -795,16 +861,16 @@
       "top_committee_amt": 700
     },
     {
-      "name": "WILLIAMS, RIK",
-      "net_total": 650,
-      "gross_positive": 650,
-      "n_contributions": 5,
-      "n_committees": 2,
+      "name": "DUMELLE, IVENET",
+      "net_total": 700,
+      "gross_positive": 700,
+      "n_contributions": 2,
+      "n_committees": 1,
       "employers": "UBER",
-      "states": "CA",
-      "top_committee": "FAIR FIGHT",
-      "top_committee_type": "V",
-      "top_committee_amt": 400
+      "states": "FL",
+      "top_committee": "ROD JOSEPH FOR CONGRESS COMMITTEE",
+      "top_committee_type": "H",
+      "top_committee_amt": 700
     },
     {
       "name": "BROWN, TIZZY",
@@ -816,6 +882,18 @@
       "states": "DC",
       "top_committee": "CHRIS PAPPAS FOR SENATE",
       "top_committee_type": "S",
+      "top_committee_amt": 400
+    },
+    {
+      "name": "WILLIAMS, RIK",
+      "net_total": 650,
+      "gross_positive": 650,
+      "n_contributions": 5,
+      "n_committees": 2,
+      "employers": "UBER",
+      "states": "CA",
+      "top_committee": "FAIR FIGHT",
+      "top_committee_type": "V",
       "top_committee_amt": 400
     },
     {
@@ -838,20 +916,56 @@
       "n_committees": 3,
       "employers": "UBER",
       "states": "TX",
-      "top_committee": "NEVER SURRENDER, INC.",
+      "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 245
     },
     {
-      "name": "FERGUSON, LUCY",
+      "name": "CROSSMAN, RUTH",
       "net_total": 500,
       "gross_positive": 500,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "UBER",
-      "states": "MA",
-      "top_committee": "OSSOFF VICTORY FUND",
-      "top_committee_type": "N",
+      "states": "CA",
+      "top_committee": "SAIKAT FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "LOEFFLER, CHARLES",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UBER",
+      "states": "TX",
+      "top_committee": "TALARICO FOR TEXAS",
+      "top_committee_type": "S",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "COLEMAN, ELIZABETH",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "UBER",
+      "states": "IL",
+      "top_committee": "HEWITT FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "RING, JASON",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 9,
+      "n_committees": 1,
+      "employers": "UBER",
+      "states": "CA",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
       "top_committee_amt": 500
     },
     {
@@ -879,51 +993,15 @@
       "top_committee_amt": 500
     },
     {
-      "name": "LOEFFLER, CHARLES",
+      "name": "FERGUSON, LUCY",
       "net_total": 500,
       "gross_positive": 500,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "UBER",
-      "states": "TX",
-      "top_committee": "TALARICO FOR TEXAS",
-      "top_committee_type": "S",
-      "top_committee_amt": 500
-    },
-    {
-      "name": "CROSSMAN, RUTH",
-      "net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "UBER",
-      "states": "CA",
-      "top_committee": "SAIKAT FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 500
-    },
-    {
-      "name": "COLEMAN, ELIZABETH",
-      "net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "UBER",
-      "states": "IL",
-      "top_committee": "HEWITT FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 500
-    },
-    {
-      "name": "RING, JASON",
-      "net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 9,
-      "n_committees": 1,
-      "employers": "UBER",
-      "states": "CA",
-      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
+      "states": "MA",
+      "top_committee": "OSSOFF VICTORY FUND",
+      "top_committee_type": "N",
       "top_committee_amt": 500
     },
     {
@@ -1018,21 +1096,9 @@
       "n_committees": 2,
       "employers": "UBER",
       "states": "CA",
-      "top_committee": "FAIR FIGHT",
-      "top_committee_type": "V",
+      "top_committee": "THE COLLECTIVE PAC",
+      "top_committee_type": "Q",
       "top_committee_amt": 150
-    },
-    {
-      "name": "DUMELLE, IVENET",
-      "net_total": 300,
-      "gross_positive": 300,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "UBER",
-      "states": "FL",
-      "top_committee": "ROD JOSEPH FOR CONGRESS COMMITTEE",
-      "top_committee_type": "H",
-      "top_committee_amt": 300
     },
     {
       "name": "HERNANDEZ, JOSE",
@@ -1131,27 +1197,15 @@
       "top_committee_amt": 250
     },
     {
-      "name": "EVSIN, VALERII",
-      "net_total": 250,
-      "gross_positive": 250,
-      "n_contributions": 5,
-      "n_committees": 1,
-      "employers": "UBER",
-      "states": "CA",
-      "top_committee": "CAMPAIGN FOR DEMOCRACY COMMITTEE",
-      "top_committee_type": "N",
-      "top_committee_amt": 250
-    },
-    {
-      "name": "HUNTSPON, ALVIN",
+      "name": "BARANOV, DENIS",
       "net_total": 250,
       "gross_positive": 250,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "UBER",
-      "states": "GA",
-      "top_committee": "EVERTON BLAIR FOR CONGRESS",
-      "top_committee_type": "H",
+      "states": "CA",
+      "top_committee": "WIN THE ERA PAC",
+      "top_committee_type": "N",
       "top_committee_amt": 250
     }
   ],
@@ -1229,9 +1283,9 @@
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 2100,
+      "net_total": 2500,
       "n_donors": 4,
-      "n_contributions": 4
+      "n_contributions": 5
     },
     {
       "cmte_id": "C00140590",
@@ -1254,6 +1308,28 @@
       "net_total": 2000,
       "n_donors": 1,
       "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00516666",
+      "cmte_nm": "GRACE FOR NEW YORK",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1800,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00402628",
+      "cmte_nm": "ALEXANDRIA DEMOCRATIC COMMITTEE",
+      "cmte_tp": "X",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 1725,
+      "n_donors": 1,
+      "n_contributions": 6
     },
     {
       "cmte_id": "C00010603",
@@ -1289,17 +1365,6 @@
       "n_contributions": 50
     },
     {
-      "cmte_id": "C00402628",
-      "cmte_nm": "ALEXANDRIA DEMOCRATIC COMMITTEE",
-      "cmte_tp": "X",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "party",
-      "net_total": 1475,
-      "n_donors": 1,
-      "n_contributions": 5
-    },
-    {
       "cmte_id": "C00910950",
       "cmte_nm": "TAYLOR WETTACH FOR CONGRESS",
       "cmte_tp": "H",
@@ -1313,17 +1378,6 @@
     {
       "cmte_id": "C00902643",
       "cmte_nm": "MICHAEL ROTH FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 1000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00516666",
-      "cmte_nm": "GRACE FOR NEW YORK",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1465,41 +1519,8 @@
       "n_contributions": 8
     },
     {
-      "cmte_id": "C00830554",
-      "cmte_nm": "TY PINKINS FOR CONGRESS",
-      "cmte_tp": "S",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "candidate",
-      "net_total": 250,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00836346",
-      "cmte_nm": "CAMPAIGN FOR DEMOCRACY COMMITTEE",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 250,
-      "n_donors": 1,
-      "n_contributions": 5
-    },
-    {
-      "cmte_id": "C00903815",
-      "cmte_nm": "ERIC CHUNG FOR MICHIGAN",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 250,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00838060",
-      "cmte_nm": "GABE AMO FOR CONGRESS",
+      "cmte_id": "C00909283",
+      "cmte_nm": "SCOTT WIENER FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1520,9 +1541,9 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00909283",
-      "cmte_nm": "SCOTT WIENER FOR CONGRESS",
-      "cmte_tp": "H",
+      "cmte_id": "C00906024",
+      "cmte_nm": "DR. ANNIE ANDREWS FOR SENATE",
+      "cmte_tp": "S",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
@@ -1542,11 +1563,44 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00906024",
-      "cmte_nm": "DR. ANNIE ANDREWS FOR SENATE",
-      "cmte_tp": "S",
+      "cmte_id": "C00838060",
+      "cmte_nm": "GABE AMO FOR CONGRESS",
+      "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00836346",
+      "cmte_nm": "CAMPAIGN FOR DEMOCRACY COMMITTEE",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 5
+    },
+    {
+      "cmte_id": "C00911784",
+      "cmte_nm": "SEAN MCCANN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00830554",
+      "cmte_nm": "TY PINKINS FOR CONGRESS",
+      "cmte_tp": "S",
+      "party_dr": "Unknown",
+      "classification_source": "",
       "recipient_bucket": "candidate",
       "net_total": 250,
       "n_donors": 1,
@@ -1564,8 +1618,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00911784",
-      "cmte_nm": "SEAN MCCANN FOR CONGRESS",
+      "cmte_id": "C00903815",
+      "cmte_nm": "ERIC CHUNG FOR MICHIGAN",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1586,23 +1640,23 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00697441",
-      "cmte_nm": "WIN THE ERA PAC",
-      "cmte_tp": "N",
-      "party_dr": "D",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 250,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00467571",
       "cmte_nm": "ANDY BARR FOR SENATE, INC.",
       "cmte_tp": "S",
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00697441",
+      "cmte_nm": "WIN THE ERA PAC",
+      "cmte_tp": "N",
+      "party_dr": "D",
+      "classification_source": "",
+      "recipient_bucket": "pac",
       "net_total": 250,
       "n_donors": 1,
       "n_contributions": 1
@@ -1641,6 +1695,28 @@
       "n_contributions": 5
     },
     {
+      "cmte_id": "C00075820",
+      "cmte_nm": "NRCC",
+      "cmte_tp": "Y",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 198,
+      "n_donors": 2,
+      "n_contributions": 12
+    },
+    {
+      "cmte_id": "C00894071",
+      "cmte_nm": "LOVE AMERICA UPHOLD FREEDOM PAC",
+      "cmte_tp": "O",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "outside_spending",
+      "net_total": 191,
+      "n_donors": 3,
+      "n_contributions": 27
+    },
+    {
       "cmte_id": "C00718866",
       "cmte_nm": "JON OSSOFF FOR SENATE",
       "cmte_tp": "S",
@@ -1674,17 +1750,6 @@
       "n_contributions": 7
     },
     {
-      "cmte_id": "C00075820",
-      "cmte_nm": "NRCC",
-      "cmte_tp": "Y",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "party",
-      "net_total": 168,
-      "n_donors": 2,
-      "n_contributions": 11
-    },
-    {
       "cmte_id": "C00617381",
       "cmte_nm": "THE COLLECTIVE PAC",
       "cmte_tp": "Q",
@@ -1694,17 +1759,6 @@
       "net_total": 150,
       "n_donors": 1,
       "n_contributions": 6
-    },
-    {
-      "cmte_id": "C00147512",
-      "cmte_nm": "CONGRESSIONAL BLACK CAUCUS PAC",
-      "cmte_tp": "Q",
-      "party_dr": "D",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 143,
-      "n_donors": 1,
-      "n_contributions": 31
     }
   ]
 }

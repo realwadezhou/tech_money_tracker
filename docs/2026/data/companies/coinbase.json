@@ -3,30 +3,30 @@
   "slug": "coinbase",
   "summary": {
     "tech_canonical_name": "coinbase",
-    "net_total": 735672,
+    "net_total": 745672,
     "n_donors": 41,
-    "n_contributions": 221,
+    "n_contributions": 224,
     "n_committees": 102,
     "sectors": "fintech",
     "amt_dem": 276447,
     "amt_mixed": 5000,
-    "amt_rep": 233393,
+    "amt_rep": 243393,
     "amt_unknown": 220832,
     "amt_other": 225832,
-    "classified_recipient_total": 509840,
-    "pct_dem": 54.2223050369,
-    "pct_classified_recipients": 69.3026239955,
+    "classified_recipient_total": 519840,
+    "pct_dem": 53.1792474608,
+    "pct_classified_recipients": 69.7142979755,
     "donor_amt_D": 64872,
-    "donor_amt_Mixed": 531756,
-    "donor_amt_R": 108994,
+    "donor_amt_Mixed": 534756,
+    "donor_amt_R": 115994,
     "donor_amt_Unknown": 30050,
     "n_donors_D": 19,
     "n_donors_Mixed": 6,
     "n_donors_R": 12,
     "n_donors_Unknown": 4,
-    "donor_amt_total": 735672,
+    "donor_amt_total": 745672,
     "n_donors_total": 41,
-    "pct_dem_by_donor": 37.3114927588,
+    "pct_dem_by_donor": 35.8674377716,
     "slug": "coinbase"
   },
   "weekly_series": [
@@ -452,6 +452,24 @@
       "gross_positive": 275,
       "n_contributions": 1,
       "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-29",
+      "net_total": 6500,
+      "cumulative_net_total": 742172,
+      "gross_positive": 6500,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-05",
+      "net_total": 3500,
+      "cumulative_net_total": 745672,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_donors": 1
     }
   ],
   "top_donors": [
@@ -499,16 +517,16 @@
       "n_committees": 9,
       "employers": "COINBASE",
       "states": "CA",
-      "top_committee": "LUMMIS FOR WYOMING INC.",
-      "top_committee_type": "S",
+      "top_committee": "EMMER FOR CONGRESS",
+      "top_committee_type": "H",
       "top_committee_amt": 3500
     },
     {
       "name": "CAMPBELL, KARA",
-      "net_total": 26000,
-      "gross_positive": 29500,
-      "n_contributions": 7,
-      "n_committees": 5,
+      "net_total": 29500,
+      "gross_positive": 33000,
+      "n_contributions": 8,
+      "n_committees": 6,
       "employers": "COINBASE",
       "states": "VA",
       "top_committee": "TEAM HILL",
@@ -529,15 +547,27 @@
     },
     {
       "name": "WITOFF, ROBERT",
-      "net_total": 19500,
-      "gross_positive": 19500,
-      "n_contributions": 7,
-      "n_committees": 6,
+      "net_total": 22500,
+      "gross_positive": 22500,
+      "n_contributions": 8,
+      "n_committees": 7,
       "employers": "COINBASE",
       "states": "TX",
       "top_committee": "GALLEGO VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5000
+    },
+    {
+      "name": "SHIRZAD, FARYAR",
+      "net_total": 17643,
+      "gross_positive": 17643,
+      "n_contributions": 6,
+      "n_committees": 5,
+      "employers": "COINBASE",
+      "states": "DC",
+      "top_committee": "ROUNDS FOR SENATE",
+      "top_committee_type": "S",
+      "top_committee_amt": 3643
     },
     {
       "name": "POLLAK, JESSE",
@@ -550,18 +580,6 @@
       "top_committee": "GALLEGO VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5000
-    },
-    {
-      "name": "SHIRZAD, FARYAR",
-      "net_total": 14143,
-      "gross_positive": 14143,
-      "n_contributions": 5,
-      "n_committees": 4,
-      "employers": "COINBASE",
-      "states": "DC",
-      "top_committee": "ROUNDS FOR SENATE",
-      "top_committee_type": "S",
-      "top_committee_amt": 3643
     },
     {
       "name": "ZLATKIN, LAWRENCE",
@@ -583,8 +601,8 @@
       "n_committees": 4,
       "employers": "COINBASE",
       "states": "CA",
-      "top_committee": "TIM SCOTT FOR AMERICA",
-      "top_committee_type": "S",
+      "top_committee": "TEAM HILL",
+      "top_committee_type": "N",
       "top_committee_amt": 3500
     },
     {
@@ -643,7 +661,7 @@
       "n_committees": 4,
       "employers": "COINBASE",
       "states": "TX",
-      "top_committee": "GALLEGO VICTORY FUND",
+      "top_committee": "TEAM HILL",
       "top_committee_type": "N",
       "top_committee_amt": 2500
     },
@@ -859,8 +877,8 @@
       "n_committees": 2,
       "employers": "COINBASE",
       "states": "DC",
-      "top_committee": "HEWITT FOR CONGRESS",
-      "top_committee_type": "H",
+      "top_committee": "JASMINE FOR TEXAS",
+      "top_committee_type": "S",
       "top_committee_amt": 250
     },
     {
@@ -1115,15 +1133,15 @@
       "n_contributions": 6
     },
     {
-      "cmte_id": "C00859058",
-      "cmte_nm": "EMMER MAJORITY BUILDERS",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 12000,
-      "n_donors": 1,
-      "n_contributions": 1
+      "cmte_id": "C00815415",
+      "cmte_nm": "LAWLER FOR CONGRESS, INC.",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 13500,
+      "n_donors": 4,
+      "n_contributions": 4
     },
     {
       "cmte_id": "C00768762",
@@ -1135,6 +1153,17 @@
       "net_total": 12000,
       "n_donors": 2,
       "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00859058",
+      "cmte_nm": "EMMER MAJORITY BUILDERS",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 12000,
+      "n_donors": 1,
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00668228",
@@ -1192,26 +1221,15 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00872473",
-      "cmte_nm": "BRIAN JACK FOR CONGRESS",
+      "cmte_id": "C00600718",
+      "cmte_nm": "DAVIDSON FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 7000,
-      "n_donors": 2,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00443580",
-      "cmte_nm": "LUMMIS FOR WYOMING INC.",
-      "cmte_tp": "S",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 2,
-      "n_contributions": 2
+      "n_donors": 1,
+      "n_contributions": 3
     },
     {
       "cmte_id": "C00575209",
@@ -1225,26 +1243,15 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00718221",
-      "cmte_nm": "ASHLEY HINSON VICTORY COMMITTEE",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 7000,
-      "n_donors": 2,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00600718",
-      "cmte_nm": "DAVIDSON FOR CONGRESS",
+      "cmte_id": "C00872473",
+      "cmte_nm": "BRIAN JACK FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 7000,
-      "n_donors": 1,
-      "n_contributions": 3
+      "n_donors": 2,
+      "n_contributions": 2
     },
     {
       "cmte_id": "C00637215",
@@ -1253,6 +1260,17 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00718221",
+      "cmte_nm": "ASHLEY HINSON VICTORY COMMITTEE",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
       "net_total": 7000,
       "n_donors": 2,
       "n_contributions": 2
@@ -1269,10 +1287,10 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00716720",
-      "cmte_nm": "HICKENLOOPER FOR COLORADO",
+      "cmte_id": "C00443580",
+      "cmte_nm": "LUMMIS FOR WYOMING INC.",
       "cmte_tp": "S",
-      "party_dr": "D",
+      "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 7000,
@@ -1317,6 +1335,17 @@
       "cmte_nm": "ANDY BARR FOR SENATE, INC.",
       "cmte_tp": "S",
       "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00716720",
+      "cmte_nm": "HICKENLOOPER FOR COLORADO",
+      "cmte_tp": "S",
+      "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 7000,
@@ -1423,10 +1452,10 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00864207",
-      "cmte_nm": "KRISTEN FOR MICHIGAN",
+      "cmte_id": "C00541862",
+      "cmte_nm": "JASON SMITH FOR CONGRESS",
       "cmte_tp": "H",
-      "party_dr": "D",
+      "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 3500,
@@ -1473,17 +1502,6 @@
       "party_dr": "D",
       "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00815415",
-      "cmte_nm": "LAWLER FOR CONGRESS, INC.",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
       "net_total": 3500,
       "n_donors": 1,
       "n_contributions": 1

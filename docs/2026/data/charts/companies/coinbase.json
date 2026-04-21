@@ -421,5 +421,23 @@
     "gross_positive": 275,
     "n_contributions": 1,
     "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-03-29",
+    "net_total": 6500,
+    "cumulative_net_total": 742172,
+    "gross_positive": 6500,
+    "n_contributions": 2,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-04-05",
+    "net_total": 3500,
+    "cumulative_net_total": 745672,
+    "gross_positive": 3500,
+    "n_contributions": 1,
+    "n_donors": 1
   }
 ]

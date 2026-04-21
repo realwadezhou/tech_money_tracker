@@ -3,30 +3,30 @@
   "slug": "oracle",
   "summary": {
     "tech_canonical_name": "oracle",
-    "net_total": 1127966,
-    "n_donors": 399,
-    "n_contributions": 3926,
-    "n_committees": 209,
+    "net_total": 1130354,
+    "n_donors": 404,
+    "n_contributions": 3939,
+    "n_committees": 211,
     "sectors": "cloud",
-    "amt_dem": 184132,
+    "amt_dem": 186147,
     "amt_mixed": 197365,
-    "amt_rep": 271950,
+    "amt_rep": 272323,
     "amt_unknown": 474519,
     "amt_other": 671884,
-    "classified_recipient_total": 456082,
-    "pct_dem": 40.3725645827,
-    "pct_classified_recipients": 40.4340201744,
-    "donor_amt_D": 225573,
-    "donor_amt_Mixed": 35618,
-    "donor_amt_R": 428013,
+    "classified_recipient_total": 458470,
+    "pct_dem": 40.6017841953,
+    "pct_classified_recipients": 40.5598600085,
+    "donor_amt_D": 235660,
+    "donor_amt_Mixed": 27046,
+    "donor_amt_R": 428886,
     "donor_amt_Unknown": 438762,
-    "n_donors_D": 198,
-    "n_donors_Mixed": 18,
-    "n_donors_R": 53,
+    "n_donors_D": 203,
+    "n_donors_Mixed": 16,
+    "n_donors_R": 55,
     "n_donors_Unknown": 130,
-    "donor_amt_total": 1127966,
-    "n_donors_total": 399,
-    "pct_dem_by_donor": 34.5131321662,
+    "donor_amt_total": 1130354,
+    "n_donors_total": 404,
+    "pct_dem_by_donor": 35.4618039985,
     "slug": "oracle"
   },
   "weekly_series": [
@@ -474,44 +474,44 @@
     {
       "cycle": 2026,
       "week_end": "2025-12-14",
-      "net_total": 4608,
-      "cumulative_net_total": 1041910,
-      "gross_positive": 4608,
-      "n_contributions": 58,
-      "n_donors": 37
+      "net_total": 4642,
+      "cumulative_net_total": 1041944,
+      "gross_positive": 4642,
+      "n_contributions": 59,
+      "n_donors": 38
     },
     {
       "cycle": 2026,
       "week_end": "2025-12-21",
-      "net_total": 8931,
-      "cumulative_net_total": 1050841,
-      "gross_positive": 8931,
-      "n_contributions": 130,
-      "n_donors": 119
+      "net_total": 9016,
+      "cumulative_net_total": 1050960,
+      "gross_positive": 9016,
+      "n_contributions": 132,
+      "n_donors": 121
     },
     {
       "cycle": 2026,
       "week_end": "2025-12-28",
-      "net_total": 1902,
-      "cumulative_net_total": 1052743,
-      "gross_positive": 1902,
-      "n_contributions": 44,
-      "n_donors": 35
+      "net_total": 2056,
+      "cumulative_net_total": 1053016,
+      "gross_positive": 2056,
+      "n_contributions": 46,
+      "n_donors": 37
     },
     {
       "cycle": 2026,
       "week_end": "2026-01-04",
-      "net_total": 17576,
-      "cumulative_net_total": 1070319,
-      "gross_positive": 17576,
-      "n_contributions": 128,
-      "n_donors": 122
+      "net_total": 17676,
+      "cumulative_net_total": 1070692,
+      "gross_positive": 17676,
+      "n_contributions": 129,
+      "n_donors": 123
     },
     {
       "cycle": 2026,
       "week_end": "2026-01-11",
       "net_total": 694,
-      "cumulative_net_total": 1071013,
+      "cumulative_net_total": 1071386,
       "gross_positive": 694,
       "n_contributions": 9,
       "n_donors": 6
@@ -520,7 +520,7 @@
       "cycle": 2026,
       "week_end": "2026-01-18",
       "net_total": 11078,
-      "cumulative_net_total": 1082091,
+      "cumulative_net_total": 1082464,
       "gross_positive": 11078,
       "n_contributions": 10,
       "n_donors": 7
@@ -529,7 +529,7 @@
       "cycle": 2026,
       "week_end": "2026-01-25",
       "net_total": 1353,
-      "cumulative_net_total": 1083444,
+      "cumulative_net_total": 1083817,
       "gross_positive": 1353,
       "n_contributions": 4,
       "n_donors": 4
@@ -538,7 +538,7 @@
       "cycle": 2026,
       "week_end": "2026-02-01",
       "net_total": 6667,
-      "cumulative_net_total": 1090111,
+      "cumulative_net_total": 1090484,
       "gross_positive": 6667,
       "n_contributions": 35,
       "n_donors": 32
@@ -546,17 +546,17 @@
     {
       "cycle": 2026,
       "week_end": "2026-02-08",
-      "net_total": 25875,
-      "cumulative_net_total": 1115986,
-      "gross_positive": 25875,
-      "n_contributions": 6,
-      "n_donors": 6
+      "net_total": 27375,
+      "cumulative_net_total": 1117859,
+      "gross_positive": 27375,
+      "n_contributions": 8,
+      "n_donors": 8
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-15",
       "net_total": 6025,
-      "cumulative_net_total": 1122011,
+      "cumulative_net_total": 1123884,
       "gross_positive": 6025,
       "n_contributions": 37,
       "n_donors": 31
@@ -565,7 +565,7 @@
       "cycle": 2026,
       "week_end": "2026-02-22",
       "net_total": 273,
-      "cumulative_net_total": 1122284,
+      "cumulative_net_total": 1124157,
       "gross_positive": 273,
       "n_contributions": 6,
       "n_donors": 6
@@ -573,11 +573,29 @@
     {
       "cycle": 2026,
       "week_end": "2026-03-01",
-      "net_total": 5682,
-      "cumulative_net_total": 1127966,
-      "gross_positive": 5682,
-      "n_contributions": 41,
-      "n_donors": 36
+      "net_total": 5742,
+      "cumulative_net_total": 1129899,
+      "gross_positive": 5742,
+      "n_contributions": 42,
+      "n_donors": 37
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 100,
+      "cumulative_net_total": 1129999,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-29",
+      "net_total": 355,
+      "cumulative_net_total": 1130354,
+      "gross_positive": 355,
+      "n_contributions": 3,
+      "n_donors": 2
     }
   ],
   "top_donors": [
@@ -822,43 +840,7 @@
       "top_committee_amt": 3500
     },
     {
-      "name": "LOAIZA, JUAN",
-      "net_total": 5376,
-      "gross_positive": 5376,
-      "n_contributions": 28,
-      "n_committees": 1,
-      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
-      "states": "DC",
-      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5376
-    },
-    {
-      "name": "SMITH, RODGER",
-      "net_total": 5376,
-      "gross_positive": 5376,
-      "n_contributions": 28,
-      "n_committees": 1,
-      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
-      "states": "DC",
-      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5376
-    },
-    {
       "name": "LOMBARDI, CHRIS",
-      "net_total": 5376,
-      "gross_positive": 5376,
-      "n_contributions": 28,
-      "n_committees": 1,
-      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
-      "states": "DC",
-      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5376
-    },
-    {
-      "name": "ALLISON, RICHARD",
       "net_total": 5376,
       "gross_positive": 5376,
       "n_contributions": 28,
@@ -882,43 +864,7 @@
       "top_committee_amt": 5376
     },
     {
-      "name": "HILBRICH, GREGORY",
-      "net_total": 5376,
-      "gross_positive": 5376,
-      "n_contributions": 28,
-      "n_committees": 1,
-      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
-      "states": "DC",
-      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5376
-    },
-    {
-      "name": "KEHRING, DOUGLAS",
-      "net_total": 5376,
-      "gross_positive": 5376,
-      "n_contributions": 28,
-      "n_committees": 1,
-      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
-      "states": "DC",
-      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5376
-    },
-    {
-      "name": "PITCOCK, JOSHUA",
-      "net_total": 5376,
-      "gross_positive": 5376,
-      "n_contributions": 28,
-      "n_committees": 1,
-      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
-      "states": "DC",
-      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5376
-    },
-    {
-      "name": "LEVEY, STUART",
+      "name": "SMITH, RODGER",
       "net_total": 5376,
       "gross_positive": 5376,
       "n_contributions": 28,
@@ -942,28 +888,76 @@
       "top_committee_amt": 5376
     },
     {
-      "name": "PEARLMAN, JUSTIN",
-      "net_total": 5000,
-      "gross_positive": 5000,
-      "n_contributions": 1,
+      "name": "PITCOCK, JOSHUA",
+      "net_total": 5376,
+      "gross_positive": 5376,
+      "n_contributions": 28,
       "n_committees": 1,
-      "employers": "ORACLE CORPORATION",
+      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
       "states": "DC",
       "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
       "top_committee_type": "Q",
-      "top_committee_amt": 5000
+      "top_committee_amt": 5376
     },
     {
-      "name": "WEINBERG, PETER",
-      "net_total": 5000,
-      "gross_positive": 5000,
-      "n_contributions": 1,
+      "name": "KEHRING, DOUGLAS",
+      "net_total": 5376,
+      "gross_positive": 5376,
+      "n_contributions": 28,
       "n_committees": 1,
-      "employers": "ORACLE AMERICA, INC.",
+      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
       "states": "DC",
       "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
       "top_committee_type": "Q",
-      "top_committee_amt": 5000
+      "top_committee_amt": 5376
+    },
+    {
+      "name": "LOAIZA, JUAN",
+      "net_total": 5376,
+      "gross_positive": 5376,
+      "n_contributions": 28,
+      "n_committees": 1,
+      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
+      "states": "DC",
+      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5376
+    },
+    {
+      "name": "HILBRICH, GREGORY",
+      "net_total": 5376,
+      "gross_positive": 5376,
+      "n_contributions": 28,
+      "n_committees": 1,
+      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
+      "states": "DC",
+      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5376
+    },
+    {
+      "name": "LEVEY, STUART",
+      "net_total": 5376,
+      "gross_positive": 5376,
+      "n_contributions": 28,
+      "n_committees": 1,
+      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
+      "states": "DC",
+      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5376
+    },
+    {
+      "name": "ALLISON, RICHARD",
+      "net_total": 5376,
+      "gross_positive": 5376,
+      "n_contributions": 28,
+      "n_committees": 1,
+      "employers": "ORACLE AMERICA, INC.; ORACLE CORPORATION",
+      "states": "DC",
+      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5376
     },
     {
       "name": "MOIR, MARY ELLEN",
@@ -990,14 +984,14 @@
       "top_committee_amt": 5000
     },
     {
-      "name": "SICILIA, MICHAEL D.",
+      "name": "WEINBERG, PETER",
       "net_total": 5000,
       "gross_positive": 5000,
       "n_contributions": 1,
       "n_committees": 1,
-      "employers": "ORACLE AMERICA INC.",
-      "states": "MA",
-      "top_committee": "MAKING A RESPONSIBLE STAND FOR HOUSEHOLDS IN AMERICA PAC",
+      "employers": "ORACLE AMERICA, INC.",
+      "states": "DC",
+      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
     },
@@ -1010,6 +1004,30 @@
       "employers": "ORACLE",
       "states": "FL",
       "top_committee": "SENATE EAGLE PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "SICILIA, MICHAEL D.",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ORACLE AMERICA INC.",
+      "states": "MA",
+      "top_committee": "MAKING A RESPONSIBLE STAND FOR HOUSEHOLDS IN AMERICA PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "PEARLMAN, JUSTIN",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ORACLE CORPORATION",
+      "states": "DC",
+      "top_committee": "ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
     },
@@ -1062,18 +1080,6 @@
       "top_committee_amt": 3750
     },
     {
-      "name": "VERMA, SEEMA MS.",
-      "net_total": 3500,
-      "gross_positive": 3500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "ORACLE",
-      "states": "IN",
-      "top_committee": "COLE FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 3500
-    },
-    {
       "name": "MUFTI, YASSER",
       "net_total": 3500,
       "gross_positive": 3500,
@@ -1082,6 +1088,18 @@
       "employers": "ORACLE",
       "states": "WA",
       "top_committee": "KSHAMA FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 3500
+    },
+    {
+      "name": "VERMA, SEEMA MS.",
+      "net_total": 3500,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ORACLE",
+      "states": "IN",
+      "top_committee": "COLE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3500
     },
@@ -1272,17 +1290,6 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00427401",
-      "cmte_nm": "CONSERVATIVE & REPUBLICAN TOGETHER EQUALS RESULTS PAC",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
       "cmte_id": "C00778159",
       "cmte_nm": "COMMANDER ZINKE LEADERSHIP FUND",
       "cmte_tp": "N",
@@ -1292,6 +1299,17 @@
       "net_total": 15000,
       "n_donors": 5,
       "n_contributions": 5
+    },
+    {
+      "cmte_id": "C00427401",
+      "cmte_nm": "CONSERVATIVE & REPUBLICAN TOGETHER EQUALS RESULTS PAC",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
     },
     {
       "cmte_id": "C00896019",
@@ -1360,6 +1378,17 @@
       "n_contributions": 57
     },
     {
+      "cmte_id": "C00010603",
+      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 8748,
+      "n_donors": 28,
+      "n_contributions": 88
+    },
+    {
       "cmte_id": "C00791780",
       "cmte_nm": "SUMMER LEE FOR CONGRESS",
       "cmte_tp": "H",
@@ -1369,17 +1398,6 @@
       "net_total": 8499,
       "n_donors": 3,
       "n_contributions": 5
-    },
-    {
-      "cmte_id": "C00010603",
-      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "cmte_tp": "Y",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "party",
-      "net_total": 7248,
-      "n_donors": 26,
-      "n_contributions": 86
     },
     {
       "cmte_id": "C00796672",
@@ -1443,9 +1461,9 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 6328,
+      "net_total": 6388,
       "n_donors": 15,
-      "n_contributions": 77
+      "n_contributions": 78
     },
     {
       "cmte_id": "C00371203",
@@ -1613,6 +1631,17 @@
       "n_contributions": 112
     },
     {
+      "cmte_id": "C00075820",
+      "cmte_nm": "NRCC",
+      "cmte_tp": "Y",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 3303,
+      "n_donors": 8,
+      "n_contributions": 41
+    },
+    {
       "cmte_id": "C00411330",
       "cmte_nm": "FRIENDS OF BERNIE SANDERS",
       "cmte_tp": "S",
@@ -1644,17 +1673,6 @@
       "net_total": 3000,
       "n_donors": 1,
       "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00075820",
-      "cmte_nm": "NRCC",
-      "cmte_tp": "Y",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "party",
-      "net_total": 2930,
-      "n_donors": 7,
-      "n_contributions": 35
     },
     {
       "cmte_id": "C00031054",

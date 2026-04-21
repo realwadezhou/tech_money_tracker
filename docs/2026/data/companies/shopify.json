@@ -3,29 +3,29 @@
   "slug": "shopify",
   "summary": {
     "tech_canonical_name": "shopify",
-    "net_total": 10020,
-    "n_donors": 6,
-    "n_contributions": 23,
-    "n_committees": 6,
+    "net_total": 10141,
+    "n_donors": 7,
+    "n_contributions": 26,
+    "n_committees": 7,
     "sectors": "ecommerce",
-    "amt_dem": 10020,
+    "amt_dem": 10141,
     "amt_mixed": 0,
     "amt_rep": 0,
     "amt_unknown": 0,
     "amt_other": 0,
-    "classified_recipient_total": 10020,
+    "classified_recipient_total": 10141,
     "pct_dem": 100.0,
     "pct_classified_recipients": 100.0,
-    "donor_amt_D": 10020,
+    "donor_amt_D": 10141,
     "donor_amt_Mixed": 0,
     "donor_amt_R": 0,
     "donor_amt_Unknown": 0,
-    "n_donors_D": 6,
+    "n_donors_D": 7,
     "n_donors_Mixed": 0,
     "n_donors_R": 0,
     "n_donors_Unknown": 0,
-    "donor_amt_total": 10020,
-    "n_donors_total": 6,
+    "donor_amt_total": 10141,
+    "n_donors_total": 7,
     "pct_dem_by_donor": 100.0,
     "slug": "shopify"
   },
@@ -209,6 +209,24 @@
       "gross_positive": 300,
       "n_contributions": 2,
       "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-02-22",
+      "net_total": 110,
+      "cumulative_net_total": 10130,
+      "gross_positive": 110,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-01",
+      "net_total": 11,
+      "cumulative_net_total": 10141,
+      "gross_positive": 11,
+      "n_contributions": 1,
+      "n_donors": 1
     }
   ],
   "top_donors": [
@@ -271,6 +289,18 @@
       "top_committee": "CLEVELAND FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 200
+    },
+    {
+      "name": "MEHL, WAYNE",
+      "net_total": 121,
+      "gross_positive": 121,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "IN",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 121
     },
     {
       "name": "FONTAINE, ROBIN",
@@ -340,6 +370,17 @@
       "net_total": 200,
       "n_donors": 1,
       "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00010603",
+      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 121,
+      "n_donors": 1,
+      "n_contributions": 3
     },
     {
       "cmte_id": "C00341396",

@@ -388,19 +388,39 @@ def donor_top_committee(row: dict, limit: int = 46) -> str:
 
 
 def nav(prefix: str) -> str:
-    links = [
-        (f"{prefix}index.html", "Home"),
-        (f"{prefix}companies/", "Companies"),
-        (f"{prefix}candidates/", "Candidates"),
-        (f"{prefix}political-bodies/", "Political Bodies"),
+    cycle_label = CURRENT_RENDER_CYCLE
+    if cycle_label is None and AVAILABLE_CYCLES:
+        cycle_label = max(AVAILABLE_CYCLES)
+    election_label = f"Elections {cycle_label}:" if cycle_label else "Elections:"
+    election_links = [
         (f"{prefix}donors/", "Donors"),
+        (f"{prefix}candidates/", "Candidates"),
+        (f"{prefix}races/", "Races"),
+        (f"{prefix}political-bodies/", "Political bodies"),
+        (f"{prefix}companies/", "Tech employees"),
+    ]
+    after_links = [
+        (f"{prefix}federal-lobbying/", "Federal lobbying"),
         (f"{prefix}methodology/", "Methodology"),
         (f"{prefix}data/", "Data"),
     ]
-    return " | ".join(
+    first_election_href, first_election_label = election_links[0]
+    parts = [
+        f'<a href="{esc(prefix)}index.html">Home</a>',
+        (
+            f'<strong>{esc(election_label)}</strong> '
+            f'<a href="{esc(first_election_href)}">{esc(first_election_label)}</a>'
+        ),
+    ]
+    parts.extend(
         f'<a href="{esc(href)}">{esc(label)}</a>'
-        for href, label in links
+        for href, label in election_links[1:]
     )
+    parts.extend(
+        f'<a href="{esc(href)}">{esc(label)}</a>'
+        for href, label in after_links
+    )
+    return " | ".join(parts)
 
 
 def note(metadata: dict, *lines: str) -> str:
@@ -441,6 +461,7 @@ def shell(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(title)}</title>
   <link rel="stylesheet" href="{esc(prefix)}static/site.css">
+  <script src="{esc(prefix)}static/tables.js" defer></script>
 </head>
 <body>
   <div class="page">
@@ -469,17 +490,31 @@ def reset_dir(path: Path) -> None:
             child.unlink()
 
 
-def table(headers: list[str], rows: list[list[str]]) -> str:
-    head = "".join(f"<th>{header}</th>" for header in headers)
+def table(headers: list[str], rows: list[list[str]], filterable: bool = True) -> str:
+    head = "".join(
+        '<th scope="col">'
+        f'<button type="button" class="sort-button">{esc(header)}</button>'
+        "</th>"
+        for header in headers
+    )
     body_rows = []
     for row in rows:
         body_rows.append("<tr>" + "".join(row) + "</tr>")
+    filter_control = ""
+    if filterable:
+        filter_control = (
+            '<div class="table-control">'
+            '<label>Filter <input class="table-filter" type="search" autocomplete="off"></label>'
+            "</div>"
+        )
     return (
-        '<table border="1" cellpadding="4" cellspacing="0">'
+        filter_control
+        + '<div class="table-wrap">'
+        '<table class="data-table" border="1" cellpadding="4" cellspacing="0">'
         + "<thead><tr>" + head + "</tr></thead>"
         + "<tbody>"
         + "".join(body_rows)
-        + "</tbody></table>"
+        + "</tbody></table></div>"
     )
 
 
@@ -602,20 +637,28 @@ def page_home(metadata: dict, homepage: dict) -> str:
 
     section_rows = [
         [
-            '<td><a href="companies/">Companies</a></td>',
-            '<td>Who employees of tracked companies gave to, with one page per company.</td>',
+            '<td><a href="donors/">Donors</a></td>',
+            '<td>Major individual donors currently visible through the employer-matching system.</td>',
         ],
         [
             '<td><a href="candidates/">Candidates</a></td>',
             '<td>Featured candidate committees that took meaningful tech-linked money.</td>',
         ],
         [
-            '<td><a href="political-bodies/">Political Bodies</a></td>',
+            '<td><a href="races/">Races</a></td>',
+            '<td>A placeholder for race-first views; candidate state and district pages carry this coverage for now.</td>',
+        ],
+        [
+            '<td><a href="political-bodies/">Political bodies</a></td>',
             '<td>PACs, Super PACs, party committees, and other non-candidate committees by tech-linked receipts.</td>',
         ],
         [
-            '<td><a href="donors/">Donors</a></td>',
-            '<td>Major individual donors currently visible through the employer-matching system.</td>',
+            '<td><a href="companies/">Tech employees</a></td>',
+            '<td>Who employees of tracked companies gave to, with one page per company.</td>',
+        ],
+        [
+            '<td><a href="federal-lobbying/">Federal lobbying</a></td>',
+            '<td>A placeholder for future lobbying data and methodology.</td>',
         ],
         [
             '<td><a href="methodology/">Methodology</a></td>',
@@ -638,32 +681,25 @@ def page_home(metadata: dict, homepage: dict) -> str:
 <p class="note">Chart display begins on {display_start}. The totals above keep the full validated export, including a small number of earlier rows present in the source files.</p>
 
 <h2>Start Here</h2>
-{table(["Section", "What It Shows"], section_rows)}
+{table(["Section", "What It Shows"], section_rows, filterable=False)}
 
-<h2>At A Glance: Companies</h2>
-{table(["Company", "Total", "Donors", "Committees", "Pct Classified", "Pct Dem by Donor"], top_company_rows)}
-<p><a href="companies/">See all companies.</a></p>
+<h2>At A Glance: Tech Employees</h2>
+{table(["Company", "Total", "Donors", "Committees", "Pct Classified", "Pct Dem by Donor"], top_company_rows, filterable=False)}
+<p><a href="companies/">See all tech employees by company.</a></p>
 
 <h2>At A Glance: Candidates</h2>
-{table(["Candidate Committee", "Type", "Lean", "Tech Receipts", "Tech Share", "Tech Donors"], top_candidate_rows)}
+{table(["Candidate Committee", "Type", "Lean", "Tech Receipts", "Tech Share", "Tech Donors"], top_candidate_rows, filterable=False)}
 <p class="small">Committee tech share is a share of itemized individual contribution receipts, not all committee money.</p>
 <p><a href="candidates/">See featured candidate committees.</a></p>
 
 <h2>At A Glance: Political Bodies</h2>
-{table(["Committee", "Type", "Lean", "Tech Receipts", "Tech Share", "Tech Donors"], top_political_rows)}
+{table(["Committee", "Type", "Lean", "Tech Receipts", "Tech Share", "Tech Donors"], top_political_rows, filterable=False)}
 <p class="small">This page includes PACs, Super PACs, party committees, and other non-candidate committees.</p>
 <p><a href="political-bodies/">See featured political bodies.</a></p>
 
 <h2>At A Glance: Top Donors</h2>
-{table(["Donor", "$ to Dem", "% to Dem", "$ to Rep", "Total", "Company Tags", "Top Committee"], top_donor_rows)}
+{table(["Donor", "$ to Dem", "% to Dem", "$ to Rep", "Total", "Company Tags", "Top Committee"], top_donor_rows, filterable=False)}
 <p><a href="donors/">See all major donors.</a></p>
-
-<h2>Notes</h2>
-<ul>
-  <li>Use the cycle toggle above to switch between the included 2024 and 2026 exports.</li>
-  <li>Employer matching is still an employer-string system, not full person/entity resolution.</li>
-  <li>Candidate navigation now includes national, state, Senate, and House district views.</li>
-</ul>
 """
 
     scripts = f"""
@@ -710,8 +746,8 @@ def page_companies_index(metadata: dict, companies: list[dict]) -> str:
         )
 
     body = f"""
-<h1>Companies</h1>
-<p>This page lists the tracked tech companies currently in the validated {metadata["cycle"]} export.</p>
+<h1>Tech Employees</h1>
+<p>This page lists tech-linked giving by employees of tracked companies and firms currently in the validated {metadata["cycle"]} export.</p>
 {table(["Company", "Total", "Donors", "Committees", "Sector", "Pct Classified", "Pct Dem by Donor"], rows)}
 """
     top_note = note(
@@ -720,7 +756,7 @@ def page_companies_index(metadata: dict, companies: list[dict]) -> str:
         "Company totals rely on the current employer-matching system.",
         "Recipient lean is inferred from committee behavior when direct party is absent.",
     )
-    return shell("Companies - Tech Money", body, prefix="../", top_note=top_note)
+    return shell("Tech Employees - Tech Money", body, prefix="../", top_note=top_note)
 
 
 def page_company(metadata: dict, company_payload: dict) -> str:
@@ -774,7 +810,7 @@ def page_company(metadata: dict, company_payload: dict) -> str:
 <h2>Top Donors</h2>
 {table(["Donor", "Total", "Rows", "Top Committee"], top_donor_rows)}
 
-<p class="small"><a href="../">Back to companies.</a></p>
+<p class="small"><a href="../">Back to tech employees.</a></p>
 """
 
     scripts = f"""
@@ -942,6 +978,68 @@ def page_candidates(
         "Tech receipts here are based on itemized individual contributions into linked committees.",
     )
     return shell("Candidates - Tech Money", body, prefix="../", top_note=top_note)
+
+
+def page_races(
+    metadata: dict,
+    candidate_state: list[dict],
+    candidate_house_district: list[dict],
+    candidate_senate: list[dict],
+) -> str:
+    rows = [
+        [
+            '<td><a href="../candidates/">Candidate navigation</a></td>',
+            '<td>Current home for state, Senate, House district, and presidential candidate tables.</td>',
+        ],
+        [
+            '<td><a href="../candidates/president/">Presidential</a></td>',
+            '<td>Presidential candidates present in the validated candidate export.</td>',
+        ],
+        [
+            '<td><a href="../candidates/">State and district pages</a></td>',
+            '<td>Use the candidate map to open state pages, then Senate and House district pages.</td>',
+        ],
+    ]
+    body = f"""
+<h1>Races</h1>
+<p>This is a placeholder page for race-first coverage in the validated {metadata["cycle"]} build.</p>
+<p><strong>States and jurisdictions with candidate rows:</strong> {num(len(candidate_state))}<br>
+<strong>Senate race summaries:</strong> {num(len(candidate_senate))}<br>
+<strong>House district summaries:</strong> {num(len(candidate_house_district))}</p>
+{table(["Current route", "Status"], rows)}
+"""
+    top_note = note(
+        metadata,
+        "Race-first pages are not split out yet; the current candidate pages carry the available race context.",
+    )
+    return shell("Races - Tech Money", body, prefix="../", top_note=top_note)
+
+
+def page_federal_lobbying(metadata: dict) -> str:
+    rows = [
+        [
+            "<td>Lobbying registrants and clients</td>",
+            "<td>Not yet included in the public static build.</td>",
+        ],
+        [
+            "<td>Lobbying issue areas</td>",
+            "<td>Placeholder for future LDA-derived summaries.</td>",
+        ],
+        [
+            "<td>Company and political-money joins</td>",
+            "<td>Not yet published as a frontend-ready table.</td>",
+        ],
+    ]
+    body = f"""
+<h1>Federal Lobbying</h1>
+<p>This is a placeholder page for future federal lobbying coverage.</p>
+{table(["Topic", "Status"], rows)}
+"""
+    top_note = note(
+        metadata,
+        "This page is intentionally light until lobbying outputs are ready for public navigation.",
+    )
+    return shell("Federal Lobbying - Tech Money", body, prefix="../", top_note=top_note)
 
 
 def page_candidate_state(
@@ -1134,7 +1232,7 @@ def page_president(metadata: dict, presidential_candidates: list[dict]) -> str:
         metadata,
         f"This page lists presidential candidates from the validated {metadata['cycle']} export.",
     )
-    return shell("Presidential - Tech Money", body, prefix="../", top_note=top_note)
+    return shell("Presidential - Tech Money", body, prefix="../../", top_note=top_note)
 
 
 def page_political_bodies(metadata: dict, committees: list[dict]) -> str:
@@ -1286,7 +1384,7 @@ def page_methodology(metadata: dict) -> str:
 {table(["Column", "Plain English"], column_rows)}
 
 <h2>Why the site looks like this</h2>
-<p>The design goal is plain HTML, minimal CSS, and JavaScript only where charts require it.</p>
+<p>The design goal is plain HTML, minimal CSS, a warm document background, and JavaScript only where charts or table sorting and filtering require it.</p>
 """
     top_note = note(
         metadata,
@@ -1408,8 +1506,10 @@ def collect_cycle_page_dirs(bundle: dict) -> set[str]:
         "committees/",
         "candidates/",
         "candidates/president/",
+        "races/",
         "political-bodies/",
         "donors/",
+        "federal-lobbying/",
         "methodology/",
         "data/",
         "data/companies/",
@@ -1458,6 +1558,7 @@ def page_site_index(cycle_bundles: dict[int, dict]) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tech Money</title>
   <link rel="stylesheet" href="{default_cycle}/static/site.css">
+  <script src="{default_cycle}/static/tables.js" defer></script>
 </head>
 <body>
   <div class="page">
@@ -1539,10 +1640,20 @@ def build_site() -> None:
             ),
         )
         render(
+            "races/index.html",
+            lambda: page_races(
+                metadata,
+                candidate_state,
+                candidate_house_district,
+                candidate_senate,
+            ),
+        )
+        render(
             "political-bodies/index.html",
             lambda: page_political_bodies(metadata, committees),
         )
         render("donors/index.html", lambda: page_donors(metadata, donors))
+        render("federal-lobbying/index.html", lambda: page_federal_lobbying(metadata))
         render("methodology/index.html", lambda: page_methodology(metadata))
         render("data/index.html", lambda: page_data(metadata))
         render(

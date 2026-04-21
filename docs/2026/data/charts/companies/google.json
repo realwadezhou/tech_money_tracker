@@ -173,17 +173,17 @@
   {
     "cycle": 2026,
     "week_end": "2025-04-13",
-    "net_total": 46909,
-    "cumulative_net_total": 891000,
-    "gross_positive": 46909,
-    "n_contributions": 289,
+    "net_total": 46859,
+    "cumulative_net_total": 890950,
+    "gross_positive": 46859,
+    "n_contributions": 288,
     "n_donors": 271
   },
   {
     "cycle": 2026,
     "week_end": "2025-04-20",
     "net_total": 20079,
-    "cumulative_net_total": 911079,
+    "cumulative_net_total": 911029,
     "gross_positive": 21079,
     "n_contributions": 71,
     "n_donors": 54
@@ -192,7 +192,7 @@
     "cycle": 2026,
     "week_end": "2025-04-27",
     "net_total": 49316,
-    "cumulative_net_total": 960395,
+    "cumulative_net_total": 960345,
     "gross_positive": 49316,
     "n_contributions": 308,
     "n_donors": 291
@@ -201,7 +201,7 @@
     "cycle": 2026,
     "week_end": "2025-05-04",
     "net_total": 13582,
-    "cumulative_net_total": 973977,
+    "cumulative_net_total": 973927,
     "gross_positive": 17082,
     "n_contributions": 65,
     "n_donors": 60
@@ -210,7 +210,7 @@
     "cycle": 2026,
     "week_end": "2025-05-11",
     "net_total": 52167,
-    "cumulative_net_total": 1026144,
+    "cumulative_net_total": 1026094,
     "gross_positive": 52192,
     "n_contributions": 338,
     "n_donors": 310
@@ -219,7 +219,7 @@
     "cycle": 2026,
     "week_end": "2025-05-18",
     "net_total": 535632,
-    "cumulative_net_total": 1561776,
+    "cumulative_net_total": 1561726,
     "gross_positive": 535632,
     "n_contributions": 69,
     "n_donors": 46
@@ -228,7 +228,7 @@
     "cycle": 2026,
     "week_end": "2025-05-25",
     "net_total": 55635,
-    "cumulative_net_total": 1617411,
+    "cumulative_net_total": 1617361,
     "gross_positive": 55635,
     "n_contributions": 327,
     "n_donors": 308
@@ -236,17 +236,17 @@
   {
     "cycle": 2026,
     "week_end": "2025-06-01",
-    "net_total": 82997,
-    "cumulative_net_total": 1700408,
-    "gross_positive": 82997,
-    "n_contributions": 112,
+    "net_total": 82647,
+    "cumulative_net_total": 1700008,
+    "gross_positive": 82647,
+    "n_contributions": 111,
     "n_donors": 81
   },
   {
     "cycle": 2026,
     "week_end": "2025-06-08",
     "net_total": 85786,
-    "cumulative_net_total": 1786194,
+    "cumulative_net_total": 1785794,
     "gross_positive": 94286,
     "n_contributions": 343,
     "n_donors": 319
@@ -255,7 +255,7 @@
     "cycle": 2026,
     "week_end": "2025-06-15",
     "net_total": 25616,
-    "cumulative_net_total": 1811810,
+    "cumulative_net_total": 1811410,
     "gross_positive": 25616,
     "n_contributions": 80,
     "n_donors": 67
@@ -264,7 +264,7 @@
     "cycle": 2026,
     "week_end": "2025-06-22",
     "net_total": 50614,
-    "cumulative_net_total": 1862424,
+    "cumulative_net_total": 1862024,
     "gross_positive": 50614,
     "n_contributions": 338,
     "n_donors": 322
@@ -273,7 +273,7 @@
     "cycle": 2026,
     "week_end": "2025-06-29",
     "net_total": 43934,
-    "cumulative_net_total": 1906358,
+    "cumulative_net_total": 1905958,
     "gross_positive": 43934,
     "n_contributions": 84,
     "n_donors": 68
@@ -281,26 +281,26 @@
   {
     "cycle": 2026,
     "week_end": "2025-07-06",
-    "net_total": 97651,
-    "cumulative_net_total": 2004009,
-    "gross_positive": 104651,
-    "n_contributions": 393,
+    "net_total": 97701,
+    "cumulative_net_total": 2003659,
+    "gross_positive": 104701,
+    "n_contributions": 394,
     "n_donors": 359
   },
   {
     "cycle": 2026,
     "week_end": "2025-07-13",
-    "net_total": 26996,
-    "cumulative_net_total": 2031005,
-    "gross_positive": 26996,
-    "n_contributions": 111,
-    "n_donors": 77
+    "net_total": 27096,
+    "cumulative_net_total": 2030755,
+    "gross_positive": 27096,
+    "n_contributions": 113,
+    "n_donors": 78
   },
   {
     "cycle": 2026,
     "week_end": "2025-07-20",
     "net_total": 45618,
-    "cumulative_net_total": 2076623,
+    "cumulative_net_total": 2076373,
     "gross_positive": 46618,
     "n_contributions": 342,
     "n_donors": 313
@@ -309,7 +309,7 @@
     "cycle": 2026,
     "week_end": "2025-07-27",
     "net_total": 7252,
-    "cumulative_net_total": 2083875,
+    "cumulative_net_total": 2083625,
     "gross_positive": 14252,
     "n_contributions": 107,
     "n_donors": 80
@@ -317,26 +317,26 @@
   {
     "cycle": 2026,
     "week_end": "2025-08-03",
-    "net_total": 44971,
-    "cumulative_net_total": 2128846,
-    "gross_positive": 44971,
-    "n_contributions": 354,
+    "net_total": 45021,
+    "cumulative_net_total": 2128646,
+    "gross_positive": 45021,
+    "n_contributions": 355,
     "n_donors": 334
   },
   {
     "cycle": 2026,
     "week_end": "2025-08-10",
-    "net_total": 38520,
-    "cumulative_net_total": 2167366,
-    "gross_positive": 38520,
-    "n_contributions": 101,
-    "n_donors": 80
+    "net_total": 38570,
+    "cumulative_net_total": 2167216,
+    "gross_positive": 38570,
+    "n_contributions": 102,
+    "n_donors": 81
   },
   {
     "cycle": 2026,
     "week_end": "2025-08-17",
     "net_total": 49471,
-    "cumulative_net_total": 2216837,
+    "cumulative_net_total": 2216687,
     "gross_positive": 49471,
     "n_contributions": 341,
     "n_donors": 310
@@ -345,7 +345,7 @@
     "cycle": 2026,
     "week_end": "2025-08-24",
     "net_total": 26167,
-    "cumulative_net_total": 2243004,
+    "cumulative_net_total": 2242854,
     "gross_positive": 34467,
     "n_contributions": 106,
     "n_donors": 89
@@ -354,7 +354,7 @@
     "cycle": 2026,
     "week_end": "2025-08-31",
     "net_total": 106756,
-    "cumulative_net_total": 2349760,
+    "cumulative_net_total": 2349610,
     "gross_positive": 106756,
     "n_contributions": 385,
     "n_donors": 335
@@ -362,17 +362,17 @@
   {
     "cycle": 2026,
     "week_end": "2025-09-07",
-    "net_total": 31091,
-    "cumulative_net_total": 2380851,
-    "gross_positive": 34591,
-    "n_contributions": 131,
-    "n_donors": 96
+    "net_total": 31141,
+    "cumulative_net_total": 2380751,
+    "gross_positive": 34641,
+    "n_contributions": 132,
+    "n_donors": 97
   },
   {
     "cycle": 2026,
     "week_end": "2025-09-14",
     "net_total": 63212,
-    "cumulative_net_total": 2444063,
+    "cumulative_net_total": 2443963,
     "gross_positive": 63212,
     "n_contributions": 358,
     "n_donors": 336
@@ -381,7 +381,7 @@
     "cycle": 2026,
     "week_end": "2025-09-21",
     "net_total": 37556,
-    "cumulative_net_total": 2481619,
+    "cumulative_net_total": 2481519,
     "gross_positive": 37556,
     "n_contributions": 125,
     "n_donors": 98
@@ -390,7 +390,7 @@
     "cycle": 2026,
     "week_end": "2025-09-28",
     "net_total": 84061,
-    "cumulative_net_total": 2565680,
+    "cumulative_net_total": 2565580,
     "gross_positive": 84061,
     "n_contributions": 379,
     "n_donors": 344
@@ -398,26 +398,26 @@
   {
     "cycle": 2026,
     "week_end": "2025-10-05",
-    "net_total": 68806,
-    "cumulative_net_total": 2634486,
-    "gross_positive": 74406,
-    "n_contributions": 212,
-    "n_donors": 165
+    "net_total": 68831,
+    "cumulative_net_total": 2634411,
+    "gross_positive": 74431,
+    "n_contributions": 213,
+    "n_donors": 166
   },
   {
     "cycle": 2026,
     "week_end": "2025-10-12",
-    "net_total": 66173,
-    "cumulative_net_total": 2700659,
-    "gross_positive": 66173,
-    "n_contributions": 517,
-    "n_donors": 487
+    "net_total": 66223,
+    "cumulative_net_total": 2700634,
+    "gross_positive": 66223,
+    "n_contributions": 518,
+    "n_donors": 488
   },
   {
     "cycle": 2026,
     "week_end": "2025-10-19",
     "net_total": 53185,
-    "cumulative_net_total": 2753844,
+    "cumulative_net_total": 2753819,
     "gross_positive": 53185,
     "n_contributions": 125,
     "n_donors": 104
@@ -426,7 +426,7 @@
     "cycle": 2026,
     "week_end": "2025-10-26",
     "net_total": 198608,
-    "cumulative_net_total": 2952452,
+    "cumulative_net_total": 2952427,
     "gross_positive": 198608,
     "n_contributions": 582,
     "n_donors": 526
@@ -435,7 +435,7 @@
     "cycle": 2026,
     "week_end": "2025-11-02",
     "net_total": 78420,
-    "cumulative_net_total": 3030872,
+    "cumulative_net_total": 3030847,
     "gross_positive": 78420,
     "n_contributions": 174,
     "n_donors": 137
@@ -444,7 +444,7 @@
     "cycle": 2026,
     "week_end": "2025-11-09",
     "net_total": 88771,
-    "cumulative_net_total": 3119643,
+    "cumulative_net_total": 3119618,
     "gross_positive": 88771,
     "n_contributions": 561,
     "n_donors": 522
@@ -453,7 +453,7 @@
     "cycle": 2026,
     "week_end": "2025-11-16",
     "net_total": 57332,
-    "cumulative_net_total": 3176975,
+    "cumulative_net_total": 3176950,
     "gross_positive": 57332,
     "n_contributions": 124,
     "n_donors": 99
@@ -462,7 +462,7 @@
     "cycle": 2026,
     "week_end": "2025-11-23",
     "net_total": 80378,
-    "cumulative_net_total": 3257353,
+    "cumulative_net_total": 3257328,
     "gross_positive": 80378,
     "n_contributions": 543,
     "n_donors": 511
@@ -471,7 +471,7 @@
     "cycle": 2026,
     "week_end": "2025-11-30",
     "net_total": 24157,
-    "cumulative_net_total": 3281510,
+    "cumulative_net_total": 3281485,
     "gross_positive": 24157,
     "n_contributions": 155,
     "n_donors": 128
@@ -480,7 +480,7 @@
     "cycle": 2026,
     "week_end": "2025-12-07",
     "net_total": 308817,
-    "cumulative_net_total": 3590327,
+    "cumulative_net_total": 3590302,
     "gross_positive": 309817,
     "n_contributions": 572,
     "n_donors": 538
@@ -489,7 +489,7 @@
     "cycle": 2026,
     "week_end": "2025-12-14",
     "net_total": 57498,
-    "cumulative_net_total": 3647825,
+    "cumulative_net_total": 3647800,
     "gross_positive": 60798,
     "n_contributions": 145,
     "n_donors": 115
@@ -497,35 +497,35 @@
   {
     "cycle": 2026,
     "week_end": "2025-12-21",
-    "net_total": 100864,
-    "cumulative_net_total": 3748689,
-    "gross_positive": 102164,
-    "n_contributions": 581,
-    "n_donors": 547
+    "net_total": 100914,
+    "cumulative_net_total": 3748714,
+    "gross_positive": 102214,
+    "n_contributions": 582,
+    "n_donors": 548
   },
   {
     "cycle": 2026,
     "week_end": "2025-12-28",
-    "net_total": 78490,
-    "cumulative_net_total": 3827179,
-    "gross_positive": 82190,
-    "n_contributions": 152,
-    "n_donors": 118
+    "net_total": 79490,
+    "cumulative_net_total": 3828204,
+    "gross_positive": 83190,
+    "n_contributions": 153,
+    "n_donors": 119
   },
   {
     "cycle": 2026,
     "week_end": "2026-01-04",
-    "net_total": 113732,
-    "cumulative_net_total": 3940911,
-    "gross_positive": 113732,
-    "n_contributions": 273,
-    "n_donors": 247
+    "net_total": 112732,
+    "cumulative_net_total": 3940936,
+    "gross_positive": 112732,
+    "n_contributions": 272,
+    "n_donors": 246
   },
   {
     "cycle": 2026,
     "week_end": "2026-01-11",
     "net_total": 1186,
-    "cumulative_net_total": 3942097,
+    "cumulative_net_total": 3942122,
     "gross_positive": 1186,
     "n_contributions": 9,
     "n_donors": 9
@@ -534,7 +534,7 @@
     "cycle": 2026,
     "week_end": "2026-01-18",
     "net_total": 33970,
-    "cumulative_net_total": 3976067,
+    "cumulative_net_total": 3976092,
     "gross_positive": 33970,
     "n_contributions": 176,
     "n_donors": 174
@@ -542,73 +542,91 @@
   {
     "cycle": 2026,
     "week_end": "2026-01-25",
-    "net_total": 12732,
-    "cumulative_net_total": 3988799,
-    "gross_positive": 12732,
-    "n_contributions": 24,
-    "n_donors": 23
+    "net_total": 14314,
+    "cumulative_net_total": 3990406,
+    "gross_positive": 14314,
+    "n_contributions": 27,
+    "n_donors": 25
   },
   {
     "cycle": 2026,
     "week_end": "2026-02-01",
-    "net_total": 36035,
-    "cumulative_net_total": 4024834,
-    "gross_positive": 36035,
-    "n_contributions": 182,
-    "n_donors": 179
+    "net_total": 37335,
+    "cumulative_net_total": 4027741,
+    "gross_positive": 37335,
+    "n_contributions": 184,
+    "n_donors": 181
   },
   {
     "cycle": 2026,
     "week_end": "2026-02-08",
-    "net_total": 151241,
-    "cumulative_net_total": 4176075,
-    "gross_positive": 151241,
-    "n_contributions": 26,
-    "n_donors": 23
+    "net_total": 195791,
+    "cumulative_net_total": 4223532,
+    "gross_positive": 195791,
+    "n_contributions": 28,
+    "n_donors": 25
   },
   {
     "cycle": 2026,
     "week_end": "2026-02-15",
-    "net_total": 41510,
-    "cumulative_net_total": 4217585,
-    "gross_positive": 41510,
-    "n_contributions": 196,
-    "n_donors": 195
+    "net_total": 43260,
+    "cumulative_net_total": 4266792,
+    "gross_positive": 43260,
+    "n_contributions": 200,
+    "n_donors": 199
   },
   {
     "cycle": 2026,
     "week_end": "2026-02-22",
-    "net_total": 7240,
-    "cumulative_net_total": 4224825,
-    "gross_positive": 7240,
-    "n_contributions": 8,
-    "n_donors": 8
+    "net_total": 9982,
+    "cumulative_net_total": 4276774,
+    "gross_positive": 9982,
+    "n_contributions": 15,
+    "n_donors": 14
   },
   {
     "cycle": 2026,
     "week_end": "2026-03-01",
-    "net_total": 47773,
-    "cumulative_net_total": 4272598,
-    "gross_positive": 47773,
-    "n_contributions": 196,
-    "n_donors": 196
+    "net_total": 55123,
+    "cumulative_net_total": 4331897,
+    "gross_positive": 55123,
+    "n_contributions": 200,
+    "n_donors": 198
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-03-08",
+    "net_total": 1607,
+    "cumulative_net_total": 4333504,
+    "gross_positive": 1607,
+    "n_contributions": 4,
+    "n_donors": 4
   },
   {
     "cycle": 2026,
     "week_end": "2026-03-15",
-    "net_total": 3500,
-    "cumulative_net_total": 4276098,
-    "gross_positive": 3500,
-    "n_contributions": 5,
-    "n_donors": 5
+    "net_total": 4500,
+    "cumulative_net_total": 4338004,
+    "gross_positive": 4500,
+    "n_contributions": 6,
+    "n_donors": 6
   },
   {
     "cycle": 2026,
     "week_end": "2026-03-22",
-    "net_total": 15,
-    "cumulative_net_total": 4276113,
-    "gross_positive": 15,
-    "n_contributions": 1,
-    "n_donors": 1
+    "net_total": 875,
+    "cumulative_net_total": 4338879,
+    "gross_positive": 875,
+    "n_contributions": 4,
+    "n_donors": 4
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-04-05",
+    "net_total": 5500,
+    "cumulative_net_total": 4344379,
+    "gross_positive": 5500,
+    "n_contributions": 2,
+    "n_donors": 2
   }
 ]

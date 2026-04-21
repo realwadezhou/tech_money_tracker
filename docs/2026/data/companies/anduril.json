@@ -3,30 +3,30 @@
   "slug": "anduril",
   "summary": {
     "tech_canonical_name": "anduril",
-    "net_total": 1247579,
+    "net_total": 1305879,
     "n_donors": 58,
-    "n_contributions": 298,
+    "n_contributions": 303,
     "n_committees": 139,
     "sectors": "defense",
-    "amt_dem": 347375,
+    "amt_dem": 391675,
     "amt_mixed": 144994,
-    "amt_rep": 481625,
+    "amt_rep": 495625,
     "amt_unknown": 273585,
     "amt_other": 418579,
-    "classified_recipient_total": 829000,
-    "pct_dem": 41.9028950543,
-    "pct_classified_recipients": 66.448697838,
-    "donor_amt_D": 400888,
+    "classified_recipient_total": 887300,
+    "pct_dem": 44.1423419362,
+    "pct_classified_recipients": 67.9465708538,
+    "donor_amt_D": 445188,
     "donor_amt_Mixed": 1000,
-    "donor_amt_R": 760855,
+    "donor_amt_R": 774855,
     "donor_amt_Unknown": 84836,
     "n_donors_D": 23,
     "n_donors_Mixed": 1,
     "n_donors_R": 9,
     "n_donors_Unknown": 25,
-    "donor_amt_total": 1247579,
+    "donor_amt_total": 1305879,
     "n_donors_total": 58,
-    "pct_dem_by_donor": 34.5074599115,
+    "pct_dem_by_donor": 36.4895335656,
     "slug": "anduril"
   },
   "weekly_series": [
@@ -411,19 +411,37 @@
     {
       "cycle": 2026,
       "week_end": "2026-03-01",
-      "net_total": 49713,
-      "cumulative_net_total": 1247579,
-      "gross_positive": 49713,
-      "n_contributions": 20,
-      "n_donors": 19
+      "net_total": 94013,
+      "cumulative_net_total": 1291879,
+      "gross_positive": 94013,
+      "n_contributions": 21,
+      "n_donors": 20
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-15",
+      "net_total": 7000,
+      "cumulative_net_total": 1298879,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 7000,
+      "cumulative_net_total": 1305879,
+      "gross_positive": 7000,
+      "n_contributions": 2,
+      "n_donors": 1
     }
   ],
   "top_donors": [
     {
       "name": "LUCKEY, PALMER",
-      "net_total": 454285,
-      "gross_positive": 458385,
-      "n_contributions": 72,
+      "net_total": 468285,
+      "gross_positive": 472385,
+      "n_contributions": 76,
       "n_committees": 62,
       "employers": "ANDURIL; ANDURIL INDUSTRIES; ANDURIL INDUSTRIES INC; ANDURIL INDUSTRIES INC.; ANDURIL INDUSTRIES, INC; ANDURIL INDUSTRIES, INC.; ANDURIL INDUSTRIES,INC",
       "states": "CA",
@@ -456,6 +474,18 @@
       "top_committee_amt": 88600
     },
     {
+      "name": "SCHIMPF, BRIAN W.",
+      "net_total": 90400,
+      "gross_positive": 90400,
+      "n_contributions": 3,
+      "n_committees": 2,
+      "employers": "ANDURIL INDUSTRIES; ANDURIL INDUSTRIES, INC.",
+      "states": "VA",
+      "top_committee": "DCCC",
+      "top_committee_type": "Y",
+      "top_committee_amt": 88600
+    },
+    {
       "name": "GRIMM, MATTHEW",
       "net_total": 75000,
       "gross_positive": 76500,
@@ -466,18 +496,6 @@
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
-    },
-    {
-      "name": "SCHIMPF, BRIAN W.",
-      "net_total": 46100,
-      "gross_positive": 46100,
-      "n_contributions": 2,
-      "n_committees": 2,
-      "employers": "ANDURIL INDUSTRIES; ANDURIL INDUSTRIES, INC.",
-      "states": "VA",
-      "top_committee": "DCCC",
-      "top_committee_type": "Y",
-      "top_committee_amt": 44300
     },
     {
       "name": "LUCKEY, PALMER F.",
@@ -1066,8 +1084,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00042366",
-      "cmte_nm": "DSCC",
+      "cmte_id": "C00000935",
+      "cmte_nm": "DCCC",
       "cmte_tp": "Y",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1077,15 +1095,15 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00000935",
-      "cmte_nm": "DCCC",
+      "cmte_id": "C00042366",
+      "cmte_nm": "DSCC",
       "cmte_tp": "Y",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 44300,
+      "net_total": 88600,
       "n_donors": 1,
-      "n_contributions": 1
+      "n_contributions": 2
     },
     {
       "cmte_id": "C00075820",
@@ -1143,17 +1161,6 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00387274",
-      "cmte_nm": "NEW MAJORITY FEDERAL PAC",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 10000,
-      "n_donors": 1,
-      "n_contributions": 2
-    },
-    {
       "cmte_id": "C00574970",
       "cmte_nm": "FAIR SHOT PAC",
       "cmte_tp": "Q",
@@ -1176,6 +1183,17 @@
       "n_contributions": 3
     },
     {
+      "cmte_id": "C00387274",
+      "cmte_nm": "NEW MAJORITY FEDERAL PAC",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 10000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
       "cmte_id": "C00831537",
       "cmte_nm": "DAVE MIN FOR CONGRESS",
       "cmte_tp": "H",
@@ -1187,52 +1205,19 @@
       "n_contributions": 4
     },
     {
-      "cmte_id": "C00680918",
-      "cmte_nm": "CASE FOR CONGRESS",
+      "cmte_id": "C00461822",
+      "cmte_nm": "CHUCK FLEISCHMANN FOR CONGRESS COMMITTEE, INC.",
       "cmte_tp": "H",
-      "party_dr": "D",
+      "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 7000,
-      "n_donors": 2,
+      "n_donors": 1,
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00851790",
-      "cmte_nm": "DEREK TRAN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 2,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00634253",
-      "cmte_nm": "MIKE LEVIN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 2,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00655613",
-      "cmte_nm": "SUSIE LEE FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 2,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00657304",
-      "cmte_nm": "STANTON FOR CONGRESS",
+      "cmte_id": "C00304709",
+      "cmte_nm": "ADAM SMITH FOR CONGRESS COMMITTEE",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1264,8 +1249,85 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00304709",
-      "cmte_nm": "ADAM SMITH FOR CONGRESS COMMITTEE",
+      "cmte_id": "C00842765",
+      "cmte_nm": "CELESTE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00851790",
+      "cmte_nm": "DEREK TRAN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00680918",
+      "cmte_nm": "CASE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00477745",
+      "cmte_nm": "WOMACK FOR CONGRESS COMMITTEE",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00634253",
+      "cmte_nm": "MIKE LEVIN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00331397",
+      "cmte_nm": "SIMPSON FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00655613",
+      "cmte_nm": "SUSIE LEE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00657304",
+      "cmte_nm": "STANTON FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1297,6 +1359,17 @@
       "n_contributions": 1
     },
     {
+      "cmte_id": "C00652719",
+      "cmte_nm": "LAUREN UNDERWOOD FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 4500,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
       "cmte_id": "C00367862",
       "cmte_nm": "MIKE ROGERS FOR CONGRESS",
       "cmte_tp": "H",
@@ -1310,17 +1383,6 @@
     {
       "cmte_id": "C00856955",
       "cmte_nm": "VINDMAN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 4500,
-      "n_donors": 2,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00652719",
-      "cmte_nm": "LAUREN UNDERWOOD FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1374,8 +1436,8 @@
       "n_contributions": 4
     },
     {
-      "cmte_id": "C00703843",
-      "cmte_nm": "BICE FOR CONGRESS",
+      "cmte_id": "C00719294",
+      "cmte_nm": "AUGUST PFLUGER FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
@@ -1383,39 +1445,6 @@
       "net_total": 3500,
       "n_donors": 1,
       "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00720565",
-      "cmte_nm": "LUJAN VICTORY FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00747840",
-      "cmte_nm": "AGUILAR LEADERSHIP FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00742247",
-      "cmte_nm": "SCOTT FRANKLIN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 3
     },
     {
       "cmte_id": "C00730531",
@@ -1440,8 +1469,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00719294",
-      "cmte_nm": "AUGUST PFLUGER FOR CONGRESS",
+      "cmte_id": "C00895722",
+      "cmte_nm": "DESMOND FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
@@ -1451,8 +1480,74 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00895722",
-      "cmte_nm": "DESMOND FOR CONGRESS",
+      "cmte_id": "C00720565",
+      "cmte_nm": "LUJAN VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00828947",
+      "cmte_nm": "MOORE FOR WEST VIRGINIA, INC.",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00747840",
+      "cmte_nm": "AGUILAR LEADERSHIP FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00718221",
+      "cmte_nm": "ASHLEY HINSON VICTORY COMMITTEE",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00860213",
+      "cmte_nm": "DAVE TAYLOR FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00865592",
+      "cmte_nm": "JEFF CRANK FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00706747",
+      "cmte_nm": "FRIENDS OF MCCORMICK",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
@@ -1473,8 +1568,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00750307",
-      "cmte_nm": "FALLON FOR CONGRESS",
+      "cmte_id": "C00703843",
+      "cmte_nm": "BICE FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
@@ -1484,92 +1579,15 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00718221",
-      "cmte_nm": "ASHLEY HINSON VICTORY COMMITTEE",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00706747",
-      "cmte_nm": "FRIENDS OF MCCORMICK",
+      "cmte_id": "C00742247",
+      "cmte_nm": "SCOTT FRANKLIN FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 3500,
       "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00877373",
-      "cmte_nm": "DEREK SCHMIDT FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00842765",
-      "cmte_nm": "CELESTE FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00838060",
-      "cmte_nm": "GABE AMO FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00770438",
-      "cmte_nm": "JAKE ELLZEY FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00853986",
-      "cmte_nm": "ABE FOR ARIZONA",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00831669",
-      "cmte_nm": "KATHERINE CLARK MAJORITY FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
+      "n_contributions": 3
     }
   ]
 }

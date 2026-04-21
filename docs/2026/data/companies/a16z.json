@@ -3,30 +3,30 @@
   "slug": "a16z",
   "summary": {
     "tech_canonical_name": "a16z",
-    "net_total": 33164667,
+    "net_total": 33167167,
     "n_donors": 29,
-    "n_contributions": 305,
-    "n_committees": 107,
+    "n_contributions": 306,
+    "n_committees": 108,
     "sectors": "vc",
     "amt_dem": 406200,
     "amt_mixed": 295000,
-    "amt_rep": 6795700,
+    "amt_rep": 6798200,
     "amt_unknown": 25667767,
     "amt_other": 25962767,
-    "classified_recipient_total": 7201900,
-    "pct_dem": 5.6401782863,
-    "pct_classified_recipients": 21.7155806208,
+    "classified_recipient_total": 7204400,
+    "pct_dem": 5.6382210871,
+    "pct_classified_recipients": 21.7214813674,
     "donor_amt_D": 335799,
     "donor_amt_Mixed": 5000,
-    "donor_amt_R": 32550367,
+    "donor_amt_R": 32552867,
     "donor_amt_Unknown": 273501,
     "n_donors_D": 8,
     "n_donors_Mixed": 1,
     "n_donors_R": 14,
     "n_donors_Unknown": 6,
-    "donor_amt_total": 33164667,
+    "donor_amt_total": 33167167,
     "n_donors_total": 29,
-    "pct_dem_by_donor": 1.02109501,
+    "pct_dem_by_donor": 1.0210173924,
     "slug": "a16z"
   },
   "weekly_series": [
@@ -294,11 +294,11 @@
     {
       "cycle": 2026,
       "week_end": "2026-03-01",
-      "net_total": 209300,
-      "cumulative_net_total": 33164667,
-      "gross_positive": 209300,
-      "n_contributions": 11,
-      "n_donors": 6
+      "net_total": 211800,
+      "cumulative_net_total": 33167167,
+      "gross_positive": 211800,
+      "n_contributions": 12,
+      "n_donors": 7
     }
   ],
   "top_donors": [
@@ -364,10 +364,10 @@
     },
     {
       "name": "ANDREESSEN, MARC",
-      "net_total": 251817,
-      "gross_positive": 255317,
-      "n_contributions": 40,
-      "n_committees": 30,
+      "net_total": 254317,
+      "gross_positive": 257817,
+      "n_contributions": 41,
+      "n_committees": 31,
       "employers": "A16Z; ANDREESSEN HOROWITZ",
       "states": "CA",
       "top_committee": "GROW THE MAJORITY",
@@ -818,17 +818,6 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00857615",
-      "cmte_nm": "TEAM JORDAN",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 24000,
-      "n_donors": 2,
-      "n_contributions": 2
-    },
-    {
       "cmte_id": "C00747840",
       "cmte_nm": "AGUILAR LEADERSHIP FUND",
       "cmte_tp": "N",
@@ -840,26 +829,15 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00553859",
-      "cmte_nm": "DR. BRIAN BABIN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 21000,
-      "n_donors": 3,
-      "n_contributions": 6
-    },
-    {
-      "cmte_id": "C00445023",
-      "cmte_nm": "GUTHRIE FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 21000,
-      "n_donors": 3,
-      "n_contributions": 6
+      "cmte_id": "C00857615",
+      "cmte_nm": "TEAM JORDAN",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 24000,
+      "n_donors": 2,
+      "n_contributions": 2
     },
     {
       "cmte_id": "C00394957",
@@ -873,19 +851,30 @@
       "n_contributions": 9
     },
     {
-      "cmte_id": "C00892752",
-      "cmte_nm": "JUNTOS PAC",
-      "cmte_tp": "Q",
-      "party_dr": "D",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 20000,
+      "cmte_id": "C00445023",
+      "cmte_nm": "GUTHRIE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 21000,
       "n_donors": 3,
-      "n_contributions": 4
+      "n_contributions": 6
     },
     {
-      "cmte_id": "C00771238",
-      "cmte_nm": "DEFEND THE DREAM",
+      "cmte_id": "C00553859",
+      "cmte_nm": "DR. BRIAN BABIN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 21000,
+      "n_donors": 3,
+      "n_contributions": 6
+    },
+    {
+      "cmte_id": "C00892752",
+      "cmte_nm": "JUNTOS PAC",
       "cmte_tp": "Q",
       "party_dr": "D",
       "classification_source": "24k_contributions",
@@ -903,6 +892,17 @@
       "recipient_bucket": "pac",
       "net_total": 20000,
       "n_donors": 4,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00771238",
+      "cmte_nm": "DEFEND THE DREAM",
+      "cmte_tp": "Q",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 20000,
+      "n_donors": 3,
       "n_contributions": 4
     },
     {
@@ -950,11 +950,11 @@
       "n_contributions": 6
     },
     {
-      "cmte_id": "C00687343",
-      "cmte_nm": "ALL HANDS POLITICAL ACTION COMMITTEE",
+      "cmte_id": "C00540054",
+      "cmte_nm": "NEBRASKA SANDHILLS PAC",
       "cmte_tp": "Q",
-      "party_dr": "Unknown",
-      "classification_source": "",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
       "net_total": 15000,
       "n_donors": 3,
@@ -972,81 +972,15 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00863373",
-      "cmte_nm": "BEST AT BRINGING ENTREPRENEURIAL RESULTS NEVER IMAGINED OR ENVISIONED PAC",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00852657",
-      "cmte_nm": "KEEP STARTUPS IN AMERICA",
-      "cmte_tp": "N",
-      "party_dr": "Mixed",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00719971",
-      "cmte_nm": "SENATE EAGLE PAC",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00851998",
-      "cmte_nm": "PENNSYLVANIA HONOR",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00392738",
-      "cmte_nm": "HOOPS PAC",
-      "cmte_tp": "Q",
+      "cmte_id": "C00503185",
+      "cmte_nm": "RO FOR CONGRESS INC",
+      "cmte_tp": "H",
       "party_dr": "D",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
       "net_total": 15000,
       "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00821082",
-      "cmte_nm": "DIGITAL FUTURE PAC",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00572271",
-      "cmte_nm": "BUILDING AMERICA'S REPUBLICAN REPRESENTATION PAC",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
+      "n_contributions": 5
     },
     {
       "cmte_id": "C00876912",
@@ -1060,41 +994,8 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00467431",
-      "cmte_nm": "THE EYE OF THE TIGER POLITICAL ACTION COMMITTEE",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00540054",
-      "cmte_nm": "NEBRASKA SANDHILLS PAC",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00536540",
-      "cmte_nm": "JOBS, FREEDOM, AND SECURITY PAC",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00832469",
-      "cmte_nm": "BUILDING A NATIONAL KNOWLEDGEABLE SECURITY PAC",
+      "cmte_id": "C00719971",
+      "cmte_nm": "SENATE EAGLE PAC",
       "cmte_tp": "Q",
       "party_dr": "R",
       "classification_source": "24k_contributions",
@@ -1115,15 +1016,48 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00503185",
-      "cmte_nm": "RO FOR CONGRESS INC",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
+      "cmte_id": "C00687343",
+      "cmte_nm": "ALL HANDS POLITICAL ACTION COMMITTEE",
+      "cmte_tp": "Q",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
       "net_total": 15000,
       "n_donors": 3,
-      "n_contributions": 5
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00536540",
+      "cmte_nm": "JOBS, FREEDOM, AND SECURITY PAC",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00821082",
+      "cmte_nm": "DIGITAL FUTURE PAC",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00821058",
+      "cmte_nm": "ALABAMA FIRST PAC",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
     },
     {
       "cmte_id": "C00826362",
@@ -1137,8 +1071,74 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00821058",
-      "cmte_nm": "ALABAMA FIRST PAC",
+      "cmte_id": "C00832469",
+      "cmte_nm": "BUILDING A NATIONAL KNOWLEDGEABLE SECURITY PAC",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00572271",
+      "cmte_nm": "BUILDING AMERICA'S REPUBLICAN REPRESENTATION PAC",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00863373",
+      "cmte_nm": "BEST AT BRINGING ENTREPRENEURIAL RESULTS NEVER IMAGINED OR ENVISIONED PAC",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00851998",
+      "cmte_nm": "PENNSYLVANIA HONOR",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00852657",
+      "cmte_nm": "KEEP STARTUPS IN AMERICA",
+      "cmte_tp": "N",
+      "party_dr": "Mixed",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00392738",
+      "cmte_nm": "HOOPS PAC",
+      "cmte_tp": "Q",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 15000,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00467431",
+      "cmte_nm": "THE EYE OF THE TIGER POLITICAL ACTION COMMITTEE",
       "cmte_tp": "Q",
       "party_dr": "R",
       "classification_source": "24k_contributions",
@@ -1159,9 +1159,9 @@
       "n_contributions": 4
     },
     {
-      "cmte_id": "C00904466",
-      "cmte_nm": "RAJA FOR ILLINOIS",
-      "cmte_tp": "S",
+      "cmte_id": "C00721449",
+      "cmte_nm": "JAKE AUCHINCLOSS FOR CONGRESS",
+      "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
@@ -1170,9 +1170,9 @@
       "n_contributions": 4
     },
     {
-      "cmte_id": "C00721449",
-      "cmte_nm": "JAKE AUCHINCLOSS FOR CONGRESS",
-      "cmte_tp": "H",
+      "cmte_id": "C00904466",
+      "cmte_nm": "RAJA FOR ILLINOIS",
+      "cmte_tp": "S",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",

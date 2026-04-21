@@ -3,30 +3,30 @@
   "slug": "stripe",
   "summary": {
     "tech_canonical_name": "stripe",
-    "net_total": 251752,
-    "n_donors": 84,
-    "n_contributions": 207,
+    "net_total": 284061,
+    "n_donors": 87,
+    "n_contributions": 239,
     "n_committees": 57,
     "sectors": "fintech",
     "amt_dem": 33364,
-    "amt_mixed": 106691,
+    "amt_mixed": 139000,
     "amt_rep": 22527,
     "amt_unknown": 89170,
-    "amt_other": 195861,
+    "amt_other": 228170,
     "classified_recipient_total": 55891,
     "pct_dem": 59.6947630209,
-    "pct_classified_recipients": 22.2008166767,
-    "donor_amt_D": 72708,
-    "donor_amt_Mixed": 6927,
-    "donor_amt_R": 92022,
-    "donor_amt_Unknown": 80095,
+    "pct_classified_recipients": 19.6757034581,
+    "donor_amt_D": 77822,
+    "donor_amt_Mixed": 7330,
+    "donor_amt_R": 96060,
+    "donor_amt_Unknown": 102849,
     "n_donors_D": 37,
-    "n_donors_Mixed": 3,
-    "n_donors_R": 4,
-    "n_donors_Unknown": 40,
-    "donor_amt_total": 251752,
-    "n_donors_total": 84,
-    "pct_dem_by_donor": 44.1376798397,
+    "n_donors_Mixed": 4,
+    "n_donors_R": 5,
+    "n_donors_Unknown": 41,
+    "donor_amt_total": 284061,
+    "n_donors_total": 87,
+    "pct_dem_by_donor": 44.7556388815,
     "slug": "stripe"
   },
   "weekly_series": [
@@ -506,6 +506,15 @@
       "gross_positive": 500,
       "n_contributions": 2,
       "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-05",
+      "net_total": 32309,
+      "cumulative_net_total": 284061,
+      "gross_positive": 32309,
+      "n_contributions": 32,
+      "n_donors": 32
     }
   ],
   "top_donors": [
@@ -523,21 +532,21 @@
     },
     {
       "name": "ROBERTI, AMY",
-      "net_total": 21461,
-      "gross_positive": 21461,
-      "n_contributions": 10,
+      "net_total": 22807,
+      "gross_positive": 22807,
+      "n_contributions": 11,
       "n_committees": 8,
       "employers": "STRIPE",
       "states": "CA; DC",
-      "top_committee": "LARSON FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 3500
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 4807
     },
     {
       "name": "WALSH, PATRICIA",
-      "net_total": 15461,
-      "gross_positive": 15461,
-      "n_contributions": 3,
+      "net_total": 16807,
+      "gross_positive": 16807,
+      "n_contributions": 4,
       "n_committees": 2,
       "employers": "STRIPE; STRIPE, INC.",
       "states": "CA; NY",
@@ -558,16 +567,40 @@
       "top_committee_amt": 7000
     },
     {
-      "name": "ABRAMS, ZACHARY",
-      "net_total": 8100,
-      "gross_positive": 8100,
+      "name": "GLASSBERG SANDS, EMILY",
+      "net_total": 10000,
+      "gross_positive": 10000,
       "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 10000
+    },
+    {
+      "name": "ABRAMS, ZACHARY",
+      "net_total": 8800,
+      "gross_positive": 8800,
+      "n_contributions": 3,
       "n_committees": 2,
       "employers": "STRIPE",
       "states": "CA; TX",
       "top_committee": "TEAM HAGERTY VICTORY",
       "top_committee_type": "N",
       "top_committee_amt": 7000
+    },
+    {
+      "name": "CRANE, JONAH",
+      "net_total": 5250,
+      "gross_positive": 5250,
+      "n_contributions": 2,
+      "n_committees": 2,
+      "employers": "STRIPE",
+      "states": "CA; DC",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
     },
     {
       "name": "CARROLL, KATHERINE",
@@ -582,13 +615,13 @@
       "top_committee_amt": 5000
     },
     {
-      "name": "CRANE, JONAH",
-      "net_total": 5250,
-      "gross_positive": 5250,
-      "n_contributions": 2,
-      "n_committees": 2,
+      "name": "VAN STAVERN, PAMELA",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
       "employers": "STRIPE",
-      "states": "CA; DC",
+      "states": "CA",
       "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -618,19 +651,7 @@
       "top_committee_amt": 5000
     },
     {
-      "name": "BERGER, TIMOTHY",
-      "net_total": 5000,
-      "gross_positive": 5000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5000
-    },
-    {
-      "name": "CHEN, SHAWN",
+      "name": "RYAN, FRANCIS",
       "net_total": 5000,
       "gross_positive": 5000,
       "n_contributions": 1,
@@ -654,7 +675,7 @@
       "top_committee_amt": 5000
     },
     {
-      "name": "GLASSBERG SANDS, EMILY",
+      "name": "CHEN, SHAWN",
       "net_total": 5000,
       "gross_positive": 5000,
       "n_contributions": 1,
@@ -666,7 +687,7 @@
       "top_committee_amt": 5000
     },
     {
-      "name": "RYAN, FRANCIS",
+      "name": "BERGER, TIMOTHY",
       "net_total": 5000,
       "gross_positive": 5000,
       "n_contributions": 1,
@@ -676,6 +697,78 @@
       "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
+    },
+    {
+      "name": "BU, YUE",
+      "net_total": 4807,
+      "gross_positive": 4807,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 4807
+    },
+    {
+      "name": "KHAKBAZ, TANYA",
+      "net_total": 4807,
+      "gross_positive": 4807,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 4807
+    },
+    {
+      "name": "FARRINGTON, SCOTT",
+      "net_total": 4807,
+      "gross_positive": 4807,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 4807
+    },
+    {
+      "name": "JOHNSON, CLAIRE",
+      "net_total": 4807,
+      "gross_positive": 4807,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 4807
+    },
+    {
+      "name": "KALINOWSKI, MIRANDA",
+      "net_total": 4615,
+      "gross_positive": 4615,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 4615
+    },
+    {
+      "name": "JOSEBACHVILI, MAIA",
+      "net_total": 4615,
+      "gross_positive": 4615,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 4615
     },
     {
       "name": "TOLMASKY, FRANCISCO",
@@ -690,6 +783,18 @@
       "top_committee_amt": 3500
     },
     {
+      "name": "COETZEE, PAULA",
+      "net_total": 3846,
+      "gross_positive": 3846,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 3846
+    },
+    {
       "name": "FRUCHEY, BRIAN",
       "net_total": 3500,
       "gross_positive": 3500,
@@ -700,78 +805,6 @@
       "top_committee": "DON LEONARD FOR OHIO",
       "top_committee_type": "H",
       "top_committee_amt": 3500
-    },
-    {
-      "name": "KHAKBAZ, TANYA",
-      "net_total": 3461,
-      "gross_positive": 3461,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 3461
-    },
-    {
-      "name": "FARRINGTON, SCOTT",
-      "net_total": 3461,
-      "gross_positive": 3461,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 3461
-    },
-    {
-      "name": "JOHNSON, CLAIRE",
-      "net_total": 3461,
-      "gross_positive": 3461,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 3461
-    },
-    {
-      "name": "BU, YUE",
-      "net_total": 3461,
-      "gross_positive": 3461,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 3461
-    },
-    {
-      "name": "JOSEBACHVILI, MAIA",
-      "net_total": 3269,
-      "gross_positive": 3269,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 3269
-    },
-    {
-      "name": "KALINOWSKI, MIRANDA",
-      "net_total": 3269,
-      "gross_positive": 3269,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 3269
     },
     {
       "name": "AFFAKI, JOHN",
@@ -786,19 +819,19 @@
       "top_committee_amt": 3268
     },
     {
-      "name": "SCHMORAK, ARI",
-      "net_total": 2500,
-      "gross_positive": 2500,
-      "n_contributions": 1,
+      "name": "MCINTOSH, ROBERT",
+      "net_total": 2692,
+      "gross_positive": 2692,
+      "n_contributions": 2,
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
       "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
       "top_committee_type": "Q",
-      "top_committee_amt": 2500
+      "top_committee_amt": 2692
     },
     {
-      "name": "COETZEE, PAULA",
+      "name": "SCHMORAK, ARI",
       "net_total": 2500,
       "gross_positive": 2500,
       "n_contributions": 1,
@@ -846,6 +879,18 @@
       "top_committee_amt": 500
     },
     {
+      "name": "WESTFALL, DANA",
+      "net_total": 1922,
+      "gross_positive": 1922,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1922
+    },
+    {
       "name": "HORN, ALLAN",
       "net_total": 1875,
       "gross_positive": 1875,
@@ -858,7 +903,67 @@
       "top_committee_amt": 1875
     },
     {
-      "name": "MCINTOSH, ROBERT",
+      "name": "LEVIN, MEGHAN",
+      "net_total": 1382,
+      "gross_positive": 1382,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1382
+    },
+    {
+      "name": "KHANNA, AMBREESH",
+      "net_total": 1382,
+      "gross_positive": 1382,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1382
+    },
+    {
+      "name": "MINETTI, CARLOS",
+      "net_total": 1382,
+      "gross_positive": 1382,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1382
+    },
+    {
+      "name": "IRANI, NAZNEEN",
+      "net_total": 1382,
+      "gross_positive": 1382,
+      "n_contributions": 3,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1382
+    },
+    {
+      "name": "BERMAN, SETH",
+      "net_total": 1346,
+      "gross_positive": 1346,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1346
+    },
+    {
+      "name": "MILLER, KEVIN",
       "net_total": 1346,
       "gross_positive": 1346,
       "n_contributions": 1,
@@ -870,39 +975,63 @@
       "top_committee_amt": 1346
     },
     {
-      "name": "WESTFALL, DANA",
-      "net_total": 1249,
-      "gross_positive": 1249,
-      "n_contributions": 1,
+      "name": "YALOWITZ, MATTHEW",
+      "net_total": 1201,
+      "gross_positive": 1201,
+      "n_contributions": 3,
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
       "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
       "top_committee_type": "Q",
-      "top_committee_amt": 1249
+      "top_committee_amt": 1201
     },
     {
-      "name": "WOLF, KENNETH",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 10,
+      "name": "WISE, TERRENCE",
+      "net_total": 1201,
+      "gross_positive": 1201,
+      "n_contributions": 3,
       "n_committees": 1,
       "employers": "STRIPE",
-      "states": "WA",
-      "top_committee": "DEMOCRATIC PARTY OF WISCONSIN FEDERAL",
-      "top_committee_type": "Y",
-      "top_committee_amt": 1000
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1201
     },
     {
-      "name": "MATTIS, CAMERON",
+      "name": "KUHLMANN, AMANDA",
+      "net_total": 1152,
+      "gross_positive": 1152,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1152
+    },
+    {
+      "name": "TULLOSS, JUSTIN",
       "net_total": 1000,
       "gross_positive": 1000,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "STRIPE",
-      "states": "NY",
-      "top_committee": "TAYLOR WETTACH FOR CONGRESS",
+      "states": "CA",
+      "top_committee": "SCOTT WIENER FOR CONGRESS",
       "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "RODGER, LELAND",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "CA",
+      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
+      "top_committee_type": "Q",
       "top_committee_amt": 1000
     },
     {
@@ -930,15 +1059,15 @@
       "top_committee_amt": 500
     },
     {
-      "name": "TULLOSS, JUSTIN",
+      "name": "WOLF, KENNETH",
       "net_total": 1000,
       "gross_positive": 1000,
-      "n_contributions": 1,
+      "n_contributions": 10,
       "n_committees": 1,
       "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "SCOTT WIENER FOR CONGRESS",
-      "top_committee_type": "H",
+      "states": "WA",
+      "top_committee": "DEMOCRATIC PARTY OF WISCONSIN FEDERAL",
+      "top_committee_type": "Y",
       "top_committee_amt": 1000
     },
     {
@@ -951,6 +1080,18 @@
       "states": "CO",
       "top_committee": "TRUST BRIGADE",
       "top_committee_type": "O",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "MATTIS, CAMERON",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "STRIPE",
+      "states": "NY",
+      "top_committee": "TAYLOR WETTACH FOR CONGRESS",
+      "top_committee_type": "H",
       "top_committee_amt": 1000
     },
     {
@@ -976,138 +1117,6 @@
       "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
       "top_committee_type": "Q",
       "top_committee_amt": 979
-    },
-    {
-      "name": "IRANI, NAZNEEN",
-      "net_total": 979,
-      "gross_positive": 979,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 979
-    },
-    {
-      "name": "MINETTI, CARLOS",
-      "net_total": 979,
-      "gross_positive": 979,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 979
-    },
-    {
-      "name": "LEVIN, MEGHAN",
-      "net_total": 979,
-      "gross_positive": 979,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 979
-    },
-    {
-      "name": "KHANNA, AMBREESH",
-      "net_total": 979,
-      "gross_positive": 979,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 979
-    },
-    {
-      "name": "YALOWITZ, MATTHEW",
-      "net_total": 865,
-      "gross_positive": 865,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 865
-    },
-    {
-      "name": "WISE, TERRENCE",
-      "net_total": 865,
-      "gross_positive": 865,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 865
-    },
-    {
-      "name": "GURSKY, CARINE",
-      "net_total": 850,
-      "gross_positive": 850,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 850
-    },
-    {
-      "name": "ALGER, FRED",
-      "net_total": 778,
-      "gross_positive": 778,
-      "n_contributions": 29,
-      "n_committees": 4,
-      "employers": "STRIPE; STRIPE INC",
-      "states": "GA; NC",
-      "top_committee": "FAIR FIGHT",
-      "top_committee_type": "V",
-      "top_committee_amt": 360
-    },
-    {
-      "name": "KUHLMANN, AMANDA",
-      "net_total": 749,
-      "gross_positive": 749,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 749
-    },
-    {
-      "name": "BOUSHIE, ADAM",
-      "net_total": 749,
-      "gross_positive": 749,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 749
-    },
-    {
-      "name": "BERMAN, SETH",
-      "net_total": 673,
-      "gross_positive": 673,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "STRIPE",
-      "states": "CA",
-      "top_committee": "STRIPE INC. POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
-      "top_committee_amt": 673
     }
   ],
   "top_committees": [
@@ -1118,9 +1127,9 @@
       "party_dr": "Mixed",
       "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
-      "net_total": 106691,
-      "n_donors": 48,
-      "n_contributions": 64
+      "net_total": 139000,
+      "n_donors": 51,
+      "n_contributions": 96
     },
     {
       "cmte_id": "C00895219",
@@ -1542,7 +1551,7 @@
     },
     {
       "cmte_id": "C00636944",
-      "cmte_nm": "STATES WIN FEDERAL PAC",
+      "cmte_nm": "STATES WIN",
       "cmte_tp": "V",
       "party_dr": "Unknown",
       "classification_source": "",
