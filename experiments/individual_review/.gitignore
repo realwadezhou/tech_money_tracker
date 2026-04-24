@@ -1,0 +1,5 @@
+candidates.csv
+review_queue.csv
+state/
+*.log
+__pycache__/
