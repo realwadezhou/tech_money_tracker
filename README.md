@@ -143,6 +143,25 @@ If only copy in `frontend/build_site.py` changed (no pipeline or data change):
 python -m frontend.build_site && python scripts/publish_site_to_docs.py
 ```
 
+### Committee registry (super PACs and PACs tracked by name)
+
+`data/reference/committees/registry.csv` lists the AI, crypto and tech
+committees the project tracks by name. To rebuild their full money-in and
+money-out profiles into `exports/committees/` (about three minutes):
+
+```bash
+python -m pipeline.fec.committee_profiles 2024 2026
+```
+
+To look for committees that should be added (writes a review queue):
+
+```bash
+python -m pipeline.tagging.committees
+```
+
+See [data/reference/committees/README.md](data/reference/committees/README.md).
+These profiles are not on the public site yet.
+
 ### Lobbying spending page
 
 Quarterly lobbying spending for each tracked company, at `docs/lobbying/spending/`:
@@ -231,6 +250,7 @@ updating the bulk committee and candidate directories.
 | `data/reference/lobbying/` | AI topic rules, company watchlists, and separate review decisions |
 | `exports/lobbying/` | Generated lobbying spending tables, AI issue index, evidence CSVs, and review worksheets |
 | `data/reference/companies/` | **The hand-tagged employer → tech-company alias lookup.** The heart of the cleaning work. |
+| `data/reference/committees/` | Committee registry (tracked super PACs and PACs) and campaign-conversion records |
 | `data/reference/individuals/` | Donor-name consolidation layer (skeleton; not yet wired into the pipeline). |
 | `pipeline/tagging/` | Generators that produce `candidates.csv` / `review_queue.csv` for the alias layer |
 | `pipeline/` | All ingest, load, classify, and summarize code |

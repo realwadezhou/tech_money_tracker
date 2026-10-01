@@ -24,6 +24,7 @@ data/lda/refresh/
 data/lda/archive/
 exports/site/
 exports/lobbying/
+exports/committees/
 
 .DS_Store
 Thumbs.db

@@ -1,0 +1,103 @@
+cmte_id,name,kind,topic,network,company,include,how_found,notes
+C00916114,LEADING THE FUTURE,issue_vehicle,ai,leading_the_future,,TRUE,top recipient of tracked-employer money,funded by a16z Capital Management and Greg and Anna Brockman; AI first pass 2026-09-30
+C00923417,THINK BIG,issue_vehicle,ai,leading_the_future,,TRUE,transfers,received $20M from Leading the Future in the 2026 cycle; AI first pass 2026-09-30
+C00916692,AMERICAN MISSION,issue_vehicle,ai,leading_the_future,,TRUE,transfers,received $20M from Leading the Future in the 2026 cycle; AI first pass 2026-09-30
+C00930503,PUBLIC FIRST,issue_vehicle,ai,public_first,,TRUE,top recipient of tracked-employer money,funded mainly by Anthropic employees; AI first pass 2026-09-30
+C00928374,JOBS AND DEMOCRACY PAC,issue_vehicle,ai,public_first,,TRUE,transfers,received $4M from Public First; lists Public First as connected organization; AI first pass 2026-09-30
+C00928390,DEFENDING OUR VALUES PAC,issue_vehicle,ai,public_first,,TRUE,transfers,received $0.3M from Public First; connected to Jobs and Democracy PAC; AI first pass 2026-09-30
+C30003586,PUBLIC FIRST ACTION INC.,issue_vehicle,ai,public_first,,TRUE,committee name,"Public First Action Inc.; files only as an independent spender, so its donors are not in FEC contribution files; AI first pass 2026-09-30"
+C00893883,AMERICANS FOR RESPONSIBLE INNOVATION LTD. POLITICAL ACTION COMMITTEE (ARI PAC),issue_vehicle,ai,,,TRUE,committee name,Americans for Responsible Innovation PAC; AI first pass 2026-09-30
+C00904532,THE AI POLICY NETWORK INC AIPN PAC INC,issue_vehicle,ai,,,TRUE,committee name,The AI Policy Network PAC; AI first pass 2026-09-30
+C00905257,CENTER FOR AI SAFETY ACTION FUND PAC (CAIS AF PAC),issue_vehicle,ai,,,TRUE,committee name,Center for AI Safety Action Fund PAC; no receipts in the data yet; AI first pass 2026-09-30
+C00853440,STOP AI,issue_vehicle,ai,,,TRUE,committee name,Stop AI; no receipts in the data yet; AI first pass 2026-09-30
+C00896761,ALIGNMENT AI,issue_vehicle,ai,,,TRUE,committee name,Alignment AI; no receipts in the data yet; AI first pass 2026-09-30
+C00946855,HUMANITY ABOVE ARTIFICIAL INTELLIGENCE PAC,issue_vehicle,ai,,,TRUE,committee name,Humanity Above Artificial Intelligence PAC; no receipts in the data yet; AI first pass 2026-09-30
+C00949016,AI FOR BETTER,issue_vehicle,ai,,,TRUE,committee name,AI for Better; no receipts in the data yet; AI first pass 2026-09-30
+C00957266,AMERICANS FOR AI ACCOUNTABILITY,issue_vehicle,ai,,,TRUE,committee name,Americans for AI Accountability; no receipts in the data yet; AI first pass 2026-09-30
+C00961557,AI ACCOUNTABILITY SUPER PAC,issue_vehicle,ai,,,TRUE,committee name,AI Accountability Super PAC; no receipts in the data yet; AI first pass 2026-09-30
+C00835959,FAIRSHAKE,issue_vehicle,crypto,fairshake,,TRUE,organization gifts,"funded by Ripple, Coinbase, a16z, Jump Crypto; AI first pass 2026-09-30"
+C00836221,DEFEND AMERICAN JOBS,issue_vehicle,crypto,fairshake,,TRUE,transfers,Defend American Jobs; funded by transfers from Fairshake; AI first pass 2026-09-30
+C00848440,PROTECT PROGRESS,issue_vehicle,crypto,fairshake,,TRUE,transfers,Protect Progress; funded by transfers from Fairshake; AI first pass 2026-09-30
+C00911610,DIGITAL FREEDOM FUND,issue_vehicle,crypto,,,TRUE,organization gifts,Digital Freedom Fund; funded by Winklevoss Capital Fund and Payward (Kraken); AI first pass 2026-09-30
+C00948232,JUMP PAC,issue_vehicle,crypto,,,TRUE,organization gifts,Jump PAC; funded by Jump Crypto Holdings; AI first pass 2026-09-30
+C00816892,CRYPTO FREEDOM PAC,issue_vehicle,crypto,,,TRUE,organization gifts,Crypto Freedom PAC; AI first pass 2026-09-30
+C00822775,BITCOIN FREEDOM PAC,issue_vehicle,crypto,,,TRUE,committee name,Bitcoin Freedom PAC; AI first pass 2026-09-30
+C00918722,BLOCKCHAIN LEADERSHIP FUND,issue_vehicle,crypto,,,TRUE,committee name,Blockchain Leadership Fund; AI first pass 2026-09-30
+C00887356,REPUBLICANS FOR A PRO-CRYPTO SENATE MAJORITY,issue_vehicle,crypto,,,TRUE,committee name,Republicans for a Pro-Crypto Senate Majority (joint fundraising committee); AI first pass 2026-09-30
+C00876631,"STAND WITH CRYPTO ALLIANCE, INC. POLITICAL ACTION COMMITTEE",issue_vehicle,crypto,,,TRUE,committee name,Stand With Crypto Alliance PAC; AI first pass 2026-09-30
+C00879510,AMERICA PAC,tech_funded,general,,,TRUE,top recipient of tracked-employer money,America PAC; funded almost entirely by Elon Musk; AI first pass 2026-09-30
+C00918268,LONE STAR RISING PAC,tech_funded,general,,,TRUE,top recipient of tracked-employer money,Lone Star Rising PAC; Reid Hoffman gave more than half; AI first pass 2026-09-30
+C00946830,YOU CAN PUSH BACK,tech_funded,general,,,TRUE,top recipient of tracked-employer money,You Can Push Back; funded by Chris Larsen (Ripple); AI first pass 2026-09-30
+C00898130,FIGHT FOR KENTUCKY,tech_funded,general,,,TRUE,top recipient of tracked-employer money,Fight for Kentucky; Elon Musk gave $10M of about $15M; AI first pass 2026-09-30
+C00850040,"FREE AND FAIR PAC, INC.",tech_funded,general,,,TRUE,top recipient of tracked-employer money,Free and Fair PAC (2024); Reid Hoffman gave most of it; AI first pass 2026-09-30
+C00912444,NEW JERSEY VOICES AND FAMILIES,tech_funded,general,,,TRUE,top recipient of tracked-employer money,New Jersey Voices and Families; Reid Hoffman gave $0.5M of $0.6M; AI first pass 2026-09-30
+C00150367,NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC,trade_association,tech,,,TRUE,committee name,National Venture Capital Association VenturePAC; AI first pass 2026-09-30
+C00375048,CONSUMER TECHNOLOGY ASSOCIATION PAC,trade_association,tech,,,TRUE,committee name,Consumer Technology Association PAC; AI first pass 2026-09-30
+C00328369,TECHNOLOGY NETWORK (TECHNET) FEDERAL PAC,trade_association,tech,,,TRUE,committee name,TechNet Federal PAC; AI first pass 2026-09-30
+C00419036,INFORMATION TECHNOLOGY INDUSTRY COUNCIL POLITICAL ACTION COMMITTEE  (ITI PAC),trade_association,tech,,,TRUE,committee name,Information Technology Industry Council PAC; AI first pass 2026-09-30
+C00411116,SPACE EXPLORATION TECHNOLOGIES CORP. PAC,corporate_pac,tech,,x_twitter_spacex,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00428623,GOOGLE LLC NETPAC,corporate_pac,tech,,google,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00227546,MICROSOFT CORPORATION STAKEHOLDERS VOLUNTARY PAC - MSVPAC,corporate_pac,tech,,microsoft,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00360354,AMAZON.COM SERVICES LLC SEPARATE SEGREGATED FUND (AMAZON PAC),corporate_pac,tech,,amazon,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00369751,"DELL TECHNOLOGIES, INC. POLITICAL ACTION COMMITTEE",corporate_pac,tech,,dell,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00125641,INTEL CORPORATION POLITICAL ACTION COMMITTEE,corporate_pac,tech,,intel,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00362707,"CISCO SYSTEMS, INC. FEDERAL PAC",corporate_pac,tech,,cisco,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00196725,HEWLETT PACKARD ENTERPRISE COMPANY PAC,corporate_pac,tech,,hpe,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00502906,"META PLATFORMS, INC. PAC",corporate_pac,tech,,meta,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00780304,"ROBINHOOD MARKETS, INC. PAC",corporate_pac,tech,,robinhood,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00946111,ANTHROPIC PBC POLITICAL ACTION COMMITTEE (ANTHROPAC),corporate_pac,tech,,anthropic,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00323048,"ORACLE AMERICA, INC. POLITICAL ACTION COMMITTEE (ORACLE PAC)",corporate_pac,tech,,oracle,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00680504,BROADCOM INC. POLITICAL ACTION COMMITTEE (BROADCOM PAC),corporate_pac,tech,,broadcom,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00339085,QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC),corporate_pac,tech,,qualcomm,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00907683,"UBER TECHNOLOGIES, INC. SEPARATE SEGREGATED FUND",corporate_pac,tech,,uber,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00763623,"ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",corporate_pac,tech,,anduril,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00804179,"COINBASE, INC. INNOVATION PAC (COINBASE INNOVATION PAC)",corporate_pac,crypto,,coinbase,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00820167,"DOORDASH, INC. POLITICAL ACTION COMMITTEE (DASHPAC)",corporate_pac,tech,,doordash,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00883116,STRIPE INC. POLITICAL ACTION COMMITTEE,corporate_pac,tech,,stripe,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00443671,"MICRON TECHNOLOGY, INC. EMPLOYEE PAC",corporate_pac,tech,,micron,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00342394,"EBAY INC-COMMITTEE FOR RESPONSIBLE INTERNET COMMERCE, (EBAY PAC)",corporate_pac,tech,,ebay,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00750026,C3.AI INC. PAC,corporate_pac,tech,,c3ai,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00498691,EMPLOYEES OF PALANTIR TECHNOLOGIES INC. PAC,corporate_pac,tech,,palantir,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00511600,"SALESFORCE, INC VOLUNTARY POLITICAL PARTICIPATION NETWORK",corporate_pac,tech,,salesforce,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00367375,SAP AMERICA INC PAC,corporate_pac,tech,,sap,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00404483,"ADVANCED MICRO DEVICES, INC. PAC",corporate_pac,tech,,amd,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00361741,INTUIT INC. 21ST CENTURY LEADERSHIP FUND,corporate_pac,tech,,intuit,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00695304,DROPBOX INC PAC,corporate_pac,tech,,dropbox,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00477299,VMWARE LLC POLITICAL ACTION COMMITTEE (VMWARE PAC),corporate_pac,tech,,vmware,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00743823,"LYFT, INC. FEDERAL EMPLOYEE POLITICAL ACTION COMMITTEE",corporate_pac,tech,,lyft,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00731000,AIRBNB INC. PAC (AIRBNB PAC),corporate_pac,tech,,airbnb,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00518233,NETFLIX INC PAC (FLIXPAC),corporate_pac,tech,,netflix,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00960070,NVIDIA CORPORATION EMPLOYEES FEDERAL POLITICAL ACTION COMMITTEE (NVPAC),corporate_pac,tech,,nvidia,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00581686,"PAYPAL HOLDINGS, INC PAC (PAYPAL PAC)",corporate_pac,tech,,paypal,TRUE,connected organization,company PAC funded by employees; AI first pass 2026-09-30
+C00892471,MAGA INC.,general,general,,,FALSE,employer; organization,"MAGA Inc.: Trump-aligned super PAC; large crypto and a16z gifts. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00825851,MAKE AMERICA GREAT AGAIN INC.,general,general,,,FALSE,employer,"Make America Great Again Inc.: Trump-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00669259,FF PAC,general,general,,,FALSE,employer; organization,"FF PAC (Future Forward): Democratic presidential super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00571703,SLF PAC,general,general,,,FALSE,employer; organization,"Senate Leadership Fund: Republican Senate super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00504530,CLF,general,general,,,FALSE,employer; organization,"Congressional Leadership Fund: Republican House super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00484642,SMP,general,general,,,FALSE,employer; organization,"SMP (Senate Majority PAC): Democratic Senate super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00495028,HMP,general,general,,,FALSE,employer; organization,"HMP (House Majority PAC): Democratic House super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00492140,AB PAC,general,general,,,FALSE,employer,"AB PAC (American Bridge): Democratic super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00804856,REPUBLICAN ACCOUNTABILITY PAC,general,general,,,FALSE,employer,"Republican Accountability PAC: anti-Trump Republican group; Hastings and Hoffman are large donors but under half. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00867036,RIGHT FOR AMERICA,general,general,,,FALSE,employer,"Right for America: Trump-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00811166,THE SENTINEL ACTION FUND,general,general,,,FALSE,organization,"The Sentinel Action Fund: conservative super PAC; receives crypto-company gifts. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00892919,"V-PAC: VICTORS, NOT VICTIMS",general,general,,,FALSE,employer,"V-PAC: candidate-aligned super PAC; Musk gave $5M of about $42M. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00752691,ONE FOR ALL COMMITTEE,general,general,,,FALSE,employer,"One For All Committee: Democratic-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00609388,BLACKPAC,general,general,,,FALSE,employer,"BlackPAC: Democratic-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00888172,MAHA ALLIANCE,general,general,,,FALSE,employer,"MAHA Alliance: Kennedy-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00834077,NEVER BACK DOWN INC.,general,general,,,FALSE,employer,"Never Back Down: DeSantis-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00842344,BEST OF AMERICA PAC,general,general,,,FALSE,employer,"Best of America PAC: Burgum-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00804823,MAINSTREAM DEMOCRATS PAC,general,general,,,FALSE,employer,"Mainstream Democrats PAC: Hoffman-backed but a general Democratic primary vehicle; under the tech_funded threshold. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00679191,ZINC COLLECTIVE PAC,general,general,,,FALSE,employer,"Zinc Collective PAC (formerly DigiDems): Democratic campaign-technology group. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00725820,THE LINCOLN PROJECT,general,general,,,FALSE,employer; organization,"The Lincoln Project: anti-Trump group. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00878801,PRESERVE AMERICA PAC,general,general,,,FALSE,employer,"Preserve America PAC: Trump-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00875856,COMMONWEALTH UNITY FUND,general,general,,,FALSE,organization,"Commonwealth Unity Fund: one Ripple gift. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00924183,COMMONWEALTH PROSPERITY FUND,general,general,,,FALSE,organization,"Commonwealth Prosperity Fund: one Ripple gift. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00899419,"PATRIOTIC FUND, INC.",general,general,,,FALSE,organization,"Patriotic Fund: one gift from Townsend Six Corp., which is not a tracked tech company. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00806893,JANE FONDA CLIMATE PAC,general,general,,,FALSE,organization,"Jane Fonda Climate PAC: climate group; why it shows gifts labelled Coinbase is unclear and unchecked. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00542217,TEXANS FOR A CONSERVATIVE MAJORITY,general,general,,,FALSE,employer; organization,"Texans for a Conservative Majority: Cornyn-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00854059,ONE GIANT LEAP PAC,general,general,,,FALSE,employer; organization; transfers,"One Giant Leap PAC: general Democratic vehicle. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00796045,TRUTH AND COURAGE PAC,general,general,,,FALSE,transfers,"Truth and Courage PAC: Cruz-aligned super PAC. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00685719,DLGA PAC,general,general,,,FALSE,organization,"DLGA PAC: Democratic lieutenant governors group. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00836353,NEWSOM FOR CALIFORNIA GOVERNOR 2022,general,general,,,FALSE,organization,"Newsom committee: state-level committee. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00760124,NATIONAL VICTORY ACTION FUND,general,general,,,FALSE,transfers,"National Victory Action Fund: general Republican vehicle. A recipient of tech or crypto money, not a tech vehicle; AI first pass 2026-09-30"
+C00950881,DEFEND DEVELOPERS PAC,issue_vehicle,crypto,,,TRUE,transfers,Defend Developers PAC; received $0.1M from Jump PAC; AI first pass 2026-09-30

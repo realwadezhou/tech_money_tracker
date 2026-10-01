@@ -268,3 +268,48 @@ Judgement calls on names, following the earlier decisions:
   `tech_giant` tag (Amazon, Apple, Google, IBM, Meta, Microsoft, Netflix) is
   shown as "Large tech companies", not "Big Tech", because it includes IBM
   and Netflix.
+
+---
+
+## 2026-09-30: committee registry
+
+### Decision 12: which committees are tracked by name, and how they are labelled
+
+*Decided by: Wade (build it; include crypto but label it), Claude (entries).*
+
+`data/reference/committees/registry.csv` lists 71 tracked committees and 31
+reviewed-and-rejected ones. Method and columns are in
+`data/reference/committees/README.md`.
+
+- **Four kinds are kept apart** because they mean different things:
+  issue vehicles (Leading the Future, Fairshake, Public First), general
+  vehicles that are mostly tech-funded (America PAC), corporate PACs, and
+  trade association PACs. Adding them together would be meaningless.
+- **Crypto is in, and always labelled** (`topic=crypto`). Fairshake and its
+  affiliates are the largest vehicles in the data.
+- **Networks.** Committees that fund each other share a `network`. Leading the
+  Future gave $20 million each to Think Big and American Mission; Fairshake
+  funds Defend American Jobs and Protect Progress; Public First funds Jobs and
+  Democracy PAC and Defending Our Values PAC. Money moving inside a network is
+  not new money and must not be added to the network's outside receipts.
+- **"Tech-funded" rule.** A general-purpose committee is included as
+  `tech_funded` when tracked-employer donors gave more than half of its
+  receipts and at least $500,000. Mainstream Democrats PAC and Republican
+  Accountability PAC have large tech donors but fall under half, so they are
+  rejected.
+- **Ordinary party and candidate super PACs are rejected, on purpose,** even
+  when they receive tens of millions in tech and crypto money (MAGA Inc., SLF,
+  CLF, SMP, HMP, Future Forward). They are where the money goes. They show up
+  as recipients; they are not tech vehicles.
+- **Corporate PACs** are included only for companies in `companies.csv`.
+  Telecom PACs are out, matching Decision 11.
+- **AI committees with no money yet** (Stop AI, AI Accountability Super PAC
+  and others) are included so that money shows up as soon as it is reported.
+- **No stance labels yet.** The registry says a committee is about AI. It does
+  not say which side it is on. That needs agreed policy questions and sourced
+  statements (see `notes/OPEN_QUESTIONS.md`, step 4).
+- **Not checked:** the affiliations in `notes` for rejected committees come
+  from general knowledge of who they support, not from this data. The
+  unexplained items are the a16z partner memo rows on Fairshake's 2026 filing
+  (no matching firm gift in the same file) and gifts labelled "Coinbase" to a
+  climate PAC.
