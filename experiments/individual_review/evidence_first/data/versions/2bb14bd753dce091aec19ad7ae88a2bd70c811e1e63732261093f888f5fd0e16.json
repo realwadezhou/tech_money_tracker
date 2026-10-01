@@ -1,0 +1,62 @@
+{
+  "person_id": "p0008",
+  "display_name": "Sam Altman",
+  "surname": "ALTMAN",
+  "given_names": [
+    "SAM",
+    "SAMUEL"
+  ],
+  "middle_initials": [
+    "H"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "ALTMAN",
+    "ALTMANN"
+  ],
+  "retrieval_given_names": [
+    "SAM",
+    "SAMUEL"
+  ],
+  "distinctiveness_points": 1,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "OpenAI",
+      "aliases": [
+        "OPENAI",
+        "OPEN AI"
+      ],
+      "source_ids": [
+        "altman-openai"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [],
+  "source_ids": [
+    "altman-openai"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

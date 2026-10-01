@@ -1,0 +1,110 @@
+{
+  "person_id": "p0012",
+  "display_name": "Eric Schmidt",
+  "surname": "SCHMIDT",
+  "given_names": [
+    "ERIC"
+  ],
+  "middle_initials": [
+    "E"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "SCHMIDT",
+    "SCHMITT"
+  ],
+  "retrieval_given_names": [
+    "ERIC",
+    "ERIK"
+  ],
+  "distinctiveness_points": 0,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "Google / Alphabet",
+      "aliases": [
+        "GOOGLE",
+        "ALPHABET"
+      ],
+      "source_ids": [
+        "schmidt-bio",
+        "schmidt-hillspire-sec",
+        "collision-schmidt-glueup"
+      ]
+    },
+    {
+      "label": "Hillspire",
+      "aliases": [
+        "HILLSPIRE"
+      ],
+      "source_ids": [
+        "schmidt-bio",
+        "schmidt-hillspire-sec",
+        "collision-schmidt-glueup"
+      ]
+    },
+    {
+      "label": "Schmidt philanthropy",
+      "aliases": [
+        "SCHMIDT FUTURES",
+        "SCHMIDT FAMILY FOUNDATION"
+      ],
+      "source_ids": [
+        "schmidt-bio",
+        "schmidt-hillspire-sec",
+        "collision-schmidt-glueup"
+      ]
+    },
+    {
+      "label": "Relativity Space",
+      "aliases": [
+        "RELATIVITY SPACE"
+      ],
+      "source_ids": [
+        "schmidt-bio",
+        "schmidt-hillspire-sec",
+        "collision-schmidt-glueup"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [
+    "SOFTWARE ENGINEER",
+    "DEVELOPER PROGRAMS ENGINEER"
+  ],
+  "known_namesakes": [
+    {
+      "employers": [
+        "GLUE UP"
+      ],
+      "role_pattern": "CEO|EXECUTIVE",
+      "source_id": "collision-schmidt-glueup"
+    }
+  ],
+  "source_ids": [
+    "schmidt-bio",
+    "schmidt-hillspire-sec",
+    "collision-schmidt-glueup"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

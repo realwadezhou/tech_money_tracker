@@ -1,0 +1,15 @@
+{
+  "model_version": "evidence-first-1",
+  "model_sha256": "a01ee9c56e67c7e43c8e952328e3d87e642f9ee6250cec0a875f9422f9f6fa94",
+  "raw_records": 6693,
+  "candidate_cases": 475,
+  "accepted_record_links": 3529,
+  "no_cross_person_collisions": true,
+  "source_fields_and_row_order_preserved": true,
+  "production_integration": false,
+  "records_sha256": "3d8e44d5bd18cfc0ee85f41f162ce969d5ec3bd55d97c833609f25b131ed6bf6",
+  "case_snapshot_sha256": "52aaae95af4a6c6b59ed6fac5e00b89b48e384022e1a4a0d9d65cd5cac945c26",
+  "reviewers": [
+    "Codex contextual review, round 1"
+  ]
+}

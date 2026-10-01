@@ -4,6 +4,13 @@ The presentation layer's input. Files here are generated; do not edit by hand.
 
 ## What lives here
 
+- `exports/lobbying/` — calendar-year AI issue index, source/version manifest,
+  evidence CSVs, and review worksheets. Produced by
+  `python -m pipeline.lda.build_explorer 2025 2026`, consumed by
+  `python -m frontend.lobbying` and the full site generator. This export does not
+  use the old lobbying spending summaries or the FEC employer lookup. See
+  [the lobbying data dictionary](../data/reference/lobbying/README.md).
+
 - `exports/site/<cycle>/` — site-ready bundles for one cycle. Produced by
   `python -m pipeline.build_frontend_exports <cycle>`, consumed by
   `python -m frontend.build_site`.

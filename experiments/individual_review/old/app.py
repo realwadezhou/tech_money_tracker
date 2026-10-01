@@ -851,7 +851,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
+    parser.add_argument("--watchlist", action="store_true", help="Review evidence groups for the prominent-person pilot.")
     args = parser.parse_args()
+
+    if args.watchlist:
+        from watchlist import serve
+        serve(args.port)
+        return 0
 
     if not QUEUE_PATH.exists():
         print(f"Missing {QUEUE_PATH.name}. Run build_candidates.py first.")

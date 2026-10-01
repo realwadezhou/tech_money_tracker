@@ -1,0 +1,1515 @@
+{
+  "schema_version": 1,
+  "people": [
+    {
+      "person_id": "p0001",
+      "display_name": "Elon Musk",
+      "surname": "MUSK",
+      "given_names": [
+        "ELON"
+      ],
+      "middle_initials": [
+        "R"
+      ],
+      "middle_names": [
+        "REEVE"
+      ],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "MUSK"
+      ],
+      "retrieval_given_names": [
+        "ELON"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Reeve confirmed by the user; the R initial is compatible.",
+      "affiliations": [
+        {
+          "label": "SpaceX",
+          "aliases": [
+            "SPACEX",
+            "SPACE X",
+            "SPACE EXPLORATION TECHNOLOGIES CORP",
+            "SPACE EXPLORATION TECHNOLOGIES CORPORA",
+            "SPACE EXPLORATION TECHNOLOGIES CORPORATION"
+          ],
+          "source_ids": [
+            "musk-tesla",
+            "user-musk-review"
+          ]
+        },
+        {
+          "label": "Tesla",
+          "aliases": [
+            "TESLA",
+            "TESLA MOTORS",
+            "SPACE X TESLA MOTORS"
+          ],
+          "source_ids": [
+            "musk-tesla",
+            "user-musk-review"
+          ]
+        }
+      ],
+      "plausible_locations": [
+        {
+          "states": [
+            "CA",
+            "TX"
+          ],
+          "cities": {
+            "TX": [
+              "AUSTIN",
+              "LAKEWAY"
+            ]
+          },
+          "source_ids": [
+            "user-musk-review"
+          ],
+          "meaning": "Compatible reported geography, not proof of residence."
+        }
+      ],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER",
+        "ENGINEER"
+      ],
+      "contradictory_roles": [
+        "ATTORNEY",
+        "LAWYER",
+        "PHYSICIAN",
+        "SURGEON",
+        "DENTIST",
+        "DOCTOR"
+      ],
+      "known_namesakes": [],
+      "source_ids": [
+        "musk-tesla",
+        "user-musk-review"
+      ],
+      "profile_note": "Elon / Elon Reeve, California and Texas are compatible. Austin/Lakeway corroborates sparse records. Blank, unemployed and self-employed descriptions are neutral. Practising law or medicine contradicts this profile."
+    },
+    {
+      "person_id": "p0002",
+      "display_name": "Marc Andreessen",
+      "surname": "ANDREESSEN",
+      "given_names": [
+        "MARC",
+        "MARK"
+      ],
+      "middle_initials": [
+        "L"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "ANDREESSEN",
+        "ANDREESEN",
+        "ANDRESSEN",
+        "ANDREESSEEN"
+      ],
+      "retrieval_given_names": [
+        "MARC",
+        "MARK"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "a16z",
+          "aliases": [
+            "A16Z",
+            "ANDREESSEN HOROWITZ",
+            "AH CAPITAL MANAGEMENT",
+            "A16Z CAPITAL MANAGEMENT"
+          ],
+          "source_ids": [
+            "andreessen-a16z",
+            "p0002-ah-legal"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "andreessen-a16z",
+        "p0002-ah-legal"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0003",
+      "display_name": "Ben Horowitz",
+      "surname": "HOROWITZ",
+      "given_names": [
+        "BEN",
+        "BENJAMIN"
+      ],
+      "middle_initials": [
+        "A"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "HOROWITZ"
+      ],
+      "retrieval_given_names": [
+        "BEN",
+        "BENJAMIN"
+      ],
+      "distinctiveness_points": 0,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "a16z",
+          "aliases": [
+            "A16Z",
+            "ANDREESSEN HOROWITZ",
+            "AH CAPITAL MANAGEMENT",
+            "A16Z CAPITAL MANAGEMENT"
+          ],
+          "source_ids": [
+            "horowitz-a16z",
+            "p0003-ah-legal",
+            "ben-a16z-career",
+            "collision-ben-venable"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [
+        "ATTORNEY",
+        "LAWYER"
+      ],
+      "known_namesakes": [
+        {
+          "employers": [
+            "VENABLE"
+          ],
+          "role_pattern": "ATTORNEY",
+          "source_id": "collision-ben-venable"
+        }
+      ],
+      "source_ids": [
+        "horowitz-a16z",
+        "p0003-ah-legal",
+        "ben-a16z-career",
+        "collision-ben-venable"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0004",
+      "display_name": "Reid Hoffman",
+      "surname": "HOFFMAN",
+      "given_names": [
+        "REID"
+      ],
+      "middle_initials": [
+        "G"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "HOFFMAN",
+        "HOFFMANN"
+      ],
+      "retrieval_given_names": [
+        "REID",
+        "REED"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Greylock",
+          "aliases": [
+            "GREYLOCK",
+            "GREYLOCK PARTNER",
+            "GREYLOCK PARTNERS",
+            "GRAYLOCK"
+          ],
+          "source_ids": [
+            "hoffman-greylock"
+          ]
+        },
+        {
+          "label": "LinkedIn",
+          "aliases": [
+            "LINKEDIN"
+          ],
+          "source_ids": [
+            "hoffman-greylock"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "hoffman-greylock"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0005",
+      "display_name": "Dustin Moskovitz",
+      "surname": "MOSKOVITZ",
+      "given_names": [
+        "DUSTIN"
+      ],
+      "middle_initials": [
+        "A"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "MOSKOVITZ",
+        "MOSKOWITZ",
+        "MOSKOVITS"
+      ],
+      "retrieval_given_names": [
+        "DUSTIN"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Asana",
+          "aliases": [
+            "ASANA"
+          ],
+          "source_ids": [
+            "moskovitz-asana"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "moskovitz-asana"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0006",
+      "display_name": "Peter Thiel",
+      "surname": "THIEL",
+      "given_names": [
+        "PETER"
+      ],
+      "middle_initials": [
+        "A"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "THIEL",
+        "THEIL"
+      ],
+      "retrieval_given_names": [
+        "PETER"
+      ],
+      "distinctiveness_points": 0,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Founders Fund",
+          "aliases": [
+            "FOUNDERS FUND"
+          ],
+          "source_ids": [
+            "thiel-founders",
+            "thiel-capital-sec"
+          ]
+        },
+        {
+          "label": "Thiel Capital",
+          "aliases": [
+            "THIEL CAPITAL"
+          ],
+          "source_ids": [
+            "thiel-founders",
+            "thiel-capital-sec"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "thiel-founders",
+        "thiel-capital-sec"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0007",
+      "display_name": "David Sacks",
+      "surname": "SACKS",
+      "given_names": [
+        "DAVID"
+      ],
+      "middle_initials": [
+        "O"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "SACKS",
+        "SACHS"
+      ],
+      "retrieval_given_names": [
+        "DAVID",
+        "DAVE"
+      ],
+      "distinctiveness_points": 0,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Craft Ventures",
+          "aliases": [
+            "CRAFT VENTURES",
+            "CRAFT VENTURES MANAGEMENT"
+          ],
+          "source_ids": [
+            "sacks-craft",
+            "collision-sacks-duane",
+            "collision-sacks-nih",
+            "collision-sachs-pace",
+            "collision-sacks-mediator"
+          ]
+        },
+        {
+          "label": "Yammer",
+          "aliases": [
+            "YAMMER"
+          ],
+          "source_ids": [
+            "sacks-craft",
+            "collision-sacks-duane",
+            "collision-sacks-nih",
+            "collision-sachs-pace",
+            "collision-sacks-mediator"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [
+        {
+          "employers": [
+            "DUANE MORRIS"
+          ],
+          "role_pattern": "ATTORNEY|COUNSEL",
+          "source_id": "collision-sacks-duane"
+        },
+        {
+          "employers": [
+            "NIH"
+          ],
+          "role_pattern": "SCIENTIST",
+          "source_id": "collision-sacks-nih"
+        },
+        {
+          "employers": [
+            "PACE UNIVERSITY"
+          ],
+          "role_pattern": "PROFESSOR",
+          "source_id": "collision-sachs-pace"
+        },
+        {
+          "employers": [
+            "SELF",
+            "SELF EMPLOYED"
+          ],
+          "role_pattern": "DISPUTE RESOLUTION",
+          "source_id": "collision-sacks-mediator"
+        }
+      ],
+      "source_ids": [
+        "sacks-craft",
+        "collision-sacks-duane",
+        "collision-sacks-nih",
+        "collision-sachs-pace",
+        "collision-sacks-mediator"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0008",
+      "display_name": "Sam Altman",
+      "surname": "ALTMAN",
+      "given_names": [
+        "SAM",
+        "SAMUEL"
+      ],
+      "middle_initials": [
+        "H"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "ALTMAN",
+        "ALTMANN"
+      ],
+      "retrieval_given_names": [
+        "SAM",
+        "SAMUEL"
+      ],
+      "distinctiveness_points": 1,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "OpenAI",
+          "aliases": [
+            "OPENAI",
+            "OPEN AI"
+          ],
+          "source_ids": [
+            "altman-openai"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "altman-openai"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0009",
+      "display_name": "Palmer Luckey",
+      "surname": "LUCKEY",
+      "given_names": [
+        "PALMER"
+      ],
+      "middle_initials": [
+        "F"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "LUCKEY",
+        "LUCKY"
+      ],
+      "retrieval_given_names": [
+        "PALMER"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Anduril",
+          "aliases": [
+            "ANDURIL",
+            "ANDURIL INDUSTRIES"
+          ],
+          "source_ids": [
+            "luckey-anduril"
+          ]
+        },
+        {
+          "label": "Oculus",
+          "aliases": [
+            "OCULUS",
+            "OCULUS VR"
+          ],
+          "source_ids": [
+            "luckey-anduril"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "luckey-anduril"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0010",
+      "display_name": "Alex Karp",
+      "surname": "KARP",
+      "given_names": [
+        "ALEX",
+        "ALEXANDER"
+      ],
+      "middle_initials": [
+        "C"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "KARP"
+      ],
+      "retrieval_given_names": [
+        "ALEX",
+        "ALEXANDER"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Palantir",
+          "aliases": [
+            "PALANTIR",
+            "PALANTIR TECHNOLOGIES",
+            "PALANTIR TECHNOLOGY"
+          ],
+          "source_ids": [
+            "karp-palantir"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "karp-palantir"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0011",
+      "display_name": "Joe Lonsdale",
+      "surname": "LONSDALE",
+      "given_names": [
+        "JOE",
+        "JOSEPH"
+      ],
+      "middle_initials": [
+        "T"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "LONSDALE",
+        "LONSDAIL"
+      ],
+      "retrieval_given_names": [
+        "JOE",
+        "JOSEPH"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "8VC",
+          "aliases": [
+            "8VC"
+          ],
+          "source_ids": [
+            "lonsdale-8vc"
+          ]
+        }
+      ],
+      "plausible_locations": [
+        {
+          "states": [
+            "TX"
+          ],
+          "cities": {
+            "TX": [
+              "AUSTIN"
+            ]
+          },
+          "source_ids": [
+            "lonsdale-8vc"
+          ],
+          "meaning": "The 8VC biography places his firm in Austin; work context, not residential proof."
+        }
+      ],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "lonsdale-8vc"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0012",
+      "display_name": "Eric Schmidt",
+      "surname": "SCHMIDT",
+      "given_names": [
+        "ERIC"
+      ],
+      "middle_initials": [
+        "E"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "SCHMIDT",
+        "SCHMITT"
+      ],
+      "retrieval_given_names": [
+        "ERIC",
+        "ERIK"
+      ],
+      "distinctiveness_points": 0,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Google / Alphabet",
+          "aliases": [
+            "GOOGLE",
+            "ALPHABET"
+          ],
+          "source_ids": [
+            "schmidt-bio",
+            "schmidt-hillspire-sec",
+            "collision-schmidt-glueup"
+          ]
+        },
+        {
+          "label": "Hillspire",
+          "aliases": [
+            "HILLSPIRE"
+          ],
+          "source_ids": [
+            "schmidt-bio",
+            "schmidt-hillspire-sec",
+            "collision-schmidt-glueup"
+          ]
+        },
+        {
+          "label": "Schmidt philanthropy",
+          "aliases": [
+            "SCHMIDT FUTURES",
+            "SCHMIDT FAMILY FOUNDATION"
+          ],
+          "source_ids": [
+            "schmidt-bio",
+            "schmidt-hillspire-sec",
+            "collision-schmidt-glueup"
+          ]
+        },
+        {
+          "label": "Relativity Space",
+          "aliases": [
+            "RELATIVITY SPACE"
+          ],
+          "source_ids": [
+            "schmidt-bio",
+            "schmidt-hillspire-sec",
+            "collision-schmidt-glueup"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [
+        "SOFTWARE ENGINEER",
+        "DEVELOPER PROGRAMS ENGINEER"
+      ],
+      "known_namesakes": [
+        {
+          "employers": [
+            "GLUE UP"
+          ],
+          "role_pattern": "CEO|EXECUTIVE",
+          "source_id": "collision-schmidt-glueup"
+        }
+      ],
+      "source_ids": [
+        "schmidt-bio",
+        "schmidt-hillspire-sec",
+        "collision-schmidt-glueup"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0013",
+      "display_name": "Sean Parker",
+      "surname": "PARKER",
+      "given_names": [
+        "SEAN"
+      ],
+      "middle_initials": [
+        "N"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "PARKER"
+      ],
+      "retrieval_given_names": [
+        "SEAN",
+        "SHAWN",
+        "SHAUN"
+      ],
+      "distinctiveness_points": 0,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Parker Foundation",
+          "aliases": [
+            "PARKER FOUNDATION",
+            "THE PARKER FOUNDATION",
+            "SEAN PARKER FOUNDATION",
+            "SEAN N PARKER FOUNDATION"
+          ],
+          "source_ids": [
+            "parker-foundation",
+            "parker-pici"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "parker-foundation",
+        "parker-pici"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0014",
+      "display_name": "Vinod Khosla",
+      "surname": "KHOSLA",
+      "given_names": [
+        "VINOD"
+      ],
+      "middle_initials": [],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "KHOSLA",
+        "KHOSALA"
+      ],
+      "retrieval_given_names": [
+        "VINOD"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Khosla Ventures",
+          "aliases": [
+            "KHOSLA VENTURES"
+          ],
+          "source_ids": [
+            "khosla-kv"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "khosla-kv"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0015",
+      "display_name": "Ron Conway",
+      "surname": "CONWAY",
+      "given_names": [
+        "RON",
+        "RONALD"
+      ],
+      "middle_initials": [
+        "C"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "CONWAY"
+      ],
+      "retrieval_given_names": [
+        "RON",
+        "RONALD"
+      ],
+      "distinctiveness_points": 0,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "SV Angel",
+          "aliases": [
+            "SV ANGEL",
+            "SVANGEL",
+            "SV ANGEL MANAGEMENT"
+          ],
+          "source_ids": [
+            "conway-svangel"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "conway-svangel"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0016",
+      "display_name": "Steve Ballmer",
+      "surname": "BALLMER",
+      "given_names": [
+        "STEVE",
+        "STEVEN"
+      ],
+      "middle_initials": [
+        "A"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "BALLMER",
+        "BALMER"
+      ],
+      "retrieval_given_names": [
+        "STEVE",
+        "STEVEN",
+        "STEPHEN"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Microsoft (historical)",
+          "aliases": [
+            "MICROSOFT"
+          ],
+          "source_ids": [
+            "ballmer-group",
+            "p0016-microsoft-2012",
+            "ballmer-board-exit"
+          ]
+        },
+        {
+          "label": "Ballmer Group",
+          "aliases": [
+            "BALLMER GROUP"
+          ],
+          "source_ids": [
+            "ballmer-group",
+            "p0016-microsoft-2012",
+            "ballmer-board-exit"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "ballmer-group",
+        "p0016-microsoft-2012",
+        "ballmer-board-exit"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0017",
+      "display_name": "Bill Gates",
+      "surname": "GATES",
+      "given_names": [
+        "BILL",
+        "WILLIAM"
+      ],
+      "middle_initials": [
+        "H"
+      ],
+      "middle_names": [],
+      "suffixes": [
+        "III"
+      ],
+      "retrieval_surnames": [
+        "GATES"
+      ],
+      "retrieval_given_names": [
+        "BILL",
+        "WILLIAM"
+      ],
+      "distinctiveness_points": 0,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Microsoft (historical)",
+          "aliases": [
+            "MICROSOFT"
+          ],
+          "source_ids": [
+            "gates-foundation",
+            "p0017-microsoft-2012"
+          ]
+        },
+        {
+          "label": "Gates Foundation",
+          "aliases": [
+            "GATES FOUNDATION",
+            "BILL MELINDA GATES FOUNDATION",
+            "BILL AND MELINDA GATES FOUNDATION",
+            "BILL MELINDA GATES FOUNDATIO"
+          ],
+          "source_ids": [
+            "gates-foundation",
+            "p0017-microsoft-2012"
+          ]
+        },
+        {
+          "label": "Breakthrough Energy",
+          "aliases": [
+            "BREAKTHROUGH ENERGY"
+          ],
+          "source_ids": [
+            "gates-foundation",
+            "p0017-microsoft-2012"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "gates-foundation",
+        "p0017-microsoft-2012"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0018",
+      "display_name": "Michael Dell",
+      "surname": "DELL",
+      "given_names": [
+        "MICHAEL"
+      ],
+      "middle_initials": [
+        "S"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "DELL"
+      ],
+      "retrieval_given_names": [
+        "MICHAEL",
+        "MIKE"
+      ],
+      "distinctiveness_points": 0,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Dell",
+          "aliases": [
+            "DELL",
+            "DELL TECHNOLOGIES"
+          ],
+          "source_ids": [
+            "dell-bio",
+            "collision-dell-cpa"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [
+        {
+          "employers": [
+            "COMPLETE BUSINESS SERVICES"
+          ],
+          "role_pattern": "CPA",
+          "source_id": "collision-dell-cpa"
+        }
+      ],
+      "source_ids": [
+        "dell-bio",
+        "collision-dell-cpa"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0019",
+      "display_name": "Larry Ellison",
+      "surname": "ELLISON",
+      "given_names": [
+        "LARRY",
+        "LAWRENCE"
+      ],
+      "middle_initials": [
+        "J"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "ELLISON",
+        "ELISON"
+      ],
+      "retrieval_given_names": [
+        "LARRY",
+        "LAWRENCE"
+      ],
+      "distinctiveness_points": 0,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Oracle",
+          "aliases": [
+            "ORACLE",
+            "ORACLE CORPORATION",
+            "ORACLE AMERICA"
+          ],
+          "source_ids": [
+            "ellison-oracle",
+            "ellison-oracle-2014"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "ellison-oracle",
+        "ellison-oracle-2014"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    },
+    {
+      "person_id": "p0020",
+      "display_name": "Sheryl Sandberg",
+      "surname": "SANDBERG",
+      "given_names": [
+        "SHERYL"
+      ],
+      "middle_initials": [
+        "K"
+      ],
+      "middle_names": [],
+      "suffixes": [],
+      "retrieval_surnames": [
+        "SANDBERG",
+        "SANDBURG"
+      ],
+      "retrieval_given_names": [
+        "SHERYL",
+        "CHERYL"
+      ],
+      "distinctiveness_points": 2,
+      "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+      "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+      "affiliations": [
+        {
+          "label": "Meta / Facebook (historical)",
+          "aliases": [
+            "META",
+            "FACEBOOK",
+            "META PLATFORMS"
+          ],
+          "source_ids": [
+            "sandberg-leanin",
+            "sandberg-leanin-2013",
+            "sandberg-foundation",
+            "sandberg-meta-exit"
+          ]
+        },
+        {
+          "label": "Lean In",
+          "aliases": [
+            "LEAN IN",
+            "LEANIN"
+          ],
+          "source_ids": [
+            "sandberg-leanin",
+            "sandberg-leanin-2013",
+            "sandberg-foundation",
+            "sandberg-meta-exit"
+          ]
+        }
+      ],
+      "plausible_locations": [],
+      "compatible_roles": [
+        "CEO",
+        "CHIEF",
+        "FOUNDER",
+        "OWNER",
+        "PARTNER",
+        "INVESTOR",
+        "VENTURE",
+        "EXECUTIVE",
+        "CHAIR",
+        "PHILANTHROP",
+        "ENTREPRENEUR",
+        "MANAGING",
+        "PRINCIPAL",
+        "PRESIDENT",
+        "ADVISOR",
+        "ADVISER"
+      ],
+      "contradictory_roles": [],
+      "known_namesakes": [],
+      "source_ids": [
+        "sandberg-leanin",
+        "sandberg-leanin-2013",
+        "sandberg-foundation",
+        "sandberg-meta-exit"
+      ],
+      "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+    }
+  ]
+}

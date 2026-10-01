@@ -1,0 +1,103 @@
+{
+  "person_id": "p0001",
+  "display_name": "Elon Musk",
+  "surname": "MUSK",
+  "given_names": [
+    "ELON"
+  ],
+  "middle_initials": [
+    "R"
+  ],
+  "middle_names": [
+    "REEVE"
+  ],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "MUSK"
+  ],
+  "retrieval_given_names": [
+    "ELON"
+  ],
+  "distinctiveness_points": 2,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Reeve confirmed by the user; the R initial is compatible.",
+  "affiliations": [
+    {
+      "label": "SpaceX",
+      "aliases": [
+        "SPACEX",
+        "SPACE X",
+        "SPACE EXPLORATION TECHNOLOGIES CORP",
+        "SPACE EXPLORATION TECHNOLOGIES CORPORA",
+        "SPACE EXPLORATION TECHNOLOGIES CORPORATION"
+      ],
+      "source_ids": [
+        "musk-tesla",
+        "user-musk-review"
+      ]
+    },
+    {
+      "label": "Tesla",
+      "aliases": [
+        "TESLA",
+        "TESLA MOTORS",
+        "SPACE X TESLA MOTORS"
+      ],
+      "source_ids": [
+        "musk-tesla",
+        "user-musk-review"
+      ]
+    }
+  ],
+  "plausible_locations": [
+    {
+      "states": [
+        "CA",
+        "TX"
+      ],
+      "cities": {
+        "TX": [
+          "AUSTIN",
+          "LAKEWAY"
+        ]
+      },
+      "source_ids": [
+        "user-musk-review"
+      ],
+      "meaning": "Compatible reported geography, not proof of residence."
+    }
+  ],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER",
+    "ENGINEER"
+  ],
+  "contradictory_roles": [
+    "ATTORNEY",
+    "LAWYER",
+    "PHYSICIAN",
+    "SURGEON",
+    "DENTIST",
+    "DOCTOR"
+  ],
+  "known_namesakes": [],
+  "source_ids": [
+    "musk-tesla",
+    "user-musk-review"
+  ],
+  "profile_note": "Elon / Elon Reeve, California and Texas are compatible. Austin/Lakeway corroborates sparse records. Blank, unemployed and self-employed descriptions are neutral. Practising law or medicine contradicts this profile."
+}

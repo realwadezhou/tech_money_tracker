@@ -1,0 +1,70 @@
+{
+  "person_id": "p0009",
+  "display_name": "Palmer Luckey",
+  "surname": "LUCKEY",
+  "given_names": [
+    "PALMER"
+  ],
+  "middle_initials": [
+    "F"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "LUCKEY",
+    "LUCKY"
+  ],
+  "retrieval_given_names": [
+    "PALMER"
+  ],
+  "distinctiveness_points": 2,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "Anduril",
+      "aliases": [
+        "ANDURIL",
+        "ANDURIL INDUSTRIES"
+      ],
+      "source_ids": [
+        "luckey-anduril"
+      ]
+    },
+    {
+      "label": "Oculus",
+      "aliases": [
+        "OCULUS",
+        "OCULUS VR"
+      ],
+      "source_ids": [
+        "luckey-anduril"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [],
+  "source_ids": [
+    "luckey-anduril"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

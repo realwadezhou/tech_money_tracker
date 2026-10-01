@@ -1,0 +1,76 @@
+{
+  "person_id": "p0011",
+  "display_name": "Joe Lonsdale",
+  "surname": "LONSDALE",
+  "given_names": [
+    "JOE",
+    "JOSEPH"
+  ],
+  "middle_initials": [
+    "T"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "LONSDALE",
+    "LONSDAIL"
+  ],
+  "retrieval_given_names": [
+    "JOE",
+    "JOSEPH"
+  ],
+  "distinctiveness_points": 2,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "8VC",
+      "aliases": [
+        "8VC"
+      ],
+      "source_ids": [
+        "lonsdale-8vc"
+      ]
+    }
+  ],
+  "plausible_locations": [
+    {
+      "states": [
+        "TX"
+      ],
+      "cities": {
+        "TX": [
+          "AUSTIN"
+        ]
+      },
+      "source_ids": [
+        "lonsdale-8vc"
+      ],
+      "meaning": "The 8VC biography places his firm in Austin; work context, not residential proof."
+    }
+  ],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [],
+  "source_ids": [
+    "lonsdale-8vc"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

@@ -2,7 +2,7 @@
 
 Based on bottom-up exploration of 2024 FEC bulk data (`itcont.txt`, `itoth.txt`, `itpas2.txt`). All observations are empirical — derived from inspecting actual rows, matching refunds to originals, and checking against public benchmarks.
 
-Last updated after: file overlap analysis, donor validation (Musk, Andreessen, Hoffman, Shanahan, Griffin, Mellon), deep exploration of all itcont transaction types, and comprehensive sweep of ALL remaining transaction types across all three files (2026-03-26).
+Historical empirical snapshot: 2026-03-26. Codebook corrections: 2026-09-18. The original empirical interpretation of special-account refunds was wrong; the corrections below follow the [official FEC transaction codebook](https://www.fec.gov/campaign-finance-data/transaction-type-code-descriptions/). Empirical matches and benchmark comparisons do not establish transaction semantics.
 
 ## How the files relate to each other
 
@@ -58,7 +58,10 @@ itoth has additional 24K rows not in itpas2 (PAC→PAC transfers that don't invo
 - **15E and 24T are two records of the same dollar.** For donor totals, count 15E. For conduit-outflow analysis, count 24T. Never sum both.
 - Negative amounts exist (143K rows, -$21.5M) — reversed or corrected earmarked contributions.
 - **Memo X rows** (17,244 rows, $5.3M). Tiny as a percentage (0.2%). Includes "NOTE: ABOVE CONTRIBUTION EARMARKED THROUGH THIS ORGANIZATION" (3,047), "DEBT RETIREMENT" (1,765), redesignations. Not a significant risk either way.
-- **Handling: include in donor totals. Do NOT also add 24T for the same money.**
+- **Current handling: include non-memo 15E in donor totals; exclude memo-X 15E pending cross-filer reconciliation.** Do not add 24T for the same money. The historical blanket recommendation to include every 15E memo is withdrawn.
+- **2026-09-18 audit:** the historical 2024 snapshot contains 17,244 memo-X 15E rows totaling $5,284,537. These mix conduit summary rows (including 4,103 PAC rows totaling $1,905,610), donor-level redesignations, and in-kind earmarks. The 80 employer-matched rows total $53,158; this is an exposure estimate, not an estimate of missing contributions.
+- For example, DigiDems (`C00679191`) reports James Kevin Scott's $2,400 MN-02 earmark as a type-15 receipt; Angie Craig (`C00575209`) reports $2,400 as memo-X 15E in-kind technology services. Reid Hoffman has a $10,000 December 21, 2023 type-15E receipt at DigiDems earmarked for Pennsylvania Democratic Party (`C00167130`) and a matching memo-X receipt at the destination under a different name variant. Adding every individual memo would count these flows again. Conversely, redesignations may require individual memo rows to preserve a donor's corrected total.
+- The [FEC individual-file guidance](https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/) generally advises including bulk memo records. Correct reconciliation here requires donor identity and transaction-level links across filers; neither a blanket memo exclusion nor entity-type-only inclusion establishes exact attribution.
 
 ### Type 24T — Earmarked contribution forwarded by conduit
 - **Confidence: HIGH**
@@ -111,7 +114,7 @@ itoth has additional 24K rows not in itpas2 (PAC→PAC transfers that don't invo
 - Convention (30): $5.8M. Headquarters (31): $40.1M. Recount/Legal (32): $43.5M.
 - **Recipients are exclusively party committees** (cmte_tp = Y on 100% of rows). Type 31 goes to DCCC ($13M), RNC ($12.8M), DSCC ($6.1M), NRSC ($3.3M), DNC ($2.7M), NRCC ($2.2M).
 - Top donors: Lutnick ($123.9K convention), Singer ($123.9K convention), Roberts/Linnea ($123.9K each of 30/31/32 — memo X JFC attribution), Stryker ($123.9K each of 31/32), Marcus ($219.1K recount).
-- E suffix = earmarked variant (31E: $2.7M, 32E: $3.5M) — routed through WinRed/ActBlue. T suffix = earmarked via treasury (tiny: 31T $1.7M, 32T $1.3M, 30T $448K).
+- E suffix = earmarked variant (31E: $2.7M, 32E: $3.5M) — routed through WinRed/ActBlue. T suffix = receipt from a Native American tribe (31T $1.7M, 32T $1.3M, 30T $448K), not a conduit transfer.
 - Almost no overlap with type 42 in itoth (1 shared donor: Chain Bridge Bank, trivial amount).
 - These are post-2014 party building, headquarters, and legal account contributions. They represent real money but go exclusively to party infrastructure, not candidates.
 - **Handling: include for completeness in total donor calculations. Separate terminal node in Sankey (party infrastructure).**
@@ -134,17 +137,12 @@ itoth has additional 24K rows not in itpas2 (PAC→PAC transfers that don't invo
 - Examples: Lower Elwha Klallam Tribe refunded -$3,300 from People For Derek Kilmer. San Manuel Band refunded -$3,300 from Friends of Maria.
 - **Handling: INCLUDE. Subtract from totals, same logic as 22Y. If type 11 contributions are counted, type 21Y refunds must be counted to avoid overcounting tribal money.**
 
-### Type 42Y — Convention account contribution (individual)
-- **Confidence: HIGH** (upgraded — verified against Palmer Luckey's full giving record)
-- $52K across 19 rows. All positive. All entity_tp = IND. All go to party committees (NRSC: 19/19).
-- **NOT a refund despite the Y suffix.** The Y here does NOT mean the same thing as in 22Y. Verified: Palmer Luckey gave $41,300 as type 42Y to NRSC AND separately gave $41,300 as type 32 (legal proceedings) and $41,300 as type 15 (operating) — three separate contributions to three separate party accounts. Type 42Y is functionally identical to type 30 (convention account contribution).
-- **Handling: INCLUDE in donor totals. This is real money going to party convention accounts. Same treatment as type 30.**
-
-### Type 41Y — Headquarters account contribution (individual)
-- **Confidence: HIGH** (upgraded — same logic as 42Y)
-- $1,305 across 6 rows. All positive. All entity_tp = IND. All go to party committees (NRCC: 5, DSCC: 1).
-- Same pattern as 42Y — this is a headquarters account contribution, functionally identical to type 31.
-- **Handling: INCLUDE in donor totals. Same treatment as type 31.**
+### Types 40Y/41Y/42Y and 40T/41T/42T — Special-account refunds
+- **Corrected 2026-09-18 against the official FEC codebook.** 40 = convention, 41 = headquarters, 42 = recount. Y is a refund to an individual, partnership, or limited liability company; T is a refund to a Native American tribe.
+- The earlier claim that 41Y and 42Y were additional contributions was incorrect. The Palmer Luckey $41,300 42Y record is a recount-account refund, not an additional convention-account contribution. Its transaction ID is a Schedule B refund line (`SB29.I394245`).
+- **Handling: SUBTRACT every special-account refund amount.** As with 22Y/21Y, positive amounts reduce net receipts and negative amounts reverse prior refunds. Include all six codes even if some are absent from a particular snapshot.
+- Raw refunds frequently omit employer information. Exact-employer matching cannot safely assign these records to a company; the overall committee denominator includes the refund, while the tech numerator can remain unmatched. Matching names alone would introduce identity collisions.
+- **Refreshed-source impact checked 2026-09-18:** 2024 has six 41Y rows totaling $1,305 and 19 42Y rows totaling $52,189; correcting their signs reduces overall net receipts by $106,988. 2026 has five 42Y rows totaling $315, reducing net receipts by $630. None of these rows matches a tracked employer, so tech numerators are unchanged. The other four special-account refund codes are absent in both snapshots but covered by regression tests.
 
 ---
 
@@ -353,13 +351,13 @@ Total memo X in itcont: 199,406 rows, $280M.
 |------|----------|-------------|----------|---------------|
 | 10 | $180M | $6.2B | 2.9% | Mix of real contributions, refunds, partnership attributions. **Include.** |
 | 15 | $51M | $3.6B | 1.4% | Dominated by redesignations/reattributions. Nets close to zero within donors. **Include but low risk either way.** |
-| 15E | $5.3M | $2.9B | 0.2% | Negligible. **Include.** |
+| 15E | $5.3M | $2.9B | 0.2% | Mixed conduit summaries and donor memos. **Conservatively excluded pending reconciliation; see audit above.** |
 | 15C | $19M | $125M | 15.2% | Includes real loan-to-contribution conversions. **Include.** |
 | 24I | $7.7M | $19.2M | 39.9% | Routing metadata. **Already excluded (24I = routing).** |
 | 22Y | $520K | $170M | 0.3% | Negligible. **Already handling 22Y as refunds.** |
 | Others | <$7M each | varies | varies | Small. |
 
-**General memo X rule:** for itcont donor totals, include memo X on all types. The main risk (type 15 redesignations) nets out, and excluding memo X on type 10 would undercount outside spending by ~$180M.
+**Current memo-X rule:** retain memo items except type 15E. The type-15E exclusion is an unresolved attribution limitation, not proof that all such records are noncontributions. Type-15 redesignations and type-10 partnership attributions also require care when interpreting entity totals.
 
 ---
 
@@ -390,7 +388,7 @@ Total memo X in itcont: 199,406 rows, $280M.
 
 ## Confidence summary
 
-**Every transaction type across all three files has been investigated, classified, and assigned an explicit handling decision.** As of 2026-03-26, all 64+ types are at HIGH confidence. Zero MEDIUM. Zero LOW.
+The following inventory records the original 2026-03-26 exploration. It is not a correctness guarantee: the 2026-09-18 codebook check corrected special-account receipt/refund definitions above. The FEC codebook is authoritative when it conflicts with these empirical notes.
 
 ### HIGH confidence — ALL types (64+)
 **itcont (21 types):** 10, 15, 15E, 24T, 22Y, 15C, 24I, 11, 30, 31, 32, 31E, 32E, 30E, 31T, 32T, 30T, 20Y, 21Y, 42Y, 41Y

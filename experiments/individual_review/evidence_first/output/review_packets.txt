@@ -1,0 +1,599 @@
+Fields: ref | score/baseline | support/observed + missing/conflicts | records | names | places | employer/occupation | flags; conflicts | postal context.
+Scores are not probabilities. A case groups equivalent review questions; counts are not independent evidence.
+Postal context is observed co-occurrence with strong affiliation cases, not a residence or identity assertion.
+Refs map to stable case IDs in review_packets.json. Full cited profiles: data/profiles.json and data/sources.json.
+
+p0001 Elon Musk
+Elon / Elon Reeve, California and Texas are compatible. Austin/Lakeway corroborates sparse records. Blank, unemployed and self-employed descriptions are neutral. Practising law or medicine contradicts this profile.
+Names: ELON; middle: REEVE; initials: R; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: SpaceX, Tesla
+Explicit contrary occupations: ATTORNEY, LAWYER, PHYSICIAN, SURGEON, DENTIST, DOCTOR
+p0001:1 | 13/accept | 3/3 +0missing/0conflicts | 129 | MUSK, ELON | AUSTIN, TX;LAKEWAY, TX | SPACE EXPLORATION TECHNOLOGIES CORP/CEO;SPACE EXPLORATION TECHNOLOGIES CORP./CEO;SPACE EXPLORATION TECHNOLOGIES CORPORA/CEO;SPACEX/CEO;SPACEX/ENGINEER;SPACEX/OWNER |  | 
+p0001:2 | 12/accept | 3/3 +0missing/0conflicts | 1 | MUSK, ELON | DALLAS, TX | SPACE EXPLORATION TECHNOLOGIES CORP./CEO |  | 
+p0001:3 | 12/accept | 3/3 +0missing/0conflicts | 1 | MUSK, ELON | HAWTHORNE, CA | SPACE X - TESLA MOTORS/CEO - CHIEF TECHNOLOGY OFFICER |  | 
+p0001:4 | 10/accept | 3/3 +0missing/0conflicts | 1 | MUSK, ELON REEVE | AUSTIN, TX | SELF-EMPLOYED/BUSINESS OWNER/ INVESTOR |  | zip9:0,zip5:1
+p0001:5 | 9/accept | 3/3 +0missing/0conflicts | 2 | MUSK, ELON | AUSTIN, TX | SELF EMPLOYED/INVESTOR;SELF-EMPLOYED/INVESTOR |  | zip9:2,zip5:2
+p0001:6 | 9/accept | 2/2 +1missing/0conflicts | 1 | MUSK, ELON REEVE | AUSTIN, TX | / |  | zip9:0,zip5:1
+p0001:7 | 8/accept | 2/2 +1missing/0conflicts | 5 | MUSK, ELON | AUSTIN, TX;LAKEWAY, TX | / |  | zip9:1,zip5:5
+
+p0002 Marc Andreessen
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: MARC,MARK; middle: ; initials: L; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: a16z
+Explicit contrary occupations: 
+p0002:1 | 11/review | 2/3 +0missing/0conflicts | 6 | ANDREESSEN, MARC LOWELL;ANDREESSEN, MARC LOWELL MR. | LOS ALTOS, CA;MENLO PARK, CA | ANDREESSEN HOROWITZ/CO-FOUNDER;ANDREESSEN HOROWITZ/CO-FOUNDER AND PARTNER;ANDREESSEN HOROWITZ/GENERAL PARTNER | unverified_full_middle | zip9:5,zip5:6
+p0002:2 | 11/accept | 2/3 +0missing/0conflicts | 222 | ANDREESSEN, MARC;ANDREESSEN, MARC MR.;ANDREESSEN, MARK | ATHERTON, CA;LOS ALTOS, CA;LOS ALTSO, CA;MENLO PARK, CA;PALO ALTO, CA;SUNNYVALE, CA | A16Z/CO FOUNDER AND GENERAL PARTNER;A16Z/CO-FOUNDER;A16Z/CO-FOUNDER & GENERAL PARTNER;A16Z/CO-FOUNDER AND GENERAL PARTNER;A16Z/CO-FOUNDER/GENERAL PARTNER;A16Z/FOUNDER;A16Z/GENERAL PARTNER;A16Z/PARTNER;AH CAPITAL MANAGEMENT/PARTNER;AH CAPITAL MANAGEMENT LLC/CO-OWNER;AH CAPITAL MANAGEMENT LLC/FOUNDER;AH CAPITAL MANAGEMENT LLC/GENERAL PARTNER;AH CAPITAL MANAGEMENT LLC/PARTNER;AH CAPITAL MANAGEMENT, LLC/CO-FOUNDER;AH CAPITAL MANAGEMENT, LLC/PRINCIPAL;ANDREESSEN  HOROWITZ/PARTNER;ANDREESSEN & HOROWITZ/CO-FOUNDER;ANDREESSEN & HOROWITZ/FOUNDER;ANDREESSEN & HOROWITZ/PARTNER;ANDREESSEN HOROWITZ/CEO;ANDREESSEN HOROWITZ/CO FOUNDER;ANDREESSEN HOROWITZ/CO FOUNDER & GENERAL PARTNER;ANDREESSEN HOROWITZ/CO-FOUNDER;ANDREESSEN HOROWITZ/CO-FOUNDER & GENERAL PARTNER;ANDREESSEN HOROWITZ/CO-FOUNDER AND GENERAL PARTNER;ANDREESSEN HOROWITZ/CO-FOUNDER/GENERAL PARTNER;ANDREESSEN HOROWITZ/EXECUTIVE;ANDREESSEN HOROWITZ/FOUNDER;ANDREESSEN HOROWITZ/FOUNDER AND PARTNER;ANDREESSEN HOROWITZ/GENERAL PARTNER;ANDREESSEN HOROWITZ/INVESTOR;ANDREESSEN HOROWITZ/PARTNER;ANDREESSEN HOROWITZ/PRINCIPAL;ANDREESSEN HOROWITZ, LLC/VENTURE CAPITALIST |  | 
+p0002:3 | 11/accept | 2/3 +0missing/0conflicts | 63 | ANDREESSEN, MARC L;ANDREESSEN, MARC L.;ANDREESSEN, MARC L. MR.;ANDREESSEN, MARK L. | ATHERTON, CA;LOS ALTOS, CA;LOS GATOS, CA;MENLO PARK, CA;SUNNYVALE, CA | A16Z/CO FOUNDER AND PARTNER;AH CAPITAL MANAGEMENT/PARTNER;AH CAPITAL MANAGEMENT LLC/GENERAL PARTNER;ANDREESSEN HOROWITZ/CO-FOUNDER;ANDREESSEN HOROWITZ/CO-FOUNDER & GENERAL PARTNER;ANDREESSEN HOROWITZ/FOUNDER;ANDREESSEN HOROWITZ/GENERAL PARTNER;ANDREESSEN HOROWITZ/PARTNER |  | 
+p0002:4 | 10/review | 2/3 +0missing/0conflicts | 1 | ANDREESSEN, MARC MR. | LOS ALTOS, CA | PARTNER/ANDREESSEN HOROWITZ | swapped_fields | zip9:1,zip5:1
+p0002:5 | 10/review | 2/3 +0missing/0conflicts | 7 | ANDREESEN, MARC | LOS ALTOS, CA;MENLO PARK, CA | A16Z/INVESTOR;AH CAPITAL MANAGEMENT/PARTNER;ANDREESSEN HOROWITZ/PARTNER;ANDREESSEN HOROWITZ/VENTURE CAPITAL | surname_variant | zip9:7,zip5:7
+p0002:6 | 10/review | 2/3 +0missing/0conflicts | 1 | ANDREESSEN, MARC | MENLO PARK, CA | GENERAL PARTNER/ANDREESSEN HOROWITZ | swapped_fields | zip9:1,zip5:1
+p0002:7 | 9/review | 2/3 +0missing/0conflicts | 2 | ANDREESSEN, MARC | LOS ALTOS, CA | ANDREESEN HOROWITZ LLC/VENTURE CAPITAL | affiliation_typo | zip9:1,zip5:2
+p0002:8 | 9/review | 2/3 +0missing/0conflicts | 1 | ANDREESSEN, MARC | LOS ALTOS, CA | ANDREESEN HOROWITZ, LLC/VENTURE CAPITALISM | affiliation_typo | zip9:1,zip5:1
+p0002:9 | 9/review | 2/3 +0missing/0conflicts | 4 | ANDREESSEN, MARC | MENLO PARK, CA | ANDREESSEN HOROWITZ (A16Z)/CO-FOUNDER AND GENERAL PARTNER | affiliation_typo | zip9:4,zip5:4
+p0002:10 | 9/review | 2/3 +0missing/0conflicts | 1 | ANDREESSEN, MARC L | LOS ALTOS, CA | ANDREESEN HOROWITZ/FOUNDER | affiliation_typo | zip9:0,zip5:1
+p0002:11 | 9/review | 2/3 +0missing/0conflicts | 2 | ANDREESEN, MARC | LOS ALTOS, CA | FOUNDER/ANDREESSEN HOROWITZ | surname_variant,swapped_fields | zip9:0,zip5:2
+p0002:12 | 9/review | 2/3 +0missing/0conflicts | 1 | ANDREESSEN, MARC L. | LOS ALTOS, CA | ANDREESSEN AND HOROWITZ/VENTURE CAPITALIST | affiliation_typo | zip9:1,zip5:1
+p0002:13 | 9/review | 2/3 +0missing/0conflicts | 2 | ANDREESSEN, MARC | LOS ALTOS, CA | ANDREESSEEN HOROWITZ/FOUNDER | affiliation_typo | zip9:2,zip5:2
+p0002:14 | 9/review | 2/3 +0missing/0conflicts | 1 | ANDREESSEN, MARC L. | LOS ALTOS, CA | ANDREESSEN HORWITZ/FOUNDER | affiliation_typo | zip9:1,zip5:1
+p0002:15 | 8/review | 2/3 +0missing/0conflicts | 2 | ANDREESEN, MARC | LOS ALTOS, CA | ANDREESEN HOROWITZ/CO-FOUNDER AND GENERAL PARTNER | affiliation_typo,surname_variant | zip9:2,zip5:2
+p0002:16 | 8/review | 2/3 +0missing/0conflicts | 1 | ANDREESEN, MARC | LOS ALTOS, CA | ANDREESEN HOROWITZ/PARTNER | affiliation_typo,surname_variant | zip9:1,zip5:1
+p0002:17 | 8/review | 2/3 +0missing/0conflicts | 1 | ANDREESEN, MARC L | LOS ALTOS, CA | ANDREESEN HOROWITZ/VENTURE CAPITAL | affiliation_typo,surname_variant | zip9:0,zip5:1
+p0002:18 | 8/review | 2/3 +0missing/0conflicts | 2 | ANDREESEN, MARC | LOS ALTOS, CA;MENLO PARK, CA | ANDREESEN HOROWITZ/GENERAL PARTNER | affiliation_typo,surname_variant | zip9:1,zip5:2
+p0002:19 | 7/review | 2/3 +0missing/0conflicts | 4 | ANDREESSEN, MARC | LOS ALTOS, CA | AH PARTNERS/VENTURE CAPITALIST |  | zip9:4,zip5:4
+p0002:20 | 7/review | 2/3 +0missing/0conflicts | 3 | ANDREESSEN, MARC | LOS ALTOS, CA | GENERAL PARTNER, A16Z/CO FOUNDER |  | zip9:3,zip5:3
+p0002:21 | 7/review | 2/3 +0missing/0conflicts | 5 | ANDREESSEN, MARC | LOS ALTOS, CA | SELF EMPLOYED/VENTURE CAPITALIST |  | zip9:5,zip5:5
+p0002:22 | 6/review | 1/2 +1missing/0conflicts | 1 | ANDREESSEN, MARC | MENLO PARK, CA | / |  | zip9:0,zip5:1
+p0002:23 | 6/review | 1/3 +0missing/0conflicts | 4 | ANDREESSEN, MARC | LOS ALTOS, CA | SELF/ATTORNEY |  | zip9:0,zip5:4
+p0002:24 | 6/review | 1/2 +1missing/0conflicts | 1 | ANDREESSEN, MARC L. MR. | LOS ALTOS, CA | / |  | zip9:0,zip5:1
+p0002:25 | 6/review | 1/2 +1missing/0conflicts | 1 | ANDREESSEN, MARC | ATHERTON, CA | / |  | zip9:1,zip5:1
+p0002:26 | 6/review | 2/3 +0missing/0conflicts | 1 | ANDREESEN, MARC | LOS ALTOS, CA | SELF EMPLOYED/VENTURE CAPITALIST | surname_variant | zip9:0,zip5:1
+p0002:27 | 6/review | 1/2 +1missing/0conflicts | 5 | ANDREESSEN, MARC | LOS ALTOS, CA | /;NOT EMPLOYED/NOT EMPLOYED |  | zip9:3,zip5:5
+p0002:28 | 6/review | 1/2 +1missing/0conflicts | 1 | ANDREESSEN, MARC | LAS VEGAS, NV | / |  | 
+
+p0003 Ben Horowitz
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: BEN,BENJAMIN; middle: ; initials: A; suffixes: ; distinctiveness hypothesis: 0
+Affiliations: a16z
+Explicit contrary occupations: ATTORNEY, LAWYER
+p0003:1 | 9/accept | 2/3 +0missing/0conflicts | 2 | HOROWITZ, BENJAMIN A. | LAS VEGAS, NV | ANDREESSEN HOROWITZ/CO-FOUNDER |  | 
+p0003:2 | 9/review | 2/3 +0missing/0conflicts | 11 | HOROWITZ, BEN | LAS VEGAS, NV | ANDREESSEN HOROWITZ/COFOUNDER & GP | unexplained_role | zip9:10,zip5:11
+p0003:3 | 9/review | 2/3 +0missing/0conflicts | 15 | HOROWITZ, BEN | LAS VEGAS, NV;LOS ALTOS, CA | ANDREESSEN HOROWITZ/COFOUNDER | unexplained_role | zip9:13,zip5:13
+p0003:4 | 9/accept | 2/3 +0missing/0conflicts | 305 |  HOROWITZ, BEN;HOROWITZ, BEN;HOROWITZ, BEN MR.;HOROWITZ, BENJAMIN;HOROWITZ, BENJAMIN MR. | ATHERTON, CA;LAS VAGAS, NV;LAS VEGAS, NV;LOS ALTOS, CA;MENLO PARK, CA;PALO ALTO, CA | A16Z/CO FOUNDER AND GENERAL PARTNER;A16Z/CO-FOUNDER & GENERAL PARTNER;A16Z/CO-FOUNDER AND GENERAL PARTNER;A16Z/CO-FOUNDER/GENERAL PARTNER;A16Z CAPITAL MANAGEMENT LLC/CO-FOUNDER & GENERAL PARTNER;AH CAPITAL MANAGEMENT/PARTNER;AH CAPITAL MANAGEMENT LLC/CO-FOUNDER;AH CAPITAL MANAGEMENT LLC/CO-OWNER;AH CAPITAL MANAGEMENT LLC/PARTNER;AH CAPITAL MANAGEMENT, LLC/CO-FOUNDER;AH CAPITAL MANAGEMENT, LLC/GENERAL PARTNER;ANDREESSEN & HOROWITZ/CO-FOUNDER;ANDREESSEN & HOROWITZ/PARTNER;ANDREESSEN HOROWITZ/;ANDREESSEN HOROWITZ/CO FOUNDER;ANDREESSEN HOROWITZ/CO- FOUNDER;ANDREESSEN HOROWITZ/CO-FOUNDER;ANDREESSEN HOROWITZ/CO-FOUNDER & GEN PARTNER;ANDREESSEN HOROWITZ/CO-FOUNDER & GENERAL PARTNER;ANDREESSEN HOROWITZ/CO-FOUNDER & GP;ANDREESSEN HOROWITZ/CO-FOUNDER AND GENERAL PARTNER;ANDREESSEN HOROWITZ/CO-FOUNDER AND GP;ANDREESSEN HOROWITZ/CO-FOUNDER/GENERAL PARTNER;ANDREESSEN HOROWITZ/COFOUNDER AND GENERAL PARTNER;ANDREESSEN HOROWITZ/EXECUTIVE;ANDREESSEN HOROWITZ/FOUNDER;ANDREESSEN HOROWITZ/GENERAL PARTNER;ANDREESSEN HOROWITZ/INVESTOR;ANDREESSEN HOROWITZ/PARTNER;ANDREESSEN HOROWITZ/VENTURE CAPITALIST |  | 
+p0003:5 | 9/review | 2/3 +0missing/0conflicts | 140 | HOROWITZ, BEN;HOROWITZ, BEN MR.;HOROWITZ, BENJAMIN | LAS VEGAS, NV | ANDREESSEN HOROWITZ/COFOUNDER AND GP | unexplained_role | zip9:110,zip5:140
+p0003:6 | 9/review | 2/3 +0missing/0conflicts | 3 | HOROWITZ, BEN | LAS VEGAS, NV | ANDREESSEN HOROWITZ/ANDREESSEN HOROWITZ | unexplained_role | zip9:0,zip5:3
+p0003:7 | 8/review | 2/3 +0missing/0conflicts | 2 | HOROWITZ, BENJAMIN | LAS VEGAS, NV | FOUNDER/ANDREESSEN HOROWITZ | swapped_fields | zip9:0,zip5:2
+p0003:8 | 8/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BEN MR.. | LAS VEGAS, NV | COFOUNDER AND GP/ANDREESSEN HOROWITZ | swapped_fields | zip9:1,zip5:1
+p0003:9 | 7/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BENJAMIN ABRAHAM | LAS VEGAS, NV | ANDREESEN HOROWITZ/CO FOUNDER/ GP | affiliation_typo,unverified_full_middle | zip9:1,zip5:1
+p0003:10 | 7/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BENJAMIN | LAS VEGAS, NV | ANDREESEN HOROWITZ/VENTURE CAPITAL | affiliation_typo | zip9:0,zip5:1
+p0003:11 | 7/review | 2/3 +0missing/0conflicts | 2 | HOROWITZ, BENJAMIN ABRAHAM | LAS VEGAS, NV | ANDRESSEN HOROWITZ/CO-FOUNDER | affiliation_typo,unverified_full_middle | zip9:2,zip5:2
+p0003:12 | 7/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BENJAMIN | LAS VEGAS, NV | ANDREESSEN AND HOROWITZ/VENTURE CAPITALIST | affiliation_typo | zip9:1,zip5:1
+p0003:13 | 7/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BENJAMIN ABRAHAM | LAS VEGAS, NV | ANDREESEN HOROWITZ/FOUNDER | affiliation_typo,unverified_full_middle | zip9:1,zip5:1
+p0003:14 | 7/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BEN | LAS VEGAS, NV | ANDREESEN HOROWITZ/CO-FOUNDER | affiliation_typo | zip9:1,zip5:1
+p0003:15 | 7/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BENJAMIN | WEST HILLS, CA | ANDRESSEN HOROWITZ/CO-FOUNDER | affiliation_typo | 
+p0003:16 | 7/review | 2/3 +0missing/0conflicts | 4 | HOROWITZ, BEN;HOROWITZ, BENJAMIN | LAS VEGAS, NV;MENLO PARK, CA | ANDREESEN HOROWITZ/GENERAL PARTNER | affiliation_typo | zip9:0,zip5:4
+p0003:17 | 7/review | 2/3 +0missing/0conflicts | 2 | HOROWITZ, BEN | LAS VEGAS, NV | ANDREESSEEN HOROWITZ/CO-FOUNDER AND GENERAL PARTNER | affiliation_typo | zip9:2,zip5:2
+p0003:18 | 5/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BEN | LAS VEGAS, NV | GENERAL PARTNER, A16Z/CO FOUNDER |  | zip9:1,zip5:1
+p0003:19 | 5/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BEN | NEWPORT BEACH, CA | HOROWITZ GROUP/CHAIRMAN |  | 
+p0003:20 | 5/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BEN | LAS VEGAS, NV | SELF-EMPLOYED/VENTURE CAPITALIST |  | zip9:1,zip5:1
+p0003:21 | 5/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BENJAMIN | LAS VEGAS, NV | SELF EMPLOYED/TECHNOLOGY ENTREPRENEUR |  | zip9:1,zip5:1
+p0003:22 | 5/review | 2/3 +0missing/0conflicts | 1 | HOROWITZ, BEN | LAS VEGAS, NV | HOROWITZ FOUNDATION/PHILANTHROPIST |  | zip9:1,zip5:1
+p0003:23 | 4/review | 1/2 +1missing/0conflicts | 8 | HOROWITZ, BEN;HOROWITZ, BENJAMIN | LAS VEGAS, NV | / |  | zip9:4,zip5:8
+p0003:24 | 4/review | 1/1 +2missing/0conflicts | 1 | HOROWITZ, BENJAMIN |  | / |  | 
+p0003:25 | 4/review | 1/3 +0missing/0conflicts | 3 | HOROWITZ, BENJAMIN | PLEASANTON, CA | WORKDAY/SOFTWARE ENGINEER |  | 
+p0003:26 | 4/review | 1/2 +1missing/0conflicts | 1 | HOROWITZ, BEN | LOS ALTOS, CA | / |  | zip9:0,zip5:1
+p0003:27 | 4/review | 1/2 +1missing/0conflicts | 1 | HOROWITZ, BENJAMIN | ATHERTON, CA | / |  | zip9:0,zip5:1
+p0003:28 | -20/reject | 0/3 +0missing/3conflicts | 18 | HOROWITZ, BENJAMIN E. | WASHINGTON, DC | VENABLE LLP/ATTORNEY | name_needs_review,documented_namesake,middle_name,profession | 
+
+p0004 Reid Hoffman
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: REID; middle: ; initials: G; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: Greylock, LinkedIn
+Explicit contrary occupations: 
+p0004:1 | 11/accept | 2/3 +0missing/0conflicts | 4 | HOFFMAN, REID | MOUNTAIN VIEW, CA;SAN FRANCISCO, CA | LINKEDIN/CHAIRMAN;LINKEDIN/CO-FOUNDER |  | 
+p0004:2 | 11/review | 2/3 +0missing/0conflicts | 3 | HOFFMAN, REID GARRETT | MOUNTAIN VIEW, CA;PALO ALTO, CA | LINKEDIN/CHAIRMAN;LINKEDIN/CO-FOUNDER & EXECUTIVE CHAIRMAN | unverified_full_middle | zip9:1,zip5:3
+p0004:3 | 11/review | 2/3 +0missing/0conflicts | 15 | HOFFMAN, REID GARRETT | ANACORTES, WA;MOUNTAIN VIEW, CA;PORTOLA VALLEY, CA;SAN FRANCISCO, CA;SUNNYVALE, CA | GREYLOCK/VENTURE CAPITAL;GREYLOCK/VENTURE CAPITALIST;GREYLOCK PARTNERS/PARTNER;GREYLOCK PARTNERS/VENTURE CAPITALIST | unverified_full_middle | zip9:8,zip5:13
+p0004:4 | 11/accept | 2/3 +0missing/0conflicts | 105 | HOFFMAN, REID G;HOFFMAN, REID G. | ANACORTES, WA;MENLO PARK, CA;MOUNTAIN VIEW, CA;PALO ALTO, CA;SAN FRANCISCO, CA | GREYLOCK/INVESTOR;GREYLOCK/PARTNER;GREYLOCK/VENTURE CAPITAL;GREYLOCK PARTNERS/PARTNER;GREYLOCK PARTNERS/PARTNERS |  | 
+p0004:5 | 11/accept | 2/3 +0missing/0conflicts | 271 | HOFFMAN, REID | ANACORTES, WA;BOSTON, MA;MENLO PARK, CA;MOUNTAIN VIEW, CA;PALO ALTO, CA;PORTOLA VALLEY, CA;SAN FRANCISCO, CA;STANFORD, CA | GRAYLOCK/PARTNER;GREYLOCK/INVESTOR;GREYLOCK/PARTNER;GREYLOCK/PARTNER, VENTURE CAPITAL;GREYLOCK/VENTURE CAPITAL;GREYLOCK/VENTURE CAPITALIST;GREYLOCK PARTNER/PARTNER;GREYLOCK PARTNERS/INVESTOR;GREYLOCK PARTNERS/PARTNER;GREYLOCK PARTNERS/PARTNER - VENTURE CAPITAL;GREYLOCK PARTNERS/VENTURE CAPITAL;GREYLOCK PARTNERS/VENTURE CAPITALIST |  | 
+p0004:6 | 7/review | 2/3 +0missing/0conflicts | 2 | HOFFMAN, REID | ANACORTES, WA | SELF-EMPLOYED/INVESTOR |  | zip9:0,zip5:2
+p0004:7 | 6/review | 1/2 +1missing/0conflicts | 9 | HOFFMAN, REID | ANACORTES, WA | / |  | zip9:8,zip5:9
+p0004:8 | 6/review | 1/2 +1missing/0conflicts | 4 | HOFFMAN, REID | MOUNTAIN VIEW, CA | / |  | zip9:4,zip5:4
+p0004:9 | 6/review | 1/2 +1missing/0conflicts | 1 | HOFFMAN, REID G. | ANACORTES, WA | / |  | zip9:1,zip5:1
+p0004:10 | 6/review | 1/2 +1missing/0conflicts | 1 | HOFFMAN, REID G | PALO ALTO, CA | / |  | zip9:1,zip5:1
+p0004:11 | -4/review | 0/2 +1missing/1conflicts | 2 | HOFFMAN, R'CYN | DAVIS, CA | NOT EMPLOYED/NOT EMPLOYED | name_needs_review,middle_name | 
+p0004:12 | -5/review | 0/3 +0missing/0conflicts | 1 | HOFFMANN, REED | OVERLAND PARK, KS | REED HOFFMANN/PHOTOGRAPHER | name_needs_review,surname_variant | 
+
+p0005 Dustin Moskovitz
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: DUSTIN; middle: ; initials: A; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: Asana
+Explicit contrary occupations: 
+p0005:1 | 11/accept | 2/3 +0missing/0conflicts | 1 | MOSKOVITZ, DUSTIN | SAN FRANCISCO, CA | ASANA/CO-FOUNDER |  | 
+p0005:2 | 11/accept | 2/3 +0missing/0conflicts | 8 | MOSKOVITZ, DUSTIN A | SAN FRANCISCO, CA | ASANA/CEO |  | 
+
+p0006 Peter Thiel
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: PETER; middle: ; initials: A; suffixes: ; distinctiveness hypothesis: 0
+Affiliations: Founders Fund, Thiel Capital
+Explicit contrary occupations: 
+p0006:1 | 9/accept | 2/3 +0missing/0conflicts | 2 | THIEL, PETER | WEST HOLLYWOOD, CA | FOUNDERS FUND/MANAGING PARTNER |  | 
+p0006:2 | 9/accept | 2/3 +0missing/0conflicts | 1 | THIEL, PETER A. MR. | MIAMI, FL | THIEL CAPITAL/CHAIRMAN |  | 
+p0006:3 | 5/review | 2/3 +0missing/0conflicts | 2 | THIEL, PETER A. | LOS ANGELES, CA | SELF EMPLOYED/INVESTOR |  | 
+p0006:4 | 4/review | 1/2 +1missing/0conflicts | 1 | THIEL, PETER | LOS ANGELES, CA | / |  | 
+p0006:5 | 4/review | 1/2 +1missing/0conflicts | 3 | THIEL, PETER | WEST HOLLYWOOD, CA | / |  | zip9:0,zip5:3
+p0006:6 | 4/review | 1/3 +0missing/0conflicts | 2 | THIEL, PETER | BAY CITY, MI | GENERAL MOTORS CORPORATION/FACTORY WORKER |  | 
+
+p0007 David Sacks
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: DAVID; middle: ; initials: O; suffixes: ; distinctiveness hypothesis: 0
+Affiliations: Craft Ventures, Yammer
+Explicit contrary occupations: 
+p0007:1 | 9/accept | 2/3 +0missing/0conflicts | 1 | SACKS, DAVID | SAN FRANCISCO, CA | YAMMER/CEO |  | 
+p0007:2 | 9/accept | 2/3 +0missing/0conflicts | 27 | SACKS, DAVID;SACKS, DAVID MR. | SAN FRANCISCO, CA | CRAFT VENTURES/ENTREPRENEUR;CRAFT VENTURES/EXECUTIVE;CRAFT VENTURES/FOUNDER;CRAFT VENTURES/INVESTOR;CRAFT VENTURES/PARTNER |  | 
+p0007:3 | 9/review | 2/3 +0missing/0conflicts | 6 | SACKS, DAVID | AUSTIN, TX;SAN FRANCISCO, CA | CRAFT VENTURES MANAGEMENT/FINANCE | unexplained_role | zip9:0,zip5:1
+p0007:4 | 4/review | 1/2 +1missing/0conflicts | 16 | SACKS, DAVID | HOLYOKE, MA | N/A/NOT EMPLOYED |  | 
+p0007:5 | 4/review | 1/2 +1missing/0conflicts | 4 | SACKS, DAVID | LOS ANGELES, CA | /;NOT EMPLOYED/RETIRED |  | 
+p0007:6 | 4/review | 1/2 +1missing/0conflicts | 1 | SACKS, DAVID | FT LAUDERDALE, FL | NOT EMPLOYED/NOT EMPLOYED |  | 
+p0007:7 | 4/review | 1/3 +0missing/0conflicts | 2 | SACKS, DAVID | PEARLAND, TX | DELEK US HOLDINGS/CHEMICAL ENGINEER |  | 
+p0007:8 | 4/review | 1/3 +0missing/0conflicts | 4 | SACKS, DAVID | HOLYOKE, MA | SELF/CONSULTANT |  | 
+p0007:9 | 4/review | 1/3 +0missing/0conflicts | 1 | SACKS, DAVID | SUN CITY WEST, AZ | SWLT/RE BROKER |  | 
+p0007:10 | 4/review | 1/3 +0missing/0conflicts | 17 | SACKS, DAVID | SUN CITY WEST, AZ | DAVID SACKS REAL ESTATE INC/REAL ESTATE BROKER;DAVID SACKS REAL ESTATE INC./REAL ESTATE BROKER |  | 
+p0007:11 | 4/review | 1/2 +1missing/0conflicts | 1 | SACKS, DAVID | SAN FRANCISO, CA | / |  | 
+p0007:12 | 4/review | 1/2 +1missing/0conflicts | 3 | SACKS, DAVID | SAN FRANCISCO, CA | / |  | zip9:2,zip5:3
+p0007:13 | 4/review | 1/2 +1missing/0conflicts | 3 | SACKS, DAVID | PEORIA, AZ | / |  | 
+p0007:14 | 4/review | 1/2 +1missing/0conflicts | 2 | SACKS, DAVID O. | SAN FRANCISCO, CA | / |  | 
+p0007:15 | 3/review | 1/2 +1missing/0conflicts | 1 | SACHS, DAVID | NORTHBROOK, IL | / | surname_variant | 
+p0007:16 | 3/review | 1/3 +0missing/0conflicts | 1 | SACHS, DAVID | RIDGEFIELD, CT | SELF-EMPLOYED/OPTOMETRIST | surname_variant | 
+p0007:17 | 3/review | 1/2 +1missing/0conflicts | 3 | SACHS, DAVID | PALM BEACH GARDENS, FL | NOT EMPLOYED/NOT EMPLOYED | surname_variant | 
+p0007:18 | 3/review | 1/2 +1missing/0conflicts | 8 | SACHS, DAVID | NATICK, MA | N/A/RETIRED;NOT EMPLOYED/RETIRED;RETIRED/RETIRED | surname_variant | 
+p0007:19 | 0/review | 0/2 +1missing/1conflicts | 5 | SACKS, DAVID S;SACKS, DAVID S. | LOS ANGELES, CA | / | name_needs_review,middle_name | 
+p0007:20 | -7/reject | 2/3 +0missing/1conflicts | 1 | SACKS, DAVID | PINECREST, FL | DUANE MORRIS LLP/PARTNER AND SPECIAL COUNSEL | documented_namesake | 
+p0007:21 | -8/reject | 1/3 +0missing/1conflicts | 29 | SACKS, DAVID | HOLYOKE, MA | SELF/DISPUTE RESOLUTION PROVIDER | documented_namesake | 
+p0007:22 | -8/reject | 1/3 +0missing/1conflicts | 1 | SACKS, DAVID | SILVER SPRING, MD | NIH/SCIENTIST | documented_namesake | 
+p0007:23 | -8/reject | 1/3 +0missing/1conflicts | 3 | SACKS, DAVID | HOLYOKE, MA | SELF/DISPUTE RESOLUTION CONSULTANT | documented_namesake | 
+p0007:24 | -8/reject | 1/3 +0missing/1conflicts | 116 | SACKS, DAVID | HOLYOKE, MA | SELF EMPLOYED/DISPUTE RESOLUTION PROVIDER;SELF-EMPLOYED/DISPUTE RESOLUTION PROVIDER | documented_namesake | 
+p0007:25 | -8/reject | 1/3 +0missing/1conflicts | 1 | SACKS, DAVID | MIAMI, FL | DUANE MORRIS/ATTORNEY | documented_namesake | 
+p0007:26 | -9/reject | 1/3 +0missing/1conflicts | 33 | SACHS, DAVID | RIDGEFIELD, CT | PACE UNIVERSITY/PROFESSOR | surname_variant,documented_namesake | 
+
+p0008 Sam Altman
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: SAM,SAMUEL; middle: ; initials: H; suffixes: ; distinctiveness hypothesis: 1
+Affiliations: OpenAI
+Explicit contrary occupations: 
+p0008:1 | 10/accept | 2/3 +0missing/0conflicts | 17 | ALTMAN, SAM;ALTMAN, SAMUEL | GREENVILLE, SC | OPEN AI/CEO;OPENAI/CEO;OPENAI/CHIEF EXECUTIVE OFFICER |  | 
+p0008:2 | 6/review | 2/3 +0missing/0conflicts | 1 | ALTMAN, SAM | GREENVILLE, SC | APOLLO PROJECTS/CO-FOUNDER |  | zip9:0,zip5:1
+p0008:3 | 6/review | 2/3 +0missing/0conflicts | 4 | ALTMAN, SAMUEL | GREENVILLE, SC | SELF-EMPLOYED/INVESTOR |  | zip9:2,zip5:4
+p0008:4 | 6/review | 2/3 +0missing/0conflicts | 11 | ALTMAN, SAM;ALTMAN, SAMUEL | GREENVILLE, SC | OAI/CEO |  | zip9:9,zip5:11
+p0008:5 | 6/review | 2/3 +0missing/0conflicts | 1 | ALTMAN, SAM | GREENVILLE, SC | APOLLO REAL ESTATE GROUP/CEO |  | zip9:0,zip5:1
+p0008:6 | 5/review | 1/2 +1missing/0conflicts | 2 | ALTMAN, SAM;ALTMAN, SAMUEL | GREENVILLE, SC | /;SELF-EMPLOYED/SELF-EMPLOYED |  | zip9:1,zip5:2
+p0008:7 | 5/review | 1/3 +0missing/0conflicts | 1 | ALTMAN, SAM | GREENVILLE, SC | SELF/SAM ALTMAN |  | zip9:0,zip5:1
+
+p0009 Palmer Luckey
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: PALMER; middle: ; initials: F; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: Anduril, Oculus
+Explicit contrary occupations: 
+p0009:1 | 11/accept | 2/3 +0missing/0conflicts | 18 | LUCKEY, PALMER F;LUCKEY, PALMER F. | COSTA MESA, CA;IRVINE, CA;LOS ANGELES, CA;NEWPORT BEACH, CA;VISTA, CA | ANDURIL/FOUNDER;ANDURIL/PRESIDENT AND CEO;ANDURIL INDUSTRIES/FOUNDER;ANDURIL INDUSTRIES INC/FOUNDER;ANDURIL INDUSTRIES, INC./FOUNDER |  | 
+p0009:2 | 11/accept | 2/3 +0missing/0conflicts | 2 | LUCKEY, PALMER | IRVINE, CA | OCULUS VR/FOUNDER |  | 
+p0009:3 | 11/accept | 2/3 +0missing/0conflicts | 484 | LUCKEY, PALMER;LUCKEY, PALMER MR. | CARLSBAD, CA;COOSTA MESA, CA;COSTA MESA, CA;IRVINE, CA;NEWPORT BEACH, CA;VISTA, CA | ANDURIL/FOUNDER;ANDURIL INC./FOUNDER;ANDURIL INDUSTRIES/CEO;ANDURIL INDUSTRIES/FOUNDER;ANDURIL INDUSTRIES INC/FOUNDER;ANDURIL INDUSTRIES INC./FOUNDER;ANDURIL INDUSTRIES, INC/FOUNDER;ANDURIL INDUSTRIES, INC,/FOUNDER;ANDURIL INDUSTRIES, INC./BUSINESS OWNER;ANDURIL INDUSTRIES, INC./FOUNDER;ANDURIL INDUSTRIES,INC/FOUNDER;ANDURIL, INC./FOUNDER |  | 
+p0009:4 | 7/review | 2/3 +0missing/0conflicts | 1 | LUCKEY, PALMER | COSTA MESA, CA | ANDRUIL IND INC/FOUNDER |  | zip9:0,zip5:1
+p0009:5 | 6/review | 1/2 +1missing/0conflicts | 1 | LUCKEY, PALMER | CARLSBAD, CA | / |  | zip9:0,zip5:1
+p0009:6 | 6/review | 1/2 +1missing/0conflicts | 7 | LUCKEY, PALMER | COSTA MESA, CA | / |  | zip9:4,zip5:7
+p0009:7 | 6/review | 1/2 +1missing/0conflicts | 5 | LUCKEY, PALMER;LUCKEY, PALMER MR. | NEWPORT BEACH, CA | / |  | zip9:3,zip5:5
+p0009:8 | 6/review | 1/2 +1missing/0conflicts | 7 | LUCKEY, PALMER F. | IRVINE, CA | / |  | zip9:0,zip5:7
+
+p0010 Alex Karp
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: ALEX,ALEXANDER; middle: ; initials: C; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: Palantir
+Explicit contrary occupations: 
+p0010:1 | 11/accept | 2/3 +0missing/0conflicts | 51 | KARP, ALEX;KARP, ALEXANDER;KARP, ALEXANDER DR. | BEDFORD, NH;DENVER, CO;PALO ALTO, CA;WASHINGTON, DC | PALANTIR/CEO;PALANTIR/CO-FOUNDER;PALANTIR/EXECUTIVE;PALANTIR/FOUNDER & CEO;PALANTIR TECHNOLOGIES/CEO;PALANTIR TECHNOLOGIES/CHIEF EXECUTIVE OFFICER;PALANTIR TECHNOLOGIES/EXECUTIVE;PALANTIR TECHNOLOGIES INC/CEO;PALANTIR TECHNOLOGIES INC./CEO;PALANTIR TECHNOLOGIES INC./CHIEF EXECUTIVE OFFICER;PALANTIR TECHNOLOGIES INC./EXECUTIVE;PALANTIR TECHNOLOGY/EXECUTIVE |  | 
+p0010:2 | 11/accept | 2/3 +0missing/0conflicts | 94 | KARP, ALEXANDER C;KARP, ALEXANDER C DR;KARP, ALEXANDER C DR.;KARP, ALEXANDER C.;KARP, ALEXANDER C. DR.;KARP, ALEXANDER C. DR..;KARP, ALEXANDER C. MR. | BEDFORD, NH;DENVER, CO;PALO ALTO, CA | PALANTIR/CEO;PALANTIR/EXECUTIVE;PALANTIR/FOUNDER & CEO;PALANTIR TECHNOLOGIES/CEO;PALANTIR TECHNOLOGIES/CHIEF EXECUTIVE OFFICER;PALANTIR TECHNOLOGIES/CO-FOUNDER AND CEO;PALANTIR TECHNOLOGIES/EXECUTIVE;PALANTIR TECHNOLOGIES INC/CEO;PALANTIR TECHNOLOGIES INC/EXECUTIVE;PALANTIR TECHNOLOGIES INC./;PALANTIR TECHNOLOGIES INC./CEO;PALANTIR TECHNOLOGIES INC./EXECUTIVE |  | 
+p0010:3 | 11/review | 2/3 +0missing/0conflicts | 7 | KARP, ALEXANDER CAEDMON | BEDFORD, NH;DENVER, CO | PALANTIR/CEO;PALANTIR/CHIEF EXECUTIVE OFFICER;PALANTIR TECHNOLOGIES/CHIEF EXECUTIVE OFFICER | unverified_full_middle | zip9:0,zip5:7
+p0010:4 | 9/review | 2/3 +0missing/0conflicts | 3 | KARP, ALEXANDER | BEDFORD, NH | PALATIR TECHNOLOGIES, INC./EXECUTIVE | affiliation_typo | zip9:0,zip5:3
+p0010:5 | 9/review | 2/3 +0missing/0conflicts | 2 | KARP, ALEXANDER C | WASHINGTON, DC | PLANTANTIR TECHNOLOGIES/CEO | affiliation_typo | zip9:0,zip5:2
+p0010:6 | 9/review | 2/3 +0missing/0conflicts | 2 | KARP, ALEXANDER C. DR. | BEDFORD, NH | PALANTIS TECHNOLOGIES INC./EXECUTIVE | affiliation_typo | zip9:0,zip5:2
+p0010:7 | 7/review | 2/3 +0missing/0conflicts | 1 | KARP, ALEXANDER | BEDFORD, NH | WIPFLI LLP/EXECUTIVE |  | zip9:0,zip5:1
+p0010:8 | 7/review | 2/3 +0missing/0conflicts | 1 | KARP, ALEXANDER C DR | BEDFORD, NH | PLANTIR/CEO |  | zip9:0,zip5:1
+p0010:9 | 7/review | 2/3 +0missing/0conflicts | 2 | KARP, ALEXANDER | PALO ALTO, CA | /CEO |  | zip9:2,zip5:2
+p0010:10 | 6/review | 1/2 +1missing/0conflicts | 4 | KARP, ALEXANDER C DR;KARP, ALEXANDER C DR.;KARP, ALEXANDER C.;KARP, ALEXANDER C. DR. | BEDFORD, NH | / |  | zip9:0,zip5:4
+p0010:11 | 6/review | 1/2 +1missing/0conflicts | 6 | KARP, ALEXANDER | BEDFORD, NH | / |  | zip9:3,zip5:6
+
+p0011 Joe Lonsdale
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: JOE,JOSEPH; middle: ; initials: T; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: 8VC
+Explicit contrary occupations: 
+p0011:1 | 13/accept | 3/3 +0missing/0conflicts | 95 | LONSDALE, JOE;LONSDALE, JOE MR.;LONSDALE, JOSEPH | AUSTIN, TX | 8VC/FOUNDING PARTNER;8VC/MANAGING DIRECTOR;8VC/MANAGING PARTNER;8VC/PARTNER |  | 
+p0011:2 | 13/accept | 3/3 +0missing/0conflicts | 17 | LONSDALE, JOE T;LONSDALE, JOSEPH T MR.;LONSDALE, JOSEPH T.;LONSDALE, JOSEPH T. MR. | AUSTIN, TX | 8VC/FOUNDING PARTNER;8VC/MANAGING DIRECTOR;8VC/PARTNER |  | 
+p0011:3 | 13/review | 3/3 +0missing/0conflicts | 2 | LONSDALE, JOSEPH T. | AUSTIN, TX | 8VC/COFOUNDER | unexplained_role | zip9:2,zip5:2
+p0011:4 | 13/review | 3/3 +0missing/0conflicts | 1 | LONSDALE, JOE | AUSTIN, TX | 8VC/8VC | unexplained_role | zip9:1,zip5:1
+p0011:5 | 12/review | 3/3 +0missing/0conflicts | 1 | LONSDALE, JOSEPH T. | AUSTIN, TX | PARTNER/8VC | swapped_fields | zip9:0,zip5:1
+p0011:6 | 11/accept | 2/3 +0missing/0conflicts | 4 | LONSDALE, JOE;LONSDALE, JOE MR. | LOS ALTOS, CA;WOODSIDE, CA | 8VC/PARTNER |  | 
+p0011:7 | 9/accept | 3/3 +0missing/0conflicts | 1 | LONSDALE, JOSEPH T. | AUSTIN, TX | SELF-EMPLOYED/FOUNDING PARTNER |  | zip9:1,zip5:1
+p0011:8 | 8/accept | 2/2 +1missing/0conflicts | 6 | LONSDALE, JOE;LONSDALE, JOSEPH | AUSTIN, TX | / |  | zip9:1,zip5:6
+
+p0012 Eric Schmidt
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: ERIC; middle: ; initials: E; suffixes: ; distinctiveness hypothesis: 0
+Affiliations: Google / Alphabet, Hillspire, Schmidt philanthropy, Relativity Space
+Explicit contrary occupations: SOFTWARE ENGINEER, DEVELOPER PROGRAMS ENGINEER
+p0012:1 | 9/accept | 2/3 +0missing/0conflicts | 7 | SCHMIDT, ERIC E. | MOUNTAIN VIEW, CA;PALO ALTO, CA | ALPHABET INC./EXECUTIVE CHAIRMAN;ALPHABET, INC./CHAIRMAN;ALPHABET, INC./EXECUTIVE CHAIRMAN |  | 
+p0012:2 | 9/accept | 2/3 +0missing/0conflicts | 3 | SCHMIDT, ERIC E. | SANTA BARBARA, CA | SCHMIDT FUTURES/CO-FOUNDER |  | 
+p0012:3 | 9/accept | 2/3 +0missing/0conflicts | 10 | SCHMIDT, ERIC | PALO ALTO, CA | SCHMIDT FAMILY FOUNDATION/PHILANTHROPIST;SCHMIDT FUTURES/CO-FOUNDER;SCHMIDT FUTURES/PHILANTHROPIST |  | 
+p0012:4 | 9/accept | 2/3 +0missing/0conflicts | 21 | SCHMIDT, ERIC;SCHMIDT, ERIC (INKIND) | MOUNTAIN VIEW, CA;PALO ALTO, CA | ALPHABET INC/FORMER CEO AND CHAIRMAN;ALPHABET INC./RETIRED CEO & CHAIRMAN;ALPHABET, INC./EXECUTIVE CHAIRMAN;ALPHABET, INC./TECHNICAL ADVISOR;GOOGLE  INC/CEO/CHAIRMAN OF THE BOARD;GOOGLE INC./TECHNICAL ADVISOR |  | 
+p0012:5 | 9/review | 2/3 +0missing/0conflicts | 4 | SCHMIDT, ERIC E;SCHMIDT, ERIC E. | PALO ALTO, CA | HILLSPIRE LLC/MANAGER | unexplained_role | zip9:4,zip5:4
+p0012:6 | 9/review | 2/3 +0missing/0conflicts | 106 | SCHMIDT, ERIC | ANAHEIM, CA;PALO ALTO, CA;SAN JOSE, CA | HILLSPIRE/MANAGER;HILLSPIRE LLC/MANAGER;HILLSPIRE, LLC/MANAGER | unexplained_role | zip9:77,zip5:101
+p0012:7 | 9/accept | 2/3 +0missing/0conflicts | 11 | SCHMIDT, ERIC | MOUNTAIN VIEW, CA;PALO ALTO, CA;SANTA BARBARA, CA | HILLSPIRE/CO-FOUNDER;HILLSPIRE LLC/CEO;HILLSPIRE LLC/PRESIDENT;HILLSPIRE LLC/TECHNICAL ADVISER |  | 
+p0012:8 | 9/accept | 2/3 +0missing/0conflicts | 3 | SCHMIDT, ERIC;SCHMIDT, ERIC MR. | LONG BEACH, CA;NEW YORK, NY | RELATIVITY SPACE/CEO;RELATIVITY SPACE/EXECUTIVE CHAIRMAN  & CEO |  | 
+p0012:9 | 5/review | 2/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | PALO ALTO, CA | NOT EMPLOYED/INVESTMENTS & PHILANTHROPY |  | zip9:1,zip5:1
+p0012:10 | 5/review | 2/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | PALO ALTO, CA | SELF-EMPLOYED/INVESTMENTS AND PHILANTHROPY |  | zip9:1,zip5:1
+p0012:11 | 5/review | 2/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC MR. | WEST HOLLYWOOD, CA | SELF/PHILANTHROPIST |  | 
+p0012:12 | 5/review | 2/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | PALO ALTO, CA | N/A/INVESTMENTS AND PHILANTHROPY |  | zip9:2,zip5:2
+p0012:13 | 5/review | 2/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | PALO ALTO, CA | SELF-EMPLOYED/INVESTOR |  | zip9:1,zip5:1
+p0012:14 | 5/review | 2/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | SANTA BARBARA, CA | SELF-EMPLOYED/INVESTOR |  | zip9:2,zip5:2
+p0012:15 | 5/review | 2/3 +0missing/0conflicts | 3 | SCHMIDT, ERIC | WEST HOLLYWOOD, CA | SELF/INVESTMENTS AND PHILANTHROPY |  | 
+p0012:16 | 5/review | 2/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | WEST HOLLYWOOD, CA | SELF EMPLOYED/INVESTOR |  | 
+p0012:17 | 5/review | 2/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | WEST HOLLYWOOD, CA | SELF EMPLOYED/INVESTMENTS AND PHILANTHROPY |  | 
+p0012:18 | 5/review | 2/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | PALO ALTO, CA | SELF/TECHNICAL ADVISOR |  | zip9:2,zip5:2
+p0012:19 | 5/review | 2/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC E. | PALO ALTO, CA | SELF/INVESTMENTS AND PHILANTHROPY |  | zip9:2,zip5:2
+p0012:20 | 5/review | 2/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | CHESTERFIELD, MO | SAGEPOINT FINANCIAL/FINANCIAL ADVISOR |  | 
+p0012:21 | 5/review | 2/3 +0missing/0conflicts | 3 | SCHMIDT, ERIC | PALO ALTO, CA | NONE/INVESTMENTS AND PHILANTHROPY |  | zip9:2,zip5:3
+p0012:22 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | LODI, CA | PATHWAY CONSTRUCTION AND ELECTRIC/ |  | 
+p0012:23 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | SANFORD, NC | FIRST HEATH OF THE CAROLINA/MEDICAL PROVIDER |  | 
+p0012:24 | 4/review | 1/2 +1missing/0conflicts | 2 | SCHMIDT, ERIC | SEATTLE, WA | NOT EMPLOYED/NOT EMPLOYED |  | 
+p0012:25 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | WEST HOLLYWOOD, CA | SELF EMPLOYED/INVESTMENTS |  | 
+p0012:26 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | CEDARBURG, WI | CG SCHMIDT/CONSTRUCTION |  | 
+p0012:27 | 4/review | 1/2 +1missing/0conflicts | 70 | SCHMIDT, ERIC | PALO ALTO, CA | /;N/A/NOT EMPLOYED;NOT EMPLOYED/NOT EMPLOYED;NOT EMPLOYED/RETIRED;RETIRED/RETIRED |  | zip9:22,zip5:70
+p0012:28 | 4/review | 1/2 +1missing/0conflicts | 1 | SCHMIDT, ERIC | VALENCIA, CA | RETIRED/RETIRED |  | 
+p0012:29 | 4/review | 1/3 +0missing/0conflicts | 4 | SCHMIDT, ERIC | TWO RIVERS, WI | NEXTERA POINT BEACH/ROTATIONAL ASSIGNMENT |  | 
+p0012:30 | 4/review | 1/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | AMAGANSETT, NY | SEC/LAWYER |  | 
+p0012:31 | 4/review | 1/2 +1missing/0conflicts | 3 | SCHMIDT, ERIC | SANFORD, NC | RETIRED/RETIRED |  | 
+p0012:32 | 4/review | 1/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | HOUSTON, TX | WILLIAMS WPC-I, LLC./VP TECHNICAL SERVICES - T&G |  | 
+p0012:33 | 4/review | 1/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC MR. | SAINT JACOB, IL | HOME TELEPHONE CO./MANAGER |  | 
+p0012:34 | 4/review | 1/3 +0missing/0conflicts | 38 | SCHMIDT, ERIC | TWO RIVERS, WI | NEXTERA POINT BEACH/N ENGINEERING MANAGER |  | 
+p0012:35 | 4/review | 1/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | PALO ALTO, CA | SELF-EMPLOYED/INVESTMENTS |  | zip9:1,zip5:2
+p0012:36 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | APPLE VALLEY, CA | EXQUADRUM, LLC/AEROSPACE ENGINEER |  | 
+p0012:37 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | SANTA CLARITA, CA | ERIC SCHMIDT/COMPOSER |  | 
+p0012:38 | 4/review | 1/3 +0missing/0conflicts | 3 | SCHMIDT, ERIC | CARL JUNCTION, MO | EMPIRE DISTRICT ELECTRIC COMPANY/ENGINEER II - TELECOMMUNICATIONS (5000 |  | 
+p0012:39 | 4/review | 1/2 +1missing/0conflicts | 1 | SCHMIDT, ERIC | HENDERSON, NV | RETIRED/RETIRED |  | 
+p0012:40 | 4/review | 1/3 +0missing/0conflicts | 199 | SCHMIDT, ERIC | BROOKLYN, NY | SEC/LAWYER |  | 
+p0012:41 | 4/review | 1/3 +0missing/0conflicts | 12 | SCHMIDT, ERIC | SILVER LAKE, NH | CONSULTANT/INFOR |  | 
+p0012:42 | 4/review | 1/2 +1missing/0conflicts | 1 | SCHMIDT, ERIC | LONGWOOD, FL | RETIRED/RETIRED |  | 
+p0012:43 | 4/review | 1/2 +1missing/0conflicts | 2 | SCHMIDT, ERIC | NEW ORLEANS, LA | NOT EMPLOYED/NOT EMPLOYED |  | 
+p0012:44 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | VALENCIA, CA | ERIC SCHMIDT/COMPOSER |  | 
+p0012:45 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | LEVITTOWN, NY | AMA HOLDING,  INC/SHEET METAL WORKER |  | 
+p0012:46 | 4/review | 1/3 +0missing/0conflicts | 48 | SCHMIDT, ERIC | DULUTH, GA | WILLIAMS WPC-I, LLC./DIR TECHNICAL SERVICES |  | 
+p0012:47 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | DULUTH, GA | WILLIAMS WPC-I, LLC./DIR TECHNICAL SERVICES - TPG |  | 
+p0012:48 | 4/review | 1/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | HOUSTON, TX | WILLIAMS WPC-I, LLC./VP TECHNICAL SERVICES - TPG |  | 
+p0012:49 | 4/review | 1/3 +0missing/0conflicts | 4 | SCHMIDT, ERIC | CEDARBURG, WI | CG SCHMIDT/MANAGER |  | 
+p0012:50 | 4/review | 1/3 +0missing/0conflicts | 9 | SCHMIDT, ERIC | SAINT JACOB, IL | PROGRESSIVE VOICE  DATA INC/MANAGER;PROGRESSIVE VOICE  DATA INC./MANAGER;PROGRESSIVE VOICE  DATA, INC./MANAGER;PROGRESSIVE VOICE DATA, INC./MANAGER |  | 
+p0012:51 | 4/review | 1/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | VALENCIA, CA | SELF-EMPLOYED/COMPOSER |  | 
+p0012:52 | 4/review | 1/2 +1missing/0conflicts | 2 | SCHMIDT, ERIC E. | APPLE VALLEY, CA | RETIRED/RETIRED |  | 
+p0012:53 | 4/review | 1/3 +0missing/0conflicts | 36 | SCHMIDT, ERIC | MADISON, WI | NEXTERA POINT BEACH/ROTATIONAL ASSIGNMENT |  | 
+p0012:54 | 4/review | 1/2 +1missing/0conflicts | 1 | SCHMIDT, ERIC | TALLAHASSEE, FL | NOT EMPLOYED/NOT EMPLOYED |  | 
+p0012:55 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | PEARLAND, TX | SELF EMPLOYED/CONSTRUCTION |  | 
+p0012:56 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | DRAPER, UT | NEW ROADS BEHAVIORAL HEALTH/MEDICAL ADMIN. |  | 
+p0012:57 | 4/review | 1/2 +1missing/0conflicts | 1 | SCHMIDT, ERIC | MOUNTAIN VIEW, CA | / |  | zip9:0,zip5:1
+p0012:58 | 4/review | 1/3 +0missing/0conflicts | 2 | SCHMIDT, ERIC | VALENCIA, CA | SELF/COMPOSER |  | 
+p0012:59 | 4/review | 1/2 +1missing/0conflicts | 1 | SCHMIDT, ERIC | FAIRFAX STATION, VA | / |  | 
+p0012:60 | 4/review | 1/2 +1missing/0conflicts | 56 | SCHMIDT, ERIC | ENGLEWOOD CLIFFS, NJ | N/A/NOT EMPLOYED;N/A/RETIRED;NOT EMPLOYED/NOT EMPLOYED;NOT EMPLOYED/RETIRED |  | 
+p0012:61 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | LODI, CA | PATHWAY CONSTRUCTION AND ELECTRIC/SHOP MANAGER |  | 
+p0012:62 | 4/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERIC | PALO ALTO, CA | SELF/FINANCIAL/INVESTMENT |  | zip9:1,zip5:1
+p0012:63 | 4/review | 1/3 +0missing/0conflicts | 103 | SCHMIDT, ERIC | NEW YORK, NY | SEC/LAWYER |  | 
+p0012:64 | 4/review | 1/2 +1missing/0conflicts | 4 | SCHMIDT, ERIC | CUPERTINO, CA | NOT EMPLOYED/NOT EMPLOYED |  | 
+p0012:65 | 3/review | 1/3 +0missing/0conflicts | 1 | SCHMITT, ERIC | MARYVILLE, TN | HOME DEPOT U.S.A., INC./STORE MANAGER | surname_variant | 
+p0012:66 | 3/review | 1/3 +0missing/0conflicts | 11 | SCHMITT, ERIC | OAK RIDGE, TN | HOME DEPOT U.S.A., INC./STORE MANAGER | surname_variant | 
+p0012:67 | 3/review | 1/2 +1missing/0conflicts | 1 | SCHMITT, ERIC | FORT PIERCE, FL | RETIRED/RETIRED | surname_variant | 
+p0012:68 | 3/review | 1/3 +0missing/0conflicts | 4 | SCHMITT, ERIC | ATLANTA, GA | HOME DEPOT U.S.A., INC./STORE MANAGER | surname_variant | 
+p0012:69 | 3/review | 1/3 +0missing/0conflicts | 1 | SCHMITT, ERIC | CHICAGO, IL | THE QUINIAN LAW FIRM/ATTORNEY | surname_variant | 
+p0012:70 | 3/review | 1/3 +0missing/0conflicts | 3 | SCHMITT, ERIC | BYRON CENTER, MI | ACTALENT/ENGINEERING | surname_variant | 
+p0012:71 | 3/review | 1/3 +0missing/0conflicts | 1 | SCHMITT, ERIC | CHICAGO, IL | THE QUINLAN LAW PIRM LLP/ATTORNEY | surname_variant | 
+p0012:72 | 3/review | 1/3 +0missing/0conflicts | 2 | SCHMITT, ERIC | CHICAGO, IL | THE QUINLAN LAW FIRM LLP/ATTORNEY;THE QUINLAN LAW FIRM, LLC/ATTORNEY | surname_variant | 
+p0012:73 | 0/review | 0/3 +0missing/1conflicts | 1 | SCHMIDT, ERIC J | CARL JUNCTION, MO | EMPIRE DISTRICT ELECTRIC COMPA/ENGINEER II - TELECOMMUNICATIONS (5000 | name_needs_review,middle_name | 
+p0012:74 | 0/review | 0/3 +0missing/1conflicts | 1 | SCHMIDT, ERIC M. | PALO ALTO, CA | SELF-EMPLOYED/INVESTMENTS | name_needs_review,middle_name | zip9:0,zip5:1
+p0012:75 | 0/review | 0/3 +0missing/1conflicts | 11 | SCHMIDT, ERIC M | AMAGANSETT, NY | SEC/LAWYER | name_needs_review,middle_name | 
+p0012:76 | 0/review | 0/3 +0missing/1conflicts | 1 | SCHMIDT, ERIC J | CARL JUNCTION, MO | EMPIRE DISTRICT ELECTRIC COMPA/SYSTEM ADMINISTRATOR | name_needs_review,middle_name | 
+p0012:77 | 0/review | 0/3 +0missing/1conflicts | 1 | SCHMIDT, ERIC A. MR. | SAINT JACOB, IL | PROGRESSIVE VOICE  DATA INC/MANAGER | name_needs_review,middle_name | 
+p0012:78 | -1/review | 0/3 +0missing/1conflicts | 6 | SCHMITT, ERIC C. | FRESNO, CA | NETJETS AVIATION, INC./PILOT | name_needs_review,surname_variant,middle_name | 
+p0012:79 | -3/review | 1/3 +0missing/0conflicts | 3 | SCHMIDT, ERICH | CHARLESTON, SC | YACHT MANAGEMENT SERVICES/OWNER | name_needs_review | 
+p0012:80 | -3/review | 1/3 +0missing/0conflicts | 1 | SCHMIDT, ERICK | MASON, OH | MCGOHAN BRABENDER/MANAGING PARTNER | name_needs_review | 
+p0012:81 | -4/review | 0/3 +0missing/0conflicts | 2 | SCHMIDT, ERICH | CHARLESTON, SC | SELF EMPLOYED/YACHT REPAIR SERVICES;SELF-EMPLOYED/YACHT REPAIR SERVICES | name_needs_review | 
+p0012:82 | -4/review | 0/3 +0missing/0conflicts | 2 | SCHMIDT, ERIN | MONROVIA, CA | CHILDREN/REGISTERED NURSE | name_needs_review | 
+p0012:83 | -4/review | 0/3 +0missing/0conflicts | 3 | SCHMIDT, ERIN;SCHMIDT, ERIN MRS. | BRENTWOOD, TN | HCA/MANAGED CARE | name_needs_review | 
+p0012:84 | -4/review | 0/3 +0missing/0conflicts | 1 | SCHMIDT, ERIK | MADISON, AL | MAZDA TOYOTA/INDUSTRIAL MAINTENANCE TECHNICIAN | name_needs_review | 
+p0012:85 | -4/review | 0/3 +0missing/0conflicts | 5 | SCHMIDT, ERICH | LOS GATOS, CA | STANFORD/FACILITIES MANAGER | name_needs_review | 
+p0012:86 | -4/review | 0/3 +0missing/0conflicts | 2 | SCHMIDT, ERICH | LOS GATOS, CA | CZI/MANAGER | name_needs_review | 
+p0012:87 | -4/review | 0/3 +0missing/0conflicts | 2 | SCHMIDT, ERIN | NORTH LIBERTY, IA | MISSION VETERINARY PARTNERS/VETERINARIAN | name_needs_review | 
+p0012:88 | -4/review | 1/3 +0missing/0conflicts | 6 | SCHMITT, ERIK | NEW YORK, NY | JPMORGAN CHASE BANK, N.A./MB CHANNEL EXECUTIVE | name_needs_review,surname_variant | 
+p0012:89 | -4/review | 0/3 +0missing/0conflicts | 3 | SCHMIDT, ERIK | MADISON, AL | MAZDA TOYOTA MANUFACTURING/INDUSTRIAL MAINTENANCE TECHNICIAN | name_needs_review | 
+p0012:90 | -4/review | 0/3 +0missing/0conflicts | 2 | SCHMIDT, ERIK | SHOREWOOD, WI | SELF EMPLOYED/FARMER | name_needs_review | 
+p0012:91 | -4/review | 0/3 +0missing/0conflicts | 2 | SCHMIDT, ERIK | MILWAUKEE, WI | SELF/FARRIER | name_needs_review | 
+p0012:92 | -4/review | 0/3 +0missing/0conflicts | 2 | SCHMIDT, ERIN | PHILA, PA | GSK/ATTORNEY | name_needs_review | 
+p0012:93 | -4/review | 0/3 +0missing/0conflicts | 2 | SCHMIDT, ERICH | CASPER, WY | TRUE OIL LLC/ENGINEER | name_needs_review | 
+p0012:94 | -4/review | 0/3 +0missing/0conflicts | 12 | SCHMIDT, ERIN | SAINT LOUIS, MO | YMCA/MEMBER SERVICE ASSOCIATE | name_needs_review | 
+p0012:95 | -4/review | 0/3 +0missing/0conflicts | 18 | SCHMIDT, ERIN | SAINT LOUIS, MO | KIRKWKKD/EDUCATION | name_needs_review | 
+p0012:96 | -4/review | 0/2 +1missing/0conflicts | 45 | SCHMIDT, ERIK | DARIEN, IL | NONE/RETIRED;NOT EMPLOYED/NOT EMPLOYED | name_needs_review | 
+p0012:97 | -4/review | 1/3 +0missing/0conflicts | 5 | SCHMITT, ERIK | NEW YORK, NY | JPMORGAN CHASE BANK, N.A./MANAGING DIRECTOR OF PRODUCT | name_needs_review,surname_variant | 
+p0012:98 | -4/review | 0/3 +0missing/0conflicts | 13 | SCHMIDT, ERIN | SAINT LOUIS, MO | YMCA/MSA | name_needs_review | 
+p0012:99 | -4/review | 0/3 +0missing/0conflicts | 1 | SCHMIDT, ERICH | LOS GATOS, CA | C/FACILITIES MANAGER | name_needs_review | 
+p0012:100 | -4/review | 0/3 +0missing/0conflicts | 1 | SCHMIDT, ERICH | CHARLESTON SC, SC | ABBRA - AMERICAN BOAT BUILDERS & REPAI/BOAT REPAIR | name_needs_review | 
+p0012:101 | -4/review | 0/2 +1missing/0conflicts | 2 | SCHMIDT, ERIK | SHOREWOOD, WI | NOT EMPLOYED/NOT EMPLOYED | name_needs_review | 
+p0012:102 | -4/review | 0/3 +0missing/0conflicts | 1 | SCHMIDT, ERIK | DARIEN, IL | CAPITAL ONE/ATTORNEY | name_needs_review | 
+p0012:103 | -4/reject | 1/3 +0missing/1conflicts | 12 | SCHMIDT, ERIC | KIRKLAND, WA;MOUNTAIN VIEW, CA | GOOGLE LLC/DEVELOPER PROGRAMS ENGINEER | profession | zip9:0,zip5:6
+p0012:104 | -4/review | 1/3 +0missing/0conflicts | 7 | SCHMITT, ERIK | NEW YORK, NY | JPMORGAN CHASE BANK, N.A./MARKETING EXECUTIVE | name_needs_review,surname_variant | 
+p0012:105 | -4/review | 0/3 +0missing/0conflicts | 1 | SCHMIDT, ERICH | LOS GATOS, CA | /FACILITIES MANAGER | name_needs_review | 
+p0012:106 | -4/review | 0/2 +1missing/0conflicts | 1 | SCHMIDT, ERIN | WISCONSIN RAPIDS, WI | N/A/RETIRED | name_needs_review | 
+p0012:107 | -4/reject | 1/3 +0missing/1conflicts | 7 | SCHMIDT, ERIC | LYNNWOOD, WA | GOOGLE/SOFTWARE ENGINEER | profession | 
+p0012:108 | -4/review | 0/2 +1missing/0conflicts | 1 | SCHMIDT, DERIC | WEST HOLLYWOOD, CA | NOT EMPLOYED/NOT EMPLOYED | name_needs_review | 
+p0012:109 | -4/review | 0/3 +0missing/0conflicts | 1 | SCHMIDT, ERICH | LOS GATOS, CA | C/FM | name_needs_review | 
+p0012:110 | -4/review | 0/3 +0missing/0conflicts | 1 | SCHMIDT, ERICK | CINCINNATI, OH | MCGOHAN BRABENDER/INSURANCE BROKER | name_needs_review | 
+p0012:111 | -5/review | 0/3 +0missing/0conflicts | 4 | SCHMITT, ERICA | SAN FRANCISCO, CA | UCSF CHILDREN'S HOSPITAL OAKLAND/RN | name_needs_review,surname_variant | 
+p0012:112 | -5/review | 0/2 +1missing/0conflicts | 2 | SCHMITT, ERIK | AUSTIN, TX | NOT EMPLOYED/NOT EMPLOYED | name_needs_review,surname_variant | 
+p0012:113 | -5/review | 0/3 +0missing/0conflicts | 2 | SCHMITT, ERICA | SAN FRANCISCO, CA | BCH OAKLAND/RN | name_needs_review,surname_variant | 
+p0012:114 | -5/review | 0/2 +1missing/0conflicts | 2 | SCHMITT, ERICH | APPLE VALLEY, CA | RETIRED/RETIRED | name_needs_review,surname_variant | 
+p0012:115 | -7/reject | 2/3 +0missing/1conflicts | 15 | SCHMIDT, ERIC | FAIRFAX STATION, VA | GLUE UP/CEO | documented_namesake | 
+p0012:116 | -8/review | 0/3 +0missing/1conflicts | 1 | SCHMIDT, ERIN AND CHRIS | EVANSTON, IL | LURIE CHILDRENS SURGICAL FOUNDATION/PEDIATRIC SURGEON | joint_name,name_needs_review,middle_name | 
+p0012:117 | -8/review | 0/3 +0missing/1conflicts | 1 | SCHMIDT, ERIN AND CHRIS | EVANSTON, IL | LURIE CHILDREN'S SURGICAL FOUNDATION/PEDIATRIC SURGEON | joint_name,name_needs_review,middle_name | 
+p0012:118 | -9/review | 0/3 +0missing/1conflicts | 2 | SCHMIDT, ERIK V | MADISON, AL | MAZDA TOYOTA/INDUSTRIAL MAINTENANCE TECHNICIAN | name_needs_review,suffix | 
+p0012:119 | -9/review | 0/3 +0missing/1conflicts | 2 | SCHMIDT, ERIK V | MADISON, AL | MAZDA TOYOTA MANUFACTURING/INDUSTRIAL MAINTENANCE TECHNICIAN | name_needs_review,suffix | 
+p0012:120 | -11/reject | 1/3 +0missing/2conflicts | 15 | SCHMIDT, ERIC L | FAIRFAX STATION, VA | GLUE UP/CEO | name_needs_review,documented_namesake,middle_name | 
+p0012:121 | -11/reject | 1/3 +0missing/2conflicts | 1 | SCHMIDT, ERIC L. | FAIRFAX STATION, VA | GLUE UP/EXECUTIVE | name_needs_review,not_explicitly_individual,documented_namesake,middle_name | 
+p0012:122 | -11/reject | 1/3 +0missing/2conflicts | 12 | SCHMIDT, ERIC L | FAIRFAX STATION, VA | GLUE UP/EXECUTIVE | name_needs_review,documented_namesake,middle_name | 
+
+p0013 Sean Parker
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: SEAN; middle: ; initials: N; suffixes: ; distinctiveness hypothesis: 0
+Affiliations: Parker Foundation
+Explicit contrary occupations: 
+p0013:1 | 9/accept | 2/3 +0missing/0conflicts | 4 | PARKER, SEAN N. | PALO ALTO, CA | SEAN N PARKER FOUNDATION/CHAIRMAN;SEAN N. PARKER FOUNDATION/CHAIRMAN |  | 
+p0013:2 | 9/accept | 2/3 +0missing/0conflicts | 179 | PARKER, SEAN;PARKER, SEAN MR. | MENLO, CA;PALO ALTO, CA | SEAN N PARKER FOUNDATION/CHAIRMAN;SEAN N PARKER FOUNDATION/ENTREPRENEUR;SEAN N. PARKER FOUNDATION/CHAIR;SEAN N. PARKER FOUNDATION/CHAIRMAN;SEAN PARKER FOUNDATION/CHAIRMAN;SEAN PARKER FOUNDATION/INVESTOR;THE PARKER FOUNDATION/CHAIRMAN;THE PARKER FOUNDATION/PHILANTHROPIST & ENTREPRENEUR |  | 
+p0013:3 | 8/review | 2/3 +0missing/0conflicts | 4 | PARKER, SEAN | PALO ALTO, CA | CHAIRMAN/SEAN N PARKER FOUNDATION;CHAIRMAN/SEAN N. PARKER FOUNDATION | swapped_fields | zip9:4,zip5:4
+p0013:4 | 7/review | 2/3 +0missing/0conflicts | 2 | PARKER, SEAN | PALO ALTO, CA | SHAWN N PARKER FOUNDATION/CHAIRMAN | affiliation_typo | zip9:2,zip5:2
+p0013:5 | 5/review | 2/3 +0missing/0conflicts | 6 | PARKER, SEAN | PALO ALTO, CA | PARKER MEDIA LLC/OWNER;PARKER MEDIA, LLC/OWNER |  | zip9:1,zip5:6
+p0013:6 | 5/review | 2/3 +0missing/0conflicts | 2 | PARKER, SEAN | PALO ALTO, CA | APERCEN PARTNERS, LLC/EXECUTIVE |  | zip9:0,zip5:2
+p0013:7 | 5/review | 2/3 +0missing/0conflicts | 2 | PARKER, SEAN | PALO ALTO, CA | SELF EMPLOYED/PHILANTHROPIST |  | zip9:2,zip5:2
+p0013:8 | 5/review | 2/3 +0missing/0conflicts | 2 | PARKER, SEAN | PALO ALTO, CA | APERCEN PARTNERS/ENTREPRENEUR |  | zip9:2,zip5:2
+p0013:9 | 5/review | 2/3 +0missing/0conflicts | 2 | PARKER, SEAN | PALO ALTO, CA | PARKER MEDIA/CHAIRMAN |  | zip9:2,zip5:2
+p0013:10 | 5/review | 2/3 +0missing/0conflicts | 7 | PARKER, SEAN | PALO ALTO, CA | SELF EMPLOYED/ENTREPRENEUR;SELF-EMPLOYED/ENTREPRENEUR |  | zip9:7,zip5:7
+p0013:11 | 5/review | 2/3 +0missing/0conflicts | 25 | PARKER, SEAN | PALO ALTO, CA | SEAN PARKER/ENTREPRENEUR |  | zip9:2,zip5:25
+p0013:12 | 5/review | 2/3 +0missing/0conflicts | 9 | PARKER, SEAN | PALO ALTO, CA | SELF/ENTREPRENEUR |  | zip9:8,zip5:9
+p0013:13 | 5/review | 2/3 +0missing/0conflicts | 2 | PARKER, SEAN | PALO ALTO, CA | SEAN N FOUNDATION/CHAIRMAN |  | zip9:2,zip5:2
+p0013:14 | 5/review | 2/3 +0missing/0conflicts | 4 | PARKER, SEAN | PALO ALTO, CA | APERCEN PARTNERS, LLC/PARTNER |  | zip9:4,zip5:4
+p0013:15 | 5/review | 2/3 +0missing/0conflicts | 2 | PARKER, SEAN | LOVELAND, OH | MAIN STREET VENTURES/EXECUTIVE DIRECTOR |  | 
+p0013:16 | 5/review | 2/3 +0missing/0conflicts | 2 | PARKER, SEAN | PALO ALTO, CA | SELF EMPLOYED/ENTREPRENEUR/PHILANTHROPIST |  | zip9:2,zip5:2
+p0013:17 | 4/review | 1/3 +0missing/0conflicts | 4 | PARKER, SEAN | LAS VEGAS, NV | TEACH FOR AMERICA/EDUCATION NON-PROFIT |  | 
+p0013:18 | 4/review | 1/2 +1missing/0conflicts | 1 | PARKER, SEAN | OMAHA, NE | / |  | 
+p0013:19 | 4/review | 1/3 +0missing/0conflicts | 1 | PARKER, SEAN | BAINBRIDGE ISLAND, WA | SEAN PARKER ARCHITECHTS/ARCHITECT |  | 
+p0013:20 | 4/review | 1/3 +0missing/0conflicts | 2 | PARKER, SEAN | PALO ALTO, CA | ENTREPRENEUR/SELF EMPLOYED |  | zip9:2,zip5:2
+p0013:21 | 4/review | 1/2 +1missing/0conflicts | 12 | PARKER, SEAN | PALO ALTO, CA | /;NOT EMPLOYED/NOT EMPLOYED |  | zip9:11,zip5:12
+p0013:22 | 4/review | 1/3 +0missing/0conflicts | 2 | PARKER, SEAN | SAN LUIS OBISPO, CA | SELF-EMPLOYED/PRODUCE BROKER |  | 
+p0013:23 | 4/review | 1/3 +0missing/0conflicts | 3 | PARKER, SEAN | LAS VEGAS, NV | TEACH FOR AMERICA/EDUCATER |  | 
+p0013:24 | 4/review | 1/3 +0missing/0conflicts | 4 | PARKER, SEAN | LAKEWOOD, CO | IVANTI/ENGINEER |  | 
+p0013:25 | 4/review | 1/3 +0missing/0conflicts | 1 | PARKER, SEAN | PALO ALTO, CA | APERCEN PARTNERS, LLC/ |  | zip9:1,zip5:1
+p0013:26 | 4/review | 1/3 +0missing/0conflicts | 2 | PARKER, SEAN | PALO ALTO, CA | N/A/NOT EMPLYED |  | zip9:2,zip5:2
+p0013:27 | 4/review | 1/3 +0missing/0conflicts | 2 | PARKER, SEAN | BAINBRIDGE ISLAND, WA | SPAI/ARCHITECT |  | 
+p0013:28 | 0/review | 0/2 +1missing/0conflicts | 10 | PARKER, S | SAN CLEMENTE, CA | RETIRED/RETIRED | name_needs_review | 
+p0013:29 | 0/review | 0/3 +0missing/1conflicts | 1 | PARKER, SEAN AND ANDREW | DECATUR, GA | FRIENDS SCHOOL OF ATLANTA/SCHOOL ADMINISTRATOR | joint_name,name_needs_review,middle_name | 
+p0013:30 | 0/review | 0/3 +0missing/1conflicts | 17 | PARKER, SEAN M | PORTSMOUTH, NH | JETBLUE AIRWAYS/AIRLINE PILOT | name_needs_review,middle_name | 
+p0013:31 | -3/review | 1/3 +0missing/0conflicts | 8 | PARKER, SHAWN | HEATH, OH | PARKER REALTY ASSOCIATES/FOUNDER | name_needs_review | 
+p0013:32 | -3/review | 1/3 +0missing/0conflicts | 2 | PARKER, DEAN | MOBILE, AL | VITA CAPITAL/CEO | name_needs_review | 
+p0013:33 | -3/review | 1/3 +0missing/0conflicts | 22 | PARKER, SHAWN | WASHINGTON, DC | DELL TECHNOLOGIES, INC./SENIOR PRINCIPAL ENGINEER, SOLUTIONS A | name_needs_review | 
+p0013:34 | -3/review | 1/3 +0missing/0conflicts | 4 | PARKER, SHAWN | PASO ROBLES, CA | DELL TECHNOLOGIES, INC./SENIOR PRINCIPAL ENGINEER, SOLUTIONS A | name_needs_review | 
+p0013:35 | -3/review | 1/3 +0missing/0conflicts | 28 | PARKER, SHAWN | SAN FRANCISCO, CA | DELL TECHNOLOGIES, INC./SENIOR PRINCIPAL ENGINEER, SOLUTIONS A | name_needs_review | 
+p0013:36 | -4/review | 0/3 +0missing/0conflicts | 8 | PARKER, SHAN | SPRING HILL, TN | WALGREEN CO/PHARMACY MANAGER | name_needs_review | 
+p0013:37 | -4/review | 0/2 +1missing/0conflicts | 5 | PARKER, STAN | OLYMPIA, WA | RETIRED/RETIRED | name_needs_review | 
+p0013:38 | -4/review | 0/2 +1missing/0conflicts | 12 | PARKER, JEAN | HIXSON, TN | RETIRED/RETIRED | name_needs_review | 
+p0013:39 | -4/review | 0/2 +1missing/0conflicts | 1 | PARKER, STAN | JACKSON, TN | RETIRED/RETIRED | name_needs_review | 
+p0013:40 | -4/review | 0/3 +0missing/0conflicts | 2 | PARKER, JEAN | PICKERINGTON, OH | SELF EMPLOYED/CORPORATE TRAINING | name_needs_review | 
+p0013:41 | -4/review | 0/2 +1missing/0conflicts | 1 | PARKER, STAN | BELLINGHAM, WA | NOT EMPLOYED/NOT EMPLOYED | name_needs_review | 
+p0013:42 | -4/review | 0/3 +0missing/0conflicts | 4 | PARKER, SHAWN | COLUMBUS, OH | AEP SERVICE CORPORATION/WORKPLACE SVCS PROGRAM SUPV | name_needs_review | 
+p0013:43 | -4/review | 0/3 +0missing/0conflicts | 2 | PARKER, SHAWN | COLUMBUS, OH | AEP SERVICE CORPORATION/PERFORMANCE MGMT ANALYST SR | name_needs_review | 
+p0013:44 | -4/review | 0/3 +0missing/0conflicts | 2 | PARKER, JEAN | COLUMBIA, MD | IT'S MY AMPHITHEATER INC./CONCERT PRODUCER;IT'S MY AMPHITHEATER, INC./CONCERT PRODUCER | name_needs_review | 
+p0013:45 | -4/review | 0/2 +1missing/0conflicts | 2 | PARKER, SHAUN | LOS LUNAS, NM | / | name_needs_review | 
+p0013:46 | -4/review | 0/3 +0missing/0conflicts | 1 | PARKER, SHAWN | POWELL, OH | PARKER REALTY/BROKER | name_needs_review | 
+p0013:47 | -4/review | 0/2 +1missing/0conflicts | 6 | PARKER, JEAN | LAKELAND, FL | / | name_needs_review | 
+p0013:48 | -4/review | 0/2 +1missing/0conflicts | 1 | PARKER, JEAN | SALT SPRINGS, FL | RETIRED/RETIRED | name_needs_review | 
+p0013:49 | -4/review | 0/2 +1missing/0conflicts | 1 | PARKER, SHAWN | STAATSBURG, NY | / | name_needs_review | 
+p0013:50 | -4/review | 0/3 +0missing/0conflicts | 2 | PARKER, DEAN | CORONA, CA | LA COUNTY/SHERIFF | name_needs_review | 
+p0013:51 | -4/review | 0/3 +0missing/0conflicts | 10 | PARKER, SHAN | SPRING HILL, TN | WALGREEN CO/PHARMACY MANAGER (84 HOURS) | name_needs_review | 
+p0013:52 | -4/review | 0/3 +0missing/0conflicts | 6 | PARKER, DEAN | CHESAPEAKE, VA | PHARMAVITE LLC/KEY ACCOUNT MANAGER | name_needs_review | 
+p0013:53 | -4/review | 0/3 +0missing/0conflicts | 1 | PARKER, SHAWN | COLUMBUS, OH | AEP/FOOD MANAGER | name_needs_review | 
+p0013:54 | -4/review | 0/3 +0missing/0conflicts | 2 | PARKER, SHAUN MR. | PORT JERVIS, NY | GRAY PARKER/MORTICIAN | name_needs_review | 
+p0013:55 | -4/review | 0/2 +1missing/0conflicts | 43 | PARKER, DEAN | BIRMINGHAM, AL | NONE/RETIRED;RETIRED/RETIRED | name_needs_review | 
+p0013:56 | -4/review | 0/3 +0missing/0conflicts | 4 | PARKER, SHAWN | SAN FRANCISCO, CA | DELL/SOLUTION ARCHITECT | name_needs_review | 
+p0013:57 | -4/review | 0/3 +0missing/0conflicts | 2 | PARKER, STAN | LINCOLN, IL | CATERPILLAR INC/MANUFACTURING ENGINEERING MANAGER | name_needs_review | 
+p0013:58 | -4/review | 0/3 +0missing/0conflicts | 2 | PARKER, STAN | NEW YORK, NY | GAMUT CAPITAL/BANKER | name_needs_review | 
+p0013:59 | -4/review | 0/2 +1missing/0conflicts | 4 | PARKER, JEAN | ATLANTA, GA | /;RETIRED/RETIRED | name_needs_review | 
+p0013:60 | -4/review | 0/2 +1missing/0conflicts | 108 | PARKER, DEAN;PARKER, DEAN MR. | HOMEWOOD, AL | /;RETIRED/RETIRED | name_needs_review | 
+p0013:61 | -4/review | 0/3 +0missing/0conflicts | 2 | PARKER, STAN | NEW YORK, NY | GAMUT CAPITAL MANAGEMENT/INVESTMENT MANAGER | name_needs_review | 
+p0013:62 | -4/review | 0/3 +0missing/0conflicts | 80 | PARKER, SHAWN | WINTER SPRINGS, FL | VERIZON/CORPORATE TRAINER | name_needs_review | 
+p0013:63 | -4/review | 0/2 +1missing/0conflicts | 1 | PARKER, JEAN | TUJUNGA, CA | / | name_needs_review | 
+p0013:64 | -4/review | 0/2 +1missing/1conflicts | 1 | PARKER, S EDDIE MR. | FLORENCE, SC | RETIRED/RETIRED | name_needs_review,middle_name | 
+p0013:65 | -4/review | 0/3 +0missing/0conflicts | 4 | PARKER, DEAN | TAYLOR, MI | FORD MOTOR COMPANY/FACTORY WORKER | name_needs_review | 
+p0013:66 | -7/review | 1/3 +0missing/1conflicts | 1 | PARKER, SHAWN P | RALEIGH, NC | NCAFP/SENIOR VICE PRESIDENT | name_needs_review,middle_name | 
+p0013:67 | -7/review | 1/3 +0missing/1conflicts | 4 | PARKER, SHAUN S | FINDLAY, OH | MARATHON PETROLEUM COMPANY LP/BUSINESS STRATEGY & PARTNERSHIPS DIREC | name_needs_review,middle_name | 
+p0013:68 | -8/review | 0/3 +0missing/1conflicts | 10 | PARKER, SHAUN S | FINDLAY, OH | MARATHON PETROLEUM COMPANY LP/MANAGER IT | name_needs_review,middle_name | 
+p0013:69 | -8/review | 0/2 +1missing/1conflicts | 1 | PARKER, JEAN P | NORTH MYRTLE BEACH, SC | / | name_needs_review,middle_name | 
+p0013:70 | -8/review | 0/3 +0missing/1conflicts | 8 | PARKER, SHAUN S | FINDLAY, OH | MARATHON PETROLEUM COMPANY LP/ENGINEERING STRATEGY & ARCHITECTURE DI | name_needs_review,middle_name | 
+p0013:71 | -8/review | 0/3 +0missing/1conflicts | 43 | PARKER, SHAUN S | FINDLAY, OH | MARATHON PETROLEUM COMPANY LP/DIRECTOR INFORMATION TECHNOLOGY | name_needs_review,middle_name | 
+p0013:72 | -8/review | 0/3 +0missing/1conflicts | 5 | PARKER, SHAWN F. MR. | POWELL, OH | PARKER REALTY/REALTOR | name_needs_review,middle_name | 
+
+p0014 Vinod Khosla
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: VINOD; middle: ; initials: ; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: Khosla Ventures
+Explicit contrary occupations: 
+p0014:1 | 11/accept | 2/3 +0missing/0conflicts | 72 | KHOSLA, VINOD | MENLO PARK, CA;PORTOLA VALLEY, CA;SAN JOSE, CA | KHOSLA VENTURES/FOUNDER;KHOSLA VENTURES/VENTURE CAPITAL;KHOSLA VENTURES/VENTURE CAPITALIST;KHOSLA VENTURES LLC/VENTURE CAPITALIST;KHOSLA VENTURES, LLC/MANAGING DIRECTOR;KHOSLA VENTURES, LLC/VENTURE CAPITALIST |  | 
+p0014:2 | 6/review | 1/2 +1missing/0conflicts | 1 | KHOSLA, VINOD | PORTOLA VALLEY, CA | / |  | zip9:0,zip5:1
+
+p0015 Ron Conway
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: RON,RONALD; middle: ; initials: C; suffixes: ; distinctiveness hypothesis: 0
+Affiliations: SV Angel
+Explicit contrary occupations: 
+p0015:1 | 9/accept | 2/3 +0missing/0conflicts | 94 | CONWAY, RON C.;CONWAY, RONALD C;CONWAY, RONALD C. | BELVEDERE TIBURON, CA;BELVEDERE, CA;SAN FRANCISCO, CA;TIBURON, CA | SV ANGEL/ANGEL INVESTOR;SV ANGEL/FOUNDER;SV ANGEL/FOUNDER AND MANAGING PARTNER;SV ANGEL/MANAGING PARTNER;SV ANGEL/PRIVATE INVESTOR;SV ANGEL LLC/INVESTOR;SV ANGEL MANAGEMENT LLC/MANAGING PARTNER;SV ANGEL, LLC/FOUNDER;SV ANGEL, LLC/INVESTOR |  | 
+p0015:2 | 9/review | 2/3 +0missing/0conflicts | 3 | CONWAY, RON CRAWFORD | SAN FRANCISCO, CA | SV ANGEL LLC/INVESTOR | unverified_full_middle | zip9:1,zip5:3
+p0015:3 | 9/accept | 2/3 +0missing/0conflicts | 140 | CONWAY, RON;CONWAY, RON MR.;CONWAY, RONALD | BELVEDERE TIBURON, CA;BELVEDERE, CA;SAN FRANCISCO, CA;TIBURON, CA | SV ANGEL/CO-FOUNDER;SV ANGEL/FOUNDER;SV ANGEL/FOUNDER & CO-MANAGING PARTNER;SV ANGEL/FOUNDER AND A MANAGING PARTNER;SV ANGEL/FOUNDER AND MANAGING PARTNER;SV ANGEL/INVESTOR;SV ANGEL/INVESTOR/OWNER;SV ANGEL/VENTURE CAPITALIST;SV ANGEL LLC/FOUNDER;SV ANGEL LLC/FOUNDER & MANAGING PARTNER;SV ANGEL LLC/INVESTOR;SV ANGEL LLC/MANAGING PARTNER;SV ANGEL LLC/PRIVATE INVESTOR;SV ANGEL MANAGEMENT LLC/FOUNDER;SV ANGEL, LLC/INVESTOR;SV ANGEL, LLC/MANAGING MEMBER;SVANGEL/PRINCIPAL |  | 
+p0015:4 | 9/review | 2/3 +0missing/0conflicts | 3 | CONWAY, RONALD CRAWFORD | SAN FRANCISCO, CA | SV ANGEL LLC/INVESTOR | unverified_full_middle | zip9:0,zip5:3
+p0015:5 | 8/review | 2/3 +0missing/0conflicts | 1 | CONWAY, RONALD C. | BELVEDERE, CA | INVESTOR/SV ANGEL | swapped_fields | zip9:1,zip5:1
+p0015:6 | 5/review | 2/3 +0missing/0conflicts | 1 | CONWAY, RONALD | SAN FRANCISCO, CA | SELF-EMPLOYED/INVESTOR |  | zip9:1,zip5:1
+p0015:7 | 5/review | 2/3 +0missing/0conflicts | 18 | CONWAY, RON;CONWAY, RONALD | BELVEDERE, CA | SELF EMPLOYED/INVESTOR;SELF-EMPLOYED/INVESTOR |  | zip9:18,zip5:18
+p0015:8 | 5/review | 2/3 +0missing/0conflicts | 2 | CONWAY, RONALD | TIBURON, CA | SELF/INVESTOR |  | zip9:2,zip5:2
+p0015:9 | 5/review | 2/3 +0missing/0conflicts | 3 | CONWAY, RONALD C. | BELVEDERE, CA | SELF-EMPLOYED/PHILANTHROPIST |  | zip9:3,zip5:3
+p0015:10 | 5/review | 2/3 +0missing/0conflicts | 1 | CONWAY, RONALD C. | BELVEDERE, CA | SELF-EMPLOYED/INVESTOR/PHILANTHROPIST |  | zip9:1,zip5:1
+p0015:11 | 5/review | 2/3 +0missing/0conflicts | 1 | CONWAY, RONALD | TIBURON, CA | SELF EMPLOYED/PRIVATE INVESTOR |  | zip9:1,zip5:1
+p0015:12 | 5/review | 2/3 +0missing/0conflicts | 1 | CONWAY, RON | SAN FRANCISCO, CA | SELF/PHILANTHROPIST |  | zip9:0,zip5:1
+p0015:13 | 5/review | 2/3 +0missing/0conflicts | 1 | CONWAY, RONALD | TIBURON, CA | SELF/CONWAY  SELF/ANGEL INVESTOR |  | zip9:1,zip5:1
+p0015:14 | 5/review | 2/3 +0missing/0conflicts | 2 | CONWAY, RONALD | TIBURON, CA | SELF EMPLOYED/VENTURE CAPITAL |  | zip9:2,zip5:2
+p0015:15 | 5/review | 1/3 +0missing/1conflicts | 1 | CONWAY, RONALD J. | SAN FRANCISCO, CA | SV ANGEL, LLC/INVESTOR | name_needs_review,middle_name | zip9:1,zip5:1
+p0015:16 | 5/review | 2/3 +0missing/0conflicts | 2 | CONWAY, RONALD | BELVEDERE, CA | SELF EMPLOYED/VENTURE CAPITALIST |  | zip9:2,zip5:2
+p0015:17 | 5/review | 2/3 +0missing/0conflicts | 1 | CONWAY, RONALD C | BELVEDERE, CA | SELF EMPLOYED/VENTURE CAPITALIST |  | zip9:1,zip5:1
+p0015:18 | 5/review | 2/3 +0missing/0conflicts | 3 | CONWAY, RONALD | BELVEDERE, CA | SELF/CONWAY  SELF/ANGEL INVESTOR |  | zip9:3,zip5:3
+p0015:19 | 5/review | 2/3 +0missing/0conflicts | 2 | CONWAY, RONALD C. | SAN FRANCISCO, CA | ANGEL INVESTORS LC/MANAGING PARTNER |  | zip9:2,zip5:2
+p0015:20 | 5/review | 2/3 +0missing/0conflicts | 5 | CONWAY, RONALD | TIBURON, CA | SELF EMPLOYED/INVESTOR;SELF-EMPLOYED/INVESTOR |  | zip9:5,zip5:5
+p0015:21 | 5/review | 2/3 +0missing/0conflicts | 1 | CONWAY, RONALD C | SAN FRANCISCO, CA | SVA/MANAGING PARTNER |  | zip9:1,zip5:1
+p0015:22 | 5/review | 2/3 +0missing/0conflicts | 4 | CONWAY, RONALD | BELVEDERE TIBURON, CA | SELF EMPLOYED/INVESTOR |  | zip9:4,zip5:4
+p0015:23 | 5/review | 2/3 +0missing/0conflicts | 1 | CONWAY, RONALD | TIBURON, CA | SELF EMPLOYED/PHILANTHROPIST |  | zip9:1,zip5:1
+p0015:24 | 4/review | 1/3 +0missing/0conflicts | 2 | CONWAY, RON | SAN FRANCISCO, CA | SELF EMPLOYED/ART DIRECTOR |  | zip9:2,zip5:2
+p0015:25 | 4/review | 1/2 +1missing/0conflicts | 6 | CONWAY, RON | SOUR LAKE, TX | RETIRED/RETIRED |  | 
+p0015:26 | 4/review | 1/2 +1missing/0conflicts | 12 | CONWAY, RONALD | TIBURON, CA | /;SELF/SELF;SELF EMPLOYED/SELF EMPLOYED;SELF-EMPLOYED/SELF-EMPLOYED |  | zip9:8,zip5:12
+p0015:27 | 4/review | 1/2 +1missing/0conflicts | 2 | CONWAY, RONALD C | BELVEDERE, CA | /;NOT EMPLOYED/NOT EMPLOYED |  | zip9:2,zip5:2
+p0015:28 | 4/review | 1/2 +1missing/0conflicts | 414 | CONWAY, RON | MARYSVILLE, WA | N/A/NOT EMPLOYED;N/A/RETIRED;NONE/NOT EMPLOYED;NOT EMPLOYED/NOT EMPLOYED;NOT EMPLOYED/RETIRED;RETIRED/RETIRED |  | 
+p0015:29 | 4/review | 1/2 +1missing/0conflicts | 4 | CONWAY, RONALD | BELVEDERE, CA | / |  | zip9:1,zip5:4
+p0015:30 | 4/review | 1/3 +0missing/1conflicts | 1 | CONWAY, RONALD SR | BELVEDERE TIBURON, CA | SV ANGEL LLC/INVESTOR | name_needs_review,suffix | zip9:1,zip5:1
+p0015:31 | 4/review | 1/2 +1missing/0conflicts | 5 | CONWAY, RON | NEW IBERIA, LA | /;RETIRED/RETIRED |  | 
+p0015:32 | 4/review | 1/2 +1missing/0conflicts | 1 | CONWAY, RON C. | TIBURON, CA | / |  | zip9:1,zip5:1
+p0015:33 | 4/review | 1/2 +1missing/0conflicts | 3 | CONWAY, RON | BELVEDERE TIBURON, CA | / |  | zip9:3,zip5:3
+p0015:34 | 4/review | 1/2 +1missing/0conflicts | 4 | CONWAY, RONALD C;CONWAY, RONALD C. | SAN FRANCISCO, CA | /;INFORMATION REQUESTED/INFORMATION REQUESTED |  | zip9:3,zip5:4
+p0015:35 | 4/review | 1/3 +0missing/0conflicts | 335 | CONWAY, RON | MARYSVILLE, WA | RETIRED/ENG |  | 
+p0015:36 | 4/review | 1/2 +1missing/0conflicts | 6 | CONWAY, RON;CONWAY, RONALD | SAN FRANCISCO, CA | / |  | zip9:2,zip5:6
+p0015:37 | 1/review | 1/3 +0missing/0conflicts | 1 | CONWAY, R. | BELVEDERE, CA | ANGELIST/FOUNDER | name_needs_review | zip9:1,zip5:1
+p0015:38 | 1/review | 1/3 +0missing/1conflicts | 1 | CONWAY, RONALD J. | BELVEDERE, CA | SELF EMPLOYED/VENTURE CAPITALIST | name_needs_review,middle_name | zip9:1,zip5:1
+p0015:39 | 0/review | 0/2 +1missing/1conflicts | 1 | CONWAY, RONALD J. | TIBURON, CA | NOT EMPLOYED/NOT EMPLOYED | name_needs_review,middle_name | zip9:1,zip5:1
+p0015:40 | 0/review | 1/3 +0missing/1conflicts | 3 | CONWAY, SR, RON | BELVEDERE TIBURON, CA | SELF-EMPLOYED/INVESTOR | name_needs_review,suffix | zip9:0,zip5:3
+p0015:41 | -1/review | 0/2 +1missing/1conflicts | 1 | CONWAY, SR, RON | BELVEDERE TIBURON, CA | / | name_needs_review,suffix | zip9:0,zip5:1
+p0015:42 | -4/review | 0/2 +1missing/0conflicts | 2 | CONWAY, DONALD C. MR. | FREDONIA, KY | RETIRED/RETIRED | name_needs_review | 
+p0015:43 | -8/review | 0/2 +1missing/1conflicts | 1 | CONWAY, DONALD R | COCOA, FL | / | name_needs_review,middle_name | 
+
+p0016 Steve Ballmer
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: STEVE,STEVEN; middle: ; initials: A; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: Microsoft (historical), Ballmer Group
+Explicit contrary occupations: 
+p0016:1 | 11/review | 2/3 +0missing/0conflicts | 1 | BALLMER, STEVEN A | HUNTS POINT, WA | MICROSOFT/BOARD OF DIRECTORS | unexplained_role | 
+p0016:2 | 6/review | 1/2 +1missing/0conflicts | 1 | BALLMER, STEVEN A | HUNTS POINT, WA | NOT EMPLOYED/RETIRED |  | 
+p0016:3 | 2/review | 0/2 +1missing/1conflicts | 3 | BALLMER, STEVEN O. MR. | SPRING VALLEY, CA | RETIRED/RETIRED | name_needs_review,middle_name | 
+p0016:4 | -9/review | 0/3 +0missing/1conflicts | 1 | BALMER, STEPHEN BALMER | LOS ANGELES, CA | LAUSD/TEACHER | name_needs_review,surname_variant,middle_name | 
+
+p0017 Bill Gates
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: BILL,WILLIAM; middle: ; initials: H; suffixes: III; distinctiveness hypothesis: 0
+Affiliations: Microsoft (historical), Gates Foundation, Breakthrough Energy
+Explicit contrary occupations: 
+p0017:1 | 10/accept | 2/3 +0missing/0conflicts | 3 | GATES, WILLIAM H. III | KIRKLAND, WA;REDMOND, WA | MICROSOFT/FOUNDER;MICROSOFT/TECHNOLOGY ADVISOR |  | 
+p0017:2 | 10/accept | 2/3 +0missing/0conflicts | 23 | GATES III, WILLIAM H.;GATES, WILLIAM H III;GATES, WILLIAM H. III | KIRKLAND, WA;MEDINA, WA;REDMOND, WA | BILL & MELINDA GATES FOUNDATION/CO-CHAIR;BILL & MELINDA GATES FOUNDATION/CO-CHAIR, BOARD MEMBER;BILL & MELINDA GATES FOUNDATION/FOUNDER;BILL & MELINDA GATES FOUNDATION/PHILANTHROPIST |  | 
+p0017:3 | 10/accept | 2/3 +0missing/0conflicts | 3 | GATES, WILLIAM III | KIRKLAND, WA;REDMOND, WA | BREAKTHROUGH ENERGY/PHILANTHROPIST |  | 
+p0017:4 | 10/accept | 2/3 +0missing/0conflicts | 1 | GATES, WILLIAM III | KIRKLAND, WA | BILL AND MELINDA GATES FOUNDATION/CO-CHAIR |  | 
+p0017:5 | 10/accept | 2/3 +0missing/0conflicts | 20 | GATES, WILLIAM H III;GATES, WILLIAM H. III | KIRKLAND, WA;REDMOND, WA | BREAKTHROUGH ENERGY/PHILANTHROPIST |  | 
+p0017:6 | 9/accept | 2/3 +0missing/0conflicts | 1 | GATES, WILLIAM H. MR. | KIRKLAND, WA | BILL & MELINDA GATES FOUNDATIO/PHILANTHROPIST |  | 
+p0017:7 | 9/accept | 2/3 +0missing/0conflicts | 2 | GATES, WILLIAM H;GATES, WILLIAM H. | KIRKLAND, WA | MICROSOFT/CHAIRMAN;MICROSOFT/FOUNDER |  | 
+p0017:8 | 9/accept | 2/3 +0missing/0conflicts | 4 | GATES, BILL;GATES, WILLIAM | KIRKLAND, WA;REDMOND, WA | BILL & MELINDA GATES FOUNDATION/PHILANTHROPIST;GATES FOUNDATION/CO-CHAIR |  | 
+p0017:9 | 9/accept | 2/3 +0missing/0conflicts | 2 | GATES, WILLIAM | KIRKLAND, WA;REDMOND, WA | BREAKTHROUGH ENERGY/PHILANTHROPIST |  | 
+p0017:10 | 9/accept | 2/3 +0missing/0conflicts | 1 | GATES, BILL | KIRKLAND, WA | MICROSOFT/SOFTWARE DEVELOPER INVESTOR ENTREPRENE |  | 
+p0017:11 | 6/review | 2/3 +0missing/0conflicts | 12 | GATES, WILLIAM H III;GATES, WILLIAM H. III | REDMOND, WA | BREAKTHROUGH ENERGY & BILL & MELINDA G/PHILANTHROPIST |  | zip9:11,zip5:12
+p0017:12 | 6/review | 2/3 +0missing/0conflicts | 2 | GATES, WILLIAM H. III | REDMOND, WA | BRKTHRU ENERGY/BILL MELINDA GATES FND/PHILANTHROPIST |  | zip9:2,zip5:2
+p0017:13 | 6/review | 2/3 +0missing/0conflicts | 1 | GATES, WILLIAM H. III | KIRKLAND, WA | SELF-EMPLOYED/PHILANTHROPIST |  | zip9:1,zip5:1
+p0017:14 | 6/review | 2/3 +0missing/0conflicts | 1 | GATES, WILLIAM H. III | REDMOND, WA | SELF EMPLOYED/PHILANTHROPIST |  | zip9:1,zip5:1
+p0017:15 | 6/review | 2/3 +0missing/0conflicts | 2 | GATES III, WILLIAM H.;GATES, WILLIAM H. III | REDMOND, WA | BREAKTHROUGH ENERGY BILL MELINDA GATES/PHILANTHROPIST |  | zip9:1,zip5:2
+p0017:16 | 6/review | 2/3 +0missing/0conflicts | 2 | GATES, WILLIAM H III | REDMOND, WA | BREAKTHROUGH ENERGY GATES FOUNDATIION/PHILANTHROPIST |  | zip9:0,zip5:2
+p0017:17 | 6/review | 2/3 +0missing/0conflicts | 9 | GATES, WILLIAM H III;GATES, WILLIAM H. III | REDMOND, WA | BREAKTHROUGH ENERGY  BILL  MELINDA GAT/PHILANTHROPIST |  | zip9:3,zip5:9
+p0017:18 | 5/review | 1/2 +1missing/0conflicts | 2 | GATES, WILLIAM H III;GATES, WILLIAM H. III | REDMOND, WA | / |  | zip9:2,zip5:2
+p0017:19 | 5/review | 1/2 +1missing/0conflicts | 3 | GATES, WILLIAM H III;GATES, WILLIAM H. III | KIRKLAND, WA | /;RETIRED/RETIRED |  | zip9:2,zip5:3
+p0017:20 | 5/review | 2/3 +0missing/0conflicts | 2 | GATES, WILLIAM H. | REDMOND, WA | BREAKTHROUGH ENERGY & BILL & MELINDA G/PHILANTHROPIST |  | zip9:2,zip5:2
+p0017:21 | 5/review | 2/3 +0missing/0conflicts | 6 | GATES, WILLIAM | BOSTON, MA | HASHLYNX INC/CEO;HASHLYNX, INC/CEO |  | 
+p0017:22 | 5/review | 2/3 +0missing/0conflicts | 14 | GATES, WILLIAM | BOSTON, MA | BLUE HILL ADVISORY PARTNERS/MANAGING PARTNER |  | 
+p0017:23 | 5/review | 2/3 +0missing/0conflicts | 1 | GATES, WILLIAM | ROCKAWAY TOWNSHIP, NJ | GATES REALTY CORP/EXECUTIVE |  | 
+p0017:24 | 5/review | 2/3 +0missing/0conflicts | 1 | GATES, WILLIAM | NEWFOUNDLAND, NJ | GATES REALTY CORP/EXECUTIVE |  | 
+p0017:25 | 5/review | 2/3 +0missing/0conflicts | 2 | GATES, WILLIAM | REDMOND, WA | BREAKTHROUGH ENERGY BILL MELINDA GATES/PHILANTHROPIST |  | zip9:0,zip5:2
+p0017:26 | 4/review | 1/2 +1missing/0conflicts | 16 | GATES, WILLIAM | MADISON, WI | N/A/NOT EMPLOYED;NOT EMPLOYED/NOT EMPLOYED |  | 
+p0017:27 | 4/review | 1/2 +1missing/0conflicts | 1 | GATES, WILLIAM | SOUTH BEND, IN | RETIRED/RETIRED |  | 
+p0017:28 | 4/review | 1/3 +0missing/0conflicts | 8 | GATES, WILLIAM | GERMANTOWN, TN | SOUTHERN LAND COMPANY TN LLC/REAL ESTATE BROKER |  | 
+p0017:29 | 4/review | 1/2 +1missing/0conflicts | 1 | GATES, WILLIAM | BANNING, CA | RETIRED/RETIRED |  | 
+p0017:30 | 4/review | 1/3 +0missing/0conflicts | 4 | GATES, WILLIAM | WORCESTER, MA | BOSTON ARCHITECTURAL COLLEGE/PROFESSOR |  | 
+p0017:31 | 4/review | 1/3 +0missing/0conflicts | 4 | GATES, WILLIAM | WORCESTER, MA | FDNY/FIREFIGHTER NYC FDNY |  | 
+p0017:32 | 4/review | 1/2 +1missing/0conflicts | 10 | GATES, WILLIAM | DANVILLE, CA | /;RETIRED/RETIRED |  | 
+p0017:33 | 4/review | 1/2 +1missing/0conflicts | 10 | GATES, WILLIAM | ORIENTAL, NC | RETIRED/RETIRED |  | 
+p0017:34 | 4/review | 1/3 +0missing/0conflicts | 2 | GATES, WILLIAM | DEBARY, FL | WHARTON-SMITH/GENERAL SUPERINTENDENT |  | 
+p0017:35 | 4/review | 1/2 +1missing/0conflicts | 7 | GATES, WILLIAM | HYPOLUXO, FL | RETIRED/RETIRED |  | 
+p0017:36 | 4/review | 1/2 +1missing/0conflicts | 12 | GATES, WILLIAM | SAN DIEGO, CA | N/A/RETIRED;NOT EMPLOYED/NOT EMPLOYED |  | 
+p0017:37 | 4/review | 1/3 +0missing/0conflicts | 1 | GATES, BILL | KIRKLAND, WA | SELF- EMPLOYED/ENTREPRENUER |  | zip9:0,zip5:1
+p0017:38 | 4/review | 1/2 +1missing/0conflicts | 11 | GATES, WILLIAM | FARMINGTON, NM | NOT EMPLOYED/NOT EMPLOYED |  | 
+p0017:39 | 4/review | 1/2 +1missing/0conflicts | 26 | GATES, WILLIAM | ASTORIA, OR | NOT EMPLOYED/NOT EMPLOYED |  | 
+p0017:40 | 4/review | 1/2 +1missing/0conflicts | 1 | GATES, WILLIAM | DEWITT, MI | / |  | 
+p0017:41 | 4/review | 1/2 +1missing/0conflicts | 1 | GATES, BILL | KIRKLAND, WA | / |  | zip9:1,zip5:1
+p0017:42 | 4/review | 1/2 +1missing/0conflicts | 5 | GATES, BILL | CHANDLER, TX | RETIRED/RETIRED |  | 
+p0017:43 | 4/review | 1/3 +0missing/0conflicts | 19 | GATES, WILLIAM | PHILADELPHIA, PA | LDC AND AFFILIATED LOCALS/LABORER |  | 
+p0017:44 | 4/review | 1/3 +0missing/0conflicts | 3 | GATES, WILLIAM | BOSTON, MA | HASHLYNX/VEO BHAP |  | 
+p0017:45 | 4/review | 1/2 +1missing/0conflicts | 2 | GATES, WILLIAM | WORCESTER, MA | NOT EMPLOYED/NOT EMPLOYED |  | 
+p0017:46 | 4/review | 1/3 +0missing/0conflicts | 17 | GATES, WILLIAM | GERMANTOWN, TN | SELF EMPLOYED/REAL ESTATE;SELF-EMPLOYED/REAL ESTATE |  | 
+p0017:47 | 4/review | 1/3 +0missing/0conflicts | 10 | GATES, WILLIAM | GERMANTOWN, TN | SELF/REAL ESTATE |  | 
+p0017:48 | 0/review | 0/2 +1missing/1conflicts | 3 | GATES, WILLIAM L.;GATES, WILLIAM L. MR. | DANVILLE, CA | RETIRED/RETIRED | name_needs_review,middle_name | 
+p0017:49 | 0/review | 0/3 +0missing/1conflicts | 1 | GATES, WILLIAM L | PHILADELPHIA, PA | LDC AND AFFILIATED LOCALS/LABORER | name_needs_review,middle_name | 
+p0017:50 | 0/review | 0/2 +1missing/1conflicts | 2 | GATES, WILLIAM W | BAREFOOT BAY, FL | RETIRED/RETIRED | name_needs_review,middle_name | 
+p0017:51 | 0/review | 0/2 +1missing/1conflicts | 2 | GATES, WILLIAM W | SEBASTIAN, FL | RETIRED/RETIRED | name_needs_review,middle_name | 
+p0017:52 | 0/review | 0/2 +1missing/1conflicts | 1 | GATES, WILLIAM CLINTON | SOUTH BEND, IN | RETIRED/RETIRED | name_needs_review,middle_name | 
+p0017:53 | -4/review | 0/2 +1missing/0conflicts | 2 | GATES, BILLY | PEMBROKE, KY | RETIRED/RETIRED | name_needs_review | 
+p0017:54 | -4/review | 0/2 +1missing/0conflicts | 141 | GATES, HILL | SANTA ROSA, CA | N/A/NOT EMPLOYED;N/A/RETIRED;NOT EMPLOYED/NOT EMPLOYED | name_needs_review | 
+p0017:55 | -4/review | 0/3 +0missing/0conflicts | 7 | GATES, JILL | CASTLE ROCK, CO | COMCAST/MANAGER | name_needs_review | 
+p0017:56 | -4/review | 0/2 +1missing/0conflicts | 1 | GATES, JILL | MANKATO, MN | NOT EMPLOYED/NOT EMPLOYED | name_needs_review | 
+p0017:57 | -5/review | 0/3 +0missing/2conflicts | 2 | GATES JR., WILLIAM P. P | BOONVILLE, IN | IUOE LOCAL 181/BUSINESS AGENT | name_needs_review,middle_name,suffix | 
+p0017:58 | -8/review | 0/3 +0missing/1conflicts | 21 | GATES, JILL DENISE | CENTENNIAL, CO | COMCAST (CC) OF WILLOW GROVE/SR. MANAGER, ADVANCED SOLUTIONS ENGINE | name_needs_review,middle_name | 
+p0017:59 | -8/review | 0/3 +0missing/1conflicts | 13 | GATES, JILL DENISE | CASTLE ROCK, CO | COMCAST (CC) OF WILLOW GROVE/SR. MANAGER, ADVANCED SOLUTIONS ENGINE | name_needs_review,middle_name | 
+
+p0018 Michael Dell
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: MICHAEL; middle: ; initials: S; suffixes: ; distinctiveness hypothesis: 0
+Affiliations: Dell
+Explicit contrary occupations: 
+p0018:1 | 9/accept | 2/3 +0missing/0conflicts | 2 | DELL, MICHAEL | AUSTIN, TX | DELL TECHNOLOGIES, INC./CHAIRMAN AND CEO |  | 
+p0018:2 | 4/review | 1/2 +1missing/0conflicts | 2 | DELL, MICHAEL | ESCONDIDO, CA | RETIRED/RETIRED |  | 
+p0018:3 | 4/review | 1/2 +1missing/0conflicts | 1 | DELL, MICHAEL | PITTSBURGH, PA | RETIRED/RETIRED |  | 
+p0018:4 | -8/reject | 1/3 +0missing/1conflicts | 1 | DELL, MICHAEL | PITTSBURGH, PA | COMPLETE BUSINESS SERVICES/CPA | documented_namesake | 
+
+p0019 Larry Ellison
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: LARRY,LAWRENCE; middle: ; initials: J; suffixes: ; distinctiveness hypothesis: 0
+Affiliations: Oracle
+Explicit contrary occupations: 
+p0019:1 | 9/accept | 2/3 +0missing/0conflicts | 26 | ELLISON, LAWRENCE J.;ELLISON, LAWRENCE J. MR. | WALNUT CREEK, CA | ORACLE/CHAIRMAN;ORACLE/CHIEF TECHNOLOGY OFFICER;ORACLE/PRESIDENT;ORACLE CORPORATION/CHAIRMAN & CHIEF TECHNOLOGY OFFICER;ORACLE CORPORATION/CHAIRMAN AND CTO;ORACLE CORPORATION/CTO AND FOUNDER;ORACLE CORPORATION/EXEC. CHAIRMAN OF THE BOARD;ORACLE CORPORATION/EXECUTIVE CHAIRMAN AND CTO;ORACLE CORPORATION/EXECUTIVE CHAIRMAN OF THE BOARD |  | 
+p0019:2 | 9/accept | 2/3 +0missing/0conflicts | 7 | ELLISON, LARRY;ELLISON, LAWRENCE | WALNUT CREEK, CA;WASHINGTON, DC | ORACLE/CHAIRMAN;ORACLE AMERICA, INC./EXECUTIVE CHAIRMAN & CTO;ORACLE CORPORATION/CHAIRMAN & CHIEF TECHNOLOGY OFFICER;ORACLE CORPORATION/EXECUTIVE CHAIRMAN & CTO;ORACLE CORPORATION/EXECUTIVE CHAIRMAN AND CTO |  | 
+p0019:3 | 5/review | 2/3 +0missing/0conflicts | 3 | ELLISON, LAWRENCE | WALNUT CREEK, CA | LAWRENCE INVESTMENTS, LLC/OWNER |  | zip9:0,zip5:3
+p0019:4 | 4/review | 1/2 +1missing/0conflicts | 8 | ELLISON, LARRY | PAPILLION, NE | N/A/RETIRED |  | 
+p0019:5 | 4/review | 1/2 +1missing/0conflicts | 257 | ELLISON, LARRY;ELLISON, LARRY MR. | CARLETON, MI | RETIRED/RETIRED |  | 
+p0019:6 | 4/review | 1/3 +0missing/0conflicts | 1 | ELLISON, LARRY | ATLANTA, GA | SELF EMPLOYED/SALESPERSON |  | 
+p0019:7 | 4/review | 1/3 +0missing/0conflicts | 2 | ELLISON, LARRY | ATLANTA, GA | SELF/SALES |  | 
+p0019:8 | 4/review | 1/2 +1missing/0conflicts | 50 | ELLISON, LARRY | LAS CRUCES, NM | N/A/NOT EMPLOYED;NOT EMPLOYED/NOT EMPLOYED |  | 
+p0019:9 | 0/review | 0/2 +1missing/1conflicts | 2 | ELLISON, LARRY L MR.;ELLISON, LARRY L. MR. | PASADENA, CA | RETIRED/RETIRED | name_needs_review,middle_name | 
+p0019:10 | 0/review | 0/2 +1missing/1conflicts | 1 | ELLISON, LARRY E. | EAST MOLINE, IL | RETIRED/RETIRED | name_needs_review,middle_name | 
+p0019:11 | 0/review | 0/2 +1missing/1conflicts | 9 | ELLISON, LARRY H | CARLETON, MI | /;RETIRED/RETIRED | name_needs_review,middle_name | 
+p0019:12 | -4/review | 0/2 +1missing/1conflicts | 1 | ELLISON, L LOUANNE | SAN JOSE, CA | NOT EMPLOYED/NOT EMPLOYED | name_needs_review,middle_name | 
+
+p0020 Sheryl Sandberg
+Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim.
+Names: SHERYL; middle: ; initials: K; suffixes: ; distinctiveness hypothesis: 2
+Affiliations: Meta / Facebook (historical), Lean In
+Explicit contrary occupations: 
+p0020:1 | 11/review | 2/3 +0missing/0conflicts | 4 | SANDBERG, SHERYL | MENLO PARK, CA;SAN FRANCISCO, CA | META PLATFORMS, INC./COO | unexplained_role | zip9:1,zip5:4
+p0020:2 | 11/accept | 2/3 +0missing/0conflicts | 5 | SANDBERG, SHERYL | MENLO PARK, CA;SAN FRANCISCO, CA | META/CHIEF OPERATING OFFICER;META/EXECUTIVE |  | 
+p0020:3 | 11/accept | 2/3 +0missing/0conflicts | 3 | SANDBERG, SHERYL | SAN FRANCISCO, CA | LEAN IN/CHAIRPERSON;LEAN IN/FOUNDER & BOARD CHAIR |  | 
+p0020:4 | 11/review | 2/3 +0missing/0conflicts | 2 | SANDBERG, SHERYL | MENLO PARK, CA;SAN FRANCISCO, CA | FACEBOOK/COO | unexplained_role | zip9:1,zip5:2
+p0020:5 | 7/review | 2/3 +0missing/0conflicts | 1 | SANDBERG, SHERYL | SAN FRANCISCO, CA | NONE/PHILANTHROPIST |  | zip9:1,zip5:1
+p0020:6 | 7/review | 2/3 +0missing/0conflicts | 1 | SANDBERG, SHERYL | SAN FRANCISCO, CA | RETIRED/PHILANTHROPIST |  | zip9:1,zip5:1
+p0020:7 | 7/review | 2/3 +0missing/0conflicts | 2 | SANDBERG, SHERYL | MENLO PARK, CA | SELF EMPLOYED/PHILANTHROPIST |  | zip9:0,zip5:2
+p0020:8 | 7/review | 2/3 +0missing/0conflicts | 4 | SANDBERG, SHERYL | SAN FRANCISCO, CA | N/A/PHILANTHROPIST |  | zip9:3,zip5:3
+p0020:9 | 7/review | 2/3 +0missing/0conflicts | 12 | SANDBERG, SHERYL | SAN FRANCISCO, CA | SELF EMPLOYED/PHILANTHROPIST;SELF-EMPLOYED/PHILANTHROPIST |  | zip9:9,zip5:12
+p0020:10 | 7/review | 2/3 +0missing/0conflicts | 40 | SANDBERG, SHERYL | SAN FRANCISCO, CA | NOT EMPLOYED/PHILANTHROPIST |  | zip9:32,zip5:40
+p0020:11 | 6/review | 1/2 +1missing/0conflicts | 25 | SANDBERG, SHERYL | MENLO PARK, CA | /;NOT EMPLOYED/NOT EMPLOYED |  | zip9:0,zip5:25
+p0020:12 | 6/review | 1/2 +1missing/0conflicts | 1 | SANDBERG, SHERYL KARA | SAN FRANCISCO, CA | NOT EMPLOYED/NOT EMPLOYED | unverified_full_middle | zip9:1,zip5:1
+p0020:13 | 6/review | 1/2 +1missing/0conflicts | 21 | SANDBERG, SHERYL | NEW YORK, NY | /;N/A/NOT EMPLOYED;NOT EMPLOYED/NOT EMPLOYED;NOT EMPLOYED/RETIRED;RETIRED/RETIRED |  | 
+p0020:14 | 6/review | 1/2 +1missing/0conflicts | 71 | SANDBERG, SHERYL | SAN FRANCISCO, CA | N/A/NOT EMPLOYED;N/A/RETIRED;NOT EMPLOYED/NOT EMPLOYED;NOT-EMPLOYED/NOT-EMPLOYED |  | zip9:10,zip5:71

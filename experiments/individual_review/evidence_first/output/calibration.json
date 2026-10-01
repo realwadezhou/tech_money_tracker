@@ -1,0 +1,96 @@
+{
+  "score_is_probability": false,
+  "holdout_available": false,
+  "warning": "Development anchors only: Musk and the Venable namesake informed profile design. No unbiased precision/recall claim.",
+  "label_sets": [
+    {
+      "label_id": "musk-user-reviewed",
+      "person_id": "p0001",
+      "expected": "accept",
+      "split": "development",
+      "label_basis": "User reviewed the prior 140-record Musk cohort and confirmed its identity; this informed the new profile.",
+      "records": 140,
+      "distinct_cases": 7,
+      "baseline": {
+        "accept": 140
+      },
+      "reviewed": {
+        "accept": 140
+      },
+      "not_retrieved": 0,
+      "scores": [
+        8,
+        9,
+        10,
+        12,
+        13
+      ]
+    },
+    {
+      "label_id": "ben-venable-namesake",
+      "person_id": "p0003",
+      "expected": "reject",
+      "split": "development",
+      "label_basis": "User clarified the occupation exclusion; official Venable biography independently supports the attorney collision. Agent assembled the 18-record set.",
+      "records": 18,
+      "distinct_cases": 1,
+      "baseline": {
+        "reject": 18
+      },
+      "reviewed": {
+        "reject": 18
+      },
+      "not_retrieved": 0,
+      "scores": [
+        -20
+      ]
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "threshold": 4,
+      "accept": 140,
+      "reject": 0
+    },
+    {
+      "threshold": 5,
+      "accept": 140,
+      "reject": 0
+    },
+    {
+      "threshold": 6,
+      "accept": 140,
+      "reject": 0
+    },
+    {
+      "threshold": 7,
+      "accept": 140,
+      "reject": 0
+    },
+    {
+      "threshold": 8,
+      "accept": 140,
+      "reject": 0
+    },
+    {
+      "threshold": 9,
+      "accept": 135,
+      "reject": 0
+    },
+    {
+      "threshold": 10,
+      "accept": 132,
+      "reject": 0
+    },
+    {
+      "threshold": 11,
+      "accept": 131,
+      "reject": 0
+    },
+    {
+      "threshold": 12,
+      "accept": 131,
+      "reject": 0
+    }
+  ]
+}

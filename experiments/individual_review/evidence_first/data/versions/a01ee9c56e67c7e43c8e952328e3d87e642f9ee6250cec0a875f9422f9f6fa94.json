@@ -1,0 +1,24 @@
+{
+  "policy": {
+    "version": "evidence-first-1",
+    "accept_at": 8,
+    "name_exact_or_known": 4,
+    "name_initial": 0,
+    "name_unapproved": -4,
+    "surname_typo_penalty": -1,
+    "middle_verified": 1,
+    "middle_conflict": -4,
+    "suffix_supported": 1,
+    "suffix_conflict": -5,
+    "city": 2,
+    "state": 1,
+    "career_affiliation": 5,
+    "career_swapped": 4,
+    "career_fuzzy": 3,
+    "career_role_only": 1,
+    "career_conflict": -8,
+    "known_namesake": -12,
+    "probability_calibrated": false
+  },
+  "implementation_sha256": "6becf27dd66d0a24010949ce08615d5a0b837244a242f6ebd171cbbc8c3270ef"
+}

@@ -1,0 +1,87 @@
+{
+  "person_id": "p0017",
+  "display_name": "Bill Gates",
+  "surname": "GATES",
+  "given_names": [
+    "BILL",
+    "WILLIAM"
+  ],
+  "middle_initials": [
+    "H"
+  ],
+  "middle_names": [],
+  "suffixes": [
+    "III"
+  ],
+  "retrieval_surnames": [
+    "GATES"
+  ],
+  "retrieval_given_names": [
+    "BILL",
+    "WILLIAM"
+  ],
+  "distinctiveness_points": 0,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "Microsoft (historical)",
+      "aliases": [
+        "MICROSOFT"
+      ],
+      "source_ids": [
+        "gates-foundation",
+        "p0017-microsoft-2012"
+      ]
+    },
+    {
+      "label": "Gates Foundation",
+      "aliases": [
+        "GATES FOUNDATION",
+        "BILL MELINDA GATES FOUNDATION",
+        "BILL AND MELINDA GATES FOUNDATION",
+        "BILL MELINDA GATES FOUNDATIO"
+      ],
+      "source_ids": [
+        "gates-foundation",
+        "p0017-microsoft-2012"
+      ]
+    },
+    {
+      "label": "Breakthrough Energy",
+      "aliases": [
+        "BREAKTHROUGH ENERGY"
+      ],
+      "source_ids": [
+        "gates-foundation",
+        "p0017-microsoft-2012"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [],
+  "source_ids": [
+    "gates-foundation",
+    "p0017-microsoft-2012"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

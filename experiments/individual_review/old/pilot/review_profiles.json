@@ -1,0 +1,748 @@
+{
+  "p0001": {
+    "given_names": [
+      "ELON"
+    ],
+    "middle_initials": [
+      "R"
+    ],
+    "suffixes": [],
+    "employers": [
+      "SPACEX",
+      "SPACE EXPLORATION TECHNOLOGIES CORP",
+      "SPACE EXPLORATION TECHNOLOGIES CORPORA",
+      "SPACE X TESLA MOTORS"
+    ],
+    "roles": "CEO|CHIEF|OWNER|ENGINEER",
+    "review_note": "Compared all Elon Musk evidence groups with Tesla's identification of Musk and SpaceX. Accept specifically named company/leadership or engineering context; preserve Texas and California groups independently. Self-employed investor and blank-employer groups require an exact-name/location/time anchor. Elon Reeve is not silently reduced to Elon: without a direct matching anchor that fuller-name group stays unresolved. No claim that 140 filing records are 140 distinct gifts."
+  },
+  "p0002": {
+    "given_names": [
+      "MARC",
+      "MARK"
+    ],
+    "middle_initials": [
+      "L"
+    ],
+    "suffixes": [],
+    "employers": [
+      "A16Z",
+      "AH CAPITAL MANAGEMENT",
+      "AH CAPITAL MANAGEMENT LLC",
+      "ANDREESSEN HOROWITZ",
+      "ANDREESSEN HOROWITZ LLC",
+      "ANDREESSEN HOROWITZ A16Z",
+      "ANDREESSEN AND HOROWITZ",
+      "ANDREESEN HOROWITZ",
+      "ANDREESEN HOROWITZ LLC",
+      "ANDREESSEEN HOROWITZ",
+      "ANDREESSEN HORWITZ",
+      "ANDRESSEN HOROWITZ"
+    ],
+    "roles": "FOUNDER|PARTNER|VENTURE|PRINCIPAL|INVESTOR|EXECUTIVE|CO OWNER",
+    "review_note": "Reviewed MARC/MARK, middle L/LOWELL, honorific and ANDREESEN variants. The merge basis is the combination of name, a16z/AH Capital affiliation and a compatible founder/partner/investor role. The global prototype's MARK-to-MARC substitution is not used as proof. AH PARTNERS remains insufficient without a direct exact-name anchor. SELF/ATTORNEY conflicts with the public biography and is rejected as a substantive professional mismatch. Swapped employer/occupation fields and CEO labels are exposed as unresolved, rather than silently repaired.",
+    "reject_contexts": [
+      {
+        "employer": "SELF",
+        "occupation": "ATTORNEY",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Marc Andreessen: reported SELF/ATTORNEY. Practising as an attorney conflicts with the sourced Netscape/a16z founder career. A matching name is insufficient to override this substantive occupation mismatch; this is a judgment from the reported context, without identifying the other donor."
+      }
+    ]
+  },
+  "p0003": {
+    "given_names": [
+      "BEN",
+      "BENJAMIN"
+    ],
+    "middle_initials": [
+      "A"
+    ],
+    "suffixes": [],
+    "employers": [
+      "A16Z",
+      "AH CAPITAL MANAGEMENT",
+      "AH CAPITAL MANAGEMENT LLC",
+      "ANDREESSEN HOROWITZ",
+      "ANDREESSEN AND HOROWITZ",
+      "ANDREESEN HOROWITZ",
+      "ANDREESSEEN HOROWITZ",
+      "ANDRESSEN HOROWITZ"
+    ],
+    "roles": "FOUNDER|PARTNER|VENTURE|INVESTOR|EXECUTIVE|CO OWNER",
+    "review_note": "Compared BEN and BENJAMIN groups using a16z/AH Capital and founder/partner roles, independently of California/Nevada geography. BENJAMIN A/ABRAHAM is compatible with this cluster. BENJAMIN E at Venable and BENJAMIN at Workday are rejected collision cases: Venable independently identifies the Washington lawyer, while Workday engineering conflicts with the investor career. Foundation, Horowitz Group, missing-role and swapped-field records require more evidence. Source-company legal-name evidence is cited separately from the individual's biography.",
+    "reject_contexts": [
+      {
+        "employer": "VENABLE LLP",
+        "occupation": "ATTORNEY",
+        "source_ids": [
+          "collision-ben-venable"
+        ],
+        "rationale": "Reject the proposed match to Ben Horowitz: reported VENABLE LLP/ATTORNEY. Venable independently identifies Benjamin E. Horowitz as its Washington litigation attorney. The FEC name BENJAMIN E., employer, legal occupation and DC location converge on that professional profile. The a16z founder has a technology executive/investor career; these 18 records must not be merged into him."
+      },
+      {
+        "employer": "WORKDAY",
+        "occupation": "SOFTWARE ENGINEER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Ben Horowitz: reported WORKDAY/SOFTWARE ENGINEER. A Workday staff software-engineering role describes a different professional context from the contemporaneous a16z cofounder/general partner. The name Benjamin Horowitz alone does not overcome that conflict."
+      }
+    ]
+  },
+  "p0004": {
+    "given_names": [
+      "REID"
+    ],
+    "middle_initials": [
+      "G"
+    ],
+    "suffixes": [],
+    "employers": [
+      "GREYLOCK",
+      "GREYLOCK PARTNER",
+      "GREYLOCK PARTNERS",
+      "GRAYLOCK",
+      "LINKEDIN"
+    ],
+    "roles": "PARTNER|VENTURE|INVESTOR|CHAIRMAN|FOUNDER",
+    "review_note": "Reviewed REID, REID G and REID GARRETT with Greylock/LinkedIn evidence. The Greylock biography establishes both affiliations. GRAYLOCK is an observed one-letter employer variant, accepted only in the matching Reid/partner context. California, Washington and Massachusetts are not treated as different identities when the affiliation and role agree. REED HOFFMANN the photographer is not covered by the merge.",
+    "reject_contexts": [
+      {
+        "employer": "REED HOFFMANN",
+        "occupation": "PHOTOGRAPHER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Reid Hoffman: reported REED HOFFMANN/PHOTOGRAPHER. The separately spelled Reed Hoffmann and professional photography context conflict with the Greylock/LinkedIn investor identity."
+      }
+    ]
+  },
+  "p0005": {
+    "given_names": [
+      "DUSTIN"
+    ],
+    "middle_initials": [
+      "A"
+    ],
+    "suffixes": [],
+    "employers": [
+      "ASANA"
+    ],
+    "roles": "CEO|FOUNDER",
+    "review_note": "The candidate set contains DUSTIN and DUSTIN A at Asana. Accept their Asana co-founder/CEO evidence; the official biography dates the CEO role through July 2025. The retrieved records fall in 2024, within that period. Nine source records are present in this snapshot; absence of a 2026 match does not establish absence of giving."
+  },
+  "p0006": {
+    "given_names": [
+      "PETER"
+    ],
+    "middle_initials": [
+      "A"
+    ],
+    "suffixes": [],
+    "employers": [
+      "FOUNDERS FUND",
+      "THIEL CAPITAL"
+    ],
+    "roles": "PARTNER|CHAIRMAN|PRESIDENT",
+    "review_note": "Founders Fund's biography and Palantir's proxy independently establish Peter Thiel's investment affiliations. Accept the Founders Fund managing-partner and Thiel Capital chairman groups as identity matches; the latter title is broader than the proxy's president title and is not verified as employment. PETER THIEL at General Motors reporting FACTORY WORKER conflicts with the target's profile and is rejected for the contradictory factory-worker occupation. Blank-employer and self-employed groups are not accepted by name alone.",
+    "reject_contexts": [
+      {
+        "employer": "GENERAL MOTORS CORPORATION",
+        "occupation": "FACTORY WORKER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Peter Thiel: reported GENERAL MOTORS CORPORATION/FACTORY WORKER. A General Motors factory-worker role in Michigan conflicts with the sourced Founders Fund/Thiel Capital investment career. This is affirmative evidence against this proposed identity, beyond a mere missing affiliation."
+      }
+    ]
+  },
+  "p0007": {
+    "given_names": [
+      "DAVID"
+    ],
+    "middle_initials": [
+      "O"
+    ],
+    "suffixes": [],
+    "employers": [
+      "CRAFT VENTURES",
+      "CRAFT VENTURES MANAGEMENT",
+      "YAMMER"
+    ],
+    "roles": "FOUNDER|PARTNER|INVESTOR|EXECUTIVE|ENTREPRENEUR|FINANCE|CEO",
+    "review_note": "Restrict the initial affirmative matches to SACKS, DAVID with sourced Craft/Yammer roles. DAVID SACHS and unrelated SACKS groups include a professor, real-estate broker, NIH scientist, lawyer, and dispute-resolution provider. The legal, academic, scientist and mediator collisions have independent professional sources; the broker/chemical-engineer/optometrist contexts also justify explicit rejection on occupational grounds. DAVID S is a middle-initial conflict; DAVID O is a candidate expansion, not a blanket alias approval. The Craft source records a 2025 public-service transition, so matching Craft identifies the person without asserting uninterrupted employment.",
+    "reject_contexts": [
+      {
+        "employer": "DAVID SACKS REAL ESTATE INC",
+        "occupation": "REAL ESTATE BROKER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to David Sacks: reported DAVID SACKS REAL ESTATE INC/REAL ESTATE BROKER. The repeated Arizona brokerage context describes an operating real-estate broker, distinct from the sourced Craft/Yammer technology-investor career. The shared name does not justify a merge."
+      },
+      {
+        "employer": "SWLT",
+        "occupation": "RE BROKER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to David Sacks: reported SWLT/RE BROKER. The repeated Arizona brokerage context describes an operating real-estate broker, distinct from the sourced Craft/Yammer technology-investor career. The shared name does not justify a merge."
+      },
+      {
+        "employer": "DELEK US HOLDINGS",
+        "occupation": "CHEMICAL ENGINEER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to David Sacks: reported DELEK US HOLDINGS/CHEMICAL ENGINEER. A chemical-engineering job at Delek conflicts with the target technology-investor career; no filing-specific evidence connects these records to the Craft founder."
+      },
+      {
+        "employer": "DUANE MORRIS",
+        "occupation": "ATTORNEY",
+        "source_ids": [
+          "collision-sacks-duane"
+        ],
+        "rationale": "Reject the proposed match to David Sacks: reported DUANE MORRIS/ATTORNEY. The law firm independently identifies David E. Sacks as its Florida real-estate counsel. Its employer, role and Florida context support a different namesake, so the Craft/Yammer match is rejected."
+      },
+      {
+        "employer": "DUANE MORRIS LLP",
+        "occupation": "PARTNER AND SPECIAL COUNSEL",
+        "source_ids": [
+          "collision-sacks-duane"
+        ],
+        "rationale": "Reject the proposed match to David Sacks: reported DUANE MORRIS LLP/PARTNER AND SPECIAL COUNSEL. The law firm independently identifies David E. Sacks as its Florida real-estate counsel. Its employer, role and Florida context support a different namesake, so the Craft/Yammer match is rejected."
+      },
+      {
+        "employer": "NIH",
+        "occupation": "SCIENTIST",
+        "source_ids": [
+          "collision-sacks-nih"
+        ],
+        "rationale": "Reject the proposed match to David Sacks: reported NIH/SCIENTIST. NIH independently documents a David Sacks research-scientist profile. Scientific employment at NIH conflicts with the Craft founder career; exclusion does not claim which NIH namesake made this filing."
+      },
+      {
+        "employer": "PACE UNIVERSITY",
+        "occupation": "PROFESSOR",
+        "source_ids": [
+          "collision-sachs-pace"
+        ],
+        "rationale": "Reject the proposed match to David Sacks: reported PACE UNIVERSITY/PROFESSOR. Pace independently identifies professor David Sachs and a longstanding academic career. The employer, occupation and SACHS spelling support that collision rather than the Craft founder."
+      },
+      {
+        "employer": "SELF",
+        "occupation": "DISPUTE RESOLUTION CONSULTANT",
+        "source_ids": [
+          "collision-sacks-mediator"
+        ],
+        "rationale": "Reject the proposed match to David Sacks: reported SELF/DISPUTE RESOLUTION CONSULTANT. The repeated Massachusetts dispute-resolution occupation fits the separately documented retired Massachusetts judge David G. Sacks. It conflicts with the Craft/Yammer career. This supports rejecting the public-figure merge without automatically assigning the donor to the judge."
+      },
+      {
+        "employer": "SELF",
+        "occupation": "DISPUTE RESOLUTION PROVIDER",
+        "source_ids": [
+          "collision-sacks-mediator"
+        ],
+        "rationale": "Reject the proposed match to David Sacks: reported SELF/DISPUTE RESOLUTION PROVIDER. The repeated Massachusetts dispute-resolution occupation fits the separately documented retired Massachusetts judge David G. Sacks. It conflicts with the Craft/Yammer career. This supports rejecting the public-figure merge without automatically assigning the donor to the judge."
+      },
+      {
+        "employer": "SELF EMPLOYED",
+        "occupation": "DISPUTE RESOLUTION PROVIDER",
+        "source_ids": [
+          "collision-sacks-mediator"
+        ],
+        "rationale": "Reject the proposed match to David Sacks: reported SELF EMPLOYED/DISPUTE RESOLUTION PROVIDER. The repeated Massachusetts dispute-resolution occupation fits the separately documented retired Massachusetts judge David G. Sacks. It conflicts with the Craft/Yammer career. This supports rejecting the public-figure merge without automatically assigning the donor to the judge."
+      },
+      {
+        "employer": "SELF EMPLOYED",
+        "occupation": "OPTOMETRIST",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to David Sacks: reported SELF EMPLOYED/OPTOMETRIST. Clinical optometry is a substantive occupational conflict with the Craft/Yammer target biography; the similar surname supplies no corroboration."
+      }
+    ]
+  },
+  "p0008": {
+    "given_names": [
+      "SAM",
+      "SAMUEL"
+    ],
+    "middle_initials": [
+      "H"
+    ],
+    "suffixes": [],
+    "employers": [
+      "OPENAI",
+      "OPEN AI"
+    ],
+    "roles": "CEO|CHIEF EXECUTIVE",
+    "anchor_extra_employers": [
+      "OAI"
+    ],
+    "review_note": "Use OpenAI's official CEO announcement with SAM/SAMUEL ALTMAN and CEO-role evidence. Greenville, South Carolina is a reported mailing location, not evidence against a technology figure or proof of residence. OAI is not accepted as an employer acronym by itself: it needs a same-name, same-location, near-date OpenAI anchor. APOLLO PROJECTS and APOLLO REAL ESTATE GROUP are left unresolved because this review has not established those affiliations. Self-employed/investor variants also require a direct anchor."
+  },
+  "p0009": {
+    "given_names": [
+      "PALMER"
+    ],
+    "middle_initials": [
+      "F"
+    ],
+    "suffixes": [],
+    "employers": [
+      "ANDURIL",
+      "ANDURIL INC",
+      "ANDURIL INDUSTRIES",
+      "ANDURIL INDUSTRIES INC",
+      "ANDRUIL IND INC"
+    ],
+    "roles": "FOUNDER|BUSINESS OWNER",
+    "review_note": "Accept PALMER/PALMER F Luckey with Anduril founder/owner evidence. Punctuation and the observed ANDRUIL transposition are retained in raw fields, with a scoped identity decision. Anduril CEO/PRESIDENT AND CEO labels do not match the cited founder role and stay unresolved in this first pass. Blank employers and Oculus rows require additional corroboration; no assumption is made that all similarly named records belong to the founder."
+  },
+  "p0010": {
+    "given_names": [
+      "ALEX",
+      "ALEXANDER"
+    ],
+    "middle_initials": [
+      "C"
+    ],
+    "suffixes": [],
+    "employers": [
+      "PALANTIR",
+      "PALANTIR TECHNOLOGIES",
+      "PALANTIR TECHNOLOGIES INC",
+      "PALANTIR TECHNOLOGY",
+      "PALATIR TECHNOLOGIES INC",
+      "PLANTANTIR TECHNOLOGIES",
+      "PLANTIR",
+      "PALANTIS TECHNOLOGIES INC"
+    ],
+    "roles": "CEO|CHIEF EXECUTIVE|EXECUTIVE|FOUNDER",
+    "review_note": "Palantir's management page establishes Alexander Karp as CEO since 2005. Compare Alex/Alexander, C/Caedmon and DR/MR variants using this specific company/role context. Observed Palantir misspellings are accepted only within those groups; geography is not used as a hard restriction. WIPFLI LLP is an unrelated reported employer and remains unresolved even though its name and New Hampshire context look familiar. Missing-role groups require a direct supporting anchor."
+  },
+  "p0011": {
+    "given_names": [
+      "JOE",
+      "JOSEPH"
+    ],
+    "middle_initials": [
+      "T"
+    ],
+    "suffixes": [],
+    "employers": [
+      "8VC"
+    ],
+    "roles": "PARTNER|FOUNDER|MANAGING DIRECTOR",
+    "review_note": "The 8VC biography establishes Joe Lonsdale as founder/managing partner and places the firm in Austin. Accept Joe/Joseph and middle T variants with 8VC and compatible senior-investment roles, including separately reported California records. Swapped PARTNER/8VC fields, occupation 8VC and unspecified self-employment remain separate review problems, not automatic corrections."
+  },
+  "p0012": {
+    "given_names": [
+      "ERIC"
+    ],
+    "middle_initials": [
+      "E"
+    ],
+    "suffixes": [],
+    "employers": [
+      "GOOGLE INC",
+      "ALPHABET INC",
+      "HILLSPIRE",
+      "HILLSPIRE LLC",
+      "SCHMIDT FAMILY FOUNDATION",
+      "SCHMIDT FUTURES",
+      "RELATIVITY SPACE"
+    ],
+    "roles": "CHAIRMAN|CEO|CO FOUNDER|COFOUNDER|MANAGER|PHILANTHROPIST|TECHNICAL ADVISOR|TECHNICAL ADVISER",
+    "review_note": "This is a high-collision case. Use Schmidt's biography plus the SEC issuer biography identifying Hillspire as his family office. Executive/chairman/adviser records at Google/Alphabet are historical-role evidence; the biography dates those roles and no current-employment claim follows. Google software/developer-programs engineers are rejected despite the shared Google employer. SEC/lawyer, Glue Up CEO, utility, construction and medical groups receive explicit rejection when their specific occupation conflicts; Glue Up has a separately sourced Eric L. Schmidt CEO. ERIC M/L/J/A middle initials block the initial merge even when the name and state resemble the target. Self-employed and retired groups require a direct same-name, same-location, near-date anchor.",
+    "reject_contexts": [
+      {
+        "employer": "GLUE UP",
+        "occupation": "CEO",
+        "source_ids": [
+          "collision-schmidt-glueup"
+        ],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported GLUE UP/CEO. Glue Up independently names its CEO Eric L. Schmidt in Virginia. The employer, executive role and recurring L initial support this separate namesake; CEO is not enough to merge him with the former Google CEO."
+      },
+      {
+        "employer": "GLUE UP",
+        "occupation": "EXECUTIVE",
+        "source_ids": [
+          "collision-schmidt-glueup"
+        ],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported GLUE UP/EXECUTIVE. Glue Up independently names its CEO Eric L. Schmidt in Virginia. The employer, executive role and recurring L initial support this separate namesake; CEO is not enough to merge him with the former Google CEO."
+      },
+      {
+        "employer": "GOOGLE",
+        "occupation": "SOFTWARE ENGINEER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported GOOGLE/SOFTWARE ENGINEER. The staff software/developer-programs role is materially different from the sourced former CEO/chairman/adviser identity. Sharing the employer Google does not override this role conflict; reject the proposed merge."
+      },
+      {
+        "employer": "GOOGLE LLC",
+        "occupation": "DEVELOPER PROGRAMS ENGINEER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported GOOGLE LLC/DEVELOPER PROGRAMS ENGINEER. The staff software/developer-programs role is materially different from the sourced former CEO/chairman/adviser identity. Sharing the employer Google does not override this role conflict; reject the proposed merge."
+      },
+      {
+        "employer": "SEC",
+        "occupation": "LAWYER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported SEC/LAWYER. Practising law at the reported employer conflicts with the target technology-executive career. The Eric Schmidt/Schmitt name similarity does not establish this as the former Google leader."
+      },
+      {
+        "employer": "THE QUINIAN LAW FIRM",
+        "occupation": "ATTORNEY",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported THE QUINIAN LAW FIRM/ATTORNEY. Practising law at the reported employer conflicts with the target technology-executive career. The Eric Schmidt/Schmitt name similarity does not establish this as the former Google leader."
+      },
+      {
+        "employer": "THE QUINLAN LAW FIRM LLC",
+        "occupation": "ATTORNEY",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported THE QUINLAN LAW FIRM LLC/ATTORNEY. Practising law at the reported employer conflicts with the target technology-executive career. The Eric Schmidt/Schmitt name similarity does not establish this as the former Google leader."
+      },
+      {
+        "employer": "THE QUINLAN LAW FIRM LLP",
+        "occupation": "ATTORNEY",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported THE QUINLAN LAW FIRM LLP/ATTORNEY. Practising law at the reported employer conflicts with the target technology-executive career. The Eric Schmidt/Schmitt name similarity does not establish this as the former Google leader."
+      },
+      {
+        "employer": "THE QUINLAN LAW PIRM LLP",
+        "occupation": "ATTORNEY",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported THE QUINLAN LAW PIRM LLP/ATTORNEY. Practising law at the reported employer conflicts with the target technology-executive career. The Eric Schmidt/Schmitt name similarity does not establish this as the former Google leader."
+      },
+      {
+        "employer": "AMA HOLDING INC",
+        "occupation": "SHEET METAL WORKER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported AMA HOLDING INC/SHEET METAL WORKER. The specific construction, shop-management or sheet-metal occupation conflicts with the sourced former Google executive career. This occupational judgment supports rejection without claiming the other donor identity."
+      },
+      {
+        "employer": "CG SCHMIDT",
+        "occupation": "CONSTRUCTION",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported CG SCHMIDT/CONSTRUCTION. The specific construction, shop-management or sheet-metal occupation conflicts with the sourced former Google executive career. This occupational judgment supports rejection without claiming the other donor identity."
+      },
+      {
+        "employer": "PATHWAY CONSTRUCTION AND ELECTRIC",
+        "occupation": "SHOP MANAGER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported PATHWAY CONSTRUCTION AND ELECTRIC/SHOP MANAGER. The specific construction, shop-management or sheet-metal occupation conflicts with the sourced former Google executive career. This occupational judgment supports rejection without claiming the other donor identity."
+      },
+      {
+        "employer": "SELF EMPLOYED",
+        "occupation": "CONSTRUCTION",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported SELF EMPLOYED/CONSTRUCTION. The specific construction, shop-management or sheet-metal occupation conflicts with the sourced former Google executive career. This occupational judgment supports rejection without claiming the other donor identity."
+      },
+      {
+        "employer": "HOME DEPOT U S A INC",
+        "occupation": "STORE MANAGER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported HOME DEPOT U S A INC/STORE MANAGER. The Home Depot store-manager context conflicts with the target former Google executive profile, despite the similar Eric Schmitt name."
+      },
+      {
+        "employer": "EMPIRE DISTRICT ELECTRIC COMPA",
+        "occupation": "ENGINEER II TELECOMMUNICATIONS 5000",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported EMPIRE DISTRICT ELECTRIC COMPA/ENGINEER II TELECOMMUNICATIONS 5000. Repeated utility employment and operational engineering roles describe a different professional context from the Google/Alphabet leader; the location is supporting context, not the sole exclusion criterion."
+      },
+      {
+        "employer": "EMPIRE DISTRICT ELECTRIC COMPA",
+        "occupation": "SYSTEM ADMINISTRATOR",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported EMPIRE DISTRICT ELECTRIC COMPA/SYSTEM ADMINISTRATOR. Repeated utility employment and operational engineering roles describe a different professional context from the Google/Alphabet leader; the location is supporting context, not the sole exclusion criterion."
+      },
+      {
+        "employer": "EMPIRE DISTRICT ELECTRIC COMPANY",
+        "occupation": "ENGINEER II TELECOMMUNICATIONS 5000",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported EMPIRE DISTRICT ELECTRIC COMPANY/ENGINEER II TELECOMMUNICATIONS 5000. Repeated utility employment and operational engineering roles describe a different professional context from the Google/Alphabet leader; the location is supporting context, not the sole exclusion criterion."
+      },
+      {
+        "employer": "NEXTERA POINT BEACH",
+        "occupation": "N ENGINEERING MANAGER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported NEXTERA POINT BEACH/N ENGINEERING MANAGER. Repeated utility employment and operational engineering roles describe a different professional context from the Google/Alphabet leader; the location is supporting context, not the sole exclusion criterion."
+      },
+      {
+        "employer": "NEXTERA POINT BEACH",
+        "occupation": "ROTATIONAL ASSIGNMENT",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported NEXTERA POINT BEACH/ROTATIONAL ASSIGNMENT. Repeated utility employment and operational engineering roles describe a different professional context from the Google/Alphabet leader; the location is supporting context, not the sole exclusion criterion."
+      },
+      {
+        "employer": "FIRST HEATH OF THE CAROLINA",
+        "occupation": "MEDICAL PROVIDER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported FIRST HEATH OF THE CAROLINA/MEDICAL PROVIDER. Medical-provider or behavioral-health administration work conflicts with the sourced technology-executive profile. Reject this name-only association."
+      },
+      {
+        "employer": "NEW ROADS BEHAVIORAL HEALTH",
+        "occupation": "MEDICAL ADMIN",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported NEW ROADS BEHAVIORAL HEALTH/MEDICAL ADMIN. Medical-provider or behavioral-health administration work conflicts with the sourced technology-executive profile. Reject this name-only association."
+      },
+      {
+        "employer": "NETJETS AVIATION INC",
+        "occupation": "PILOT",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported NETJETS AVIATION INC/PILOT. A NetJets occupational pilot role and reported middle C conflict with the target public-person context; a hobby interest in aviation would not substantiate this employment claim."
+      },
+      {
+        "employer": "ERIC SCHMIDT",
+        "occupation": "COMPOSER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported ERIC SCHMIDT/COMPOSER. A professional composer context conflicts with the target executive biography. Shared name and California location do not justify assigning these records to the former Google CEO."
+      },
+      {
+        "employer": "SELF",
+        "occupation": "COMPOSER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported SELF/COMPOSER. A professional composer context conflicts with the target executive biography. Shared name and California location do not justify assigning these records to the former Google CEO."
+      },
+      {
+        "employer": "SELF EMPLOYED",
+        "occupation": "COMPOSER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Eric Schmidt: reported SELF EMPLOYED/COMPOSER. A professional composer context conflicts with the target executive biography. Shared name and California location do not justify assigning these records to the former Google CEO."
+      }
+    ]
+  },
+  "p0013": {
+    "given_names": [
+      "SEAN"
+    ],
+    "middle_initials": [
+      "N"
+    ],
+    "suffixes": [],
+    "employers": [
+      "THE PARKER FOUNDATION",
+      "SEAN N PARKER FOUNDATION",
+      "SEAN PARKER FOUNDATION"
+    ],
+    "roles": "CHAIR|ENTREPRENEUR|PHILANTHROPIST|INVESTOR",
+    "review_note": "Use the Parker Foundation's own biography identifying Sean Parker as its president and PICI founder. SEAN N PARKER FOUNDATION and SEAN PARKER FOUNDATION are treated as filing-name variants in this name/leadership context, not global company aliases. Same-name engineers, architects, a produce broker and educator are rejected for substantive occupational conflicts. SHAWN/SHAUN are retrieval hypotheses only and are not accepted variants. APERCEN PARTNERS, PARKER MEDIA and abbreviated/misspelled foundation names need further evidence. Blank and self-employed groups need a direct same-name/location/date anchor.",
+    "reject_contexts": [
+      {
+        "employer": "IVANTI",
+        "occupation": "ENGINEER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Sean Parker: reported IVANTI/ENGINEER. Staff engineering at Ivanti conflicts with the sourced entrepreneur/philanthropist career. The common Sean Parker name alone is not a sufficient bridge."
+      },
+      {
+        "employer": "JETBLUE AIRWAYS",
+        "occupation": "AIRLINE PILOT",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Sean Parker: reported JETBLUE AIRWAYS/AIRLINE PILOT. The airline-pilot occupation, JetBlue employer and middle M conflict with the target foundation leader identity."
+      },
+      {
+        "employer": "SEAN PARKER ARCHITECHTS",
+        "occupation": "ARCHITECT",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Sean Parker: reported SEAN PARKER ARCHITECHTS/ARCHITECT. The recurring architectural-practice context is a professional collision with the technology entrepreneur/foundation leader, even with the identical Sean Parker name."
+      },
+      {
+        "employer": "SPAI",
+        "occupation": "ARCHITECT",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Sean Parker: reported SPAI/ARCHITECT. The recurring architectural-practice context is a professional collision with the technology entrepreneur/foundation leader, even with the identical Sean Parker name."
+      },
+      {
+        "employer": "SELF EMPLOYED",
+        "occupation": "PRODUCE BROKER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Sean Parker: reported SELF EMPLOYED/PRODUCE BROKER. Produce brokerage is a substantive occupation mismatch with the sourced technology entrepreneur and foundation leader, not a synonym for investing."
+      },
+      {
+        "employer": "FRIENDS SCHOOL OF ATLANTA",
+        "occupation": "SCHOOL ADMINISTRATOR",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Sean Parker: reported FRIENDS SCHOOL OF ATLANTA/SCHOOL ADMINISTRATOR. Employment in school administration or teaching describes a different professional context from the sourced foundation leader. The joint-name field, where present, is additional evidence against a one-person merge."
+      },
+      {
+        "employer": "TEACH FOR AMERICA",
+        "occupation": "EDUCATER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Sean Parker: reported TEACH FOR AMERICA/EDUCATER. Employment in school administration or teaching describes a different professional context from the sourced foundation leader. The joint-name field, where present, is additional evidence against a one-person merge."
+      },
+      {
+        "employer": "TEACH FOR AMERICA",
+        "occupation": "EDUCATION NON PROFIT",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Sean Parker: reported TEACH FOR AMERICA/EDUCATION NON PROFIT. Employment in school administration or teaching describes a different professional context from the sourced foundation leader. The joint-name field, where present, is additional evidence against a one-person merge."
+      }
+    ]
+  },
+  "p0014": {
+    "given_names": [
+      "VINOD"
+    ],
+    "middle_initials": [],
+    "suffixes": [],
+    "employers": [
+      "KHOSLA VENTURES",
+      "KHOSLA VENTURES LLC"
+    ],
+    "roles": "VENTURE|FOUNDER|MANAGING DIRECTOR",
+    "review_note": "The Khosla Ventures biography and all specific employer/role groups agree on Vinod Khosla. Accept capitalization/punctuation variants of Khosla Ventures with venture-capital/founder/managing-director roles. The single blank-employer evidence group must independently satisfy the anchor criterion; it is not accepted merely because the surname is distinctive."
+  },
+  "p0015": {
+    "given_names": [
+      "RON",
+      "RONALD"
+    ],
+    "middle_initials": [
+      "C"
+    ],
+    "suffixes": [],
+    "employers": [
+      "SV ANGEL",
+      "SVANGEL",
+      "SV ANGEL LLC",
+      "SV ANGEL MANAGEMENT LLC"
+    ],
+    "roles": "INVESTOR|FOUNDER|PARTNER|PRINCIPAL|MANAGING MEMBER|VENTURE",
+    "review_note": "The SV Angel team biography identifies Ron Conway as founder/managing partner. Ron/Ronald and C/Crawford are supported by the specific SV Angel investment context. Numerous RON CONWAY/RETIRED/ENG records in Washington are deliberately not joined to the California investor. RONALD J and generational SR labels are conflicts needing review; even an SV Angel employer does not erase the conflicting initial. R. CONWAY/ANGELIST, SVA and ANGEL INVESTORS LC are not assumed to identify SV Angel. Generic self-employment requires a direct anchor. SELF EMPLOYED/ART DIRECTOR is rejected for a substantive professional mismatch.",
+    "reject_contexts": [
+      {
+        "employer": "SELF EMPLOYED",
+        "occupation": "ART DIRECTOR",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Ron Conway: reported SELF EMPLOYED/ART DIRECTOR. Professional art direction conflicts with the sourced SV Angel founder/investor career. Shared name and California location cannot override this occupation mismatch."
+      }
+    ]
+  },
+  "p0016": {
+    "given_names": [
+      "STEVE",
+      "STEVEN"
+    ],
+    "middle_initials": [
+      "A"
+    ],
+    "suffixes": [],
+    "employers": [],
+    "roles": "(?!)",
+    "review_note": "Only four evidence groups surfaced. Microsoft's annual report establishes STEVEN A, while a 2014 Microsoft announcement confirms he left its board. The 2025 MICROSOFT/BOARD OF DIRECTORS row therefore has a real date/role conflict and stays unresolved, despite its plausible identity. The 2024 STEVEN A/RETIRED row has matching local context but no clean contemporaneous anchor. STEVEN O in California and STEPHEN BALMER/LAUSD also remain outside the target identity. This pilot does not force a match merely to produce coverage for all 20 people.",
+    "reject_contexts": [
+      {
+        "employer": "LAUSD",
+        "occupation": "TEACHER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Steve Ballmer: reported LAUSD/TEACHER. LAUSD teaching employment and the STEPHEN BALMER spelling conflict with the sourced Microsoft/Clippers figure. Reject this candidate, rather than treating it as merely an unknown Ballmer alias."
+      }
+    ]
+  },
+  "p0017": {
+    "given_names": [
+      "BILL",
+      "WILLIAM"
+    ],
+    "middle_initials": [
+      "H"
+    ],
+    "suffixes": [
+      "III"
+    ],
+    "employers": [
+      "GATES FOUNDATION",
+      "BILL MELINDA GATES FOUNDATION",
+      "BILL AND MELINDA GATES FOUNDATION",
+      "BILL MELINDA GATES FOUNDATIO",
+      "BREAKTHROUGH ENERGY",
+      "BREAKTHROUGH ENERGY BILL MELINDA GATES",
+      "BREAKTHROUGH ENERGY BILL MELINDA GAT",
+      "BREAKTHROUGH ENERGY BILL MELINDA G",
+      "BREAKTHROUGH ENERGY GATES FOUNDATIION",
+      "BRKTHRU ENERGY BILL MELINDA GATES FND",
+      "MICROSOFT"
+    ],
+    "roles": "PHILANTHROPIST|CHAIR|FOUNDER|TECHNOLOGY ADVISOR",
+    "review_note": "The Gates Foundation biography identifies Microsoft, the foundation and Breakthrough Energy; Microsoft's annual report establishes WILLIAM H. GATES III. Preserve III as discriminating evidence, including when it appears before the comma. Accept Bill/William/H/III variants only with these specific affiliations and compatible leadership/philanthropy context. William Gates at HashLynx, real-estate firms, a union or a fire department is not silently joined. Firefighter, union-laborer, professor, construction-superintendent and named real-estate-broker contexts are rejected for substantive professional conflicts. Other middle initials/generational suffixes block the initial merge. Microsoft chairman labels are explicitly historical-role evidence rather than current employment.",
+    "reject_contexts": [
+      {
+        "employer": "BOSTON ARCHITECTURAL COLLEGE",
+        "occupation": "PROFESSOR",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Bill Gates: reported BOSTON ARCHITECTURAL COLLEGE/PROFESSOR. The specific teaching, firefighting, union or construction employment conflicts with the Microsoft/Gates Foundation founder career. William Gates is a common enough name that this substantive occupational conflict warrants rejecting the merge."
+      },
+      {
+        "employer": "FDNY",
+        "occupation": "FIREFIGHTER NYC FDNY",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Bill Gates: reported FDNY/FIREFIGHTER NYC FDNY. The specific teaching, firefighting, union or construction employment conflicts with the Microsoft/Gates Foundation founder career. William Gates is a common enough name that this substantive occupational conflict warrants rejecting the merge."
+      },
+      {
+        "employer": "IUOE LOCAL 181",
+        "occupation": "BUSINESS AGENT",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Bill Gates: reported IUOE LOCAL 181/BUSINESS AGENT. The specific teaching, firefighting, union or construction employment conflicts with the Microsoft/Gates Foundation founder career. William Gates is a common enough name that this substantive occupational conflict warrants rejecting the merge."
+      },
+      {
+        "employer": "LDC AND AFFILIATED LOCALS",
+        "occupation": "LABORER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Bill Gates: reported LDC AND AFFILIATED LOCALS/LABORER. The specific teaching, firefighting, union or construction employment conflicts with the Microsoft/Gates Foundation founder career. William Gates is a common enough name that this substantive occupational conflict warrants rejecting the merge."
+      },
+      {
+        "employer": "WHARTON SMITH",
+        "occupation": "GENERAL SUPERINTENDENT",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Bill Gates: reported WHARTON SMITH/GENERAL SUPERINTENDENT. The specific teaching, firefighting, union or construction employment conflicts with the Microsoft/Gates Foundation founder career. William Gates is a common enough name that this substantive occupational conflict warrants rejecting the merge."
+      },
+      {
+        "employer": "SOUTHERN LAND COMPANY TN LLC",
+        "occupation": "REAL ESTATE BROKER",
+        "source_ids": [],
+        "rationale": "Reject the proposed match to Bill Gates: reported SOUTHERN LAND COMPANY TN LLC/REAL ESTATE BROKER. Operating as a Tennessee real-estate broker conflicts with the sourced technology-founder/philanthropist identity. This is stronger negative evidence than an unexplained investment-company name."
+      }
+    ]
+  },
+  "p0018": {
+    "given_names": [
+      "MICHAEL"
+    ],
+    "middle_initials": [
+      "S"
+    ],
+    "suffixes": [],
+    "employers": [
+      "DELL TECHNOLOGIES INC"
+    ],
+    "roles": "CHAIRMAN AND CEO",
+    "review_note": "Dell's own biography establishes Michael Dell as chairman/CEO. Accept the two Texas source records with that precise employer and role. The Pennsylvania CPA is rejected: the IRS independently lists a Michael Dell at Complete Business Services in Pittsburgh. Generic retired records remain unresolved. No rule assigns all MICHAEL DELL records to the founder.",
+    "reject_contexts": [
+      {
+        "employer": "COMPLETE BUSINESS SERVICES",
+        "occupation": "CPA",
+        "source_ids": [
+          "collision-dell-cpa"
+        ],
+        "rationale": "Reject the proposed match to Michael Dell: reported COMPLETE BUSINESS SERVICES/CPA. The FEC Pennsylvania accounting context is independently corroborated by the IRS listing of Michael Dell at Complete Business Services in Pittsburgh. This is a separate professional profile from Dell Technologies chairman/CEO."
+      }
+    ]
+  },
+  "p0019": {
+    "given_names": [
+      "LARRY",
+      "LAWRENCE"
+    ],
+    "middle_initials": [
+      "J"
+    ],
+    "suffixes": [],
+    "employers": [
+      "ORACLE",
+      "ORACLE CORPORATION",
+      "ORACLE AMERICA INC"
+    ],
+    "roles": "CHAIRMAN|CHIEF TECHNOLOGY|CTO|FOUNDER|EXEC CHAIRMAN",
+    "review_note": "Oracle's biography and 2014 appointment announcement support Larry Ellison's chairman/CTO identity. Accept Larry/Lawrence/J variants with this context. Numerous Larry Ellison retired records in Michigan and New Mexico and other middle initials are not merged. LAWRENCE INVESTMENTS has not been sourced in this review and stays unresolved; ORACLE/PRESIDENT is also held because the title does not match the evidence used here."
+  },
+  "p0020": {
+    "given_names": [
+      "SHERYL"
+    ],
+    "middle_initials": [
+      "K"
+    ],
+    "suffixes": [],
+    "employers": [
+      "LEAN IN"
+    ],
+    "roles": "CHAIR|FOUNDER",
+    "review_note": "Use Lean In and the family foundation's own leadership information as direct anchors. Meta's June 2022 announcement dates Sandberg's departure as COO; later Facebook/Meta COO labels are flagged as stale-role conflicts and remain unresolved in this first pass. Self-employed/philanthropist and no-employer records can be linked only to a direct Lean In anchor with exact normalized name, city/state/full nine-digit ZIP and nearby dates. The New York and Menlo Park groups are not inferred from the San Francisco anchor. SHERYL KARA also remains separate unless fuller-name evidence is established."
+  }
+}

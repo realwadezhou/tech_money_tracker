@@ -1,0 +1,62 @@
+{
+  "person_id": "p0010",
+  "display_name": "Alex Karp",
+  "surname": "KARP",
+  "given_names": [
+    "ALEX",
+    "ALEXANDER"
+  ],
+  "middle_initials": [
+    "C"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "KARP"
+  ],
+  "retrieval_given_names": [
+    "ALEX",
+    "ALEXANDER"
+  ],
+  "distinctiveness_points": 2,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "Palantir",
+      "aliases": [
+        "PALANTIR",
+        "PALANTIR TECHNOLOGIES",
+        "PALANTIR TECHNOLOGY"
+      ],
+      "source_ids": [
+        "karp-palantir"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [],
+  "source_ids": [
+    "karp-palantir"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

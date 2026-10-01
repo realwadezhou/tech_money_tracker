@@ -1,0 +1,65 @@
+{
+  "person_id": "p0013",
+  "display_name": "Sean Parker",
+  "surname": "PARKER",
+  "given_names": [
+    "SEAN"
+  ],
+  "middle_initials": [
+    "N"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "PARKER"
+  ],
+  "retrieval_given_names": [
+    "SEAN",
+    "SHAWN",
+    "SHAUN"
+  ],
+  "distinctiveness_points": 0,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "Parker Foundation",
+      "aliases": [
+        "PARKER FOUNDATION",
+        "THE PARKER FOUNDATION",
+        "SEAN PARKER FOUNDATION",
+        "SEAN N PARKER FOUNDATION"
+      ],
+      "source_ids": [
+        "parker-foundation",
+        "parker-pici"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [],
+  "source_ids": [
+    "parker-foundation",
+    "parker-pici"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

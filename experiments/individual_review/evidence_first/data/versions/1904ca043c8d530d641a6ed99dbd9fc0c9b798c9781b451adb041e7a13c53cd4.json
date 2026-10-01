@@ -1,0 +1,62 @@
+{
+  "person_id": "p0015",
+  "display_name": "Ron Conway",
+  "surname": "CONWAY",
+  "given_names": [
+    "RON",
+    "RONALD"
+  ],
+  "middle_initials": [
+    "C"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "CONWAY"
+  ],
+  "retrieval_given_names": [
+    "RON",
+    "RONALD"
+  ],
+  "distinctiveness_points": 0,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "SV Angel",
+      "aliases": [
+        "SV ANGEL",
+        "SVANGEL",
+        "SV ANGEL MANAGEMENT"
+      ],
+      "source_ids": [
+        "conway-svangel"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [],
+  "source_ids": [
+    "conway-svangel"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

@@ -1,0 +1,307 @@
+[
+  {
+    "person_id": "p0001",
+    "name": "Elon Musk",
+    "cases": 7,
+    "records": 140,
+    "baseline": {
+      "accept": 7
+    },
+    "reviewed": {
+      "accept": 7
+    },
+    "accepted_records": 140
+  },
+  {
+    "person_id": "p0002",
+    "name": "Marc Andreessen",
+    "cases": 28,
+    "records": 346,
+    "baseline": {
+      "review": 26,
+      "accept": 2
+    },
+    "reviewed": {
+      "accept": 26,
+      "reject": 1,
+      "unresolved": 1
+    },
+    "accepted_records": 341
+  },
+  {
+    "person_id": "p0003",
+    "name": "Ben Horowitz",
+    "cases": 28,
+    "records": 530,
+    "baseline": {
+      "accept": 2,
+      "review": 25,
+      "reject": 1
+    },
+    "reviewed": {
+      "accept": 24,
+      "unresolved": 2,
+      "reject": 2
+    },
+    "accepted_records": 507
+  },
+  {
+    "person_id": "p0004",
+    "name": "Reid Hoffman",
+    "cases": 12,
+    "records": 418,
+    "baseline": {
+      "accept": 3,
+      "review": 9
+    },
+    "reviewed": {
+      "accept": 10,
+      "reject": 2
+    },
+    "accepted_records": 415
+  },
+  {
+    "person_id": "p0005",
+    "name": "Dustin Moskovitz",
+    "cases": 2,
+    "records": 9,
+    "baseline": {
+      "accept": 2
+    },
+    "reviewed": {
+      "accept": 2
+    },
+    "accepted_records": 9
+  },
+  {
+    "person_id": "p0006",
+    "name": "Peter Thiel",
+    "cases": 6,
+    "records": 11,
+    "baseline": {
+      "accept": 2,
+      "review": 4
+    },
+    "reviewed": {
+      "accept": 5,
+      "reject": 1
+    },
+    "accepted_records": 9
+  },
+  {
+    "person_id": "p0007",
+    "name": "David Sacks",
+    "cases": 26,
+    "records": 290,
+    "baseline": {
+      "accept": 2,
+      "review": 17,
+      "reject": 7
+    },
+    "reviewed": {
+      "accept": 6,
+      "unresolved": 9,
+      "reject": 11
+    },
+    "accepted_records": 40
+  },
+  {
+    "person_id": "p0008",
+    "name": "Sam Altman",
+    "cases": 7,
+    "records": 37,
+    "baseline": {
+      "accept": 1,
+      "review": 6
+    },
+    "reviewed": {
+      "accept": 5,
+      "unresolved": 2
+    },
+    "accepted_records": 35
+  },
+  {
+    "person_id": "p0009",
+    "name": "Palmer Luckey",
+    "cases": 8,
+    "records": 525,
+    "baseline": {
+      "accept": 3,
+      "review": 5
+    },
+    "reviewed": {
+      "accept": 8
+    },
+    "accepted_records": 525
+  },
+  {
+    "person_id": "p0010",
+    "name": "Alex Karp",
+    "cases": 11,
+    "records": 173,
+    "baseline": {
+      "accept": 2,
+      "review": 9
+    },
+    "reviewed": {
+      "accept": 10,
+      "unresolved": 1
+    },
+    "accepted_records": 172
+  },
+  {
+    "person_id": "p0011",
+    "name": "Joe Lonsdale",
+    "cases": 8,
+    "records": 127,
+    "baseline": {
+      "accept": 5,
+      "review": 3
+    },
+    "reviewed": {
+      "accept": 8
+    },
+    "accepted_records": 127
+  },
+  {
+    "person_id": "p0012",
+    "name": "Eric Schmidt",
+    "cases": 122,
+    "records": 1088,
+    "baseline": {
+      "accept": 6,
+      "review": 110,
+      "reject": 6
+    },
+    "reviewed": {
+      "accept": 20,
+      "unresolved": 27,
+      "reject": 75
+    },
+    "accepted_records": 253
+  },
+  {
+    "person_id": "p0013",
+    "name": "Sean Parker",
+    "cases": 72,
+    "records": 772,
+    "baseline": {
+      "accept": 2,
+      "review": 70
+    },
+    "reviewed": {
+      "accept": 13,
+      "unresolved": 23,
+      "reject": 36
+    },
+    "accepted_records": 252
+  },
+  {
+    "person_id": "p0014",
+    "name": "Vinod Khosla",
+    "cases": 2,
+    "records": 73,
+    "baseline": {
+      "accept": 1,
+      "review": 1
+    },
+    "reviewed": {
+      "accept": 2
+    },
+    "accepted_records": 73
+  },
+  {
+    "person_id": "p0015",
+    "name": "Ron Conway",
+    "cases": 43,
+    "records": 1096,
+    "baseline": {
+      "accept": 2,
+      "review": 41
+    },
+    "reviewed": {
+      "accept": 28,
+      "unresolved": 12,
+      "reject": 3
+    },
+    "accepted_records": 320
+  },
+  {
+    "person_id": "p0016",
+    "name": "Steve Ballmer",
+    "cases": 4,
+    "records": 6,
+    "baseline": {
+      "review": 4
+    },
+    "reviewed": {
+      "accept": 2,
+      "unresolved": 1,
+      "reject": 1
+    },
+    "accepted_records": 2
+  },
+  {
+    "person_id": "p0017",
+    "name": "Bill Gates",
+    "cases": 59,
+    "records": 487,
+    "baseline": {
+      "accept": 10,
+      "review": 49
+    },
+    "reviewed": {
+      "accept": 23,
+      "unresolved": 26,
+      "reject": 10
+    },
+    "accepted_records": 100
+  },
+  {
+    "person_id": "p0018",
+    "name": "Michael Dell",
+    "cases": 4,
+    "records": 6,
+    "baseline": {
+      "accept": 1,
+      "review": 2,
+      "reject": 1
+    },
+    "reviewed": {
+      "accept": 1,
+      "unresolved": 2,
+      "reject": 1
+    },
+    "accepted_records": 2
+  },
+  {
+    "person_id": "p0019",
+    "name": "Larry Ellison",
+    "cases": 12,
+    "records": 367,
+    "baseline": {
+      "accept": 2,
+      "review": 10
+    },
+    "reviewed": {
+      "accept": 3,
+      "unresolved": 9
+    },
+    "accepted_records": 36
+  },
+  {
+    "person_id": "p0020",
+    "name": "Sheryl Sandberg",
+    "cases": 14,
+    "records": 192,
+    "baseline": {
+      "review": 12,
+      "accept": 2
+    },
+    "reviewed": {
+      "accept": 13,
+      "unresolved": 1
+    },
+    "accepted_records": 171
+  }
+]

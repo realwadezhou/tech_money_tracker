@@ -1,5 +1,2 @@
-candidates.csv
-review_queue.csv
-state/
-*.log
-__pycache__/
+**/__pycache__/
+evidence_first/state/

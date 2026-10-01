@@ -1,0 +1,68 @@
+{
+  "person_id": "p0002",
+  "display_name": "Marc Andreessen",
+  "surname": "ANDREESSEN",
+  "given_names": [
+    "MARC",
+    "MARK"
+  ],
+  "middle_initials": [
+    "L"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "ANDREESSEN",
+    "ANDREESEN",
+    "ANDRESSEN",
+    "ANDREESSEEN"
+  ],
+  "retrieval_given_names": [
+    "MARC",
+    "MARK"
+  ],
+  "distinctiveness_points": 2,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "a16z",
+      "aliases": [
+        "A16Z",
+        "ANDREESSEN HOROWITZ",
+        "AH CAPITAL MANAGEMENT",
+        "A16Z CAPITAL MANAGEMENT"
+      ],
+      "source_ids": [
+        "andreessen-a16z",
+        "p0002-ah-legal"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [],
+  "source_ids": [
+    "andreessen-a16z",
+    "p0002-ah-legal"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

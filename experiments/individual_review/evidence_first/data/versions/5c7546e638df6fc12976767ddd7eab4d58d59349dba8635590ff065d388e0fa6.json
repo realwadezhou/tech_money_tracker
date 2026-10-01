@@ -1,0 +1,80 @@
+{
+  "person_id": "p0003",
+  "display_name": "Ben Horowitz",
+  "surname": "HOROWITZ",
+  "given_names": [
+    "BEN",
+    "BENJAMIN"
+  ],
+  "middle_initials": [
+    "A"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "HOROWITZ"
+  ],
+  "retrieval_given_names": [
+    "BEN",
+    "BENJAMIN"
+  ],
+  "distinctiveness_points": 0,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "a16z",
+      "aliases": [
+        "A16Z",
+        "ANDREESSEN HOROWITZ",
+        "AH CAPITAL MANAGEMENT",
+        "A16Z CAPITAL MANAGEMENT"
+      ],
+      "source_ids": [
+        "horowitz-a16z",
+        "p0003-ah-legal",
+        "ben-a16z-career",
+        "collision-ben-venable"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [
+    "ATTORNEY",
+    "LAWYER"
+  ],
+  "known_namesakes": [
+    {
+      "employers": [
+        "VENABLE"
+      ],
+      "role_pattern": "ATTORNEY",
+      "source_id": "collision-ben-venable"
+    }
+  ],
+  "source_ids": [
+    "horowitz-a16z",
+    "p0003-ah-legal",
+    "ben-a16z-career",
+    "collision-ben-venable"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

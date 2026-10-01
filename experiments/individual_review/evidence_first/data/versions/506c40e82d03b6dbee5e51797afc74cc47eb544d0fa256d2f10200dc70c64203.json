@@ -1,0 +1,81 @@
+{
+  "person_id": "p0020",
+  "display_name": "Sheryl Sandberg",
+  "surname": "SANDBERG",
+  "given_names": [
+    "SHERYL"
+  ],
+  "middle_initials": [
+    "K"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "SANDBERG",
+    "SANDBURG"
+  ],
+  "retrieval_given_names": [
+    "SHERYL",
+    "CHERYL"
+  ],
+  "distinctiveness_points": 2,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "Meta / Facebook (historical)",
+      "aliases": [
+        "META",
+        "FACEBOOK",
+        "META PLATFORMS"
+      ],
+      "source_ids": [
+        "sandberg-leanin",
+        "sandberg-leanin-2013",
+        "sandberg-foundation",
+        "sandberg-meta-exit"
+      ]
+    },
+    {
+      "label": "Lean In",
+      "aliases": [
+        "LEAN IN",
+        "LEANIN"
+      ],
+      "source_ids": [
+        "sandberg-leanin",
+        "sandberg-leanin-2013",
+        "sandberg-foundation",
+        "sandberg-meta-exit"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [],
+  "source_ids": [
+    "sandberg-leanin",
+    "sandberg-leanin-2013",
+    "sandberg-foundation",
+    "sandberg-meta-exit"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

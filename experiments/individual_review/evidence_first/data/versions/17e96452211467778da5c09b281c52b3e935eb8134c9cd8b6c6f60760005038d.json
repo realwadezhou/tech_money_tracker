@@ -1,0 +1,112 @@
+{
+  "person_id": "p0007",
+  "display_name": "David Sacks",
+  "surname": "SACKS",
+  "given_names": [
+    "DAVID"
+  ],
+  "middle_initials": [
+    "O"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "SACKS",
+    "SACHS"
+  ],
+  "retrieval_given_names": [
+    "DAVID",
+    "DAVE"
+  ],
+  "distinctiveness_points": 0,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "Craft Ventures",
+      "aliases": [
+        "CRAFT VENTURES",
+        "CRAFT VENTURES MANAGEMENT"
+      ],
+      "source_ids": [
+        "sacks-craft",
+        "collision-sacks-duane",
+        "collision-sacks-nih",
+        "collision-sachs-pace",
+        "collision-sacks-mediator"
+      ]
+    },
+    {
+      "label": "Yammer",
+      "aliases": [
+        "YAMMER"
+      ],
+      "source_ids": [
+        "sacks-craft",
+        "collision-sacks-duane",
+        "collision-sacks-nih",
+        "collision-sachs-pace",
+        "collision-sacks-mediator"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [
+    {
+      "employers": [
+        "DUANE MORRIS"
+      ],
+      "role_pattern": "ATTORNEY|COUNSEL",
+      "source_id": "collision-sacks-duane"
+    },
+    {
+      "employers": [
+        "NIH"
+      ],
+      "role_pattern": "SCIENTIST",
+      "source_id": "collision-sacks-nih"
+    },
+    {
+      "employers": [
+        "PACE UNIVERSITY"
+      ],
+      "role_pattern": "PROFESSOR",
+      "source_id": "collision-sachs-pace"
+    },
+    {
+      "employers": [
+        "SELF",
+        "SELF EMPLOYED"
+      ],
+      "role_pattern": "DISPUTE RESOLUTION",
+      "source_id": "collision-sacks-mediator"
+    }
+  ],
+  "source_ids": [
+    "sacks-craft",
+    "collision-sacks-duane",
+    "collision-sacks-nih",
+    "collision-sachs-pace",
+    "collision-sacks-mediator"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

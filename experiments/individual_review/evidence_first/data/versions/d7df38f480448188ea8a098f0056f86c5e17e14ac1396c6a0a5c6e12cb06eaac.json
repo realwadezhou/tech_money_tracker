@@ -1,0 +1,70 @@
+{
+  "person_id": "p0018",
+  "display_name": "Michael Dell",
+  "surname": "DELL",
+  "given_names": [
+    "MICHAEL"
+  ],
+  "middle_initials": [
+    "S"
+  ],
+  "middle_names": [],
+  "suffixes": [],
+  "retrieval_surnames": [
+    "DELL"
+  ],
+  "retrieval_given_names": [
+    "MICHAEL",
+    "MIKE"
+  ],
+  "distinctiveness_points": 0,
+  "distinctiveness_basis": "Authored pilot hypothesis about name ambiguity; not a measured population frequency.",
+  "middle_basis": "Candidate name variants retained for contextual review; initial agreement alone is weak evidence.",
+  "affiliations": [
+    {
+      "label": "Dell",
+      "aliases": [
+        "DELL",
+        "DELL TECHNOLOGIES"
+      ],
+      "source_ids": [
+        "dell-bio",
+        "collision-dell-cpa"
+      ]
+    }
+  ],
+  "plausible_locations": [],
+  "compatible_roles": [
+    "CEO",
+    "CHIEF",
+    "FOUNDER",
+    "OWNER",
+    "PARTNER",
+    "INVESTOR",
+    "VENTURE",
+    "EXECUTIVE",
+    "CHAIR",
+    "PHILANTHROP",
+    "ENTREPRENEUR",
+    "MANAGING",
+    "PRINCIPAL",
+    "PRESIDENT",
+    "ADVISOR",
+    "ADVISER"
+  ],
+  "contradictory_roles": [],
+  "known_namesakes": [
+    {
+      "employers": [
+        "COMPLETE BUSINESS SERVICES"
+      ],
+      "role_pattern": "CPA",
+      "source_id": "collision-dell-cpa"
+    }
+  ],
+  "source_ids": [
+    "dell-bio",
+    "collision-dell-cpa"
+  ],
+  "profile_note": "Affiliations include career history. Missing occupation and unlisted locations are neutral; a filing title is not an independently verified employment claim."
+}

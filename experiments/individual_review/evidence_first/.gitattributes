@@ -1,0 +1,3 @@
+# Checksummed snapshots and scoring source must survive Windows checkout unchanged.
+*.py text eol=lf
+*.jsonl -text
