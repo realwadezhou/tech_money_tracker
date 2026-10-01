@@ -7,6 +7,7 @@ from hashlib import sha256
 from html import escape
 import json
 from pathlib import Path
+import shutil
 import tempfile
 
 from frontend.layout import render_shell
@@ -14,6 +15,21 @@ from frontend.layout import render_shell
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "frontend/assets"
 EXPORT = ROOT / "exports/lobbying"
+
+# The AI explorer is built and validated locally, but it is not published until
+# its keyword matches have been reviewed by a person. The spending page is the
+# public lobbying landing page. Set this to True to publish the explorer at
+# /lobbying/ and link to it. See Decision 10 in data/reference/companies/DECISIONS.md.
+PUBLISH_AI_EXPLORER = False
+
+
+def explorer_published() -> bool:
+    return PUBLISH_AI_EXPLORER and (EXPORT / "explorer.json").exists()
+
+
+def lobbying_landing() -> str:
+    """Site-root-relative address of the main lobbying page."""
+    return "lobbying/spending/" if (EXPORT / "spending.json").exists() else "lobbying/"
 
 
 def replace_file(path: Path, content: bytes) -> None:
@@ -117,7 +133,7 @@ def page(metadata: dict, cycles: list[int]) -> str:
   <script src="{asset('lobbying.js')}" defer></script>''',
         navigation_prefix=f"../{max(cycles)}/" if cycles else "../",
         home_href="../",
-        lobbying_href="./",
+        lobbying_href="spending/" if (EXPORT / "spending.json").exists() else "./",
         current_section="federal-lobbying",
         cycle_label="Calendar-year reporting",
         cycle_controls=(f'<nav class="cycle-toggle" aria-label="Election cycles">'
@@ -152,15 +168,37 @@ def build_lobbying(site_root: Path, cycles: list[int]) -> bool:
     return True
 
 
+REDIRECT_TO_SPENDING = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Tech lobbying spending - Tech Money</title>
+<meta http-equiv="refresh" content="0; url=spending/"><link rel="canonical" href="spending/"></head>
+<body><p><a href="spending/">Tech lobbying spending</a></p></body></html>
+"""
+
+
+def build_lobbying_pages(site_root: Path, cycles: list[int]) -> dict:
+    """Build the lobbying pages meant for publication into a site folder."""
+    from frontend.lobbying_spending import build_spending_page
+    explorer = explorer_published() and build_lobbying(site_root, cycles)
+    spending = build_spending_page(site_root, cycles)
+    if not explorer:
+        # Keep an unpublished explorer out of the folder that gets deployed.
+        shutil.rmtree(site_root / "lobbying/data", ignore_errors=True)
+        index = site_root / "lobbying/index.html"
+        if spending:
+            replace_file(index, REDIRECT_TO_SPENDING.encode("utf-8"))
+        else:
+            index.unlink(missing_ok=True)
+    return {"explorer": bool(explorer), "spending": spending}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build only lobbying pages into an existing static site.")
     parser.add_argument("--site-root", type=Path, default=ROOT / "frontend/site")
     args = parser.parse_args()
     cycles = sorted((int(p.name) for p in args.site_root.iterdir()
                      if p.is_dir() and p.name.isdigit()), reverse=True)
-    from frontend.lobbying_spending import build_spending_page
-    explorer = build_lobbying(args.site_root, cycles)
-    spending = build_spending_page(args.site_root, cycles)
+    built = build_lobbying_pages(args.site_root, cycles)
+    explorer, spending = built["explorer"], built["spending"]
     if not explorer and not spending:
         raise SystemExit("Build a lobbying export first: python -m pipeline.lda.build_spending "
                          "and/or python -m pipeline.lda.build_explorer 2025 2026")

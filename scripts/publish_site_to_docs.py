@@ -18,7 +18,8 @@ def main() -> None:
     if DOCS_ROOT.exists():
         shutil.rmtree(DOCS_ROOT)
 
-    shutil.copytree(SITE_ROOT, DOCS_ROOT)
+    # Hidden folders in the build output (old previews, editor files) are never published.
+    shutil.copytree(SITE_ROOT, DOCS_ROOT, ignore=shutil.ignore_patterns(".*"))
     (DOCS_ROOT / ".nojekyll").write_text("", encoding="utf-8")
 
     print(f"Copied {SITE_ROOT} -> {DOCS_ROOT}")

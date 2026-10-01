@@ -5,10 +5,11 @@ quarterly reports listing their clients, the issues they lobbied on, the
 government entities they contacted, and contributions they made to political
 committees. The LDA publishes these as a paginated JSON API.
 
-**Status:** Ingested into interim and exploratory summary tables. The new
-`/lobbying/` AI issue explorer is built from the saved snapshots, with cycle
-`/federal-lobbying/` pages linking to it. This is a local build until committed
-and published. It does not publish the exploratory spending summaries below.
+**Status:** Ingested into interim tables. The public lobbying page is
+`/lobbying/spending/` (quarterly spending by tracked company). The AI issue
+explorer is built and validated locally but not published; see Decision 10 in
+[DECISIONS.md](../reference/companies/DECISIONS.md). Neither uses the older
+exploratory spending summaries described below.
 
 Build it from installed years with `python -m pipeline.lda.build_explorer 2025 2026`, then
 `python -m frontend.lobbying --site-root docs`. See the separate

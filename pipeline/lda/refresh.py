@@ -219,15 +219,27 @@ def install_endpoint(root, run_id, year, endpoint):
 
 
 def rebuild(root, years):
+    import tempfile
     from pipeline.lda.build_explorer import build_explorer
-    from frontend.lobbying import build_lobbying
-    from scripts.validate_site import validate_lobbying
+    from pipeline.lda.build_spending import build_spending
+    from frontend.lobbying import build_lobbying, build_lobbying_pages
+    from scripts.validate_site import validate_lobbying, validate_lobbying_spending
     metadata = build_explorer(years)
+    build_spending()
+    # Validate the explorer in a scratch folder: it is checked on every refresh
+    # even while it is not published (frontend.lobbying.PUBLISH_AI_EXPLORER).
+    with tempfile.TemporaryDirectory() as scratch:
+        errors = []
+        build_lobbying(Path(scratch), [])
+        validate_lobbying(Path(scratch), errors)
+        if errors:
+            raise RuntimeError("Lobbying site validation failed: " + "; ".join(errors[:10]))
     for site in (root / "docs", root / "frontend/site"):
         cycles = sorted(int(p.name) for p in site.iterdir() if p.is_dir() and p.name.isdigit())
-        build_lobbying(site, cycles)
+        build_lobbying_pages(site, cycles)
         errors = []
         validate_lobbying(site, errors)
+        validate_lobbying_spending(site, errors)
         if errors:
             raise RuntimeError("Lobbying site validation failed: " + "; ".join(errors[:10]))
     print(f"{now()} Explorer rebuilt: years {years}, {metadata['activity_count']:,} issue entries", flush=True)

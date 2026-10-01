@@ -159,7 +159,14 @@ Which reported names count as which company is set in
 [DECISIONS.md](data/reference/companies/DECISIONS.md). Run both again after a
 lobbying refresh or after editing that file.
 
-### AI lobbying explorer
+### AI lobbying explorer (built locally, not published)
+
+The explorer is switched off for the public site: `PUBLISH_AI_EXPLORER = False`
+in `frontend/lobbying.py`. It is still built and checked on every lobbying
+refresh. Decision 10 in
+[DECISIONS.md](data/reference/companies/DECISIONS.md) says why and how to turn
+it on. The commands below build its export; its page only appears in `docs/`
+when the switch is on.
 
 Start or resume the requested full collection with
 `python -m pipeline.lda.refresh 2026 2025 2024 2023 2022 2021 2020`.
@@ -294,10 +301,11 @@ These are real. They affect every number on the site.
   are retained separately, but the current supplement has no transaction-level
   conversion cutoff. Combined account receipts are not necessarily money the
   campaign received before conversion.
-- **Lobbying coverage is historical and incomplete.** The AI explorer is separate
-  from campaign-finance accounting and publishes no topic spending estimates.
-  Company name seeds and automatic topic matches require review. Congressional
-  stock disclosures are not in scope yet.
+- **Lobbying spending is a floor, for listed names only.** The spending page
+  counts reports whose client name is on the reviewed list, and takes the larger
+  of in-house and outside-firm sums per quarter. Dollars are not assigned to
+  topics. The AI explorer's automatic topic matches have not been reviewed and it
+  is not published. Congressional stock disclosures are not in scope yet.
 
 If you're using these numbers for anything more serious than browsing, read
 `data/reference/companies/README.md` for more on the matching layer, and

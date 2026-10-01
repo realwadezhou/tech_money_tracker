@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 
 from frontend.layout import render_shell
-from frontend.lobbying import ASSETS, EXPORT, replace_file
+from frontend.lobbying import ASSETS, EXPORT, explorer_published, replace_file
 
 DATA_FILES = ("spending.json", "spending.csv", "spending_reports.csv")
 RECENT_QUARTERS = 5
@@ -167,7 +167,7 @@ def page(data: dict, cycles: list[int], explorer_available: bool) -> str:
   <script src="{asset('lobbying_spending.js')}" defer></script>''',
         navigation_prefix=f"../../{max(cycles)}/" if cycles else "../../",
         home_href="../../",
-        lobbying_href="../" if explorer_available else "./",
+        lobbying_href="./",
         current_section="federal-lobbying",
         cycle_label="Calendar-year reporting",
         cycle_controls=(f'<nav class="cycle-toggle" aria-label="Election cycles">'
@@ -192,6 +192,5 @@ def build_spending_page(site_root: Path, cycles: list[int]) -> bool:
         replace_file(target / "static" / name, (ASSETS / name).read_bytes())
     for name in DATA_FILES:
         replace_file(target / "spending/data" / name, (EXPORT / name).read_bytes())
-    explorer_available = (EXPORT / "explorer.json").exists()
-    replace_file(target / "spending/index.html", page(data, cycles, explorer_available).encode("utf-8"))
+    replace_file(target / "spending/index.html", page(data, cycles, explorer_published()).encode("utf-8"))
     return True

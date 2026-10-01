@@ -186,3 +186,24 @@ the two sums**. It never adds the two together.
 
 The public download lists which sum was used for every company and quarter
 (`basis` column), and every report behind each number.
+
+### Decision 10: the AI explorer stays unpublished; spending is the lobbying landing page
+
+*Decided by: Claude, at Wade's request to "do what you think is best".*
+
+The public site's lobbying section is the spending page (`/lobbying/spending/`).
+The AI lobbying explorer is still built and validated locally on every
+lobbying refresh, but it is not copied into `docs/` and nothing links to it.
+`/lobbying/` redirects to the spending page.
+
+- **Why:** the explorer's topic matches are keyword hits that no person has
+  reviewed (`data/reference/lobbying/topic_reviews.csv` is empty), and it adds
+  118 MB to the published site. The spending page rests on reported dollar
+  amounts and a reviewed name list.
+- **How to reverse:** set `PUBLISH_AI_EXPLORER = True` in
+  `frontend/lobbying.py`, then run `python -m frontend.build_site` and
+  `python scripts/publish_site_to_docs.py`. The explorer returns at
+  `/lobbying/` and the spending and cycle pages link to it again.
+- **Before reversing:** review a sample of matches (the worksheet is
+  `exports/lobbying/topic_review_queue.csv`), and decide whether 118 MB of
+  page data is acceptable or the explorer should load a smaller index.

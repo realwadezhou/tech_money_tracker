@@ -8,6 +8,7 @@ import shutil
 from pathlib import Path
 
 from frontend import attribution, layout
+from frontend.lobbying import lobbying_landing
 from pipeline.tagging.registry import company_labels
 
 
@@ -467,7 +468,16 @@ def shell(
         cycle_controls=cycle_toggle_html(prefix),
         source_note=top_note,
         scripts=scripts,
+        **lobbying_context_links(prefix, current_section),
     )
+
+
+def lobbying_context_links(prefix: str, current_section: str) -> dict:
+    """A cycle's lobbying entry page points at the spending page's method and downloads."""
+    if current_section != "federal-lobbying" or not lobbying_landing().endswith("spending/"):
+        return {}
+    landing = f"{prefix}../{lobbying_landing()}"
+    return {"definition_href": landing + "#methodology", "data_href": landing + "#downloads"}
 
 
 def headline_stats(items: list[tuple[str, str, str]]) -> str:
@@ -1139,20 +1149,21 @@ def page_races(
 
 
 def page_federal_lobbying(metadata: dict) -> str:
-    from frontend.lobbying import EXPORT as LOBBYING_EXPORT
-    available = (LOBBYING_EXPORT / "explorer.json").exists()
-    action = ('<p><a href="../../lobbying/">Open the AI lobbying explorer &rarr;</a></p>' if available
-              else '<p>The lobbying topic export has not been built in this checkout yet.</p>')
+    from frontend.lobbying import EXPORT as LOBBYING_EXPORT, explorer_published
     spending = ('<p>See what tracked tech companies reported spending on federal lobbying, quarter by quarter.</p>'
                 '<p><a href="../../lobbying/spending/">Open lobbying spending by company &rarr;</a></p>'
-                if (LOBBYING_EXPORT / "spending.json").exists() else "")
+                if (LOBBYING_EXPORT / "spending.json").exists()
+                else '<p>The lobbying spending export has not been built in this checkout yet.</p>')
+    explorer = ('<p>Explore AI references in federal lobbying reports by client, company watchlist, topic, and reporting quarter.</p>'
+                '<p><a href="../../lobbying/">Open the AI lobbying explorer &rarr;</a></p>'
+                '<p>Matching passages link to original filings. Company names and topic matches have separate review status.</p>'
+                if explorer_published() else "")
     body = f"""
 <h1>Federal Lobbying</h1>
 {spending}
-<p>Explore AI references in federal lobbying reports by client, company watchlist, topic, and reporting quarter.</p>
-{action}
-<p>Lobbying uses calendar reporting years, independent of this page's election cycle. Consult the explorer's source years, snapshot dates, and reporting-period coverage. Current and future quarters are incomplete, and later filings can change earlier periods.</p>
-<p>Matching passages link to original filings. Company names and topic matches have separate review status. Dollar amounts are not allocated to AI or other issues.</p>
+{explorer}
+<p>Lobbying uses calendar reporting years, independent of this page's election cycle. Quarters whose reports are not yet due are left out, and later filings can change earlier periods.</p>
+<p>Dollar amounts cover whole reports. They are not allocated to AI or any other issue.</p>
 """
     return shell("Federal Lobbying - Tech Money", body, prefix="../")
 
@@ -1416,7 +1427,7 @@ def page_about(metadata: dict) -> str:
 
 <h2>What's on this site</h2>
 <p>Election-cycle figures are built from Federal Election Commission filings &mdash; the disclosures that campaigns, PACs, and party committees submit by law. The focus is contributions where the donor's listed employer matches a tracked tech company (Google, Meta, Nvidia, Anthropic, and so on). Company-linked totals reflect those matched contributions; company PAC giving is not separately attributed to the company.</p>
-<p>The separate <a href="../federal-lobbying/">federal lobbying explorer</a> uses Lobbying Disclosure Act reports organized by calendar year. It indexes issue passages and report counts; it does not estimate AI lobbying spending.</p>
+<p>The separate <a href="../federal-lobbying/">federal lobbying pages</a> use Lobbying Disclosure Act reports organized by calendar year. They show what tracked companies reported spending on lobbying in total; dollars are not assigned to AI or any other issue.</p>
 
 <h2>Why it's not trivial</h2>
 <p>The FEC publishes raw filings. Employers on those filings are free text &mdash; "Google," "Google LLC," "google inc," "goog," and "alphabet" all come in as different strings. Identifying tech-linked records means maintaining a lookup from employer strings to company names. Employer matching is one limit; receipt selection, refunds, routed and attributed gifts, and changing committee relationships also affect the totals.</p>
@@ -1768,7 +1779,7 @@ def page_site_index(cycle_bundles: dict[int, dict]) -> str:
 <div class="eyebrow">Technology · Politics · Public records</div>
 <h1>Follow the money. Understand the records.</h1>
 <p class="lede">Explore employer-matched federal campaign contributions and reported lobbying activity, with linked sources and clear definitions.</p>
-<div class="page-actions"><a class="button" href="{default_cycle}/">Explore the {default_cycle} cycle →</a><a class="button" href="lobbying/">Explore federal lobbying</a></div>
+<div class="page-actions"><a class="button" href="{default_cycle}/">Explore the {default_cycle} cycle →</a><a class="button" href="{lobbying_landing()}">Explore federal lobbying</a></div>
 </div>
 <h2>Election cycles</h2>
 {table(["Cycle", "Latest Matched Transaction", "Employer-Matched Giving", "Donor Groups", "Tracked Employers"], rows, filterable=False)}
@@ -1780,7 +1791,7 @@ def page_site_index(cycle_bundles: dict[int, dict]) -> str:
         tables_script_url=static_asset_url("tables.js", f"{default_cycle}/"),
         navigation_prefix=f"{default_cycle}/",
         home_href="index.html",
-        lobbying_href="lobbying/",
+        lobbying_href=lobbying_landing(),
         source_note='<p>Transaction dates do not indicate filing completeness. Late filings and amendments can change earlier totals; each cycle page identifies its installed source releases.</p>',
     )
 
@@ -1957,10 +1968,8 @@ def build_site() -> None:
                     page_candidate_house_district(metadata, district_row, district_candidates),
                 )
 
-    from frontend.lobbying import build_lobbying
-    from frontend.lobbying_spending import build_spending_page
-    build_lobbying(SITE_ROOT, available_cycles)
-    build_spending_page(SITE_ROOT, available_cycles)
+    from frontend.lobbying import build_lobbying_pages
+    build_lobbying_pages(SITE_ROOT, available_cycles)
     CURRENT_RENDER_CYCLE = None
     CURRENT_RENDER_REL_DIR = ""
     print(f"Built multi-cycle site to {SITE_ROOT}")

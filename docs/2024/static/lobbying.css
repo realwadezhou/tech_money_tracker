@@ -100,3 +100,14 @@
   .lobbying-coverage { padding: 12px; }
   .lobbying-result h2 { font-size: 18px; }
 }
+
+/* Quarterly spending page */
+.spending-chart-controls label { display: inline-flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600; }
+.spending-chart-controls select { min-height: 38px; padding: 8px 10px; color: var(--text); background: var(--background); border: 1px solid var(--control-border); border-radius: 4px; font: inherit; font-size: 14px; }
+.spending-chart { margin: 14px 0 28px; }
+.spending-chart svg { display: block; width: 100%; height: auto; max-height: 360px; }
+.spending-chart text { fill: var(--muted); font-size: 12px; }
+.spending-chart figcaption { color: var(--muted); font-size: 13px; }
+.spending-grid { stroke: var(--muted-border); }
+.spending-bar { fill: #b7c9df; }
+.spending-bar:hover { fill: var(--link); }
