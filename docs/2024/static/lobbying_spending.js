@@ -8,9 +8,13 @@
 
   var SVG_NS = "http://www.w3.org/2000/svg";
 
-  // Complete quarters only, as {label, year, quarter, total} for one company or all of them.
-  function series(data, companyId) {
-    var companies = data.companies.filter(function (c) { return !companyId || c.id === companyId; });
+  // Complete quarters only, as {label, year, quarter, total}. The selection is "" (every
+  // company), "sector:<id>" (one sector), or a company id.
+  function series(data, selection) {
+    var sector = selection && selection.indexOf("sector:") === 0 ? selection.slice(7) : null;
+    var companies = data.companies.filter(function (c) {
+      return !selection || (sector !== null ? c.sector === sector : c.id === selection);
+    });
     return data.quarters.map(function (quarter, index) {
       if (!quarter.complete) return null;
       var total = 0;
@@ -23,7 +27,8 @@
   }
 
   function formatMoneyShort(value) {
-    if (value >= 1000000) return "$" + (value / 1000000).toFixed(1) + "M";
+    // Up to two decimals, so an axis step of $1.25M is not shown as "$1.3M".
+    if (value >= 1000000) return "$" + Number((value / 1000000).toFixed(2)) + "M";
     if (value >= 1000) return "$" + Math.round(value / 1000) + "K";
     return "$" + Math.round(value);
   }
@@ -77,12 +82,19 @@
     var select = document.getElementById("spending-company");
     if (!holder || !svg || !select) return;
     var data = JSON.parse(holder.textContent);
-    data.companies.forEach(function (company) {
-      var option = document.createElement("option");
-      option.value = company.id;
-      option.textContent = company.name;
-      select.appendChild(option);
-    });
+    var addGroup = function (label, items) {
+      var group = document.createElement("optgroup");
+      group.label = label;
+      items.forEach(function (item) {
+        var option = document.createElement("option");
+        option.value = item.value;
+        option.textContent = item.text;
+        group.appendChild(option);
+      });
+      select.appendChild(group);
+    };
+    addGroup("Sectors", (data.sectors || []).map(function (s) { return {value: "sector:" + s.id, text: s.label}; }));
+    addGroup("Companies", data.companies.map(function (c) { return {value: c.id, text: c.name}; }));
     var update = function () { draw(svg, series(data, select.value)); };
     select.addEventListener("change", update);
     window.addEventListener("resize", update);

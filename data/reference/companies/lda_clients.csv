@@ -8,6 +8,14 @@ A16Z CAPITAL MANAGEMENT LLC (F/K/A AH CAPITAL MANAGEMENT L.L.C.),TRUE,a16z,AI fi
 "A16Z CAPITAL MANAGEMENT, L.L.C. (D/B/A ANDREESSEN HOROWITZ) FKA AH CAPITAL MGMT",TRUE,a16z,AI first pass 2026-09-30
 "A16Z CAPITAL MANAGEMENT, LLC",TRUE,a16z,AI first pass 2026-09-30
 ANDREESSEN HOROWITZ,TRUE,a16z,AI first pass 2026-09-30
+ADOBE,TRUE,adobe,AI first pass 2026-09-30 (second batch)
+ADOBE INC,TRUE,adobe,AI first pass 2026-09-30 (second batch)
+ADOBE INC.,TRUE,adobe,AI first pass 2026-09-30 (second batch)
+ADOBE SYSTEMS INC.,TRUE,adobe,AI first pass 2026-09-30 (second batch)
+ADOBE SYSTEMS INCORPORATED,TRUE,adobe,AI first pass 2026-09-30 (second batch)
+"ADOBE, INC.",TRUE,adobe,AI first pass 2026-09-30 (second batch)
+AIRBNB,TRUE,airbnb,AI first pass 2026-09-30 (second batch)
+"AIRBNB, INC.",TRUE,airbnb,AI first pass 2026-09-30 (second batch)
 AMAZON,TRUE,amazon,AI first pass 2026-09-30
 AMAZON CORPORATE,TRUE,amazon,AI first pass 2026-09-30
 AMAZON CORPORATE LLC,TRUE,amazon,AI first pass 2026-09-30
@@ -37,10 +45,33 @@ APPLE,TRUE,apple,AI first pass 2026-09-30
 APPLE INC,TRUE,apple,AI first pass 2026-09-30
 APPLE INC.,TRUE,apple,AI first pass 2026-09-30
 "APPLE, INC.",TRUE,apple,AI first pass 2026-09-30
+ARM HOLDINGS PLC,TRUE,arm,AI first pass 2026-09-30 (second batch)
+ATLASSIAN,TRUE,atlassian,AI first pass 2026-09-30 (second batch)
+BLOCK INC FORMERLY REPORTED AS SQUARE INC,TRUE,block_inc,AI first pass 2026-09-30 (second batch)
+BLOCK INC.,TRUE,block_inc,AI first pass 2026-09-30 (second batch)
+"BLOCK, INC",TRUE,block_inc,AI first pass 2026-09-30 (second batch)
+"BLOCK, INC.",TRUE,block_inc,AI first pass 2026-09-30 (second batch)
+"BLOCK, INC. (FORMERLY REPORTED AS SQUARE, INC.)",TRUE,block_inc,AI first pass 2026-09-30 (second batch)
+"SQUARE, INC.",TRUE,block_inc,AI first pass 2026-09-30 (second batch)
+BROADCOM,TRUE,broadcom,AI first pass 2026-09-30 (second batch)
+BROADCOM CORPORATION,TRUE,broadcom,AI first pass 2026-09-30 (second batch)
+BROADCOM INC,TRUE,broadcom,AI first pass 2026-09-30 (second batch)
+BROADCOM INC.,TRUE,broadcom,AI first pass 2026-09-30 (second batch)
+BROADCOM LIMITED,TRUE,broadcom,AI first pass 2026-09-30 (second batch)
+"BROADCOM, INC.",TRUE,broadcom,AI first pass 2026-09-30 (second batch)
 BYTEDANCE INC.,TRUE,bytedance,AI first pass 2026-09-30
 TIK TOK USDS JOINT VENTURE,TRUE,bytedance,"2026 US joint venture, not simply ByteDance; tracked here because readers look for TikTok here (decision 3, 2026-09-30)"
 TIKTOK INC.,TRUE,bytedance,AI first pass 2026-09-30
 TIKTOK USDS JOINT VENTURE LLC,TRUE,bytedance,"2026 US joint venture, not simply ByteDance; tracked here because readers look for TikTok here (decision 3, 2026-09-30)"
+"?C3.AI, INC.",TRUE,c3ai,stray character in the filed name; AI first pass 2026-09-30 (second batch)
+C3.AI,TRUE,c3ai,AI first pass 2026-09-30 (second batch)
+"C3.AI, INC.",TRUE,c3ai,AI first pass 2026-09-30 (second batch)
+CHARACTER.AI,TRUE,character,AI first pass 2026-09-30 (second batch)
+CISCO SYSTEMS,TRUE,cisco,AI first pass 2026-09-30 (second batch)
+CISCO SYSTEMS INC,TRUE,cisco,AI first pass 2026-09-30 (second batch)
+"CISCO SYSTEMS, INC",TRUE,cisco,AI first pass 2026-09-30 (second batch)
+"CISCO SYSTEMS, INC.",TRUE,cisco,AI first pass 2026-09-30 (second batch)
+CLOUDFLARE,TRUE,cloudflare,AI first pass 2026-09-30 (second batch)
 COHERE INC.,TRUE,cohere,AI first pass 2026-09-30
 "COHERE US, INC.",TRUE,cohere,AI first pass 2026-09-30
 "COINBASE GLOBAL, INC.",TRUE,coinbase,AI first pass 2026-09-30
@@ -48,6 +79,10 @@ COHERE INC.,TRUE,cohere,AI first pass 2026-09-30
 "COINBASE, INC.",TRUE,coinbase,AI first pass 2026-09-30
 COREWEAVE,TRUE,coreweave,AI first pass 2026-09-30
 "COREWEAVE, INC.",TRUE,coreweave,AI first pass 2026-09-30
+CROWDSTRIKE,TRUE,crowdstrike,AI first pass 2026-09-30 (second batch)
+CROWDSTRIKE INC.,TRUE,crowdstrike,AI first pass 2026-09-30 (second batch)
+"CROWDSTRIKE, INC.",TRUE,crowdstrike,AI first pass 2026-09-30 (second batch)
+"DATABRICKS, INC.",TRUE,databricks,AI first pass 2026-09-30 (second batch)
 DELL INC,TRUE,dell,AI first pass 2026-09-30
 DELL INC.,TRUE,dell,AI first pass 2026-09-30
 DELL TECHNOLOGIES,TRUE,dell,AI first pass 2026-09-30
@@ -55,10 +90,21 @@ DELL TECHNOLOGIES INC,TRUE,dell,AI first pass 2026-09-30
 DELL TECHNOLOGIES INC.,TRUE,dell,AI first pass 2026-09-30
 "DELL TECHNOLOGIES, INC.",TRUE,dell,AI first pass 2026-09-30
 DELL USA LP,TRUE,dell,AI first pass 2026-09-30
+DISCORD,TRUE,discord,AI first pass 2026-09-30 (second batch)
+DISCORD INC,TRUE,discord,AI first pass 2026-09-30 (second batch)
+DOORDASH,TRUE,doordash,AI first pass 2026-09-30 (second batch)
+"DOORDASH, INC.",TRUE,doordash,AI first pass 2026-09-30 (second batch)
+DROPBOX,TRUE,dropbox,AI first pass 2026-09-30 (second batch)
+"DROPBOX, INC.",TRUE,dropbox,AI first pass 2026-09-30 (second batch)
 EBAY,TRUE,ebay,AI first pass 2026-09-30
 EBAY INC,TRUE,ebay,AI first pass 2026-09-30
 EBAY INC.,TRUE,ebay,AI first pass 2026-09-30
 "EBAY, INC.",TRUE,ebay,AI first pass 2026-09-30
+"ELEVENLABS, INC.",TRUE,elevenlabs,AI first pass 2026-09-30 (second batch)
+"FIGMA, INC.",TRUE,figma,AI first pass 2026-09-30 (second batch)
+FORTINET,TRUE,fortinet,AI first pass 2026-09-30 (second batch)
+"FORTINET, INC.",TRUE,fortinet,AI first pass 2026-09-30 (second batch)
+GITLAB,TRUE,gitlab,AI first pass 2026-09-30 (second batch)
 DEEPMIND TECHNOLOGIES LIMITED,TRUE,google,AI first pass 2026-09-30
 GOOGLE CLIENT SERVICES,TRUE,google,AI first pass 2026-09-30
 GOOGLE CLIENT SERVICES (PREVIOUSLY REPORTED AS GOOGLE),TRUE,google,AI first pass 2026-09-30
@@ -80,13 +126,39 @@ VERILY LIFE SCIENCES LLC,TRUE,google,AI first pass 2026-09-30
 WAYMO LLC,TRUE,google,AI first pass 2026-09-30
 WING (FORMERLY X (GOOGLE INC )),TRUE,google,AI first pass 2026-09-30
 "GROQ, INC.",TRUE,groq,AI first pass 2026-09-30
+HP INC,TRUE,hp,AI first pass 2026-09-30 (second batch)
+HP INC.,TRUE,hp,AI first pass 2026-09-30 (second batch)
+HEWLETT PACKARD ENTERPRISE,TRUE,hpe,AI first pass 2026-09-30 (second batch)
+"HEWLETT PACKARD ENTERPRISE (""HPE"")",TRUE,hpe,AI first pass 2026-09-30 (second batch)
+HEWLETT PACKARD ENTERPRISE COMPANY,TRUE,hpe,AI first pass 2026-09-30 (second batch)
+HEWLETT PACKARD ENTERPRISE COMPANY & AFFILIATES,TRUE,hpe,AI first pass 2026-09-30 (second batch)
+"HUGGING FACE, INC.",TRUE,huggingface,AI first pass 2026-09-30 (second batch)
 IBM,TRUE,ibm,AI first pass 2026-09-30
 IBM CORPORATION,TRUE,ibm,AI first pass 2026-09-30
 INTERNATIONAL BUSINESS MACHINES CORPORATION (IBM),TRUE,ibm,AI first pass 2026-09-30
+MAPLEBEAR INC. D/B/A INSTACART,TRUE,instacart,AI first pass 2026-09-30 (second batch)
+MAPLEBEAR INC. DBA INSTACART,TRUE,instacart,AI first pass 2026-09-30 (second batch)
+"MAPLEBEAR, INC. D/B/A INSTACART",TRUE,instacart,AI first pass 2026-09-30 (second batch)
 INTEL,TRUE,intel,AI first pass 2026-09-30
 INTEL CORP,TRUE,intel,AI first pass 2026-09-30
 INTEL CORPORATION,TRUE,intel,AI first pass 2026-09-30
+CREDIT KARMA AN INTUIT AFFILIATE,TRUE,intuit,"named as an Intuit affiliate; Intuit bought Credit Karma in Dec 2020, so its 2020 reports predate that; AI first pass 2026-09-30 (second batch)"
+INTUIT INC,TRUE,intuit,AI first pass 2026-09-30 (second batch)
+INTUIT INC.,TRUE,intuit,AI first pass 2026-09-30 (second batch)
+INTUIT INC. AND AFFILIATES,TRUE,intuit,AI first pass 2026-09-30 (second batch)
+"INTUIT INC., AND ITS ENTERPRISE MEMBERS",TRUE,intuit,AI first pass 2026-09-30 (second batch)
+"INTUIT, INC.",TRUE,intuit,AI first pass 2026-09-30 (second batch)
+"INTUIT, INC. AND AFFILIATES",TRUE,intuit,AI first pass 2026-09-30 (second batch)
+"INTUIT, INC. AND AFFILIATES (F.K.A. INTUIT, INC.)",TRUE,intuit,AI first pass 2026-09-30 (second batch)
+"INTUIT, INC. AND AFFILIATES (FORMERLY INTUIT INC.)",TRUE,intuit,AI first pass 2026-09-30 (second batch)
+"INTUIT, INC. AND AFFILIATES (FORMERLY INTUIT, INC.)",TRUE,intuit,AI first pass 2026-09-30 (second batch)
 KLEINER PERKINS CAUFIELD & BYERS,TRUE,kleiner,AI first pass 2026-09-30
+LYFT,TRUE,lyft,AI first pass 2026-09-30 (second batch)
+LYFT INC.,TRUE,lyft,AI first pass 2026-09-30 (second batch)
+"LYFT, INC.",TRUE,lyft,AI first pass 2026-09-30 (second batch)
+MARVELL TECHNOLOGY,TRUE,marvell,AI first pass 2026-09-30 (second batch)
+MARVELL TECHNOLOGY INC.,TRUE,marvell,AI first pass 2026-09-30 (second batch)
+"MARVELL TECHNOLOGY, INC.",TRUE,marvell,AI first pass 2026-09-30 (second batch)
 FACEBOOK,TRUE,meta,AI first pass 2026-09-30
 "FACEBOOK, INC.",TRUE,meta,AI first pass 2026-09-30
 META PLATFORMS INC (FKA FACEBOOK),TRUE,meta,AI first pass 2026-09-30
@@ -100,6 +172,10 @@ META PLATFORMS INC.,TRUE,meta,AI first pass 2026-09-30
 "META PLATFORMS, INC. (FKA FACEBOOK)",TRUE,meta,AI first pass 2026-09-30
 "META PLATFORMS, INC. (FORMERLY FACEBOOK, INC. AND VARIOUS SUBSIDIARIES)",TRUE,meta,AI first pass 2026-09-30
 "META PLATFORMS, INC. AND VARIOUS SUBSIDIARIES",TRUE,meta,AI first pass 2026-09-30
+MICRON,TRUE,micron,AI first pass 2026-09-30 (second batch)
+"MICRON TECHNOLOGIES, INC.",TRUE,micron,AI first pass 2026-09-30 (second batch)
+MICRON TECHNOLOGY INC,TRUE,micron,AI first pass 2026-09-30 (second batch)
+"MICRON TECHNOLOGY, INC.",TRUE,micron,AI first pass 2026-09-30 (second batch)
 LINKEDIN,TRUE,microsoft,AI first pass 2026-09-30
 LINKEDIN CORPORATION,TRUE,microsoft,AI first pass 2026-09-30
 MICROSOFT,TRUE,microsoft,AI first pass 2026-09-30
@@ -110,8 +186,10 @@ NETFLIX,TRUE,netflix,AI first pass 2026-09-30
 NETFLIX INC,TRUE,netflix,AI first pass 2026-09-30
 NETFLIX INC.,TRUE,netflix,AI first pass 2026-09-30
 "NETFLIX, INC.",TRUE,netflix,AI first pass 2026-09-30
+NEURALINK CORP.,TRUE,neuralink,AI first pass 2026-09-30 (second batch)
 NVIDIA,TRUE,nvidia,AI first pass 2026-09-30
 NVIDIA CORPORATION,TRUE,nvidia,AI first pass 2026-09-30
+"OKTA, INC.",TRUE,okta,AI first pass 2026-09-30 (second batch)
 OPEN AI,TRUE,openai,AI first pass 2026-09-30
 OPENAI,TRUE,openai,AI first pass 2026-09-30
 "OPENAI OPCO, LLC",TRUE,openai,AI first pass 2026-09-30
@@ -127,32 +205,73 @@ PALANTIR,TRUE,palantir,AI first pass 2026-09-30
 PALANTIR TECHNOLOGIES,TRUE,palantir,AI first pass 2026-09-30
 PALANTIR TECHNOLOGIES INC.,TRUE,palantir,AI first pass 2026-09-30
 "PALANTIR TECHNOLOGIES, INC.",TRUE,palantir,AI first pass 2026-09-30
+PALO ALTO NETWORKS,TRUE,palo_alto,AI first pass 2026-09-30 (second batch)
+"PALO ALTO NETWORKS, INC.",TRUE,palo_alto,AI first pass 2026-09-30 (second batch)
+PAYPAL,TRUE,paypal,AI first pass 2026-09-30 (second batch)
+PAYPAL INC,TRUE,paypal,AI first pass 2026-09-30 (second batch)
+"PAYPAL, INC.",TRUE,paypal,AI first pass 2026-09-30 (second batch)
+PINTEREST,TRUE,pinterest,AI first pass 2026-09-30 (second batch)
+PINTEREST INC.,TRUE,pinterest,AI first pass 2026-09-30 (second batch)
+"PINTEREST, INC",TRUE,pinterest,AI first pass 2026-09-30 (second batch)
+"PINTEREST, INC.",TRUE,pinterest,AI first pass 2026-09-30 (second batch)
+PLAID INC.,TRUE,plaid,AI first pass 2026-09-30 (second batch)
 QUALCOMM INC.,TRUE,qualcomm,AI first pass 2026-09-30
 QUALCOMM INCORPORATED,TRUE,qualcomm,AI first pass 2026-09-30
 "QUALCOMM, INC.",TRUE,qualcomm,AI first pass 2026-09-30
+"REDDIT, INC.",TRUE,reddit,AI first pass 2026-09-30 (second batch)
 RIPPLE,TRUE,ripple,AI first pass 2026-09-30
 RIPPLE LABS INC.,TRUE,ripple,AI first pass 2026-09-30
 "RIPPLE LABS, INC.",TRUE,ripple,AI first pass 2026-09-30
+ROBINHOOD,TRUE,robinhood,AI first pass 2026-09-30 (second batch)
+"ROBINHOOD MARKETS, INC.",TRUE,robinhood,AI first pass 2026-09-30 (second batch)
 "SALESFORCE, INC.",TRUE,salesforce,AI first pass 2026-09-30
 SALESFORCE.COM INC.,TRUE,salesforce,AI first pass 2026-09-30
 "SALESFORCE.COM, INC",TRUE,salesforce,AI first pass 2026-09-30
 "SALESFORCE.COM, INC.",TRUE,salesforce,AI first pass 2026-09-30
+SAMBANOVA SYSTEMS,TRUE,sambanova,AI first pass 2026-09-30 (second batch)
+SAP AMERICA,TRUE,sap,AI first pass 2026-09-30 (second batch)
+SAP AMERICA INC,TRUE,sap,AI first pass 2026-09-30 (second batch)
+SAP AMERICA INC.,TRUE,sap,AI first pass 2026-09-30 (second batch)
+"SAP AMERICA, INC",TRUE,sap,AI first pass 2026-09-30 (second batch)
+"SAP AMERICA, INC.",TRUE,sap,AI first pass 2026-09-30 (second batch)
 SCALE AI,TRUE,scale_ai,AI first pass 2026-09-30
 "SCALE AI, INC.",TRUE,scale_ai,AI first pass 2026-09-30
+SENTINELONE INC.,TRUE,sentinelone,AI first pass 2026-09-30 (second batch)
+"SENTINELONE, INC.",TRUE,sentinelone,AI first pass 2026-09-30 (second batch)
 SEQUOIA CAPITAL OPERATIONS LLC,TRUE,sequoia,AI first pass 2026-09-30
+SERVICE NOW,TRUE,servicenow,AI first pass 2026-09-30 (second batch)
+"SERVICE NOW, INC.",TRUE,servicenow,AI first pass 2026-09-30 (second batch)
+SERVICENOW,TRUE,servicenow,AI first pass 2026-09-30 (second batch)
+SERVICENOW INC,TRUE,servicenow,AI first pass 2026-09-30 (second batch)
+"SERVICENOW, INC.",TRUE,servicenow,AI first pass 2026-09-30 (second batch)
 SHOPIFY,TRUE,shopify,AI first pass 2026-09-30
 SHOPIFY INC,TRUE,shopify,AI first pass 2026-09-30
 SHOPIFY INC.,TRUE,shopify,AI first pass 2026-09-30
+SNAP INC.,TRUE,snap,AI first pass 2026-09-30 (second batch)
+SNOWFLAKE INC.,TRUE,snowflake,AI first pass 2026-09-30 (second batch)
+SPOTIFY,TRUE,spotify,AI first pass 2026-09-30 (second batch)
+SPOTIFY USA INC.,TRUE,spotify,AI first pass 2026-09-30 (second batch)
+STABILITY AI LTD.,TRUE,stability,AI first pass 2026-09-30 (second batch)
 STRIPE,TRUE,stripe,AI first pass 2026-09-30
 "STRIPE, INC.",TRUE,stripe,AI first pass 2026-09-30
+"TEMPUS AI, INC.",TRUE,tempus,AI first pass 2026-09-30 (second batch)
 TESLA,TRUE,tesla,AI first pass 2026-09-30
 TESLA INC,TRUE,tesla,AI first pass 2026-09-30
 TESLA INC.,TRUE,tesla,AI first pass 2026-09-30
 "TESLA, INC.",TRUE,tesla,AI first pass 2026-09-30
+TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY (TSMC),TRUE,tsmc,AI first pass 2026-09-30 (second batch)
+TSMC ARIZONA,TRUE,tsmc,AI first pass 2026-09-30 (second batch)
 UBER TECHNOLOGIES,TRUE,uber,AI first pass 2026-09-30
 UBER TECHNOLOGIES INC.,TRUE,uber,AI first pass 2026-09-30
 "UBER TECHNOLOGIES, INC.",TRUE,uber,AI first pass 2026-09-30
 UBER TECHNOLOGIES. INC.,TRUE,uber,AI first pass 2026-09-30
+UIPATH,TRUE,uipath,AI first pass 2026-09-30 (second batch)
+VMWARE,TRUE,vmware,AI first pass 2026-09-30 (second batch)
+VMWARE LLC,TRUE,vmware,AI first pass 2026-09-30 (second batch)
+"VMWARE LLC (FORMERLY KNOWN AS VMWARE, INC.)",TRUE,vmware,AI first pass 2026-09-30 (second batch)
+"VMWARE, INC.",TRUE,vmware,AI first pass 2026-09-30 (second batch)
+"WORKDAY, INC.",TRUE,workday,AI first pass 2026-09-30 (second batch)
+"WORKDAY, LLC",TRUE,workday,AI first pass 2026-09-30 (second batch)
 SPACE EXPLORATION TECHNOLOGIES,TRUE,x_twitter_spacex,AI first pass 2026-09-30
 SPACE EXPLORATION TECHNOLOGIES CORP,TRUE,x_twitter_spacex,AI first pass 2026-09-30
 SPACE EXPLORATION TECHNOLOGIES CORP.,TRUE,x_twitter_spacex,AI first pass 2026-09-30
@@ -167,28 +286,61 @@ TWITTER INC,TRUE,x_twitter_spacex,AI first pass 2026-09-30
 "ZOOM COMMUNICATIONS, INC.",TRUE,zoom,AI first pass 2026-09-30
 "ZOOM COMMUNICATIONS, INC. (F/K/A ZOOM VIDEO COMMUNICATION INC.)",TRUE,zoom,AI first pass 2026-09-30
 "ZOOM VIDEO COMMUNICATIONS, INC.",TRUE,zoom,AI first pass 2026-09-30
+ZSCALER INC.,TRUE,zscaler,AI first pass 2026-09-30 (second batch)
+"ZSCALER INC. AND AFFILIATES (FKA ZSCALER, INC.)",TRUE,zscaler,AI first pass 2026-09-30 (second batch)
+"ZSCALER, INC. AND AFFILIATES",TRUE,zscaler,AI first pass 2026-09-30 (second batch)
+3 PROTON LITHIUM INC.,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 "ABX AIR, INC -- AIR TRANSPORT SERVICES GROUP",FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 ACCEL,FALSE,,"special-education client, not the VC firm; AI first pass 2026-09-30"
 ADAPDIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"AFTERPAY US, INC.",FALSE,,Afterpay before Block's 2022 purchase; not Block's lobbying (decision 2 precedent); AI first pass 2026-09-30 (second batch)
+AKIN GUMP STRAUSS HAUER & FELD ON BEHALF OF BLOOM ENERGY,FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
 ALLIANCE OF PROFESSIONALS & CONSULTANTS ON BEHALF OF IBM CORP,FALSE,,"subcontractor report for ibm; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 ANALEX CORPORATION DBA ARCFIELD,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"ANKURA CONSULTING GROUP, LLC ON BEHALF OF SERVICENOW",FALSE,,subcontractor report for servicenow; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
 APOTEX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 APOTEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 "APPLE HOMECARE MEDICAL SUPPLY, INC.",FALSE,,unrelated company; AI first pass 2026-09-30
 "AQUIA GROUP ON BEHALF OF ANTHROPIC, PBC",FALSE,,"subcontractor report for anthropic; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 "ARENT FOX LLP ON BEHALF OF QUALCOMM, INC.",FALSE,,"subcontractor report for qualcomm; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+ASCENT ON BEHALF OF PROTOPIA,FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+ASCENT ON BEHALF OF SBIR ADVISORS ON BEHALF OF AI SQUARED,FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+ASCENT ON BEHALF OF SBIR ADVISORS ON BEHALF OF AIRLOOM,FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
 AVX AIRCRAFT COMPANY,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+BAY BRIDGE STRATEGIES (ON BEHALF OF BLOOM ENERGY),FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
 BLANK ROME GOVERNMENT RELATIONS LLC ON BEHALF OF TANADGUSIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+BLOOM ENERGY,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+BLOOM ENERGY CORPORATION,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+BLOOMBERG LLP,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+BLOOMBERG LP,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+BLOOMBERG PHILANTHROPIES,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"BLOOMBERG, L.P.",FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+BLOOMIN BRANDS,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+BLOOMIN' BRANDS INC,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+BLOOMINGTON NORMAL ECONOMIC DEVELOPMENT COUNCIL (FKA ECON DEV CNSL OF BLOOMIN),FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 BRAINBOX AI US LLC,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+BROADWAY SQUARE PARTNERS,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 BROWNSTEIN HYATT FARBER SCHRECK LLP OBO PALANTIR TECHNOLOGIES INC.,FALSE,,"subcontractor report for palantir; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 "BROWNSTEIN HYATT FARBER SCHRECK, LLP OBO DELL TECHNOLOGIES, INC.",FALSE,,"subcontractor report for dell; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 CAELUX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CALIFORNIA PROTONS CANCER THERAPY CENTER,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 CAPE FOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CARAHSOFT TECHNOLOGY CORPORATION ON BEHALF OF ZSCALER (CARAHSOFT TECH CORP),FALSE,,subcontractor report for zscaler; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
 CASSIDY & ASSOCIATES ON BEHALF OF CERNER CORPORATION,FALSE,,"Cerner before/around Oracle's 2022 purchase; not Oracle's lobbying (decision 2, 2026-09-30)"
 CERNER CORPORATION,FALSE,,"Cerner before/around Oracle's 2022 purchase; not Oracle's lobbying (decision 2, 2026-09-30)"
+CITY OF BLOOMINGTON,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"CITY OF BLOOMINGTON, ILLINOIS",FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"CITY OF BLOOMINGTON, IN",FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"CITY OF BLOOMINGTON, INDIANA",FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"CLARK STREET ASSOC. ON BEHALF OF PROTON ENERGY SYSTEMS, INC. D/B/A NEL HYDROGEN",FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
 CLARK STREET ASSOCIATES ON BEHALF OF GROQ INC.,FALSE,,"subcontractor report for groq; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"CLARK STREET ASSOCIATES ON BEHALF OF MARVELL TECHNOLOGY, INC.",FALSE,,subcontractor report for marvell; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
 CLOROX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 COLFAX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CONFLUENCE HEALTH AND AFFILIATES (FNA) WENATCHEE VALLEY MEDICAL CENTER,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+CONFLUENCE SECURITY GROUP,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+CONNECT4STRATEGIES ON BEHALF OF FCS - FAMILIAL CHYLOMICRONEMIA,FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+CORNERSTONE GOVERNMENT AFFAIRS OBO 3 PROTON LITHIUM INC.,FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
 CORNERSTONE GOVERNMENT AFFAIRS OBO BRAINBOX AI US LLC,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 CORNERSTONE GOVERNMENT AFFAIRS OBO GOOGLE CLIENT SERVICES LLC,FALSE,,"subcontractor report for google; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 CORNERSTONE GOVERNMENT AFFAIRS OBO MICROSOFT CORPORATION,FALSE,,"subcontractor report for microsoft; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
@@ -197,38 +349,82 @@ COVE STRATEGIES ON BEHALF OF ORACLE AMERICAN INC.,FALSE,,"subcontractor report f
 COVINGTON & BURLING ON BEHALF OF APPLE INC.,FALSE,,"subcontractor report for apple; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 CSX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 CYBERLUX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"DATA SQUARED USA, INC. DBA DATA2",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"DCI GROUP, LLC ON BEHALF OF DOORDASH, INC.",FALSE,,subcontractor report for doordash; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
+"DEWEY SQUARE GROUP ON BEHALF OF BIRD RIDES, INC.",FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+"DEWEY SQUARE GROUP ON BEHALF OF BLUE ORIGIN, LLC",FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
 DYNAX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 "EDGESCALE AI, INC.",FALSE,,different company from Scale AI; AI first pass 2026-09-30
 ENOVIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 FEDEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+FELLOWSHIP SQUARE,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 FOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 FOX CORPORATION (FORMERLY KNOWN AS 21ST CENTURY FOX),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"FRANKLIN SQUARE HOLDINGS, L.P.",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+FRUIT OF THE LOOM INC,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+FULLBLOOM,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 GATX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 GDX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 GENRX GENRX CORP D/B/A GENRX PHARMACY,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"GREENBLU, INC., D/B/A TIDAL METALS",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 "GREYLOCK CAPITAL MANAGEMENT, LLC",FALSE,,"hedge fund, not Greylock Partners; AI first pass 2026-09-30"
+"H&R BLOCK MANAGEMENT, LLC, A SUBSIDIARY OF H&R BLOCK, INC.",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"H&R BLOCK, INC.",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 HANNEGAN LANDAU POERSCH & ROSENBAUM ADVOCACY LLC (FOR PALANTIR TECHNOLOGIES INC),FALSE,,"subcontractor report for palantir; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+HEIRLOOM CARBON TECHNOLOGIES,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"HEIRLOOM CARBON TECHNOLOGIES, INC.",FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+HETTINGER STRATEGY GROUP ON BEHALF OF ADOBE,FALSE,,subcontractor report for adobe; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
+HETTINGER STRATEGY GROUP ON BEHALF OF SERVICE NOW,FALSE,,subcontractor report for servicenow; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
+HOLLIER & ASSOCIATES ON BEHALF OF BLOOM ENERGY,FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+HPE INNOVATION CORPORATION (FKA HPE CLOTHING),FALSE,,'hpe' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+HRB TAX GROUP INC (FORMERLY KNOWN AS H&R BLOCK INC ),FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+I SQUARED CAPITAL ADVISORS (US) LLC,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+INTUIT: THE CENTER FOR INTUITIVE AND OUTSIDER ART,FALSE,,'intuit' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 IONETIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+IOWA CONFLUENCE WATER TRAILS (FORMERLY CENTRAL IOWA WATER TRAILS),FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 J.A. GREEN AND COMPANY (FOR PALANTIR TECHNOLOGIES INC.),FALSE,,"subcontractor report for palantir; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"LAFAYETTE SQUARE FOUNDATION, INC.",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+LAFAYETTE SQUARE INSTITUTE,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 LENOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+LIGADO NETWORKS (FORMERLY KNOWN AS LIGHTSQUARED),FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 LIVINGSTON GROUP (ON BEHALF OF ORACLE),FALSE,,"subcontractor report for oracle; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+LOOMIS ARMORED US,FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"LOOMIS ARMORED US, LLC",FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 LUX AIR JET CENTERS,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+MADISON SQUARE GARDEN,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"MICRON PURE, LLC",FALSE,,'micron' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 "MILLER STRATEGIES, LLC ON BEHALF OF AMAZON WEB SERVICES, INC.",FALSE,,"subcontractor report for amazon; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"MINDBLOOM, INC.",FALSE,,'atlassian' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+MISSIONSQUARE RETIREMENT,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 ML ASSOC OBO CLARK ST ASSOC OBO AM SEMICONDUCTOR COALITION OBO IBM,FALSE,,"subcontractor report for ibm; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 MODERN INTEL,FALSE,,unrelated company; AI first pass 2026-09-30
 "MORAN GLOBAL STRATEGIES, INC. OBO SALESFORCE, INC.",FALSE,,"subcontractor report for salesforce; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"MOVEWORKS, INC.",FALSE,,Moveworks before ServiceNow's 2025 purchase; not ServiceNow's lobbying (decision 2 precedent); AI first pass 2026-09-30 (second batch)
+"MXSQUARED, LLC",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+NATIONAL ASSOCIATION FOR PROTON THERAPY,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+NATIONAL ASSOCIATION OF PROTON THERAPY,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 NATIONAL PHILANTHROPIC TRUST,FALSE,,matches 'anthropic' inside 'philanthropic'; AI first pass 2026-09-30
 NCR VOYIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 NCR VOYIX CORPORATION (FKA NCR CORPORATION),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 NEW BEDFORD PANORAMEX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 O.N.E. AMAZON,FALSE,,"rainforest group, not Amazon.com; AI first pass 2026-09-30"
+ONE TOWN SQUARE CONSULTING LLC,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 ONEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 ORACLE CERNER (FORMERLY CERNER CORPORATION),FALSE,,"Cerner before/around Oracle's 2022 purchase; not Oracle's lobbying (decision 2, 2026-09-30)"
+PACIFIC SQUARE LLC (O/B/O ELDORADO),FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+PACIFIC SQUARE LLC (O/B/O ST. AUGUSTINE GOLD & COPPER),FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+PATIENT SQUARE CAPITAL,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 "PAUL, WEISS, RIFKIND, WHARTON & GARRISON LLP ON BEHALF OF QUALCOMM INCORPORATED",FALSE,,"subcontractor report for qualcomm; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 "PENDULLUM POWERE AMD WATER, LLC",FALSE,,unrelated company; AI first pass 2026-09-30
+"PERSHING SQUARE CAPITAL MANAGEMENT, L.P.",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 PHOENIX AIR GROUP,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 POWEREX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 PROCISEDX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+PROTON AG,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+PROTON THERAPY CONSORTIUM,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+PROTON THERAPY CONSORTIUM FKA NATIONAL ASSOCIATION FOR PROTON THERAPY,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+PROTONEX TECHNOLOGY CORPORATION,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+PROTOS ENERGY SSC,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 RIPPLE AND FLOW,FALSE,,unrelated company; AI first pass 2026-09-30
 ROBLOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 RTX CORP AND AFFILIATES,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
@@ -241,15 +437,33 @@ RTX CORPORATION AND AFFILIATES (FKA RAYTHEON TECHNOLOGIES CORPORATION AND AFFIL,
 RTX CORPORATION AND AFFILIATES (FKARAYTHEON TECHNOLOGIES CORPORATION),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 RTX CORPORATION AND AFFILIATES(RAYTHEON TECHNOLOGIES CORPORATION AND AFFILIATES),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 SAALEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+SBIR ADVISORS OBO AIRLOOM ENERGY,FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+SEATTLE CANCER CARE ALLIANCE PROTON THERAPY CENTER,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 SECUREBOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"SEVES GLASS BLOCK, INC.",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"SEXTONS CREEK (ON BEHALF OF SAP AMERICA, INC.)",FALSE,,subcontractor report for sap; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
+SIDLEY AUSTIN LLP (ON BEHALF OF HEWLETT PACKARD ENTERPRISE CO.),FALSE,,subcontractor report for hpe; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
+SIDLEY AUSTIN LLP ON BEHALF OF HEWLETT PACKARD ENTERPRISE,FALSE,,subcontractor report for hpe; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
+"SNAP DIAGNOSTICS, LLP",FALSE,,'snap' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"SNAP FINANCE, LLC",FALSE,,'snap' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+SQUARE 407 LP,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"STANTON PARK GROUP LLC ON BEHALF OF INTUIT, INC. AND AFFILIATES",FALSE,,subcontractor report for intuit; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
 SURDEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"TAI GINSBERG & ASSOCIATES, LLC ON BEHALF OF SAMBANOVA SYSTEMS",FALSE,,subcontractor report for sambanova; excluded to avoid double counting dollars (decision 1); AI first pass 2026-09-30 (second batch)
 TANADGUSIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 TDX CORP,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 TDX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 TEAM HALLAHAN LLC (ON BEHALF OF AMAZON WEB SERVICES),FALSE,,"subcontractor report for amazon; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 "TEAM HALLAHAN LLC ON BEHALF OF AMAZON WEB SERVICES, INC.",FALSE,,"subcontractor report for amazon; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"TECHNICAL MICRONICS CONTROL, INC.",FALSE,,'micron' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 "THE DOERRER GROUP ON BEHALF OF UBER TECHNOLOGIES, INC.",FALSE,,"subcontractor report for uber; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 THORN RUN PARTNERS O/B/O FEDEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+TIDAL BASIN,FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+TIDAL BASIN ADVISORS ON BEHALF OF THE COLLECTIVE ASSOCIATION,FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+"TIDAL BASIN ADVISORS, INC. ON BEHALF OF THE COLLECTIVE ASSOCIATION",FALSE,,unrelated name matched by a broad search; AI first pass 2026-09-30 (second batch)
+"TIDAL BASIN GOVERNMENT CONSULTING, LLC",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+"TIDAL FLIGHT, INC.",FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
+TIDALHEALTH (FKA NANTICOKE PENINSULA HEALTH),FALSE,,'block_inc' search matched an unrelated name; AI first pass 2026-09-30 (second batch)
 TIKTOK COALITION,FALSE,,"outside coalition, not the company; AI first pass 2026-09-30"
 TRANSPARENCY-RX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 TREMONT STRATEGIES GROUP ON BEHALF OF UBER TECHNOLOGIES,FALSE,,"subcontractor report for uber; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
@@ -257,6 +471,7 @@ TWINLOGIC STRATEGIES ON BEHALF OF DELL USA LP,FALSE,,"subcontractor report for d
 "TWINLOGIC STRATEGIES ON BEHALF OF TWITTER, INC",FALSE,,"subcontractor report for x_twitter_spacex; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 U.S. APPLE ASSOCIATION,FALSE,,fruit growers; AI first pass 2026-09-30
 US APPLE ASSOCIATION,FALSE,,fruit growers; AI first pass 2026-09-30
+"VMWARE, INC. OBO BROADCOM INC.",FALSE,,"one outside firm's client record spanning Broadcom's 2023 purchase of VMware; cannot be split between the two, so excluded from both; AI first pass 2026-09-30 (second batch)"
 VUZIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 "WILLIAMS AND JENSEN, PLLC ON BEHALF OF RIPPLE LABS, INC.",FALSE,,"subcontractor report for ripple; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 WILMERHALE ON BEHALF OF APPLE INC.,FALSE,,"subcontractor report for apple; excluded to avoid double counting dollars (decision 1, 2026-09-30)"

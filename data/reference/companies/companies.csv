@@ -1,42 +1,91 @@
 canonical_name,display_name,sector
 a16z,a16z,vc
 accel,Accel,vc
+adobe,Adobe,software
+airbnb,Airbnb,marketplace
 amazon,Amazon,tech_giant
 amd,AMD,semiconductors
 anduril,Anduril,defense
 anthropic,Anthropic,ai
 apple,Apple,tech_giant
+arm,Arm,semiconductors
+atlassian,Atlassian,software
 benchmark,Benchmark,vc
+block_inc,Block,fintech
+broadcom,Broadcom,semiconductors
 bytedance,ByteDance / TikTok,social_media
+c3ai,C3.ai,ai
+character,Character.AI,ai
+cisco,Cisco,hardware
+cloudflare,Cloudflare,cloud
 cohere,Cohere,ai
 coinbase,Coinbase,fintech
 coreweave,Coreweave,cloud
+crowdstrike,CrowdStrike,cybersecurity
+databricks,Databricks,software
 dell,Dell,hardware
+discord,Discord,social_media
+doordash,DoorDash,delivery
+dropbox,Dropbox,software
 ebay,eBay,ecommerce
+elevenlabs,ElevenLabs,ai
+figma,Figma,software
+fortinet,Fortinet,cybersecurity
+gitlab,GitLab,software
 google,Google,tech_giant
 greylock,Greylock,vc
 groq,Groq,semiconductors
+hp,HP,hardware
+hpe,Hewlett Packard Enterprise,hardware
+huggingface,Hugging Face,ai
 ibm,IBM,tech_giant
+instacart,Instacart,delivery
 intel,Intel,semiconductors
+intuit,Intuit,fintech
 khosla,Khosla Ventures,vc
 kleiner,Kleiner,vc
+lyft,Lyft,rideshare
+marvell,Marvell,semiconductors
 meta,Meta,tech_giant
+micron,Micron,semiconductors
 microsoft,Microsoft,tech_giant
 netflix,Netflix,tech_giant
+neuralink,Neuralink,elon_empire
 nvidia,NVIDIA,semiconductors
+okta,Okta,cybersecurity
 openai,OpenAI,ai
 oracle,Oracle,cloud
 other,Other,other
 palantir,Palantir,defense
+palo_alto,Palo Alto Networks,cybersecurity
+paypal,PayPal,fintech
+pinterest,Pinterest,social_media
+plaid,Plaid,fintech
 qualcomm,Qualcomm,semiconductors
+reddit,Reddit,social_media
 ripple,Ripple,fintech
+robinhood,Robinhood,fintech
 salesforce,Salesforce,software
+sambanova,SambaNova,semiconductors
+sap,SAP,software
 scale_ai,Scale AI,ai
+sentinelone,SentinelOne,cybersecurity
 sequoia,Sequoia,vc
+servicenow,ServiceNow,software
 shopify,Shopify,ecommerce
+snap,Snap,social_media
+snowflake,Snowflake,cloud
+spotify,Spotify,media
+stability,Stability AI,ai
 stripe,Stripe,fintech
+tempus,Tempus AI,ai
 tesla,Tesla,cars
+tsmc,TSMC,semiconductors
 uber,Uber,rideshare
+uipath,UiPath,software
 union_square_ventures,Union Square Ventures,vc
+vmware,VMware,software
+workday,Workday,software
 x_twitter_spacex,X / Twitter / SpaceX,elon_empire
 zoom,Zoom,communications
+zscaler,Zscaler,cybersecurity

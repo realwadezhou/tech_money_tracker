@@ -207,3 +207,64 @@ lobbying refresh, but it is not copied into `docs/` and nothing links to it.
 - **Before reversing:** review a sample of matches (the worksheet is
   `exports/lobbying/topic_review_queue.csv`), and decide whether 118 MB of
   page data is acceptable or the explorer should load a smaller index.
+
+---
+
+## 2026-09-30: second batch of lobbying companies
+
+### Decision 11: 49 more tech companies tracked for lobbying; telecoms left out
+
+*Decided by: Wade (scope), Claude (individual names).*
+
+Wade decided: add the clearly-tech companies waiting in the lobbying review
+queue, and leave out the four telecom and cable companies (Comcast, Verizon,
+T-Mobile, AT&T).
+
+- **Why telecoms are out:** together they reported about $419 million over
+  2020-2026, more than a third of everything already tracked. Including them
+  would change what "tech lobbying" means on the page. Their 41 names stay
+  undecided in `lda_review_queue.csv`. To add them later, give them a
+  `telecom` sector so they can be shown separately.
+- **Added (49):** Adobe, Airbnb, Arm, Atlassian, Block, Broadcom, C3.ai,
+  Character.AI, Cisco, Cloudflare, CrowdStrike, Databricks, Discord, DoorDash,
+  Dropbox, ElevenLabs, Figma, Fortinet, GitLab, HP, Hewlett Packard Enterprise,
+  Hugging Face, Instacart, Intuit, Lyft, Marvell, Micron, Neuralink, Okta, Palo
+  Alto Networks, PayPal, Pinterest, Plaid, Reddit, Robinhood, SambaNova, SAP,
+  ServiceNow, SentinelOne, Snap, Snowflake, Spotify, Stability AI, Tempus AI,
+  TSMC, UiPath, VMware, Workday, Zscaler. 122 names included, 93 rejected.
+- **Lobbying only.** These companies have no FEC employer names in
+  `curated.csv`, so they do not appear on the campaign-finance pages. Adding
+  them there is a separate review of the FEC queue (about 4,000 names).
+- **Effect on the public page:** tracked companies went from 35 to 84. The
+  "all tracked companies" total for 2026 Q2 went from $46.7 million to $61.1
+  million because the list grew, not because spending did. The page's sector
+  selector and Sector column exist so totals can be read for a stable group.
+
+Judgement calls on names, following the earlier decisions:
+
+- **Acquisitions (Decision 2 precedent).** VMware is tracked as its own
+  company; Broadcom bought it in November 2023 and its reports end in 2024.
+  Moveworks (bought by ServiceNow, 2025) and Afterpay (bought by Block, 2022)
+  are rejected because their reports are from before the purchases. "VMWARE,
+  INC. OBO BROADCOM INC." is one outside firm's client record spanning the
+  purchase; it cannot be split, so it counts for neither.
+- **Credit Karma is counted as Intuit.** The filer names it "an Intuit
+  affiliate". Intuit completed the purchase in December 2020, so that name's
+  2020 reports slightly predate it.
+- **Block.** "Block, Inc." and "Square, Inc." are the payments company. H&R
+  Block and the other names caught by the broad "Block/Square/Tidal/Proto"
+  search (45 in all) are unrelated and rejected. Proton AG (the email company) is
+  rejected here because it is not Block; it is not otherwise tracked.
+- **Atlassian.** Only "ATLASSIAN" counts. The search also caught Bloom
+  Energy, Bloomberg, and several cities named Bloomington through its "Loom"
+  and "Confluence" product names; all rejected.
+- **Neuralink** is tracked on its own, in the same sector as X / Twitter /
+  SpaceX, not merged into it.
+- **Tempus AI** is included as an AI company although its lobbying is about
+  healthcare; it was already in the project's search list.
+- **Sectors** for the new companies were assigned by Claude. New sector tags:
+  `cybersecurity`, `delivery`, `marketplace`, `media`. The reader-facing sector
+  names are in `frontend/lobbying_spending.py` (`SECTOR_LABELS`). The existing
+  `tech_giant` tag (Amazon, Apple, Google, IBM, Meta, Microsoft, Netflix) is
+  shown as "Large tech companies", not "Big Tech", because it includes IBM
+  and Netflix.

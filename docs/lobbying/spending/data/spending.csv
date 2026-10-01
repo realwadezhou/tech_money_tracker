@@ -13,6 +13,58 @@ a16z,a16z,vc,2025,3,True,1330000.0,in_house,1330000.0,360000.0,1,5
 a16z,a16z,vc,2025,4,True,710000.0,in_house,710000.0,360000.0,1,5
 a16z,a16z,vc,2026,1,True,660000.0,in_house,660000.0,460000.0,1,7
 a16z,a16z,vc,2026,2,True,880000.0,in_house,880000.0,492500.0,1,9
+adobe,Adobe,software,2020,1,True,340000.0,in_house,340000.0,100000.0,1,5
+adobe,Adobe,software,2020,2,True,310000.0,in_house,310000.0,80000.0,1,4
+adobe,Adobe,software,2020,3,True,320000.0,in_house,320000.0,80000.0,1,5
+adobe,Adobe,software,2020,4,True,300000.0,in_house,300000.0,110000.0,1,5
+adobe,Adobe,software,2021,1,True,380000.0,in_house,380000.0,140000.0,1,5
+adobe,Adobe,software,2021,2,True,330000.0,in_house,330000.0,140000.0,1,5
+adobe,Adobe,software,2021,3,True,420000.0,in_house,420000.0,150000.0,1,5
+adobe,Adobe,software,2021,4,True,380000.0,in_house,380000.0,150000.0,1,5
+adobe,Adobe,software,2022,1,True,360000.0,in_house,360000.0,150000.0,1,5
+adobe,Adobe,software,2022,2,True,370000.0,in_house,370000.0,150000.0,1,5
+adobe,Adobe,software,2022,3,True,350000.0,in_house,350000.0,150000.0,1,5
+adobe,Adobe,software,2022,4,True,360000.0,in_house,360000.0,150000.0,1,5
+adobe,Adobe,software,2023,1,True,380000.0,in_house,380000.0,150000.0,1,6
+adobe,Adobe,software,2023,2,True,370000.0,in_house,370000.0,170000.0,1,6
+adobe,Adobe,software,2023,3,True,340000.0,in_house,340000.0,200000.0,1,6
+adobe,Adobe,software,2023,4,True,380000.0,in_house,380000.0,220000.0,1,7
+adobe,Adobe,software,2024,1,True,460000.0,in_house,460000.0,250000.0,1,7
+adobe,Adobe,software,2024,2,True,450000.0,in_house,450000.0,230000.0,1,7
+adobe,Adobe,software,2024,3,True,470000.0,in_house,470000.0,200000.0,1,7
+adobe,Adobe,software,2024,4,True,470000.0,in_house,470000.0,220000.0,1,8
+adobe,Adobe,software,2025,1,True,490000.0,in_house,490000.0,280000.0,1,8
+adobe,Adobe,software,2025,2,True,530000.0,in_house,530000.0,260000.0,1,8
+adobe,Adobe,software,2025,3,True,540000.0,in_house,540000.0,230000.0,1,7
+adobe,Adobe,software,2025,4,True,490000.0,in_house,490000.0,210000.0,1,7
+adobe,Adobe,software,2026,1,True,450000.0,in_house,450000.0,180000.0,1,5
+adobe,Adobe,software,2026,2,True,450000.0,in_house,450000.0,190000.0,1,5
+airbnb,Airbnb,marketplace,2020,1,True,240000.0,in_house,240000.0,90000.0,1,2
+airbnb,Airbnb,marketplace,2020,2,True,150000.0,in_house,150000.0,90000.0,1,2
+airbnb,Airbnb,marketplace,2020,3,True,150000.0,in_house,150000.0,90000.0,1,2
+airbnb,Airbnb,marketplace,2020,4,True,150000.0,in_house,150000.0,90000.0,1,2
+airbnb,Airbnb,marketplace,2021,1,True,130000.0,in_house,130000.0,90000.0,1,2
+airbnb,Airbnb,marketplace,2021,2,True,160000.0,in_house,160000.0,90000.0,1,2
+airbnb,Airbnb,marketplace,2021,3,True,230000.0,in_house,230000.0,90000.0,1,2
+airbnb,Airbnb,marketplace,2021,4,True,140000.0,in_house,140000.0,90000.0,1,2
+airbnb,Airbnb,marketplace,2022,1,True,220000.0,in_house,220000.0,140000.0,1,3
+airbnb,Airbnb,marketplace,2022,2,True,260000.0,in_house,260000.0,140000.0,1,3
+airbnb,Airbnb,marketplace,2022,3,True,270000.0,in_house,270000.0,140000.0,1,3
+airbnb,Airbnb,marketplace,2022,4,True,280000.0,in_house,280000.0,140000.0,1,3
+airbnb,Airbnb,marketplace,2023,1,True,230000.0,in_house,230000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2023,2,True,430000.0,in_house,430000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2023,3,True,160000.0,in_house,160000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2023,4,True,210000.0,in_house,210000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2024,1,True,210000.0,in_house,210000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2024,2,True,260000.0,in_house,260000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2024,3,True,270000.0,in_house,270000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2024,4,True,200000.0,in_house,200000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2025,1,True,270000.0,in_house,270000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2025,2,True,340000.0,in_house,340000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2025,3,True,230000.0,in_house,230000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2025,4,True,250000.0,in_house,250000.0,120000.0,1,3
+airbnb,Airbnb,marketplace,2026,1,True,260000.0,in_house,260000.0,160000.0,1,4
+airbnb,Airbnb,marketplace,2026,2,True,480000.0,in_house,480000.0,220000.0,1,4
 amazon,Amazon,tech_giant,2020,1,True,4330000.0,in_house,4330000.0,805000.0,1,18
 amazon,Amazon,tech_giant,2020,2,True,4380000.0,in_house,4380000.0,900000.0,1,20
 amazon,Amazon,tech_giant,2020,3,True,4410000.0,in_house,4410000.0,900000.0,1,21
@@ -131,6 +183,90 @@ apple,Apple,tech_giant,2025,3,True,2790000.0,in_house,2790000.0,820000.0,1,10
 apple,Apple,tech_giant,2025,4,True,2840000.0,in_house,2840000.0,830000.0,1,10
 apple,Apple,tech_giant,2026,1,True,2480000.0,in_house,2480000.0,840000.0,1,10
 apple,Apple,tech_giant,2026,2,True,2740000.0,in_house,2740000.0,920000.0,1,10
+arm,Arm,semiconductors,2023,3,True,80000.0,outside_firm,0.0,80000.0,0,1
+arm,Arm,semiconductors,2023,4,True,110000.0,outside_firm,0.0,110000.0,0,1
+arm,Arm,semiconductors,2024,1,True,110000.0,outside_firm,0.0,110000.0,0,1
+arm,Arm,semiconductors,2024,2,True,110000.0,outside_firm,0.0,110000.0,0,1
+arm,Arm,semiconductors,2024,3,True,110000.0,outside_firm,0.0,110000.0,0,1
+arm,Arm,semiconductors,2024,4,True,110000.0,outside_firm,0.0,110000.0,0,1
+arm,Arm,semiconductors,2025,1,True,110000.0,outside_firm,0.0,110000.0,0,1
+arm,Arm,semiconductors,2025,2,True,110000.0,outside_firm,0.0,110000.0,0,1
+arm,Arm,semiconductors,2025,3,True,120000.0,outside_firm,0.0,120000.0,0,1
+arm,Arm,semiconductors,2025,4,True,120000.0,outside_firm,0.0,120000.0,0,1
+arm,Arm,semiconductors,2026,1,True,120000.0,outside_firm,0.0,120000.0,0,1
+arm,Arm,semiconductors,2026,2,True,120000.0,outside_firm,0.0,120000.0,0,1
+atlassian,Atlassian,software,2021,3,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2021,4,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2022,1,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2022,2,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2022,3,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2022,4,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2023,1,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2023,2,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2023,3,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2023,4,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2024,1,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2024,2,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2024,3,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2024,4,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2025,1,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2025,2,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2025,3,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2025,4,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2026,1,True,10000.0,outside_firm,0.0,10000.0,0,1
+atlassian,Atlassian,software,2026,2,True,10000.0,outside_firm,0.0,10000.0,0,1
+block_inc,Block,fintech,2020,1,True,50000.0,outside_firm,0.0,50000.0,0,3
+block_inc,Block,fintech,2020,2,True,460000.0,in_house,460000.0,150000.0,1,3
+block_inc,Block,fintech,2020,3,True,180000.0,in_house,180000.0,140000.0,1,3
+block_inc,Block,fintech,2020,4,True,210000.0,in_house,210000.0,140000.0,1,3
+block_inc,Block,fintech,2021,1,True,240000.0,in_house,240000.0,140000.0,1,3
+block_inc,Block,fintech,2021,2,True,300000.0,in_house,300000.0,140000.0,1,3
+block_inc,Block,fintech,2021,3,True,320000.0,in_house,320000.0,140000.0,1,3
+block_inc,Block,fintech,2021,4,True,260000.0,in_house,260000.0,210000.0,1,5
+block_inc,Block,fintech,2022,1,True,400000.0,in_house,400000.0,230000.0,1,5
+block_inc,Block,fintech,2022,2,True,490000.0,in_house,490000.0,250000.0,1,5
+block_inc,Block,fintech,2022,3,True,420000.0,in_house,420000.0,250000.0,1,5
+block_inc,Block,fintech,2022,4,True,410000.0,in_house,410000.0,270000.0,1,5
+block_inc,Block,fintech,2023,1,True,430000.0,in_house,430000.0,270000.0,1,5
+block_inc,Block,fintech,2023,2,True,430000.0,in_house,430000.0,270000.0,1,5
+block_inc,Block,fintech,2023,3,True,430000.0,in_house,430000.0,250000.0,1,5
+block_inc,Block,fintech,2023,4,True,470000.0,in_house,470000.0,220000.0,1,5
+block_inc,Block,fintech,2024,1,True,470000.0,in_house,470000.0,220000.0,1,4
+block_inc,Block,fintech,2024,2,True,510000.0,in_house,510000.0,250000.0,1,5
+block_inc,Block,fintech,2024,3,True,510000.0,in_house,510000.0,250000.0,1,6
+block_inc,Block,fintech,2024,4,True,630000.0,in_house,630000.0,270000.0,1,6
+block_inc,Block,fintech,2025,1,True,580000.0,in_house,580000.0,260000.0,1,5
+block_inc,Block,fintech,2025,2,True,510000.0,in_house,510000.0,230000.0,1,4
+block_inc,Block,fintech,2025,3,True,550000.0,in_house,550000.0,230000.0,1,4
+block_inc,Block,fintech,2025,4,True,520000.0,in_house,520000.0,210000.0,1,4
+block_inc,Block,fintech,2026,1,True,490000.0,in_house,490000.0,180000.0,1,4
+block_inc,Block,fintech,2026,2,True,310000.0,in_house,310000.0,170000.0,1,3
+broadcom,Broadcom,semiconductors,2020,1,True,710000.0,in_house,710000.0,280000.0,1,5
+broadcom,Broadcom,semiconductors,2020,2,True,600000.0,in_house,600000.0,290000.0,1,5
+broadcom,Broadcom,semiconductors,2020,3,True,500000.0,in_house,500000.0,270000.0,1,5
+broadcom,Broadcom,semiconductors,2020,4,True,490000.0,in_house,490000.0,270000.0,1,5
+broadcom,Broadcom,semiconductors,2021,1,True,340000.0,in_house,340000.0,270000.0,1,5
+broadcom,Broadcom,semiconductors,2021,2,True,360000.0,in_house,360000.0,270000.0,1,5
+broadcom,Broadcom,semiconductors,2021,3,True,400000.0,in_house,400000.0,320000.0,1,9
+broadcom,Broadcom,semiconductors,2021,4,True,410000.0,in_house,410000.0,350000.0,1,6
+broadcom,Broadcom,semiconductors,2022,1,True,530000.0,in_house,530000.0,330000.0,1,7
+broadcom,Broadcom,semiconductors,2022,2,True,470000.0,in_house,470000.0,340000.0,1,6
+broadcom,Broadcom,semiconductors,2022,3,True,490000.0,in_house,490000.0,340000.0,1,6
+broadcom,Broadcom,semiconductors,2022,4,True,520000.0,in_house,520000.0,340000.0,1,6
+broadcom,Broadcom,semiconductors,2023,1,True,440000.0,in_house,440000.0,340000.0,1,6
+broadcom,Broadcom,semiconductors,2023,2,True,430000.0,in_house,430000.0,350000.0,1,7
+broadcom,Broadcom,semiconductors,2023,3,True,470000.0,in_house,470000.0,350000.0,1,6
+broadcom,Broadcom,semiconductors,2023,4,True,510000.0,in_house,510000.0,330000.0,1,6
+broadcom,Broadcom,semiconductors,2024,1,True,460000.0,in_house,460000.0,260000.0,1,5
+broadcom,Broadcom,semiconductors,2024,2,True,490000.0,in_house,490000.0,240000.0,1,4
+broadcom,Broadcom,semiconductors,2024,3,True,380000.0,in_house,380000.0,290000.0,1,5
+broadcom,Broadcom,semiconductors,2024,4,True,450000.0,in_house,450000.0,290000.0,1,5
+broadcom,Broadcom,semiconductors,2025,1,True,570000.0,in_house,570000.0,290000.0,1,5
+broadcom,Broadcom,semiconductors,2025,2,True,510000.0,in_house,510000.0,290000.0,1,5
+broadcom,Broadcom,semiconductors,2025,3,True,340000.0,in_house,340000.0,290000.0,1,6
+broadcom,Broadcom,semiconductors,2025,4,True,400000.0,in_house,400000.0,320000.0,1,6
+broadcom,Broadcom,semiconductors,2026,1,True,430000.0,in_house,430000.0,310000.0,1,5
+broadcom,Broadcom,semiconductors,2026,2,True,420000.0,in_house,420000.0,260000.0,1,5
 bytedance,ByteDance / TikTok,social_media,2020,1,True,300000.0,in_house,300000.0,300000.0,1,4
 bytedance,ByteDance / TikTok,social_media,2020,2,True,500000.0,in_house,500000.0,350000.0,1,4
 bytedance,ByteDance / TikTok,social_media,2020,3,True,730000.0,in_house,730000.0,360000.0,1,4
@@ -157,6 +293,73 @@ bytedance,ByteDance / TikTok,social_media,2025,3,True,1800000.0,in_house,1800000
 bytedance,ByteDance / TikTok,social_media,2025,4,True,1680000.0,in_house,1680000.0,590000.0,1,6
 bytedance,ByteDance / TikTok,social_media,2026,1,True,2190000.0,in_house,2190000.0,630000.0,2,8
 bytedance,ByteDance / TikTok,social_media,2026,2,True,1880000.0,in_house,1880000.0,530000.0,2,8
+c3ai,C3.ai,ai,2023,2,True,20000.0,in_house,20000.0,0.0,1,0
+c3ai,C3.ai,ai,2023,3,True,60000.0,in_house,60000.0,0.0,1,0
+c3ai,C3.ai,ai,2023,4,True,60000.0,in_house,60000.0,0.0,1,0
+c3ai,C3.ai,ai,2024,1,True,60000.0,in_house,60000.0,0.0,1,0
+c3ai,C3.ai,ai,2024,2,True,130000.0,in_house,130000.0,50000.0,1,1
+c3ai,C3.ai,ai,2024,3,True,130000.0,in_house,130000.0,80000.0,1,1
+c3ai,C3.ai,ai,2024,4,True,130000.0,in_house,130000.0,80000.0,1,1
+c3ai,C3.ai,ai,2025,1,True,130000.0,in_house,130000.0,80000.0,1,1
+c3ai,C3.ai,ai,2025,2,True,205000.0,in_house,205000.0,80000.0,1,1
+c3ai,C3.ai,ai,2025,3,True,205000.0,in_house,205000.0,155000.0,1,2
+c3ai,C3.ai,ai,2025,4,True,205000.0,in_house,205000.0,155000.0,1,2
+c3ai,C3.ai,ai,2026,1,True,205000.0,in_house,205000.0,155000.0,1,2
+c3ai,C3.ai,ai,2026,2,True,200000.0,in_house,200000.0,155000.0,1,2
+character,Character.AI,ai,2026,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+character,Character.AI,ai,2026,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+cisco,Cisco,hardware,2020,1,True,460000.0,in_house,460000.0,110000.0,1,2
+cisco,Cisco,hardware,2020,2,True,400000.0,in_house,400000.0,120000.0,1,2
+cisco,Cisco,hardware,2020,3,True,530000.0,in_house,530000.0,110000.0,1,2
+cisco,Cisco,hardware,2020,4,True,460000.0,in_house,460000.0,110000.0,1,2
+cisco,Cisco,hardware,2021,1,True,460000.0,in_house,460000.0,170000.0,1,4
+cisco,Cisco,hardware,2021,2,True,700000.0,in_house,700000.0,210000.0,1,4
+cisco,Cisco,hardware,2021,3,True,770000.0,in_house,770000.0,300000.0,1,6
+cisco,Cisco,hardware,2021,4,True,1080000.0,in_house,1080000.0,360000.0,1,6
+cisco,Cisco,hardware,2022,1,True,890000.0,in_house,890000.0,300000.0,1,6
+cisco,Cisco,hardware,2022,2,True,620000.0,in_house,620000.0,300000.0,1,6
+cisco,Cisco,hardware,2022,3,True,640000.0,in_house,640000.0,310000.0,1,6
+cisco,Cisco,hardware,2022,4,True,760000.0,in_house,760000.0,300000.0,1,5
+cisco,Cisco,hardware,2023,1,True,990000.0,in_house,990000.0,300000.0,1,5
+cisco,Cisco,hardware,2023,2,True,710000.0,in_house,710000.0,300000.0,1,5
+cisco,Cisco,hardware,2023,3,True,490000.0,in_house,490000.0,300000.0,1,5
+cisco,Cisco,hardware,2023,4,True,600000.0,in_house,600000.0,300000.0,1,5
+cisco,Cisco,hardware,2024,1,True,870000.0,in_house,870000.0,330000.0,1,6
+cisco,Cisco,hardware,2024,2,True,570000.0,in_house,570000.0,360000.0,1,7
+cisco,Cisco,hardware,2024,3,True,710000.0,in_house,710000.0,390000.0,1,7
+cisco,Cisco,hardware,2024,4,True,1120000.0,in_house,1120000.0,390000.0,1,7
+cisco,Cisco,hardware,2025,1,True,840000.0,in_house,840000.0,400000.0,1,8
+cisco,Cisco,hardware,2025,2,True,700000.0,in_house,700000.0,410000.0,1,8
+cisco,Cisco,hardware,2025,3,True,950000.0,in_house,950000.0,410000.0,1,8
+cisco,Cisco,hardware,2025,4,True,1290000.0,in_house,1290000.0,460000.0,1,9
+cisco,Cisco,hardware,2026,1,True,1210000.0,in_house,1210000.0,530000.0,1,8
+cisco,Cisco,hardware,2026,2,True,850000.0,in_house,850000.0,480000.0,1,7
+cloudflare,Cloudflare,cloud,2020,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2020,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2020,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2020,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2021,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2021,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2021,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2021,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2022,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2022,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2022,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2022,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2023,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2023,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2023,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2023,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2024,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2024,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2024,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2024,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2025,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2025,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2025,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2025,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2026,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+cloudflare,Cloudflare,cloud,2026,2,True,40000.0,outside_firm,0.0,40000.0,0,1
 cohere,Cohere,ai,2023,3,True,20000.0,outside_firm,0.0,20000.0,0,1
 cohere,Cohere,ai,2023,4,True,50000.0,outside_firm,0.0,50000.0,0,1
 cohere,Cohere,ai,2024,1,True,60000.0,outside_firm,0.0,60000.0,0,1
@@ -207,6 +410,35 @@ coreweave,Coreweave,cloud,2025,3,True,90000.0,in_house,90000.0,80000.0,1,1
 coreweave,Coreweave,cloud,2025,4,True,210000.0,in_house,210000.0,170000.0,1,2
 coreweave,Coreweave,cloud,2026,1,True,180000.0,in_house,180000.0,160000.0,1,2
 coreweave,Coreweave,cloud,2026,2,True,180000.0,in_house,180000.0,160000.0,1,2
+crowdstrike,CrowdStrike,cybersecurity,2020,1,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2020,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2020,3,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2020,4,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2021,1,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2021,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2021,3,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2021,4,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2022,1,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2022,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+crowdstrike,CrowdStrike,cybersecurity,2022,3,True,80000.0,in_house,80000.0,50000.0,1,2
+crowdstrike,CrowdStrike,cybersecurity,2022,4,True,150000.0,in_house,150000.0,100000.0,1,3
+crowdstrike,CrowdStrike,cybersecurity,2023,1,True,160000.0,in_house,160000.0,150000.0,1,3
+crowdstrike,CrowdStrike,cybersecurity,2023,2,True,160000.0,in_house,160000.0,160000.0,1,3
+crowdstrike,CrowdStrike,cybersecurity,2023,3,True,150000.0,in_house,150000.0,150000.0,1,3
+crowdstrike,CrowdStrike,cybersecurity,2023,4,True,160000.0,outside_firm,150000.0,160000.0,1,3
+crowdstrike,CrowdStrike,cybersecurity,2024,1,True,210000.0,in_house,210000.0,150000.0,1,3
+crowdstrike,CrowdStrike,cybersecurity,2024,2,True,160000.0,outside_firm,150000.0,160000.0,1,3
+crowdstrike,CrowdStrike,cybersecurity,2024,3,True,270000.0,outside_firm,260000.0,270000.0,1,4
+crowdstrike,CrowdStrike,cybersecurity,2024,4,True,180000.0,in_house,180000.0,180000.0,1,4
+crowdstrike,CrowdStrike,cybersecurity,2025,1,True,170000.0,in_house,170000.0,150000.0,1,4
+crowdstrike,CrowdStrike,cybersecurity,2025,2,True,160000.0,outside_firm,150000.0,160000.0,1,4
+crowdstrike,CrowdStrike,cybersecurity,2025,3,True,370000.0,in_house,370000.0,320000.0,1,5
+crowdstrike,CrowdStrike,cybersecurity,2025,4,True,370000.0,in_house,370000.0,330000.0,1,5
+crowdstrike,CrowdStrike,cybersecurity,2026,1,True,400000.0,in_house,400000.0,320000.0,1,5
+crowdstrike,CrowdStrike,cybersecurity,2026,2,True,380000.0,in_house,380000.0,370000.0,1,5
+databricks,Databricks,software,2025,4,True,100000.0,outside_firm,0.0,100000.0,0,2
+databricks,Databricks,software,2026,1,True,120000.0,outside_firm,0.0,120000.0,0,2
+databricks,Databricks,software,2026,2,True,120000.0,outside_firm,0.0,120000.0,0,2
 dell,Dell,hardware,2020,1,True,920000.0,in_house,920000.0,260000.0,1,5
 dell,Dell,hardware,2020,2,True,910000.0,in_house,910000.0,260000.0,1,4
 dell,Dell,hardware,2020,3,True,850000.0,in_house,850000.0,290000.0,1,5
@@ -233,6 +465,74 @@ dell,Dell,hardware,2025,3,True,1370000.0,in_house,1370000.0,390000.0,1,5
 dell,Dell,hardware,2025,4,True,1480000.0,in_house,1480000.0,390000.0,1,5
 dell,Dell,hardware,2026,1,True,1620000.0,in_house,1620000.0,400000.0,1,6
 dell,Dell,hardware,2026,2,True,1490000.0,in_house,1490000.0,410000.0,1,6
+discord,Discord,social_media,2022,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+discord,Discord,social_media,2022,3,True,50000.0,outside_firm,0.0,50000.0,0,1
+discord,Discord,social_media,2022,4,True,50000.0,outside_firm,0.0,50000.0,0,1
+discord,Discord,social_media,2023,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+discord,Discord,social_media,2023,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+discord,Discord,social_media,2023,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+discord,Discord,social_media,2023,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+discord,Discord,social_media,2024,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+discord,Discord,social_media,2024,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+discord,Discord,social_media,2024,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+discord,Discord,social_media,2024,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+discord,Discord,social_media,2025,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+discord,Discord,social_media,2025,2,True,80000.0,outside_firm,0.0,80000.0,0,1
+discord,Discord,social_media,2025,3,True,80000.0,outside_firm,0.0,80000.0,0,1
+discord,Discord,social_media,2025,4,True,80000.0,outside_firm,0.0,80000.0,0,1
+discord,Discord,social_media,2026,1,True,80000.0,outside_firm,0.0,80000.0,0,1
+discord,Discord,social_media,2026,2,True,80000.0,outside_firm,0.0,80000.0,0,1
+doordash,DoorDash,delivery,2020,2,True,70000.0,outside_firm,0.0,70000.0,0,1
+doordash,DoorDash,delivery,2020,3,True,170000.0,outside_firm,0.0,170000.0,0,2
+doordash,DoorDash,delivery,2020,4,True,215000.0,outside_firm,0.0,215000.0,0,4
+doordash,DoorDash,delivery,2021,1,True,215000.0,outside_firm,0.0,215000.0,0,4
+doordash,DoorDash,delivery,2021,2,True,245000.0,outside_firm,0.0,245000.0,0,5
+doordash,DoorDash,delivery,2021,3,True,275000.0,outside_firm,0.0,275000.0,0,5
+doordash,DoorDash,delivery,2021,4,True,235000.0,outside_firm,0.0,235000.0,0,5
+doordash,DoorDash,delivery,2022,1,True,320000.0,in_house,320000.0,295000.0,1,6
+doordash,DoorDash,delivery,2022,2,True,400000.0,in_house,400000.0,295000.0,1,6
+doordash,DoorDash,delivery,2022,3,True,410000.0,in_house,410000.0,245000.0,1,6
+doordash,DoorDash,delivery,2022,4,True,380000.0,in_house,380000.0,225000.0,1,5
+doordash,DoorDash,delivery,2023,1,True,420000.0,in_house,420000.0,200000.0,1,4
+doordash,DoorDash,delivery,2023,2,True,530000.0,in_house,530000.0,260000.0,1,5
+doordash,DoorDash,delivery,2023,3,True,460000.0,in_house,460000.0,250000.0,1,5
+doordash,DoorDash,delivery,2023,4,True,440000.0,in_house,440000.0,240000.0,1,5
+doordash,DoorDash,delivery,2024,1,True,460000.0,in_house,460000.0,230000.0,1,5
+doordash,DoorDash,delivery,2024,2,True,470000.0,in_house,470000.0,210000.0,1,3
+doordash,DoorDash,delivery,2024,3,True,330000.0,in_house,330000.0,210000.0,1,3
+doordash,DoorDash,delivery,2024,4,True,380000.0,in_house,380000.0,250000.0,1,4
+doordash,DoorDash,delivery,2025,1,True,420000.0,in_house,420000.0,240000.0,1,4
+doordash,DoorDash,delivery,2025,2,True,750000.0,in_house,750000.0,240000.0,1,4
+doordash,DoorDash,delivery,2025,3,True,670000.0,in_house,670000.0,240000.0,1,5
+doordash,DoorDash,delivery,2025,4,True,540000.0,in_house,540000.0,300000.0,1,5
+doordash,DoorDash,delivery,2026,1,True,690000.0,in_house,690000.0,350000.0,1,7
+doordash,DoorDash,delivery,2026,2,True,750000.0,in_house,750000.0,300000.0,1,7
+dropbox,Dropbox,software,2020,1,True,180000.0,in_house,180000.0,100000.0,1,2
+dropbox,Dropbox,software,2020,2,True,120000.0,in_house,120000.0,100000.0,1,2
+dropbox,Dropbox,software,2020,3,True,150000.0,in_house,150000.0,100000.0,1,2
+dropbox,Dropbox,software,2020,4,True,150000.0,in_house,150000.0,100000.0,1,2
+dropbox,Dropbox,software,2021,1,True,170000.0,in_house,170000.0,100000.0,1,2
+dropbox,Dropbox,software,2021,2,True,180000.0,in_house,180000.0,100000.0,1,2
+dropbox,Dropbox,software,2021,3,True,130000.0,in_house,130000.0,100000.0,1,2
+dropbox,Dropbox,software,2021,4,True,130000.0,in_house,130000.0,100000.0,1,2
+dropbox,Dropbox,software,2022,1,True,200000.0,in_house,200000.0,100000.0,1,2
+dropbox,Dropbox,software,2022,2,True,170000.0,in_house,170000.0,100000.0,1,2
+dropbox,Dropbox,software,2022,3,True,100000.0,outside_firm,0.0,100000.0,0,2
+dropbox,Dropbox,software,2022,4,True,100000.0,outside_firm,0.0,100000.0,0,2
+dropbox,Dropbox,software,2023,1,True,240000.0,in_house,240000.0,100000.0,1,2
+dropbox,Dropbox,software,2023,2,True,250000.0,in_house,250000.0,100000.0,1,2
+dropbox,Dropbox,software,2023,3,True,230000.0,in_house,230000.0,100000.0,1,2
+dropbox,Dropbox,software,2023,4,True,170000.0,in_house,170000.0,110000.0,1,2
+dropbox,Dropbox,software,2024,1,True,160000.0,in_house,160000.0,110000.0,1,2
+dropbox,Dropbox,software,2024,2,True,120000.0,in_house,120000.0,110000.0,1,2
+dropbox,Dropbox,software,2024,3,True,180000.0,in_house,180000.0,110000.0,1,2
+dropbox,Dropbox,software,2024,4,True,350000.0,in_house,350000.0,110000.0,1,2
+dropbox,Dropbox,software,2025,1,True,330000.0,in_house,330000.0,110000.0,1,2
+dropbox,Dropbox,software,2025,2,True,340000.0,in_house,340000.0,110000.0,1,2
+dropbox,Dropbox,software,2025,3,True,260000.0,in_house,260000.0,110000.0,1,2
+dropbox,Dropbox,software,2025,4,True,270000.0,in_house,270000.0,110000.0,1,2
+dropbox,Dropbox,software,2026,1,True,350000.0,in_house,350000.0,130000.0,1,3
+dropbox,Dropbox,software,2026,2,True,210000.0,in_house,210000.0,80000.0,1,2
 ebay,eBay,ecommerce,2020,1,True,330000.0,in_house,330000.0,200000.0,1,4
 ebay,eBay,ecommerce,2020,2,True,300000.0,in_house,300000.0,190000.0,1,4
 ebay,eBay,ecommerce,2020,3,True,300000.0,in_house,300000.0,190000.0,1,4
@@ -259,6 +559,59 @@ ebay,eBay,ecommerce,2025,3,True,1830000.0,in_house,1830000.0,260000.0,1,4
 ebay,eBay,ecommerce,2025,4,True,480000.0,in_house,480000.0,260000.0,1,4
 ebay,eBay,ecommerce,2026,1,True,580000.0,in_house,580000.0,260000.0,1,4
 ebay,eBay,ecommerce,2026,2,True,580000.0,in_house,580000.0,260000.0,1,4
+elevenlabs,ElevenLabs,ai,2025,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+elevenlabs,ElevenLabs,ai,2025,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+elevenlabs,ElevenLabs,ai,2025,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+elevenlabs,ElevenLabs,ai,2025,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+elevenlabs,ElevenLabs,ai,2026,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+elevenlabs,ElevenLabs,ai,2026,2,True,20000.0,outside_firm,0.0,20000.0,0,1
+figma,Figma,software,2025,3,True,10000.0,outside_firm,0.0,10000.0,0,1
+figma,Figma,software,2025,4,True,90000.0,outside_firm,0.0,90000.0,0,1
+figma,Figma,software,2026,1,True,90000.0,outside_firm,0.0,90000.0,0,1
+figma,Figma,software,2026,2,True,90000.0,outside_firm,0.0,90000.0,0,1
+fortinet,Fortinet,cybersecurity,2020,3,True,30000.0,outside_firm,0.0,30000.0,0,1
+fortinet,Fortinet,cybersecurity,2020,4,True,30000.0,outside_firm,0.0,30000.0,0,1
+fortinet,Fortinet,cybersecurity,2021,1,True,170000.0,in_house,170000.0,30000.0,1,2
+fortinet,Fortinet,cybersecurity,2021,2,True,320000.0,in_house,320000.0,160000.0,1,4
+fortinet,Fortinet,cybersecurity,2021,3,True,330000.0,in_house,330000.0,130000.0,1,3
+fortinet,Fortinet,cybersecurity,2021,4,True,350000.0,in_house,350000.0,140000.0,1,3
+fortinet,Fortinet,cybersecurity,2022,1,True,350000.0,in_house,350000.0,150000.0,1,3
+fortinet,Fortinet,cybersecurity,2022,2,True,300000.0,in_house,300000.0,100000.0,1,3
+fortinet,Fortinet,cybersecurity,2022,3,True,310000.0,in_house,310000.0,100000.0,1,2
+fortinet,Fortinet,cybersecurity,2022,4,True,300000.0,in_house,300000.0,100000.0,1,2
+fortinet,Fortinet,cybersecurity,2023,1,True,350000.0,in_house,350000.0,90000.0,1,2
+fortinet,Fortinet,cybersecurity,2023,2,True,260000.0,in_house,260000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2023,3,True,200000.0,in_house,200000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2023,4,True,190000.0,in_house,190000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2024,1,True,210000.0,in_house,210000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2024,2,True,200000.0,in_house,200000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2024,3,True,200000.0,in_house,200000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2024,4,True,200000.0,in_house,200000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2025,1,True,200000.0,in_house,200000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2025,2,True,200000.0,in_house,200000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2025,3,True,200000.0,in_house,200000.0,50000.0,1,1
+fortinet,Fortinet,cybersecurity,2026,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+fortinet,Fortinet,cybersecurity,2026,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+gitlab,GitLab,software,2021,3,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2021,4,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2022,1,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2022,2,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2022,3,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2022,4,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2023,1,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2023,2,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2023,3,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2023,4,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2024,1,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2024,2,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2024,3,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2024,4,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2025,1,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2025,2,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2025,3,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2025,4,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2026,1,True,30000.0,outside_firm,0.0,30000.0,0,1
+gitlab,GitLab,software,2026,2,True,20000.0,outside_firm,0.0,20000.0,0,1
 google,Google,tech_giant,2020,1,True,1970000.0,in_house,1970000.0,735000.0,2,21
 google,Google,tech_giant,2020,2,True,1840000.0,in_house,1840000.0,825000.0,2,23
 google,Google,tech_giant,2020,3,True,2140000.0,in_house,2140000.0,795000.0,2,23
@@ -289,6 +642,71 @@ groq,Groq,semiconductors,2025,2,True,150000.0,outside_firm,0.0,150000.0,0,1
 groq,Groq,semiconductors,2025,3,True,150000.0,outside_firm,0.0,150000.0,0,1
 groq,Groq,semiconductors,2025,4,True,150000.0,outside_firm,0.0,150000.0,0,1
 groq,Groq,semiconductors,2026,1,True,50000.0,outside_firm,0.0,50000.0,0,1
+hp,HP,hardware,2020,1,True,360000.0,in_house,360000.0,0.0,1,0
+hp,HP,hardware,2020,2,True,510000.0,in_house,510000.0,80000.0,1,1
+hp,HP,hardware,2020,3,True,390000.0,in_house,390000.0,80000.0,1,1
+hp,HP,hardware,2020,4,True,310000.0,in_house,310000.0,50000.0,1,1
+hp,HP,hardware,2021,1,True,390000.0,in_house,390000.0,0.0,1,1
+hp,HP,hardware,2021,2,True,310000.0,in_house,310000.0,40000.0,1,1
+hp,HP,hardware,2021,3,True,930000.0,in_house,930000.0,80000.0,1,1
+hp,HP,hardware,2021,4,True,510000.0,in_house,510000.0,80000.0,1,1
+hp,HP,hardware,2022,1,True,690000.0,in_house,690000.0,80000.0,1,1
+hp,HP,hardware,2022,2,True,440000.0,in_house,440000.0,100000.0,1,2
+hp,HP,hardware,2022,3,True,850000.0,in_house,850000.0,110000.0,1,2
+hp,HP,hardware,2022,4,True,690000.0,in_house,690000.0,100000.0,1,2
+hp,HP,hardware,2023,1,True,490000.0,in_house,490000.0,100000.0,1,2
+hp,HP,hardware,2023,2,True,730000.0,in_house,730000.0,100000.0,1,2
+hp,HP,hardware,2023,3,True,1030000.0,in_house,1030000.0,100000.0,1,2
+hp,HP,hardware,2023,4,True,1180000.0,in_house,1180000.0,60000.0,1,2
+hp,HP,hardware,2024,1,True,1090000.0,in_house,1090000.0,40000.0,1,1
+hp,HP,hardware,2024,2,True,750000.0,in_house,750000.0,60000.0,1,2
+hp,HP,hardware,2024,3,True,620000.0,in_house,620000.0,100000.0,1,2
+hp,HP,hardware,2024,4,True,630000.0,in_house,630000.0,120000.0,1,3
+hp,HP,hardware,2025,1,True,840000.0,in_house,840000.0,110000.0,1,3
+hp,HP,hardware,2025,2,True,740000.0,in_house,740000.0,110000.0,1,3
+hp,HP,hardware,2025,3,True,800000.0,in_house,800000.0,110000.0,1,3
+hp,HP,hardware,2025,4,True,1180000.0,in_house,1180000.0,70000.0,1,3
+hp,HP,hardware,2026,1,True,720000.0,in_house,720000.0,60000.0,1,2
+hp,HP,hardware,2026,2,True,800000.0,in_house,800000.0,110000.0,1,3
+hpe,Hewlett Packard Enterprise,hardware,2020,1,True,730000.0,in_house,730000.0,220000.0,1,5
+hpe,Hewlett Packard Enterprise,hardware,2020,2,True,800000.0,in_house,800000.0,200000.0,1,5
+hpe,Hewlett Packard Enterprise,hardware,2020,3,True,560000.0,in_house,560000.0,230000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2020,4,True,800000.0,in_house,800000.0,230000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2021,1,True,920000.0,in_house,920000.0,240000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2021,2,True,710000.0,in_house,710000.0,230000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2021,3,True,660000.0,in_house,660000.0,230000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2021,4,True,1660000.0,in_house,1660000.0,230000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2022,1,True,700000.0,in_house,700000.0,230000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2022,2,True,630000.0,in_house,630000.0,280000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2022,3,True,680000.0,in_house,680000.0,280000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2022,4,True,840000.0,in_house,840000.0,230000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2023,1,True,630000.0,in_house,630000.0,210000.0,1,5
+hpe,Hewlett Packard Enterprise,hardware,2023,2,True,650000.0,in_house,650000.0,180000.0,1,5
+hpe,Hewlett Packard Enterprise,hardware,2023,3,True,630000.0,in_house,630000.0,210000.0,1,5
+hpe,Hewlett Packard Enterprise,hardware,2023,4,True,1260000.0,in_house,1260000.0,180000.0,1,5
+hpe,Hewlett Packard Enterprise,hardware,2024,1,True,800000.0,in_house,800000.0,210000.0,1,5
+hpe,Hewlett Packard Enterprise,hardware,2024,2,True,840000.0,in_house,840000.0,180000.0,1,5
+hpe,Hewlett Packard Enterprise,hardware,2024,3,True,560000.0,in_house,560000.0,170000.0,1,5
+hpe,Hewlett Packard Enterprise,hardware,2024,4,True,940000.0,in_house,940000.0,190000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2025,1,True,600000.0,in_house,600000.0,390000.0,1,7
+hpe,Hewlett Packard Enterprise,hardware,2025,2,True,760000.0,in_house,760000.0,390000.0,1,7
+hpe,Hewlett Packard Enterprise,hardware,2025,3,True,490000.0,in_house,490000.0,390000.0,1,7
+hpe,Hewlett Packard Enterprise,hardware,2025,4,True,850000.0,in_house,850000.0,400000.0,1,7
+hpe,Hewlett Packard Enterprise,hardware,2026,1,True,1070000.0,in_house,1070000.0,370000.0,1,6
+hpe,Hewlett Packard Enterprise,hardware,2026,2,True,640000.0,in_house,640000.0,470000.0,1,7
+huggingface,Hugging Face,ai,2023,2,True,20000.0,outside_firm,0.0,20000.0,0,1
+huggingface,Hugging Face,ai,2023,3,True,80000.0,outside_firm,0.0,80000.0,0,1
+huggingface,Hugging Face,ai,2023,4,True,80000.0,outside_firm,0.0,80000.0,0,1
+huggingface,Hugging Face,ai,2024,1,True,80000.0,outside_firm,0.0,80000.0,0,1
+huggingface,Hugging Face,ai,2024,2,True,70000.0,outside_firm,0.0,70000.0,0,1
+huggingface,Hugging Face,ai,2024,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+huggingface,Hugging Face,ai,2024,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+huggingface,Hugging Face,ai,2025,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+huggingface,Hugging Face,ai,2025,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+huggingface,Hugging Face,ai,2025,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+huggingface,Hugging Face,ai,2025,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+huggingface,Hugging Face,ai,2026,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+huggingface,Hugging Face,ai,2026,2,True,20000.0,outside_firm,0.0,20000.0,0,1
 ibm,IBM,tech_giant,2020,1,True,1590000.0,in_house,1590000.0,60000.0,1,3
 ibm,IBM,tech_giant,2020,2,True,1040000.0,in_house,1040000.0,80000.0,1,2
 ibm,IBM,tech_giant,2020,3,True,650000.0,in_house,650000.0,80000.0,1,2
@@ -315,6 +733,32 @@ ibm,IBM,tech_giant,2025,3,True,760000.0,in_house,760000.0,200000.0,1,4
 ibm,IBM,tech_giant,2025,4,True,610000.0,in_house,610000.0,200000.0,1,4
 ibm,IBM,tech_giant,2026,1,True,800000.0,in_house,800000.0,220000.0,1,4
 ibm,IBM,tech_giant,2026,2,True,640000.0,in_house,640000.0,220000.0,1,4
+instacart,Instacart,delivery,2020,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+instacart,Instacart,delivery,2020,2,True,160000.0,outside_firm,0.0,160000.0,0,4
+instacart,Instacart,delivery,2020,3,True,150000.0,outside_firm,0.0,150000.0,0,4
+instacart,Instacart,delivery,2020,4,True,150000.0,outside_firm,0.0,150000.0,0,4
+instacart,Instacart,delivery,2021,1,True,150000.0,outside_firm,0.0,150000.0,0,4
+instacart,Instacart,delivery,2021,2,True,270000.0,in_house,270000.0,150000.0,1,3
+instacart,Instacart,delivery,2021,3,True,310000.0,in_house,310000.0,150000.0,1,3
+instacart,Instacart,delivery,2021,4,True,260000.0,in_house,260000.0,150000.0,1,3
+instacart,Instacart,delivery,2022,1,True,230000.0,in_house,230000.0,150000.0,1,3
+instacart,Instacart,delivery,2022,2,True,270000.0,in_house,270000.0,165000.0,1,3
+instacart,Instacart,delivery,2022,3,True,280000.0,in_house,280000.0,165000.0,1,3
+instacart,Instacart,delivery,2022,4,True,270000.0,in_house,270000.0,165000.0,1,3
+instacart,Instacart,delivery,2023,1,True,260000.0,in_house,260000.0,165000.0,1,3
+instacart,Instacart,delivery,2023,2,True,250000.0,in_house,250000.0,165000.0,1,3
+instacart,Instacart,delivery,2023,3,True,210000.0,in_house,210000.0,165000.0,1,3
+instacart,Instacart,delivery,2023,4,True,240000.0,in_house,240000.0,165000.0,1,3
+instacart,Instacart,delivery,2024,1,True,220000.0,in_house,220000.0,165000.0,1,3
+instacart,Instacart,delivery,2024,2,True,260000.0,in_house,260000.0,165000.0,1,3
+instacart,Instacart,delivery,2024,3,True,190000.0,in_house,190000.0,165000.0,1,3
+instacart,Instacart,delivery,2024,4,True,230000.0,in_house,230000.0,165000.0,1,3
+instacart,Instacart,delivery,2025,1,True,290000.0,in_house,290000.0,165000.0,1,3
+instacart,Instacart,delivery,2025,2,True,250000.0,in_house,250000.0,165000.0,1,3
+instacart,Instacart,delivery,2025,3,True,290000.0,in_house,290000.0,225000.0,1,4
+instacart,Instacart,delivery,2025,4,True,350000.0,in_house,350000.0,225000.0,1,4
+instacart,Instacart,delivery,2026,1,True,330000.0,in_house,330000.0,225000.0,1,4
+instacart,Instacart,delivery,2026,2,True,370000.0,in_house,370000.0,225000.0,1,4
 intel,Intel,semiconductors,2020,1,True,1010000.0,in_house,1010000.0,370000.0,1,12
 intel,Intel,semiconductors,2020,2,True,990000.0,in_house,990000.0,380000.0,1,13
 intel,Intel,semiconductors,2020,3,True,730000.0,in_house,730000.0,375000.0,1,13
@@ -341,6 +785,32 @@ intel,Intel,semiconductors,2025,3,True,970000.0,in_house,970000.0,275000.0,1,8
 intel,Intel,semiconductors,2025,4,True,490000.0,in_house,490000.0,180000.0,1,7
 intel,Intel,semiconductors,2026,1,True,680000.0,in_house,680000.0,130000.0,1,6
 intel,Intel,semiconductors,2026,2,True,700000.0,in_house,700000.0,130000.0,1,5
+intuit,Intuit,fintech,2020,1,True,750000.0,in_house,750000.0,570000.0,1,14
+intuit,Intuit,fintech,2020,2,True,890000.0,in_house,890000.0,710000.0,1,14
+intuit,Intuit,fintech,2020,3,True,740000.0,in_house,740000.0,610000.0,1,14
+intuit,Intuit,fintech,2020,4,True,1030000.0,in_house,1030000.0,600000.0,1,13
+intuit,Intuit,fintech,2021,1,True,600000.0,in_house,600000.0,400000.0,1,13
+intuit,Intuit,fintech,2021,2,True,630000.0,in_house,630000.0,430000.0,1,15
+intuit,Intuit,fintech,2021,3,True,940000.0,in_house,940000.0,540000.0,1,14
+intuit,Intuit,fintech,2021,4,True,870000.0,in_house,870000.0,590000.0,1,14
+intuit,Intuit,fintech,2022,1,True,780000.0,in_house,780000.0,580000.0,1,14
+intuit,Intuit,fintech,2022,2,True,810000.0,in_house,810000.0,580000.0,1,14
+intuit,Intuit,fintech,2022,3,True,830000.0,in_house,830000.0,580000.0,1,14
+intuit,Intuit,fintech,2022,4,True,850000.0,in_house,850000.0,580000.0,1,13
+intuit,Intuit,fintech,2023,1,True,920000.0,in_house,920000.0,620000.0,1,14
+intuit,Intuit,fintech,2023,2,True,850000.0,in_house,850000.0,600000.0,1,14
+intuit,Intuit,fintech,2023,3,True,910000.0,in_house,910000.0,580000.0,1,17
+intuit,Intuit,fintech,2023,4,True,960000.0,in_house,960000.0,620000.0,1,14
+intuit,Intuit,fintech,2024,1,True,1010000.0,in_house,1010000.0,655000.0,1,14
+intuit,Intuit,fintech,2024,2,True,940000.0,in_house,940000.0,655000.0,1,14
+intuit,Intuit,fintech,2024,3,True,940000.0,in_house,940000.0,655000.0,1,14
+intuit,Intuit,fintech,2024,4,True,900000.0,in_house,900000.0,660000.0,1,14
+intuit,Intuit,fintech,2025,1,True,1210000.0,in_house,1210000.0,630000.0,1,14
+intuit,Intuit,fintech,2025,2,True,920000.0,in_house,920000.0,590000.0,1,13
+intuit,Intuit,fintech,2025,3,True,900000.0,in_house,900000.0,540000.0,1,12
+intuit,Intuit,fintech,2025,4,True,850000.0,in_house,850000.0,560000.0,1,12
+intuit,Intuit,fintech,2026,1,True,1130000.0,in_house,1130000.0,560000.0,1,12
+intuit,Intuit,fintech,2026,2,True,970000.0,in_house,970000.0,600000.0,1,13
 kleiner,Kleiner,vc,2020,1,True,80000.0,outside_firm,0.0,80000.0,0,1
 kleiner,Kleiner,vc,2020,2,True,80000.0,outside_firm,0.0,80000.0,0,1
 kleiner,Kleiner,vc,2020,3,True,80000.0,outside_firm,0.0,80000.0,0,1
@@ -357,6 +827,53 @@ kleiner,Kleiner,vc,2023,1,True,80000.0,outside_firm,0.0,80000.0,0,1
 kleiner,Kleiner,vc,2023,2,True,80000.0,outside_firm,0.0,80000.0,0,1
 kleiner,Kleiner,vc,2023,3,True,80000.0,outside_firm,0.0,80000.0,0,1
 kleiner,Kleiner,vc,2023,4,True,80000.0,outside_firm,0.0,80000.0,0,1
+lyft,Lyft,rideshare,2020,1,True,230000.0,in_house,230000.0,120000.0,1,3
+lyft,Lyft,rideshare,2020,2,True,530000.0,in_house,530000.0,390000.0,1,6
+lyft,Lyft,rideshare,2020,3,True,730000.0,in_house,730000.0,540000.0,1,6
+lyft,Lyft,rideshare,2020,4,True,700000.0,in_house,700000.0,560000.0,1,7
+lyft,Lyft,rideshare,2021,1,True,430000.0,in_house,430000.0,330000.0,1,5
+lyft,Lyft,rideshare,2021,2,True,430000.0,in_house,430000.0,340000.0,1,5
+lyft,Lyft,rideshare,2021,3,True,360000.0,in_house,360000.0,200000.0,1,4
+lyft,Lyft,rideshare,2021,4,True,400000.0,in_house,400000.0,280000.0,1,4
+lyft,Lyft,rideshare,2022,1,True,340000.0,in_house,340000.0,250000.0,1,5
+lyft,Lyft,rideshare,2022,2,True,410000.0,in_house,410000.0,280000.0,1,5
+lyft,Lyft,rideshare,2022,3,True,430000.0,in_house,430000.0,290000.0,1,5
+lyft,Lyft,rideshare,2022,4,True,690000.0,in_house,690000.0,280000.0,1,5
+lyft,Lyft,rideshare,2023,1,True,410000.0,in_house,410000.0,270000.0,1,6
+lyft,Lyft,rideshare,2023,2,True,310000.0,in_house,310000.0,220000.0,1,6
+lyft,Lyft,rideshare,2023,3,True,310000.0,in_house,310000.0,200000.0,1,4
+lyft,Lyft,rideshare,2023,4,True,320000.0,in_house,320000.0,200000.0,1,4
+lyft,Lyft,rideshare,2024,1,True,270000.0,in_house,270000.0,140000.0,1,4
+lyft,Lyft,rideshare,2024,2,True,260000.0,in_house,260000.0,130000.0,1,3
+lyft,Lyft,rideshare,2024,3,True,310000.0,in_house,310000.0,130000.0,1,3
+lyft,Lyft,rideshare,2024,4,True,290000.0,in_house,290000.0,130000.0,1,3
+lyft,Lyft,rideshare,2025,1,True,190000.0,in_house,190000.0,130000.0,1,3
+lyft,Lyft,rideshare,2025,2,True,290000.0,in_house,290000.0,130000.0,1,3
+lyft,Lyft,rideshare,2025,3,True,230000.0,in_house,230000.0,130000.0,1,3
+lyft,Lyft,rideshare,2025,4,True,230000.0,in_house,230000.0,130000.0,1,3
+lyft,Lyft,rideshare,2026,1,True,250000.0,in_house,250000.0,130000.0,1,3
+lyft,Lyft,rideshare,2026,2,True,150000.0,outside_firm,110000.0,150000.0,1,3
+marvell,Marvell,semiconductors,2021,2,True,30000.0,in_house,30000.0,0.0,1,0
+marvell,Marvell,semiconductors,2021,3,True,30000.0,in_house,30000.0,0.0,1,0
+marvell,Marvell,semiconductors,2021,4,True,40000.0,in_house,40000.0,0.0,1,0
+marvell,Marvell,semiconductors,2022,1,True,20000.0,in_house,20000.0,0.0,1,0
+marvell,Marvell,semiconductors,2022,2,True,20000.0,in_house,20000.0,0.0,1,0
+marvell,Marvell,semiconductors,2022,3,True,90000.0,in_house,90000.0,0.0,1,0
+marvell,Marvell,semiconductors,2022,4,True,80000.0,in_house,80000.0,0.0,1,0
+marvell,Marvell,semiconductors,2023,1,True,80000.0,in_house,80000.0,0.0,1,0
+marvell,Marvell,semiconductors,2023,2,True,90000.0,in_house,90000.0,0.0,1,0
+marvell,Marvell,semiconductors,2023,3,True,200000.0,in_house,200000.0,0.0,1,0
+marvell,Marvell,semiconductors,2023,4,True,90000.0,in_house,90000.0,0.0,1,0
+marvell,Marvell,semiconductors,2024,1,True,110000.0,in_house,110000.0,0.0,1,0
+marvell,Marvell,semiconductors,2024,2,True,110000.0,in_house,110000.0,0.0,1,0
+marvell,Marvell,semiconductors,2024,3,True,110000.0,in_house,110000.0,0.0,1,0
+marvell,Marvell,semiconductors,2024,4,True,90000.0,in_house,90000.0,0.0,1,0
+marvell,Marvell,semiconductors,2025,1,True,140000.0,in_house,140000.0,60000.0,1,1
+marvell,Marvell,semiconductors,2025,2,True,150000.0,in_house,150000.0,60000.0,1,1
+marvell,Marvell,semiconductors,2025,3,True,140000.0,in_house,140000.0,80000.0,1,2
+marvell,Marvell,semiconductors,2025,4,True,60000.0,outside_firm,0.0,60000.0,0,2
+marvell,Marvell,semiconductors,2026,1,True,140000.0,in_house,140000.0,90000.0,1,2
+marvell,Marvell,semiconductors,2026,2,True,140000.0,in_house,140000.0,120000.0,1,2
 meta,Meta,tech_giant,2020,1,True,5260000.0,in_house,5260000.0,1090000.0,1,23
 meta,Meta,tech_giant,2020,2,True,4830000.0,in_house,4830000.0,1112500.0,1,23
 meta,Meta,tech_giant,2020,3,True,4900000.0,in_house,4900000.0,1027500.0,1,23
@@ -383,6 +900,32 @@ meta,Meta,tech_giant,2025,3,True,5840000.0,in_house,5840000.0,936250.0,1,21
 meta,Meta,tech_giant,2025,4,True,6500000.0,in_house,6500000.0,1026250.0,1,22
 meta,Meta,tech_giant,2026,1,True,7080000.0,in_house,7080000.0,1042500.0,1,22
 meta,Meta,tech_giant,2026,2,True,5990000.0,in_house,5990000.0,1072500.0,1,22
+micron,Micron,semiconductors,2020,1,True,230000.0,in_house,230000.0,100000.0,1,3
+micron,Micron,semiconductors,2020,2,True,480000.0,in_house,480000.0,90000.0,1,3
+micron,Micron,semiconductors,2020,3,True,300000.0,in_house,300000.0,120000.0,1,3
+micron,Micron,semiconductors,2020,4,True,270000.0,in_house,270000.0,100000.0,1,3
+micron,Micron,semiconductors,2021,1,True,330000.0,in_house,330000.0,100000.0,1,3
+micron,Micron,semiconductors,2021,2,True,310000.0,in_house,310000.0,170000.0,1,4
+micron,Micron,semiconductors,2021,3,True,510000.0,in_house,510000.0,180000.0,1,4
+micron,Micron,semiconductors,2021,4,True,770000.0,in_house,770000.0,290000.0,1,5
+micron,Micron,semiconductors,2022,1,True,870000.0,in_house,870000.0,310000.0,1,7
+micron,Micron,semiconductors,2022,2,True,1010000.0,in_house,1010000.0,505000.0,1,9
+micron,Micron,semiconductors,2022,3,True,1320000.0,in_house,1320000.0,495000.0,1,8
+micron,Micron,semiconductors,2022,4,True,990000.0,in_house,990000.0,443000.0,1,8
+micron,Micron,semiconductors,2023,1,True,1050000.0,in_house,1050000.0,319000.0,1,7
+micron,Micron,semiconductors,2023,2,True,670000.0,in_house,670000.0,364000.0,1,7
+micron,Micron,semiconductors,2023,3,True,540000.0,in_house,540000.0,364000.0,1,7
+micron,Micron,semiconductors,2023,4,True,470000.0,in_house,470000.0,360000.0,1,7
+micron,Micron,semiconductors,2024,1,True,760000.0,in_house,760000.0,365000.0,1,7
+micron,Micron,semiconductors,2024,2,True,540000.0,in_house,540000.0,365000.0,1,7
+micron,Micron,semiconductors,2024,3,True,640000.0,in_house,640000.0,355000.0,1,8
+micron,Micron,semiconductors,2024,4,True,760000.0,in_house,760000.0,495000.0,1,9
+micron,Micron,semiconductors,2025,1,True,1050000.0,in_house,1050000.0,690000.0,1,11
+micron,Micron,semiconductors,2025,2,True,1080000.0,in_house,1080000.0,690000.0,1,11
+micron,Micron,semiconductors,2025,3,True,1040000.0,in_house,1040000.0,650000.0,1,11
+micron,Micron,semiconductors,2025,4,True,770000.0,in_house,770000.0,530000.0,1,9
+micron,Micron,semiconductors,2026,1,True,800000.0,in_house,800000.0,430000.0,1,9
+micron,Micron,semiconductors,2026,2,True,670000.0,in_house,670000.0,360000.0,1,9
 microsoft,Microsoft,tech_giant,2020,1,True,2394000.0,in_house,2394000.0,1040000.0,1,25
 microsoft,Microsoft,tech_giant,2020,2,True,2910000.0,in_house,2910000.0,1030000.0,1,26
 microsoft,Microsoft,tech_giant,2020,3,True,1890000.0,in_house,1890000.0,1035000.0,2,26
@@ -435,6 +978,8 @@ netflix,Netflix,tech_giant,2025,3,True,750000.0,in_house,750000.0,200000.0,1,4
 netflix,Netflix,tech_giant,2025,4,True,780000.0,in_house,780000.0,270000.0,1,6
 netflix,Netflix,tech_giant,2026,1,True,1280000.0,in_house,1280000.0,720000.0,1,9
 netflix,Netflix,tech_giant,2026,2,True,870000.0,in_house,870000.0,580000.0,1,9
+neuralink,Neuralink,elon_empire,2026,2,True,120000.0,outside_firm,0.0,120000.0,0,2
+neuralink,Neuralink,elon_empire,2026,3,False,60000.0,outside_firm,0.0,60000.0,0,1
 nvidia,NVIDIA,semiconductors,2022,4,True,90000.0,outside_firm,0.0,90000.0,0,1
 nvidia,NVIDIA,semiconductors,2023,1,True,80000.0,outside_firm,0.0,80000.0,0,1
 nvidia,NVIDIA,semiconductors,2023,2,True,110000.0,outside_firm,0.0,110000.0,0,2
@@ -450,6 +995,21 @@ nvidia,NVIDIA,semiconductors,2025,3,True,1950000.0,in_house,1950000.0,290000.0,1
 nvidia,NVIDIA,semiconductors,2025,4,True,1460000.0,in_house,1460000.0,420000.0,1,5
 nvidia,NVIDIA,semiconductors,2026,1,True,1290000.0,in_house,1290000.0,440000.0,1,5
 nvidia,NVIDIA,semiconductors,2026,2,True,1250000.0,in_house,1250000.0,450000.0,1,5
+okta,Okta,cybersecurity,2021,1,True,20000.0,outside_firm,0.0,20000.0,0,1
+okta,Okta,cybersecurity,2021,2,True,20000.0,outside_firm,0.0,20000.0,0,1
+okta,Okta,cybersecurity,2021,3,True,20000.0,outside_firm,0.0,20000.0,0,1
+okta,Okta,cybersecurity,2021,4,True,20000.0,outside_firm,0.0,20000.0,0,1
+okta,Okta,cybersecurity,2022,1,True,30000.0,outside_firm,0.0,30000.0,0,1
+okta,Okta,cybersecurity,2022,2,True,110000.0,in_house,110000.0,50000.0,1,1
+okta,Okta,cybersecurity,2022,3,True,160000.0,in_house,160000.0,50000.0,1,1
+okta,Okta,cybersecurity,2022,4,True,160000.0,in_house,160000.0,50000.0,1,1
+okta,Okta,cybersecurity,2023,1,True,170000.0,in_house,170000.0,50000.0,1,1
+okta,Okta,cybersecurity,2023,2,True,180000.0,in_house,180000.0,50000.0,1,1
+okta,Okta,cybersecurity,2023,3,True,160000.0,in_house,160000.0,50000.0,1,1
+okta,Okta,cybersecurity,2023,4,True,180000.0,in_house,180000.0,50000.0,1,1
+okta,Okta,cybersecurity,2024,1,True,80000.0,in_house,80000.0,50000.0,1,1
+okta,Okta,cybersecurity,2026,1,True,30000.0,outside_firm,0.0,30000.0,0,1
+okta,Okta,cybersecurity,2026,2,True,50000.0,outside_firm,0.0,50000.0,0,1
 openai,OpenAI,ai,2023,4,True,260000.0,in_house,260000.0,120000.0,1,2
 openai,OpenAI,ai,2024,1,True,340000.0,in_house,340000.0,190000.0,1,3
 openai,OpenAI,ai,2024,2,True,480000.0,in_house,480000.0,140000.0,1,3
@@ -513,6 +1073,104 @@ palantir,Palantir,defense,2025,3,True,1230000.0,in_house,1230000.0,750000.0,1,9
 palantir,Palantir,defense,2025,4,True,1610000.0,in_house,1610000.0,865000.0,1,9
 palantir,Palantir,defense,2026,1,True,1980000.0,in_house,1980000.0,930000.0,1,11
 palantir,Palantir,defense,2026,2,True,2080000.0,in_house,2080000.0,1120000.0,1,12
+palo_alto,Palo Alto Networks,cybersecurity,2020,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+palo_alto,Palo Alto Networks,cybersecurity,2020,2,True,128000.0,outside_firm,0.0,128000.0,0,3
+palo_alto,Palo Alto Networks,cybersecurity,2020,3,True,108000.0,outside_firm,0.0,108000.0,0,3
+palo_alto,Palo Alto Networks,cybersecurity,2020,4,True,98000.0,outside_firm,0.0,98000.0,0,3
+palo_alto,Palo Alto Networks,cybersecurity,2021,1,True,98000.0,outside_firm,0.0,98000.0,0,3
+palo_alto,Palo Alto Networks,cybersecurity,2021,2,True,128000.0,outside_firm,0.0,128000.0,0,2
+palo_alto,Palo Alto Networks,cybersecurity,2021,3,True,90000.0,outside_firm,80000.0,90000.0,1,1
+palo_alto,Palo Alto Networks,cybersecurity,2021,4,True,260000.0,in_house,260000.0,90000.0,1,1
+palo_alto,Palo Alto Networks,cybersecurity,2022,1,True,260000.0,in_house,260000.0,90000.0,1,1
+palo_alto,Palo Alto Networks,cybersecurity,2022,2,True,190000.0,in_house,190000.0,100000.0,1,1
+palo_alto,Palo Alto Networks,cybersecurity,2022,3,True,200000.0,in_house,200000.0,100000.0,1,1
+palo_alto,Palo Alto Networks,cybersecurity,2022,4,True,280000.0,in_house,280000.0,100000.0,1,1
+palo_alto,Palo Alto Networks,cybersecurity,2023,1,True,280000.0,in_house,280000.0,110000.0,1,2
+palo_alto,Palo Alto Networks,cybersecurity,2023,2,True,290000.0,in_house,290000.0,100000.0,1,2
+palo_alto,Palo Alto Networks,cybersecurity,2023,3,True,420000.0,in_house,420000.0,120000.0,1,3
+palo_alto,Palo Alto Networks,cybersecurity,2023,4,True,490000.0,in_house,490000.0,100000.0,1,3
+palo_alto,Palo Alto Networks,cybersecurity,2024,1,True,450000.0,in_house,450000.0,160000.0,1,4
+palo_alto,Palo Alto Networks,cybersecurity,2024,2,True,570000.0,in_house,570000.0,160000.0,1,4
+palo_alto,Palo Alto Networks,cybersecurity,2024,3,True,360000.0,in_house,360000.0,170000.0,1,4
+palo_alto,Palo Alto Networks,cybersecurity,2024,4,True,440000.0,in_house,440000.0,170000.0,1,4
+palo_alto,Palo Alto Networks,cybersecurity,2025,1,True,480000.0,in_house,480000.0,200000.0,1,5
+palo_alto,Palo Alto Networks,cybersecurity,2025,2,True,530000.0,in_house,530000.0,290000.0,1,5
+palo_alto,Palo Alto Networks,cybersecurity,2025,3,True,500000.0,in_house,500000.0,280000.0,1,5
+palo_alto,Palo Alto Networks,cybersecurity,2025,4,True,740000.0,in_house,740000.0,280000.0,1,5
+palo_alto,Palo Alto Networks,cybersecurity,2026,1,True,590000.0,in_house,590000.0,290000.0,1,5
+palo_alto,Palo Alto Networks,cybersecurity,2026,2,True,700000.0,in_house,700000.0,280000.0,1,5
+paypal,PayPal,fintech,2020,1,True,245950.0,in_house,245950.0,102500.0,1,4
+paypal,PayPal,fintech,2020,2,True,255690.0,in_house,255690.0,102500.0,1,4
+paypal,PayPal,fintech,2020,3,True,232054.0,in_house,232054.0,102500.0,1,4
+paypal,PayPal,fintech,2020,4,True,253209.0,in_house,253209.0,102500.0,1,4
+paypal,PayPal,fintech,2021,1,True,256400.0,in_house,256400.0,102500.0,1,4
+paypal,PayPal,fintech,2021,2,True,226450.0,in_house,226450.0,102500.0,1,4
+paypal,PayPal,fintech,2021,3,True,234350.0,in_house,234350.0,102500.0,1,4
+paypal,PayPal,fintech,2021,4,True,260300.0,in_house,260300.0,102500.0,1,4
+paypal,PayPal,fintech,2022,1,True,295840.0,in_house,295840.0,122500.0,1,4
+paypal,PayPal,fintech,2022,2,True,244305.0,in_house,244305.0,122500.0,1,4
+paypal,PayPal,fintech,2022,3,True,274305.0,in_house,274305.0,122500.0,1,4
+paypal,PayPal,fintech,2022,4,True,318955.0,in_house,318955.0,172500.0,1,5
+paypal,PayPal,fintech,2023,1,True,349716.0,in_house,349716.0,172500.0,1,5
+paypal,PayPal,fintech,2023,2,True,373600.0,in_house,373600.0,172500.0,1,5
+paypal,PayPal,fintech,2023,3,True,397800.0,in_house,397800.0,232500.0,1,7
+paypal,PayPal,fintech,2023,4,True,426790.0,in_house,426790.0,222500.0,1,6
+paypal,PayPal,fintech,2024,1,True,407000.0,in_house,407000.0,202500.0,1,6
+paypal,PayPal,fintech,2024,2,True,410000.0,in_house,410000.0,202500.0,1,7
+paypal,PayPal,fintech,2024,3,True,402000.0,in_house,402000.0,202500.0,1,6
+paypal,PayPal,fintech,2024,4,True,411000.0,in_house,411000.0,205500.0,1,6
+paypal,PayPal,fintech,2025,1,True,484000.0,in_house,484000.0,229500.0,1,6
+paypal,PayPal,fintech,2025,2,True,510000.0,in_house,510000.0,229500.0,1,6
+paypal,PayPal,fintech,2025,3,True,570000.0,in_house,570000.0,229500.0,1,6
+paypal,PayPal,fintech,2025,4,True,567000.0,in_house,567000.0,229500.0,1,6
+paypal,PayPal,fintech,2026,1,True,569000.0,in_house,569000.0,229500.0,1,6
+paypal,PayPal,fintech,2026,2,True,611000.0,in_house,611000.0,229500.0,1,6
+pinterest,Pinterest,social_media,2020,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+pinterest,Pinterest,social_media,2020,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+pinterest,Pinterest,social_media,2020,3,True,50000.0,outside_firm,0.0,50000.0,0,2
+pinterest,Pinterest,social_media,2020,4,True,40000.0,outside_firm,0.0,40000.0,0,2
+pinterest,Pinterest,social_media,2021,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+pinterest,Pinterest,social_media,2021,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+pinterest,Pinterest,social_media,2021,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+pinterest,Pinterest,social_media,2021,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+pinterest,Pinterest,social_media,2022,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+pinterest,Pinterest,social_media,2022,2,True,110000.0,outside_firm,0.0,110000.0,0,2
+pinterest,Pinterest,social_media,2022,3,True,110000.0,outside_firm,0.0,110000.0,0,2
+pinterest,Pinterest,social_media,2022,4,True,110000.0,outside_firm,0.0,110000.0,0,2
+pinterest,Pinterest,social_media,2023,1,True,110000.0,outside_firm,0.0,110000.0,0,2
+pinterest,Pinterest,social_media,2023,2,True,110000.0,outside_firm,0.0,110000.0,0,2
+pinterest,Pinterest,social_media,2023,3,True,110000.0,outside_firm,0.0,110000.0,0,2
+pinterest,Pinterest,social_media,2023,4,True,110000.0,outside_firm,0.0,110000.0,0,2
+pinterest,Pinterest,social_media,2024,1,True,110000.0,outside_firm,0.0,110000.0,0,2
+pinterest,Pinterest,social_media,2024,2,True,110000.0,outside_firm,0.0,110000.0,0,2
+pinterest,Pinterest,social_media,2024,3,True,120000.0,in_house,120000.0,110000.0,1,2
+pinterest,Pinterest,social_media,2024,4,True,120000.0,in_house,120000.0,110000.0,1,2
+pinterest,Pinterest,social_media,2025,1,True,120000.0,in_house,120000.0,80000.0,1,2
+pinterest,Pinterest,social_media,2025,2,True,210000.0,in_house,210000.0,110000.0,1,3
+pinterest,Pinterest,social_media,2025,3,True,240000.0,in_house,240000.0,130000.0,1,4
+pinterest,Pinterest,social_media,2025,4,True,160000.0,in_house,160000.0,120000.0,1,3
+pinterest,Pinterest,social_media,2026,1,True,140000.0,in_house,140000.0,110000.0,1,3
+pinterest,Pinterest,social_media,2026,2,True,330000.0,in_house,330000.0,110000.0,1,3
+plaid,Plaid,fintech,2021,3,True,10000.0,outside_firm,0.0,10000.0,0,1
+plaid,Plaid,fintech,2021,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+plaid,Plaid,fintech,2022,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+plaid,Plaid,fintech,2022,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+plaid,Plaid,fintech,2022,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+plaid,Plaid,fintech,2022,4,True,100000.0,outside_firm,0.0,100000.0,0,2
+plaid,Plaid,fintech,2023,1,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2023,2,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2023,3,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2023,4,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2024,1,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2024,2,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2024,3,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2024,4,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2025,1,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2025,2,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2025,3,True,90000.0,outside_firm,0.0,90000.0,0,1
+plaid,Plaid,fintech,2025,4,True,100000.0,outside_firm,0.0,100000.0,0,2
+plaid,Plaid,fintech,2026,1,True,70000.0,outside_firm,0.0,70000.0,0,1
+plaid,Plaid,fintech,2026,2,True,190000.0,in_house,190000.0,90000.0,1,1
 qualcomm,Qualcomm,semiconductors,2020,1,True,2400000.0,in_house,2400000.0,1790000.0,1,5
 qualcomm,Qualcomm,semiconductors,2020,2,True,1970000.0,in_house,1970000.0,1630000.0,1,5
 qualcomm,Qualcomm,semiconductors,2020,3,True,1710000.0,in_house,1710000.0,1430000.0,1,5
@@ -539,6 +1197,32 @@ qualcomm,Qualcomm,semiconductors,2025,3,True,1590000.0,in_house,1590000.0,131000
 qualcomm,Qualcomm,semiconductors,2025,4,True,1770000.0,in_house,1770000.0,1210000.0,1,8
 qualcomm,Qualcomm,semiconductors,2026,1,True,1680000.0,in_house,1680000.0,1390000.0,1,8
 qualcomm,Qualcomm,semiconductors,2026,2,True,1170000.0,in_house,1170000.0,1100000.0,1,8
+reddit,Reddit,social_media,2020,1,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2020,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2020,3,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2020,4,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2021,1,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2021,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2021,3,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2021,4,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2022,1,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2022,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2022,3,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2022,4,True,50000.0,outside_firm,0.0,50000.0,0,1
+reddit,Reddit,social_media,2023,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2023,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2023,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2023,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2024,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2024,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2024,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2024,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2025,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2025,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2025,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2025,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2026,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+reddit,Reddit,social_media,2026,2,True,60000.0,outside_firm,0.0,60000.0,0,1
 ripple,Ripple,fintech,2020,1,True,100000.0,in_house,100000.0,80000.0,1,2
 ripple,Ripple,fintech,2020,2,True,110000.0,in_house,110000.0,90000.0,1,2
 ripple,Ripple,fintech,2020,3,True,60000.0,outside_firm,0.0,60000.0,0,2
@@ -565,6 +1249,30 @@ ripple,Ripple,fintech,2025,3,True,470000.0,in_house,470000.0,440000.0,1,4
 ripple,Ripple,fintech,2025,4,True,510000.0,in_house,510000.0,450000.0,1,4
 ripple,Ripple,fintech,2026,1,True,540000.0,in_house,540000.0,450000.0,1,4
 ripple,Ripple,fintech,2026,2,True,540000.0,in_house,540000.0,460000.0,1,4
+robinhood,Robinhood,fintech,2020,3,True,100000.0,outside_firm,0.0,100000.0,0,4
+robinhood,Robinhood,fintech,2020,4,True,175000.0,outside_firm,0.0,175000.0,0,4
+robinhood,Robinhood,fintech,2021,1,True,460000.0,in_house,460000.0,225000.0,1,5
+robinhood,Robinhood,fintech,2021,2,True,420000.0,in_house,420000.0,245000.0,1,5
+robinhood,Robinhood,fintech,2021,3,True,470000.0,in_house,470000.0,300000.0,1,5
+robinhood,Robinhood,fintech,2021,4,True,430000.0,in_house,430000.0,300000.0,1,5
+robinhood,Robinhood,fintech,2022,1,True,610000.0,in_house,610000.0,300000.0,1,5
+robinhood,Robinhood,fintech,2022,2,True,560000.0,in_house,560000.0,290000.0,1,5
+robinhood,Robinhood,fintech,2022,3,True,360000.0,in_house,360000.0,220000.0,1,4
+robinhood,Robinhood,fintech,2022,4,True,310000.0,in_house,310000.0,220000.0,1,5
+robinhood,Robinhood,fintech,2023,1,True,350000.0,in_house,350000.0,250000.0,1,5
+robinhood,Robinhood,fintech,2023,2,True,370000.0,in_house,370000.0,250000.0,1,5
+robinhood,Robinhood,fintech,2023,3,True,350000.0,in_house,350000.0,250000.0,1,5
+robinhood,Robinhood,fintech,2023,4,True,360000.0,in_house,360000.0,260000.0,1,5
+robinhood,Robinhood,fintech,2024,1,True,330000.0,in_house,330000.0,260000.0,1,5
+robinhood,Robinhood,fintech,2024,2,True,310000.0,in_house,310000.0,260000.0,1,5
+robinhood,Robinhood,fintech,2024,3,True,300000.0,in_house,300000.0,260000.0,1,5
+robinhood,Robinhood,fintech,2024,4,True,300000.0,in_house,300000.0,260000.0,1,5
+robinhood,Robinhood,fintech,2025,1,True,370000.0,in_house,370000.0,340000.0,1,5
+robinhood,Robinhood,fintech,2025,2,True,390000.0,in_house,390000.0,330000.0,1,5
+robinhood,Robinhood,fintech,2025,3,True,390000.0,in_house,390000.0,330000.0,1,5
+robinhood,Robinhood,fintech,2025,4,True,400000.0,in_house,400000.0,320000.0,1,5
+robinhood,Robinhood,fintech,2026,1,True,430000.0,in_house,430000.0,350000.0,1,5
+robinhood,Robinhood,fintech,2026,2,True,430000.0,in_house,430000.0,350000.0,1,5
 salesforce,Salesforce,software,2020,1,True,540000.0,in_house,540000.0,120000.0,1,3
 salesforce,Salesforce,software,2020,2,True,710000.0,in_house,710000.0,160000.0,1,3
 salesforce,Salesforce,software,2020,3,True,420000.0,in_house,420000.0,210000.0,1,4
@@ -591,6 +1299,38 @@ salesforce,Salesforce,software,2025,3,True,810000.0,in_house,810000.0,300000.0,1
 salesforce,Salesforce,software,2025,4,True,790000.0,in_house,790000.0,270000.0,1,6
 salesforce,Salesforce,software,2026,1,True,1220000.0,in_house,1220000.0,320000.0,1,6
 salesforce,Salesforce,software,2026,2,True,1540000.0,in_house,1540000.0,420000.0,1,6
+sambanova,SambaNova,semiconductors,2024,3,True,10000.0,outside_firm,0.0,10000.0,0,1
+sambanova,SambaNova,semiconductors,2024,4,True,20000.0,outside_firm,0.0,20000.0,0,1
+sambanova,SambaNova,semiconductors,2025,1,True,20000.0,outside_firm,0.0,20000.0,0,1
+sambanova,SambaNova,semiconductors,2025,2,True,10000.0,outside_firm,0.0,10000.0,0,1
+sambanova,SambaNova,semiconductors,2025,3,True,0.0,none_reported,0.0,0.0,0,1
+sambanova,SambaNova,semiconductors,2025,4,True,0.0,none_reported,0.0,0.0,0,1
+sap,SAP,software,2020,1,True,620000.0,in_house,620000.0,410000.0,1,9
+sap,SAP,software,2020,2,True,620000.0,in_house,620000.0,420000.0,1,8
+sap,SAP,software,2020,3,True,740000.0,in_house,740000.0,420000.0,1,8
+sap,SAP,software,2020,4,True,530000.0,in_house,530000.0,420000.0,1,8
+sap,SAP,software,2021,1,True,610000.0,in_house,610000.0,400000.0,1,8
+sap,SAP,software,2021,2,True,540000.0,in_house,540000.0,290000.0,1,8
+sap,SAP,software,2021,3,True,700000.0,in_house,700000.0,470000.0,1,9
+sap,SAP,software,2021,4,True,570000.0,in_house,570000.0,500000.0,1,9
+sap,SAP,software,2022,1,True,830000.0,in_house,830000.0,440000.0,1,9
+sap,SAP,software,2022,2,True,640000.0,in_house,640000.0,440000.0,1,9
+sap,SAP,software,2022,3,True,610000.0,in_house,610000.0,460000.0,1,9
+sap,SAP,software,2022,4,True,610000.0,in_house,610000.0,470000.0,1,8
+sap,SAP,software,2023,1,True,940000.0,in_house,940000.0,450000.0,1,8
+sap,SAP,software,2023,2,True,660000.0,in_house,660000.0,450000.0,1,8
+sap,SAP,software,2023,3,True,550000.0,in_house,550000.0,400000.0,1,8
+sap,SAP,software,2023,4,True,550000.0,in_house,550000.0,400000.0,1,8
+sap,SAP,software,2024,1,True,840000.0,in_house,840000.0,450000.0,1,8
+sap,SAP,software,2024,2,True,720000.0,in_house,720000.0,440000.0,1,8
+sap,SAP,software,2024,3,True,560000.0,in_house,560000.0,380000.0,1,8
+sap,SAP,software,2024,4,True,600000.0,in_house,600000.0,470000.0,1,9
+sap,SAP,software,2025,1,True,1140000.0,in_house,1140000.0,420000.0,1,10
+sap,SAP,software,2025,2,True,830000.0,in_house,830000.0,445000.0,1,9
+sap,SAP,software,2025,3,True,880000.0,in_house,880000.0,535000.0,1,10
+sap,SAP,software,2025,4,True,770000.0,in_house,770000.0,600000.0,1,11
+sap,SAP,software,2026,1,True,1590000.0,in_house,1590000.0,660000.0,1,10
+sap,SAP,software,2026,2,True,960000.0,in_house,960000.0,710000.0,1,10
 scale_ai,Scale AI,ai,2021,2,True,100000.0,in_house,100000.0,0.0,1,0
 scale_ai,Scale AI,ai,2021,3,True,120000.0,in_house,120000.0,0.0,1,0
 scale_ai,Scale AI,ai,2021,4,True,120000.0,in_house,120000.0,0.0,1,0
@@ -612,6 +1352,27 @@ scale_ai,Scale AI,ai,2025,3,True,260000.0,in_house,260000.0,100000.0,1,3
 scale_ai,Scale AI,ai,2025,4,True,460000.0,in_house,460000.0,110000.0,1,3
 scale_ai,Scale AI,ai,2026,1,True,420000.0,in_house,420000.0,120000.0,1,3
 scale_ai,Scale AI,ai,2026,2,True,620000.0,in_house,620000.0,120000.0,1,3
+sentinelone,SentinelOne,cybersecurity,2021,2,True,30000.0,outside_firm,0.0,30000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2021,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2021,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2022,1,True,40000.0,outside_firm,0.0,40000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2022,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2022,3,True,40000.0,outside_firm,0.0,40000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2022,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2023,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2023,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2023,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2023,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2024,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2024,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2024,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2024,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2025,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2025,2,True,100000.0,outside_firm,0.0,100000.0,0,2
+sentinelone,SentinelOne,cybersecurity,2025,3,True,190000.0,outside_firm,0.0,190000.0,0,2
+sentinelone,SentinelOne,cybersecurity,2025,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2026,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+sentinelone,SentinelOne,cybersecurity,2026,2,True,60000.0,outside_firm,0.0,60000.0,0,1
 sequoia,Sequoia,vc,2024,1,True,110000.0,outside_firm,0.0,110000.0,0,1
 sequoia,Sequoia,vc,2024,2,True,110000.0,outside_firm,0.0,110000.0,0,1
 sequoia,Sequoia,vc,2024,3,True,80000.0,outside_firm,0.0,80000.0,0,1
@@ -622,6 +1383,32 @@ sequoia,Sequoia,vc,2025,3,True,60000.0,outside_firm,0.0,60000.0,0,1
 sequoia,Sequoia,vc,2025,4,True,60000.0,outside_firm,0.0,60000.0,0,1
 sequoia,Sequoia,vc,2026,1,True,60000.0,outside_firm,0.0,60000.0,0,1
 sequoia,Sequoia,vc,2026,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+servicenow,ServiceNow,software,2020,1,True,20000.0,outside_firm,0.0,20000.0,0,1
+servicenow,ServiceNow,software,2020,2,True,70000.0,outside_firm,0.0,70000.0,0,2
+servicenow,ServiceNow,software,2020,3,True,70000.0,outside_firm,0.0,70000.0,0,2
+servicenow,ServiceNow,software,2020,4,True,90000.0,in_house,90000.0,70000.0,1,2
+servicenow,ServiceNow,software,2021,1,True,430000.0,in_house,430000.0,210000.0,1,6
+servicenow,ServiceNow,software,2021,2,True,240000.0,in_house,240000.0,190000.0,1,4
+servicenow,ServiceNow,software,2021,3,True,230000.0,outside_firm,220000.0,230000.0,1,5
+servicenow,ServiceNow,software,2021,4,True,450000.0,in_house,450000.0,335000.0,1,6
+servicenow,ServiceNow,software,2022,1,True,400000.0,in_house,400000.0,310000.0,1,6
+servicenow,ServiceNow,software,2022,2,True,410000.0,in_house,410000.0,270000.0,1,6
+servicenow,ServiceNow,software,2022,3,True,900000.0,in_house,900000.0,270000.0,1,6
+servicenow,ServiceNow,software,2022,4,True,460000.0,in_house,460000.0,100000.0,1,6
+servicenow,ServiceNow,software,2023,1,True,930000.0,in_house,930000.0,270000.0,1,6
+servicenow,ServiceNow,software,2023,2,True,800000.0,in_house,800000.0,270000.0,1,5
+servicenow,ServiceNow,software,2023,3,True,900000.0,in_house,900000.0,270000.0,1,5
+servicenow,ServiceNow,software,2023,4,True,350000.0,in_house,350000.0,270000.0,1,5
+servicenow,ServiceNow,software,2024,1,True,560000.0,in_house,560000.0,280000.0,1,5
+servicenow,ServiceNow,software,2024,2,True,350000.0,in_house,350000.0,260000.0,1,5
+servicenow,ServiceNow,software,2024,3,True,340000.0,in_house,340000.0,260000.0,1,4
+servicenow,ServiceNow,software,2024,4,True,350000.0,in_house,350000.0,260000.0,1,4
+servicenow,ServiceNow,software,2025,1,True,610000.0,in_house,610000.0,210000.0,1,4
+servicenow,ServiceNow,software,2025,2,True,360000.0,in_house,360000.0,180000.0,1,5
+servicenow,ServiceNow,software,2025,3,True,330000.0,in_house,330000.0,140000.0,1,3
+servicenow,ServiceNow,software,2025,4,True,300000.0,in_house,300000.0,70000.0,1,2
+servicenow,ServiceNow,software,2026,1,True,440000.0,in_house,440000.0,0.0,1,1
+servicenow,ServiceNow,software,2026,2,True,160000.0,in_house,160000.0,0.0,1,0
 shopify,Shopify,ecommerce,2020,1,True,10000.0,outside_firm,0.0,10000.0,0,1
 shopify,Shopify,ecommerce,2020,2,True,30000.0,outside_firm,0.0,30000.0,0,1
 shopify,Shopify,ecommerce,2020,3,True,30000.0,outside_firm,0.0,30000.0,0,1
@@ -648,6 +1435,67 @@ shopify,Shopify,ecommerce,2025,3,True,190000.0,in_house,190000.0,110000.0,1,3
 shopify,Shopify,ecommerce,2025,4,True,180000.0,in_house,180000.0,110000.0,1,3
 shopify,Shopify,ecommerce,2026,1,True,220000.0,in_house,220000.0,110000.0,1,3
 shopify,Shopify,ecommerce,2026,2,True,180000.0,in_house,180000.0,110000.0,1,3
+snap,Snap,social_media,2020,1,True,30000.0,in_house,30000.0,0.0,1,0
+snap,Snap,social_media,2020,2,True,30000.0,in_house,30000.0,0.0,1,0
+snap,Snap,social_media,2020,3,True,30000.0,in_house,30000.0,0.0,1,0
+snap,Snap,social_media,2020,4,True,30000.0,in_house,30000.0,0.0,1,0
+snap,Snap,social_media,2021,1,True,70000.0,in_house,70000.0,0.0,1,0
+snap,Snap,social_media,2021,2,True,40000.0,in_house,40000.0,0.0,1,0
+snap,Snap,social_media,2021,3,True,50000.0,in_house,50000.0,0.0,1,0
+snap,Snap,social_media,2021,4,True,90000.0,in_house,90000.0,80000.0,1,1
+snap,Snap,social_media,2022,1,True,300000.0,in_house,300000.0,80000.0,1,1
+snap,Snap,social_media,2022,2,True,120000.0,in_house,120000.0,80000.0,1,1
+snap,Snap,social_media,2022,3,True,130000.0,in_house,130000.0,80000.0,1,1
+snap,Snap,social_media,2022,4,True,130000.0,in_house,130000.0,80000.0,1,1
+snap,Snap,social_media,2023,1,True,340000.0,in_house,340000.0,130000.0,1,2
+snap,Snap,social_media,2023,2,True,200000.0,in_house,200000.0,80000.0,1,1
+snap,Snap,social_media,2023,3,True,140000.0,in_house,140000.0,80000.0,1,1
+snap,Snap,social_media,2023,4,True,180000.0,in_house,180000.0,110000.0,1,2
+snap,Snap,social_media,2024,1,True,420000.0,in_house,420000.0,160000.0,1,2
+snap,Snap,social_media,2024,2,True,220000.0,in_house,220000.0,130000.0,1,2
+snap,Snap,social_media,2024,3,True,140000.0,in_house,140000.0,80000.0,1,2
+snap,Snap,social_media,2024,4,True,170000.0,in_house,170000.0,80000.0,1,2
+snap,Snap,social_media,2025,1,True,360000.0,in_house,360000.0,160000.0,1,2
+snap,Snap,social_media,2025,2,True,220000.0,in_house,220000.0,160000.0,1,2
+snap,Snap,social_media,2025,3,True,220000.0,in_house,220000.0,160000.0,1,2
+snap,Snap,social_media,2025,4,True,220000.0,in_house,220000.0,160000.0,1,2
+snap,Snap,social_media,2026,1,True,400000.0,in_house,400000.0,160000.0,1,2
+snap,Snap,social_media,2026,2,True,240000.0,in_house,240000.0,160000.0,1,2
+snowflake,Snowflake,cloud,2025,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+snowflake,Snowflake,cloud,2025,4,True,50000.0,outside_firm,0.0,50000.0,0,1
+snowflake,Snowflake,cloud,2026,1,True,50000.0,outside_firm,0.0,50000.0,0,1
+snowflake,Snowflake,cloud,2026,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+spotify,Spotify,media,2020,1,True,240000.0,in_house,240000.0,110000.0,1,2
+spotify,Spotify,media,2020,2,True,220000.0,in_house,220000.0,90000.0,1,2
+spotify,Spotify,media,2020,3,True,180000.0,in_house,180000.0,60000.0,1,2
+spotify,Spotify,media,2020,4,True,180000.0,in_house,180000.0,60000.0,1,2
+spotify,Spotify,media,2021,1,True,230000.0,in_house,230000.0,110000.0,1,2
+spotify,Spotify,media,2021,2,True,230000.0,in_house,230000.0,110000.0,1,2
+spotify,Spotify,media,2021,3,True,230000.0,in_house,230000.0,110000.0,1,2
+spotify,Spotify,media,2021,4,True,210000.0,in_house,210000.0,110000.0,1,2
+spotify,Spotify,media,2022,1,True,140000.0,in_house,140000.0,110000.0,1,2
+spotify,Spotify,media,2022,2,True,180000.0,in_house,180000.0,110000.0,1,2
+spotify,Spotify,media,2022,3,True,220000.0,in_house,220000.0,110000.0,1,2
+spotify,Spotify,media,2022,4,True,170000.0,in_house,170000.0,110000.0,1,2
+spotify,Spotify,media,2023,1,True,290000.0,in_house,290000.0,70000.0,1,2
+spotify,Spotify,media,2023,2,True,310000.0,in_house,310000.0,50000.0,1,1
+spotify,Spotify,media,2023,3,True,340000.0,in_house,340000.0,100000.0,1,2
+spotify,Spotify,media,2023,4,True,340000.0,in_house,340000.0,100000.0,1,2
+spotify,Spotify,media,2024,1,True,350000.0,in_house,350000.0,110000.0,1,2
+spotify,Spotify,media,2024,2,True,380000.0,in_house,380000.0,125000.0,1,3
+spotify,Spotify,media,2024,3,True,430000.0,in_house,430000.0,190000.0,1,4
+spotify,Spotify,media,2024,4,True,440000.0,in_house,440000.0,190000.0,1,4
+spotify,Spotify,media,2025,1,True,400000.0,in_house,400000.0,140000.0,1,3
+spotify,Spotify,media,2025,2,True,410000.0,in_house,410000.0,130000.0,1,3
+spotify,Spotify,media,2025,3,True,410000.0,in_house,410000.0,130000.0,1,3
+spotify,Spotify,media,2025,4,True,370000.0,in_house,370000.0,130000.0,1,3
+spotify,Spotify,media,2026,1,True,530000.0,in_house,530000.0,260000.0,1,4
+spotify,Spotify,media,2026,2,True,520000.0,in_house,520000.0,280000.0,1,4
+stability,Stability AI,ai,2023,2,True,40000.0,outside_firm,0.0,40000.0,0,1
+stability,Stability AI,ai,2023,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+stability,Stability AI,ai,2023,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+stability,Stability AI,ai,2024,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+stability,Stability AI,ai,2024,2,True,20000.0,outside_firm,0.0,20000.0,0,1
 stripe,Stripe,fintech,2020,1,True,50000.0,outside_firm,0.0,50000.0,0,1
 stripe,Stripe,fintech,2020,2,True,50000.0,outside_firm,0.0,50000.0,0,1
 stripe,Stripe,fintech,2020,3,True,50000.0,outside_firm,0.0,50000.0,0,1
@@ -674,6 +1522,12 @@ stripe,Stripe,fintech,2025,3,True,240000.0,in_house,240000.0,240000.0,1,4
 stripe,Stripe,fintech,2025,4,True,270000.0,outside_firm,220000.0,270000.0,1,4
 stripe,Stripe,fintech,2026,1,True,320000.0,in_house,320000.0,270000.0,1,4
 stripe,Stripe,fintech,2026,2,True,530000.0,in_house,530000.0,270000.0,1,4
+tempus,Tempus AI,ai,2025,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+tempus,Tempus AI,ai,2025,2,True,60000.0,outside_firm,0.0,60000.0,0,1
+tempus,Tempus AI,ai,2025,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+tempus,Tempus AI,ai,2025,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+tempus,Tempus AI,ai,2026,1,True,60000.0,outside_firm,0.0,60000.0,0,1
+tempus,Tempus AI,ai,2026,2,True,60000.0,outside_firm,0.0,60000.0,0,1
 tesla,Tesla,cars,2020,1,True,140000.0,in_house,140000.0,90000.0,1,4
 tesla,Tesla,cars,2020,2,True,70000.0,in_house,70000.0,40000.0,1,4
 tesla,Tesla,cars,2020,3,True,90000.0,in_house,90000.0,60000.0,1,4
@@ -700,6 +1554,32 @@ tesla,Tesla,cars,2025,3,True,340000.0,in_house,340000.0,140000.0,1,4
 tesla,Tesla,cars,2025,4,True,670000.0,in_house,670000.0,265162.0,1,5
 tesla,Tesla,cars,2026,1,True,760000.0,in_house,760000.0,270000.0,1,5
 tesla,Tesla,cars,2026,2,True,650000.0,in_house,650000.0,240000.0,1,4
+tsmc,TSMC,semiconductors,2020,1,True,478000.0,in_house,478000.0,0.0,1,0
+tsmc,TSMC,semiconductors,2020,2,True,501630.0,in_house,501630.0,0.0,1,0
+tsmc,TSMC,semiconductors,2020,3,True,501630.0,in_house,501630.0,0.0,1,0
+tsmc,TSMC,semiconductors,2020,4,True,501630.0,in_house,501630.0,0.0,1,0
+tsmc,TSMC,semiconductors,2021,1,True,501630.0,in_house,501630.0,0.0,1,0
+tsmc,TSMC,semiconductors,2021,2,True,640000.0,in_house,640000.0,0.0,1,0
+tsmc,TSMC,semiconductors,2021,3,True,540000.0,in_house,540000.0,0.0,1,0
+tsmc,TSMC,semiconductors,2021,4,True,530000.0,in_house,530000.0,90000.0,1,3
+tsmc,TSMC,semiconductors,2022,1,True,520000.0,in_house,520000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2022,2,True,650000.0,in_house,650000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2022,3,True,520000.0,in_house,520000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2022,4,True,520000.0,in_house,520000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2023,1,True,520000.0,in_house,520000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2023,2,True,770000.0,in_house,770000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2023,3,True,540000.0,in_house,540000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2023,4,True,540000.0,in_house,540000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2024,1,True,540000.0,in_house,540000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2024,2,True,790000.0,in_house,790000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2024,3,True,540000.0,in_house,540000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2024,4,True,540000.0,in_house,540000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2025,1,True,570000.0,in_house,570000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2025,2,True,970000.0,in_house,970000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2025,3,True,570000.0,in_house,570000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2025,4,True,570000.0,in_house,570000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2026,1,True,570000.0,in_house,570000.0,150000.0,1,3
+tsmc,TSMC,semiconductors,2026,2,True,970000.0,in_house,970000.0,150000.0,1,3
 uber,Uber,rideshare,2020,1,True,630000.0,in_house,630000.0,370000.0,1,9
 uber,Uber,rideshare,2020,2,True,570000.0,in_house,570000.0,350000.0,1,8
 uber,Uber,rideshare,2020,3,True,540000.0,in_house,540000.0,430000.0,1,9
@@ -726,6 +1606,60 @@ uber,Uber,rideshare,2025,3,True,1010000.0,in_house,1010000.0,495000.0,1,7
 uber,Uber,rideshare,2025,4,True,790000.0,in_house,790000.0,495000.0,1,7
 uber,Uber,rideshare,2026,1,True,940000.0,in_house,940000.0,525000.0,1,8
 uber,Uber,rideshare,2026,2,True,1230000.0,in_house,1230000.0,545000.0,1,8
+uipath,UiPath,software,2024,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+uipath,UiPath,software,2024,3,True,60000.0,outside_firm,0.0,60000.0,0,1
+uipath,UiPath,software,2024,4,True,60000.0,outside_firm,0.0,60000.0,0,1
+uipath,UiPath,software,2025,1,True,80000.0,outside_firm,0.0,80000.0,0,1
+uipath,UiPath,software,2025,2,True,90000.0,outside_firm,0.0,90000.0,0,1
+uipath,UiPath,software,2025,3,True,90000.0,outside_firm,0.0,90000.0,0,1
+uipath,UiPath,software,2025,4,True,90000.0,outside_firm,0.0,90000.0,0,1
+uipath,UiPath,software,2026,1,True,90000.0,outside_firm,0.0,90000.0,0,1
+uipath,UiPath,software,2026,2,True,90000.0,outside_firm,0.0,90000.0,0,1
+vmware,VMware,software,2020,1,True,180000.0,in_house,180000.0,110000.0,1,3
+vmware,VMware,software,2020,2,True,180000.0,in_house,180000.0,150000.0,1,4
+vmware,VMware,software,2020,3,True,300000.0,in_house,300000.0,212500.0,1,5
+vmware,VMware,software,2020,4,True,280000.0,in_house,280000.0,225000.0,1,5
+vmware,VMware,software,2021,1,True,330000.0,in_house,330000.0,245000.0,1,5
+vmware,VMware,software,2021,2,True,310000.0,in_house,310000.0,255000.0,1,6
+vmware,VMware,software,2021,3,True,330000.0,in_house,330000.0,255000.0,1,5
+vmware,VMware,software,2021,4,True,330000.0,in_house,330000.0,255000.0,1,5
+vmware,VMware,software,2022,1,True,500000.0,in_house,500000.0,215000.0,1,6
+vmware,VMware,software,2022,2,True,510000.0,in_house,510000.0,205000.0,1,6
+vmware,VMware,software,2022,3,True,500000.0,in_house,500000.0,205000.0,1,6
+vmware,VMware,software,2022,4,True,500000.0,in_house,500000.0,230000.0,1,6
+vmware,VMware,software,2023,1,True,300000.0,in_house,300000.0,230000.0,1,6
+vmware,VMware,software,2023,2,True,310000.0,in_house,310000.0,230000.0,1,6
+vmware,VMware,software,2023,3,True,320000.0,in_house,320000.0,250000.0,1,6
+vmware,VMware,software,2023,4,True,230000.0,outside_firm,210000.0,230000.0,1,6
+vmware,VMware,software,2024,1,True,70000.0,outside_firm,0.0,70000.0,0,3
+vmware,VMware,software,2024,2,True,50000.0,outside_firm,0.0,50000.0,0,1
+vmware,VMware,software,2024,3,True,0.0,none_reported,0.0,0.0,0,1
+workday,Workday,software,2020,1,True,390000.0,in_house,390000.0,120000.0,1,2
+workday,Workday,software,2020,2,True,260000.0,in_house,260000.0,120000.0,1,2
+workday,Workday,software,2020,3,True,260000.0,in_house,260000.0,120000.0,1,2
+workday,Workday,software,2020,4,True,310000.0,in_house,310000.0,120000.0,1,2
+workday,Workday,software,2021,1,True,430000.0,in_house,430000.0,130000.0,1,2
+workday,Workday,software,2021,2,True,290000.0,in_house,290000.0,130000.0,1,2
+workday,Workday,software,2021,3,True,200000.0,in_house,200000.0,130000.0,1,2
+workday,Workday,software,2021,4,True,230000.0,in_house,230000.0,130000.0,1,2
+workday,Workday,software,2022,1,True,310000.0,in_house,310000.0,130000.0,1,2
+workday,Workday,software,2022,2,True,400000.0,in_house,400000.0,140000.0,1,2
+workday,Workday,software,2022,3,True,300000.0,in_house,300000.0,140000.0,1,2
+workday,Workday,software,2022,4,True,330000.0,in_house,330000.0,140000.0,1,2
+workday,Workday,software,2023,1,True,440000.0,in_house,440000.0,140000.0,1,2
+workday,Workday,software,2023,2,True,280000.0,in_house,280000.0,140000.0,1,2
+workday,Workday,software,2023,3,True,250000.0,in_house,250000.0,140000.0,1,2
+workday,Workday,software,2023,4,True,240000.0,in_house,240000.0,190000.0,1,3
+workday,Workday,software,2024,1,True,350000.0,in_house,350000.0,170000.0,1,3
+workday,Workday,software,2024,2,True,320000.0,in_house,320000.0,170000.0,1,3
+workday,Workday,software,2024,3,True,310000.0,in_house,310000.0,170000.0,1,3
+workday,Workday,software,2024,4,True,280000.0,in_house,280000.0,160000.0,1,3
+workday,Workday,software,2025,1,True,360000.0,in_house,360000.0,150000.0,1,6
+workday,Workday,software,2025,2,True,370000.0,in_house,370000.0,180000.0,1,5
+workday,Workday,software,2025,3,True,340000.0,in_house,340000.0,180000.0,1,5
+workday,Workday,software,2025,4,True,360000.0,in_house,360000.0,170000.0,1,5
+workday,Workday,software,2026,1,True,300000.0,in_house,300000.0,190000.0,1,5
+workday,Workday,software,2026,2,True,260000.0,in_house,260000.0,110000.0,1,4
 x_twitter_spacex,X / Twitter / SpaceX,elon_empire,2020,1,True,950000.0,in_house,950000.0,610000.0,2,14
 x_twitter_spacex,X / Twitter / SpaceX,elon_empire,2020,2,True,950000.0,in_house,950000.0,600000.0,2,15
 x_twitter_spacex,X / Twitter / SpaceX,elon_empire,2020,3,True,960000.0,in_house,960000.0,570000.0,2,14
@@ -777,3 +1711,29 @@ zoom,Zoom,communications,2025,3,True,260000.0,outside_firm,50000.0,260000.0,1,3
 zoom,Zoom,communications,2025,4,True,260000.0,outside_firm,50000.0,260000.0,1,3
 zoom,Zoom,communications,2026,1,True,230000.0,outside_firm,50000.0,230000.0,1,3
 zoom,Zoom,communications,2026,2,True,230000.0,outside_firm,50000.0,230000.0,1,3
+zscaler,Zscaler,cybersecurity,2020,1,True,20000.0,outside_firm,0.0,20000.0,0,1
+zscaler,Zscaler,cybersecurity,2020,2,True,20000.0,outside_firm,0.0,20000.0,0,1
+zscaler,Zscaler,cybersecurity,2020,3,True,20000.0,outside_firm,0.0,20000.0,0,1
+zscaler,Zscaler,cybersecurity,2020,4,True,20000.0,outside_firm,0.0,20000.0,0,1
+zscaler,Zscaler,cybersecurity,2021,1,True,20000.0,outside_firm,0.0,20000.0,0,1
+zscaler,Zscaler,cybersecurity,2021,2,True,20000.0,outside_firm,0.0,20000.0,0,1
+zscaler,Zscaler,cybersecurity,2021,3,True,20000.0,outside_firm,0.0,20000.0,0,1
+zscaler,Zscaler,cybersecurity,2021,4,True,40000.0,outside_firm,0.0,40000.0,0,1
+zscaler,Zscaler,cybersecurity,2022,1,True,140000.0,in_house,140000.0,70000.0,1,2
+zscaler,Zscaler,cybersecurity,2022,2,True,130000.0,in_house,130000.0,70000.0,1,2
+zscaler,Zscaler,cybersecurity,2022,3,True,140000.0,in_house,140000.0,70000.0,1,3
+zscaler,Zscaler,cybersecurity,2022,4,True,140000.0,in_house,140000.0,80000.0,1,3
+zscaler,Zscaler,cybersecurity,2023,1,True,180000.0,in_house,180000.0,70000.0,1,3
+zscaler,Zscaler,cybersecurity,2023,2,True,130000.0,in_house,130000.0,80000.0,1,3
+zscaler,Zscaler,cybersecurity,2023,3,True,110000.0,in_house,110000.0,80000.0,1,3
+zscaler,Zscaler,cybersecurity,2023,4,True,110000.0,in_house,110000.0,70000.0,1,2
+zscaler,Zscaler,cybersecurity,2024,1,True,70000.0,outside_firm,0.0,70000.0,0,2
+zscaler,Zscaler,cybersecurity,2024,2,True,70000.0,outside_firm,0.0,70000.0,0,2
+zscaler,Zscaler,cybersecurity,2024,3,True,70000.0,outside_firm,0.0,70000.0,0,2
+zscaler,Zscaler,cybersecurity,2024,4,True,60000.0,outside_firm,0.0,60000.0,0,2
+zscaler,Zscaler,cybersecurity,2025,1,True,90000.0,outside_firm,0.0,90000.0,0,2
+zscaler,Zscaler,cybersecurity,2025,2,True,130000.0,outside_firm,0.0,130000.0,0,2
+zscaler,Zscaler,cybersecurity,2025,3,True,130000.0,outside_firm,0.0,130000.0,0,2
+zscaler,Zscaler,cybersecurity,2025,4,True,130000.0,outside_firm,0.0,130000.0,0,2
+zscaler,Zscaler,cybersecurity,2026,1,True,130000.0,outside_firm,0.0,130000.0,0,2
+zscaler,Zscaler,cybersecurity,2026,2,True,130000.0,outside_firm,0.0,130000.0,0,2

@@ -14,6 +14,19 @@ from frontend.layout import render_shell
 from frontend.lobbying import ASSETS, EXPORT, explorer_published, replace_file
 
 DATA_FILES = ("spending.json", "spending.csv", "spending_reports.csv")
+# Reader-facing names for the sector tags in data/reference/companies/companies.csv.
+SECTOR_LABELS = {
+    "tech_giant": "Large tech companies", "ai": "AI", "semiconductors": "Semiconductors",
+    "software": "Software", "cloud": "Cloud", "cybersecurity": "Cybersecurity", "hardware": "Hardware",
+    "fintech": "Fintech", "social_media": "Social media", "media": "Media", "ecommerce": "E-commerce",
+    "marketplace": "Marketplaces", "delivery": "Delivery", "rideshare": "Ride-hailing",
+    "communications": "Communications", "defense": "Defense tech", "cars": "Automotive",
+    "elon_empire": "Musk companies", "vc": "Venture capital", "other": "Other",
+}
+
+
+def sector_label(sector: str) -> str:
+    return SECTOR_LABELS.get(sector, sector.replace("_", " ").capitalize() or "Other")
 RECENT_QUARTERS = 5
 
 
@@ -89,16 +102,16 @@ def page(data: dict, cycles: list[int], explorer_available: bool) -> str:
                          f"{metadata['company_count']} companies; full calendar year"))
 
     annual_rows = sorted(s["rows"], key=lambda r: -(r["by_year"].get(last_full or s["years"][-1]) or 0))
-    annual = table(["Company"] + [s["year_labels"][y] for y in s["years"]], [
-        [f'<td>{escape(r["company"]["name"])}</td>'] +
+    annual = table(["Company", "Sector"] + [s["year_labels"][y] for y in s["years"]], [
+        [f'<td>{escape(r["company"]["name"])}</td>', f'<td>{escape(sector_label(r["company"]["sector"]))}</td>'] +
         [f'<td class="number">{money(r["by_year"][y])}</td>' for y in s["years"]]
         for r in annual_rows])
 
     recent = s["complete"][-RECENT_QUARTERS:]
     quarterly_rows = sorted(s["rows"], key=lambda r: -(r["by_quarter"][latest] or 0))
-    quarterly = table(["Company"] + [quarters[i]["id"] for i in recent] +
+    quarterly = table(["Company", "Sector"] + [quarters[i]["id"] for i in recent] +
                       ([f"Change vs. {quarters[year_ago]['id']}"] if year_ago is not None else []), [
-        [f'<td>{escape(r["company"]["name"])}</td>'] +
+        [f'<td>{escape(r["company"]["name"])}</td>', f'<td>{escape(sector_label(r["company"]["sector"]))}</td>'] +
         [f'<td class="number">{money(r["by_quarter"][i])}</td>' for i in recent] +
         ([f'<td class="number">{change(r["by_quarter"][latest], r["by_quarter"][year_ago])}</td>']
          if year_ago is not None else [])
@@ -107,7 +120,9 @@ def page(data: dict, cycles: list[int], explorer_available: bool) -> str:
     explorer_link = ('<p>To see <em>what</em> companies lobbied on, use the '
                      '<a href="../">AI lobbying explorer</a>.</p>') if explorer_available else ""
     links = ''.join(f'<a class="cycle-pill" href="../../{c}/">{c}</a>' for c in cycles)
-    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+    sectors = sorted({c["sector"] for c in data["companies"]}, key=sector_label)
+    payload = json.dumps({**data, "sectors": [{"id": x, "label": sector_label(x)} for x in sectors]},
+                         ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     names = "".join(
         f'<li><strong>{escape(c["name"])}</strong>: {escape("; ".join(c["client_names"]))}</li>'
         for c in data["companies"])
@@ -122,13 +137,13 @@ def page(data: dict, cycles: list[int], explorer_available: bool) -> str:
   </aside>
   {headline_stats(stats)}
   <h2>Spending by quarter</h2>
-  <div class="spending-chart-controls"><label>Company
+  <div class="spending-chart-controls"><label>Show
     <select id="spending-company"><option value="">All tracked companies</option></select></label></div>
   <figure class="spending-chart"><svg id="spending-chart" role="img" aria-labelledby="spending-chart-caption"></svg>
     <figcaption id="spending-chart-caption">Reported lobbying spending per quarter. The tables below hold the same numbers.</figcaption></figure>
   <noscript><p>The chart needs JavaScript; the tables below show the same figures.</p></noscript>
   <h2>Spending by year</h2>
-  <p>Each year adds up that year's complete quarters. Select a column heading to sort.</p>
+  <p>Each year adds up that year's complete quarters. Select a column heading to sort, or type a company or sector in the search box.</p>
   {annual}
   <h2>Recent quarters</h2>
   {quarterly}
