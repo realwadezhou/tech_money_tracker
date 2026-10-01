@@ -38,7 +38,9 @@ APPLE INC,TRUE,apple,AI first pass 2026-09-30
 APPLE INC.,TRUE,apple,AI first pass 2026-09-30
 "APPLE, INC.",TRUE,apple,AI first pass 2026-09-30
 BYTEDANCE INC.,TRUE,bytedance,AI first pass 2026-09-30
+TIK TOK USDS JOINT VENTURE,TRUE,bytedance,"2026 US joint venture, not simply ByteDance; tracked here because readers look for TikTok here (decision 3, 2026-09-30)"
 TIKTOK INC.,TRUE,bytedance,AI first pass 2026-09-30
+TIKTOK USDS JOINT VENTURE LLC,TRUE,bytedance,"2026 US joint venture, not simply ByteDance; tracked here because readers look for TikTok here (decision 3, 2026-09-30)"
 COHERE INC.,TRUE,cohere,AI first pass 2026-09-30
 "COHERE US, INC.",TRUE,cohere,AI first pass 2026-09-30
 "COINBASE GLOBAL, INC.",TRUE,coinbase,AI first pass 2026-09-30
@@ -121,8 +123,6 @@ ORACLE AMERICA INC. FKA ORACLE CORPORATION,TRUE,oracle,AI first pass 2026-09-30
 "ORACLE AMERICA, INC.",TRUE,oracle,AI first pass 2026-09-30
 ORACLE AMERICAN INC.,TRUE,oracle,AI first pass 2026-09-30
 ORACLE CORPORATION,TRUE,oracle,AI first pass 2026-09-30
-HANNEGAN LANDAU POERSCH & ROSENBAUM ADVOCACY LLC (FOR PALANTIR TECHNOLOGIES INC),TRUE,palantir,AI first pass 2026-09-30
-J.A. GREEN AND COMPANY (FOR PALANTIR TECHNOLOGIES INC.),TRUE,palantir,AI first pass 2026-09-30
 PALANTIR,TRUE,palantir,AI first pass 2026-09-30
 PALANTIR TECHNOLOGIES,TRUE,palantir,AI first pass 2026-09-30
 PALANTIR TECHNOLOGIES INC.,TRUE,palantir,AI first pass 2026-09-30
@@ -170,16 +170,31 @@ TWITTER INC,TRUE,x_twitter_spacex,AI first pass 2026-09-30
 "ABX AIR, INC -- AIR TRANSPORT SERVICES GROUP",FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 ACCEL,FALSE,,"special-education client, not the VC firm; AI first pass 2026-09-30"
 ADAPDIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+ALLIANCE OF PROFESSIONALS & CONSULTANTS ON BEHALF OF IBM CORP,FALSE,,"subcontractor report for ibm; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 ANALEX CORPORATION DBA ARCFIELD,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 APOTEX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 APOTEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 "APPLE HOMECARE MEDICAL SUPPLY, INC.",FALSE,,unrelated company; AI first pass 2026-09-30
+"AQUIA GROUP ON BEHALF OF ANTHROPIC, PBC",FALSE,,"subcontractor report for anthropic; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"ARENT FOX LLP ON BEHALF OF QUALCOMM, INC.",FALSE,,"subcontractor report for qualcomm; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 AVX AIRCRAFT COMPANY,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+BLANK ROME GOVERNMENT RELATIONS LLC ON BEHALF OF TANADGUSIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 BRAINBOX AI US LLC,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+BROWNSTEIN HYATT FARBER SCHRECK LLP OBO PALANTIR TECHNOLOGIES INC.,FALSE,,"subcontractor report for palantir; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"BROWNSTEIN HYATT FARBER SCHRECK, LLP OBO DELL TECHNOLOGIES, INC.",FALSE,,"subcontractor report for dell; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 CAELUX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 CAPE FOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CASSIDY & ASSOCIATES ON BEHALF OF CERNER CORPORATION,FALSE,,"Cerner before/around Oracle's 2022 purchase; not Oracle's lobbying (decision 2, 2026-09-30)"
+CERNER CORPORATION,FALSE,,"Cerner before/around Oracle's 2022 purchase; not Oracle's lobbying (decision 2, 2026-09-30)"
+CLARK STREET ASSOCIATES ON BEHALF OF GROQ INC.,FALSE,,"subcontractor report for groq; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 CLOROX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 COLFAX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CORNERSTONE GOVERNMENT AFFAIRS OBO BRAINBOX AI US LLC,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CORNERSTONE GOVERNMENT AFFAIRS OBO GOOGLE CLIENT SERVICES LLC,FALSE,,"subcontractor report for google; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+CORNERSTONE GOVERNMENT AFFAIRS OBO MICROSOFT CORPORATION,FALSE,,"subcontractor report for microsoft; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"CORNERSTONE GOVERNMENT AFFAIRS OBO STRIPE, INC.",FALSE,,"subcontractor report for stripe; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+COVE STRATEGIES ON BEHALF OF ORACLE AMERICAN INC.,FALSE,,"subcontractor report for oracle; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+COVINGTON & BURLING ON BEHALF OF APPLE INC.,FALSE,,"subcontractor report for apple; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 CSX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 CYBERLUX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 DYNAX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
@@ -192,16 +207,24 @@ GATX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pa
 GDX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 GENRX GENRX CORP D/B/A GENRX PHARMACY,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 "GREYLOCK CAPITAL MANAGEMENT, LLC",FALSE,,"hedge fund, not Greylock Partners; AI first pass 2026-09-30"
+HANNEGAN LANDAU POERSCH & ROSENBAUM ADVOCACY LLC (FOR PALANTIR TECHNOLOGIES INC),FALSE,,"subcontractor report for palantir; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 IONETIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+J.A. GREEN AND COMPANY (FOR PALANTIR TECHNOLOGIES INC.),FALSE,,"subcontractor report for palantir; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 LENOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+LIVINGSTON GROUP (ON BEHALF OF ORACLE),FALSE,,"subcontractor report for oracle; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 LUX AIR JET CENTERS,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"MILLER STRATEGIES, LLC ON BEHALF OF AMAZON WEB SERVICES, INC.",FALSE,,"subcontractor report for amazon; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+ML ASSOC OBO CLARK ST ASSOC OBO AM SEMICONDUCTOR COALITION OBO IBM,FALSE,,"subcontractor report for ibm; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 MODERN INTEL,FALSE,,unrelated company; AI first pass 2026-09-30
+"MORAN GLOBAL STRATEGIES, INC. OBO SALESFORCE, INC.",FALSE,,"subcontractor report for salesforce; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 NATIONAL PHILANTHROPIC TRUST,FALSE,,matches 'anthropic' inside 'philanthropic'; AI first pass 2026-09-30
 NCR VOYIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 NCR VOYIX CORPORATION (FKA NCR CORPORATION),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 NEW BEDFORD PANORAMEX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 O.N.E. AMAZON,FALSE,,"rainforest group, not Amazon.com; AI first pass 2026-09-30"
 ONEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+ORACLE CERNER (FORMERLY CERNER CORPORATION),FALSE,,"Cerner before/around Oracle's 2022 purchase; not Oracle's lobbying (decision 2, 2026-09-30)"
+"PAUL, WEISS, RIFKIND, WHARTON & GARRISON LLP ON BEHALF OF QUALCOMM INCORPORATED",FALSE,,"subcontractor report for qualcomm; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 "PENDULLUM POWERE AMD WATER, LLC",FALSE,,unrelated company; AI first pass 2026-09-30
 PHOENIX AIR GROUP,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 POWEREX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
@@ -223,10 +246,19 @@ SURDEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first 
 TANADGUSIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 TDX CORP,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 TDX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+TEAM HALLAHAN LLC (ON BEHALF OF AMAZON WEB SERVICES),FALSE,,"subcontractor report for amazon; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"TEAM HALLAHAN LLC ON BEHALF OF AMAZON WEB SERVICES, INC.",FALSE,,"subcontractor report for amazon; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"THE DOERRER GROUP ON BEHALF OF UBER TECHNOLOGIES, INC.",FALSE,,"subcontractor report for uber; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+THORN RUN PARTNERS O/B/O FEDEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 TIKTOK COALITION,FALSE,,"outside coalition, not the company; AI first pass 2026-09-30"
 TRANSPARENCY-RX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+TREMONT STRATEGIES GROUP ON BEHALF OF UBER TECHNOLOGIES,FALSE,,"subcontractor report for uber; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+TWINLOGIC STRATEGIES ON BEHALF OF DELL USA LP,FALSE,,"subcontractor report for dell; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+"TWINLOGIC STRATEGIES ON BEHALF OF TWITTER, INC",FALSE,,"subcontractor report for x_twitter_spacex; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 U.S. APPLE ASSOCIATION,FALSE,,fruit growers; AI first pass 2026-09-30
 US APPLE ASSOCIATION,FALSE,,fruit growers; AI first pass 2026-09-30
 VUZIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"WILLIAMS AND JENSEN, PLLC ON BEHALF OF RIPPLE LABS, INC.",FALSE,,"subcontractor report for ripple; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
+WILMERHALE ON BEHALF OF APPLE INC.,FALSE,,"subcontractor report for apple; excluded to avoid double counting dollars (decision 1, 2026-09-30)"
 XEROX CORP,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
 XEROX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30

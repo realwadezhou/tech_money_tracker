@@ -31,16 +31,10 @@ The lobbying lookup works the same way as the FEC one described below:
   `python -m pipeline.tagging.lda_clients`. The queue is every candidate name
   not yet in `lda_clients.csv`, biggest spenders first. Safe to delete.
 
-Rows noted "AI first pass 2026-09-30" were seeded by Claude from the filing
-text and have not been checked by a person. Three kinds of names were left
-undecided in the queue on purpose:
-
-- **Subcontractor reports** ("FIRM X ON BEHALF OF APPLE INC."). The money is
-  usually already inside the main firm's report, so including them can double
-  count dollars.
-- **Acquisitions** (Cerner, bought by Oracle in 2022): reports from before the
-  purchase are not the parent's lobbying.
-- **TikTok USDS Joint Venture**: the 2026 US entity is not simply ByteDance.
+Rows noted "AI first pass 2026-09-30" were decided by Claude from the filing
+text and have not been checked row by row by a person. **The rules behind those
+decisions, and who approved them, are in [DECISIONS.md](DECISIONS.md).** Add an
+entry there whenever a tagging rule is made or changed.
 
 The AI explorer (`pipeline/lda/build_explorer.py`) still reads its own smaller
 list in `data/reference/lobbying/organizations.json`. Every name there is also
