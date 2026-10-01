@@ -82,6 +82,8 @@ def render_shell(
     main_id: str = "main-content",
     main_class: str = "",
     eyebrow: str = "",
+    definition_href: str | None = None,
+    data_href: str | None = None,
 ) -> str:
     body, outline = heading_outline(body)
     heading = re.search(r"<h1\b[^>]*>(.*?)</h1>", body, flags=re.I | re.S)
@@ -102,6 +104,7 @@ def render_shell(
         + source_note + "</details>"
         if source_note else ""
     )
+    explicit_definition, explicit_data = definition_href, data_href
     definition = navigation_prefix + "methodology/"
     data_href = navigation_prefix + "data/"
     if section == "federal-lobbying":
@@ -109,6 +112,9 @@ def render_shell(
         data_href = "data/manifest.json" if main_id == "lobbying-explorer" else (lobbying_href or "../../lobbying/") + "data/manifest.json"
         if main_id != "lobbying-explorer":
             definition = (lobbying_href or "../../lobbying/") + "#methodology"
+    # A page with its own methodology and downloads can point at them directly.
+    definition = explicit_definition or definition
+    data_href = explicit_data or data_href
     page_context = f'''<aside class="page-context" aria-label="Page context">
       {f'<div class="context-label">On this page</div><nav class="context-links" aria-label="On this page">{context_links}</nav>' if outline else ''}
       {source_details}

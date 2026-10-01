@@ -14,6 +14,12 @@ Build it from installed years with `python -m pipeline.lda.build_explorer 2025 2
 `python -m frontend.lobbying --site-root docs`. See the separate
 [topic definitions, data dictionary, and review workflow](../reference/lobbying/README.md).
 
+The `/lobbying/spending/` page shows quarterly spending by tracked company. Build
+it with `python -m pipeline.lda.build_spending`, then
+`python -m frontend.lobbying --site-root docs`. It uses the reviewed name list in
+[`data/reference/companies/`](../reference/companies/README.md), not the
+exploratory overlay described below.
+
 ## The tech-tagging caveat (read this first)
 
 The same caveat that applies to FEC employer matching applies here, with

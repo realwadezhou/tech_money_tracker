@@ -281,7 +281,8 @@ def validate_attribution(root: Path, errors: list) -> dict | None:
 
 def validate_lobbying(root: Path, errors: list) -> dict | None:
     data = root / "lobbying/data"
-    if not (root / "lobbying").exists():
+    # The spending page can be published without the AI explorer.
+    if not (data / "explorer-data.js").exists():
         return None
     try:
         script = (data / "explorer-data.js").read_text(encoding="utf-8")
@@ -339,6 +340,51 @@ def validate_lobbying(root: Path, errors: list) -> dict | None:
                 "topic_matches": len(expected), "rules_version": metadata["rules_version"]}
     except (OSError, ValueError, KeyError, TypeError) as exc:
         errors.append(f"Invalid lobbying export: {exc}")
+        return None
+
+
+def validate_lobbying_spending(root: Path, errors: list) -> dict | None:
+    """Spending page data: the CSVs must reconcile with the JSON and the counting rule."""
+    data = root / "lobbying/spending/data"
+    if not data.exists():
+        return None
+    try:
+        payload = read_json(data / "spending.json")
+        quarters = payload["quarters"]
+        expected = {}
+        for company in payload["companies"]:
+            for quarter, cell in zip(quarters, company["quarters"]):
+                if cell is None:
+                    continue
+                if cell["total"] != max(cell["in_house_expenses"], cell["outside_firm_income"]):
+                    errors.append(f"Lobbying spending total breaks the counting rule: {company['id']} {quarter['id']}")
+                expected[(company["id"], quarter["year"], quarter["quarter"])] = (
+                    cell["total"], cell["in_house_expenses"], cell["outside_firm_income"])
+        actual = {}
+        with (data / "spending.csv").open(encoding="utf-8", newline="") as handle:
+            for row in csv.DictReader(handle):
+                actual[(row["company_id"], int(row["year"]), int(row["quarter"]))] = (
+                    float(row["total"]), float(row["in_house_expenses"]), float(row["outside_firm_income"]))
+        if expected != actual:
+            errors.append("Lobbying spending CSV and JSON disagree")
+        sums, reports = {}, 0
+        with (data / "spending_reports.csv").open(encoding="utf-8", newline="") as handle:
+            for row in csv.DictReader(handle):
+                reports += 1
+                if not row["filing_url"].startswith("https://lda.gov/"):
+                    errors.append(f"Invalid lobbying spending source link: {row['filing_uuid']}")
+                key = (row["company_id"], int(row["year"]), int(row["quarter"]))
+                pair = sums.setdefault(key, [0.0, 0.0])
+                pair[0 if row["kind"] == "in_house" else 1] += float(row["amount"])
+        if {key: (value[1], value[2]) for key, value in expected.items()} != {
+                key: tuple(value) for key, value in sums.items()}:
+            errors.append("Lobbying spending totals do not add up from the listed reports")
+        if reports != payload["metadata"]["report_count"]:
+            errors.append("Lobbying spending report count disagrees with the listed reports")
+        return {"companies": len(payload["companies"]), "company_quarters": len(expected), "reports": reports,
+                "source_cutoff": payload["metadata"]["source_cutoff"]}
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"Invalid lobbying spending export: {exc}")
         return None
 
 
@@ -445,9 +491,11 @@ def validate(root: Path) -> dict:
     if not pages or not cycles:
         errors.append("No generated site pages or cycle data found")
     lobbying = validate_lobbying(root, errors)
+    lobbying_spending = validate_lobbying_spending(root, errors)
     attribution = validate_attribution(root, errors)
     return {"html_pages": len(pages), "json_files": len(json_paths), "cycles": cycles,
-            "lobbying": lobbying, "attribution": attribution, "errors": errors}
+            "lobbying": lobbying, "lobbying_spending": lobbying_spending,
+            "attribution": attribution, "errors": errors}
 
 
 if __name__ == "__main__":

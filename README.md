@@ -143,6 +143,22 @@ If only copy in `frontend/build_site.py` changed (no pipeline or data change):
 python -m frontend.build_site && python scripts/publish_site_to_docs.py
 ```
 
+### Lobbying spending page
+
+Quarterly lobbying spending for each tracked company, at `docs/lobbying/spending/`:
+
+```bash
+python -m pipeline.lda.build_spending
+python -m frontend.lobbying --site-root docs
+```
+
+The first command adds up the installed lobbying reports; the second renders the
+page (and the AI explorer, if its export exists). Neither downloads anything.
+Which reported names count as which company is set in
+`data/reference/companies/lda_clients.csv`; the counting rule is Decision 9 in
+[DECISIONS.md](data/reference/companies/DECISIONS.md). Run both again after a
+lobbying refresh or after editing that file.
+
 ### AI lobbying explorer
 
 Start or resume the requested full collection with
@@ -177,7 +193,7 @@ See [tools/lobbying_search/README.md](tools/lobbying_search/README.md). It is no
 
 ```bash
 python -m unittest discover -s tests -v
-node --test tests/frontend_assets.test.cjs tests/lobbying_assets.test.cjs
+node --test tests/frontend_assets.test.cjs tests/lobbying_assets.test.cjs tests/lobbying_spending_assets.test.cjs
 python scripts/validate_site.py
 ```
 
@@ -206,13 +222,13 @@ updating the bulk committee and candidate directories.
 | `data/fec/derived/<cycle>/` | Analytical CSVs produced by the pipeline |
 | `data/lda/` | Lobbying Disclosure Act source snapshots and exploratory tables |
 | `data/reference/lobbying/` | AI topic rules, company watchlists, and separate review decisions |
-| `exports/lobbying/` | Generated AI issue index, evidence CSVs, and review worksheets |
+| `exports/lobbying/` | Generated lobbying spending tables, AI issue index, evidence CSVs, and review worksheets |
 | `data/reference/companies/` | **The hand-tagged employer → tech-company alias lookup.** The heart of the cleaning work. |
 | `data/reference/individuals/` | Donor-name consolidation layer (skeleton; not yet wired into the pipeline). |
 | `pipeline/tagging/` | Generators that produce `candidates.csv` / `review_queue.csv` for the alias layer |
 | `pipeline/` | All ingest, load, classify, and summarize code |
 | `pipeline/fec/` | FEC-specific ingest and loading |
-| `pipeline/lda/` | LDA-specific ingest and normalization |
+| `pipeline/lda/` | LDA-specific ingest and normalization, plus `build_spending.py` and `build_explorer.py` |
 | `pipeline/build_summaries.py` | Turns loaded FEC rows into derived analytical tables |
 | `pipeline/build_frontend_exports.py` | Turns derived tables into the JSON/CSV the site consumes |
 | `pipeline/classify_partisan.py` | D/R/Mixed labels for committees and donors |

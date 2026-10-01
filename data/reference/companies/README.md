@@ -36,8 +36,9 @@ text and have not been checked row by row by a person. **The rules behind those
 decisions, and who approved them, are in [DECISIONS.md](DECISIONS.md).** Add an
 entry there whenever a tagging rule is made or changed.
 
-The AI explorer (`pipeline/lda/build_explorer.py`) also reads `companies.csv`
-and `lda_clients.csv`. After editing either, rebuild it:
+The lobbying spending page (`pipeline/lda/build_spending.py`) and the AI explorer
+(`pipeline/lda/build_explorer.py`) also read `companies.csv` and `lda_clients.csv`.
+After editing either, rebuild them: `python -m pipeline.lda.build_spending`,
 `python -m pipeline.lda.build_explorer 2020 2021 2022 2023 2024 2025 2026`,
 then `python -m frontend.lobbying --site-root docs`.
 

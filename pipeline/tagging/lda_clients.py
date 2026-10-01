@@ -60,6 +60,10 @@ def load_current_reports(years: list[int] | None = None) -> pd.DataFrame:
                 "quarter": f'{r["filing_year"]} Q{PERIODS[r["filing_period"]]}',
                 "income": pd.to_numeric(r["income"] or None),
                 "expenses": pd.to_numeric(r["expenses"] or None),
+                "filing_uuid": r["filing_uuid"],
+                "filing_type": r["filing_type"],
+                "dt_posted": r["dt_posted"],
+                "filing_url": r["filing_document_url"],
             })
     return pd.DataFrame(records)
 

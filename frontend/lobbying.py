@@ -50,9 +50,11 @@ def page(metadata: dict, cycles: list[int]) -> str:
                      for s in metadata["sources"])
     links = ''.join(f'<a class="cycle-pill" href="../{c}/">{c}</a>' for c in cycles)
     data_version = sha256((EXPORT / "explorer.json").read_bytes()).hexdigest()[:12]
+    spending_link = (' For dollar amounts, see <a href="spending/">lobbying spending by company and quarter</a>.'
+                     if (EXPORT / "spending.json").exists() else "")
     body = f'''
   <h1>AI lobbying explorer</h1>
-  <p class="lobbying-intro">Find AI references in reported lobbying issues, across all clients or a selected group of firms.</p>
+  <p class="lobbying-intro">Find AI references in reported lobbying issues, across all clients or a selected group of firms.{spending_link}</p>
   <aside class="lobbying-coverage" aria-label="Data coverage">
     <strong>Source data as of {escape(source_dates)} UTC.</strong> Current and future quarters are incomplete.{escape(early_note)}
     <details><summary>Reporting periods and source coverage</summary><ul>{sources}</ul>
@@ -156,8 +158,12 @@ def main() -> None:
     args = parser.parse_args()
     cycles = sorted((int(p.name) for p in args.site_root.iterdir()
                      if p.is_dir() and p.name.isdigit()), reverse=True)
-    if not build_lobbying(args.site_root, cycles):
-        raise SystemExit("Build the lobbying export first: python -m pipeline.lda.build_explorer 2025 2026")
+    from frontend.lobbying_spending import build_spending_page
+    explorer = build_lobbying(args.site_root, cycles)
+    spending = build_spending_page(args.site_root, cycles)
+    if not explorer and not spending:
+        raise SystemExit("Build a lobbying export first: python -m pipeline.lda.build_spending "
+                         "and/or python -m pipeline.lda.build_explorer 2025 2026")
     # Keep existing cycle links useful without rewriting unrelated FEC pages.
     from frontend import build_site
     build_site.AVAILABLE_CYCLES = cycles
@@ -167,7 +173,10 @@ def main() -> None:
         path = args.site_root / str(cycle) / "federal-lobbying/index.html"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(build_site.page_federal_lobbying({"cycle": cycle}), encoding="utf-8")
-    print(f"Built lobbying explorer: {args.site_root / 'lobbying/index.html'}")
+    if explorer:
+        print(f"Built lobbying explorer: {args.site_root / 'lobbying/index.html'}")
+    if spending:
+        print(f"Built lobbying spending page: {args.site_root / 'lobbying/spending/index.html'}")
 
 
 if __name__ == "__main__":

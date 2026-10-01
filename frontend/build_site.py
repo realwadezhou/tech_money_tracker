@@ -1143,8 +1143,12 @@ def page_federal_lobbying(metadata: dict) -> str:
     available = (LOBBYING_EXPORT / "explorer.json").exists()
     action = ('<p><a href="../../lobbying/">Open the AI lobbying explorer &rarr;</a></p>' if available
               else '<p>The lobbying topic export has not been built in this checkout yet.</p>')
+    spending = ('<p>See what tracked tech companies reported spending on federal lobbying, quarter by quarter.</p>'
+                '<p><a href="../../lobbying/spending/">Open lobbying spending by company &rarr;</a></p>'
+                if (LOBBYING_EXPORT / "spending.json").exists() else "")
     body = f"""
 <h1>Federal Lobbying</h1>
+{spending}
 <p>Explore AI references in federal lobbying reports by client, company watchlist, topic, and reporting quarter.</p>
 {action}
 <p>Lobbying uses calendar reporting years, independent of this page's election cycle. Consult the explorer's source years, snapshot dates, and reporting-period coverage. Current and future quarters are incomplete, and later filings can change earlier periods.</p>
@@ -1954,7 +1958,9 @@ def build_site() -> None:
                 )
 
     from frontend.lobbying import build_lobbying
+    from frontend.lobbying_spending import build_spending_page
     build_lobbying(SITE_ROOT, available_cycles)
+    build_spending_page(SITE_ROOT, available_cycles)
     CURRENT_RENDER_CYCLE = None
     CURRENT_RENDER_REL_DIR = ""
     print(f"Built multi-cycle site to {SITE_ROOT}")

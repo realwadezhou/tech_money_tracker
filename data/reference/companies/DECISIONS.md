@@ -147,3 +147,42 @@ which only groups company IDs.
 - **Still labelled "name seed":** the explorer's per-entry status text still
   says the mapping is an exact-name match awaiting source-ID review. That
   remains true: names were reviewed, individual registrant/client IDs were not.
+
+---
+
+## 2026-09-30: quarterly lobbying spending page
+
+### Decision 9: how one spending number is made per company and quarter
+
+*Decided by: Claude.*
+
+A lobbying report carries one of two kinds of amount, never both: **in-house
+expenses** (a company reporting its own lobbying) or **outside-firm income** (a
+hired firm reporting what the company paid it). For each company and quarter,
+`pipeline/lda/build_spending.py` adds up each kind and uses **the larger of
+the two sums**. It never adds the two together.
+
+- **Why not add them:** a company's in-house expense figure normally already
+  includes what it paid outside firms. Adding both double counts.
+- **Why not always use in-house when it exists** (the common convention): in 13
+  of 656 company-quarters with an in-house report, the outside firms together
+  reported more than the company did (Zoom reported $50,000 in-house while its
+  firms reported $230,000). Using the larger sum avoids a figure that is
+  plainly too low. In the other 98% of cases the result is identical.
+- **Separate in-house filers add up.** Google and Waymo, Microsoft and
+  LinkedIn, X and SpaceX each file their own expense reports; these are summed.
+- **Known cost:** the result is a floor, not an exact total. Where in-house
+  expenses do not include outside firms, the true figure is higher. When a
+  parent's in-house figure is used, outside firms hired by a subsidiary are
+  assumed to be inside it.
+- **Check:** Meta's 2024 total comes out at $24.43 million, in line with the
+  figure widely reported for Meta that year.
+- **Other rules:** only quarters whose filing deadline (20 days after quarter
+  end) had passed at the newest posting in the data are shown. Blank amounts
+  (filers may leave amounts under $5,000 blank) count as zero. One outside firm
+  (Hilltop Advocacy for Microsoft, 2020 Q3, $10,000) filed its amount as
+  expenses; it is treated like any in-house report because the amount is too
+  small to matter and special-casing it would hide the rule.
+
+The public download lists which sum was used for every company and quarter
+(`basis` column), and every report behind each number.
