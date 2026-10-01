@@ -1,0 +1,2424 @@
+{
+  "schema_version": 1,
+  "report_id": "meta_delbene_full_reports",
+  "cycle": 2026,
+  "candidate": {
+    "id": "H0WA08046",
+    "name": "Suzan DelBene"
+  },
+  "company": {
+    "key": "meta",
+    "label": "Meta"
+  },
+  "source_catalog_as_of": "2026-09-19T10:27:04.517301+00:00",
+  "sources": [
+    {
+      "file_number": 1887226,
+      "sha256": "e2cbbab4dcde6ff6e50048a1d3376a3e4312ef535873833e07c380ac1da5981c"
+    },
+    {
+      "file_number": 1903193,
+      "sha256": "49640f49cad22228d6bb8f4cc4125245cd45a9241d1f2d4441723a14a784c34d"
+    },
+    {
+      "file_number": 1920909,
+      "sha256": "29351e9a1c2848e84fe7824556498d27b3c31c25664b578c1d54caa8a90ea78e"
+    },
+    {
+      "file_number": 1940921,
+      "sha256": "955960ae70861cee396410e8e5e6fcfdbc91df6d43b64f4d3c6d72d0e8c469aa"
+    },
+    {
+      "file_number": 1963978,
+      "sha256": "e3ea498b3005f64c030af30713a56840d6ac520475588a24736e8acdcb566b3d"
+    },
+    {
+      "file_number": 1996658,
+      "sha256": "ec8dcba5f7a8839d83c6dab2092e280a631ec735542084171379646c1d1c256a"
+    },
+    {
+      "file_number": 2001574,
+      "sha256": "416f2f542e8ccfc1da1e39a023057d931d0754363e0c83685241c753f000c59a"
+    }
+  ],
+  "latest_file_numbers": [
+    1887226,
+    1903193,
+    1920909,
+    1940921,
+    1963978,
+    1996658,
+    2001574
+  ],
+  "scope": {
+    "kind": "campaign_reports",
+    "description": "Exact reported Meta employer matches in all seven full campaign reports returned by the September 19, 2026 processed 2026-cycle catalog, with coverage through July 15, 2026.",
+    "coverage_start": "2025-01-01",
+    "coverage_end": "2026-07-15",
+    "committee_ids": [
+      "C00459099"
+    ],
+    "account_ownership": "DelBene for Congress C00459099, principal campaign committee for H0WA08046. Source reports throughout this period are this same F3 campaign account.",
+    "source_completeness": "All seven full F3 reports in the observed 2026-cycle report catalog. All are original/latest, with no missing amendment sequences or report-period gaps. Six later F6 notices are outside this supported full-report scope."
+  },
+  "committee_scope_review": {
+    "status": "resolved_for_scope",
+    "evidence": [
+      "https://www.fec.gov/data/committee/C00459099/",
+      "https://www.fec.gov/data/candidate/H0WA08046/",
+      "Original F3 source headers and committee_context.json checked on 2026-09-19"
+    ]
+  },
+  "employer_aliases": {
+    "CBRE AT FACEBOOK": "meta",
+    "EVIL FACEBOOK EMPIRE": "meta",
+    "FACEBOOK": "meta",
+    "FACEBOOK / META": "meta",
+    "FACEBOOK INC": "meta",
+    "FACEBOOK INC.": "meta",
+    "FACEBOOK, INC": "meta",
+    "FACEBOOK, INC.": "meta",
+    "FACEBOOK. INC.": "meta",
+    "INSTAGRAM": "meta",
+    "META": "meta",
+    "META FACEBOOK": "meta",
+    "META PLATFORMS": "meta",
+    "META PLATFORMS (FB)": "meta",
+    "META PLATFORMS INC": "meta",
+    "META PLATFORMS INC.": "meta",
+    "META PLATFORMS LLC": "meta",
+    "META PLATFORMS TECHNOLOGIES, LLC": "meta",
+    "META PLATFORMS, INC": "meta",
+    "META PLATFORMS, INC.": "meta",
+    "META PLATFORMS, LLC": "meta",
+    "META PLATFORMS,INC": "meta",
+    "META REALITY LABS": "meta",
+    "META/FACEBOOK": "meta",
+    "WHATSAPP": "meta"
+  },
+  "reviews": [
+    {
+      "record_id": "1920909:10732380",
+      "source_row_sha256": "5c848bd483ff29d6a9f0df320a4354840d954dddf54e056be7afef94b75db5ff",
+      "role": "transfer_context",
+      "related_record_id": null,
+      "identity_key": "",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "One $124,357 aggregate transfer from DELBENE DEMOCRATIC MAJORITY FUND C00833590, independently confirmed by the FEC committee endpoint as designation J. It is context for many donor allocations, not money independently added to this employer amount."
+    },
+    {
+      "record_id": "1920909:10732436",
+      "source_row_sha256": "a8cd24d3b0971103fd7fb223b14cda01d32fdf7ae163c13e5de4c5b4e30fd2eb",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732436",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "IND SA12 memo explicitly points to the transfer from the verified joint fundraising committee. The donor allocation is $25 before any share of fundraising expenses; it is not a second upstream gift."
+    },
+    {
+      "record_id": "1920909:10732456",
+      "source_row_sha256": "dbc480c1b74fc9bfb088acb85008a4955593f9b945af9196985349a9cd02e243",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732436",
+      "identity_key": "review:1920909:10732436",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed source family 10732436/10732456/10732455: the positive general-election memo explicitly references 10732436; its adjacent negative primary-election memo has the same reported contributor/employer, adjustment date and aggregate, and cancels the positive amount. The negative transaction back-reference is blank, so its link is a documented review judgment supported by the complete source family, not a filed link or an automated name/amount match. Retain both signed children."
+    },
+    {
+      "record_id": "1920909:10732455",
+      "source_row_sha256": "d045e467a744e1a0a5c72856de5dc2ce2986283fa40a3fe5f0cfcfcd674f3903",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732436",
+      "identity_key": "review:1920909:10732436",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed source family 10732436/10732456/10732455: the positive general-election memo explicitly references 10732436; its adjacent negative primary-election memo has the same reported contributor/employer, adjustment date and aggregate, and cancels the positive amount. The negative transaction back-reference is blank, so its link is a documented review judgment supported by the complete source family, not a filed link or an automated name/amount match. Retain both signed children."
+    },
+    {
+      "record_id": "1920909:10636372",
+      "source_row_sha256": "81c3fec98e5462045b3d65a0a19144798acc14bb0f475aeb4fa24fe5ef2736dc",
+      "role": "adjustment",
+      "related_record_id": "1920909:10610659",
+      "identity_key": "review:1920909:10610659",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed source family 10610659/10636372/10636375: the positive general-election memo explicitly references 10610659; its adjacent negative primary-election memo has the same reported contributor/employer, adjustment date and aggregate, and cancels the positive amount. The negative transaction back-reference is blank, so its link is a documented review judgment supported by the complete source family, not a filed link or an automated name/amount match. Retain both signed children."
+    },
+    {
+      "record_id": "1920909:10636375",
+      "source_row_sha256": "0941cc309d6b63480c34389e375233c3cb5445279d7f65b83f31ca139c8f13fb",
+      "role": "adjustment",
+      "related_record_id": "1920909:10610659",
+      "identity_key": "review:1920909:10610659",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed source family 10610659/10636372/10636375: the positive general-election memo explicitly references 10610659; its adjacent negative primary-election memo has the same reported contributor/employer, adjustment date and aggregate, and cancels the positive amount. The negative transaction back-reference is blank, so its link is a documented review judgment supported by the complete source family, not a filed link or an automated name/amount match. Retain both signed children."
+    },
+    {
+      "record_id": "1920909:10746900",
+      "source_row_sha256": "eb6a4aeb9929313d3a71098e2635a11c5d271284ca54b44249b706a028e5b0b3",
+      "role": "adjustment",
+      "related_record_id": "1920909:10744951",
+      "identity_key": "review:1920909:10744951",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed source family 10744951/10746900/10746905: the positive general-election memo explicitly references 10744951; its adjacent negative primary-election memo has the same reported contributor/employer, adjustment date and aggregate, and cancels the positive amount. The negative transaction back-reference is blank, so its link is a documented review judgment supported by the complete source family, not a filed link or an automated name/amount match. Retain both signed children."
+    },
+    {
+      "record_id": "1920909:10746905",
+      "source_row_sha256": "049e4b817c5619bacff07738e3596e9d6df2aa06978810f0c84f54757de00c3d",
+      "role": "adjustment",
+      "related_record_id": "1920909:10744951",
+      "identity_key": "review:1920909:10744951",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed source family 10744951/10746900/10746905: the positive general-election memo explicitly references 10744951; its adjacent negative primary-election memo has the same reported contributor/employer, adjustment date and aggregate, and cancels the positive amount. The negative transaction back-reference is blank, so its link is a documented review judgment supported by the complete source family, not a filed link or an automated name/amount match. Retain both signed children."
+    },
+    {
+      "record_id": "1940921:10811896",
+      "source_row_sha256": "4d1deb0fc5bf5d6020048af112c8615d4d1f00165be237537ae9a8b48399a19e",
+      "role": "adjustment",
+      "related_record_id": "1940921:10799563",
+      "identity_key": "review:1940921:10799563",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed source family 10799563/10811896/10811897: the positive general-election memo explicitly references 10799563; its adjacent negative primary-election memo has the same reported contributor/employer, adjustment date and aggregate, and cancels the positive amount. The negative transaction back-reference is blank, so its link is a documented review judgment supported by the complete source family, not a filed link or an automated name/amount match. Retain both signed children."
+    },
+    {
+      "record_id": "1940921:10811897",
+      "source_row_sha256": "239d683e24039107e574868f4ce6c438b80d9e3d81b0db38c844affdf1f361db",
+      "role": "adjustment",
+      "related_record_id": "1940921:10799563",
+      "identity_key": "review:1940921:10799563",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed source family 10799563/10811896/10811897: the positive general-election memo explicitly references 10799563; its adjacent negative primary-election memo has the same reported contributor/employer, adjustment date and aggregate, and cancels the positive amount. The negative transaction back-reference is blank, so its link is a documented review judgment supported by the complete source family, not a filed link or an automated name/amount match. Retain both signed children."
+    },
+    {
+      "record_id": "1887226:10342442",
+      "source_row_sha256": "269a3831ef857d7611dfb3f6022284702ee208e20d1fd47d49029b36f0c5c573",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1887226:10342442",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1887226:10346215",
+      "source_row_sha256": "584636e2da82c7875d6478b8d4f989082630743aabe3dcc5cdd4d16e75a12dec",
+      "role": "adjustment",
+      "related_record_id": "1887226:10342442",
+      "identity_key": "review:1887226:10342442",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10342442, 1887226:10346215, 1887226:10346216. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10346216",
+      "source_row_sha256": "e7e3b7e0bf8bf6cd0679435e808c4839c41f8bdee3286a666c9aa9be7183f365",
+      "role": "adjustment",
+      "related_record_id": "1887226:10342442",
+      "identity_key": "review:1887226:10342442",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10342442, 1887226:10346215, 1887226:10346216. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10345710",
+      "source_row_sha256": "9622d622b4e78b03103a8fa810dd1f2b4a2d1f92b496e8ec212b04586f091f70",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1887226:10345710",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1887226:10351986",
+      "source_row_sha256": "0de445018154f0c8b0d0659e1f8326768e6c33eaa45b44289b1e12901890a4a4",
+      "role": "adjustment",
+      "related_record_id": "1887226:10345710",
+      "identity_key": "review:1887226:10345710",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10345710, 1887226:10351986, 1887226:10351987. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10351987",
+      "source_row_sha256": "6d8980aad0395674723103e6c829a2146a55cf1617c35dff810c2381f18b2077",
+      "role": "adjustment",
+      "related_record_id": "1887226:10345710",
+      "identity_key": "review:1887226:10345710",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10345710, 1887226:10351986, 1887226:10351987. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10349061",
+      "source_row_sha256": "70799908c0f10a98cba7dc891afafb40915c7acf62427991ed95963ff2d393db",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1887226:10349061",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1887226:10351988",
+      "source_row_sha256": "801f2aaf5d61d17e6691a3a936975f7273e3a9ea38e87078e77eefaf45322b51",
+      "role": "adjustment",
+      "related_record_id": "1887226:10349061",
+      "identity_key": "review:1887226:10349061",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10349061, 1887226:10351988, 1887226:10351989. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10351989",
+      "source_row_sha256": "ea2d5e715e3a3d49b6dee12afb5fbf82aa020a58685d2dec7201eba06538b9f3",
+      "role": "adjustment",
+      "related_record_id": "1887226:10349061",
+      "identity_key": "review:1887226:10349061",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10349061, 1887226:10351988, 1887226:10351989. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10353354",
+      "source_row_sha256": "ba0b7901956676e88c61ac2598184116d8e2acb420332b9afb90d64b2d285dac",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1887226:10353354",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1887226:10354056",
+      "source_row_sha256": "e4f9565566d4658acd588bd1757872bf55a1adbae671aee0febe7a970be5cbdc",
+      "role": "adjustment",
+      "related_record_id": "1887226:10353354",
+      "identity_key": "review:1887226:10353354",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10353354, 1887226:10354056, 1887226:10354057. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10354057",
+      "source_row_sha256": "7e26c1712118f73bb185b75aa5464411028d10629a60ef4f5f5395d0b202193e",
+      "role": "adjustment",
+      "related_record_id": "1887226:10353354",
+      "identity_key": "review:1887226:10353354",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10353354, 1887226:10354056, 1887226:10354057. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10426786",
+      "source_row_sha256": "32dcc77da66689b96c428ec90a16ad2f10bc3acd447caa34028a3d899483da4c",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1887226:10426786",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1887226:10427744",
+      "source_row_sha256": "ea1e023fd45d6159d53679faf04f2afd327aecd6203e73db7105238fc8d878ad",
+      "role": "adjustment",
+      "related_record_id": "1887226:10426786",
+      "identity_key": "review:1887226:10426786",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10426786, 1887226:10427744, 1887226:10427745. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10427745",
+      "source_row_sha256": "7f6f0f9e5ecb19aa19586728959e91ce5ac1619c5c1c2886bf7e54cc7eeada4c",
+      "role": "adjustment",
+      "related_record_id": "1887226:10426786",
+      "identity_key": "review:1887226:10426786",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10426786, 1887226:10427744, 1887226:10427745. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10455243",
+      "source_row_sha256": "cd7d08d83fb75955f89bf53b960ed697e11d0a8a5f9abfe92c177fbedb70b421",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1887226:10455243",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1887226:10455244",
+      "source_row_sha256": "9f36e9ca8544f5595d4ce4281881beb41c23a1fad08faf032af8a95e8fdbd40d",
+      "role": "adjustment",
+      "related_record_id": "1887226:10455243",
+      "identity_key": "review:1887226:10455243",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10455243, 1887226:10455244, 1887226:10455245. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1887226:10455245",
+      "source_row_sha256": "8b111bda34fde72065de5ee6180aac5d715d13da71283aec15f905ca128cdeb1",
+      "role": "adjustment",
+      "related_record_id": "1887226:10455243",
+      "identity_key": "review:1887226:10455243",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1887226.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1887226:10455243, 1887226:10455244, 1887226:10455245. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1903193:10546455",
+      "source_row_sha256": "1bf7e4dfebc38ab2c5281addbb24af4c9d9f500713d8f40bd670148d14b5382b",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1903193:10546455",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1903193.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1903193:10547553",
+      "source_row_sha256": "14c243810b8b20196d8a3e8ec326f82d804f64da3ac329437dcdcd118a8f6e69",
+      "role": "adjustment",
+      "related_record_id": "1903193:10546455",
+      "identity_key": "review:1903193:10546455",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1903193.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1903193:10546455, 1903193:10547553, 1903193:10547554. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1903193:10547554",
+      "source_row_sha256": "a4cb9a81ed0b23dbfaa26c295d943afbe6adc9dfecae9d522d34ec67005def3d",
+      "role": "adjustment",
+      "related_record_id": "1903193:10546455",
+      "identity_key": "review:1903193:10546455",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1903193.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1903193:10546455, 1903193:10547553, 1903193:10547554. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1903193:10555659",
+      "source_row_sha256": "078233439a2c92a7f926ed5eeef8aa1799853cfaca40062de601d2cfbc597352",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1903193:10555659",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1903193.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1903193:10556051",
+      "source_row_sha256": "21dea4df2701c33f5c2bfe2e703ad8ce8ad338fa603dc79f9d81634fdd232e15",
+      "role": "adjustment",
+      "related_record_id": "1903193:10555659",
+      "identity_key": "review:1903193:10555659",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1903193.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1903193:10555659, 1903193:10556051, 1903193:10556052. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1903193:10556052",
+      "source_row_sha256": "83799555b8df652f61ec3793039498e990cb69fa77caac0d9010aaa1632b5b73",
+      "role": "adjustment",
+      "related_record_id": "1903193:10555659",
+      "identity_key": "review:1903193:10555659",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1903193.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1903193:10555659, 1903193:10556051, 1903193:10556052. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10623140",
+      "source_row_sha256": "fc864d88ff94c865ebe1dee854b25ea24d9639a147bb374a234b1ebf10050fca",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1920909:10623140",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1920909:10636478",
+      "source_row_sha256": "3b312a68ab034d18ea24fcc7b7320d1255dc1cef12d7ed598a93d65e81c09055",
+      "role": "adjustment",
+      "related_record_id": "1920909:10623140",
+      "identity_key": "review:1920909:10623140",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10623140, 1920909:10636478, 1920909:10636479. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10636479",
+      "source_row_sha256": "51ceb3f443da2412cce913d21776678211b20731ee2eb06adf56a0ef0361e0ad",
+      "role": "adjustment",
+      "related_record_id": "1920909:10623140",
+      "identity_key": "review:1920909:10623140",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10623140, 1920909:10636478, 1920909:10636479. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10646271",
+      "source_row_sha256": "c4e3ea98cb2c7a5576c7ee35198dca7271f34e7964cb6b31182284889fe4749c",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1920909:10646271",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1920909:10646277",
+      "source_row_sha256": "ce44ec81495e5aceba38734ec4114cd5e8ab3cde8d44c83cf567e688ea765e3b",
+      "role": "adjustment",
+      "related_record_id": "1920909:10646271",
+      "identity_key": "review:1920909:10646271",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10646271, 1920909:10646277, 1920909:10646278. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10646278",
+      "source_row_sha256": "6005f88acff01369f4b8ffa2e8da08bde75bc0c4693cbf384ce6b2c079cbd384",
+      "role": "adjustment",
+      "related_record_id": "1920909:10646271",
+      "identity_key": "review:1920909:10646271",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10646271, 1920909:10646277, 1920909:10646278. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10672517",
+      "source_row_sha256": "f66634d5ae6f51fe4d555c308c47515112cb001e3594ab1671456be5590035ac",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1920909:10672517",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1920909:10675324",
+      "source_row_sha256": "cc34bdb5926c17999b2460fbee6b623b0d0aea7f8e9ba2b023a2b5171af2e3e0",
+      "role": "adjustment",
+      "related_record_id": "1920909:10672517",
+      "identity_key": "review:1920909:10672517",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10672517, 1920909:10675324, 1920909:10675325. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10675325",
+      "source_row_sha256": "6a9ed25d9bc79683f50d74e8dfbdd3e3b7764c46df7ace6882a32cff07c9ce95",
+      "role": "adjustment",
+      "related_record_id": "1920909:10672517",
+      "identity_key": "review:1920909:10672517",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10672517, 1920909:10675324, 1920909:10675325. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10695607",
+      "source_row_sha256": "5d1f406b300579de710df5ca2690622f884efc6218ac7f01cabe637d4c5637e6",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1920909:10695607",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1920909:10714244",
+      "source_row_sha256": "c93e8f7c6df415f73b0f9ebcfd5a8601caa15392cae662f14b70eebce7c9a53c",
+      "role": "adjustment",
+      "related_record_id": "1920909:10695607",
+      "identity_key": "review:1920909:10695607",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10695607, 1920909:10714244, 1920909:10714245. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10714245",
+      "source_row_sha256": "6ef5c244b18380ff3764239ff3fdca8316af86d8d9a98c6944fef72eab6cf3e6",
+      "role": "adjustment",
+      "related_record_id": "1920909:10695607",
+      "identity_key": "review:1920909:10695607",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10695607, 1920909:10714244, 1920909:10714245. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10714302",
+      "source_row_sha256": "c78c992fbc5e90ebd51f5aa1d61250029ee616c2d84b34df6ce33a14bf2a34e0",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1920909:10714302",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1920909:10730504",
+      "source_row_sha256": "7763a62991c37e7fb291d4a4ea9beb7f75af6848339389926cf7f1b949b2dc15",
+      "role": "adjustment",
+      "related_record_id": "1920909:10714302",
+      "identity_key": "review:1920909:10714302",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10714302, 1920909:10730504, 1920909:10730507. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10730507",
+      "source_row_sha256": "2bc0546f412322c009594b37f07417e376fb4ab643e3bf304a01d16ccd2b5e78",
+      "role": "adjustment",
+      "related_record_id": "1920909:10714302",
+      "identity_key": "review:1920909:10714302",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10714302, 1920909:10730504, 1920909:10730507. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732406",
+      "source_row_sha256": "394a850010f0bac9d25b7c2c20a6c505d5c482c1d039d042bde30f493ed3db39",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732406",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732440",
+      "source_row_sha256": "c831cfe3d4135e5c2a9b2f6a8539302083fa459c32d2078e39d13e76343dccbb",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732406",
+      "identity_key": "review:1920909:10732406",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732406, 1920909:10732440, 1920909:10732442. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732442",
+      "source_row_sha256": "3947585a48d08c18ec59d89f6b262d677775df41ba175b6bc19bc59975cfb1b9",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732406",
+      "identity_key": "review:1920909:10732406",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732406, 1920909:10732440, 1920909:10732442. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732437",
+      "source_row_sha256": "9376852cf6b2011f8b4217415624c556796b9862ab66d0c017dc657e71f63676",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732437",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732447",
+      "source_row_sha256": "e856e63590340db9e52ea186946264c1fa3d74226b174146c03a6ac55dd52cf3",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732437",
+      "identity_key": "review:1920909:10732437",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732437, 1920909:10732447, 1920909:10732446. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732446",
+      "source_row_sha256": "7e815e34e1dfbbdc1cd8f841c8af02ae6609f8255e177ebe0438a1c477de293e",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732437",
+      "identity_key": "review:1920909:10732437",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732437, 1920909:10732447, 1920909:10732446. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732438",
+      "source_row_sha256": "9a572ea603fbe21b020cb2249084ec0942aada4d21fe35ade25026dafae1aae5",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732438",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732451",
+      "source_row_sha256": "d22903f1f5901abe4ee78ee08695d22843e2a6c9737d39a8785ad8a0898ab7a8",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732438",
+      "identity_key": "review:1920909:10732438",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732438, 1920909:10732451, 1920909:10732453. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732453",
+      "source_row_sha256": "522cf1222d55197fc1482b6b6eb3e661faf06a339007aec988a3120f98a240e3",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732438",
+      "identity_key": "review:1920909:10732438",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732438, 1920909:10732451, 1920909:10732453. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732404",
+      "source_row_sha256": "e4e8d0202cfcd900fa4a59fb209988d45f1abcadfa263359d8c3776502228ea2",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732404",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732458",
+      "source_row_sha256": "d000ed25b942ac16afc495b78bb801d399644b965276afbb97466ceb3a46647d",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732404",
+      "identity_key": "review:1920909:10732404",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732404, 1920909:10732458, 1920909:10732459. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732459",
+      "source_row_sha256": "f5a315e89747eea7f63c9debfc96c3ef8458a148b2d44a179d485e6f56a30a6f",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732404",
+      "identity_key": "review:1920909:10732404",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732404, 1920909:10732458, 1920909:10732459. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732432",
+      "source_row_sha256": "d611760e0d25cecacdf391057c5502b168ba774c40902648890b3179d4d60a85",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732432",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732462",
+      "source_row_sha256": "decf3c5b7564dde77ec30609ca7ff37ed248d3150876ad6bb62952c6f23d9fbe",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732432",
+      "identity_key": "review:1920909:10732432",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732432, 1920909:10732462, 1920909:10732461. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732461",
+      "source_row_sha256": "677bb9ca52cef16c78b834da3a997e81d992596d53ea1568d774195d1c64950c",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732432",
+      "identity_key": "review:1920909:10732432",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732432, 1920909:10732462, 1920909:10732461. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732428",
+      "source_row_sha256": "18f482f1a248b2f4e9ca60ac08e9e4e7cea40802d1ba656f0983d568e6c70483",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732428",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732464",
+      "source_row_sha256": "e6e41e8494a203d505a55a850482a9ef928570fa241c1c72fbe44cc464e54242",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732428",
+      "identity_key": "review:1920909:10732428",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732428, 1920909:10732464, 1920909:10732466. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732466",
+      "source_row_sha256": "9f8a3fade0924be450eba04cc962dec7d2d6ff8879122394ff1b825b6076749a",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732428",
+      "identity_key": "review:1920909:10732428",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732428, 1920909:10732464, 1920909:10732466. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732425",
+      "source_row_sha256": "4d33b4062183851d32c4ad32e72a735b5d5da78f77543b1bbe8e3b81a876e613",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732425",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732471",
+      "source_row_sha256": "8b34ad05339733d8c3639d21f77e3848a0a10ec2c6a181b5604b144427d70ec7",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732425",
+      "identity_key": "review:1920909:10732425",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732425, 1920909:10732471, 1920909:10732484. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732484",
+      "source_row_sha256": "93f872124b882c042bc93e6dac35dfef3ca4a22118ee0ac133f03041ff74aea5",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732425",
+      "identity_key": "review:1920909:10732425",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732425, 1920909:10732471, 1920909:10732484. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732426",
+      "source_row_sha256": "e592005e698814ead6b9a1c237bb560acc6e412091e85036454137be881c338b",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732426",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732486",
+      "source_row_sha256": "b4c30fb0267384d47f4c8d7e085bd06b67797f59e57eb5a23b358266b5792dc6",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732426",
+      "identity_key": "review:1920909:10732426",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732426, 1920909:10732486, 1920909:10732487. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732487",
+      "source_row_sha256": "d76714c95d3d143df419e473d900e6dfb713a172224fb10a0fc0e4542c80ec02",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732426",
+      "identity_key": "review:1920909:10732426",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732426, 1920909:10732486, 1920909:10732487. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732405",
+      "source_row_sha256": "1457b406f4ffe1333b64d537da6349ed489770e03bf58a13400a7b054ca566f7",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732405",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732494",
+      "source_row_sha256": "42676ebfd1823dd467f8f6761358e15d821a3c7df4bd7b200c13341d04205956",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732405",
+      "identity_key": "review:1920909:10732405",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732405, 1920909:10732494, 1920909:10732492. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732492",
+      "source_row_sha256": "3fce41a2b897b1910a243b625df507776113b2ecaaabcf670c2e13eb82a92cc9",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732405",
+      "identity_key": "review:1920909:10732405",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732405, 1920909:10732494, 1920909:10732492. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732431",
+      "source_row_sha256": "de4e698090ad618ac8cb2ac76eeb79a769327f0676360f46ed8a3264b959f0b0",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732431",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732499",
+      "source_row_sha256": "c9d231ffb9e33f5e5a9dda205221f877b8ec1c59c9a7813c18159b945a1772d1",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732431",
+      "identity_key": "review:1920909:10732431",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732431, 1920909:10732499, 1920909:10732501. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732501",
+      "source_row_sha256": "195eae898b7980c2ea8e5381f09a01668e0d11f2a7daff0b3bb4866634a8cd97",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732431",
+      "identity_key": "review:1920909:10732431",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732431, 1920909:10732499, 1920909:10732501. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732403",
+      "source_row_sha256": "6bf2c216650e6fdc5ce292ddea755e76cd51f9ff78e4b9d95b9739278f647b0e",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732403",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732571",
+      "source_row_sha256": "8297fed4c8ada0d333a659cf73a979012fa322aad3dbe927d8a20c4f7627014d",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732403",
+      "identity_key": "review:1920909:10732403",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732403, 1920909:10732571, 1920909:10732570. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732570",
+      "source_row_sha256": "0a730d86b49ef45671cb8afa96bb5f717fa97adfb026d940bc3f88683bea8d2b",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732403",
+      "identity_key": "review:1920909:10732403",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732403, 1920909:10732571, 1920909:10732570. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732402",
+      "source_row_sha256": "2f03d962108a36000e392c8d79ebe4e2fa56c3a927aecd505be741d7c20324ad",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732402",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732572",
+      "source_row_sha256": "696f06f9e8f434e04fd431c57d0e91b66b5d9a1eaa9ad1406674f3d146f0bbe0",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732402",
+      "identity_key": "review:1920909:10732402",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732402, 1920909:10732572, 1920909:10732575. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732575",
+      "source_row_sha256": "73a733f7cb1393e20e0071dd948127952652214c7bc9911ae1b13d61b6b06399",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732402",
+      "identity_key": "review:1920909:10732402",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732402, 1920909:10732572, 1920909:10732575. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732408",
+      "source_row_sha256": "08fbd4bea5af19945d9ed14db86d6011a5ee03f8b42ff77da6c573c17422752f",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732408",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732578",
+      "source_row_sha256": "6f53f9826c203a28d3146e82a0f4c5261ce95ab55692ff2923d7342f5589bea1",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732408",
+      "identity_key": "review:1920909:10732408",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732408, 1920909:10732578, 1920909:10732577. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732577",
+      "source_row_sha256": "ccac7a2afe3b28436419bb9851e72e650987db707edadeb43ee1fb51442a8d2f",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732408",
+      "identity_key": "review:1920909:10732408",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732408, 1920909:10732578, 1920909:10732577. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732434",
+      "source_row_sha256": "c1992a2c33c3845b3934f8eedf59c6929aa4434fdd7edbfdb20551d940d98179",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732434",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732581",
+      "source_row_sha256": "89458375bf308dcfd9c61642e5464806693dbb767204d745eee0e0d13ab1a0cb",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732434",
+      "identity_key": "review:1920909:10732434",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732434, 1920909:10732581, 1920909:10732582. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732582",
+      "source_row_sha256": "25f116abf3e0727df5966511c641b981a8be5cf262e9200755224ea5f7c6d724",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732434",
+      "identity_key": "review:1920909:10732434",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732434, 1920909:10732581, 1920909:10732582. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732427",
+      "source_row_sha256": "c847427287154e0f0dd949b09cac4d746047547404392238534437bd81701564",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732427",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732586",
+      "source_row_sha256": "e914c3bed00d849a17903c01947f054128bd26be9ecc603555e90f627011ceb8",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732427",
+      "identity_key": "review:1920909:10732427",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732427, 1920909:10732586, 1920909:10732585. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732585",
+      "source_row_sha256": "8191acda556e034c80f8b8a01f74f42e32e349a92c2cf90b47a0dee364ef26a3",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732427",
+      "identity_key": "review:1920909:10732427",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732427, 1920909:10732586, 1920909:10732585. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732433",
+      "source_row_sha256": "273eba93bde3ceaa2414f7c03165448fc4844284f9e20fe3e984ad194c347abb",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732433",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732587",
+      "source_row_sha256": "08aff242871069b9c0589c98b4adb81b06dc2a1441355b86a013616c7dfd0400",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732433",
+      "identity_key": "review:1920909:10732433",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732433, 1920909:10732587, 1920909:10732588. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732588",
+      "source_row_sha256": "f4b2821fec055893dba25b154c341554e407f703714b1f223addda783da3e1fe",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732433",
+      "identity_key": "review:1920909:10732433",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732433, 1920909:10732587, 1920909:10732588. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732435",
+      "source_row_sha256": "608b4fbd6ff46429581db3b484f1c4041f39e50f3609d5ef08b9c899fdcc8b5c",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732435",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732590",
+      "source_row_sha256": "ceba026785e16a1d2c04b2571fa641d69ef38e6a58c9be21337baf00b7aad5ce",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732435",
+      "identity_key": "review:1920909:10732435",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732435, 1920909:10732590, 1920909:10732589. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732589",
+      "source_row_sha256": "4aeef48061a7704457ed4015968d96c5a683addf77a03e53bbed1a0b3f025668",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732435",
+      "identity_key": "review:1920909:10732435",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732435, 1920909:10732590, 1920909:10732589. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732430",
+      "source_row_sha256": "50fcef4ab9d59c1600b257d7468a78a4c912989402ea811f451e0df9adbc51c5",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732430",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732592",
+      "source_row_sha256": "e5b2cc94408a8d2160b716a98a51496c879fb4b984f84b51842aa260e06d6b12",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732430",
+      "identity_key": "review:1920909:10732430",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732430, 1920909:10732592, 1920909:10732593. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732593",
+      "source_row_sha256": "d4da0678cce3c3496cdb79ea4c3132dbf318996a23ab0cf408075bf97a07e3ff",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732430",
+      "identity_key": "review:1920909:10732430",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732430, 1920909:10732592, 1920909:10732593. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732409",
+      "source_row_sha256": "3ccdac9bc68cd5be58fcc4659a37db1977d1505a5ae9c3d4063050de2c0b2a96",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732409",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732596",
+      "source_row_sha256": "8622809dbc14ca9ec343400e1d2978f6dd0e7116a4443f0fd3f41554c3fcb80a",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732409",
+      "identity_key": "review:1920909:10732409",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732409, 1920909:10732596, 1920909:10732594. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732594",
+      "source_row_sha256": "092c190433cd832fca77648378114566c125f1daeeb1469be47a4a85487d1efc",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732409",
+      "identity_key": "review:1920909:10732409",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732409, 1920909:10732596, 1920909:10732594. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732411",
+      "source_row_sha256": "6bd887e2402b558c3a15802c8b84574f5ca2040ea4a25d361b32637aacbda544",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:1920909:10732411",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed donor allocation on SA12 explicitly linked to transfer 10732380 from DELBENE DEMOCRATIC MAJORITY FUND, independently verified as joint fundraising committee C00833590. Retained as the source of its signed election adjustments."
+    },
+    {
+      "record_id": "1920909:10732598",
+      "source_row_sha256": "a67bb9741ab140042622cfecc7d3867b21ff1204e01f864d3f059845a511c02f",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732411",
+      "identity_key": "review:1920909:10732411",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732411, 1920909:10732598, 1920909:10732600. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10732600",
+      "source_row_sha256": "ec70dbb77668119331d7122ce12d0d2eea7b5c9d2808cd844f6cb243ff663767",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732411",
+      "identity_key": "review:1920909:10732411",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10732411, 1920909:10732598, 1920909:10732600. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10734271",
+      "source_row_sha256": "89139dff50f75df89e2d2a09b808ce3fe41ffb16331a5f36193d07b10bbf3a32",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1920909:10734271",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1920909:10736293",
+      "source_row_sha256": "958c0ef01ba1c25f83781a2d35f2c3a410e86c9734583f366803dfceb066d314",
+      "role": "adjustment",
+      "related_record_id": "1920909:10734271",
+      "identity_key": "review:1920909:10734271",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10734271, 1920909:10736293, 1920909:10736321. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10736321",
+      "source_row_sha256": "c6952d5624fe445e9c3a41aac9fd5c4c79afdd2f09f9f4f4f98d442ba5c70d12",
+      "role": "adjustment",
+      "related_record_id": "1920909:10734271",
+      "identity_key": "review:1920909:10734271",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10734271, 1920909:10736293, 1920909:10736321. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10733124",
+      "source_row_sha256": "0d9f498941d197533cd56c5cd9ee93b8894cd4cd68ea46445ff7142746572c3e",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1920909:10733124",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1920909:10736324",
+      "source_row_sha256": "0fb4925ce2ae8d9ac9d789fb61c6641652efed434b2e3137b0254872ae22b427",
+      "role": "adjustment",
+      "related_record_id": "1920909:10733124",
+      "identity_key": "review:1920909:10733124",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10733124, 1920909:10736324, 1920909:10736325. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10736325",
+      "source_row_sha256": "eb502c4bf2398f3661cdfaf110f2234754ba55f8e2e753039c5bc5a4da175bee",
+      "role": "adjustment",
+      "related_record_id": "1920909:10733124",
+      "identity_key": "review:1920909:10733124",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10733124, 1920909:10736324, 1920909:10736325. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10763284",
+      "source_row_sha256": "793e356ff470df27eec0c5a40ef1753239680f085f4cde10766e5f3234c7a9ba",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1920909:10763284",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1920909:10763287",
+      "source_row_sha256": "f031173fb5dc4f42058d56c33b31a5aa0c7d9aa79bfd6eb7e82cea2a82618186",
+      "role": "adjustment",
+      "related_record_id": "1920909:10763284",
+      "identity_key": "review:1920909:10763284",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10763284, 1920909:10763287, 1920909:10763289. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1920909:10763289",
+      "source_row_sha256": "db876a46825d928d0a4d51dd1e081331e7c63c501f9ae79be0347cad3bb2c165",
+      "role": "adjustment",
+      "related_record_id": "1920909:10763284",
+      "identity_key": "review:1920909:10763284",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1920909:10763284, 1920909:10763287, 1920909:10763289. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10754751",
+      "source_row_sha256": "718514a1b4bb3d0c7f0fe7c927a50123eea3834ec1aa929f8947051a69557af0",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1940921:10754751",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1940921:10763420",
+      "source_row_sha256": "c4a2bbd48faa79521927f887584e50f06a97f04588a483e96429f561a425e444",
+      "role": "adjustment",
+      "related_record_id": "1940921:10754751",
+      "identity_key": "review:1940921:10754751",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10754751, 1940921:10763420, 1940921:10763419. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10763419",
+      "source_row_sha256": "9cced7db4a1a0a480c4b146db817ec90a2b61b73b5d458985befbbdc621652cd",
+      "role": "adjustment",
+      "related_record_id": "1940921:10754751",
+      "identity_key": "review:1940921:10754751",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10754751, 1940921:10763420, 1940921:10763419. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10763423",
+      "source_row_sha256": "088f4d745a9aae5c9c6e975741bf77b3714309d8540cd248ee58be7e8420c7bc",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1940921:10763423",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1940921:10763429",
+      "source_row_sha256": "abffad7b7603605b35806b515dd106836575137b78aea2062dc673a2dbb41915",
+      "role": "adjustment",
+      "related_record_id": "1940921:10763423",
+      "identity_key": "review:1940921:10763423",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10763423, 1940921:10763429, 1940921:10763430. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10763430",
+      "source_row_sha256": "31bf44a43aea748e94b950acc56cd412709d59d3a3cd361de14d73c28003dd71",
+      "role": "adjustment",
+      "related_record_id": "1940921:10763423",
+      "identity_key": "review:1940921:10763423",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10763423, 1940921:10763429, 1940921:10763430. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10754482",
+      "source_row_sha256": "5f0c7ff6196a2082fc73e16632ea407a3e6c1cdb6deb18313245676c260e3a97",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1940921:10754482",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1940921:10763435",
+      "source_row_sha256": "7a87dc3a478eddf518740bf8489dec3292a80e4a71c232f4721d986d0a0ac442",
+      "role": "adjustment",
+      "related_record_id": "1940921:10754482",
+      "identity_key": "review:1940921:10754482",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10754482, 1940921:10763435, 1940921:10763436. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10763436",
+      "source_row_sha256": "d089e03ba92a45360a5f85164e5a65386c290094d05a1688038053e41756327b",
+      "role": "adjustment",
+      "related_record_id": "1940921:10754482",
+      "identity_key": "review:1940921:10754482",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10754482, 1940921:10763435, 1940921:10763436. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10752531",
+      "source_row_sha256": "195cf05934d352703b876d09df493115666bae34827009802271884ad737127e",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1940921:10752531",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1940921:10763704",
+      "source_row_sha256": "ec035b0addb3b300c9ca35dcbd312ac3fd25382bcbcf4912007a962df70f8e28",
+      "role": "adjustment",
+      "related_record_id": "1940921:10752531",
+      "identity_key": "review:1940921:10752531",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10752531, 1940921:10763704, 1940921:10763735. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10763735",
+      "source_row_sha256": "16697633cff5ce9fed43a7da0b363d2be39775f908f7861b06953722658bcd03",
+      "role": "adjustment",
+      "related_record_id": "1940921:10752531",
+      "identity_key": "review:1940921:10752531",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10752531, 1940921:10763704, 1940921:10763735. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10786769",
+      "source_row_sha256": "6a0f997763a9ddcbe97eb41c1f1a4e8e8130734c835a10477c5e80636cc443bc",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1940921:10786769",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1940921:10787428",
+      "source_row_sha256": "e16c6faecb9703712cd39e5fa7880dbffce97c62bfe491c7df0bbc6783b4b20a",
+      "role": "adjustment",
+      "related_record_id": "1940921:10786769",
+      "identity_key": "review:1940921:10786769",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10786769, 1940921:10787428, 1940921:10787429. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10787429",
+      "source_row_sha256": "ad6124db2072d32c507808953a449680c738dc15e9d183109e08d4572b22cfa3",
+      "role": "adjustment",
+      "related_record_id": "1940921:10786769",
+      "identity_key": "review:1940921:10786769",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10786769, 1940921:10787428, 1940921:10787429. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10779817",
+      "source_row_sha256": "103d6bfaf0c7a2f5a3a408c6948a98986597f6ebb2ea3895508d44857a114647",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1940921:10779817",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1940921:10800204",
+      "source_row_sha256": "33cb1f68577a52a78f576122c7b5d0c7b685c5463cdf16bdddb3eae06475a4c3",
+      "role": "adjustment",
+      "related_record_id": "1940921:10779817",
+      "identity_key": "review:1940921:10779817",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10779817, 1940921:10800204, 1940921:10800203. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10800203",
+      "source_row_sha256": "98cba5ac16e2bffa03a8ac562a233f4edc49402cd1fb181a8ea8dd260f979a9d",
+      "role": "adjustment",
+      "related_record_id": "1940921:10779817",
+      "identity_key": "review:1940921:10779817",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10779817, 1940921:10800204, 1940921:10800203. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10854372",
+      "source_row_sha256": "f64f96082a3162732622ab5707f9dfdcc14b4fe8ae801582209946529839cc9e",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1940921:10854372",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1940921:10865021",
+      "source_row_sha256": "c244e34696347c47bb710d6f6830463a9f9db931f3e681b3231267054c4fe297",
+      "role": "adjustment",
+      "related_record_id": "1940921:10854372",
+      "identity_key": "review:1940921:10854372",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10854372, 1940921:10865021, 1940921:10865020. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10865020",
+      "source_row_sha256": "6b79c683e9cf3c9eabad92ca2c602d456cfb3893dc24b6087ad5dd183dc5fe60",
+      "role": "adjustment",
+      "related_record_id": "1940921:10854372",
+      "identity_key": "review:1940921:10854372",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10854372, 1940921:10865021, 1940921:10865020. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10922105",
+      "source_row_sha256": "e9283752c04bac2efea421c8d3c0a5ac2c86d9c5dd40d293098d2ae9a26b6b5b",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1940921:10922105",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1940921:10922106",
+      "source_row_sha256": "2a6649e0677590316cc43335737cdb8561542a54b4ad00a3a8b2944f1a00c69a",
+      "role": "adjustment",
+      "related_record_id": "1940921:10922105",
+      "identity_key": "review:1940921:10922105",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10922105, 1940921:10922106, 1940921:10922108. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1940921:10922108",
+      "source_row_sha256": "150500b5b0c25a19c2db6edf2fdfb84ed11d1b33d18d86c4d4082845b458d029",
+      "role": "adjustment",
+      "related_record_id": "1940921:10922105",
+      "identity_key": "review:1940921:10922105",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1940921:10922105, 1940921:10922106, 1940921:10922108. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1963978:11069698",
+      "source_row_sha256": "5314d37b55e6db5794b300e213d076962e9ec884330548f9ca102eae467e6310",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1963978:11069698",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1963978:11085098",
+      "source_row_sha256": "16ffa8bfce0d82b3d5079f5a5d75f8dd1be611409bb26ea94c527dd4c7e7d24a",
+      "role": "adjustment",
+      "related_record_id": "1963978:11069698",
+      "identity_key": "review:1963978:11069698",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1963978:11069698, 1963978:11085098, 1963978:11085099. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1963978:11085099",
+      "source_row_sha256": "495454f35b0b538fd5ef0299c401c295073a443313ad566fe8dba5f02b00dcd7",
+      "role": "adjustment",
+      "related_record_id": "1963978:11069698",
+      "identity_key": "review:1963978:11069698",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1963978:11069698, 1963978:11085098, 1963978:11085099. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1963978:11091963",
+      "source_row_sha256": "363d47d2b5d0e8ba6ce944ee8b3fe0b062a7eb79943f203a0f7f1c061fa6a5d6",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1963978:11091963",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1963978:11092001",
+      "source_row_sha256": "63d1a032a784acd75f97c1af0b1067b200388f2294bd16a6ae5096521f8bf19d",
+      "role": "adjustment",
+      "related_record_id": "1963978:11091963",
+      "identity_key": "review:1963978:11091963",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1963978:11091963, 1963978:11092001, 1963978:11092002. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1963978:11092002",
+      "source_row_sha256": "ccc42765e732185e69b27d53616cb635ba9c353c4129904cfddc347bcba2c003",
+      "role": "adjustment",
+      "related_record_id": "1963978:11091963",
+      "identity_key": "review:1963978:11091963",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1963978:11091963, 1963978:11092001, 1963978:11092002. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11123749",
+      "source_row_sha256": "7706fd18c1c5885a7010369fcff6b611bbc1b776518fbbccb0678e45d41dff7a",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1996658:11123749",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1996658:11133058",
+      "source_row_sha256": "d96c1fbf12f79ab83db35b5d79d00095bf9d1b1ab6e4dfd6ea43183c73abb7ad",
+      "role": "adjustment",
+      "related_record_id": "1996658:11123749",
+      "identity_key": "review:1996658:11123749",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11123749, 1996658:11133058, 1996658:11133059. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11133059",
+      "source_row_sha256": "628a4ce4a1fd343e509a3be2481b923ab08a8d19f3e4a5ed6a0d78c9797b20da",
+      "role": "adjustment",
+      "related_record_id": "1996658:11123749",
+      "identity_key": "review:1996658:11123749",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11123749, 1996658:11133058, 1996658:11133059. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11141534",
+      "source_row_sha256": "7fe189a2d1b161e6ea7c96b42b108752ca0199dfb17c4435f9a344917ee66e56",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1996658:11141534",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1996658:11158773",
+      "source_row_sha256": "da24c270fa13989de1bfd9d1b6e8c8107ceb5710809237c24071fbae5ab96cc7",
+      "role": "adjustment",
+      "related_record_id": "1996658:11141534",
+      "identity_key": "review:1996658:11141534",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11141534, 1996658:11158773, 1996658:11158774. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11158774",
+      "source_row_sha256": "eae8a98a59a1d1b9cbd206363998a30fc52cc39624322fdef6d7eaaca30bd0db",
+      "role": "adjustment",
+      "related_record_id": "1996658:11141534",
+      "identity_key": "review:1996658:11141534",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11141534, 1996658:11158773, 1996658:11158774. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11169296",
+      "source_row_sha256": "28c2c289172156ee186615d1d651f5d4442d45814d9b73585bdfa4cac29748b3",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1996658:11169296",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1996658:11190026",
+      "source_row_sha256": "27fce1739ee06bdb141cf57039432f858ab90f540709519a1d5350468313df9e",
+      "role": "adjustment",
+      "related_record_id": "1996658:11169296",
+      "identity_key": "review:1996658:11169296",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11169296, 1996658:11190026, 1996658:11190032. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11190032",
+      "source_row_sha256": "0b16a5b7a33b1fee51b95b97629b627344ea6e8281c860d996842cc55df04c09",
+      "role": "adjustment",
+      "related_record_id": "1996658:11169296",
+      "identity_key": "review:1996658:11169296",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11169296, 1996658:11190026, 1996658:11190032. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11278348",
+      "source_row_sha256": "e3a79373dc02469cfa526d9ef51c78b2d1b1b97ed3b9551f7f0d81569e47f92e",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1996658:11278348",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1996658:11286978",
+      "source_row_sha256": "e8af81192d2a435b67c257bfc13c2e7032206b08ddc7eea04268ae52871cbd14",
+      "role": "adjustment",
+      "related_record_id": "1996658:11278348",
+      "identity_key": "review:1996658:11278348",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11278348, 1996658:11286978, 1996658:11286976. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11286976",
+      "source_row_sha256": "b6d51ae429d88af4d5bcbdd5aa7bed59ca61319a2f3f1035ee8b3bb7acad4fe7",
+      "role": "adjustment",
+      "related_record_id": "1996658:11278348",
+      "identity_key": "review:1996658:11278348",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11278348, 1996658:11286978, 1996658:11286976. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11273135",
+      "source_row_sha256": "ab27f937df4cf335941faa628681f10cffd48436f6b9bbaf42a1bdc48ba88635",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1996658:11273135",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1996658:11286981",
+      "source_row_sha256": "9f8b257616caa6cd64a9a0ce233ca3fd3b69af8dfdeddc5e9bac926c2eaab5a0",
+      "role": "adjustment",
+      "related_record_id": "1996658:11273135",
+      "identity_key": "review:1996658:11273135",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11273135, 1996658:11286981, 1996658:11286982. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11286982",
+      "source_row_sha256": "8cd16fd8de5859673768f5a5d6379479aaa8653f4742f1503409ec1ce26a7d2f",
+      "role": "adjustment",
+      "related_record_id": "1996658:11273135",
+      "identity_key": "review:1996658:11273135",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed source family 1996658:11273135, 1996658:11286981, 1996658:11286982. The positive memo explicitly references the retained original. Both memos are adjacent, mutually unique opposite amounts with the same adjustment date and aggregate; original and both children have identical full filed contributor identity, location, employer and occupation (fingerprint retained, location not published). The original covers the redesignated amount; P2026 decreases and G2026 increases. The negative link is a reviewed inference because its filed back-reference is blank. Both required children are retained."
+    },
+    {
+      "record_id": "1996658:11195060",
+      "source_row_sha256": "2b3ba1d9fdc895e6d4f0996191287ef981827d9be1509f97f7927f8ebc23c54c",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1996658:11195060",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1996658:11201947",
+      "source_row_sha256": "13908a4b9df8320690558ec96a1a181ebcfcce02901b7769f10e715bc5b7aeb1",
+      "role": "adjustment",
+      "related_record_id": "1996658:11195060",
+      "identity_key": "review:1996658:11195060",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed donor reattribution family 1996658:11195060, 1996658:11201947, 1996658:11201948. Original and negative share the exact full filed identity, location, employer, occupation and aggregate; the unique adjacent positive memo explicitly references that original, has the opposite amount on the same date, and names a different contributor. This is a transfer of attribution between filed donors, not another cash receipt or a same-person match. All three report employer Not Employed. Both children remain required; no marriage or other personal relationship is inferred."
+    },
+    {
+      "record_id": "1996658:11201948",
+      "source_row_sha256": "486148d961664fa77d0c86a5a72810dab8c7ef33f403d781028d1769a44db8b4",
+      "role": "reattribution",
+      "related_record_id": "1996658:11195060",
+      "identity_key": "review:destination:1996658:11201948",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed donor reattribution family 1996658:11195060, 1996658:11201947, 1996658:11201948. Original and negative share the exact full filed identity, location, employer, occupation and aggregate; the unique adjacent positive memo explicitly references that original, has the opposite amount on the same date, and names a different contributor. This is a transfer of attribution between filed donors, not another cash receipt or a same-person match. All three report employer Not Employed. Both children remain required; no marriage or other personal relationship is inferred."
+    },
+    {
+      "record_id": "1996658:11275939",
+      "source_row_sha256": "3c51b455ee91de854be9c7ea1dad253d54e1bfcad01189bb7c7cdf90989b1dc8",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1996658:11275939",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1996658:11286987",
+      "source_row_sha256": "29e4ec18ff7785e7fe538b08993b734223f255e9c329e2ca10fc041a735b8969",
+      "role": "adjustment",
+      "related_record_id": "1996658:11275939",
+      "identity_key": "review:1996658:11275939",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed donor reattribution family 1996658:11275939, 1996658:11286987, 1996658:11286992. Original and negative share the exact full filed identity, location, employer, occupation and aggregate; the unique adjacent positive memo explicitly references that original, has the opposite amount on the same date, and names a different contributor. This is a transfer of attribution between filed donors, not another cash receipt or a same-person match. All three report employer Not Employed. Both children remain required; no marriage or other personal relationship is inferred."
+    },
+    {
+      "record_id": "1996658:11286992",
+      "source_row_sha256": "b608ff29e5a77ce775c5a738a689eb31771db5a21b5e4bb35a0a7946aab6def7",
+      "role": "reattribution",
+      "related_record_id": "1996658:11275939",
+      "identity_key": "review:destination:1996658:11286992",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed donor reattribution family 1996658:11275939, 1996658:11286987, 1996658:11286992. Original and negative share the exact full filed identity, location, employer, occupation and aggregate; the unique adjacent positive memo explicitly references that original, has the opposite amount on the same date, and names a different contributor. This is a transfer of attribution between filed donors, not another cash receipt or a same-person match. All three report employer Not Employed. Both children remain required; no marriage or other personal relationship is inferred."
+    },
+    {
+      "record_id": "1996658:11267189",
+      "source_row_sha256": "8633625b5dfd2e28d7f5bda83a77afbe73ede47049fa2be4de35e82ef16a09f5",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:1996658:11267189",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Reviewed positive nonmemo original explicitly referenced by its later positive adjustment memo; retain this source receipt once with both signed children. It is not an original repeated as memo."
+    },
+    {
+      "record_id": "1996658:11267726",
+      "source_row_sha256": "d110366175db7a914494ff003335ed032ea1ceda5ce71ede8dc332db80339530",
+      "role": "adjustment",
+      "related_record_id": "1996658:11267189",
+      "identity_key": "review:1996658:11267189",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed donor reattribution family 1996658:11267189, 1996658:11267726, 1996658:11267727. Original and negative share the exact full filed identity, location, employer, occupation and aggregate; the unique adjacent positive memo explicitly references that original, has the opposite amount on the same date, and names a different contributor. This is a transfer of attribution between filed donors, not another cash receipt or a same-person match. All three report employer Not Employed. Both children remain required; no marriage or other personal relationship is inferred."
+    },
+    {
+      "record_id": "1996658:11267727",
+      "source_row_sha256": "9188c2b89802f34fc7258edfff1ac7cd93a912d230012f8413c264508a00fcbb",
+      "role": "reattribution",
+      "related_record_id": "1996658:11267189",
+      "identity_key": "review:destination:1996658:11267727",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/"
+      ],
+      "rationale": "Individually reviewed donor reattribution family 1996658:11267189, 1996658:11267726, 1996658:11267727. Original and negative share the exact full filed identity, location, employer, occupation and aggregate; the unique adjacent positive memo explicitly references that original, has the opposite amount on the same date, and names a different contributor. This is a transfer of attribution between filed donors, not another cash receipt or a same-person match. All three report employer Not Employed. Both children remain required; no marriage or other personal relationship is inferred."
+    },
+    {
+      "record_id": "1940921:10898832",
+      "source_row_sha256": "852d351bf6c716aa84b1145d7ae709ed84e7b603f2c86532d87f6a7eb41c2b34",
+      "role": "transfer_context",
+      "related_record_id": null,
+      "identity_key": "",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed aggregate transfer from DELBENE DEMOCRATIC MAJORITY FUND, independently confirmed as a joint fundraising committee. This is shared financial context, not a donor identity or an amount added to employer allocations."
+    },
+    {
+      "record_id": "1940921:10898839",
+      "source_row_sha256": "870bc1126420169d3013ce568e0900fe9bde32e5cf8f8a64dc941112e1efabe9",
+      "role": "jfc_allocation",
+      "related_record_id": "1940921:10898832",
+      "identity_key": "review:1940921:10898839",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Individually reviewed positive IND memo donor allocation explicitly linked on SA12 to a transfer from the verified joint fundraising committee. Separate primary and general allocations retain both positive amounts; neither is a duplicate of the other or a signed correction. The aggregate transfer is not added again, and no global original-giving measure is inferred."
+    },
+    {
+      "record_id": "1940921:10898841",
+      "source_row_sha256": "6a5fe52f6aa0f6039e8aafb793e89420b13c263e2a6990496f2f8c938e94b869",
+      "role": "jfc_allocation",
+      "related_record_id": "1940921:10898832",
+      "identity_key": "review:1940921:10898841",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1940921.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Individually reviewed positive IND memo donor allocation explicitly linked on SA12 to a transfer from the verified joint fundraising committee. Separate primary and general allocations retain both positive amounts; neither is a duplicate of the other or a signed correction. The aggregate transfer is not added again, and no global original-giving measure is inferred."
+    },
+    {
+      "record_id": "1963978:11090298",
+      "source_row_sha256": "d88c74cb785ff26bce753bbc8ff2f67388c599e9c23f8dfc3723b9d036f7b048",
+      "role": "transfer_context",
+      "related_record_id": null,
+      "identity_key": "",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Reviewed aggregate transfer from DELBENE DEMOCRATIC MAJORITY FUND, independently confirmed as a joint fundraising committee. This is shared financial context, not a donor identity or an amount added to employer allocations."
+    },
+    {
+      "record_id": "1963978:11090329",
+      "source_row_sha256": "44daafc34b8883556dbe88a02a753c740da3c2dcab46db591c0b5b9194302a19",
+      "role": "jfc_allocation",
+      "related_record_id": "1963978:11090298",
+      "identity_key": "review:1963978:11090329",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Individually reviewed positive IND memo donor allocation explicitly linked on SA12 to a transfer from the verified joint fundraising committee. Separate primary and general allocations retain both positive amounts; neither is a duplicate of the other or a signed correction. The aggregate transfer is not added again, and no global original-giving measure is inferred."
+    },
+    {
+      "record_id": "1963978:11090330",
+      "source_row_sha256": "f5067784898bf06590bb557ed6e42e2cc946a1ff357be440b797fe2d3416c9f5",
+      "role": "jfc_allocation",
+      "related_record_id": "1963978:11090298",
+      "identity_key": "review:1963978:11090330",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Individually reviewed positive IND memo donor allocation explicitly linked on SA12 to a transfer from the verified joint fundraising committee. Separate primary and general allocations retain both positive amounts; neither is a duplicate of the other or a signed correction. The aggregate transfer is not added again, and no global original-giving measure is inferred."
+    },
+    {
+      "record_id": "1963978:11090357",
+      "source_row_sha256": "44b4eebefe193c3003c8c4a47d058d557392f3f6a3344cffa0bf5b8e86469c3d",
+      "role": "jfc_allocation",
+      "related_record_id": "1963978:11090298",
+      "identity_key": "review:1963978:11090357",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Individually reviewed positive IND memo donor allocation explicitly linked on SA12 to a transfer from the verified joint fundraising committee. Separate primary and general allocations retain both positive amounts; neither is a duplicate of the other or a signed correction. The aggregate transfer is not added again, and no global original-giving measure is inferred."
+    },
+    {
+      "record_id": "1963978:11090358",
+      "source_row_sha256": "ec2a6aa23d463bc45eedd85c362da6d27a166bb861a997d8844a7c774558e05c",
+      "role": "jfc_allocation",
+      "related_record_id": "1963978:11090298",
+      "identity_key": "review:1963978:11090358",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Individually reviewed positive IND memo donor allocation explicitly linked on SA12 to a transfer from the verified joint fundraising committee. Separate primary and general allocations retain both positive amounts; neither is a duplicate of the other or a signed correction. The aggregate transfer is not added again, and no global original-giving measure is inferred."
+    },
+    {
+      "record_id": "1963978:11090359",
+      "source_row_sha256": "1fa0ba1082e3d4fcdf48e2c0094ee5a85ec13203f013fee347b224e8a6dc3bad",
+      "role": "jfc_allocation",
+      "related_record_id": "1963978:11090298",
+      "identity_key": "review:1963978:11090359",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Individually reviewed positive IND memo donor allocation explicitly linked on SA12 to a transfer from the verified joint fundraising committee. Separate primary and general allocations retain both positive amounts; neither is a duplicate of the other or a signed correction. The aggregate transfer is not added again, and no global original-giving measure is inferred."
+    },
+    {
+      "record_id": "1963978:11090360",
+      "source_row_sha256": "ec4e9715f5234ca955b0d69ec941b43b9670ff4a36a9ab485749541fc7ba8410",
+      "role": "jfc_allocation",
+      "related_record_id": "1963978:11090298",
+      "identity_key": "review:1963978:11090360",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1963978.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/",
+        "https://www.fec.gov/data/committee/C00833590/"
+      ],
+      "rationale": "Individually reviewed positive IND memo donor allocation explicitly linked on SA12 to a transfer from the verified joint fundraising committee. Separate primary and general allocations retain both positive amounts; neither is a duplicate of the other or a signed correction. The aggregate transfer is not added again, and no global original-giving measure is inferred."
+    },
+    {
+      "record_id": "1920909:10732392",
+      "source_row_sha256": "81d1a940bbdebfa43d313297e39e68260e0f9d0807528cf9c2f1f12876c18cec",
+      "role": "context",
+      "related_record_id": null,
+      "identity_key": "review:1920909:10732392",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Individually reviewed organizational election redesignation: the retained ORG memo allocation and both ORG memo children have identical full filed organization identity and aggregate. The positive child explicitly references the original, and the adjacent negative has the matching date and opposite amount. The complete family balances without individual descendants. The negative relationship is a frozen review judgment, not a filed link. This family contributes no employee-attributed amount."
+    },
+    {
+      "record_id": "1920909:10732395",
+      "source_row_sha256": "a8e6ae67767b413be1e4b34e785bf12534651988e1c43ce1a0d1a7dedddf7a13",
+      "role": "organization_adjustment",
+      "related_record_id": "1920909:10732392",
+      "identity_key": "review:1920909:10732392",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Individually reviewed organizational election redesignation: the retained ORG memo allocation and both ORG memo children have identical full filed organization identity and aggregate. The positive child explicitly references the original, and the adjacent negative has the matching date and opposite amount. The complete family balances without individual descendants. The negative relationship is a frozen review judgment, not a filed link. This family contributes no employee-attributed amount."
+    },
+    {
+      "record_id": "1920909:10732396",
+      "source_row_sha256": "b0728bedf5392ef6fa3fb701c8da8c9594d6084f3f19ff573fd8f4442b835f93",
+      "role": "organization_adjustment",
+      "related_record_id": "1920909:10732392",
+      "identity_key": "review:1920909:10732392",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/redesignating-and-reattributing-contributions/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Individually reviewed organizational election redesignation: the retained ORG memo allocation and both ORG memo children have identical full filed organization identity and aggregate. The positive child explicitly references the original, and the adjacent negative has the matching date and opposite amount. The complete family balances without individual descendants. The negative relationship is a frozen review judgment, not a filed link. This family contributes no employee-attributed amount."
+    },
+    {
+      "record_id": "1996658:11278367",
+      "source_row_sha256": "061e23746774f16d87fe46d45662c6b6b8e30635d39f424f19915c2fc0ac5d23",
+      "role": "transfer_context",
+      "related_record_id": null,
+      "identity_key": "",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/data/committee/C00833590/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Reviewed aggregate transfer from verified joint fundraising committee C00833590. The filed memo says Some Memos Previously Reported; its cash is not added to donor allocations."
+    },
+    {
+      "record_id": "1996658:11310832",
+      "source_row_sha256": "8e6707c465b1adef15d161d6ad9ef3b27d88f120ec374beed1af26e56adc0095",
+      "role": "organization_adjustment",
+      "related_record_id": "1996658:11278367",
+      "identity_key": "review:1996658:11310832",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/data/committee/C00833590/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Individually reviewed organizational memo offset: these two adjacent source rows are identical in every filed field except transaction ID and signed amount. Both explicitly reference the same retained JFC transfer, report the same organizational donor, date, election and aggregate, sum to zero, and have no individual descendants. This does not identify an earlier original or assign any employer attribution."
+    },
+    {
+      "record_id": "1996658:11310833",
+      "source_row_sha256": "cca101549541025a4cdc14730424333b95761b526aeb72596a7425700a263cca",
+      "role": "organization_adjustment",
+      "related_record_id": "1996658:11278367",
+      "identity_key": "review:1996658:11310832",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1996658.fec",
+        "https://www.fec.gov/data/committee/C00833590/",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Individually reviewed organizational memo offset: these two adjacent source rows are identical in every filed field except transaction ID and signed amount. Both explicitly reference the same retained JFC transfer, report the same organizational donor, date, election and aggregate, sum to zero, and have no individual descendants. This does not identify an earlier original or assign any employer attribution."
+    }
+  ],
+  "limitations": [
+    "Self-reported employer matches do not verify employment or a unique donor identity; aliases can miss or misclassify records.",
+    "Report coverage ends July 15, 2026. Six F6 notices filed from July 21 to August 2 are outside this report calculation; no claim of all giving through today.",
+    "Processed report catalogs can lag new filings. The catalog check is a dated observation, not continuous completeness.",
+    "The $25 JFC donor allocation is separate from the aggregate $124,357 transfer, which is not added again.",
+    "All 58 individual negative receipt families are explicitly reviewed: four Meta families, 51 other same-donor redesignations and three other donor reattributions. Two organizational negatives belong to separately reviewed balanced memo families with no individual descendants. A remaining PAC election adjustment on SA11C is outside individual employer-attribution lines and is documented separately. Blank negative-row back-references require frozen source-review judgments; full row hashes and complete reviewed families are required.",
+    "Thayer transaction 10732455 lists back-reference schedule SA11AI although parent 10732436 is SA12. The filed discrepancy is preserved.",
+    "225 itemized campaign-refund rows have no filed transaction back-references; no reliable employer refund linkage is asserted. Itemized refunds total $20,476, which is $6,229 below the $26,705 reported in summary lines, so refunds and net remain unknown.",
+    "This is candidate-account attributed receipts before refunds, not global unique original giving, company treasury giving, outside spending, or a cash-flow measure."
+  ]
+}

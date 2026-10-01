@@ -1,0 +1,2020 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-19T11:14:04.671613+00:00",
+  "cases": {
+    "el_sayed": {
+      "created_at": "2026-09-19T11:13:58.729157+00:00",
+      "manifest_sha256": "f1a6f6dbafb69374a590ca90cc4d83175f4cf4edd22eca2d8778408df850c20a",
+      "join": "Exact committee_id + file_number + transaction_id; never donor names or amounts",
+      "scope": {
+        "kind": "campaign_reports",
+        "description": "Exact reported NVIDIA employer matches in six campaign report chains for Abdul for U.S. Senate, through July 15, 2026.",
+        "coverage_start": "2025-01-01",
+        "coverage_end": "2026-07-15",
+        "committee_ids": [
+          "C00902668"
+        ],
+        "account_ownership": "Abdul for U.S. Senate (C00902668), the reviewed authorized campaign account for S6MI00418 in this report set.",
+        "source_completeness": "All 18 electronic originals/amendments in the September 19, 2026 processed report inventory for C00902668; six latest replacements. This is one specified account through July 15, not all current campaign accounts or giving through today."
+      },
+      "source_filing_count": 18,
+      "latest_source_filing_count": 6,
+      "latest_file_numbers": [
+        "2005714",
+        "2005716",
+        "2005717",
+        "2005719",
+        "2005720",
+        "2005721"
+      ],
+      "bulk_committee_record_count": 31409,
+      "original_schedule_record_count": 65107,
+      "company_count": 18,
+      "comparison_row_count": 282,
+      "category_counts": {
+        "same_source_facts": 275,
+        "original_only": 4,
+        "new_supported_record_not_in_legacy_selection": 4,
+        "bulk_precision_difference": 3
+      },
+      "engine_sha256": "306c5e2b0e7185b9aba30679110b9328e79c80f0f5b48627a05b22a51da1b2c2",
+      "report_builder_sha256": "ab07c345850f0a1ce0648c76fd25decbfdd7ae4ebb11751780fa8a267ca95b36",
+      "precision_note": "Raw bulk and original amount strings are retained. bulk_precision_difference means an exact-key raw whole-dollar bulk amount differs from source cents by less than $1 while compared identities agree; it is not a generalized claim about FEC rounding. The official bulk schema permits cents.",
+      "official_bulk_schema": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
+      "limitations": [
+        "Supported component differences are diagnostics, not changes in a certified total when combined_status is unresolved.",
+        "Missing original/bulk records are classified by exact source identity; donor-name guesses are never used to fill gaps.",
+        "No unknown refund is assigned to an employer. Net remains unavailable when refund coverage or identity is unresolved."
+      ],
+      "label": "El-Sayed",
+      "manifest_repository_path": "data/reference/attribution/nvidia_el_sayed.json",
+      "source_catalog_as_of": "2026-09-19",
+      "original_file_hashes": [
+        {
+          "file_number": 1903309,
+          "sha256": "b2c2470bb8ea5b4ed372398b910fdcc674da1ffd497fa437fdeb6ca5730e50f7",
+          "url": "https://docquery.fec.gov/dcdev/posted/1903309.fec"
+        },
+        {
+          "file_number": 1920037,
+          "sha256": "7251ad39013bb404e832ebd381d21cf134e4426f64726cbdad64f03e628623b4",
+          "url": "https://docquery.fec.gov/dcdev/posted/1920037.fec"
+        },
+        {
+          "file_number": 1920081,
+          "sha256": "c141be84060e00ad3fbb82bc583cd750bb3a6d170e4b41e6fba4e63cfc0cd739",
+          "url": "https://docquery.fec.gov/dcdev/posted/1920081.fec"
+        },
+        {
+          "file_number": 1942345,
+          "sha256": "8955cc20ebd2adb00ab53abe562d2bda4fa8f9eee11f5eb6b9abf8d16acf4d68",
+          "url": "https://docquery.fec.gov/dcdev/posted/1942345.fec"
+        },
+        {
+          "file_number": 1942410,
+          "sha256": "22b55d11a5a2b903b0cec9a6c83a76c3f9bf20a73c3b59931feeffe30037402e",
+          "url": "https://docquery.fec.gov/dcdev/posted/1942410.fec"
+        },
+        {
+          "file_number": 1966137,
+          "sha256": "13692373cfc7f8fd5cca9719fcfa1562377a8c6e6d14a3a7f479044dfa961128",
+          "url": "https://docquery.fec.gov/dcdev/posted/1966137.fec"
+        },
+        {
+          "file_number": 1966303,
+          "sha256": "cf9d6a334ab8dc5804602430cbe51db9f2fd47b183d4e7d72b3fd387a8c30ad4",
+          "url": "https://docquery.fec.gov/dcdev/posted/1966303.fec"
+        },
+        {
+          "file_number": 1996800,
+          "sha256": "96214aeda9c8e395a39e0f3b66934e1e7051ac30885fab4bf51ac95725044ad4",
+          "url": "https://docquery.fec.gov/dcdev/posted/1996800.fec"
+        },
+        {
+          "file_number": 1996846,
+          "sha256": "8948f9b6136c2fab75056ac0f97053858c8c271099e61e34e7f37c578dcb3778",
+          "url": "https://docquery.fec.gov/dcdev/posted/1996846.fec"
+        },
+        {
+          "file_number": 1996938,
+          "sha256": "9eb73d62132cce977f815aed4b591c997bfc39c3f4024571ccb12cdfcb61a362",
+          "url": "https://docquery.fec.gov/dcdev/posted/1996938.fec"
+        },
+        {
+          "file_number": 2001724,
+          "sha256": "8832e9296f26448d00e6b3f5652e86ca564bf28da0eb2e90b396be83f1e59013",
+          "url": "https://docquery.fec.gov/dcdev/posted/2001724.fec"
+        },
+        {
+          "file_number": 2001725,
+          "sha256": "94c062b3d119a3a86b9e23fc28d8c240d9d071ea06d901fbe9641f8c15d4d95a",
+          "url": "https://docquery.fec.gov/dcdev/posted/2001725.fec"
+        },
+        {
+          "file_number": 2005714,
+          "sha256": "d2483b52edd848a4ffb6ca53b9f4e88ad12fe593ce0ec18568608ec6b8045f3e",
+          "url": "https://docquery.fec.gov/dcdev/posted/2005714.fec"
+        },
+        {
+          "file_number": 2005716,
+          "sha256": "4b835f197f6a91478ea4876459c74c9159cc6ee6eb34643681252850f20f981d",
+          "url": "https://docquery.fec.gov/dcdev/posted/2005716.fec"
+        },
+        {
+          "file_number": 2005717,
+          "sha256": "5fb0370d80d59086bace52bc3f8e7c876366941d6c9e78983f9f59d46dabe005",
+          "url": "https://docquery.fec.gov/dcdev/posted/2005717.fec"
+        },
+        {
+          "file_number": 2005719,
+          "sha256": "2fd23028e8e669e8dfd57cc1b0ccede03e240e1d51bda2cc2f627d541fc1fbf9",
+          "url": "https://docquery.fec.gov/dcdev/posted/2005719.fec"
+        },
+        {
+          "file_number": 2005720,
+          "sha256": "0de673c937622d9543581401f1d68c470cb2a19524910bc77cfd9a89c158056f",
+          "url": "https://docquery.fec.gov/dcdev/posted/2005720.fec"
+        },
+        {
+          "file_number": 2005721,
+          "sha256": "f85b382bbb4e0766555df47918fe3846b4bb00159e640bb411142f7130710411",
+          "url": "https://docquery.fec.gov/dcdev/posted/2005721.fec"
+        }
+      ],
+      "review_annotation_count": 189,
+      "review_annotations_canonical_json_sha256": "287451ce5a37eec6f5780fd096358fbec114756ae9d58abf71fa84cf11b62743",
+      "all_company_aliases_reference_sha256": "b2e2157c9171246b60f16092a5855467fc07ee8b0617f30ce7fc63775f4cb268",
+      "alias_scope_note": "The comparison deliberately substitutes all 447 included curated aliases across 37 companies for the manifest's displayed target-company aliases. Source/review/account scope stays fixed. Only companies with a relevant source or bulk record become cases.",
+      "bulk_index": {
+        "audit_path": "outputs/audit_20260919/methodology/bulk_comparison/C00902668.public.csv.gz",
+        "sha256": "211299b57d0a9f1a32df920bc4bb4e61e395169bb9b45ea4f6f552823f666c14",
+        "uncompressed_sha256": "5d22e7e21775f9e50b909ddc06f5bd7e1ab6f71c2b0bae8b1436dd86fa50fa44",
+        "scope": "All committee bulk rows"
+      },
+      "company_results": [
+        {
+          "company": "amazon",
+          "legacy_selected_records": 22,
+          "legacy_selected_record_sum": "19800.00",
+          "supported_components_before_refunds_sum": "19800.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "19800.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "19800.00",
+              "count": 22,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "amd",
+          "legacy_selected_records": 3,
+          "legacy_selected_record_sum": "7500.00",
+          "supported_components_before_refunds_sum": "7500.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "7500.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "7500.00",
+              "count": 3,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "anthropic",
+          "legacy_selected_records": 7,
+          "legacy_selected_record_sum": "21250.00",
+          "supported_components_before_refunds_sum": "21250.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "21250.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "21250.00",
+              "count": 7,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "apple",
+          "legacy_selected_records": 42,
+          "legacy_selected_record_sum": "56475.00",
+          "supported_components_before_refunds_sum": "56475.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "56475.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "56475.00",
+              "count": 42,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "coreweave",
+          "legacy_selected_records": 4,
+          "legacy_selected_record_sum": "1650.00",
+          "supported_components_before_refunds_sum": "1650.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "1650.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "1650.00",
+              "count": 4,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "google",
+          "legacy_selected_records": 70,
+          "legacy_selected_record_sum": "53725.00",
+          "supported_components_before_refunds_sum": "53725.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "53725.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "53725.00",
+              "count": 70,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "ibm",
+          "legacy_selected_records": 3,
+          "legacy_selected_record_sum": "1750.00",
+          "supported_components_before_refunds_sum": "1750.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "1750.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "1750.00",
+              "count": 3,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "meta",
+          "legacy_selected_records": 21,
+          "legacy_selected_record_sum": "7960.00",
+          "supported_components_before_refunds_sum": "7960.47",
+          "supported_component_difference_not_total_delta": "0.47",
+          "combined_amount": "7960.47",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "7960.47",
+              "count": 21,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [
+            {
+              "reason": "exact_key_raw_precision_difference",
+              "amount": "0.47",
+              "record_count": 2
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "microsoft",
+          "legacy_selected_records": 62,
+          "legacy_selected_record_sum": "48255.00",
+          "supported_components_before_refunds_sum": "48255.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "48255.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "48255.00",
+              "count": 62,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "nvidia",
+          "legacy_selected_records": 23,
+          "legacy_selected_record_sum": "33500.00",
+          "supported_components_before_refunds_sum": "33500.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "33500.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "33500.00",
+              "count": 23,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "openai",
+          "legacy_selected_records": 1,
+          "legacy_selected_record_sum": "500.00",
+          "supported_components_before_refunds_sum": "500.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "500.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "500.00",
+              "count": 1,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "oracle",
+          "legacy_selected_records": 5,
+          "legacy_selected_record_sum": "4750.00",
+          "supported_components_before_refunds_sum": "4750.99",
+          "supported_component_difference_not_total_delta": "0.99",
+          "combined_amount": "4750.99",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "4750.99",
+              "count": 5,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [
+            {
+              "reason": "exact_key_raw_precision_difference",
+              "amount": "0.99",
+              "record_count": 1
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "palantir",
+          "legacy_selected_records": 0,
+          "legacy_selected_record_sum": "0.00",
+          "supported_components_before_refunds_sum": "185.00",
+          "supported_component_difference_not_total_delta": "185.00",
+          "combined_amount": "185.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "185.00",
+              "count": 4,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [
+            {
+              "reason": "original_only_direct_receipt_bulk_scope_difference",
+              "amount": "185.00",
+              "record_count": 4
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "qualcomm",
+          "legacy_selected_records": 1,
+          "legacy_selected_record_sum": "500.00",
+          "supported_components_before_refunds_sum": "500.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "500.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "500.00",
+              "count": 1,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "salesforce",
+          "legacy_selected_records": 4,
+          "legacy_selected_record_sum": "3951.00",
+          "supported_components_before_refunds_sum": "3951.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "3951.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "3951.00",
+              "count": 4,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "stripe",
+          "legacy_selected_records": 2,
+          "legacy_selected_record_sum": "1100.00",
+          "supported_components_before_refunds_sum": "1100.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "1100.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "1100.00",
+              "count": 2,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "tesla",
+          "legacy_selected_records": 4,
+          "legacy_selected_record_sum": "7000.00",
+          "supported_components_before_refunds_sum": "7000.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "7000.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "7000.00",
+              "count": 4,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "uber",
+          "legacy_selected_records": 4,
+          "legacy_selected_record_sum": "8000.00",
+          "supported_components_before_refunds_sum": "8000.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "8000.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 140,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "8000.00",
+              "count": 4,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        }
+      ],
+      "totals": {
+        "legacy_selected_record_sum": "277666.00",
+        "supported_components_before_refunds_sum": "277852.46",
+        "supported_component_difference_not_total_delta": "186.46"
+      },
+      "resolved_receipt_cases": 18,
+      "resolved_net_cases": 0,
+      "exact_record_comparison": {
+        "file": "el_sayed_record_comparison.csv",
+        "sha256": "678aa0ceca5b17016a33dfa68aa466e0b919e2f0aaa56f325361f2d0ac515473"
+      },
+      "original_only_context": {
+        "file": "el_sayed_original_only_context.json",
+        "sha256": "ecb54655141bb5d71ceb6b8dd3e288a040fc296e75eb63d31c24cd5ddee823b9"
+      }
+    },
+    "delbene": {
+      "created_at": "2026-09-19T11:13:34.276436+00:00",
+      "manifest_sha256": "1f8045b95d9247c4d93e3b5a2f70b56b2672d407b6e7208ed889879b8d8b2535",
+      "join": "Exact committee_id + file_number + transaction_id; never donor names or amounts",
+      "scope": {
+        "kind": "campaign_reports",
+        "description": "Exact reported Meta employer matches in all seven full campaign reports returned by the September 19, 2026 processed 2026-cycle catalog, with coverage through July 15, 2026.",
+        "coverage_start": "2025-01-01",
+        "coverage_end": "2026-07-15",
+        "committee_ids": [
+          "C00459099"
+        ],
+        "account_ownership": "DelBene for Congress C00459099, principal campaign committee for H0WA08046. Source reports throughout this period are this same F3 campaign account.",
+        "source_completeness": "All seven full F3 reports in the observed 2026-cycle report catalog. All are original/latest, with no missing amendment sequences or report-period gaps. Six later F6 notices are outside this supported full-report scope."
+      },
+      "source_filing_count": 7,
+      "latest_source_filing_count": 7,
+      "latest_file_numbers": [
+        "1887226",
+        "1903193",
+        "1920909",
+        "1940921",
+        "1963978",
+        "1996658",
+        "2001574"
+      ],
+      "bulk_committee_record_count": 6611,
+      "original_schedule_record_count": 15187,
+      "company_count": 4,
+      "comparison_row_count": 89,
+      "category_counts": {
+        "original_only": 15,
+        "new_supported_record_not_in_legacy_selection": 15,
+        "same_source_facts": 74
+      },
+      "engine_sha256": "306c5e2b0e7185b9aba30679110b9328e79c80f0f5b48627a05b22a51da1b2c2",
+      "report_builder_sha256": "ab07c345850f0a1ce0648c76fd25decbfdd7ae4ebb11751780fa8a267ca95b36",
+      "precision_note": "Raw bulk and original amount strings are retained. bulk_precision_difference means an exact-key raw whole-dollar bulk amount differs from source cents by less than $1 while compared identities agree; it is not a generalized claim about FEC rounding. The official bulk schema permits cents.",
+      "official_bulk_schema": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
+      "limitations": [
+        "Supported component differences are diagnostics, not changes in a certified total when combined_status is unresolved.",
+        "Missing original/bulk records are classified by exact source identity; donor-name guesses are never used to fill gaps.",
+        "No unknown refund is assigned to an employer. Net remains unavailable when refund coverage or identity is unresolved."
+      ],
+      "label": "DelBene",
+      "manifest_repository_path": "data/reference/attribution/meta_delbene_full_reports.json",
+      "source_catalog_as_of": "2026-09-19T10:27:04.517301+00:00",
+      "original_file_hashes": [
+        {
+          "file_number": 1887226,
+          "sha256": "e2cbbab4dcde6ff6e50048a1d3376a3e4312ef535873833e07c380ac1da5981c",
+          "url": "https://docquery.fec.gov/dcdev/posted/1887226.fec"
+        },
+        {
+          "file_number": 1903193,
+          "sha256": "49640f49cad22228d6bb8f4cc4125245cd45a9241d1f2d4441723a14a784c34d",
+          "url": "https://docquery.fec.gov/dcdev/posted/1903193.fec"
+        },
+        {
+          "file_number": 1920909,
+          "sha256": "29351e9a1c2848e84fe7824556498d27b3c31c25664b578c1d54caa8a90ea78e",
+          "url": "https://docquery.fec.gov/dcdev/posted/1920909.fec"
+        },
+        {
+          "file_number": 1940921,
+          "sha256": "955960ae70861cee396410e8e5e6fcfdbc91df6d43b64f4d3c6d72d0e8c469aa",
+          "url": "https://docquery.fec.gov/dcdev/posted/1940921.fec"
+        },
+        {
+          "file_number": 1963978,
+          "sha256": "e3ea498b3005f64c030af30713a56840d6ac520475588a24736e8acdcb566b3d",
+          "url": "https://docquery.fec.gov/dcdev/posted/1963978.fec"
+        },
+        {
+          "file_number": 1996658,
+          "sha256": "ec8dcba5f7a8839d83c6dab2092e280a631ec735542084171379646c1d1c256a",
+          "url": "https://docquery.fec.gov/dcdev/posted/1996658.fec"
+        },
+        {
+          "file_number": 2001574,
+          "sha256": "416f2f542e8ccfc1da1e39a023057d931d0754363e0c83685241c753f000c59a",
+          "url": "https://docquery.fec.gov/dcdev/posted/2001574.fec"
+        }
+      ],
+      "review_annotation_count": 188,
+      "review_annotations_canonical_json_sha256": "f53c56dc589a0cb2147d300f93a95fc78dc83927a4446ee807e23362b132d3cc",
+      "all_company_aliases_reference_sha256": "b2e2157c9171246b60f16092a5855467fc07ee8b0617f30ce7fc63775f4cb268",
+      "alias_scope_note": "The comparison deliberately substitutes all 447 included curated aliases across 37 companies for the manifest's displayed target-company aliases. Source/review/account scope stays fixed. Only companies with a relevant source or bulk record become cases.",
+      "bulk_index": {
+        "audit_path": "outputs/audit_20260919/methodology/bulk_comparison/C00459099.public.csv.gz",
+        "sha256": "d2451a5e976b2d095f896152b7e1bdbc9153f2e46b5ee7c2cc3874f81968758f",
+        "uncompressed_sha256": "0be6d029bee93dfdd6465af63b3f412151c2dac08b2246f9acef12750c300381",
+        "scope": "All committee bulk rows"
+      },
+      "company_results": [
+        {
+          "company": "amazon",
+          "legacy_selected_records": 9,
+          "legacy_selected_record_sum": "5000.00",
+          "supported_components_before_refunds_sum": "24000.00",
+          "supported_component_difference_not_total_delta": "19000.00",
+          "combined_amount": "24000.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 227,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "5000.00",
+              "count": 9,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "19000.00",
+              "count": 6,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [
+            {
+              "reason": "reviewed_jfc_allocation_outside_individual_bulk_selection",
+              "amount": "19000.00",
+              "record_count": 6
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "google",
+          "legacy_selected_records": 2,
+          "legacy_selected_record_sum": "3750.00",
+          "supported_components_before_refunds_sum": "3750.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": "3750.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 227,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "3750.00",
+              "count": 2,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "meta",
+          "legacy_selected_records": 16,
+          "legacy_selected_record_sum": "4800.00",
+          "supported_components_before_refunds_sum": "4925.00",
+          "supported_component_difference_not_total_delta": "125.00",
+          "combined_amount": "4925.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 227,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "4900.00",
+              "count": 9,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "25.00",
+              "count": 1,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 8,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [
+            {
+              "reason": "original_only_direct_receipt_bulk_scope_difference",
+              "amount": "100.00",
+              "record_count": 1
+            },
+            {
+              "reason": "reviewed_jfc_allocation_outside_individual_bulk_selection",
+              "amount": "25.00",
+              "record_count": 1
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "microsoft",
+          "legacy_selected_records": 47,
+          "legacy_selected_record_sum": "14550.00",
+          "supported_components_before_refunds_sum": "32450.00",
+          "supported_component_difference_not_total_delta": "17900.00",
+          "combined_amount": "32450.00",
+          "combined_status": "resolved_for_scope",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 0,
+          "unresolved_refund_count": 227,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "14750.00",
+              "count": 44,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "17700.00",
+              "count": 4,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 6,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {},
+          "difference_bridge": [
+            {
+              "reason": "original_only_direct_receipt_bulk_scope_difference",
+              "amount": "200.00",
+              "record_count": 3
+            },
+            {
+              "reason": "reviewed_jfc_allocation_outside_individual_bulk_selection",
+              "amount": "17700.00",
+              "record_count": 4
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        }
+      ],
+      "totals": {
+        "legacy_selected_record_sum": "28100.00",
+        "supported_components_before_refunds_sum": "65125.00",
+        "supported_component_difference_not_total_delta": "37025.00"
+      },
+      "resolved_receipt_cases": 4,
+      "resolved_net_cases": 0,
+      "exact_record_comparison": {
+        "file": "delbene_record_comparison.csv",
+        "sha256": "7adfef37114d9189f193de87cc33afd82cc1169b61e461c6790e5ba2c90bcd82"
+      },
+      "original_only_context": {
+        "file": "delbene_original_only_context.json",
+        "sha256": "8baec2bc47475ca0fe8284bc8a7562e0e0d7758c4f99e5860f011bf650a8249d"
+      }
+    },
+    "rounds": {
+      "created_at": "2026-09-19T11:13:33.833399+00:00",
+      "manifest_sha256": "831cc7ef3848b42a8ee8b3ec8ccf63832c2bfacad0e707543501ea271d4f0211",
+      "join": "Exact committee_id + file_number + transaction_id; never donor names or amounts",
+      "scope": {
+        "kind": "campaign_reports",
+        "description": "Audit of all curated-employer aliases across the supplied Rounds for Senate original report chains.",
+        "coverage_start": "2025-01-01",
+        "coverage_end": "2026-06-30",
+        "committee_ids": [
+          "C00532465"
+        ],
+        "account_ownership": "Unresolved in this audit-only manifest; no candidate total is certified.",
+        "source_completeness": "Full report files in the supplied processed API inventory only; not a complete-current-giving claim."
+      },
+      "source_filing_count": 11,
+      "latest_source_filing_count": 7,
+      "latest_file_numbers": [
+        "1903281",
+        "1903347",
+        "1921124",
+        "1997182",
+        "1997202",
+        "1997207",
+        "1997215"
+      ],
+      "bulk_committee_record_count": 54,
+      "original_schedule_record_count": 4064,
+      "company_count": 10,
+      "comparison_row_count": 58,
+      "category_counts": {
+        "same_source_facts": 52,
+        "original_only": 4,
+        "new_supported_record_not_in_legacy_selection": 4,
+        "legacy_selected_now_unresolved": 2,
+        "bulk_precision_difference": 2
+      },
+      "engine_sha256": "306c5e2b0e7185b9aba30679110b9328e79c80f0f5b48627a05b22a51da1b2c2",
+      "report_builder_sha256": "ab07c345850f0a1ce0648c76fd25decbfdd7ae4ebb11751780fa8a267ca95b36",
+      "precision_note": "Raw bulk and original amount strings are retained. bulk_precision_difference means an exact-key raw whole-dollar bulk amount differs from source cents by less than $1 while compared identities agree; it is not a generalized claim about FEC rounding. The official bulk schema permits cents.",
+      "official_bulk_schema": "https://www.fec.gov/campaign-finance-data/contributions-individuals-file-description/",
+      "limitations": [
+        "Supported component differences are diagnostics, not changes in a certified total when combined_status is unresolved.",
+        "Missing original/bulk records are classified by exact source identity; donor-name guesses are never used to fill gaps.",
+        "No unknown refund is assigned to an employer. Net remains unavailable when refund coverage or identity is unresolved."
+      ],
+      "label": "Rounds",
+      "manifest_repository_path": "data/reference/attribution/validation/rounds_audit_manifest.json",
+      "source_catalog_as_of": "2026-09-19T10:32:25.548474+00:00",
+      "original_file_hashes": [
+        {
+          "file_number": 1888029,
+          "sha256": "9d46114535825b4c4c62830b21567e006d421de287cc25331ef67646a4f93593",
+          "bytes": 114887,
+          "url": "https://docquery.fec.gov/dcdev/posted/1888029.fec"
+        },
+        {
+          "file_number": 1903281,
+          "sha256": "37825de07d639f7005a18c5c0012edff7be6193e3232e69c05e667e3be934cc9",
+          "bytes": 119192,
+          "url": "https://docquery.fec.gov/dcdev/posted/1903281.fec"
+        },
+        {
+          "file_number": 1903347,
+          "sha256": "b2e4e0a16b221637ec39c32f2cbba9d688057b17d65ab480b34028e5c62dabef",
+          "bytes": 146193,
+          "url": "https://docquery.fec.gov/dcdev/posted/1903347.fec"
+        },
+        {
+          "file_number": 1921124,
+          "sha256": "b70dc6945af603c62098602e5ddd3a4e60530a1b05e363f27c1f095820cfa7f3",
+          "bytes": 114695,
+          "url": "https://docquery.fec.gov/dcdev/posted/1921124.fec"
+        },
+        {
+          "file_number": 1942112,
+          "sha256": "84930f8c98990e61f8d94fa0027ac9c6f3149a7e3904a0f9cd2b18defd166b06",
+          "bytes": 138070,
+          "url": "https://docquery.fec.gov/dcdev/posted/1942112.fec"
+        },
+        {
+          "file_number": 1965288,
+          "sha256": "7c0de7a50629decb41fdc3756ef4cdca95322ed8d602bf6fbb5baec4ff50e0c4",
+          "bytes": 217871,
+          "url": "https://docquery.fec.gov/dcdev/posted/1965288.fec"
+        },
+        {
+          "file_number": 1978411,
+          "sha256": "68b1d2d9f6868558aab25b5f47fe3899ea4143a89580ac0f3c9ee9b1af7b5905",
+          "bytes": 74712,
+          "url": "https://docquery.fec.gov/dcdev/posted/1978411.fec"
+        },
+        {
+          "file_number": 1997182,
+          "sha256": "604d07eda97963f7780962554a2809bdaa22c45d0a0ec67f6b8e0396d3ecd0db",
+          "bytes": 138975,
+          "url": "https://docquery.fec.gov/dcdev/posted/1997182.fec"
+        },
+        {
+          "file_number": 1997202,
+          "sha256": "457b0ac348ca54c1d87981d81e045072172f8c83bcbdcdca44d797938962bd0c",
+          "bytes": 219860,
+          "url": "https://docquery.fec.gov/dcdev/posted/1997202.fec"
+        },
+        {
+          "file_number": 1997207,
+          "sha256": "4d0dcd9725dec5de9fe8332109d9ce0ba06c56def44106e6b12819e825a18ebf",
+          "bytes": 74960,
+          "url": "https://docquery.fec.gov/dcdev/posted/1997207.fec"
+        },
+        {
+          "file_number": 1997215,
+          "sha256": "c6dc316332ae3ec6d0660061b7d7bcaac3ae50d2486335252262cfe55f853392",
+          "bytes": 117375,
+          "url": "https://docquery.fec.gov/dcdev/posted/1997215.fec"
+        }
+      ],
+      "review_annotation_count": 7,
+      "review_annotations_canonical_json_sha256": "4a0fac83ff7f7cad0cec465551fa35b5f67af648e4a2e08a582e74073f87498e",
+      "all_company_aliases_reference_sha256": "b2e2157c9171246b60f16092a5855467fc07ee8b0617f30ce7fc63775f4cb268",
+      "alias_scope_note": "The comparison deliberately substitutes all 447 included curated aliases across 37 companies for the manifest's displayed target-company aliases. Source/review/account scope stays fixed. Only companies with a relevant source or bulk record become cases.",
+      "bulk_index": {
+        "audit_path": "outputs/audit_20260919/methodology/bulk_comparison/C00532465.matched.public.csv.gz",
+        "sha256": "c78d0bf9e7a5f21624a81bb354439d357b65494e7789e8134bc791f8686681d4",
+        "uncompressed_sha256": "b90bff39bf688cb1bb1ba8de853da59e583fb52b07191ad5fe1338bf7f421ea5",
+        "scope": "Curated-employer matches for this committee from the same whole-cycle streaming pass"
+      },
+      "company_results": [
+        {
+          "company": "a16z",
+          "legacy_selected_records": 3,
+          "legacy_selected_record_sum": "7000.00",
+          "supported_components_before_refunds_sum": "7000.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "7000.00",
+              "count": 3,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "anduril",
+          "legacy_selected_records": 0,
+          "legacy_selected_record_sum": "0.00",
+          "supported_components_before_refunds_sum": "7000.00",
+          "supported_component_difference_not_total_delta": "7000.00",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "7000.00",
+              "count": 2,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [
+            {
+              "reason": "reviewed_jfc_allocation_outside_individual_bulk_selection",
+              "amount": "7000.00",
+              "record_count": 2
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "anthropic",
+          "legacy_selected_records": 19,
+          "legacy_selected_record_sum": "61600.00",
+          "supported_components_before_refunds_sum": "61600.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "61600.00",
+              "count": 19,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "coinbase",
+          "legacy_selected_records": 3,
+          "legacy_selected_record_sum": "7143.00",
+          "supported_components_before_refunds_sum": "7143.56",
+          "supported_component_difference_not_total_delta": "0.56",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "7143.56",
+              "count": 3,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [
+            {
+              "reason": "exact_key_raw_precision_difference",
+              "amount": "0.56",
+              "record_count": 1
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "google",
+          "legacy_selected_records": 23,
+          "legacy_selected_record_sum": "49400.00",
+          "supported_components_before_refunds_sum": "56400.00",
+          "supported_component_difference_not_total_delta": "7000.00",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 2,
+          "unresolved_matched_raw_signed_amount": "-7000.00",
+          "unresolved_matched_raw_absolute_amount": "7000.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "56400.00",
+              "count": 21,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [
+            {
+              "reason": "unresolved_negative_withheld_not_additional_giving",
+              "amount": "7000.00",
+              "record_count": 2
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "meta",
+          "legacy_selected_records": 1,
+          "legacy_selected_record_sum": "2082.00",
+          "supported_components_before_refunds_sum": "2082.03",
+          "supported_component_difference_not_total_delta": "0.03",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "2082.03",
+              "count": 1,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [
+            {
+              "reason": "exact_key_raw_precision_difference",
+              "amount": "0.03",
+              "record_count": 1
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "microsoft",
+          "legacy_selected_records": 2,
+          "legacy_selected_record_sum": "7000.00",
+          "supported_components_before_refunds_sum": "7000.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "7000.00",
+              "count": 2,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "openai",
+          "legacy_selected_records": 1,
+          "legacy_selected_record_sum": "3500.00",
+          "supported_components_before_refunds_sum": "3500.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "3500.00",
+              "count": 1,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "palantir",
+          "legacy_selected_records": 0,
+          "legacy_selected_record_sum": "0.00",
+          "supported_components_before_refunds_sum": "7000.00",
+          "supported_component_difference_not_total_delta": "7000.00",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "7000.00",
+              "count": 2,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [
+            {
+              "reason": "reviewed_jfc_allocation_outside_individual_bulk_selection",
+              "amount": "7000.00",
+              "record_count": 2
+            }
+          ],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        },
+        {
+          "company": "stripe",
+          "legacy_selected_records": 2,
+          "legacy_selected_record_sum": "7000.00",
+          "supported_components_before_refunds_sum": "7000.00",
+          "supported_component_difference_not_total_delta": "0.00",
+          "combined_amount": null,
+          "combined_status": "unresolved",
+          "net_amount": null,
+          "net_status": "unresolved",
+          "unresolved_receipt_count": 84,
+          "unresolved_refund_count": 7,
+          "unresolved_matched_record_count": 0,
+          "unresolved_matched_raw_signed_amount": "0.00",
+          "unresolved_matched_raw_absolute_amount": "0.00",
+          "components": {
+            "direct_receipts": {
+              "amount": "7000.00",
+              "count": 2,
+              "status": "supported_component"
+            },
+            "jfc_allocations": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "partnership_attributions": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "signed_adjustments": {
+              "amount": "0.00",
+              "count": 0,
+              "status": "supported_component"
+            },
+            "refunds": {
+              "amount": null,
+              "count": 0,
+              "status": "unresolved"
+            }
+          },
+          "receipt_issue_reason_counts": {
+            "Candidate/account ownership has not been reviewed for this reporting period.": 1,
+            "Record has no source-supported attribution interpretation. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 81,
+            "An organizational receipt or transfer reversal needs review of its donor-allocation consequences; a context label does not establish those consequences. Its unresolved donor origin may reduce an earlier employer-attributed contribution; a different or missing employer on the correction does not establish otherwise.": 2
+          },
+          "difference_bridge": [],
+          "nonzero_difference_explanation": "All nonzero record differences assigned to explicit bridge categories; unresolved amounts remain unavailable."
+        }
+      ],
+      "totals": {
+        "legacy_selected_record_sum": "144725.00",
+        "supported_components_before_refunds_sum": "165725.59",
+        "supported_component_difference_not_total_delta": "21000.59"
+      },
+      "resolved_receipt_cases": 0,
+      "resolved_net_cases": 0,
+      "exact_record_comparison": {
+        "file": "rounds_record_comparison.csv",
+        "sha256": "9dfb9663c0bc75eae4c1a9cc2837aaa73966eb80b1aae2750e3bf3fbb3fc0a74"
+      },
+      "original_only_context": {
+        "file": "rounds_original_only_context.json",
+        "sha256": "2dcd612043c67e281d0c35da9b6a4db785c66016adabc131172febc2dda494f4"
+      }
+    }
+  },
+  "case_count": 32,
+  "record_comparison_rows": 429
+}

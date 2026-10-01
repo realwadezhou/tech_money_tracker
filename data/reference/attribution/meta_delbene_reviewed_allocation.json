@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "report_id": "meta_delbene_reviewed_allocation",
+  "cycle": 2026,
+  "candidate": {
+    "id": "H0WA08046",
+    "name": "Suzan DelBene — reviewed allocation example"
+  },
+  "company": {
+    "key": "meta",
+    "label": "Meta"
+  },
+  "source_catalog_as_of": "2026-09-18",
+  "sources": [
+    {
+      "file_number": 1920909,
+      "sha256": "29351e9a1c2848e84fe7824556498d27b3c31c25664b578c1d54caa8a90ea78e"
+    }
+  ],
+  "latest_file_numbers": [
+    1920909
+  ],
+  "selected_record_ids": [
+    "1920909:10732456",
+    "1920909:10732455",
+    "1920909:10732380",
+    "1920909:10732436"
+  ],
+  "scope": {
+    "kind": "reviewed_record_group",
+    "description": "One reviewed Susan Thayer allocation and its election adjustments, with the aggregate transfer as context. This is not total Meta giving to DelBene.",
+    "coverage_start": "2025-07-01",
+    "coverage_end": "2025-09-30",
+    "committee_ids": [
+      "C00459099"
+    ],
+    "account_ownership": "DelBene for Congress (C00459099), for this four-record source example only.",
+    "source_completeness": "Four explicitly identified records from filing 1920909, current in the saved September 18, 2026 API review. Other donor records and refunds are outside this example."
+  },
+  "committee_scope_review": {
+    "status": "resolved_for_scope",
+    "evidence": [
+      "https://www.fec.gov/data/committee/C00459099/",
+      "https://www.fec.gov/data/candidate/H0WA08046/",
+      "FEC_CONFIDENCE_REVIEW.md: Thayer source review"
+    ]
+  },
+  "employer_aliases": {
+    "META PLATFORMS": "meta"
+  },
+  "reviews": [
+    {
+      "record_id": "1920909:10732380",
+      "source_row_sha256": "5c848bd483ff29d6a9f0df320a4354840d954dddf54e056be7afef94b75db5ff",
+      "role": "transfer_context",
+      "related_record_id": null,
+      "identity_key": "",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "One aggregate JFC transfer covering multiple donors; it is not this donor's amount."
+    },
+    {
+      "record_id": "1920909:10732436",
+      "source_row_sha256": "a8cd24d3b0971103fd7fb223b14cda01d32fdf7ae163c13e5de4c5b4e30fd2eb",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "identity_key": "review:thayer-delbene-10732436",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "IND SA12 memo explicitly links to the JFC transfer; processed API receipt code is 15J."
+    },
+    {
+      "record_id": "1920909:10732456",
+      "source_row_sha256": "dbc480c1b74fc9bfb088acb85008a4955593f9b945af9196985349a9cd02e243",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732436",
+      "identity_key": "review:thayer-delbene-10732436",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec"
+      ],
+      "rationale": "Source-reviewed negative primary memo offsets the same donor's positive general memo; no back-reference transaction is filed."
+    },
+    {
+      "record_id": "1920909:10732455",
+      "source_row_sha256": "d045e467a744e1a0a5c72856de5dc2ce2986283fa40a3fe5f0cfcfcd674f3903",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732436",
+      "identity_key": "review:thayer-delbene-10732436",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1920909.fec"
+      ],
+      "rationale": "Positive general memo explicitly refers to allocation10732436. Filed back-reference schedule says SA11AI although the referenced record is SA12; retain this discrepancy."
+    }
+  ],
+  "limitations": [
+    "Exact self-reported employer aliases do not verify employment and can miss misspellings, unknown employers or unitemized gifts.",
+    "These are campaign-side donor attributions before refunds, not global unique original gifts, company treasury giving, outside spending or a cash-flow measure.",
+    "Report coverage dates describe filings, not a filter on donation dates or the election designation. A JFC memo may refer to an earlier gift.",
+    "Only reviewed account ownership for the stated scope is used. Current committee links alone do not establish historical candidate ownership.",
+    "This report does not replace the site's broader legacy selected-record totals. Unresolved relationships remain unknown.",
+    "The $124,357 parent is an aggregate transfer for many donors. It cannot be assigned to Thayer.",
+    "The $25 allocation is donor attribution, not a second upstream gift or a measured share of net JFC cash after expenses.",
+    "This four-row source excerpt does not establish complete Meta giving to this candidate or complete refunds.",
+    "The positive adjustment's filed back-reference schedule says SA11AI although the linked transaction is on SA12. The reviewed transaction-ID relationship is retained and the original label is preserved in evidence."
+  ]
+}

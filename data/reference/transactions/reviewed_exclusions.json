@@ -1,0 +1,617 @@
+{
+  "schema_version": 1,
+  "version": "2026-09-18-v3",
+  "scope": "Exact reviewed repeats of original receipt records only; no general memo or equal-amount deduplication.",
+  "excluded_records": [
+    {
+      "cycle": 2024,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00851980",
+        "amndt_ind": "A",
+        "rpt_tp": "12P",
+        "transaction_pgi": "P2024",
+        "image_num": "202407099652743847",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "FLORES, LILA",
+        "employer": "PALANTIR",
+        "occupation": "EXECUTIVE",
+        "transaction_dt": "12122023",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "SA11A.49706",
+        "file_num": "1795001",
+        "memo_cd": "X",
+        "memo_text": "SEE REDESIGNATION",
+        "sub_id": "4070920241972634559"
+      },
+      "retained_original_sub_id": "4021620241825261035",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; original remains in the same bulk snapshot. The later filing explicitly links equal negative and positive redesignations to this same transaction ID. Preserve the original and both signed redesignations; exclude only this repeated original memo.",
+      "signed_amount_removed": 6600,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1751145.fec",
+          "sha256": "48f941e6d7032cebc82d56327dd537c1219b88e9b9891a49b97720ccad09844e"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1795001.fec",
+          "sha256": "459e3111d03db26e859899e0367d2c213bd9c3107fb36dd4ca10161a5a5da8b3"
+        }
+      ],
+      "source_row_sha256": "1a138b82fce5bf45d129f673040d256cecbd6b977101e8a84adb9acdbe90c5b5",
+      "retained_original_source_signature": {
+        "cmte_id": "C00851980",
+        "amndt_ind": "N",
+        "rpt_tp": "YE",
+        "transaction_pgi": "P2024",
+        "image_num": "202401319601235546",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "FLORES, LILA",
+        "employer": "PALANTIR",
+        "occupation": "EXECUTIVE",
+        "transaction_dt": "12122023",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "SA11A.49706",
+        "file_num": "1751145",
+        "memo_cd": "",
+        "memo_text": "REATTRIBUTION / REDESIGNATION REQUESTED",
+        "sub_id": "4021620241825261035"
+      },
+      "retained_original_source_row_sha256": "ec3929a2f99dca80f26ab14ff7722d610983a6ab42274b988c14ed9194d7dbfe"
+    },
+    {
+      "cycle": 2024,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00851980",
+        "amndt_ind": "A",
+        "rpt_tp": "Q2",
+        "transaction_pgi": "P2024",
+        "image_num": "202411189719989420",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "CHOI, EMILIE",
+        "employer": "COINBASE",
+        "occupation": "PRESIDENT",
+        "transaction_dt": "02162024",
+        "transaction_amt": "3300",
+        "other_id": "",
+        "tran_id": "SA11A.85942",
+        "file_num": "1849071",
+        "memo_cd": "X",
+        "memo_text": "SEE REDESIGNATION",
+        "sub_id": "4121120241075675834"
+      },
+      "retained_original_sub_id": "4070920241972637869",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; original remains in the same bulk snapshot. The later filing explicitly links equal negative and positive redesignations to this same transaction ID. Preserve the original and both signed redesignations; exclude only this repeated original memo.",
+      "signed_amount_removed": 3300,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1795001.fec",
+          "sha256": "459e3111d03db26e859899e0367d2c213bd9c3107fb36dd4ca10161a5a5da8b3"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1849071.fec",
+          "sha256": "23bbbcc6f46e10f0b5dcce5880907feefb285896ae4f2624bffcbc7f88881578"
+        }
+      ],
+      "source_row_sha256": "d5de32c26b220f56f81fac72472898e33848561173514b1d326d45deb231e592",
+      "retained_original_source_signature": {
+        "cmte_id": "C00851980",
+        "amndt_ind": "A",
+        "rpt_tp": "12P",
+        "transaction_pgi": "P2024",
+        "image_num": "202407099652744950",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "CHOI, EMILIE",
+        "employer": "COINBASE",
+        "occupation": "PRESIDENT",
+        "transaction_dt": "02162024",
+        "transaction_amt": "3300",
+        "other_id": "",
+        "tran_id": "SA11A.85942",
+        "file_num": "1795001",
+        "memo_cd": "",
+        "memo_text": "REATTRIBUTION / REDESIGNATION REQUESTED",
+        "sub_id": "4070920241972637869"
+      },
+      "retained_original_source_row_sha256": "b2be52b290a4d64a7befccb7391d87ccec0575c9a02cbc36cc311d98b4b40520"
+    },
+    {
+      "cycle": 2024,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00841130",
+        "amndt_ind": "A",
+        "rpt_tp": "YE",
+        "transaction_pgi": "P2024",
+        "image_num": "202402209619852721",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "CHANG, HAYLEY",
+        "employer": "META",
+        "occupation": "ATTORNEY",
+        "transaction_dt": "08162023",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "SA17A.161290",
+        "file_num": "1758175",
+        "memo_cd": "X",
+        "memo_text": "SEE REDESIGNATION",
+        "sub_id": "4022820241858223389"
+      },
+      "retained_original_sub_id": "4020120241818781222",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; both original and memo survive in the same bulk snapshot. Equal negative and positive redesignations explicitly back-reference the original transaction. Preserve the original and signed adjustments; exclude only this repeated-original memo.",
+      "signed_amount_removed": 6600,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1751641.fec",
+          "sha256": "a28c361357b608ee1a188142b33eda7cb4073b733d9ff1e8d228bc470494449c"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1758175.fec",
+          "sha256": "89a9861b13ac90c1f5f6da0843b569649a32a49e418ac39a08efb8835a698622"
+        }
+      ],
+      "source_row_sha256": "817767a96a447303fd253a55522a8caf849ea751cae56ba5dfd76595a2c38e4a",
+      "retained_original_source_signature": {
+        "cmte_id": "C00841130",
+        "amndt_ind": "A",
+        "rpt_tp": "Q3",
+        "transaction_pgi": "P2024",
+        "image_num": "202401319607823854",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "CHANG, HAYLEY",
+        "employer": "META",
+        "occupation": "ATTORNEY",
+        "transaction_dt": "08162023",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "SA17A.161290",
+        "file_num": "1751641",
+        "memo_cd": "",
+        "memo_text": "REATTRIBUTION / REDESIGNATION REQUESTED",
+        "sub_id": "4020120241818781222"
+      },
+      "retained_original_source_row_sha256": "ab4bcdfbc032f6fc0680480e2dce02000d33447916d3e649b993be4980d8581d"
+    },
+    {
+      "cycle": 2024,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00841130",
+        "amndt_ind": "A",
+        "rpt_tp": "Q3",
+        "transaction_pgi": "P2024",
+        "image_num": "202401319607819403",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "HUSEMAN, BRIAN",
+        "employer": "AMAZON",
+        "occupation": "VICE PRESIDENT",
+        "transaction_dt": "06192023",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "SA17A.78442",
+        "file_num": "1751641",
+        "memo_cd": "X",
+        "memo_text": "SEE REDESIGNATION",
+        "sub_id": "4020120241818767867"
+      },
+      "retained_original_sub_id": "4071820231753785168",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; both original and memo survive in the same bulk snapshot. Equal negative and positive redesignations explicitly back-reference the original transaction. Preserve the original and signed adjustments; exclude only this repeated-original memo.",
+      "signed_amount_removed": 6600,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1714417.fec",
+          "sha256": "ebd1d6e9d9fec6597685ac9d71359cc5ed602e04a57b08d634a97ac94fe7bbd1"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1751641.fec",
+          "sha256": "a28c361357b608ee1a188142b33eda7cb4073b733d9ff1e8d228bc470494449c"
+        }
+      ],
+      "source_row_sha256": "ed94931f8538cce7ebf778a45284ade0b3945b0e71f6e7655d3605bfb6a5091a",
+      "retained_original_source_signature": {
+        "cmte_id": "C00841130",
+        "amndt_ind": "N",
+        "rpt_tp": "Q2",
+        "transaction_pgi": "P2024",
+        "image_num": "202307159583528548",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "HUSEMAN, BRIAN",
+        "employer": "AMAZON",
+        "occupation": "VICE PRESIDENT",
+        "transaction_dt": "06192023",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "SA17A.78442",
+        "file_num": "1714417",
+        "memo_cd": "",
+        "memo_text": "REATTRIBUTION / REDESIGNATION REQUESTED",
+        "sub_id": "4071820231753785168"
+      },
+      "retained_original_source_row_sha256": "88f2ae618bb1a7e776f633f698cbf68597c5efc6509cc96be1dcd0f5ae41a4ff"
+    },
+    {
+      "cycle": 2024,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00842039",
+        "amndt_ind": "N",
+        "rpt_tp": "Q3",
+        "transaction_pgi": "P2024",
+        "image_num": "202310159597963086",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "PITCOCK, JOSHUA M.",
+        "employer": "ORACLE",
+        "occupation": "LOBBYIST",
+        "transaction_dt": "06232023",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "SA17A.8184",
+        "file_num": "1731124",
+        "memo_cd": "X",
+        "memo_text": "SEE REDESIGNATION",
+        "sub_id": "4101720231804806803"
+      },
+      "retained_original_sub_id": "4071820231753735254",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; both original and memo survive in the same bulk snapshot. Equal negative and positive redesignations explicitly back-reference the original transaction. Preserve the original and signed adjustments; exclude only this repeated-original memo.",
+      "signed_amount_removed": 6600,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1714177.fec",
+          "sha256": "b37448b81c0a6076a5d905f9ca215d2b54eddf6a6c0cc95380b432ede3303808"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1731124.fec",
+          "sha256": "101c637f9e90e9d914a475edce6fac0f559acbca4c3908c1fd1afd40b3316ee0"
+        }
+      ],
+      "source_row_sha256": "b5d77df0cefa47b43a7e96b2bff900b966ef968b1be2c143041b0bf236b6dfd1",
+      "retained_original_source_signature": {
+        "cmte_id": "C00842039",
+        "amndt_ind": "N",
+        "rpt_tp": "Q2",
+        "transaction_pgi": "P2024",
+        "image_num": "202307159583228095",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "PITCOCK, JOSHUA M.",
+        "employer": "ORACLE",
+        "occupation": "LOBBYIST",
+        "transaction_dt": "06232023",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "SA17A.8184",
+        "file_num": "1714177",
+        "memo_cd": "",
+        "memo_text": "REATTRIBUTION / REDESIGNATION REQUESTED",
+        "sub_id": "4071820231753735254"
+      },
+      "retained_original_source_row_sha256": "ee2044127950948acf7c9831de4bff43cdf133c817b5163ae650c6dcef34e4b3"
+    },
+    {
+      "cycle": 2024,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00858688",
+        "amndt_ind": "A",
+        "rpt_tp": "Q3",
+        "transaction_pgi": "G2024",
+        "image_num": "202410249710442678",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "ASSUDANI, RAVI",
+        "employer": "APPLE",
+        "occupation": "SENIOR ENGINEERING MANAGER",
+        "transaction_dt": "06242024",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "3364922",
+        "file_num": "1839846",
+        "memo_cd": "X",
+        "memo_text": "",
+        "sub_id": "4112120241071822809"
+      },
+      "retained_original_sub_id": "4110520241050757770",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; both original and memo survive in the same bulk snapshot. The later filing repeats the original transaction ID and contains a -3300 spouse reattribution dated 2024-08-07 explicitly describing the 2024-06-24 original gift; the +3300 recipient allocation back-references that negative adjustment. Preserve the original and signed adjustments; exclude only this repeated-original memo.",
+      "signed_amount_removed": 6600,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1826949.fec",
+          "sha256": "9311814f182f78bd234a109be24072287b3354886cacc73c748cd0ebc679869b"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1839846.fec",
+          "sha256": "2f1a92afbd164d67a2f0c0d100ab33c34d69539fb25cdfe85264981334ec34d6"
+        }
+      ],
+      "source_row_sha256": "08f70f164dd51bda83ea2dab9565979ae2d989cb7b83954f9c5f88c296507b04",
+      "retained_original_source_signature": {
+        "cmte_id": "C00858688",
+        "amndt_ind": "A",
+        "rpt_tp": "Q2",
+        "transaction_pgi": "G2024",
+        "image_num": "202410159685998166",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "ASSUDANI, RAVI",
+        "employer": "APPLE",
+        "occupation": "SENIOR ENGINEERING MANAGER",
+        "transaction_dt": "06242024",
+        "transaction_amt": "6600",
+        "other_id": "",
+        "tran_id": "3364922",
+        "file_num": "1826949",
+        "memo_cd": "",
+        "memo_text": "REATTRIBUTION OR REFUND TO TAKE PLACE WITHIN 60 DAYS",
+        "sub_id": "4110520241050757770"
+      },
+      "retained_original_source_row_sha256": "6aee1533eef7fbeac97451221e8e7c2c77c4f308980cadf56164ca41d418c534"
+    },
+    {
+      "cycle": 2024,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00850677",
+        "amndt_ind": "A",
+        "rpt_tp": "30G",
+        "transaction_pgi": "G2024",
+        "image_num": "202504259756395521",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "DEWAR, JOHN",
+        "employer": "META PLATFORMS, INC.",
+        "occupation": "SOFTWARE ENGINEER",
+        "transaction_dt": "10082024",
+        "transaction_amt": "3436",
+        "other_id": "",
+        "tran_id": "7835134",
+        "file_num": "1890241",
+        "memo_cd": "X",
+        "memo_text": "",
+        "sub_id": "4042920251187875749"
+      },
+      "retained_original_sub_id": "4112220241072352676",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; both original and memo survive in the same bulk snapshot. The later reporting period repeats the original transaction ID and contains a -136.02 reattribution and a +136.02 recipient allocation explicitly back-referencing that negative adjustment. Source amounts are 3436.02 and 136.02; the bulk rows round these to 3436 and 136. Preserve the original and signed adjustments; exclude only this repeated-original memo.",
+      "signed_amount_removed": 3436,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1839476.fec",
+          "sha256": "eb975bbb8cd91730d18d62f2b5c3e1853372010e2cad475d0fd1d55f371a3a1c"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1890241.fec",
+          "sha256": "0aaa463f4b450aec9d86fd9d657f9b133b2cf6abe58683761b0e3598d60912fc"
+        }
+      ],
+      "source_row_sha256": "043925b80fb1caa612afd1db86dd086f171b4be564bbe49a8609ed77030630f5",
+      "retained_original_source_signature": {
+        "cmte_id": "C00850677",
+        "amndt_ind": "N",
+        "rpt_tp": "12G",
+        "transaction_pgi": "G2024",
+        "image_num": "202410249710404367",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "DEWAR, JOHN",
+        "employer": "META PLATFORMS, INC.",
+        "occupation": "SOFTWARE ENGINEER",
+        "transaction_dt": "10082024",
+        "transaction_amt": "3436",
+        "other_id": "",
+        "tran_id": "7835134",
+        "file_num": "1839476",
+        "memo_cd": "",
+        "memo_text": "",
+        "sub_id": "4112220241072352676"
+      },
+      "retained_original_source_row_sha256": "1e75252d6bddcd758c926475d34ac3221976116fe9982ab6929c9c9f61fbac21"
+    },
+    {
+      "cycle": 2026,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00503185",
+        "amndt_ind": "N",
+        "rpt_tp": "Q2",
+        "transaction_pgi": "P2026",
+        "image_num": "202507159762985520",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "SHROFF, MOHAK",
+        "employer": "LINKEDIN",
+        "occupation": "MANAGER",
+        "transaction_dt": "03312025",
+        "transaction_amt": "7000",
+        "other_id": "",
+        "tran_id": "12874520",
+        "file_num": "1901934",
+        "memo_cd": "X",
+        "memo_text": "REATTRIBUTED OR REFUNDED WITHIN 60 DAYS",
+        "sub_id": "4072320251211330592"
+      },
+      "retained_original_sub_id": "4042320251186218387",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; both original and memo survive in the same bulk snapshot. The Q2 filing repeats the Q1 original transaction ID and has a -7000 spouse reattribution explicitly identifying the 2025-03-31 gift. Two +3500 spouse allocations explicitly back-reference that negative adjustment. Preserve the two other 3500 original gifts with distinct transaction IDs. Preserve the original and signed adjustments; exclude only this repeated-original memo.",
+      "signed_amount_removed": 7000,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1886959.fec",
+          "sha256": "6cefdf67f0d930390c7657e7098b1b0e6a1c9c7b5ab36d6b4694b3e29927434f"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1901934.fec",
+          "sha256": "c7cebe3f8fd5c3c43a4f4a1fd0ebcc30f0dfeeb2548978e05585ce1545ab2fa6"
+        }
+      ],
+      "source_row_sha256": "35986b5b6ba83612887a28bd5e39edad2be2ad915eefce426bf7920ab17bf045",
+      "retained_original_source_signature": {
+        "cmte_id": "C00503185",
+        "amndt_ind": "N",
+        "rpt_tp": "Q1",
+        "transaction_pgi": "P2026",
+        "image_num": "202504159755425450",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "SHROFF, MOHAK",
+        "employer": "LINKEDIN",
+        "occupation": "MANAGER",
+        "transaction_dt": "03312025",
+        "transaction_amt": "7000",
+        "other_id": "",
+        "tran_id": "12874520",
+        "file_num": "1886959",
+        "memo_cd": "",
+        "memo_text": "REATTRIBUTED OR REFUNDED WITHIN 60 DAYS",
+        "sub_id": "4042320251186218387"
+      },
+      "retained_original_source_row_sha256": "2e29e77aa26fee97777f6d1db5b3091869d3c9146d512eca8443383fc3ccfd6f"
+    },
+    {
+      "cycle": 2026,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00908624",
+        "amndt_ind": "N",
+        "rpt_tp": "Q3",
+        "transaction_pgi": "P2026",
+        "image_num": "202510159790811750",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "WALL, BEN B.",
+        "employer": "AWS",
+        "occupation": "OWNER",
+        "transaction_dt": "06132025",
+        "transaction_amt": "5000",
+        "other_id": "",
+        "tran_id": "A97E576EA8F7F414F990",
+        "file_num": "1919683",
+        "memo_cd": "X",
+        "memo_text": "SEE REATTRIBUTION BELOW",
+        "sub_id": "4121220251298426494"
+      },
+      "retained_original_sub_id": "4071020251208128337",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; both original and memo survive in the same bulk snapshot. The later filing repeats the original transaction ID with See Reattribution below, and its -1500 donor / +1500 spouse allocations both explicitly back-reference that original. Preserve the original and signed adjustments; exclude only this repeated-original memo.",
+      "signed_amount_removed": 5000,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1899651.fec",
+          "sha256": "66f9fc3435d0d625df2ad17642daff57088dfb0dacef26730f1a97b032ea9f0d"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1919683.fec",
+          "sha256": "fe335193eeac55caecb6a1027793c42f2d30c0dbcd65a5e6a9a2f2e979c43cc4"
+        }
+      ],
+      "source_row_sha256": "9aacf155eb81943959b0565c5a769e055d32ec3a95bae8a59676b0f493caa5db",
+      "retained_original_source_signature": {
+        "cmte_id": "C00908624",
+        "amndt_ind": "N",
+        "rpt_tp": "Q2",
+        "transaction_pgi": "P2026",
+        "image_num": "202507109762754477",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "WALL, BEN B.",
+        "employer": "AWS",
+        "occupation": "OWNER",
+        "transaction_dt": "06132025",
+        "transaction_amt": "5000",
+        "other_id": "",
+        "tran_id": "A97E576EA8F7F414F990",
+        "file_num": "1899651",
+        "memo_cd": "",
+        "memo_text": "",
+        "sub_id": "4071020251208128337"
+      },
+      "retained_original_source_row_sha256": "fbc7dad27d0eaee3200b48e3461faa1c15771437e448c3955917c1ad75595f16"
+    },
+    {
+      "cycle": 2026,
+      "source_file": "itcont.txt",
+      "source_signature": {
+        "cmte_id": "C00858688",
+        "amndt_ind": "N",
+        "rpt_tp": "Q2",
+        "transaction_pgi": "G2026",
+        "image_num": "202507159763102939",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "SCHLEIN, THEODORE E.",
+        "employer": "KLEINER PERKINS CAUFIELD & BYERS",
+        "occupation": "VENTURE CAPITALIST",
+        "transaction_dt": "03312025",
+        "transaction_amt": "3500",
+        "other_id": "",
+        "tran_id": "7035721",
+        "file_num": "1902118",
+        "memo_cd": "X",
+        "memo_text": "",
+        "sub_id": "4072420251211639534"
+      },
+      "retained_original_sub_id": "4052020261510792771",
+      "reviewed_at": "2026-09-18",
+      "reviewer": "Codex source-document audit",
+      "reason": "Previously reported original contribution repeated as a memo in a later reporting period; both original and memo survive in the same bulk snapshot. The Q2 filing repeats the Q1 original transaction ID and has a -3500 spouse reattribution explicitly identifying the 2025-03-31 gift. The +3500 spouse allocation back-references that negative adjustment. The surviving Q1 original is a later-filed amendment; preserve the separate original 3500 gift 7035704. Preserve the original and signed adjustments; exclude only this repeated-original memo.",
+      "signed_amount_removed": 3500,
+      "evidence": [
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1964671.fec",
+          "sha256": "519a0962a0ac2fde564d916a045b383fd194ef4662838d69636d82c10a2853e3"
+        },
+        {
+          "url": "https://docquery.fec.gov/dcdev/posted/1902118.fec",
+          "sha256": "4d003b3b009a32c6f17324c70fe0965e12a16ca9af10a2aed698b4804918f0c2"
+        }
+      ],
+      "source_row_sha256": "d60208e7c7e64b853978406a0fd23fe290f78bb0157e5b5d89fd48ad0f791e78",
+      "retained_original_source_signature": {
+        "cmte_id": "C00858688",
+        "amndt_ind": "A",
+        "rpt_tp": "Q1",
+        "transaction_pgi": "G2026",
+        "image_num": "202604159857681176",
+        "transaction_tp": "15",
+        "entity_tp": "IND",
+        "name": "SCHLEIN, THEODORE E.",
+        "employer": "KLEINER PERKINS CAUFIELD & BYERS",
+        "occupation": "VENTURE CAPITALIST",
+        "transaction_dt": "03312025",
+        "transaction_amt": "3500",
+        "other_id": "",
+        "tran_id": "7035721",
+        "file_num": "1964671",
+        "memo_cd": "",
+        "memo_text": "",
+        "sub_id": "4052020261510792771"
+      },
+      "retained_original_source_row_sha256": "613544dc4b79c7b9810f8a9eb198454b7027c534810ca56f3147ece4bc3cc33b"
+    }
+  ]
+}

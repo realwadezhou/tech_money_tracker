@@ -1,0 +1,47 @@
+{
+  "version": "ai-2026-09-07-v1",
+  "topics": [
+    {
+      "id": "ai",
+      "label": "AI references",
+      "description": "Explicit AI phrases, plus abbreviations marked for context review. A match identifies a mention, not a policy position.",
+      "rules": [
+        {"id": "artificial-intelligence", "pattern": "\\bartificial[\\s-]+intelligence\\b", "kind": "direct"},
+        {"id": "generative-ai", "pattern": "\\bgenerative[\\s-]+(?:AI|artificial intelligence)\\b", "kind": "direct"},
+        {"id": "language-model", "pattern": "\\blarge[\\s-]+language[\\s-]+models?\\b", "kind": "direct"},
+        {"id": "foundation-model", "pattern": "\\bfoundation[\\s-]+models?\\b", "kind": "direct"},
+        {"id": "machine-learning", "pattern": "\\bmachine[\\s-]+learning\\b", "kind": "direct"},
+        {"id": "ai-abbreviation", "pattern": "(?<![A-Za-z0-9])(?:AI|A\\.I\\.)(?![A-Za-z0-9])", "case_sensitive": true, "kind": "ambiguous"},
+        {"id": "llm-abbreviation", "pattern": "\\bLLMs?\\b", "case_sensitive": true, "kind": "ambiguous"}
+      ]
+    },
+    {
+      "id": "copyright",
+      "label": "AI + copyright",
+      "description": "Copyright language and an AI reference occur in the same issue entry; their relationship still needs reading.",
+      "requires": "ai",
+      "rules": [{"id": "copyright-context", "pattern": "\\b(?:copyright|intellectual property|training data|digital replicas?|likeness|NO FAKES)\\b", "kind": "context"}]
+    },
+    {
+      "id": "safety",
+      "label": "AI + safety / accountability",
+      "description": "Safety or accountability language co-occurs with an AI reference in the same issue entry.",
+      "requires": "ai",
+      "rules": [{"id": "safety-context", "pattern": "\\b(?:safety|accountability|risk management|model evaluations?|transparency|bias|discrimination)\\b", "kind": "context"}]
+    },
+    {
+      "id": "infrastructure",
+      "label": "AI + chips / infrastructure",
+      "description": "Infrastructure or export-control language co-occurs with an AI reference in the same issue entry.",
+      "requires": "ai",
+      "rules": [{"id": "infrastructure-context", "pattern": "\\b(?:semiconductors?|chips?|data[ -]?centers?|computing|compute|export[ -]controls?)\\b", "kind": "context"}]
+    },
+    {
+      "id": "privacy",
+      "label": "AI + privacy",
+      "description": "Privacy or personal-data language co-occurs with an AI reference in the same issue entry.",
+      "requires": "ai",
+      "rules": [{"id": "privacy-context", "pattern": "\\b(?:privacy|personal data|data protection|biometric\\w*)\\b", "kind": "context"}]
+    }
+  ]
+}

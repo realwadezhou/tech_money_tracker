@@ -1,0 +1,760 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "method": "Independent standard-library raw CSV extraction, full-file SHA256, exact full-row SHA256, explicit reviewed roles, and literal expected amounts. Production counting engine is not imported.",
+  "layout_source": "https://fecgov.github.io/fecfile-validate/SchA_spec.html",
+  "manifest_sha256": "1f8045b95d9247c4d93e3b5a2f70b56b2672d407b6e7208ed889879b8d8b2535",
+  "alias_sha256": "b2e2157c9171246b60f16092a5855467fc07ee8b0617f30ce7fc63775f4cb268",
+  "source_counts": [
+    {
+      "file_number": 1887226,
+      "sha256": "e2cbbab4dcde6ff6e50048a1d3376a3e4312ef535873833e07c380ac1da5981c",
+      "schedule_records": 1234
+    },
+    {
+      "file_number": 1903193,
+      "sha256": "49640f49cad22228d6bb8f4cc4125245cd45a9241d1f2d4441723a14a784c34d",
+      "schedule_records": 1817
+    },
+    {
+      "file_number": 1920909,
+      "sha256": "29351e9a1c2848e84fe7824556498d27b3c31c25664b578c1d54caa8a90ea78e",
+      "schedule_records": 2570
+    },
+    {
+      "file_number": 1940921,
+      "sha256": "955960ae70861cee396410e8e5e6fcfdbc91df6d43b64f4d3c6d72d0e8c469aa",
+      "schedule_records": 2149
+    },
+    {
+      "file_number": 1963978,
+      "sha256": "e3ea498b3005f64c030af30713a56840d6ac520475588a24736e8acdcb566b3d",
+      "schedule_records": 3255
+    },
+    {
+      "file_number": 1996658,
+      "sha256": "ec8dcba5f7a8839d83c6dab2092e280a631ec735542084171379646c1d1c256a",
+      "schedule_records": 3648
+    },
+    {
+      "file_number": 2001574,
+      "sha256": "416f2f542e8ccfc1da1e39a023057d931d0754363e0c83685241c753f000c59a",
+      "schedule_records": 514
+    }
+  ],
+  "periods": [
+    {
+      "file_number": 1887226,
+      "start": "20250101",
+      "end": "20250331"
+    },
+    {
+      "file_number": 1903193,
+      "start": "20250401",
+      "end": "20250630"
+    },
+    {
+      "file_number": 1920909,
+      "start": "20250701",
+      "end": "20250930"
+    },
+    {
+      "file_number": 1940921,
+      "start": "20251001",
+      "end": "20251231"
+    },
+    {
+      "file_number": 1963978,
+      "start": "20260101",
+      "end": "20260331"
+    },
+    {
+      "file_number": 1996658,
+      "start": "20260401",
+      "end": "20260630"
+    },
+    {
+      "file_number": 2001574,
+      "start": "20260701",
+      "end": "20260715"
+    }
+  ],
+  "source_file_count": 7,
+  "schedule_record_count": 15187,
+  "reviewed_row_count": 188,
+  "negative_source_row_counts": {
+    "IND/SA11AI": 58,
+    "ORG/SA11AI": 1,
+    "PAC/SA11C": 1,
+    "ORG/SA12": 1
+  },
+  "matched_source_record_count": 89,
+  "expected_companies": {
+    "amazon": {
+      "direct_receipts": "5000.00",
+      "direct_count": 9,
+      "jfc_allocations": "19000.00",
+      "jfc_count": 6,
+      "signed_adjustments": "0.00",
+      "adjustment_count": 0,
+      "attributed_before_refunds": "24000.00"
+    },
+    "google": {
+      "direct_receipts": "3750.00",
+      "direct_count": 2,
+      "jfc_allocations": "0.00",
+      "jfc_count": 0,
+      "signed_adjustments": "0.00",
+      "adjustment_count": 0,
+      "attributed_before_refunds": "3750.00"
+    },
+    "meta": {
+      "direct_receipts": "4900.00",
+      "direct_count": 9,
+      "jfc_allocations": "25.00",
+      "jfc_count": 1,
+      "signed_adjustments": "0.00",
+      "adjustment_count": 8,
+      "attributed_before_refunds": "4925.00"
+    },
+    "microsoft": {
+      "direct_receipts": "14750.00",
+      "direct_count": 44,
+      "jfc_allocations": "17700.00",
+      "jfc_count": 4,
+      "signed_adjustments": "0.00",
+      "adjustment_count": 6,
+      "attributed_before_refunds": "32450.00"
+    }
+  },
+  "matched_records": [
+    {
+      "record_id": "1887226:10353372",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "100.00",
+      "source_row_sha256": "05854b135037e4265323223c0c214375bf91f8da7262869e79ece221717310b7"
+    },
+    {
+      "record_id": "1887226:10362077",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "100.00",
+      "source_row_sha256": "cc1535e6ffb31872446ddbfa7049f6052d6a81584bbf2dfdb3bc9c41dff8056f"
+    },
+    {
+      "record_id": "1887226:10400723",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "250.00",
+      "source_row_sha256": "2d5eb25abe030389f99297eb65f7409ecc95f8b048873dc541f36078e68b883b"
+    },
+    {
+      "record_id": "1887226:10413711",
+      "company": "amazon",
+      "component": "direct_receipts",
+      "source_amount": "1000.00",
+      "source_row_sha256": "4361430826d356eb2e800336cc6705429ff5977902ccaad5521a32f339973c12"
+    },
+    {
+      "record_id": "1887226:10391985",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "500.00",
+      "source_row_sha256": "c9cd895924dd6002182d0b89730d8aa4924e54a1c9c55fff2847acd1354c94dc"
+    },
+    {
+      "record_id": "1903193:10581600",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "100.00",
+      "source_row_sha256": "b09cfa3949f9af603c4bfba75aa117efb05d11ce7923723da3d3255071c31018"
+    },
+    {
+      "record_id": "1903193:10477726",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "bda2ce94cc0063ce93e3b9e0d8c5a80ab497fa838246664ac481e30796e6aaa5"
+    },
+    {
+      "record_id": "1903193:10538183",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "d30a9ef727448a9de353c9e42ee1bb2404541b8704050c6d984e406460bbf736"
+    },
+    {
+      "record_id": "1903193:10578735",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "2103ddfb3a9f2c9355fa5f36ddb8b0639bcf2c041fc97822aba38c93a6ef99b4"
+    },
+    {
+      "record_id": "1903193:10505076",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "e1e35ca4006629e0f2be85fe5d5773825666ada725b76a553346ca7532431c2f"
+    },
+    {
+      "record_id": "1903193:10546253",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "83f571c3baed9f48218d55bb09cc971827fe34fb5afcc0e15ebcb1a3ae0de312"
+    },
+    {
+      "record_id": "1903193:10591605",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "fe607c2378f3d5d4f86508c1212f1f84c1f06963382f13eeb12702dbb14650fa"
+    },
+    {
+      "record_id": "1903193:10445016",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "100.00",
+      "source_row_sha256": "812e347dc0a7831ffb4d3933f5732a14b9982040664157d9da4ef7beb14c038b"
+    },
+    {
+      "record_id": "1903193:10494475",
+      "company": "meta",
+      "component": "direct_receipts",
+      "source_amount": "100.00",
+      "source_row_sha256": "5a7d0bff47aa8c71a051884931a7fd9aacf9b99463f08ac389a1d78e3dcb3eb6"
+    },
+    {
+      "record_id": "1903193:10502735",
+      "company": "meta",
+      "component": "direct_receipts",
+      "source_amount": "500.00",
+      "source_row_sha256": "808009752a7c40d5377a1d8ab8d5cee601abb430ccd600b939b5f71c0f518616"
+    },
+    {
+      "record_id": "1903193:10538073",
+      "company": "meta",
+      "component": "direct_receipts",
+      "source_amount": "500.00",
+      "source_row_sha256": "c81ef643e3d5b31e7585058cc40f0524ea2f530d41e51c35fcb767798847f2de"
+    },
+    {
+      "record_id": "1903193:10556104",
+      "company": "meta",
+      "component": "direct_receipts",
+      "source_amount": "2000.00",
+      "source_row_sha256": "e0490d1a858015eb95a1865baffeefbaad51b186602423178e1c818c5b358f8b"
+    },
+    {
+      "record_id": "1903193:10579798",
+      "company": "meta",
+      "component": "direct_receipts",
+      "source_amount": "100.00",
+      "source_row_sha256": "e752ef42957e6faefb24b24336c2240e2d803ad8c3d4d8a63990b946baa1402c"
+    },
+    {
+      "record_id": "1903193:10472923",
+      "company": "amazon",
+      "component": "direct_receipts",
+      "source_amount": "250.00",
+      "source_row_sha256": "36b80ebcc59293a543ba6cf045269a7521df43a6b38d90d1b32ea51ce74a5d33"
+    },
+    {
+      "record_id": "1903193:10592551",
+      "company": "amazon",
+      "component": "direct_receipts",
+      "source_amount": "500.00",
+      "source_row_sha256": "518a86b79ffc8e528e14d037ff139e5c86fd612b76e966b4591be5a84a6ed01a"
+    },
+    {
+      "record_id": "1920909:10623276",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "07eb049743c1121ed8e8e783ea8067c10dd503e7157ff3a05523b14e90bfd395"
+    },
+    {
+      "record_id": "1920909:10663364",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "a23342349c32ee37c0de4bb05a4d7309fd373ecf5e64d6240dcf620822b9c593"
+    },
+    {
+      "record_id": "1920909:10706979",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "f2055079ace1543395dcdcd51f7fa6a4a509cf53f6202a7b4333eba4d9ce1642"
+    },
+    {
+      "record_id": "1920909:10732594",
+      "company": "microsoft",
+      "component": "signed_adjustments",
+      "source_amount": "3500.00",
+      "source_row_sha256": "092c190433cd832fca77648378114566c125f1daeeb1469be47a4a85487d1efc"
+    },
+    {
+      "record_id": "1920909:10732596",
+      "company": "microsoft",
+      "component": "signed_adjustments",
+      "source_amount": "-3500.00",
+      "source_row_sha256": "8622809dbc14ca9ec343400e1d2978f6dd0e7116a4443f0fd3f41554c3fcb80a"
+    },
+    {
+      "record_id": "1920909:10732585",
+      "company": "microsoft",
+      "component": "signed_adjustments",
+      "source_amount": "3500.00",
+      "source_row_sha256": "8191acda556e034c80f8b8a01f74f42e32e349a92c2cf90b47a0dee364ef26a3"
+    },
+    {
+      "record_id": "1920909:10732586",
+      "company": "microsoft",
+      "component": "signed_adjustments",
+      "source_amount": "-3500.00",
+      "source_row_sha256": "e914c3bed00d849a17903c01947f054128bd26be9ecc603555e90f627011ceb8"
+    },
+    {
+      "record_id": "1920909:10732456",
+      "company": "meta",
+      "component": "signed_adjustments",
+      "source_amount": "-25.00",
+      "source_row_sha256": "dbc480c1b74fc9bfb088acb85008a4955593f9b945af9196985349a9cd02e243"
+    },
+    {
+      "record_id": "1920909:10732455",
+      "company": "meta",
+      "component": "signed_adjustments",
+      "source_amount": "25.00",
+      "source_row_sha256": "d045e467a744e1a0a5c72856de5dc2ce2986283fa40a3fe5f0cfcfcd674f3903"
+    },
+    {
+      "record_id": "1920909:10628580",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "3300.00",
+      "source_row_sha256": "95844e15d1b9b25eb5b4043ef0d35a9e937e5af7a708ca5c22f6a06d1994852c"
+    },
+    {
+      "record_id": "1920909:10660522",
+      "company": "amazon",
+      "component": "direct_receipts",
+      "source_amount": "1000.00",
+      "source_row_sha256": "d3f51886ea3dfcc2349ebfeb11a8b9b560ad77d8f58c8fedb21efe901f7d195b"
+    },
+    {
+      "record_id": "1920909:10639701",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "9bbec348de5f1bbe60168ba2935e9e0f1893e59d328d50a15beea2f9d1adb9b8"
+    },
+    {
+      "record_id": "1920909:10672701",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "a9bcc32666c8a409994afdf8d48695b331a4d8f0a3ca68d879efc5ed90e3a581"
+    },
+    {
+      "record_id": "1920909:10732674",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "aff5b22d2cf9fd278a509221d92ea7e8df2ded5af4de20dad451ddb4221b7fd0"
+    },
+    {
+      "record_id": "1920909:10610659",
+      "company": "meta",
+      "component": "direct_receipts",
+      "source_amount": "1000.00",
+      "source_row_sha256": "1d0234bbd2dadbdf746efb8f5316dfae6c3158ef0e1127474154ba0f65e446e2"
+    },
+    {
+      "record_id": "1920909:10636375",
+      "company": "meta",
+      "component": "signed_adjustments",
+      "source_amount": "700.00",
+      "source_row_sha256": "0941cc309d6b63480c34389e375233c3cb5445279d7f65b83f31ca139c8f13fb"
+    },
+    {
+      "record_id": "1920909:10636372",
+      "company": "meta",
+      "component": "signed_adjustments",
+      "source_amount": "-700.00",
+      "source_row_sha256": "81c3fec98e5462045b3d65a0a19144798acc14bb0f475aeb4fa24fe5ef2736dc"
+    },
+    {
+      "record_id": "1920909:10744951",
+      "company": "meta",
+      "component": "direct_receipts",
+      "source_amount": "500.00",
+      "source_row_sha256": "5ecd5c2a06e2c487c7e7c72ee7c041f162bf897117ee00b8e75554218d900ee9"
+    },
+    {
+      "record_id": "1920909:10746900",
+      "company": "meta",
+      "component": "signed_adjustments",
+      "source_amount": "-500.00",
+      "source_row_sha256": "eb6a4aeb9929313d3a71098e2635a11c5d271284ca54b44249b706a028e5b0b3"
+    },
+    {
+      "record_id": "1920909:10746905",
+      "company": "meta",
+      "component": "signed_adjustments",
+      "source_amount": "500.00",
+      "source_row_sha256": "049e4b817c5619bacff07738e3596e9d6df2aa06978810f0c84f54757de00c3d"
+    },
+    {
+      "record_id": "1920909:10676974",
+      "company": "google",
+      "component": "direct_receipts",
+      "source_amount": "3500.00",
+      "source_row_sha256": "f64048ca60ef94636e056f1eadb7c7208f706a59a139805c6df4f960169379a0"
+    },
+    {
+      "record_id": "1920909:10732409",
+      "company": "microsoft",
+      "component": "jfc_allocations",
+      "source_amount": "3700.00",
+      "source_row_sha256": "3ccdac9bc68cd5be58fcc4659a37db1977d1505a5ae9c3d4063050de2c0b2a96"
+    },
+    {
+      "record_id": "1920909:10732427",
+      "company": "microsoft",
+      "component": "jfc_allocations",
+      "source_amount": "7000.00",
+      "source_row_sha256": "c847427287154e0f0dd949b09cac4d746047547404392238534437bd81701564"
+    },
+    {
+      "record_id": "1920909:10732436",
+      "company": "meta",
+      "component": "jfc_allocations",
+      "source_amount": "25.00",
+      "source_row_sha256": "a8cd24d3b0971103fd7fb223b14cda01d32fdf7ae163c13e5de4c5b4e30fd2eb"
+    },
+    {
+      "record_id": "1940921:10786123",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "250.00",
+      "source_row_sha256": "328be9eef0dcbd9d150e4b457f94fd268ce0d0cfd2334b88259129b8759520da"
+    },
+    {
+      "record_id": "1940921:10854372",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "7000.00",
+      "source_row_sha256": "f64f96082a3162732622ab5707f9dfdcc14b4fe8ae801582209946529839cc9e"
+    },
+    {
+      "record_id": "1940921:10865020",
+      "company": "microsoft",
+      "component": "signed_adjustments",
+      "source_amount": "3500.00",
+      "source_row_sha256": "6b79c683e9cf3c9eabad92ca2c602d456cfb3893dc24b6087ad5dd183dc5fe60"
+    },
+    {
+      "record_id": "1940921:10865021",
+      "company": "microsoft",
+      "component": "signed_adjustments",
+      "source_amount": "-3500.00",
+      "source_row_sha256": "c244e34696347c47bb710d6f6830463a9f9db931f3e681b3231267054c4fe297"
+    },
+    {
+      "record_id": "1940921:10777186",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "478c6efc38bae6d24f6ee9c3a6a36e6dfa4ec14a6fac5df76b8625d61cb2c56e"
+    },
+    {
+      "record_id": "1940921:10825808",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "997d3addde65b35040528f90c756246d86eb6dcca502a74abe064a2e7f4572bb"
+    },
+    {
+      "record_id": "1940921:10893318",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "160beab632ac49c87a836c986d0bcc6022e626e36a800136e90d8d3054305b01"
+    },
+    {
+      "record_id": "1940921:10786849",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "500.00",
+      "source_row_sha256": "5fd1f3b58ef7d1d1fd7d82be1b1ba30e4f54ab32982bbdad9dee17a3bc3142c3"
+    },
+    {
+      "record_id": "1940921:10776566",
+      "company": "amazon",
+      "component": "direct_receipts",
+      "source_amount": "1000.00",
+      "source_row_sha256": "9ca748d2273c48ac5e7cb6bb849062938697d710ed7ddca10f17bda33d3b5554"
+    },
+    {
+      "record_id": "1940921:10813362",
+      "company": "amazon",
+      "component": "direct_receipts",
+      "source_amount": "250.00",
+      "source_row_sha256": "fcbf8db5b31ee7933a4477df8b3a94beca148eb2dd02628e0dbede5349158372"
+    },
+    {
+      "record_id": "1940921:10780804",
+      "company": "google",
+      "component": "direct_receipts",
+      "source_amount": "250.00",
+      "source_row_sha256": "6a8625056cd59b9a9cab536951505ecb977a897f134490da0e34e02c00d4eaf0"
+    },
+    {
+      "record_id": "1940921:10914925",
+      "company": "amazon",
+      "component": "direct_receipts",
+      "source_amount": "250.00",
+      "source_row_sha256": "208479da249da96fba4bb3ff3e59918c9279ae53fd8b4adb0cfbbd30bc6a98d2"
+    },
+    {
+      "record_id": "1940921:10788476",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "99c9a82d7b6484b654a0a2655defcb93d749b65362f43dceb8d573a5fcbb7f39"
+    },
+    {
+      "record_id": "1940921:10852466",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "92071af1c24dd206418ccb67761f22df4cd377ba5013aa7d648e1086bda0f58d"
+    },
+    {
+      "record_id": "1940921:10908148",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "2d2c632e8b8436be6daa07db0612dd1cceaca1c445dfbbdf2a968968954e69c4"
+    },
+    {
+      "record_id": "1940921:10799563",
+      "company": "meta",
+      "component": "direct_receipts",
+      "source_amount": "100.00",
+      "source_row_sha256": "40aa4eb6c6cb0f24a6fbf9b44bc0ff85d625598bfb8e3b9e100b1ed4ce3388c3"
+    },
+    {
+      "record_id": "1940921:10811896",
+      "company": "meta",
+      "component": "signed_adjustments",
+      "source_amount": "-100.00",
+      "source_row_sha256": "4d1deb0fc5bf5d6020048af112c8615d4d1f00165be237537ae9a8b48399a19e"
+    },
+    {
+      "record_id": "1940921:10811897",
+      "company": "meta",
+      "component": "signed_adjustments",
+      "source_amount": "100.00",
+      "source_row_sha256": "239d683e24039107e574868f4ce6c438b80d9e3d81b0db38c844affdf1f361db"
+    },
+    {
+      "record_id": "1940921:10827133",
+      "company": "meta",
+      "component": "direct_receipts",
+      "source_amount": "100.00",
+      "source_row_sha256": "d244c384ac4939716840da6febe6f82d197069d96a30e031d2588339f6bf2f05"
+    },
+    {
+      "record_id": "1940921:10898839",
+      "company": "microsoft",
+      "component": "jfc_allocations",
+      "source_amount": "3500.00",
+      "source_row_sha256": "870bc1126420169d3013ce568e0900fe9bde32e5cf8f8a64dc941112e1efabe9"
+    },
+    {
+      "record_id": "1940921:10898841",
+      "company": "microsoft",
+      "component": "jfc_allocations",
+      "source_amount": "3500.00",
+      "source_row_sha256": "6a5fe52f6aa0f6039e8aafb793e89420b13c263e2a6990496f2f8c938e94b869"
+    },
+    {
+      "record_id": "1963978:10948546",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "bb65a041cb755df7d011ea228b6b7c0c3053997f37facfc67778a3e03b69fa0b"
+    },
+    {
+      "record_id": "1963978:11012323",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "121d18555fb7eac9f2cae8e68168325d0de412b39993687e0078634e0b4915da"
+    },
+    {
+      "record_id": "1963978:11058927",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "42b118243ab309f33d79ed7dc9b9c0674df789d85ca9ef83d4741539d1b40072"
+    },
+    {
+      "record_id": "1963978:10966980",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "ca8b81aa36f460f897ce1393658c8e19a590083ea3382ac04b50ccd66adba4d3"
+    },
+    {
+      "record_id": "1963978:11027375",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "6f165624dfcdd4481b5d6d510eaa4a9ca01e3c1e6b01727f9505f99d05e01671"
+    },
+    {
+      "record_id": "1963978:11085440",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "cf3e2da6383b738a86d620c0b836e9279e0884df90814188d01cc4d73d655316"
+    },
+    {
+      "record_id": "1963978:11090329",
+      "company": "amazon",
+      "component": "jfc_allocations",
+      "source_amount": "3500.00",
+      "source_row_sha256": "44daafc34b8883556dbe88a02a753c740da3c2dcab46db591c0b5b9194302a19"
+    },
+    {
+      "record_id": "1963978:11090330",
+      "company": "amazon",
+      "component": "jfc_allocations",
+      "source_amount": "1500.00",
+      "source_row_sha256": "f5067784898bf06590bb557ed6e42e2cc946a1ff357be440b797fe2d3416c9f5"
+    },
+    {
+      "record_id": "1963978:11090357",
+      "company": "amazon",
+      "component": "jfc_allocations",
+      "source_amount": "3500.00",
+      "source_row_sha256": "44b4eebefe193c3003c8c4a47d058d557392f3f6a3344cffa0bf5b8e86469c3d"
+    },
+    {
+      "record_id": "1963978:11090358",
+      "company": "amazon",
+      "component": "jfc_allocations",
+      "source_amount": "3500.00",
+      "source_row_sha256": "ec2a6aa23d463bc45eedd85c362da6d27a166bb861a997d8844a7c774558e05c"
+    },
+    {
+      "record_id": "1963978:11090359",
+      "company": "amazon",
+      "component": "jfc_allocations",
+      "source_amount": "3500.00",
+      "source_row_sha256": "1fa0ba1082e3d4fcdf48e2c0094ee5a85ec13203f013fee347b224e8a6dc3bad"
+    },
+    {
+      "record_id": "1963978:11090360",
+      "company": "amazon",
+      "component": "jfc_allocations",
+      "source_amount": "3500.00",
+      "source_row_sha256": "ec4e9715f5234ca955b0d69ec941b43b9670ff4a36a9ab485749541fc7ba8410"
+    },
+    {
+      "record_id": "1996658:11286698",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "500.00",
+      "source_row_sha256": "043eedc184e91cbc45667415ae3fe2ff217eb1a7d0a915e23c84a5dcc1fc9a22"
+    },
+    {
+      "record_id": "1996658:11132546",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "04254d29f77afc980a9366bca5f63d4ef62627b593f60ff1af7ec6a5fd9e42e3"
+    },
+    {
+      "record_id": "1996658:11197604",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "c4c17cf7955b79f2346db412b91b23c86392c72eecdf4733d6bc0a74e5fd08fe"
+    },
+    {
+      "record_id": "1996658:11263428",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "5.00",
+      "source_row_sha256": "ca60257144b5dfe09fb385a178d8021267f087b8309b0895bc8aeae06c831b14"
+    },
+    {
+      "record_id": "1996658:11128344",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "500.00",
+      "source_row_sha256": "01ed416970a167e57f16cde1bd5abc2969ae697912d24d5b278f5fd4f631117a"
+    },
+    {
+      "record_id": "1996658:11196941",
+      "company": "amazon",
+      "component": "direct_receipts",
+      "source_amount": "500.00",
+      "source_row_sha256": "a977ad589e9f188cbcbdaf7c9aec3df788428636ba67e264bbe77cfb232f39cc"
+    },
+    {
+      "record_id": "1996658:11201400",
+      "company": "amazon",
+      "component": "direct_receipts",
+      "source_amount": "250.00",
+      "source_row_sha256": "a42b09bd2d645262f8f118e8505527fb1770a77b3e46a53a6446a1e7ec267d24"
+    },
+    {
+      "record_id": "1996658:11167489",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "250.00",
+      "source_row_sha256": "d226e5ed0d5672933c0566ce34294760008ab7276e79112856ece86ee0c63d1f"
+    },
+    {
+      "record_id": "1996658:11259196",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "250.00",
+      "source_row_sha256": "b757e5cbc4be7d02a71764b483a04f6b8b78c8ca547720ecfdb2df81136f1bf0"
+    },
+    {
+      "record_id": "1996658:11146070",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "c2ca647be69d7dad130f2a78ee01b3f4eed754a7d0ebcb948df45ac40740b2c6"
+    },
+    {
+      "record_id": "1996658:11211202",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "d68897f14f2830665505d4db447a1934b3bca258cc237602a77d7e98cf47c9bf"
+    },
+    {
+      "record_id": "1996658:11275998",
+      "company": "microsoft",
+      "component": "direct_receipts",
+      "source_amount": "50.00",
+      "source_row_sha256": "6af8a0130b42e13c91cca86e1eee69a233238dac213e213cd3a81e68fe031861"
+    }
+  ],
+  "limitations": [
+    "The latest known full reports cover January 1, 2025 through July 15, 2026, not giving through the catalog-check date.",
+    "Candidate-account attributed receipts are not global unique original giving or verified employee cash.",
+    "Refund attribution and net remain unavailable. Employer aliases do not prove employment or unique donor identity."
+  ]
+}

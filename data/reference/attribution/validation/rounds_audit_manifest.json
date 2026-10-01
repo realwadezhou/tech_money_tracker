@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "report_id": "rounds_all_companies_audit",
+  "cycle": 2026,
+  "candidate": {
+    "id": "S4SD00049",
+    "name": "Mike Rounds"
+  },
+  "company": {
+    "key": "nvidia",
+    "label": "NVIDIA"
+  },
+  "source_catalog_as_of": "2026-09-19T10:32:25.548474+00:00",
+  "sources": [
+    {
+      "file_number": 1888029,
+      "sha256": "9d46114535825b4c4c62830b21567e006d421de287cc25331ef67646a4f93593",
+      "bytes": 114887
+    },
+    {
+      "file_number": 1903281,
+      "sha256": "37825de07d639f7005a18c5c0012edff7be6193e3232e69c05e667e3be934cc9",
+      "bytes": 119192
+    },
+    {
+      "file_number": 1903347,
+      "sha256": "b2e4e0a16b221637ec39c32f2cbba9d688057b17d65ab480b34028e5c62dabef",
+      "bytes": 146193
+    },
+    {
+      "file_number": 1921124,
+      "sha256": "b70dc6945af603c62098602e5ddd3a4e60530a1b05e363f27c1f095820cfa7f3",
+      "bytes": 114695
+    },
+    {
+      "file_number": 1942112,
+      "sha256": "84930f8c98990e61f8d94fa0027ac9c6f3149a7e3904a0f9cd2b18defd166b06",
+      "bytes": 138070
+    },
+    {
+      "file_number": 1965288,
+      "sha256": "7c0de7a50629decb41fdc3756ef4cdca95322ed8d602bf6fbb5baec4ff50e0c4",
+      "bytes": 217871
+    },
+    {
+      "file_number": 1978411,
+      "sha256": "68b1d2d9f6868558aab25b5f47fe3899ea4143a89580ac0f3c9ee9b1af7b5905",
+      "bytes": 74712
+    },
+    {
+      "file_number": 1997182,
+      "sha256": "604d07eda97963f7780962554a2809bdaa22c45d0a0ec67f6b8e0396d3ecd0db",
+      "bytes": 138975
+    },
+    {
+      "file_number": 1997202,
+      "sha256": "457b0ac348ca54c1d87981d81e045072172f8c83bcbdcdca44d797938962bd0c",
+      "bytes": 219860
+    },
+    {
+      "file_number": 1997207,
+      "sha256": "4d0dcd9725dec5de9fe8332109d9ce0ba06c56def44106e6b12819e825a18ebf",
+      "bytes": 74960
+    },
+    {
+      "file_number": 1997215,
+      "sha256": "c6dc316332ae3ec6d0660061b7d7bcaac3ae50d2486335252262cfe55f853392",
+      "bytes": 117375
+    }
+  ],
+  "latest_file_numbers": [
+    1903281,
+    1903347,
+    1921124,
+    1997182,
+    1997202,
+    1997207,
+    1997215
+  ],
+  "scope": {
+    "kind": "campaign_reports",
+    "description": "Audit of all curated-employer aliases across the supplied Rounds for Senate original report chains.",
+    "coverage_start": "2025-01-01",
+    "coverage_end": "2026-06-30",
+    "committee_ids": [
+      "C00532465"
+    ],
+    "account_ownership": "Unresolved in this audit-only manifest; no candidate total is certified.",
+    "source_completeness": "Full report files in the supplied processed API inventory only; not a complete-current-giving claim."
+  },
+  "committee_scope_review": {
+    "status": "unresolved",
+    "evidence": []
+  },
+  "employer_aliases": {},
+  "reviews": [
+    {
+      "record_id": "1997182:AAD22D4BF218B463FA71",
+      "source_row_sha256": "6be4855d7e1a11c7199ac2e951c45f731535ae18d1b8da6a2b8193452d295a7f",
+      "role": "transfer_context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1997182.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "The original explicitly identifies a transfer of joint fundraising committee proceeds from One Team Senate Majority, C00897918. This aggregate transfer provides context; it is not an additional gift from the child donor."
+    },
+    {
+      "record_id": "1997182:A1BD6D59D8A26485F821",
+      "source_row_sha256": "d677b30942fdc03d357ba5bb929d7f8c54dbd46360f503a990b11822dade8c0c",
+      "role": "jfc_allocation",
+      "related_record_id": "1997182:AAD22D4BF218B463FA71",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1997182.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Original Schedule A line12 individual memo explicitly references this same-report JFC transfer. Preserve the donor allocation once, including its own employer, election and receipt date; do not add the aggregate transfer or a JFC origin receipt to this campaign allocation."
+    },
+    {
+      "record_id": "1997202:A23B0F9A93FE9472EA22",
+      "source_row_sha256": "d5a3dcf8e4f79f006119f2fd0a6bd4e9198e1198890713348a7d94811c76e221",
+      "role": "transfer_context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1997202.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "The original explicitly identifies a transfer of joint fundraising committee proceeds from One Team Senate Majority, C00897918. This aggregate transfer provides context; it is not an additional gift from the child donor."
+    },
+    {
+      "record_id": "1997202:ACA4B91BBB0204658A15",
+      "source_row_sha256": "ba6150636f752ce66ffede8996ad4819da3bd96fd38a5896c98b4b1330918bd9",
+      "role": "jfc_allocation",
+      "related_record_id": "1997202:A23B0F9A93FE9472EA22",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1997202.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Original Schedule A line12 individual memo explicitly references this same-report JFC transfer. Preserve the donor allocation once, including its own employer, election and receipt date; do not add the aggregate transfer or a JFC origin receipt to this campaign allocation."
+    },
+    {
+      "record_id": "1997202:A8910448817F84DA6947",
+      "source_row_sha256": "2a7e18f651a6dbbd670aea9456c998d50680ebe728cea593806f42b84b721fab",
+      "role": "jfc_allocation",
+      "related_record_id": "1997202:A23B0F9A93FE9472EA22",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1997202.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Original Schedule A line12 individual memo explicitly references this same-report JFC transfer. Preserve the donor allocation once, including its own employer, election and receipt date; do not add the aggregate transfer or a JFC origin receipt to this campaign allocation."
+    },
+    {
+      "record_id": "1997202:AEA75C80FF4344934886",
+      "source_row_sha256": "d8602dc7d98f2a092461c19152ffcd9a0cbbb291a23a85273359331b9d9133a0",
+      "role": "transfer_context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1997202.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "The original explicitly identifies a transfer of joint fundraising committee proceeds from One Team Senate Majority, C00897918. This aggregate transfer provides context; it is not an additional gift from the child donor."
+    },
+    {
+      "record_id": "1997202:ABCEB195CACAD4164BA7",
+      "source_row_sha256": "617f7b0d57508a9eb22d38c0a8773af6273fca590039bdad32ccf16a0c48c2be",
+      "role": "jfc_allocation",
+      "related_record_id": "1997202:AEA75C80FF4344934886",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1997202.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/joint-fundraising-transfers/"
+      ],
+      "rationale": "Original Schedule A line12 individual memo explicitly references this same-report JFC transfer. Preserve the donor allocation once, including its own employer, election and receipt date; do not add the aggregate transfer or a JFC origin receipt to this campaign allocation."
+    }
+  ],
+  "limitations": [
+    "Audit-only inventory and component bridge; ownership and unresolved source roles prevent combined totals.",
+    "Bulk comparison for this committee uses the whole-cycle curated-match cache, not all unmatched-employer bulk records."
+  ]
+}

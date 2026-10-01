@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-19T11:14:04.671613+00:00",
+  "code_and_reference_files": {
+    "engine": {
+      "path": "pipeline/fec/attribution.py",
+      "sha256": "306c5e2b0e7185b9aba30679110b9328e79c80f0f5b48627a05b22a51da1b2c2"
+    },
+    "report_builder": {
+      "path": "pipeline/fec/campaign_reports.py",
+      "sha256": "ab07c345850f0a1ce0648c76fd25decbfdd7ae4ebb11751780fa8a267ca95b36"
+    },
+    "filing_parser": {
+      "path": "pipeline/fec/filings.py",
+      "sha256": "c487713c436d7a5264eea2e46af4db0ca31568751c95b601346c3b1380128c3f"
+    },
+    "comparison_script": {
+      "path": "scripts/reconcile_campaign_sources.py",
+      "sha256": "c15550bfab900b018754ecb485c8a475ba0ea8149c23afbe7927c0b581f26692"
+    },
+    "legacy_selector": {
+      "path": "pipeline/fec/load.py",
+      "sha256": "4dda32c0b4d685f1de30342dce9fe704055a6d504e899352e7d4a18254f4eeed"
+    },
+    "curated_aliases": {
+      "path": "data/reference/companies/curated.csv",
+      "sha256": "b2e2157c9171246b60f16092a5855467fc07ee8b0617f30ce7fc63775f4cb268"
+    },
+    "reviewed_bulk_exclusions": {
+      "path": "data/reference/transactions/reviewed_exclusions.json",
+      "sha256": "0fc423e05ca43ec30e1a85cf33206d540fdcd3cbc32d81fae6c398710c2832f4"
+    }
+  },
+  "installed_bulk_scan": {
+    "status": "complete",
+    "cycle": 2026,
+    "started_at": "2026-09-19T10:30:54.803641+00:00",
+    "completed_at": "2026-09-19T10:31:40.174029+00:00",
+    "source_bytes": 5903956017,
+    "source_modified_utc": "2026-09-13T15:59:54+00:00",
+    "source_sha256": "8d2c57f932a354a65f42d7b7f6031e3006cb34473eeb4ca882d0e7e70ba13f71",
+    "source_rows": 31894597,
+    "target_committee_rows": {
+      "C00902668": 31409,
+      "C00459099": 6611
+    },
+    "curated_employer_matched_rows": 126663,
+    "legacy_selected_curated_rows": 117595,
+    "review_dependencies": {
+      "cycle": 2026,
+      "source_file": "itcont.txt",
+      "reviewed_exclusions_observed": 3,
+      "retained_originals_verified": 3
+    },
+    "curated_aliases_sha256": "b2e2157c9171246b60f16092a5855467fc07ee8b0617f30ce7fc63775f4cb268",
+    "reviewed_exclusions_sha256": "0fc423e05ca43ec30e1a85cf33206d540fdcd3cbc32d81fae6c398710c2832f4",
+    "selector_module_sha256": "4dda32c0b4d685f1de30342dce9fe704055a6d504e899352e7d4a18254f4eeed",
+    "selector": {
+      "include_types": [
+        "10",
+        "11",
+        "15",
+        "15C",
+        "15E",
+        "30",
+        "30E",
+        "30T",
+        "31",
+        "31E",
+        "31T",
+        "32",
+        "32E",
+        "32T"
+      ],
+      "refund_types": [
+        "21Y",
+        "22Y",
+        "40T",
+        "40Y",
+        "41T",
+        "41Y",
+        "42T",
+        "42Y"
+      ],
+      "memo_x_excluded_types": [
+        "15E"
+      ],
+      "employer_match": "strip then uppercase, exact included curated alias"
+    },
+    "raw_extract_warning": "Exact raw 21-field target extracts contain location fields. Local audit only; do not publish.",
+    "public_fields": [
+      "source_row_number",
+      "source_row_sha256",
+      "cmte_id",
+      "amndt_ind",
+      "rpt_tp",
+      "transaction_pgi",
+      "image_num",
+      "transaction_tp",
+      "entity_tp",
+      "name",
+      "employer",
+      "occupation",
+      "transaction_dt",
+      "transaction_amt",
+      "other_id",
+      "tran_id",
+      "file_num",
+      "memo_cd",
+      "memo_text",
+      "sub_id",
+      "canonical_company",
+      "committee_type",
+      "legacy_selected",
+      "legacy_exclusion_reason",
+      "legacy_net_amount"
+    ],
+    "source_repository_path": "data/fec/interim/2026/indiv26/itcont.txt"
+  },
+  "privacy": "Public source identities and names/employers are retained; street, city, state and ZIP columns, raw filings and raw committee extracts are not copied.",
+  "hash_convention": "File hashes are SHA-256 of exact bytes. Canonical JSON hashes use UTF-8, sorted keys, ensure_ascii=False and compact separators."
+}
