@@ -1,6 +1,8 @@
 {
   "company": "ripple",
   "slug": "ripple",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "ripple",
     "net_total": 14426741,
@@ -517,6 +519,7 @@
       "n_committees": 9,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00669259",
       "top_committee": "FF PAC",
       "top_committee_type": "V",
       "top_committee_amt": 11649925
@@ -529,6 +532,7 @@
       "n_committees": 6,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 819700
@@ -541,6 +545,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "FL",
+      "top_committee_id": "C00867937",
       "top_committee": "TRUMP 47 COMMITTEE, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 300000
@@ -553,7 +558,8 @@
       "n_committees": 16,
       "employers": "RIPPLE",
       "states": "CA; FL",
-      "top_committee": "NRCC",
+      "top_committee_id": "C00027466",
+      "top_committee": "NRSC",
       "top_committee_type": "Y",
       "top_committee_amt": 36500
     },
@@ -565,6 +571,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "FL",
+      "top_committee_id": "C00801803",
       "top_committee": "SOS AMERICA PAC",
       "top_committee_type": "O",
       "top_committee_amt": 100000
@@ -577,6 +584,7 @@
       "n_committees": 5,
       "employers": "RIPPLE",
       "states": "FL; NJ",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 41300
@@ -589,6 +597,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "FL",
+      "top_committee_id": "C00571703",
       "top_committee": "SENATE LEADERSHIP FUND",
       "top_committee_type": "O",
       "top_committee_amt": 50000
@@ -601,6 +610,7 @@
       "n_committees": 2,
       "employers": "RIPPLE",
       "states": "FL",
+      "top_committee_id": "C00831164",
       "top_committee": "NEW YORK MAJORITY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 15000
@@ -613,6 +623,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -625,6 +636,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "FL",
+      "top_committee_id": "C00443580",
       "top_committee": "LUMMIS FOR WYOMING INC.",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -637,6 +649,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "MA",
+      "top_committee_id": "C00728360",
       "top_committee": "MOVEMENT VOTER PAC",
       "top_committee_type": "V",
       "top_committee_amt": 6400
@@ -649,6 +662,7 @@
       "n_committees": 6,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00834218",
       "top_committee": "ELISSA SLOTKIN FOR MICHIGAN",
       "top_committee_type": "S",
       "top_committee_amt": 1625
@@ -661,6 +675,7 @@
       "n_committees": 2,
       "employers": "RIPPLE",
       "states": "OR",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -673,6 +688,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "VA",
+      "top_committee_id": "C00770941",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 3349
@@ -685,6 +701,7 @@
       "n_committees": 2,
       "employers": "RIPPLE",
       "states": "OR",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2000
@@ -697,6 +714,7 @@
       "n_committees": 2,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00858688",
       "top_committee": "LICCARDO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -709,6 +727,7 @@
       "n_committees": 2,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 600
@@ -721,6 +740,7 @@
       "n_committees": 2,
       "employers": "RIPPLE",
       "states": "MD",
+      "top_committee_id": "C00831164",
       "top_committee": "NEW YORK MAJORITY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 500
@@ -733,6 +753,7 @@
       "n_committees": 2,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00801431",
       "top_committee": "ADAM GRAY FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 250
@@ -745,6 +766,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "AZ",
+      "top_committee_id": "C00837476",
       "top_committee": "MARK LAMB FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 313
@@ -757,6 +779,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00851659",
       "top_committee": "ANITA FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 300
@@ -769,6 +792,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "CO",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 250
@@ -781,6 +805,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "FL",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 250
@@ -793,6 +818,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 250
@@ -805,6 +831,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "MO",
+      "top_committee_id": "C00659599",
       "top_committee": "PROGRESSIVE TAKEOVER",
       "top_committee_type": "N",
       "top_committee_amt": 200
@@ -817,6 +844,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 200
@@ -829,6 +857,7 @@
       "n_committees": 1,
       "employers": "RIPPLE",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 30
@@ -841,7 +870,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 11649925,
       "n_donors": 1,
       "n_contributions": 6
@@ -1094,7 +1123,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 6400,
       "n_donors": 1,
       "n_contributions": 15

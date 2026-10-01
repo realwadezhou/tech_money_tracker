@@ -1,6 +1,8 @@
 {
   "company": "ibm",
   "slug": "ibm",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "ibm",
     "net_total": 1326990,
@@ -8,25 +10,25 @@
     "n_contributions": 11517,
     "n_committees": 363,
     "sectors": "tech_giant",
-    "amt_dem": 774157,
+    "amt_dem": 763293,
     "amt_mixed": 11166,
-    "amt_rep": 142117,
-    "amt_unknown": 399550,
-    "amt_other": 410716,
-    "classified_recipient_total": 916274,
-    "pct_dem": 84.489683217,
-    "pct_classified_recipients": 69.0490508595,
-    "donor_amt_D": 889267,
-    "donor_amt_Mixed": 94349,
-    "donor_amt_R": 217007,
-    "donor_amt_Unknown": 126367,
-    "n_donors_D": 1044,
-    "n_donors_Mixed": 106,
-    "n_donors_R": 236,
-    "n_donors_Unknown": 256,
+    "amt_rep": 153248,
+    "amt_unknown": 399283,
+    "amt_other": 410449,
+    "classified_recipient_total": 916541,
+    "pct_dem": 83.2797441686,
+    "pct_classified_recipients": 69.0691715838,
+    "donor_amt_D": 889212,
+    "donor_amt_Mixed": 89397,
+    "donor_amt_R": 208329,
+    "donor_amt_Unknown": 140052,
+    "n_donors_D": 1049,
+    "n_donors_Mixed": 96,
+    "n_donors_R": 212,
+    "n_donors_Unknown": 285,
     "donor_amt_total": 1326990,
     "n_donors_total": 1642,
-    "pct_dem_by_donor": 80.3839735906,
+    "pct_dem_by_donor": 81.0185678713,
     "slug": "ibm"
   },
   "weekly_series": [
@@ -985,6 +987,7 @@
       "n_committees": 4,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00788448",
       "top_committee": "TEAM HAGERTY VICTORY",
       "top_committee_type": "N",
       "top_committee_amt": 15000
@@ -997,6 +1000,7 @@
       "n_committees": 11,
       "employers": "IBM; IBM CORP; IBM CORPORATION",
       "states": "MD",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 13500
@@ -1009,6 +1013,7 @@
       "n_committees": 3,
       "employers": "IBM",
       "states": "WA",
+      "top_committee_id": "C00682211",
       "top_committee": "COMMON POWER",
       "top_committee_type": "W",
       "top_committee_amt": 17500
@@ -1021,6 +1026,7 @@
       "n_committees": 7,
       "employers": "IBM CONSULTING; IBM CORP; IBM CORP.",
       "states": "NY",
+      "top_committee_id": "C00703058",
       "top_committee": "KEAN FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1033,6 +1039,7 @@
       "n_committees": 18,
       "employers": "IBM",
       "states": "AZ; NY",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5162
@@ -1045,6 +1052,7 @@
       "n_committees": 10,
       "employers": "IBM; IBM CORPORATION",
       "states": "CT",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5500
@@ -1057,6 +1065,7 @@
       "n_committees": 3,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 7000
@@ -1069,6 +1078,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00817700",
       "top_committee": "MANCHIN LEADERSHIP FUND",
       "top_committee_type": "N",
       "top_committee_amt": 11600
@@ -1081,6 +1091,7 @@
       "n_committees": 4,
       "employers": "IBM",
       "states": "CA",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 6870
@@ -1093,6 +1104,7 @@
       "n_committees": 14,
       "employers": "IBM",
       "states": "CT",
+      "top_committee_id": "C00075820",
       "top_committee": "NRCC",
       "top_committee_type": "Y",
       "top_committee_amt": 2396
@@ -1105,6 +1117,7 @@
       "n_committees": 2,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00055582",
       "top_committee": "NY REPUBLICAN FEDERAL CAMPAIGN COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 9500
@@ -1117,6 +1130,7 @@
       "n_committees": 4,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1129,6 +1143,7 @@
       "n_committees": 3,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6500
@@ -1141,6 +1156,7 @@
       "n_committees": 12,
       "employers": "IBM; IBM CORP",
       "states": "NY",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -1153,8 +1169,9 @@
       "n_committees": 5,
       "employers": "IBM",
       "states": "VA",
-      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
+      "top_committee_id": "C00703975",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
       "top_committee_amt": 2600
     },
     {
@@ -1165,6 +1182,7 @@
       "n_committees": 7,
       "employers": "IBM",
       "states": "MD",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3140
@@ -1177,6 +1195,7 @@
       "n_committees": 3,
       "employers": "IBM; IBM CORP",
       "states": "MI",
+      "top_committee_id": "C00807727",
       "top_committee": "MARLINGA FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1189,6 +1208,7 @@
       "n_committees": 2,
       "employers": "IBM",
       "states": "TX",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1201,7 +1221,8 @@
       "n_committees": 4,
       "employers": "IBM",
       "states": "NY",
-      "top_committee": "FRIENDS OF DAVE MCCORMICK",
+      "top_committee_id": "C00870139",
+      "top_committee": "HOVDE FOR WISCONSIN",
       "top_committee_type": "S",
       "top_committee_amt": 2000
     },
@@ -1213,6 +1234,7 @@
       "n_committees": 2,
       "employers": "IBM",
       "states": "TX",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6610
@@ -1225,6 +1247,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "TX",
+      "top_committee_id": "C00839944",
       "top_committee": "VIN KRUTTIVENTI FOR CONGRESS 2024",
       "top_committee_type": "H",
       "top_committee_amt": 6633
@@ -1237,6 +1260,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00869024",
       "top_committee": "HOGAN VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1249,6 +1273,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "DC",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1261,6 +1286,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "MA",
+      "top_committee_id": "C00856765",
       "top_committee": "TAMMY MURPHY FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -1273,6 +1299,7 @@
       "n_committees": 6,
       "employers": "IBM; IBM CORP; IBM CORPORATION",
       "states": "TX",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2000
@@ -1285,6 +1312,7 @@
       "n_committees": 5,
       "employers": "IBM",
       "states": "GA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 3100
@@ -1297,6 +1325,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "VA",
+      "top_committee_id": "C00375048",
       "top_committee": "CONSUMER TECHNOLOGY ASSOCIATION PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 6200
@@ -1309,6 +1338,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "WA",
+      "top_committee_id": "C00870139",
       "top_committee": "HOVDE FOR WISCONSIN",
       "top_committee_type": "S",
       "top_committee_amt": 6093
@@ -1321,6 +1351,7 @@
       "n_committees": 6,
       "employers": "IBM; IBM CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 4087
@@ -1333,6 +1364,7 @@
       "n_committees": 5,
       "employers": "IBM",
       "states": "TX",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2685
@@ -1345,6 +1377,7 @@
       "n_committees": 10,
       "employers": "IBM; IBM CORPORATION",
       "states": "MA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 1425
@@ -1357,6 +1390,7 @@
       "n_committees": 8,
       "employers": "IBM; IBM CORPORATION",
       "states": "MA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2440
@@ -1369,6 +1403,7 @@
       "n_committees": 3,
       "employers": "IBM",
       "states": "NJ",
+      "top_committee_id": "C00412304",
       "top_committee": "MONTANANS FOR TESTER",
       "top_committee_type": "S",
       "top_committee_amt": 3000
@@ -1381,6 +1416,7 @@
       "n_committees": 2,
       "employers": "IBM",
       "states": "NJ",
+      "top_committee_id": "C00693515",
       "top_committee": "FAIR FIGHT",
       "top_committee_type": "V",
       "top_committee_amt": 5000
@@ -1393,6 +1429,7 @@
       "n_committees": 5,
       "employers": "IBM",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1405,6 +1442,7 @@
       "n_committees": 7,
       "employers": "IBM; IBM CORPORATION",
       "states": "GA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2700
@@ -1417,6 +1455,7 @@
       "n_committees": 2,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00834424",
       "top_committee": "MARIANNE WILLIAMSON FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5000
@@ -1429,6 +1468,7 @@
       "n_committees": 9,
       "employers": "IBM; IBM CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00639591",
       "top_committee": "ALEXANDRIA OCASIO-CORTEZ FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1450
@@ -1441,6 +1481,7 @@
       "n_committees": 3,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2547
@@ -1453,6 +1494,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "AZ",
+      "top_committee_id": "C00825810",
       "top_committee": "CISCOMANI VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1465,6 +1507,7 @@
       "n_committees": 4,
       "employers": "IBM",
       "states": "MA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3000
@@ -1477,6 +1520,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "TX",
+      "top_committee_id": "C00849778",
       "top_committee": "TED CRUZ VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1489,6 +1533,7 @@
       "n_committees": 4,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00341396",
       "top_committee": "MOVEON.ORG POLITICAL ACTION",
       "top_committee_type": "W",
       "top_committee_amt": 3000
@@ -1501,6 +1546,7 @@
       "n_committees": 3,
       "employers": "IBM",
       "states": "CT",
+      "top_committee_id": "C00075820",
       "top_committee": "NRCC",
       "top_committee_type": "Y",
       "top_committee_amt": 3230
@@ -1513,6 +1559,7 @@
       "n_committees": 3,
       "employers": "IBM RESEARCH",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3000
@@ -1525,6 +1572,7 @@
       "n_committees": 5,
       "employers": "IBM",
       "states": "NJ; PA; TX",
+      "top_committee_id": "C00545830",
       "top_committee": "CASEY KEYSTONE VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -1537,8 +1585,9 @@
       "n_committees": 6,
       "employers": "IBM CORP",
       "states": "NY",
-      "top_committee": "HARRIS FOR PRESIDENT",
-      "top_committee_type": "P",
+      "top_committee_id": "C00718510",
+      "top_committee": "OCCUPY DEMOCRATS ELECTION FUND",
+      "top_committee_type": "W",
       "top_committee_amt": 1100
     },
     {
@@ -1549,6 +1598,7 @@
       "n_committees": 2,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2075
@@ -1561,6 +1611,7 @@
       "n_committees": 1,
       "employers": "IBM",
       "states": "NY",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 4000
@@ -1573,6 +1624,7 @@
       "n_committees": 3,
       "employers": "IBM",
       "states": "FL",
+      "top_committee_id": "C00786822",
       "top_committee": "MAXWELL ALEJANDRO FROST FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 2000
@@ -1682,8 +1734,8 @@
       "cmte_id": "C00788448",
       "cmte_nm": "TEAM HAGERTY VICTORY",
       "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
       "net_total": 15000,
       "n_donors": 1,
@@ -1695,7 +1747,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 12705,
       "n_donors": 7,
       "n_contributions": 125
@@ -1737,9 +1789,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 10864,
       "n_donors": 40,
       "n_contributions": 500

@@ -1,6 +1,8 @@
 {
   "company": "anthropic",
   "slug": "anthropic",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "anthropic",
     "net_total": 83145,
@@ -16,17 +18,17 @@
     "classified_recipient_total": 63015,
     "pct_dem": 100.0,
     "pct_classified_recipients": 75.7892837813,
-    "donor_amt_D": 63249,
-    "donor_amt_Mixed": 316,
+    "donor_amt_D": 63565,
+    "donor_amt_Mixed": 0,
     "donor_amt_R": 1600,
     "donor_amt_Unknown": 17980,
-    "n_donors_D": 27,
-    "n_donors_Mixed": 1,
+    "n_donors_D": 28,
+    "n_donors_Mixed": 0,
     "n_donors_R": 2,
     "n_donors_Unknown": 9,
     "donor_amt_total": 83145,
     "n_donors_total": 39,
-    "pct_dem_by_donor": 97.5327298802,
+    "pct_dem_by_donor": 97.5446942377,
     "slug": "anthropic"
   },
   "weekly_series": [
@@ -256,6 +258,7 @@
       "n_committees": 2,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00871368",
       "top_committee": "PROJECT 218",
       "top_committee_type": "O",
       "top_committee_amt": 10307
@@ -268,6 +271,7 @@
       "n_committees": 5,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -280,6 +284,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00878454",
       "top_committee": "MAGGIE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -292,6 +297,7 @@
       "n_committees": 2,
       "employers": "ANTHROPIC",
       "states": "TN",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6270
@@ -304,6 +310,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00873356",
       "top_committee": "RESPONSIBLE INNOVATION PAC",
       "top_committee_type": "V",
       "top_committee_amt": 5000
@@ -316,6 +323,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5000
@@ -328,6 +336,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00878934",
       "top_committee": "ON THE MOVE PAC",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -340,6 +349,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00873356",
       "top_committee": "RESPONSIBLE INNOVATION PAC",
       "top_committee_type": "V",
       "top_committee_amt": 5000
@@ -352,6 +362,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -364,6 +375,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC PBC",
       "states": "CA",
+      "top_committee_id": "C00772517",
       "top_committee": "JACKY ROSEN VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -376,6 +388,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3228
@@ -388,6 +401,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "MA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -400,8 +414,9 @@
       "n_committees": 8,
       "employers": "ANTHROPIC",
       "states": "CA",
-      "top_committee": "DON DAVIS FOR NC",
-      "top_committee_type": "H",
+      "top_committee_id": "C00558627",
+      "top_committee": "GALLEGO FOR ARIZONA",
+      "top_committee_type": "S",
       "top_committee_amt": 300
     },
     {
@@ -412,6 +427,7 @@
       "n_committees": 2,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1250
@@ -424,6 +440,7 @@
       "n_committees": 2,
       "employers": "ANTHROPIC; ANTHROPIC PBC",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 1000
@@ -436,6 +453,7 @@
       "n_committees": 2,
       "employers": "ANTHROPIC",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -448,6 +466,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC PBC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -460,6 +479,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00728360",
       "top_committee": "MOVEMENT VOTER PAC",
       "top_committee_type": "V",
       "top_committee_amt": 750
@@ -472,6 +492,7 @@
       "n_committees": 2,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 600
@@ -484,6 +505,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 500
@@ -496,6 +518,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 500
@@ -508,6 +531,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 500
@@ -520,6 +544,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00878454",
       "top_committee": "MAGGIE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 500
@@ -532,6 +557,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC PBC",
       "states": "CA",
+      "top_committee_id": "C00858969",
       "top_committee": "EVAN LOW FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 500
@@ -544,6 +570,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "TN",
+      "top_committee_id": "C00878454",
       "top_committee": "MAGGIE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 500
@@ -556,6 +583,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00856955",
       "top_committee": "VINDMAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 500
@@ -568,6 +596,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "MN",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 500
@@ -580,6 +609,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 350
@@ -592,6 +622,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "DC",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 316
@@ -604,6 +635,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00856112",
       "top_committee": "JILL STEIN FOR PRESIDENT 2024",
       "top_committee_type": "P",
       "top_committee_amt": 280
@@ -616,6 +648,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CT",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 250
@@ -628,6 +661,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00878454",
       "top_committee": "MAGGIE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 250
@@ -640,6 +674,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC, PBC",
       "states": "MA",
+      "top_committee_id": "C00838060",
       "top_committee": "GABE AMO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 250
@@ -652,6 +687,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 250
@@ -664,6 +700,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 250
@@ -676,6 +713,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 250
@@ -688,6 +726,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC PBC",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 100
@@ -700,6 +739,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00833608",
       "top_committee": "BARBARA LEE FOR US SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 100
@@ -712,6 +752,7 @@
       "n_committees": 1,
       "employers": "ANTHROPIC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 50
@@ -746,7 +787,7 @@
       "cmte_tp": "V",
       "party_dr": "Mixed",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 10000,
       "n_donors": 2,
       "n_contributions": 2
@@ -834,7 +875,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 750,
       "n_donors": 1,
       "n_contributions": 2

@@ -1,6 +1,8 @@
 {
   "company": "groq",
   "slug": "groq",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "groq",
     "net_total": 1025,
@@ -58,6 +60,7 @@
       "n_committees": 1,
       "employers": "GROQ",
       "states": "WA",
+      "top_committee_id": "C00849794",
       "top_committee": "CONROY FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -70,6 +73,7 @@
       "n_committees": 1,
       "employers": "GROQ",
       "states": "TN",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 25

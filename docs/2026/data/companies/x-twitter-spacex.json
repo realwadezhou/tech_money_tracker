@@ -1,32 +1,34 @@
 {
   "company": "x_twitter_spacex",
   "slug": "x-twitter-spacex",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "x_twitter_spacex",
-    "net_total": 74975867,
-    "n_donors": 3460,
-    "n_contributions": 18952,
-    "n_committees": 64,
+    "net_total": 92570212,
+    "n_donors": 4179,
+    "n_contributions": 26616,
+    "n_committees": 83,
     "sectors": "elon_empire; tech",
-    "amt_dem": 26258,
-    "amt_mixed": 0,
-    "amt_rep": 64933563,
-    "amt_unknown": 10016046,
-    "amt_other": 10016046,
-    "classified_recipient_total": 64959821,
-    "pct_dem": 0.0404219094,
-    "pct_classified_recipients": 86.6409734215,
-    "donor_amt_D": 68866,
-    "donor_amt_Mixed": 78220,
-    "donor_amt_R": 74813366,
-    "donor_amt_Unknown": 15415,
-    "n_donors_D": 158,
-    "n_donors_Mixed": 181,
-    "n_donors_R": 3104,
-    "n_donors_Unknown": 17,
-    "donor_amt_total": 74975867,
-    "n_donors_total": 3460,
-    "pct_dem_by_donor": 0.0919657416,
+    "amt_dem": 38347,
+    "amt_mixed": 3000,
+    "amt_rep": 87512073,
+    "amt_unknown": 5016792,
+    "amt_other": 5019792,
+    "classified_recipient_total": 87550420,
+    "pct_dem": 0.0437999041,
+    "pct_classified_recipients": 94.5773139204,
+    "donor_amt_D": 105255,
+    "donor_amt_Mixed": 141338,
+    "donor_amt_R": 92303894,
+    "donor_amt_Unknown": 19725,
+    "n_donors_D": 256,
+    "n_donors_Mixed": 261,
+    "n_donors_R": 3637,
+    "n_donors_Unknown": 25,
+    "donor_amt_total": 92570212,
+    "n_donors_total": 4179,
+    "pct_dem_by_donor": 0.1139010597,
     "slug": "x-twitter-spacex"
   },
   "weekly_series": [
@@ -339,17 +341,17 @@
     {
       "cycle": 2026,
       "week_end": "2025-08-24",
-      "net_total": 344,
-      "cumulative_net_total": 61384074,
-      "gross_positive": 344,
-      "n_contributions": 5,
-      "n_donors": 5
+      "net_total": 369,
+      "cumulative_net_total": 61384099,
+      "gross_positive": 369,
+      "n_contributions": 6,
+      "n_donors": 6
     },
     {
       "cycle": 2026,
       "week_end": "2025-08-31",
       "net_total": 135641,
-      "cumulative_net_total": 61519715,
+      "cumulative_net_total": 61519740,
       "gross_positive": 135641,
       "n_contributions": 1829,
       "n_donors": 1822
@@ -358,7 +360,7 @@
       "cycle": 2026,
       "week_end": "2025-09-07",
       "net_total": 350,
-      "cumulative_net_total": 61520065,
+      "cumulative_net_total": 61520090,
       "gross_positive": 350,
       "n_contributions": 2,
       "n_donors": 2
@@ -367,7 +369,7 @@
       "cycle": 2026,
       "week_end": "2025-09-14",
       "net_total": 2285,
-      "cumulative_net_total": 61522350,
+      "cumulative_net_total": 61522375,
       "gross_positive": 2285,
       "n_contributions": 26,
       "n_donors": 26
@@ -376,7 +378,7 @@
       "cycle": 2026,
       "week_end": "2025-09-21",
       "net_total": 2514,
-      "cumulative_net_total": 61524864,
+      "cumulative_net_total": 61524889,
       "gross_positive": 2514,
       "n_contributions": 9,
       "n_donors": 9
@@ -384,17 +386,17 @@
     {
       "cycle": 2026,
       "week_end": "2025-09-28",
-      "net_total": 90390,
-      "cumulative_net_total": 61615254,
-      "gross_positive": 90390,
-      "n_contributions": 1819,
-      "n_donors": 1812
+      "net_total": 90415,
+      "cumulative_net_total": 61615304,
+      "gross_positive": 90415,
+      "n_contributions": 1820,
+      "n_donors": 1813
     },
     {
       "cycle": 2026,
       "week_end": "2025-10-05",
       "net_total": 755,
-      "cumulative_net_total": 61616009,
+      "cumulative_net_total": 61616059,
       "gross_positive": 755,
       "n_contributions": 5,
       "n_donors": 5
@@ -403,7 +405,7 @@
       "cycle": 2026,
       "week_end": "2025-10-12",
       "net_total": 2135,
-      "cumulative_net_total": 61618144,
+      "cumulative_net_total": 61618194,
       "gross_positive": 2135,
       "n_contributions": 34,
       "n_donors": 34
@@ -412,7 +414,7 @@
       "cycle": 2026,
       "week_end": "2025-10-19",
       "net_total": 35,
-      "cumulative_net_total": 61618179,
+      "cumulative_net_total": 61618229,
       "gross_positive": 35,
       "n_contributions": 2,
       "n_donors": 2
@@ -421,7 +423,7 @@
       "cycle": 2026,
       "week_end": "2025-10-26",
       "net_total": 98712,
-      "cumulative_net_total": 61716891,
+      "cumulative_net_total": 61716941,
       "gross_positive": 99132,
       "n_contributions": 2251,
       "n_donors": 2240
@@ -430,7 +432,7 @@
       "cycle": 2026,
       "week_end": "2025-11-02",
       "net_total": 121,
-      "cumulative_net_total": 61717012,
+      "cumulative_net_total": 61717062,
       "gross_positive": 121,
       "n_contributions": 5,
       "n_donors": 5
@@ -439,7 +441,7 @@
       "cycle": 2026,
       "week_end": "2025-11-09",
       "net_total": 768,
-      "cumulative_net_total": 61717780,
+      "cumulative_net_total": 61717830,
       "gross_positive": 988,
       "n_contributions": 14,
       "n_donors": 14
@@ -448,7 +450,7 @@
       "cycle": 2026,
       "week_end": "2025-11-16",
       "net_total": 1415,
-      "cumulative_net_total": 61719195,
+      "cumulative_net_total": 61719245,
       "gross_positive": 1415,
       "n_contributions": 5,
       "n_donors": 3
@@ -457,7 +459,7 @@
       "cycle": 2026,
       "week_end": "2025-11-23",
       "net_total": 99947,
-      "cumulative_net_total": 61819142,
+      "cumulative_net_total": 61819192,
       "gross_positive": 99947,
       "n_contributions": 2255,
       "n_donors": 2243
@@ -466,7 +468,7 @@
       "cycle": 2026,
       "week_end": "2025-11-30",
       "net_total": 821,
-      "cumulative_net_total": 61819963,
+      "cumulative_net_total": 61820013,
       "gross_positive": 821,
       "n_contributions": 7,
       "n_donors": 6
@@ -475,7 +477,7 @@
       "cycle": 2026,
       "week_end": "2025-12-07",
       "net_total": 1286,
-      "cumulative_net_total": 61821249,
+      "cumulative_net_total": 61821299,
       "gross_positive": 1286,
       "n_contributions": 33,
       "n_donors": 33
@@ -484,7 +486,7 @@
       "cycle": 2026,
       "week_end": "2025-12-14",
       "net_total": 3873,
-      "cumulative_net_total": 61825122,
+      "cumulative_net_total": 61825172,
       "gross_positive": 3873,
       "n_contributions": 13,
       "n_donors": 13
@@ -493,7 +495,7 @@
       "cycle": 2026,
       "week_end": "2025-12-21",
       "net_total": 10845726,
-      "cumulative_net_total": 72670848,
+      "cumulative_net_total": 72670898,
       "gross_positive": 10845726,
       "n_contributions": 2227,
       "n_donors": 2213
@@ -502,7 +504,7 @@
       "cycle": 2026,
       "week_end": "2025-12-28",
       "net_total": 1735,
-      "cumulative_net_total": 72672583,
+      "cumulative_net_total": 72672633,
       "gross_positive": 1735,
       "n_contributions": 6,
       "n_donors": 6
@@ -510,97 +512,322 @@
     {
       "cycle": 2026,
       "week_end": "2026-01-04",
-      "net_total": 1732132,
-      "cumulative_net_total": 74404715,
-      "gross_positive": 1732132,
-      "n_contributions": 10,
-      "n_donors": 8
+      "net_total": 1732147,
+      "cumulative_net_total": 74404780,
+      "gross_positive": 1732147,
+      "n_contributions": 11,
+      "n_donors": 9
     },
     {
       "cycle": 2026,
       "week_end": "2026-01-11",
-      "net_total": 4710,
-      "cumulative_net_total": 74409425,
-      "gross_positive": 4710,
-      "n_contributions": 7,
-      "n_donors": 7
+      "net_total": 4745,
+      "cumulative_net_total": 74409525,
+      "gross_positive": 4745,
+      "n_contributions": 8,
+      "n_donors": 8
     },
     {
       "cycle": 2026,
       "week_end": "2026-01-18",
-      "net_total": 6378,
-      "cumulative_net_total": 74415803,
-      "gross_positive": 6378,
-      "n_contributions": 15,
-      "n_donors": 15
+      "net_total": 10006809,
+      "cumulative_net_total": 84416334,
+      "gross_positive": 10006809,
+      "n_contributions": 20,
+      "n_donors": 18
     },
     {
       "cycle": 2026,
       "week_end": "2026-01-25",
-      "net_total": 35465,
-      "cumulative_net_total": 74451268,
-      "gross_positive": 35465,
-      "n_contributions": 49,
-      "n_donors": 49
+      "net_total": 35490,
+      "cumulative_net_total": 84451824,
+      "gross_positive": 35490,
+      "n_contributions": 50,
+      "n_donors": 50
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-01",
-      "net_total": 492958,
-      "cumulative_net_total": 74944226,
-      "gross_positive": 492958,
-      "n_contributions": 955,
-      "n_donors": 942
+      "net_total": 493128,
+      "cumulative_net_total": 84944952,
+      "gross_positive": 493128,
+      "n_contributions": 958,
+      "n_donors": 944
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-08",
-      "net_total": 6550,
-      "cumulative_net_total": 74950776,
-      "gross_positive": 6550,
-      "n_contributions": 12,
-      "n_donors": 12
+      "net_total": 6595,
+      "cumulative_net_total": 84951547,
+      "gross_positive": 6595,
+      "n_contributions": 14,
+      "n_donors": 14
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-15",
-      "net_total": 2799,
-      "cumulative_net_total": 74953575,
-      "gross_positive": 2799,
-      "n_contributions": 13,
-      "n_donors": 13
+      "net_total": 5418,
+      "cumulative_net_total": 84956965,
+      "gross_positive": 5418,
+      "n_contributions": 21,
+      "n_donors": 17
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-22",
-      "net_total": 1692,
-      "cumulative_net_total": 74955267,
-      "gross_positive": 1692,
+      "net_total": 1967,
+      "cumulative_net_total": 84958932,
+      "gross_positive": 1967,
+      "n_contributions": 5,
+      "n_donors": 5
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-01",
+      "net_total": 20700,
+      "cumulative_net_total": 84979632,
+      "gross_positive": 21121,
+      "n_contributions": 172,
+      "n_donors": 170
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-08",
+      "net_total": 3766,
+      "cumulative_net_total": 84983398,
+      "gross_positive": 3766,
+      "n_contributions": 7,
+      "n_donors": 6
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-15",
+      "net_total": 3143,
+      "cumulative_net_total": 84986541,
+      "gross_positive": 3143,
+      "n_contributions": 26,
+      "n_donors": 25
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 3275,
+      "cumulative_net_total": 84989816,
+      "gross_positive": 3275,
+      "n_contributions": 5,
+      "n_donors": 5
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-29",
+      "net_total": 1045575,
+      "cumulative_net_total": 86035391,
+      "gross_positive": 1045575,
+      "n_contributions": 632,
+      "n_donors": 631
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-05",
+      "net_total": 643354,
+      "cumulative_net_total": 86678745,
+      "gross_positive": 643354,
+      "n_contributions": 8,
+      "n_donors": 7
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-12",
+      "net_total": 2262,
+      "cumulative_net_total": 86681007,
+      "gross_positive": 2609,
+      "n_contributions": 20,
+      "n_donors": 20
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-19",
+      "net_total": 435,
+      "cumulative_net_total": 86681442,
+      "gross_positive": 435,
+      "n_contributions": 4,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-26",
+      "net_total": 56033,
+      "cumulative_net_total": 86737475,
+      "gross_positive": 58023,
+      "n_contributions": 862,
+      "n_donors": 858
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-03",
+      "net_total": 1270,
+      "cumulative_net_total": 86738745,
+      "gross_positive": 1270,
       "n_contributions": 3,
       "n_donors": 3
     },
     {
       "cycle": 2026,
-      "week_end": "2026-03-01",
-      "net_total": 20600,
-      "cumulative_net_total": 74975867,
-      "gross_positive": 21021,
-      "n_contributions": 169,
-      "n_donors": 167
+      "week_end": "2026-05-10",
+      "net_total": 5003080,
+      "cumulative_net_total": 91741825,
+      "gross_positive": 5003080,
+      "n_contributions": 38,
+      "n_donors": 38
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-17",
+      "net_total": 407,
+      "cumulative_net_total": 91742232,
+      "gross_positive": 407,
+      "n_contributions": 5,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-24",
+      "net_total": 76600,
+      "cumulative_net_total": 91818832,
+      "gross_positive": 76600,
+      "n_contributions": 1587,
+      "n_donors": 1578
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-31",
+      "net_total": 1241,
+      "cumulative_net_total": 91820073,
+      "gross_positive": 1241,
+      "n_contributions": 6,
+      "n_donors": 6
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-07",
+      "net_total": 11251,
+      "cumulative_net_total": 91831324,
+      "gross_positive": 11251,
+      "n_contributions": 53,
+      "n_donors": 50
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-14",
+      "net_total": 1040,
+      "cumulative_net_total": 91832364,
+      "gross_positive": 1040,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-21",
+      "net_total": 102731,
+      "cumulative_net_total": 91935095,
+      "gross_positive": 102731,
+      "n_contributions": 1905,
+      "n_donors": 1889
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-28",
+      "net_total": 521,
+      "cumulative_net_total": 91935616,
+      "gross_positive": 521,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-05",
+      "net_total": 468955,
+      "cumulative_net_total": 92404571,
+      "gross_positive": 468955,
+      "n_contributions": 29,
+      "n_donors": 26
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-12",
+      "net_total": 33,
+      "cumulative_net_total": 92404604,
+      "gross_positive": 33,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-19",
+      "net_total": 3958,
+      "cumulative_net_total": 92408562,
+      "gross_positive": 3958,
+      "n_contributions": 48,
+      "n_donors": 48
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-26",
+      "net_total": 200,
+      "cumulative_net_total": 92408762,
+      "gross_positive": 200,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-08-02",
+      "net_total": 161450,
+      "cumulative_net_total": 92570212,
+      "gross_positive": 161450,
+      "n_contributions": 2389,
+      "n_donors": 2377
     }
   ],
   "top_donors": [
     {
       "name": "MUSK, ELON",
-      "net_total": 73358864,
-      "gross_positive": 73398364,
-      "n_contributions": 78,
-      "n_committees": 28,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
+      "net_total": 90466909,
+      "gross_positive": 90506409,
+      "n_contributions": 87,
+      "n_committees": 30,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACE EXPLORATION TECHNOLOGIES CORPORA; SPACEX",
       "states": "TX",
+      "top_committee_id": "C00879510",
       "top_committee": "AMERICA PAC",
       "top_committee_type": "O",
-      "top_committee_amt": 48201464
+      "top_committee_amt": 50309509
+    },
+    {
+      "name": "JUNCOSA, MARK",
+      "net_total": 10180,
+      "gross_positive": 10180,
+      "n_contributions": 20,
+      "n_committees": 2,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
+      "states": "CA; WA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 7680
+    },
+    {
+      "name": "SHOTWELL, GWYNNE",
+      "net_total": 10180,
+      "gross_positive": 10180,
+      "n_contributions": 20,
+      "n_committees": 2,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
+      "states": "CA; TX",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 7680
     },
     {
       "name": "BJELDE, BRIAN",
@@ -610,81 +837,75 @@
       "n_committees": 1,
       "employers": "SPACEX",
       "states": "CA",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 10000
     },
     {
-      "name": "JUNCOSA, MARK",
-      "net_total": 8068,
-      "gross_positive": 8068,
-      "n_contributions": 15,
-      "n_committees": 2,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
-      "states": "CA; WA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5568
-    },
-    {
-      "name": "SHOTWELL, GWYNNE",
-      "net_total": 8068,
-      "gross_positive": 8068,
-      "n_contributions": 15,
-      "n_committees": 2,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
-      "states": "CA; TX",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5568
-    },
-    {
-      "name": "URSENBACH, JOSHUA",
-      "net_total": 5568,
-      "gross_positive": 5568,
-      "n_contributions": 14,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5568
-    },
-    {
-      "name": "HUGHES, TIMOTHY",
-      "net_total": 5568,
-      "gross_positive": 5568,
-      "n_contributions": 14,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5568
-    },
-    {
       "name": "JOHNSEN, BRET",
-      "net_total": 5568,
-      "gross_positive": 5568,
-      "n_contributions": 14,
+      "net_total": 7680,
+      "gross_positive": 7680,
+      "n_contributions": 19,
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
-      "top_committee_amt": 5568
+      "top_committee_amt": 7680
     },
     {
       "name": "BJELDE, BRIAN N.",
-      "net_total": 5568,
-      "gross_positive": 5568,
-      "n_contributions": 14,
+      "net_total": 7680,
+      "gross_positive": 7680,
+      "n_contributions": 19,
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
-      "top_committee_amt": 5568
+      "top_committee_amt": 7680
+    },
+    {
+      "name": "HUGHES, TIMOTHY",
+      "net_total": 7680,
+      "gross_positive": 7680,
+      "n_contributions": 19,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 7680
+    },
+    {
+      "name": "URSENBACH, JOSHUA",
+      "net_total": 7680,
+      "gross_positive": 7680,
+      "n_contributions": 19,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 7680
+    },
+    {
+      "name": "DUNN, MATHEW P.",
+      "net_total": 5678,
+      "gross_positive": 5678,
+      "n_contributions": 20,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5678
     },
     {
       "name": "JENSEN, JESSICA",
@@ -694,6 +915,7 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5040
@@ -706,42 +928,7 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5000
-    },
-    {
-      "name": "BUSS, JORDAN",
-      "net_total": 5000,
-      "gross_positive": 5000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5000
-    },
-    {
-      "name": "PEDEN, ROBERT",
-      "net_total": 5000,
-      "gross_positive": 5000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5000
-    },
-    {
-      "name": "TOOLEY, JEFFREY",
-      "net_total": 5000,
-      "gross_positive": 5000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -754,6 +941,59 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "CHIANESE, SILVIO",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 5,
+      "n_committees": 4,
+      "employers": "SPACEX",
+      "states": "CA",
+      "top_committee_id": "C00933978",
+      "top_committee": "ALASKANS FOR MARY",
+      "top_committee_type": "S",
+      "top_committee_amt": 2000
+    },
+    {
+      "name": "PEDEN, ROBERT",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "TOOLEY, JEFFREY",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "BUSS, JORDAN",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -766,9 +1006,36 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 4999
+    },
+    {
+      "name": "SCHENEWERK, CARYN",
+      "net_total": 4750,
+      "gross_positive": 6500,
+      "n_contributions": 8,
+      "n_committees": 2,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACE EXPLORATION TECHNOLOGIES CORPORA",
+      "states": "DC",
+      "top_committee_id": "C00834028",
+      "top_committee": "GEORGE WHITESIDES FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 4250
+    },
+    {
+      "name": "CEDENO, ALFREDO",
+      "net_total": 4502,
+      "gross_positive": 4502,
+      "n_contributions": 17,
+      "n_committees": 2,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
+      "states": "CA; NY",
+      "top_committee_id": "C00907774",
+      "top_committee": "PEOPLE OF ILLINOIS & KEVIN RYAN",
+      "top_committee_type": "S",
+      "top_committee_amt": 3500
     },
     {
       "name": "FLETCHER, DANIEL",
@@ -778,33 +1045,62 @@
       "n_committees": 1,
       "employers": "TWITTER",
       "states": "NC",
+      "top_committee_id": "C00693515",
       "top_committee": "FAIR FIGHT",
       "top_committee_type": "V",
       "top_committee_amt": 4070
     },
     {
-      "name": "CEDENO, ALFREDO",
-      "net_total": 3880,
-      "gross_positive": 3880,
-      "n_contributions": 11,
+      "name": "NAGY, JAY",
+      "net_total": 3963,
+      "gross_positive": 3963,
+      "n_contributions": 9,
       "n_committees": 2,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
-      "states": "CA; NY",
-      "top_committee": "PEOPLE OF ILLINOIS & KEVIN RYAN",
-      "top_committee_type": "S",
-      "top_committee_amt": 3500
+      "states": "CA; TX",
+      "top_committee_id": "C00912246",
+      "top_committee": "ERIC FLORES FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 3643
     },
     {
-      "name": "DUNN, MATHEW P.",
-      "net_total": 3566,
-      "gross_positive": 3566,
-      "n_contributions": 15,
+      "name": "TUCKNESS, MATTHEW",
+      "net_total": 3800,
+      "gross_positive": 3800,
+      "n_contributions": 19,
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
-      "top_committee_amt": 3566
+      "top_committee_amt": 3800
+    },
+    {
+      "name": "O'SHAUGHNESSY, TERRENCE",
+      "net_total": 3800,
+      "gross_positive": 3800,
+      "n_contributions": 19,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 3800
+    },
+    {
+      "name": "KNAPP, DAVID",
+      "net_total": 3600,
+      "gross_positive": 3600,
+      "n_contributions": 4,
+      "n_committees": 4,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
+      "states": "CA",
+      "top_committee_id": "C00843763",
+      "top_committee": "MCBRIDE FOR DELAWARE INC.",
+      "top_committee_type": "H",
+      "top_committee_amt": 1100
     },
     {
       "name": "GAGNON, ERIC",
@@ -814,9 +1110,23 @@
       "n_committees": 3,
       "employers": "SPACEX",
       "states": "CA; WA",
+      "top_committee_id": "C00639591",
       "top_committee": "ALEXANDRIA OCASIO-CORTEZ FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1800
+    },
+    {
+      "name": "MEWS, CRAIG",
+      "net_total": 3510,
+      "gross_positive": 3510,
+      "n_contributions": 18,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 3510
     },
     {
       "name": "DOVI, PAUL",
@@ -826,33 +1136,10 @@
       "n_committees": 1,
       "employers": "SPACEX",
       "states": "TX",
+      "top_committee_id": "C00509729",
       "top_committee": "THOMAS MASSIE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3500
-    },
-    {
-      "name": "KNAPP, DAVID",
-      "net_total": 3100,
-      "gross_positive": 3100,
-      "n_contributions": 3,
-      "n_committees": 3,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
-      "states": "CA",
-      "top_committee": "MCBRIDE FOR DELAWARE INC.",
-      "top_committee_type": "H",
-      "top_committee_amt": 1100
-    },
-    {
-      "name": "MEWS, CRAIG",
-      "net_total": 3060,
-      "gross_positive": 3060,
-      "n_contributions": 13,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 3060
     },
     {
       "name": "MANJI, SABRINA",
@@ -862,33 +1149,36 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2821
     },
     {
-      "name": "O'SHAUGHNESSY, TERRENCE",
-      "net_total": 2700,
-      "gross_positive": 2700,
-      "n_contributions": 14,
+      "name": "MEIER, MICHAEL",
+      "net_total": 2702,
+      "gross_positive": 2702,
+      "n_contributions": 19,
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
-      "top_committee_amt": 2700
+      "top_committee_amt": 2702
     },
     {
-      "name": "TUCKNESS, MATTHEW",
-      "net_total": 2700,
-      "gross_positive": 2700,
-      "n_contributions": 14,
+      "name": "LEE, BENJAMIN J.",
+      "net_total": 2670,
+      "gross_positive": 2670,
+      "n_contributions": 16,
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
-      "top_committee_amt": 2700
+      "top_committee_amt": 2670
     },
     {
       "name": "GABLE, AARON",
@@ -898,21 +1188,10 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2592
-    },
-    {
-      "name": "LEE, BENJAMIN J.",
-      "net_total": 2550,
-      "gross_positive": 2550,
-      "n_contributions": 13,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 2550
     },
     {
       "name": "SNYDER, MATTHEW",
@@ -922,6 +1201,7 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2531
@@ -934,9 +1214,23 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2511
+    },
+    {
+      "name": "DUNN, MATTHEW",
+      "net_total": 2500,
+      "gross_positive": 2500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SPACE X",
+      "states": "CA",
+      "top_committee_id": "C00893917",
+      "top_committee": "COMMERCIAL SPACE FEDERATION PAC",
+      "top_committee_type": "N",
+      "top_committee_amt": 2500
     },
     {
       "name": "SIDES, ANDREW J.",
@@ -946,6 +1240,7 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2484
@@ -958,6 +1253,7 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2431
@@ -970,9 +1266,23 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2400
+    },
+    {
+      "name": "VASCO, JULIOCESAR",
+      "net_total": 2363,
+      "gross_positive": 2363,
+      "n_contributions": 15,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 2363
     },
     {
       "name": "GUERRERO, JACOB M.",
@@ -982,9 +1292,62 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2342
+    },
+    {
+      "name": "ZONKA, MILO",
+      "net_total": 2332,
+      "gross_positive": 2332,
+      "n_contributions": 15,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 2332
+    },
+    {
+      "name": "CURTINHAS, MATTHEWS",
+      "net_total": 2330,
+      "gross_positive": 2330,
+      "n_contributions": 17,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 2330
+    },
+    {
+      "name": "KNIVETON, TIMOTHY",
+      "net_total": 2209,
+      "gross_positive": 2209,
+      "n_contributions": 16,
+      "n_committees": 2,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.; SPACEX",
+      "states": "CA; TX",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 1209
+    },
+    {
+      "name": "LOPEZ, JOSHUA",
+      "net_total": 2202,
+      "gross_positive": 2202,
+      "n_contributions": 17,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 2202
     },
     {
       "name": "HIGGINBOTHAM, JAMI",
@@ -994,6 +1357,7 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2200
@@ -1006,21 +1370,23 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2181
     },
     {
-      "name": "ZONKA, MILO",
-      "net_total": 2172,
-      "gross_positive": 2172,
-      "n_contributions": 13,
+      "name": "LI, CHENGPU",
+      "net_total": 2150,
+      "gross_positive": 2150,
+      "n_contributions": 18,
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
-      "top_committee_amt": 2172
+      "top_committee_amt": 2150
     },
     {
       "name": "TSEGAI, NOAH",
@@ -1030,9 +1396,23 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2142
+    },
+    {
+      "name": "HERNANDEZ, JOSEPH",
+      "net_total": 2114,
+      "gross_positive": 2114,
+      "n_contributions": 17,
+      "n_committees": 1,
+      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "states": "CA",
+      "top_committee_id": "C00411116",
+      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
+      "top_committee_type": "Q",
+      "top_committee_amt": 2114
     },
     {
       "name": "OSBORNE, MATTHEW",
@@ -1042,153 +1422,23 @@
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2092
     },
     {
-      "name": "CURTINHAS, MATTHEWS",
-      "net_total": 2010,
-      "gross_positive": 2010,
-      "n_contributions": 13,
+      "name": "SHINDEL, THOMAS E.",
+      "net_total": 2089,
+      "gross_positive": 2089,
+      "n_contributions": 20,
       "n_committees": 1,
       "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
       "states": "CA",
+      "top_committee_id": "C00411116",
       "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
       "top_committee_type": "Q",
-      "top_committee_amt": 2010
-    },
-    {
-      "name": "KELM, JAMES",
-      "net_total": 2000,
-      "gross_positive": 2000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "TWITTER",
-      "states": "CA",
-      "top_committee": "SCOTT WIENER FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 2000
-    },
-    {
-      "name": "DEAN, JACOB",
-      "net_total": 2000,
-      "gross_positive": 2000,
-      "n_contributions": 2,
-      "n_committees": 2,
-      "employers": "SPACEX",
-      "states": "CA",
-      "top_committee": "ALEX BORES FOR NY",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "SHAH, HAMIL",
-      "net_total": 1952,
-      "gross_positive": 1952,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1952
-    },
-    {
-      "name": "REUBER, TUCKER",
-      "net_total": 1842,
-      "gross_positive": 1842,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1842
-    },
-    {
-      "name": "GURAL, GENEVIEVE",
-      "net_total": 1842,
-      "gross_positive": 1842,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1842
-    },
-    {
-      "name": "POWELL, CHRISTOPHER",
-      "net_total": 1842,
-      "gross_positive": 1842,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1842
-    },
-    {
-      "name": "GONZALEZ, CESAR",
-      "net_total": 1798,
-      "gross_positive": 1798,
-      "n_contributions": 19,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1798
-    },
-    {
-      "name": "VASCO, JULIOCESAR",
-      "net_total": 1763,
-      "gross_positive": 1763,
-      "n_contributions": 10,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1763
-    },
-    {
-      "name": "MEIER, MICHAEL",
-      "net_total": 1762,
-      "gross_positive": 1762,
-      "n_contributions": 12,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1762
-    },
-    {
-      "name": "LOPEZ, JOSHUA",
-      "net_total": 1762,
-      "gross_positive": 1762,
-      "n_contributions": 12,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1762
-    },
-    {
-      "name": "PEMBERTON, TRAVIS",
-      "net_total": 1762,
-      "gross_positive": 1762,
-      "n_contributions": 12,
-      "n_committees": 1,
-      "employers": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-      "states": "CA",
-      "top_committee": "SPACE EXPLORATION TECHNOLOGIES CORP. PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 1762
+      "top_committee_amt": 2089
     }
   ],
   "top_committees": [
@@ -1199,9 +1449,9 @@
       "party_dr": "R",
       "classification_source": "ie_spending",
       "recipient_bucket": "outside_spending",
-      "net_total": 48201464,
+      "net_total": 50309509,
       "n_donors": 1,
-      "n_contributions": 15
+      "n_contributions": 22
     },
     {
       "cmte_id": "C00571703",
@@ -1215,15 +1465,37 @@
       "n_contributions": 2
     },
     {
+      "cmte_id": "C00898130",
+      "cmte_nm": "FIGHT FOR KENTUCKY",
+      "cmte_tp": "O",
+      "party_dr": "R",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 10000000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
       "cmte_id": "C00504530",
-      "cmte_nm": "CONGRESSIONAL LEADERSHIP FUND",
+      "cmte_nm": "CLF",
       "cmte_tp": "W",
-      "party_dr": "Unknown",
-      "classification_source": "",
+      "party_dr": "R",
+      "classification_source": "24k_contributions+ie_spending",
       "recipient_bucket": "outside_spending",
       "net_total": 10000000,
       "n_donors": 1,
       "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00892919",
+      "cmte_nm": "V-PAC: VICTORS, NOT VICTIMS",
+      "cmte_tp": "O",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
+      "net_total": 5000000,
+      "n_donors": 1,
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00892471",
@@ -1231,7 +1503,7 @@
       "cmte_tp": "V",
       "party_dr": "R",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 5000000,
       "n_donors": 1,
       "n_contributions": 1
@@ -1243,9 +1515,9 @@
       "party_dr": "R",
       "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
-      "net_total": 1569239,
-      "n_donors": 3426,
-      "n_contributions": 18673
+      "net_total": 2033653,
+      "n_donors": 4129,
+      "n_contributions": 26229
     },
     {
       "cmte_id": "C00873893",
@@ -1270,39 +1542,6 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00723916",
-      "cmte_nm": "MARY MILLER FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00720375",
-      "cmte_nm": "BARRY MOORE FOR U.S. SENATE",
-      "cmte_tp": "S",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00853986",
-      "cmte_nm": "ABE FOR ARIZONA",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00850404",
       "cmte_nm": "MARK HARRIS FOR CONGRESS",
       "cmte_tp": "H",
@@ -1314,9 +1553,31 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00718239",
-      "cmte_nm": "ANNA PAULINA LUNA FOR CONGRESS",
+      "cmte_id": "C00875518",
+      "cmte_nm": "TONY WIED FOR CONGRESS",
       "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00858415",
+      "cmte_nm": "RULLI FOR OHIO",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00720375",
+      "cmte_nm": "BARRY MOORE FOR U.S. SENATE",
+      "cmte_tp": "S",
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
@@ -1336,15 +1597,15 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00838110",
-      "cmte_nm": "STUTZMAN FOR CONGRESS",
+      "cmte_id": "C00723916",
+      "cmte_nm": "MARY MILLER FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 6600,
       "n_donors": 1,
-      "n_contributions": 3
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00728238",
@@ -1380,72 +1641,6 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00788414",
-      "cmte_nm": "ERIC BURLISON FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00791293",
-      "cmte_nm": "SELF FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00856831",
-      "cmte_nm": "MCGUIRE FOR VIRGINIA",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00857359",
-      "cmte_nm": "BRANDON GILL FOR TEXAS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00543967",
-      "cmte_nm": "BUDDY CARTER FOR SENATE",
-      "cmte_tp": "S",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00875518",
-      "cmte_nm": "TONY WIED FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
       "cmte_id": "C00230482",
       "cmte_nm": "GRASSLEY COMMITTEE, INC.",
       "cmte_tp": "S",
@@ -1457,30 +1652,19 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00858415",
-      "cmte_nm": "RULLI FOR OHIO",
+      "cmte_id": "C00853986",
+      "cmte_nm": "ABE FOR ARIZONA",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 6600,
       "n_donors": 1,
-      "n_contributions": 3
+      "n_contributions": 1
     },
     {
-      "cmte_id": "C00544684",
-      "cmte_nm": "MIKE COLLINS FOR SENATE",
-      "cmte_tp": "S",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00811844",
-      "cmte_nm": "ANDY OGLES FOR CONGRESS",
+      "cmte_id": "C00791293",
+      "cmte_nm": "SELF FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
@@ -1501,15 +1685,103 @@
       "n_contributions": 3
     },
     {
+      "cmte_id": "C00811844",
+      "cmte_nm": "ANDY OGLES FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00718239",
+      "cmte_nm": "ANNA PAULINA LUNA FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00544684",
+      "cmte_nm": "MIKE COLLINS FOR SENATE",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00543967",
+      "cmte_nm": "BUDDY CARTER FOR SENATE",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00857359",
+      "cmte_nm": "BRANDON GILL FOR TEXAS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00838110",
+      "cmte_nm": "STUTZMAN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00856831",
+      "cmte_nm": "MCGUIRE FOR VIRGINIA",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00788414",
+      "cmte_nm": "ERIC BURLISON FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 6600,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
       "cmte_id": "C00784934",
       "cmte_nm": "ELI CRANE FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 5800,
-      "n_donors": 1,
-      "n_contributions": 3
+      "net_total": 6103,
+      "n_donors": 2,
+      "n_contributions": 11
     },
     {
       "cmte_id": "C00718627",
@@ -1523,15 +1795,15 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00693515",
-      "cmte_nm": "FAIR FIGHT",
-      "cmte_tp": "V",
+      "cmte_id": "C00834028",
+      "cmte_nm": "GEORGE WHITESIDES FOR CONGRESS",
+      "cmte_tp": "H",
       "party_dr": "D",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 4070,
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 4250,
       "n_donors": 1,
-      "n_contributions": 11
+      "n_contributions": 7
     },
     {
       "cmte_id": "C00509729",
@@ -1540,7 +1812,29 @@
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 3500,
+      "net_total": 4104,
+      "n_donors": 4,
+      "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00693515",
+      "cmte_nm": "FAIR FIGHT",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "outside_spending",
+      "net_total": 4070,
+      "n_donors": 1,
+      "n_contributions": 11
+    },
+    {
+      "cmte_id": "C00912246",
+      "cmte_nm": "ERIC FLORES FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3643,
       "n_donors": 1,
       "n_contributions": 1
     },
@@ -1584,9 +1878,20 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 2765,
-      "n_donors": 4,
-      "n_contributions": 17
+      "net_total": 3005,
+      "n_donors": 5,
+      "n_contributions": 29
+    },
+    {
+      "cmte_id": "C00893917",
+      "cmte_nm": "COMMERCIAL SPACE FEDERATION PAC",
+      "cmte_tp": "N",
+      "party_dr": "Mixed",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 2500,
+      "n_donors": 1,
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00010603",
@@ -1595,16 +1900,38 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 1500,
+      "net_total": 2000,
       "n_donors": 4,
-      "n_contributions": 15
+      "n_contributions": 20
+    },
+    {
+      "cmte_id": "C00933978",
+      "cmte_nm": "ALASKANS FOR MARY",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 2000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00919084",
+      "cmte_nm": "TALARICO FOR TEXAS",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1875,
+      "n_donors": 7,
+      "n_contributions": 9
     },
     {
       "cmte_id": "C00411330",
       "cmte_nm": "FRIENDS OF BERNIE SANDERS",
       "cmte_tp": "S",
-      "party_dr": "Unknown",
-      "classification_source": "",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
       "recipient_bucket": "candidate",
       "net_total": 1500,
       "n_donors": 1,
@@ -1622,41 +1949,19 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00901173",
-      "cmte_nm": "MCMORROW FOR MICHIGAN",
-      "cmte_tp": "S",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 1000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00923706",
-      "cmte_nm": "ALEX BORES FOR NY",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 1000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00834028",
-      "cmte_nm": "GEORGE WHITESIDES FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 1000,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
       "cmte_id": "C00634253",
       "cmte_nm": "MIKE LEVIN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 1000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00902379",
+      "cmte_nm": "VILLEGAS FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1677,70 +1982,15 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00919084",
-      "cmte_nm": "TALARICO FOR TEXAS",
+      "cmte_id": "C00901918",
+      "cmte_nm": "KEN PAXTON FOR SENATE",
       "cmte_tp": "S",
-      "party_dr": "D",
+      "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 775,
-      "n_donors": 2,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00901678",
-      "cmte_nm": "CHRISTINA FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 500,
+      "net_total": 1000,
       "n_donors": 1,
       "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00658724",
-      "cmte_nm": "MAURA SULLIVAN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00341396",
-      "cmte_nm": "MOVEON.ORG POLITICAL ACTION",
-      "cmte_tp": "W",
-      "party_dr": "D",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "outside_spending",
-      "net_total": 473,
-      "n_donors": 2,
-      "n_contributions": 11
-    },
-    {
-      "cmte_id": "C00630665",
-      "cmte_nm": "JUSTICE DEMOCRATS PAC",
-      "cmte_tp": "W",
-      "party_dr": "D",
-      "classification_source": "24k_contributions+ie_spending",
-      "recipient_bucket": "outside_spending",
-      "net_total": 400,
-      "n_donors": 1,
-      "n_contributions": 8
-    },
-    {
-      "cmte_id": "C00401224",
-      "cmte_nm": "ACTBLUE",
-      "cmte_tp": "V",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 352,
-      "n_donors": 2,
-      "n_contributions": 7
     }
   ]
 }

@@ -163,46 +163,154 @@
   },
   {
     "cycle": 2026,
-    "week_end": "2026-02-01",
-    "net_total": 500000,
-    "cumulative_net_total": 2225600,
-    "gross_positive": 500000,
-    "n_contributions": 1,
-    "n_donors": 1
-  },
-  {
-    "cycle": 2026,
-    "week_end": "2026-02-15",
-    "net_total": 471000,
-    "cumulative_net_total": 2696600,
-    "gross_positive": 471000,
-    "n_contributions": 3,
-    "n_donors": 2
-  },
-  {
-    "cycle": 2026,
-    "week_end": "2026-03-01",
+    "week_end": "2026-01-18",
     "net_total": 7000,
-    "cumulative_net_total": 2703600,
+    "cumulative_net_total": 1732600,
     "gross_positive": 7000,
     "n_contributions": 1,
     "n_donors": 1
   },
   {
     "cycle": 2026,
-    "week_end": "2026-03-08",
-    "net_total": 0,
-    "cumulative_net_total": 2703600,
-    "gross_positive": 3500,
-    "n_contributions": 2,
+    "week_end": "2026-02-01",
+    "net_total": 517000,
+    "cumulative_net_total": 2249600,
+    "gross_positive": 517000,
+    "n_contributions": 4,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-02-08",
+    "net_total": 73500,
+    "cumulative_net_total": 2323100,
+    "gross_positive": 73500,
+    "n_contributions": 1,
     "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-02-15",
+    "net_total": 478000,
+    "cumulative_net_total": 2801100,
+    "gross_positive": 478000,
+    "n_contributions": 4,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-02-22",
+    "net_total": 5000,
+    "cumulative_net_total": 2806100,
+    "gross_positive": 5000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-03-01",
+    "net_total": 1007000,
+    "cumulative_net_total": 3813100,
+    "gross_positive": 1007000,
+    "n_contributions": 2,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-03-08",
+    "net_total": 50000,
+    "cumulative_net_total": 3863100,
+    "gross_positive": 53500,
+    "n_contributions": 3,
+    "n_donors": 2
   },
   {
     "cycle": 2026,
     "week_end": "2026-03-22",
     "net_total": 10000,
-    "cumulative_net_total": 2713600,
+    "cumulative_net_total": 3873100,
     "gross_positive": 10000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-04-05",
+    "net_total": 322100,
+    "cumulative_net_total": 4195200,
+    "gross_positive": 322100,
+    "n_contributions": 6,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-04-26",
+    "net_total": 7000,
+    "cumulative_net_total": 4202200,
+    "gross_positive": 7000,
+    "n_contributions": 2,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-05-03",
+    "net_total": 55999,
+    "cumulative_net_total": 4258199,
+    "gross_positive": 55999,
+    "n_contributions": 17,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-05-10",
+    "net_total": 52500,
+    "cumulative_net_total": 4310699,
+    "gross_positive": 52500,
+    "n_contributions": 14,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-05-24",
+    "net_total": 42500,
+    "cumulative_net_total": 4353199,
+    "gross_positive": 42500,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-05-31",
+    "net_total": 10000,
+    "cumulative_net_total": 4363199,
+    "gross_positive": 10000,
+    "n_contributions": 1,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-06-07",
+    "net_total": 7000,
+    "cumulative_net_total": 4370199,
+    "gross_positive": 7000,
+    "n_contributions": 2,
+    "n_donors": 2
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-06-14",
+    "net_total": 332000,
+    "cumulative_net_total": 4702199,
+    "gross_positive": 332000,
+    "n_contributions": 4,
+    "n_donors": 1
+  },
+  {
+    "cycle": 2026,
+    "week_end": "2026-07-05",
+    "net_total": 10000000,
+    "cumulative_net_total": 14702199,
+    "gross_positive": 10000000,
     "n_contributions": 1,
     "n_donors": 1
   }

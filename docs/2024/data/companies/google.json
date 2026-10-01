@@ -1,6 +1,8 @@
 {
   "company": "google",
   "slug": "google",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "google",
     "net_total": 18472557,
@@ -8,25 +10,25 @@
     "n_contributions": 42320,
     "n_committees": 754,
     "sectors": "tech_giant",
-    "amt_dem": 10794375,
-    "amt_mixed": 1661916,
-    "amt_rep": 609858,
-    "amt_unknown": 5406408,
-    "amt_other": 7068324,
-    "classified_recipient_total": 11404233,
-    "pct_dem": 94.6523540864,
-    "pct_classified_recipients": 61.736082341,
-    "donor_amt_D": 14330963,
-    "donor_amt_Mixed": 1031934,
-    "donor_amt_R": 531233,
-    "donor_amt_Unknown": 2578427,
-    "n_donors_D": 3817,
-    "n_donors_Mixed": 240,
-    "n_donors_R": 307,
-    "n_donors_Unknown": 1336,
+    "amt_dem": 10740232,
+    "amt_mixed": 1655116,
+    "amt_rep": 616031,
+    "amt_unknown": 5461178,
+    "amt_other": 7116294,
+    "classified_recipient_total": 11356263,
+    "pct_dem": 94.5754074206,
+    "pct_classified_recipients": 61.4763998292,
+    "donor_amt_D": 14279634,
+    "donor_amt_Mixed": 1051761,
+    "donor_amt_R": 516100,
+    "donor_amt_Unknown": 2625062,
+    "n_donors_D": 3801,
+    "n_donors_Mixed": 241,
+    "n_donors_R": 295,
+    "n_donors_Unknown": 1363,
     "donor_amt_total": 18472557,
     "n_donors_total": 5700,
-    "pct_dem_by_donor": 96.4256089746,
+    "pct_dem_by_donor": 96.5118323971,
     "slug": "google"
   },
   "weekly_series": [
@@ -1021,6 +1023,7 @@
       "n_committees": 17,
       "employers": "ALPHABET INC; ALPHABET INC.; ALPHABET, INC.; GOOGLE; GOOGLE  INC; GOOGLE INC.; GOOGLE LLC",
       "states": "CA; WA",
+      "top_committee_id": "C00669259",
       "top_committee": "FF PAC",
       "top_committee_type": "V",
       "top_committee_amt": 1600000
@@ -1033,6 +1036,7 @@
       "n_committees": 25,
       "employers": "ALPHABET, INC.; GOOGLE; GOOGLE INC.; GOOGLE LLC; GOOGLE, INC; GOOGLE, INC.",
       "states": "CA",
+      "top_committee_id": "C00633248",
       "top_committee": "314 ACTION FUND",
       "top_committee_type": "W",
       "top_committee_amt": 250000
@@ -1045,6 +1049,7 @@
       "n_committees": 2,
       "employers": "GOOGLE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 500000
@@ -1057,6 +1062,7 @@
       "n_committees": 1,
       "employers": "GOOGLE",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 500250
@@ -1069,6 +1075,7 @@
       "n_committees": 107,
       "employers": "ALPHABET; ALPHABET, INC.; GOOGLE; GOOGLE INC; GOOGLE INC.; GOOGLE LLC; GOOGLE, INC; GOOGLE, INC.; GOOGLE, LLC",
       "states": "CA",
+      "top_committee_id": "C00661272",
       "top_committee": "WITH HONOR PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 15000
@@ -1081,6 +1088,7 @@
       "n_committees": 3,
       "employers": "ALPHABET INC.; ALPHABET, INC.",
       "states": "CA",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 330400
@@ -1093,6 +1101,7 @@
       "n_committees": 66,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.; GOOGLE, LLC",
       "states": "CA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 40000
@@ -1105,6 +1114,7 @@
       "n_committees": 3,
       "employers": "GOOGLE",
       "states": "NJ",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 258600
@@ -1117,6 +1127,7 @@
       "n_committees": 1,
       "employers": "GOOGLE",
       "states": "CA",
+      "top_committee_id": "C00887679",
       "top_committee": "BROTHAS, INC.",
       "top_committee_type": "O",
       "top_committee_amt": 250000
@@ -1129,6 +1140,7 @@
       "n_committees": 11,
       "employers": "WAYMO",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 100000
@@ -1141,8 +1153,9 @@
       "n_committees": 14,
       "employers": "GOOGLE",
       "states": "VA",
-      "top_committee": "STRATEGIC VICTORY FUND IE PAC",
-      "top_committee_type": "O",
+      "top_committee_id": "C00685719",
+      "top_committee": "DLGA PAC",
+      "top_committee_type": "V",
       "top_committee_amt": 50000
     },
     {
@@ -1153,7 +1166,8 @@
       "n_committees": 23,
       "employers": "GOOGLE; GOOGLE LLC",
       "states": "CA",
-      "top_committee": "DCCC",
+      "top_committee_id": "C00042366",
+      "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 25000
     },
@@ -1165,6 +1179,7 @@
       "n_committees": 31,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.; GOOGLE, LLC",
       "states": "CA",
+      "top_committee_id": "C00428623",
       "top_committee": "GOOGLE LLC NETPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -1177,8 +1192,9 @@
       "n_committees": 57,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.; GOOGLE, LLC",
       "states": "CA",
-      "top_committee": "HARRIS FOR PRESIDENT",
-      "top_committee_type": "P",
+      "top_committee_id": "C00648220",
+      "top_committee": "ANDY KIM FOR NEW JERSEY",
+      "top_committee_type": "S",
       "top_committee_amt": 6600
     },
     {
@@ -1189,6 +1205,7 @@
       "n_committees": 2,
       "employers": "GOOGLE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 100000
@@ -1201,6 +1218,7 @@
       "n_committees": 19,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 62361
@@ -1213,6 +1231,7 @@
       "n_committees": 40,
       "employers": "GOOGLE; GOOGLE INC; GOOGLE INC.; GOOGLE LLC; GOOGLE, INC.",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 9300
@@ -1225,6 +1244,7 @@
       "n_committees": 2,
       "employers": "VERILY",
       "states": "TX",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1237,6 +1257,7 @@
       "n_committees": 20,
       "employers": "GOOGLE; GOOGLE LLC",
       "states": "CA",
+      "top_committee_id": "C00019331",
       "top_committee": "DEMOCRATIC PARTY OF WISCONSIN FEDERAL",
       "top_committee_type": "Y",
       "top_committee_amt": 15000
@@ -1249,6 +1270,7 @@
       "n_committees": 4,
       "employers": "GOOGLE FIBER",
       "states": "FL",
+      "top_committee_id": "C00834077",
       "top_committee": "NEVER BACK DOWN INC.",
       "top_committee_type": "O",
       "top_committee_amt": 71210
@@ -1261,6 +1283,7 @@
       "n_committees": 20,
       "employers": "GOOGLE; GOOGLE LLC",
       "states": "CA",
+      "top_committee_id": "C00428623",
       "top_committee": "GOOGLE LLC NETPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -1273,6 +1296,7 @@
       "n_committees": 1,
       "employers": "GOOGLE",
       "states": "CA",
+      "top_committee_id": "C00728360",
       "top_committee": "MOVEMENT VOTER PAC",
       "top_committee_type": "V",
       "top_committee_amt": 79215
@@ -1285,6 +1309,7 @@
       "n_committees": 8,
       "employers": "GOOGLE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 58800
@@ -1297,6 +1322,7 @@
       "n_committees": 32,
       "employers": "GOOGLE; GOOGLE CLOUD; GOOGLE LLC; GOOGLE, INC.",
       "states": "CA",
+      "top_committee_id": "C00428623",
       "top_committee": "GOOGLE LLC NETPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 7509
@@ -1309,6 +1335,7 @@
       "n_committees": 10,
       "employers": "GOOGLE; GOOGLE LLC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1321,6 +1348,7 @@
       "n_committees": 43,
       "employers": "GOOGLE; GOOGLE INC; GOOGLE INC.; GOOGLE LLC; GOOGLE, INC.",
       "states": "CO; MA",
+      "top_committee_id": "C00578609",
       "top_committee": "OHIO GRASSROOTS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5800
@@ -1333,6 +1361,7 @@
       "n_committees": 4,
       "employers": "GOOGLE",
       "states": "NY",
+      "top_committee_id": "C00768200",
       "top_committee": "JEFFRIES VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 41300
@@ -1345,6 +1374,7 @@
       "n_committees": 16,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.; GOOGLE, LLC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 25000
@@ -1357,6 +1387,7 @@
       "n_committees": 3,
       "employers": "GOOGLE; GOOGLE LLC",
       "states": "WA",
+      "top_committee_id": "C00728360",
       "top_committee": "MOVEMENT VOTER PAC",
       "top_committee_type": "V",
       "top_committee_amt": 50000
@@ -1369,6 +1400,7 @@
       "n_committees": 32,
       "employers": "GOOGLE; GOOGLE LLC",
       "states": "DC; MD",
+      "top_committee_id": "C00428623",
       "top_committee": "GOOGLE LLC NETPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -1381,6 +1413,7 @@
       "n_committees": 1,
       "employers": "GOOGLE",
       "states": "VA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 58300
@@ -1393,6 +1426,7 @@
       "n_committees": 4,
       "employers": "ALPHABET; ALPHABET INC; GOOGLE; GOOGLE LLC",
       "states": "CA",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 41300
@@ -1405,6 +1439,7 @@
       "n_committees": 11,
       "employers": "GOOGLE; GOOGLE LLC",
       "states": "CA",
+      "top_committee_id": "C00851584",
       "top_committee": "NEW ENGAGEMENT PAC",
       "top_committee_type": "O",
       "top_committee_amt": 10000
@@ -1417,6 +1452,7 @@
       "n_committees": 48,
       "employers": "ALPHABET INC; ALPHABET INC.; ALPHABET, INC; ALPHABET, INC.; GOOGLE INC.; GOOGLE, INC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 14550
@@ -1429,6 +1465,7 @@
       "n_committees": 23,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.",
       "states": "CA",
+      "top_committee_id": "C00428623",
       "top_committee": "GOOGLE LLC NETPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -1441,6 +1478,7 @@
       "n_committees": 3,
       "employers": "GOOGLE; GOOGLE LLC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1453,6 +1491,7 @@
       "n_committees": 10,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.; GOOGLE, LLC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 40600
@@ -1465,6 +1504,7 @@
       "n_committees": 13,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.; GOOGLE, LLC",
       "states": "MA",
+      "top_committee_id": "C00843110",
       "top_committee": "LEADERS WE DESERVE",
       "top_committee_type": "V",
       "top_committee_amt": 20000
@@ -1477,6 +1517,7 @@
       "n_committees": 2,
       "employers": "GOOGLE",
       "states": "MA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1489,6 +1530,7 @@
       "n_committees": 10,
       "employers": "GOOGLE; GOOGLE INC.; GOOGLE LLC; GOOGLE, INC.",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 13417
@@ -1501,6 +1543,7 @@
       "n_committees": 9,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.",
       "states": "CA",
+      "top_committee_id": "C00750919",
       "top_committee": "OSSOFF VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 11600
@@ -1513,6 +1556,7 @@
       "n_committees": 36,
       "employers": "GOOGLE INC; GOOGLE LLC; GOOGLE, INC.",
       "states": "CA",
+      "top_committee_id": "C00843425",
       "top_committee": "JANELLE BYNUM FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 4000
@@ -1525,8 +1569,9 @@
       "n_committees": 11,
       "employers": "GOOGLE; GOOGLE DEEPMIND; GOOGLE LLC",
       "states": "CA",
-      "top_committee": "BOOKER VICTORY FUND",
-      "top_committee_type": "N",
+      "top_committee_id": "C00503185",
+      "top_committee": "RO FOR CONGRESS INC",
+      "top_committee_type": "H",
       "top_committee_amt": 6600
     },
     {
@@ -1537,6 +1582,7 @@
       "n_committees": 1,
       "employers": "GOOGLE LLC",
       "states": "CA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 41300
@@ -1549,6 +1595,7 @@
       "n_committees": 1,
       "employers": "ALPHABET",
       "states": "CA",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 41300
@@ -1561,6 +1608,7 @@
       "n_committees": 1,
       "employers": "GOOGLE LLC",
       "states": "CA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 41300
@@ -1573,6 +1621,7 @@
       "n_committees": 1,
       "employers": "GOOGLE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 35000
@@ -1585,6 +1634,7 @@
       "n_committees": 17,
       "employers": "GOOGLE; GOOGLE LLC; GOOGLE, INC.",
       "states": "CA",
+      "top_committee_id": "C00326801",
       "top_committee": "TAMMY BALDWIN FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -1597,6 +1647,7 @@
       "n_committees": 5,
       "employers": "GOOGLE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 30100
@@ -1609,7 +1660,8 @@
       "n_committees": 10,
       "employers": "GOOGLE; GOOGLE LLC",
       "states": "NY",
-      "top_committee": "WHITNEY FOX FOR CONGRESS",
+      "top_committee_id": "C00844993",
+      "top_committee": "COOKE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
     }
@@ -1643,7 +1695,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 1600000,
       "n_donors": 1,
       "n_contributions": 1
@@ -1720,7 +1772,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 238778,
       "n_donors": 59,
       "n_contributions": 147
@@ -1731,7 +1783,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 200250,
       "n_donors": 2,
       "n_contributions": 2
@@ -1775,7 +1827,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 150000,
       "n_donors": 1,
       "n_contributions": 2
@@ -1995,7 +2047,7 @@
       "cmte_tp": "V",
       "party_dr": "Unknown",
       "classification_source": "",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 50000,
       "n_donors": 1,
       "n_contributions": 2
@@ -2004,9 +2056,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 49143,
       "n_donors": 131,
       "n_contributions": 1419
@@ -2127,7 +2179,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 34940,
       "n_donors": 46,
       "n_contributions": 360

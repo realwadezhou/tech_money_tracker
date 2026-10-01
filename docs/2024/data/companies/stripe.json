@@ -1,6 +1,8 @@
 {
   "company": "stripe",
   "slug": "stripe",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "stripe",
     "net_total": 800012,
@@ -8,25 +10,25 @@
     "n_contributions": 858,
     "n_committees": 109,
     "sectors": "fintech",
-    "amt_dem": 309336,
+    "amt_dem": 306898,
     "amt_mixed": 112248,
     "amt_rep": 18576,
-    "amt_unknown": 359852,
-    "amt_other": 472100,
-    "classified_recipient_total": 327912,
-    "pct_dem": 94.3350655054,
-    "pct_classified_recipients": 40.9883851742,
-    "donor_amt_D": 612667,
-    "donor_amt_Mixed": 19961,
-    "donor_amt_R": 37735,
-    "donor_amt_Unknown": 129649,
-    "n_donors_D": 156,
-    "n_donors_Mixed": 11,
-    "n_donors_R": 17,
-    "n_donors_Unknown": 51,
+    "amt_unknown": 362290,
+    "amt_other": 474538,
+    "classified_recipient_total": 325474,
+    "pct_dem": 94.2926316695,
+    "pct_classified_recipients": 40.6836397454,
+    "donor_amt_D": 612167,
+    "donor_amt_Mixed": 18511,
+    "donor_amt_R": 39185,
+    "donor_amt_Unknown": 130149,
+    "n_donors_D": 154,
+    "n_donors_Mixed": 9,
+    "n_donors_R": 19,
+    "n_donors_Unknown": 53,
     "donor_amt_total": 800012,
     "n_donors_total": 235,
-    "pct_dem_by_donor": 94.1982035726,
+    "pct_dem_by_donor": 93.9840516341,
     "slug": "stripe"
   },
   "weekly_series": [
@@ -922,6 +924,7 @@
       "n_committees": 4,
       "employers": "STRIPE; STRIPE INC",
       "states": "CA",
+      "top_committee_id": "C00633792",
       "top_committee": "FRIENDS OF ANDY BARR COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -934,6 +937,7 @@
       "n_committees": 4,
       "employers": "STRIPE; STRIPE, INC.",
       "states": "CA; NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -946,6 +950,7 @@
       "n_committees": 2,
       "employers": "STRIPE",
       "states": "ZZ",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -958,6 +963,7 @@
       "n_committees": 8,
       "employers": "STRIPE; STRIPE INC; STRIPE INC.; STRIPE, INC.",
       "states": "CA; MA",
+      "top_committee_id": "C00843029",
       "top_committee": "COURAGEOUS LEADERS",
       "top_committee_type": "N",
       "top_committee_amt": 13200
@@ -970,6 +976,7 @@
       "n_committees": 1,
       "employers": "STRIPE, WIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -982,6 +989,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00871368",
       "top_committee": "PROJECT 218",
       "top_committee_type": "O",
       "top_committee_amt": 50000
@@ -994,6 +1002,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00773903",
       "top_committee": "TEAM HILL",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1006,6 +1015,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00871368",
       "top_committee": "PROJECT 218",
       "top_committee_type": "O",
       "top_committee_amt": 50000
@@ -1018,6 +1028,7 @@
       "n_committees": 15,
       "employers": "STRIPE; STRIPE INC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1030,6 +1041,7 @@
       "n_committees": 5,
       "employers": "STRIPE",
       "states": "NY",
+      "top_committee_id": "C00797670",
       "top_committee": "AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE POLITICAL ACTION COMMITTEE",
       "top_committee_type": "Q",
       "top_committee_amt": 4998
@@ -1042,6 +1054,7 @@
       "n_committees": 4,
       "employers": "STRIPE",
       "states": "CA; DC",
+      "top_committee_id": "C00698340",
       "top_committee": "MARKEY VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1054,6 +1067,7 @@
       "n_committees": 14,
       "employers": "STRIPE; STRIPE INC",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1066,7 +1080,8 @@
       "n_committees": 6,
       "employers": "STRIPE",
       "states": "WA",
-      "top_committee": "DEBBIE FOR FLORIDA",
+      "top_committee_id": "C00839597",
+      "top_committee": "COLIN ALLRED FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 2500
     },
@@ -1078,6 +1093,7 @@
       "n_committees": 4,
       "employers": "STRIPE",
       "states": "CA; NY",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1090,6 +1106,7 @@
       "n_committees": 6,
       "employers": "STRIPE",
       "states": "MI",
+      "top_committee_id": "C00693515",
       "top_committee": "FAIR FIGHT",
       "top_committee_type": "V",
       "top_committee_amt": 4000
@@ -1102,6 +1119,7 @@
       "n_committees": 2,
       "employers": "STRIPE",
       "states": "GA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1114,8 +1132,9 @@
       "n_committees": 3,
       "employers": "STRIPE; STRIPE INC.; STRIPE, INC.",
       "states": "NY",
-      "top_committee": "MIKIE SHERRILL FOR CONGRESS",
-      "top_committee_type": "H",
+      "top_committee_id": "C00703975",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
       "top_committee_amt": 3300
     },
     {
@@ -1126,6 +1145,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1138,6 +1158,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -1150,6 +1171,7 @@
       "n_committees": 1,
       "employers": "STRIPE, INC",
       "states": "MA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1162,6 +1184,7 @@
       "n_committees": 2,
       "employers": "STRIPE",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3800
@@ -1174,6 +1197,7 @@
       "n_committees": 2,
       "employers": "STRIPE",
       "states": "CA; WA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1186,6 +1210,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1198,6 +1223,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1210,6 +1236,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1222,6 +1249,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1234,6 +1262,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1246,6 +1275,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1258,6 +1288,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1270,6 +1301,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1282,6 +1314,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1294,6 +1327,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1306,6 +1340,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1318,6 +1353,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1330,6 +1366,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "MD",
+      "top_committee_id": "C00540187",
       "top_committee": "INNOVATION POLITICAL ACTION COMMITTEE",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1342,6 +1379,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1354,6 +1392,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1366,6 +1405,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1378,6 +1418,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00883116",
       "top_committee": "STRIPE INC POLITICAL ACTION COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1390,6 +1431,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 4550
@@ -1402,6 +1444,7 @@
       "n_committees": 4,
       "employers": "STRIPE; STRIPE INC",
       "states": "CA",
+      "top_committee_id": "C00831537",
       "top_committee": "DAVE MIN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 2000
@@ -1414,6 +1457,7 @@
       "n_committees": 4,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2725
@@ -1426,6 +1470,7 @@
       "n_committees": 1,
       "employers": "STRIPE INC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1438,6 +1483,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1450,6 +1496,7 @@
       "n_committees": 1,
       "employers": "STRIPE INC.",
       "states": "AZ",
+      "top_committee_id": "C00855502",
       "top_committee": "BEN TOMA FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1462,6 +1509,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1474,6 +1522,7 @@
       "n_committees": 1,
       "employers": "STRIPE",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3250
@@ -1486,6 +1535,7 @@
       "n_committees": 3,
       "employers": "STRIPE",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2600
@@ -1498,6 +1548,7 @@
       "n_committees": 2,
       "employers": "STRIPE; STRIPE INC",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2639
@@ -1510,6 +1561,7 @@
       "n_committees": 4,
       "employers": "STRIPE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1546
@@ -1610,7 +1662,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 7805,
       "n_donors": 4,
       "n_contributions": 76
@@ -1819,7 +1871,7 @@
       "cmte_tp": "V",
       "party_dr": "Unknown",
       "classification_source": "",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 2225,
       "n_donors": 4,
       "n_contributions": 26
@@ -1894,9 +1946,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 1938,
       "n_donors": 6,
       "n_contributions": 37
@@ -1907,7 +1959,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 1850,
       "n_donors": 3,
       "n_contributions": 4

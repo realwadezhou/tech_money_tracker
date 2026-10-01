@@ -1,6 +1,8 @@
 {
   "company": "sequoia",
   "slug": "sequoia",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "sequoia",
     "net_total": 12802050,
@@ -256,6 +258,7 @@
       "n_committees": 2,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00492140",
       "top_committee": "AB PAC",
       "top_committee_type": "V",
       "top_committee_amt": 7800000
@@ -268,6 +271,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00834077",
       "top_committee": "NEVER BACK DOWN INC.",
       "top_committee_type": "O",
       "top_committee_amt": 2000000
@@ -280,6 +284,7 @@
       "n_committees": 3,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00879510",
       "top_committee": "AMERICA PAC",
       "top_committee_type": "O",
       "top_committee_amt": 1000000
@@ -292,6 +297,7 @@
       "n_committees": 3,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00879510",
       "top_committee": "AMERICA PAC",
       "top_committee_type": "O",
       "top_committee_amt": 500000
@@ -304,6 +310,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00003418",
       "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 250000
@@ -316,6 +323,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00075820",
       "top_committee": "NRCC",
       "top_committee_type": "Y",
       "top_committee_amt": 100000
@@ -328,6 +336,7 @@
       "n_committees": 4,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00854760",
       "top_committee": "BATTLEFIELD FUND 2023",
       "top_committee_type": "S",
       "top_committee_amt": 15000
@@ -340,6 +349,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00150367",
       "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -352,6 +362,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL GLOBAL EQUITIES",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -364,6 +375,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00630632",
       "top_committee": "ELISE VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6000
@@ -376,6 +388,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 5800
@@ -388,6 +401,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "DC",
+      "top_committee_id": "C00893826",
       "top_committee": "DELUZIO RYAN 2026",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -400,6 +414,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITOL",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 5000
@@ -412,6 +427,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL GLOBAL EQUITIES",
       "states": "DC",
+      "top_committee_id": "C00306894",
       "top_committee": "MANAGED FUNDS ASSOCIATION POLITICAL ACTION COMMITTEE",
       "top_committee_type": "Q",
       "top_committee_amt": 2500
@@ -424,6 +440,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00828152",
       "top_committee": "TEAM STAND FOR AMERICA",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -436,6 +453,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "DC",
+      "top_committee_id": "C00648220",
       "top_committee": "ANDY KIM FOR NEW JERSEY",
       "top_committee_type": "S",
       "top_committee_amt": 1000
@@ -448,6 +466,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 250
@@ -460,7 +479,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 7800000,
       "n_donors": 1,
       "n_contributions": 3
@@ -504,7 +523,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 500000,
       "n_donors": 1,
       "n_contributions": 1

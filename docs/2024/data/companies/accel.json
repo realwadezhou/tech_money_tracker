@@ -1,6 +1,8 @@
 {
   "company": "accel",
   "slug": "accel",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "accel",
     "net_total": 1275519,
@@ -8,25 +10,25 @@
     "n_contributions": 264,
     "n_committees": 32,
     "sectors": "vc",
-    "amt_dem": 633478,
+    "amt_dem": 633338,
     "amt_mixed": 17500,
-    "amt_rep": 1059,
-    "amt_unknown": 623482,
-    "amt_other": 640982,
-    "classified_recipient_total": 634537,
-    "pct_dem": 99.8331066589,
-    "pct_classified_recipients": 49.7473577422,
-    "donor_amt_D": 1157512,
+    "amt_rep": 1023,
+    "amt_unknown": 623658,
+    "amt_other": 641158,
+    "classified_recipient_total": 634361,
+    "pct_dem": 99.8387353573,
+    "pct_classified_recipients": 49.7335594374,
+    "donor_amt_D": 1134312,
     "donor_amt_Mixed": 260,
-    "donor_amt_R": 2947,
-    "donor_amt_Unknown": 114800,
-    "n_donors_D": 14,
+    "donor_amt_R": 2926,
+    "donor_amt_Unknown": 138021,
+    "n_donors_D": 13,
     "n_donors_Mixed": 1,
-    "n_donors_R": 5,
-    "n_donors_Unknown": 5,
+    "n_donors_R": 4,
+    "n_donors_Unknown": 7,
     "donor_amt_total": 1275519,
     "n_donors_total": 25,
-    "pct_dem_by_donor": 99.7460487617,
+    "pct_dem_by_donor": 99.7427099692,
     "slug": "accel"
   },
   "weekly_series": [
@@ -697,6 +699,7 @@
       "n_committees": 11,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00669259",
       "top_committee": "FF PAC",
       "top_committee_type": "V",
       "top_committee_amt": 500000
@@ -709,6 +712,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "UT",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 100000
@@ -721,6 +725,7 @@
       "n_committees": 2,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 41300
@@ -733,6 +738,7 @@
       "n_committees": 2,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00828152",
       "top_committee": "TEAM STAND FOR AMERICA",
       "top_committee_type": "N",
       "top_committee_amt": 16600
@@ -745,6 +751,7 @@
       "n_committees": 2,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00165688",
       "top_committee": "NORTH CAROLINA DEMOCRATIC PARTY - FEDERAL",
       "top_committee_type": "Y",
       "top_committee_amt": 8719
@@ -757,6 +764,7 @@
       "n_committees": 4,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00150367",
       "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -769,6 +777,7 @@
       "n_committees": 2,
       "employers": "ACCEL",
       "states": "UT",
+      "top_committee_id": "C00696526",
       "top_committee": "MARK KELLY FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -781,6 +790,7 @@
       "n_committees": 2,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -793,6 +803,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00150367",
       "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -805,6 +816,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00150367",
       "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -817,6 +829,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -829,6 +842,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -841,6 +855,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -853,6 +868,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "MA",
+      "top_committee_id": "C00793935",
       "top_committee": "ERIC SORENSEN FOR ILLINOIS",
       "top_committee_type": "H",
       "top_committee_amt": 3000
@@ -865,6 +881,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00150367",
       "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2500
@@ -877,6 +894,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00860163",
       "top_committee": "DEMOCRATS 2024",
       "top_committee_type": "O",
       "top_committee_amt": 1500
@@ -889,6 +907,7 @@
       "n_committees": 2,
       "employers": "ACCEL",
       "states": "KS",
+      "top_committee_id": "C00632711",
       "top_committee": "TEAM ESTES",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -901,6 +920,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "MA",
+      "top_committee_id": "C00770941",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 753
@@ -913,6 +933,7 @@
       "n_committees": 2,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 250
@@ -925,6 +946,7 @@
       "n_committees": 3,
       "employers": "ACCEL",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 410
@@ -937,6 +959,7 @@
       "n_committees": 3,
       "employers": "ACCEL",
       "states": "AZ",
+      "top_committee_id": "C00492785",
       "top_committee": "TED CRUZ FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 207
@@ -949,6 +972,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "TX",
+      "top_committee_id": "C00492785",
       "top_committee": "TED CRUZ FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 316
@@ -961,6 +985,7 @@
       "n_committees": 2,
       "employers": "ACCEL",
       "states": "TX",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 250
@@ -973,6 +998,7 @@
       "n_committees": 2,
       "employers": "ACCEL",
       "states": "AZ",
+      "top_committee_id": "C00401224",
       "top_committee": "ACTBLUE",
       "top_committee_type": "V",
       "top_committee_amt": 140
@@ -985,6 +1011,7 @@
       "n_committees": 1,
       "employers": "ACCEL",
       "states": "AZ",
+      "top_committee_id": "C00694323",
       "top_committee": "WINRED",
       "top_committee_type": "V",
       "top_committee_amt": 21
@@ -1008,7 +1035,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 500000,
       "n_donors": 1,
       "n_contributions": 1
@@ -1314,9 +1341,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 140,
       "n_donors": 1,
       "n_contributions": 33
@@ -1325,9 +1352,9 @@
       "cmte_id": "C00694323",
       "cmte_nm": "WINRED",
       "cmte_tp": "V",
-      "party_dr": "R",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 31,
       "n_donors": 2,
       "n_contributions": 7
@@ -1336,7 +1363,7 @@
       "cmte_id": "C00828541",
       "cmte_nm": "NEVER SURRENDER, INC.",
       "cmte_tp": "N",
-      "party_dr": "R",
+      "party_dr": "Unknown",
       "classification_source": "",
       "recipient_bucket": "pac",
       "net_total": 5,

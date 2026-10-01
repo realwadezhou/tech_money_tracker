@@ -3,50 +3,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
   <title>About - Tech Money</title>
-  <link rel="stylesheet" href="../static/site.css">
-  <script src="../static/tables.js" defer></script>
+  <link rel="stylesheet" href="../static/site.css?v=2fce1f17fa7a">
+  <script src="../static/tables.js?v=ed167f7f940a" defer></script>
+  
 </head>
 <body>
-  <div class="page">
-    
-<div class="site-header">
-  <div class="site-title">Tech Money</div>
-  <p class="site-tagline">A plain web document about tech-linked money in federal politics.</p>
-  <div class="cycle-toggle"><span class="cycle-label">Cycle</span><span class="cycle-pill current">2026</span><a class="cycle-pill" href="../../2024/about/">2024</a></div>
-  <hr class="rule">
-  <div class="navline"><a href="../index.html">Home</a> | <strong>Elections 2026:</strong> <a href="../donors/">Donors</a> | <a href="../candidates/">Candidates</a> | <a href="../races/">Races</a> | <a href="../political-bodies/">Political bodies</a> | <a href="../companies/">Tech employees</a><br><a href="../federal-lobbying/">Federal lobbying</a> | <a href="../campaign-finance-101/">Campaign Finance 101</a> | <a href="../methodology/">Methodology</a> | <a href="../data/">Data</a> | <a href="../about/">About</a></div>
-  <hr class="rule">
-</div>
-
-    <p class="meta"><strong>Data as of 2026-04-04.</strong></p>
-    
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="page app-shell">
+    <header class="site-header">
+      <a class="site-title" href="../index.html">Tech Money</a>
+      <nav class="primary-nav" aria-label="Main navigation"><a href="../index.html">Overview</a><a href="../companies/">Employers</a><a href="../candidates/">Candidates</a><a href="../federal-lobbying/">Lobbying</a><a href="../data/">Sources</a></nav>
+      <nav class="cycle-toggle" aria-label="Election cycle"><span class="cycle-label">Election cycle</span><span class="cycle-pill current" aria-current="true">2026</span><a class="cycle-pill" href="../../2024/about/">2024</a></nav>
+      <details class="mobile-navigation"><summary>Browse sections</summary><nav aria-label="Browse sections on mobile"><div class="nav-group"><div class="nav-caption">Explore</div><a href="../index.html">Overview</a><a href="../companies/">Giving by employer</a><a href="../donors/">Donors</a><a href="../candidates/">Candidates</a><a href="../races/">Races</a><a href="../committees/">Committees</a><a href="../political-bodies/">Political bodies</a></div><div class="nav-group"><div class="nav-caption">Federal lobbying</div><a href="../federal-lobbying/">Federal lobbying</a></div><div class="nav-group"><div class="nav-caption">Understand the data</div><a href="../campaign-finance-101/">Campaign Finance 101</a><a href="../methodology/">Methodology</a><a href="../data/">Data &amp; sources</a><a href="../about/" aria-current="page">About</a></div></nav></details>
+    </header>
+    <div class="site-layout">
+      <aside class="site-sidebar"><nav aria-label="Browse sections"><div class="nav-group"><div class="nav-caption">Explore</div><a href="../index.html">Overview</a><a href="../companies/">Giving by employer</a><a href="../donors/">Donors</a><a href="../candidates/">Candidates</a><a href="../races/">Races</a><a href="../committees/">Committees</a><a href="../political-bodies/">Political bodies</a></div><div class="nav-group"><div class="nav-caption">Federal lobbying</div><a href="../federal-lobbying/">Federal lobbying</a></div><div class="nav-group"><div class="nav-caption">Understand the data</div><a href="../campaign-finance-101/">Campaign Finance 101</a><a href="../methodology/">Methodology</a><a href="../data/">Data &amp; sources</a><a href="../about/" aria-current="page">About</a></div></nav></aside>
+      <main class="page-main " id="main-content">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Tech Money</a><span aria-hidden="true">/</span><span>2026</span><span aria-hidden="true">/</span><span>About</span></nav>
+        
+        
 <h1>About</h1>
 
 <p>Tech Money is a personal project to make tech-industry political giving easier to read.</p>
 
-<h2>What's on this site</h2>
-<p>Every number here is built from Federal Election Commission filings &mdash; the disclosures that campaigns, PACs, and party committees submit by law. The focus is contributions where the donor's listed employer matches a tracked tech company (Google, Meta, Nvidia, Anthropic, and so on), plus giving from those companies' own PACs.</p>
+<h2 id="section-what-s-on-this-site">What's on this site</h2>
+<p>Election-cycle figures are built from Federal Election Commission filings &mdash; the disclosures that campaigns, PACs, and party committees submit by law. The focus is contributions where the donor's listed employer matches a tracked tech company (Google, Meta, Nvidia, Anthropic, and so on). Company-linked totals reflect those matched contributions; company PAC giving is not separately attributed to the company.</p>
+<p>The separate <a href="../federal-lobbying/">federal lobbying explorer</a> uses Lobbying Disclosure Act reports organized by calendar year. It indexes issue passages and report counts; it does not estimate AI lobbying spending.</p>
 
-<h2>Why it's not trivial</h2>
-<p>The FEC publishes raw filings. Employers on those filings are free text &mdash; "Google," "Google LLC," "google inc," "goog," and "alphabet" all come in as different strings. Identifying tech donors means building and maintaining a lookup that maps messy employer strings to clean company names, one by one. That manual tagging is the core of what this site does; it is also the main limit.</p>
+<h2 id="section-why-it-s-not-trivial">Why it's not trivial</h2>
+<p>The FEC publishes raw filings. Employers on those filings are free text &mdash; "Google," "Google LLC," "google inc," "goog," and "alphabet" all come in as different strings. Identifying tech-linked records means maintaining a lookup from employer strings to company names. Employer matching is one limit; receipt selection, refunds, routed and attributed gifts, and changing committee relationships also affect the totals.</p>
 
-<h2>What's missing</h2>
+<h2 id="section-what-s-missing">What's missing</h2>
 <ul>
   <li>Employer matching is incomplete. Someone who wrote "Self-employed" or an unusual abbreviation of a tech employer won't be counted here.</li>
   <li>The tracked-company list is curated, not exhaustive.</li>
-  <li>Unitemized contributions (under $200 per cycle) aren't reported by name to the FEC at all, so they can't be here either.</li>
+  <li>Contributions reported only as unitemized totals have no donor names or employers attached, so they cannot be matched here.</li>
 </ul>
 
-<h2>Related pages</h2>
+<h2 id="section-related-pages">Related pages</h2>
 <ul>
   <li><a href="../campaign-finance-101/">Campaign Finance 101</a> &mdash; a plain-English intro to how U.S. federal campaign finance works.</li>
   <li><a href="../methodology/">Methodology</a> &mdash; what's counted, what isn't, and what each column label means.</li>
 </ul>
 
-<h2>Who made this</h2>
+<h2 id="section-who-made-this">Who made this</h2>
 <p>Wade Zhou.</p>
 
+      </main>
+      <aside class="page-context" aria-label="Page context">
+      <div class="context-label">On this page</div><nav class="context-links" aria-label="On this page"><a href="#section-what-s-on-this-site">What&#x27;s on this site</a><a href="#section-why-it-s-not-trivial">Why it&#x27;s not trivial</a><a href="#section-what-s-missing">What&#x27;s missing</a><a href="#section-related-pages">Related pages</a><a href="#section-who-made-this">Who made this</a></nav>
+      <details class="source-details" open><summary>Data coverage &amp; definitions</summary><p class="meta"><strong>Latest tech-matched transaction: 2026-08-31.</strong><br>Latest installed FEC bulk release: 2026-09-19T05:47:05+00:00.<br>Transaction dates are not filing-completeness dates; late filings and amendments can change earlier totals.</p></details>
+      <div class="context-note"><strong>Read with context</strong><p>Definitions, source coverage, and limitations matter when comparing these records.</p>
+        <a href="../methodology/">How to use the data →</a></div>
+    </aside>
+    </div>
+    <footer class="site-footer"><span>Tech Money · A public record of tech and politics</span><nav aria-label="Footer"><a href="../methodology/">Methodology</a><a href="../data/">Data &amp; sources</a><a href="../about/">About</a></nav></footer>
   </div>
   
   

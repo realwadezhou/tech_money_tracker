@@ -1,6 +1,8 @@
 {
   "company": "anduril",
   "slug": "anduril",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "anduril",
     "net_total": 2192672,
@@ -10,23 +12,23 @@
     "sectors": "defense",
     "amt_dem": 294800,
     "amt_mixed": 180925,
-    "amt_rep": 603682,
-    "amt_unknown": 1113265,
-    "amt_other": 1294190,
-    "classified_recipient_total": 898482,
-    "pct_dem": 32.8108966012,
-    "pct_classified_recipients": 40.9765801725,
+    "amt_rep": 600282,
+    "amt_unknown": 1116665,
+    "amt_other": 1297590,
+    "classified_recipient_total": 895082,
+    "pct_dem": 32.9355299291,
+    "pct_classified_recipients": 40.8215182207,
     "donor_amt_D": 880850,
     "donor_amt_Mixed": 19494,
-    "donor_amt_R": 1241663,
-    "donor_amt_Unknown": 50665,
+    "donor_amt_R": 1241538,
+    "donor_amt_Unknown": 50790,
     "n_donors_D": 24,
     "n_donors_Mixed": 6,
-    "n_donors_R": 10,
-    "n_donors_Unknown": 26,
+    "n_donors_R": 9,
+    "n_donors_Unknown": 27,
     "donor_amt_total": 2192672,
     "n_donors_total": 66,
-    "pct_dem_by_donor": 41.5003347447,
+    "pct_dem_by_donor": 41.5027789452,
     "slug": "anduril"
   },
   "weekly_series": [
@@ -769,6 +771,7 @@
       "n_committees": 86,
       "employers": "ANDURIL; ANDURIL INC.; ANDURIL INDUSTRIES; ANDURIL INDUSTRIES INC; ANDURIL INDUSTRIES INC.; ANDURIL INDUSTRIES, INC; ANDURIL INDUSTRIES, INC,; ANDURIL INDUSTRIES, INC.; ANDURIL INDUSTRIES,INC; ANDURIL, INC.",
       "states": "CA",
+      "top_committee_id": "C00867937",
       "top_committee": "TRUMP 47 COMMITTEE, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 200000
@@ -781,6 +784,7 @@
       "n_committees": 44,
       "employers": "ANDURIL INDUSTRIES; ANDURIL INDUSTRIES INC; ANDURIL INDUSTRIES, INC.",
       "states": "CA; VA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 510000
@@ -793,6 +797,7 @@
       "n_committees": 2,
       "employers": "ANDURIL; ANDURIL INDUSTRIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00831925",
       "top_committee": "PROTECT THE HOUSE 2024",
       "top_committee_type": "N",
       "top_committee_amt": 225000
@@ -805,6 +810,7 @@
       "n_committees": 32,
       "employers": "ANDURIL INDUSTRIES; ANDURIL INDUSTRIES INC; ANDURIL INDUSTRIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -817,6 +823,7 @@
       "n_committees": 3,
       "employers": "ANDURIL; ANDURIL INDUSTRIES; ANDURIL INDUSTRIES INC.; ANDURIL INDUSTRIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00027466",
       "top_committee": "NRSC",
       "top_committee_type": "Y",
       "top_committee_amt": 82600
@@ -829,6 +836,7 @@
       "n_committees": 20,
       "employers": "ANDURIL INDUSTRIES; ANDURIL INDUSTRIES INC; ANDURIL INDUSTRIES, INC.",
       "states": "DC; VA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -841,6 +849,7 @@
       "n_committees": 2,
       "employers": "ANDURIL; ANDURIL INDUSTRIES, INC.",
       "states": "DC; VA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -853,6 +862,7 @@
       "n_committees": 2,
       "employers": "ANDURIL; ANDURIL INDUSTRIES",
       "states": "VA",
+      "top_committee_id": "C00867937",
       "top_committee": "TRUMP 47 COMMITTEE, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -865,6 +875,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -877,6 +888,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "DC",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -889,6 +901,7 @@
       "n_committees": 2,
       "employers": "ANDURIL INDUSTRIES INC; ANDURIL INDUSTRIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00614776",
       "top_committee": "TED BUDD FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -901,6 +914,7 @@
       "n_committees": 2,
       "employers": "ANDURIL",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 5500
@@ -913,6 +927,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIAL",
       "states": "VA",
+      "top_committee_id": "C00367862",
       "top_committee": "MIKE ROGERS FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6000
@@ -925,6 +940,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "MA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 5500
@@ -937,6 +953,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "DC",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -949,6 +966,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "DC",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -961,6 +979,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "VA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -973,6 +992,7 @@
       "n_committees": 2,
       "employers": "ANDURIL INDUSTRIES; ANDURIL INDUSTRIES, INC.",
       "states": "DC",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 4000
@@ -985,6 +1005,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -997,6 +1018,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "VA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 3500
@@ -1009,6 +1031,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES",
       "states": "MA",
+      "top_committee_id": "C00874743",
       "top_committee": "IAN CAIN FOR US",
       "top_committee_type": "S",
       "top_committee_amt": 3435
@@ -1021,6 +1044,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES",
       "states": "VA",
+      "top_committee_id": "C00434563",
       "top_committee": "MARTIN HEINRICH FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1033,6 +1057,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES INC",
       "states": "CA",
+      "top_committee_id": "C00573980",
       "top_committee": "KELLY FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1045,6 +1070,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "MA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 3000
@@ -1057,6 +1083,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "DC",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 2525
@@ -1069,6 +1096,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 2500
@@ -1081,6 +1109,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "DC",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -1093,6 +1122,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "DC",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 1700
@@ -1105,6 +1135,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "DC",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 1500
@@ -1117,6 +1148,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "WA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 1500
@@ -1129,6 +1161,7 @@
       "n_committees": 2,
       "employers": "ANDURIL",
       "states": "CA",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 1188
@@ -1141,6 +1174,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES",
       "states": "PA",
+      "top_committee_id": "C00706689",
       "top_committee": "80-20 ASIAN AMERICAN EMPOWERMENT PAC",
       "top_committee_type": "V",
       "top_committee_amt": 1250
@@ -1153,6 +1187,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 1100
@@ -1165,6 +1200,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "DC; MD",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 1100
@@ -1177,6 +1213,7 @@
       "n_committees": 2,
       "employers": "ANDURIL",
       "states": "VA",
+      "top_committee_id": "C00802488",
       "top_committee": "HUNG CAO FOR VIRGINIA",
       "top_committee_type": "S",
       "top_committee_amt": 500
@@ -1189,6 +1226,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -1201,6 +1239,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES",
       "states": "CA",
+      "top_committee_id": "C00772517",
       "top_committee": "JACKY ROSEN VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -1213,6 +1252,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -1225,6 +1265,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -1237,6 +1278,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -1249,6 +1291,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES",
       "states": "VA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -1261,6 +1304,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES",
       "states": "CA",
+      "top_committee_id": "C00344234",
       "top_committee": "PAC TO THE FUTURE",
       "top_committee_type": "Q",
       "top_committee_amt": 600
@@ -1273,6 +1317,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 500
@@ -1285,6 +1330,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 500
@@ -1297,6 +1343,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "CA",
+      "top_committee_id": "C00763623",
       "top_committee": "ANDURIL INDUSTRIES, INC. POLITICAL ACTION COMMITTEE (ANDURIL PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 500
@@ -1309,6 +1356,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "CA",
+      "top_committee_id": "C00850677",
       "top_committee": "OSBORN FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 500
@@ -1321,6 +1369,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES",
       "states": "DC",
+      "top_committee_id": "C00546788",
       "top_committee": "JONI FOR IOWA",
       "top_committee_type": "S",
       "top_committee_amt": 500
@@ -1333,6 +1382,7 @@
       "n_committees": 1,
       "employers": "ANDURIL",
       "states": "GA",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 354
@@ -1345,6 +1395,7 @@
       "n_committees": 2,
       "employers": "ANDURIL; ANDURIL INDUSTRIES",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 250
@@ -1357,6 +1408,7 @@
       "n_committees": 1,
       "employers": "ANDURIL INDUSTRIES",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 250

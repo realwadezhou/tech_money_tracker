@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "report_id": "meta_delbene_reviewed_allocation",
+  "cycle": 2026,
+  "candidate": {
+    "id": "H0WA08046",
+    "name": "Suzan DelBene — reviewed allocation example"
+  },
+  "company": {
+    "key": "meta",
+    "label": "Meta"
+  },
+  "scope": {
+    "kind": "reviewed_record_group",
+    "description": "One reviewed Susan Thayer allocation and its election adjustments, with the aggregate transfer as context. This is not total Meta giving to DelBene.",
+    "coverage_start": "2025-07-01",
+    "coverage_end": "2025-09-30",
+    "committee_ids": [
+      "C00459099"
+    ],
+    "account_ownership": "DelBene for Congress (C00459099), for this four-record source example only.",
+    "source_completeness": "Four explicitly identified records from filing 1920909, current in the saved September 18, 2026 API review. Other donor records and refunds are outside this example."
+  },
+  "generated_at": "2026-09-19T11:13:58.413630+00:00",
+  "source_catalog_as_of": "2026-09-18",
+  "source_inventory": [
+    {
+      "file_number": 1920909,
+      "committee_id": "C00459099",
+      "form_type": "F3",
+      "format_version": "8.5",
+      "encoding": "utf-8-sig",
+      "original_file_number": 1920909,
+      "amendment_sequence": 0,
+      "coverage_start": "2025-07-01",
+      "coverage_end": "2025-09-30",
+      "report_type": "Q3",
+      "sha256": "29351e9a1c2848e84fe7824556498d27b3c31c25664b578c1d54caa8a90ea78e",
+      "url": "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+      "individual_itemized_reported": "203754.00",
+      "individual_itemized_calculated": "203754.00",
+      "individual_itemized_reconciles": true,
+      "refunds_reported": "3706.00",
+      "refunds_itemized": "2582.00",
+      "refunds_unitemized_or_unreconciled": "1124.00"
+    }
+  ],
+  "sources": [
+    {
+      "file_number": 1920909,
+      "committee_id": "C00459099",
+      "form_type": "F3",
+      "format_version": "8.5",
+      "encoding": "utf-8-sig",
+      "original_file_number": 1920909,
+      "amendment_sequence": 0,
+      "coverage_start": "2025-07-01",
+      "coverage_end": "2025-09-30",
+      "report_type": "Q3",
+      "sha256": "29351e9a1c2848e84fe7824556498d27b3c31c25664b578c1d54caa8a90ea78e",
+      "url": "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+      "individual_itemized_reported": "203754.00",
+      "individual_itemized_calculated": "203754.00",
+      "individual_itemized_reconciles": true,
+      "refunds_reported": "3706.00",
+      "refunds_itemized": "2582.00",
+      "refunds_unitemized_or_unreconciled": "1124.00"
+    }
+  ],
+  "components": {
+    "direct_receipts": {
+      "amount": "0.00",
+      "count": 0,
+      "status": "supported_component",
+      "description": "Matched individual nonmemo receipts on the campaign's supported contribution line; may include in-kind contributions."
+    },
+    "jfc_allocations": {
+      "amount": "25.00",
+      "count": 1,
+      "status": "supported_component",
+      "description": "Matched donor allocations attached to campaign joint-fundraising transfers; the parent transfer is not added again."
+    },
+    "partnership_attributions": {
+      "amount": "0.00",
+      "count": 0,
+      "status": "supported_component",
+      "description": "Matched individual shares of a fully represented partnership receipt; the organizational parent is not added again."
+    },
+    "signed_adjustments": {
+      "amount": "0.00",
+      "count": 2,
+      "status": "supported_component",
+      "description": "Source-reviewed changes retained with their filed signs. Balanced election redesignations add zero overall."
+    },
+    "refunds": {
+      "amount": null,
+      "count": 0,
+      "status": "unresolved",
+      "description": "Only refunds with a supported donor relationship can adjust the matched employer amount. Unknown is not zero."
+    }
+  },
+  "combined_amount": "25.00",
+  "combined_status": "resolved_for_scope",
+  "combined_reason": "Supported attributed receipts within the stated source scope, before refunds; not a complete employee-giving estimate.",
+  "net_amount": null,
+  "net_status": "unresolved",
+  "net_reason": "Refund coverage or donor relationships remain unresolved.",
+  "unresolved": [
+    {
+      "record_id": "refund_scope_incomplete",
+      "reason": "The supplied records do not establish a complete refund review scope.",
+      "amount": null,
+      "scope": "refunds"
+    },
+    {
+      "record_id": "refund_coverage",
+      "scope": "refunds",
+      "reason": "The supplied scope omits refunds or the itemized refunds do not cover the report-summary refund amount."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "1920909:10732380",
+      "committee_id": "C00459099",
+      "file_number": "1920909",
+      "transaction_id": "10732380",
+      "schedule": "SA12",
+      "entity_type": "PAC",
+      "amount": "124357.00",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2025-09-24",
+      "election": "P2026",
+      "donor_name": "DELBENE DEMOCRATIC MAJORITY FUND",
+      "organization": "DELBENE DEMOCRATIC MAJORITY FUND",
+      "back_reference_schedule": "",
+      "purpose": "",
+      "memo_text": "",
+      "other_committee_id": "C00833590",
+      "source_row_sha256": "5c848bd483ff29d6a9f0df320a4354840d954dddf54e056be7afef94b75db5ff",
+      "source_record_number": 2265,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+      "component": null,
+      "disposition": "context",
+      "role": "transfer_context",
+      "related_record_id": null,
+      "counted_amount": null,
+      "reason": "One aggregate JFC transfer covering multiple donors; it is not this donor's amount."
+    },
+    {
+      "record_id": "1920909:10732436",
+      "committee_id": "C00459099",
+      "file_number": "1920909",
+      "transaction_id": "10732436",
+      "schedule": "SA12",
+      "entity_type": "IND",
+      "amount": "25.00",
+      "employer": "Meta Platforms",
+      "memo": true,
+      "back_reference_transaction_id": "10732380",
+      "date": "2025-05-25",
+      "election": "P2026",
+      "donor_name": "Thayer, Susan",
+      "organization": "",
+      "back_reference_schedule": "SA12",
+      "purpose": "",
+      "memo_text": "",
+      "other_committee_id": "",
+      "source_row_sha256": "a8cd24d3b0971103fd7fb223b14cda01d32fdf7ae163c13e5de4c5b4e30fd2eb",
+      "source_record_number": 2290,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+      "component": "jfc_allocations",
+      "disposition": "included",
+      "role": "jfc_allocation",
+      "related_record_id": "1920909:10732380",
+      "counted_amount": "25.00",
+      "reason": "IND SA12 memo explicitly links to the JFC transfer; processed API receipt code is 15J."
+    },
+    {
+      "record_id": "1920909:10732455",
+      "committee_id": "C00459099",
+      "file_number": "1920909",
+      "transaction_id": "10732455",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "25.00",
+      "employer": "Meta Platforms",
+      "memo": true,
+      "back_reference_transaction_id": "10732436",
+      "date": "2025-09-24",
+      "election": "G2026",
+      "donor_name": "Thayer, Susan",
+      "organization": "",
+      "back_reference_schedule": "SA11AI",
+      "purpose": "",
+      "memo_text": "",
+      "other_committee_id": "",
+      "source_row_sha256": "d045e467a744e1a0a5c72856de5dc2ce2986283fa40a3fe5f0cfcfcd674f3903",
+      "source_record_number": 584,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+      "component": "signed_adjustments",
+      "disposition": "included",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732436",
+      "counted_amount": "25.00",
+      "reason": "Positive general memo explicitly refers to allocation10732436. Filed back-reference schedule says SA11AI although the referenced record is SA12; retain this discrepancy."
+    },
+    {
+      "record_id": "1920909:10732456",
+      "committee_id": "C00459099",
+      "file_number": "1920909",
+      "transaction_id": "10732456",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "-25.00",
+      "employer": "Meta Platforms",
+      "memo": true,
+      "back_reference_transaction_id": "",
+      "date": "2025-09-24",
+      "election": "P2026",
+      "donor_name": "Thayer, Susan",
+      "organization": "",
+      "back_reference_schedule": "",
+      "purpose": "",
+      "memo_text": "",
+      "other_committee_id": "",
+      "source_row_sha256": "dbc480c1b74fc9bfb088acb85008a4955593f9b945af9196985349a9cd02e243",
+      "source_record_number": 583,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1920909.fec",
+      "component": "signed_adjustments",
+      "disposition": "included",
+      "role": "adjustment",
+      "related_record_id": "1920909:10732436",
+      "counted_amount": "-25.00",
+      "reason": "Source-reviewed negative primary memo offsets the same donor's positive general memo; no back-reference transaction is filed."
+    }
+  ],
+  "employer_aliases": {
+    "META PLATFORMS": "meta"
+  },
+  "limitations": [
+    "Exact self-reported employer aliases do not verify employment and can miss misspellings, unknown employers or unitemized gifts.",
+    "These are campaign-side donor attributions before refunds, not global unique original gifts, company treasury giving, outside spending or a cash-flow measure.",
+    "Report coverage dates describe filings, not a filter on donation dates or the election designation. A JFC memo may refer to an earlier gift.",
+    "Only reviewed account ownership for the stated scope is used. Current committee links alone do not establish historical candidate ownership.",
+    "This report does not replace the site's broader legacy selected-record totals. Unresolved relationships remain unknown.",
+    "The $124,357 parent is an aggregate transfer for many donors. It cannot be assigned to Thayer.",
+    "The $25 allocation is donor attribution, not a second upstream gift or a measured share of net JFC cash after expenses.",
+    "This four-row source excerpt does not establish complete Meta giving to this candidate or complete refunds.",
+    "The positive adjustment's filed back-reference schedule says SA11AI although the linked transaction is on SA12. The reviewed transaction-ID relationship is retained and the original label is preserved in evidence."
+  ],
+  "diagnostics": {
+    "source_records": 4,
+    "issue_counts": {
+      "refund_scope_incomplete": 1
+    },
+    "undated_source_records": 0,
+    "campaign_nonmemo_receipts": "124357.00",
+    "note": "Nonmemo receipt lines can include in-kind contributions; this is not a cash-flow measure."
+  },
+  "manifest_sha256": "3905045fb448ae45e59828ff14827adf901f177b0fa3e71484abf1d4f44dda8b",
+  "current_catalog_check": null
+}

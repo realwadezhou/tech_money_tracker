@@ -1,23 +1,26 @@
 {
   "cycle": 2024,
-  "built_at_utc": "2026-04-07T10:29:51+00:00",
+  "built_at_utc": "2026-09-18T20:07:17+00:00",
+  "generated_at_utc": "2026-09-18T20:07:17+00:00",
   "data_as_of": "2024-12-31",
-  "latest_bulk_release_utc": "2026-04-07T05:42:04+00:00",
-  "stale_bulk_sources": [
-    "committee_master",
-    "candidate_master",
-    "candidate_committee_linkage"
-  ],
-  "total_tech_linked_giving": 421446050.0,
+  "latest_bulk_release_utc": "2026-09-19T05:47:03+00:00",
+  "latest_local_bulk_release_utc": "2026-09-19T05:47:03+00:00",
+  "source_check_status": "current",
+  "stale_bulk_sources": [],
+  "total_tech_linked_giving": 421406314.0,
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "tech_donor_count": 31306,
   "tracked_company_count": 37,
   "committees_receiving_tech_money": 1741,
-  "tech_dominated_committees": 34,
+  "tech_dominated_committees": 27,
+  "committees_with_unreconciled_memo_attributions": 914,
   "notes": [
-    "All exports in this folder reflect the validated 2024 pipeline output.",
-    "Committee tech_pct is based on itemized individual contribution receipts, not all committee money.",
+    "Exports in this folder use the documented 2024 pipeline selection and attribution rules.",
+    "Committee tech_pct uses the selected itemized receipt pool; it is unavailable where retained nonzero memo records prevent a reconciled denominator.",
+    "Legacy total_receipts and total_itemized_receipts are selected record sums, aliased as selected_record_net_total; parent receipts and memo attributions may overlap. nonmemo_receipt_net_total is a diagnostic, not a replacement total.",
     "Recipient committee lean is inferred from candidate-facing spending when direct committee party is absent.",
+    "Totals include contributions with missing or invalid dates; weekly charts exclude those contributions.",
     "Candidate navigation now includes national, state, Senate, and House district pages."
-  ],
-  "generated_at_utc": "2026-04-07T10:29:51+00:00"
+  ]
 }

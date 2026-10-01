@@ -1,6 +1,8 @@
 {
   "company": "microsoft",
   "slug": "microsoft",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "microsoft",
     "net_total": 11101339,
@@ -8,25 +10,25 @@
     "n_contributions": 49715,
     "n_committees": 606,
     "sectors": "tech_giant",
-    "amt_dem": 4429636,
-    "amt_mixed": 1215768,
-    "amt_rep": 891574,
-    "amt_unknown": 4564361,
-    "amt_other": 5780129,
-    "classified_recipient_total": 5321210,
-    "pct_dem": 83.2449010657,
-    "pct_classified_recipients": 47.9330466352,
-    "donor_amt_D": 7267166,
-    "donor_amt_Mixed": 884666,
-    "donor_amt_R": 1076921,
-    "donor_amt_Unknown": 1872586,
-    "n_donors_D": 2648,
-    "n_donors_Mixed": 215,
-    "n_donors_R": 337,
-    "n_donors_Unknown": 2281,
+    "amt_dem": 4397566,
+    "amt_mixed": 1215562,
+    "amt_rep": 887630,
+    "amt_unknown": 4600581,
+    "amt_other": 5816143,
+    "classified_recipient_total": 5285196,
+    "pct_dem": 83.2053532168,
+    "pct_classified_recipients": 47.6086353187,
+    "donor_amt_D": 7252015,
+    "donor_amt_Mixed": 887041,
+    "donor_amt_R": 1068009,
+    "donor_amt_Unknown": 1894274,
+    "n_donors_D": 2627,
+    "n_donors_Mixed": 213,
+    "n_donors_R": 316,
+    "n_donors_Unknown": 2325,
     "donor_amt_total": 11101339,
     "n_donors_total": 5481,
-    "pct_dem_by_donor": 87.093602931,
+    "pct_dem_by_donor": 87.1633903941,
     "slug": "microsoft"
   },
   "weekly_series": [
@@ -1003,6 +1005,7 @@
       "n_committees": 43,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 929600
@@ -1015,6 +1018,7 @@
       "n_committees": 26,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 300000
@@ -1027,6 +1031,7 @@
       "n_committees": 1,
       "employers": "MICROSOFT",
       "states": "SD",
+      "top_committee_id": "C00842344",
       "top_committee": "BEST OF AMERICA PAC",
       "top_committee_type": "O",
       "top_committee_amt": 500000
@@ -1039,6 +1044,7 @@
       "n_committees": 46,
       "employers": "LINKEDIN; LINKEDIN CORP; LINKEDIN CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 144700
@@ -1051,6 +1057,7 @@
       "n_committees": 9,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 250000
@@ -1063,6 +1070,7 @@
       "n_committees": 1,
       "employers": "MICROSOFT",
       "states": "CA",
+      "top_committee_id": "C00492140",
       "top_committee": "AB PAC",
       "top_committee_type": "V",
       "top_committee_amt": 350000
@@ -1075,6 +1083,7 @@
       "n_committees": 18,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION; MICROSOFT, INC.",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 182400
@@ -1087,6 +1096,7 @@
       "n_committees": 13,
       "employers": "MICROSOFT; MICROSOFT CORP",
       "states": "CA",
+      "top_committee_id": "C00492140",
       "top_committee": "AB PAC",
       "top_committee_type": "V",
       "top_committee_amt": 130000
@@ -1099,6 +1109,7 @@
       "n_committees": 12,
       "employers": "LINKEDIN",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 100000
@@ -1111,6 +1122,7 @@
       "n_committees": 18,
       "employers": "MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 50000
@@ -1123,6 +1135,7 @@
       "n_committees": 2,
       "employers": "LINKEDIN",
       "states": "CA",
+      "top_committee_id": "C00754069",
       "top_committee": "PAF",
       "top_committee_type": "V",
       "top_committee_amt": 120000
@@ -1135,6 +1148,7 @@
       "n_committees": 2,
       "employers": "MICROSOFT",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 105000
@@ -1147,6 +1161,7 @@
       "n_committees": 1,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 84564
@@ -1159,6 +1174,7 @@
       "n_committees": 2,
       "employers": "MICROSOFT",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 72500
@@ -1171,8 +1187,9 @@
       "n_committees": 45,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "DC",
-      "top_committee": "DIGIDEMS PAC",
-      "top_committee_type": "W",
+      "top_committee_id": "C00833590",
+      "top_committee": "DELBENE DEMOCRATIC MAJORITY FUND",
+      "top_committee_type": "N",
       "top_committee_amt": 5000
     },
     {
@@ -1183,6 +1200,7 @@
       "n_committees": 1,
       "employers": "MICROSOFT ALUMNI FOUNDATION",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 75000
@@ -1195,6 +1213,7 @@
       "n_committees": 4,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1207,6 +1226,7 @@
       "n_committees": 5,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 61500
@@ -1219,6 +1239,7 @@
       "n_committees": 1,
       "employers": "MICROSOFT",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 55000
@@ -1231,6 +1252,7 @@
       "n_committees": 2,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1243,6 +1265,7 @@
       "n_committees": 2,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1255,6 +1278,7 @@
       "n_committees": 2,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 50000
@@ -1267,6 +1291,7 @@
       "n_committees": 1,
       "employers": "MICROSOFT",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1279,6 +1304,7 @@
       "n_committees": 4,
       "employers": "MICROSOFT; MICROSOFT CORP",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 44600
@@ -1291,6 +1317,7 @@
       "n_committees": 2,
       "employers": "MICROSOFT",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 35000
@@ -1303,6 +1330,7 @@
       "n_committees": 6,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00658476",
       "top_committee": "DEMOCRATIC GRASSROOTS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 25000
@@ -1315,6 +1343,7 @@
       "n_committees": 10,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT, INC.",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 36500
@@ -1327,6 +1356,7 @@
       "n_committees": 6,
       "employers": "MICROSOFT; MICROSOFT CORP",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 37250
@@ -1339,6 +1369,7 @@
       "n_committees": 4,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 25000
@@ -1351,6 +1382,7 @@
       "n_committees": 3,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00887273",
       "top_committee": "WA SENATE VICTORY FUND",
       "top_committee_type": "S",
       "top_committee_amt": 23100
@@ -1363,6 +1395,7 @@
       "n_committees": 2,
       "employers": "MICROSOFT",
       "states": "WA",
+      "top_committee_id": "C00833590",
       "top_committee": "DELBENE DEMOCRATIC MAJORITY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 30000
@@ -1375,6 +1408,7 @@
       "n_committees": 7,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00495028",
       "top_committee": "HMP",
       "top_committee_type": "W",
       "top_committee_amt": 10000
@@ -1387,6 +1421,7 @@
       "n_committees": 1,
       "employers": "MICROSOFT",
       "states": "WA",
+      "top_committee_id": "C00492140",
       "top_committee": "AB PAC",
       "top_committee_type": "V",
       "top_committee_amt": 35000
@@ -1399,6 +1434,7 @@
       "n_committees": 14,
       "employers": "MICROSOFT",
       "states": "NJ",
+      "top_committee_id": "C00841643",
       "top_committee": "ALTMAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -1411,6 +1447,7 @@
       "n_committees": 15,
       "employers": "LINKEDIN",
       "states": "FL",
+      "top_committee_id": "C00638767",
       "top_committee": "CORI BUSH FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 4026
@@ -1423,6 +1460,7 @@
       "n_committees": 8,
       "employers": "LINKEDIN; LINKEDIN CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1435,8 +1473,9 @@
       "n_committees": 11,
       "employers": "MICROSOFT CORP; MICROSOFT, INC.",
       "states": "CA",
-      "top_committee": "HARRIS FOR PRESIDENT",
-      "top_committee_type": "P",
+      "top_committee_id": "C00834218",
+      "top_committee": "ELISSA SLOTKIN FOR MICHIGAN",
+      "top_committee_type": "S",
       "top_committee_amt": 3300
     },
     {
@@ -1447,6 +1486,7 @@
       "n_committees": 4,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00227546",
       "top_committee": "MICROSOFT CORPORATION STAKEHOLDERS VOLUNTARY PAC - MSVPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 9984
@@ -1459,7 +1499,8 @@
       "n_committees": 5,
       "employers": "LINKEDIN",
       "states": "CA",
-      "top_committee": "JEFFRIES FOR CONGRESS",
+      "top_committee_id": "C00258475",
+      "top_committee": "ANNA ESHOO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6600
     },
@@ -1471,6 +1512,7 @@
       "n_committees": 26,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 7200
@@ -1483,6 +1525,7 @@
       "n_committees": 1,
       "employers": "MICROSOFT",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 25812
@@ -1495,6 +1538,7 @@
       "n_committees": 1,
       "employers": "MICROSOFT",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 25000
@@ -1507,6 +1551,7 @@
       "n_committees": 1,
       "employers": "LINKEDIN",
       "states": "CA",
+      "top_committee_id": "C00767749",
       "top_committee": "ZINC COLLECTIVE PAC",
       "top_committee_type": "O",
       "top_committee_amt": 25000
@@ -1519,6 +1564,7 @@
       "n_committees": 2,
       "employers": "MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 20000
@@ -1531,6 +1577,7 @@
       "n_committees": 5,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00843763",
       "top_committee": "MCBRIDE FOR DELAWARE INC.",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -1543,6 +1590,7 @@
       "n_committees": 5,
       "employers": "MICROSOFT; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00547679",
       "top_committee": "TESTER VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 8000
@@ -1555,6 +1603,7 @@
       "n_committees": 2,
       "employers": "MICROSOFT",
       "states": "OR",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 16646
@@ -1567,6 +1616,7 @@
       "n_committees": 4,
       "employers": "MICROSOFT; MICROSOFT CORP",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 20000
@@ -1579,6 +1629,7 @@
       "n_committees": 5,
       "employers": "MICROSOFT; MICROSOFT CORP; MICROSOFT CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00484642",
       "top_committee": "SMP",
       "top_committee_type": "O",
       "top_committee_amt": 10000
@@ -1591,6 +1642,7 @@
       "n_committees": 1,
       "employers": "LINKEDIN",
       "states": "CA",
+      "top_committee_id": "C00099267",
       "top_committee": "TEXAS DEMOCRATIC PARTY",
       "top_committee_type": "Y",
       "top_committee_amt": 20000
@@ -1636,7 +1688,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 515500,
       "n_donors": 4,
       "n_contributions": 12
@@ -1658,7 +1710,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 253000,
       "n_donors": 2,
       "n_contributions": 2
@@ -1691,7 +1743,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 121510,
       "n_donors": 7,
       "n_contributions": 26
@@ -1997,9 +2049,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 25640,
       "n_donors": 92,
       "n_contributions": 934
@@ -2065,7 +2117,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 23415,
       "n_donors": 26,
       "n_contributions": 46

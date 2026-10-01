@@ -1,6 +1,8 @@
 {
   "company": "nvidia",
   "slug": "nvidia",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "nvidia",
     "net_total": 1187479,
@@ -8,25 +10,25 @@
     "n_contributions": 3664,
     "n_committees": 227,
     "sectors": "semiconductors",
-    "amt_dem": 812904,
+    "amt_dem": 805659,
     "amt_mixed": 1600,
-    "amt_rep": 61534,
-    "amt_unknown": 311441,
-    "amt_other": 313041,
-    "classified_recipient_total": 874438,
-    "pct_dem": 92.9630231074,
-    "pct_classified_recipients": 73.6381864437,
-    "donor_amt_D": 987761,
-    "donor_amt_Mixed": 45800,
-    "donor_amt_R": 74937,
-    "donor_amt_Unknown": 78981,
-    "n_donors_D": 402,
-    "n_donors_Mixed": 36,
-    "n_donors_R": 72,
-    "n_donors_Unknown": 103,
+    "amt_rep": 61212,
+    "amt_unknown": 319008,
+    "amt_other": 320608,
+    "classified_recipient_total": 866871,
+    "pct_dem": 92.9387417505,
+    "pct_classified_recipients": 73.0009541221,
+    "donor_amt_D": 988601,
+    "donor_amt_Mixed": 44460,
+    "donor_amt_R": 71293,
+    "donor_amt_Unknown": 83125,
+    "n_donors_D": 404,
+    "n_donors_Mixed": 33,
+    "n_donors_R": 68,
+    "n_donors_Unknown": 108,
     "donor_amt_total": 1187479,
     "n_donors_total": 613,
-    "pct_dem_by_donor": 92.948419965,
+    "pct_dem_by_donor": 93.2735726403,
     "slug": "nvidia"
   },
   "weekly_series": [
@@ -958,6 +960,7 @@
       "n_committees": 44,
       "employers": "NVIDIA; NVIDIA CORP; NVIDIA CORP.; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 12000
@@ -970,6 +973,7 @@
       "n_committees": 2,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -982,6 +986,7 @@
       "n_committees": 25,
       "employers": "NVIDIA; NVIDIA CORP; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00650408",
       "top_committee": "JESSICA MORSE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -994,6 +999,7 @@
       "n_committees": 2,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 15000
@@ -1006,6 +1012,7 @@
       "n_committees": 15,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "VA",
+      "top_committee_id": "C00680934",
       "top_committee": "ILHAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6250
@@ -1018,8 +1025,9 @@
       "n_committees": 25,
       "employers": "NVIDIA; NVIDIA CORP.; NVIDIA CORPORATION",
       "states": "CA; OR",
-      "top_committee": "HARRIS FOR PRESIDENT",
-      "top_committee_type": "P",
+      "top_committee_id": "C00412304",
+      "top_committee": "MONTANANS FOR TESTER",
+      "top_committee_type": "S",
       "top_committee_amt": 3300
     },
     {
@@ -1030,6 +1038,7 @@
       "n_committees": 3,
       "employers": "NVIDIA CORE; NVIDIA CORP; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00484642",
       "top_committee": "SMP",
       "top_committee_type": "O",
       "top_committee_amt": 10750
@@ -1042,6 +1051,7 @@
       "n_committees": 1,
       "employers": "NVIDIA CORP; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 21250
@@ -1054,6 +1064,7 @@
       "n_committees": 2,
       "employers": "NVIDIA",
       "states": "MA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 14600
@@ -1066,6 +1077,7 @@
       "n_committees": 19,
       "employers": "NVIDIA; NVIDIA CORP.; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1078,6 +1090,7 @@
       "n_committees": 8,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00871368",
       "top_committee": "PROJECT 218",
       "top_committee_type": "O",
       "top_committee_amt": 5000
@@ -1090,6 +1103,7 @@
       "n_committees": 6,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1102,6 +1116,7 @@
       "n_committees": 5,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00852897",
       "top_committee": "STEVE GARVEY FOR US SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -1114,6 +1129,7 @@
       "n_committees": 3,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 8500
@@ -1126,6 +1142,7 @@
       "n_committees": 10,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1138,6 +1155,7 @@
       "n_committees": 12,
       "employers": "NVIDIA; NVIDIA CORP; NVIDIA CORP.; NVIDIA CORPORATION",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2950
@@ -1150,6 +1168,7 @@
       "n_committees": 15,
       "employers": "NVIDIA; NVIDIA CORP; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5100
@@ -1162,6 +1181,7 @@
       "n_committees": 8,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6100
@@ -1174,6 +1194,7 @@
       "n_committees": 1,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00878850",
       "top_committee": "JESSICA MORSE VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -1186,6 +1207,7 @@
       "n_committees": 5,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 4500
@@ -1198,6 +1220,7 @@
       "n_committees": 6,
       "employers": "NVIDIA",
       "states": "WA",
+      "top_committee_id": "C00580068",
       "top_committee": "PROGRESSIVE TURNOUT PROJECT",
       "top_committee_type": "W",
       "top_committee_amt": 3000
@@ -1210,6 +1233,7 @@
       "n_committees": 5,
       "employers": "NVIDIA",
       "states": "NC",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1222,6 +1246,7 @@
       "n_committees": 6,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1234,6 +1259,7 @@
       "n_committees": 7,
       "employers": "NVIDIA",
       "states": "NC",
+      "top_committee_id": "C00633248",
       "top_committee": "314 ACTION FUND",
       "top_committee_type": "W",
       "top_committee_amt": 2200
@@ -1246,6 +1272,7 @@
       "n_committees": 5,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3250
@@ -1258,6 +1285,7 @@
       "n_committees": 4,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00668608",
       "top_committee": "RASHIDA TLAIB FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 7000
@@ -1270,6 +1298,7 @@
       "n_committees": 6,
       "employers": "NVIDIA; NVIDIA CORP.; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5600
@@ -1282,6 +1311,7 @@
       "n_committees": 3,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 4105
@@ -1294,6 +1324,7 @@
       "n_committees": 12,
       "employers": "NVIDIA; NVIDIA CORP.",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1700
@@ -1306,6 +1337,7 @@
       "n_committees": 2,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00495861",
       "top_committee": "PRIORITIES USA ACTION",
       "top_committee_type": "V",
       "top_committee_amt": 5000
@@ -1318,6 +1350,7 @@
       "n_committees": 9,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "TX",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2896
@@ -1330,6 +1363,7 @@
       "n_committees": 5,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00680934",
       "top_committee": "ILHAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1342,6 +1376,7 @@
       "n_committees": 5,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00832675",
       "top_committee": "AGWAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 2000
@@ -1354,6 +1389,7 @@
       "n_committees": 2,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5000
@@ -1366,6 +1402,7 @@
       "n_committees": 3,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1378,6 +1415,7 @@
       "n_committees": 1,
       "employers": "NVIDIA",
       "states": "NC",
+      "top_committee_id": "C00871202",
       "top_committee": "GUARENTE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -1390,6 +1428,7 @@
       "n_committees": 1,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1402,6 +1441,7 @@
       "n_committees": 2,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00778134",
       "top_committee": "CLAUDIA TENNEY FOR CONGRESS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1414,6 +1454,7 @@
       "n_committees": 1,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1426,6 +1467,7 @@
       "n_committees": 4,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 5722
@@ -1438,6 +1480,7 @@
       "n_committees": 4,
       "employers": "NVIDIA",
       "states": "CA; NJ",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 4000
@@ -1450,6 +1493,7 @@
       "n_committees": 2,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1462,6 +1506,7 @@
       "n_committees": 4,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00876904",
       "top_committee": "A NEW POLICY PAC",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -1474,6 +1519,7 @@
       "n_committees": 4,
       "employers": "NVIDIA; NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 4000
@@ -1486,6 +1532,7 @@
       "n_committees": 3,
       "employers": "NVIDIA",
       "states": "RI",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 4000
@@ -1498,6 +1545,7 @@
       "n_committees": 1,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5300
@@ -1510,6 +1558,7 @@
       "n_committees": 3,
       "employers": "NVIDIA; NVIDIA CORP",
       "states": "CA",
+      "top_committee_id": "C00834218",
       "top_committee": "ELISSA SLOTKIN FOR MICHIGAN",
       "top_committee_type": "S",
       "top_committee_amt": 3550
@@ -1522,6 +1571,7 @@
       "n_committees": 1,
       "employers": "NVIDIA CORPORATION",
       "states": "CA",
+      "top_committee_id": "C00754242",
       "top_committee": "THEY SEE BLUE",
       "top_committee_type": "V",
       "top_committee_amt": 5000
@@ -1534,6 +1584,7 @@
       "n_committees": 1,
       "employers": "NVIDIA",
       "states": "NY",
+      "top_committee_id": "C00871368",
       "top_committee": "PROJECT 218",
       "top_committee_type": "O",
       "top_committee_amt": 5000
@@ -1546,6 +1597,7 @@
       "n_committees": 1,
       "employers": "NVIDIA",
       "states": "CA",
+      "top_committee_id": "C00680934",
       "top_committee": "ILHAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 5000
@@ -1787,9 +1839,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 6745,
       "n_donors": 24,
       "n_contributions": 305
@@ -1866,7 +1918,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 5500,
       "n_donors": 2,
       "n_contributions": 2
@@ -1877,7 +1929,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 5000,
       "n_donors": 1,
       "n_contributions": 1

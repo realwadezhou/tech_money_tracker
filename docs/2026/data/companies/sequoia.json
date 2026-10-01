@@ -1,32 +1,34 @@
 {
   "company": "sequoia",
   "slug": "sequoia",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "sequoia",
-    "net_total": 113300,
-    "n_donors": 5,
-    "n_contributions": 17,
-    "n_committees": 10,
+    "net_total": 652300,
+    "n_donors": 7,
+    "n_contributions": 20,
+    "n_committees": 12,
     "sectors": "vc",
-    "amt_dem": 16800,
+    "amt_dem": 516800,
     "amt_mixed": 1000,
     "amt_rep": 5500,
-    "amt_unknown": 90000,
-    "amt_other": 91000,
-    "classified_recipient_total": 22300,
-    "pct_dem": 75.33632287,
-    "pct_classified_recipients": 19.6822594881,
-    "donor_amt_D": 12000,
-    "donor_amt_Mixed": 43300,
+    "amt_unknown": 129000,
+    "amt_other": 130000,
+    "classified_recipient_total": 522300,
+    "pct_dem": 98.9469653456,
+    "pct_classified_recipients": 80.0705196995,
+    "donor_amt_D": 513000,
+    "donor_amt_Mixed": 57300,
     "donor_amt_R": 57000,
-    "donor_amt_Unknown": 1000,
-    "n_donors_D": 2,
+    "donor_amt_Unknown": 25000,
+    "n_donors_D": 4,
     "n_donors_Mixed": 1,
     "n_donors_R": 1,
     "n_donors_Unknown": 1,
-    "donor_amt_total": 113300,
-    "n_donors_total": 5,
-    "pct_dem_by_donor": 17.3913043478,
+    "donor_amt_total": 652300,
+    "n_donors_total": 7,
+    "pct_dem_by_donor": 90.0,
     "slug": "sequoia"
   },
   "weekly_series": [
@@ -110,9 +112,62 @@
       "gross_positive": 5000,
       "n_contributions": 2,
       "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-01",
+      "net_total": 14000,
+      "cumulative_net_total": 127300,
+      "gross_positive": 14000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-31",
+      "net_total": 25000,
+      "cumulative_net_total": 152300,
+      "gross_positive": 25000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-12",
+      "net_total": 500000,
+      "cumulative_net_total": 652300,
+      "gross_positive": 500000,
+      "n_contributions": 1,
+      "n_donors": 1
     }
   ],
   "top_donors": [
+    {
+      "name": "MORITZ, MICHAEL JONATHAN",
+      "net_total": 500000,
+      "gross_positive": 500000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SEQUOIA CAPITAL",
+      "states": "CA",
+      "top_committee_id": "C00418897",
+      "top_committee": "VOTEVETS",
+      "top_committee_type": "W",
+      "top_committee_amt": 500000
+    },
+    {
+      "name": "STEPHENSON, THOMAS F. MR.",
+      "net_total": 57300,
+      "gross_positive": 60800,
+      "n_contributions": 7,
+      "n_committees": 4,
+      "employers": "SEQUOIA CAPITAL",
+      "states": "CA",
+      "top_committee_id": "C00866947",
+      "top_committee": "CORNYN LONESTAR VICTORY FUND",
+      "top_committee_type": "N",
+      "top_committee_amt": 39000
+    },
     {
       "name": "STEPHENSON, THOMAS F.",
       "net_total": 57000,
@@ -121,20 +176,22 @@
       "n_committees": 3,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00858373",
       "top_committee": "GROW THE MAJORITY",
       "top_committee_type": "N",
       "top_committee_amt": 50000
     },
     {
-      "name": "STEPHENSON, THOMAS F. MR.",
-      "net_total": 43300,
-      "gross_positive": 46800,
-      "n_contributions": 6,
-      "n_committees": 4,
+      "name": "MORITZ, MICHAEL MR.",
+      "net_total": 25000,
+      "gross_positive": 25000,
+      "n_contributions": 1,
+      "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
-      "top_committee": "CORNYN LONESTAR VICTORY FUND",
-      "top_committee_type": "N",
+      "top_committee_id": "C00581876",
+      "top_committee": "KASICH FOR AMERICA, INC.",
+      "top_committee_type": "W",
       "top_committee_amt": 25000
     },
     {
@@ -145,6 +202,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL GLOBAL EQUITIES",
       "states": "CA",
+      "top_committee_id": "C00919100",
       "top_committee": "ERIC JONES FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 7000
@@ -157,6 +215,7 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00929968",
       "top_committee": "TOM PERRIELLO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 5000
@@ -169,12 +228,24 @@
       "n_committees": 1,
       "employers": "SEQUOIA CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00150367",
       "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 1000
     }
   ],
   "top_committees": [
+    {
+      "cmte_id": "C00418897",
+      "cmte_nm": "VOTEVETS",
+      "cmte_tp": "W",
+      "party_dr": "D",
+      "classification_source": "24k_contributions+ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 500000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
     {
       "cmte_id": "C00858373",
       "cmte_nm": "GROW THE MAJORITY",
@@ -193,6 +264,17 @@
       "party_dr": "Unknown",
       "classification_source": "",
       "recipient_bucket": "pac",
+      "net_total": 39000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00581876",
+      "cmte_nm": "KASICH FOR AMERICA, INC.",
+      "cmte_tp": "W",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
       "net_total": 25000,
       "n_donors": 1,
       "n_contributions": 1

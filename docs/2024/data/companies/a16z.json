@@ -1,6 +1,8 @@
 {
   "company": "a16z",
   "slug": "a16z",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "a16z",
     "net_total": 12821770,
@@ -10,23 +12,23 @@
     "sectors": "vc",
     "amt_dem": 3353483,
     "amt_mixed": 285000,
-    "amt_rep": 7590758,
-    "amt_unknown": 1592529,
-    "amt_other": 1877529,
-    "classified_recipient_total": 10944241,
-    "pct_dem": 30.6415310116,
-    "pct_classified_recipients": 85.356709721,
+    "amt_rep": 7625458,
+    "amt_unknown": 1557829,
+    "amt_other": 1842829,
+    "classified_recipient_total": 10978941,
+    "pct_dem": 30.5446855029,
+    "pct_classified_recipients": 85.6273431827,
     "donor_amt_D": 3536312,
-    "donor_amt_Mixed": 495770,
-    "donor_amt_R": 8506675,
+    "donor_amt_Mixed": 426104,
+    "donor_amt_R": 8576341,
     "donor_amt_Unknown": 283013,
     "n_donors_D": 13,
-    "n_donors_Mixed": 7,
-    "n_donors_R": 16,
+    "n_donors_Mixed": 6,
+    "n_donors_R": 17,
     "n_donors_Unknown": 11,
     "donor_amt_total": 12821770,
     "n_donors_total": 47,
-    "pct_dem_by_donor": 29.3640772011,
+    "pct_dem_by_donor": 29.1951895262,
     "slug": "a16z"
   },
   "weekly_series": [
@@ -553,6 +555,7 @@
       "n_committees": 70,
       "employers": "A16Z; ANDREESSEN HOROWITZ; ANDREESSEN HOROWITZ, LLC",
       "states": "CA",
+      "top_committee_id": "C00867036",
       "top_committee": "RIGHT FOR AMERICA",
       "top_committee_type": "O",
       "top_committee_amt": 4500000
@@ -565,6 +568,7 @@
       "n_committees": 129,
       "employers": "A16Z; ANDREESSEN HOROWITZ",
       "states": "CA; NV",
+      "top_committee_id": "C00609388",
       "top_committee": "BLACKPAC",
       "top_committee_type": "O",
       "top_committee_amt": 2500000
@@ -577,6 +581,7 @@
       "n_committees": 1,
       "employers": "A16Z",
       "states": "NV",
+      "top_committee_id": "C00867036",
       "top_committee": "RIGHT FOR AMERICA",
       "top_committee_type": "O",
       "top_committee_amt": 2500000
@@ -589,6 +594,7 @@
       "n_committees": 5,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00867937",
       "top_committee": "TRUMP 47 COMMITTEE, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 844600
@@ -601,6 +607,7 @@
       "n_committees": 64,
       "employers": "A16Z; ANDREESSEN HOROWITZ",
       "states": "CA; DC",
+      "top_committee_id": "C00837435",
       "top_committee": "2024 THUNE REPUBLICAN SENATE VICTORY",
       "top_committee_type": "N",
       "top_committee_amt": 31917
@@ -613,6 +620,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00799031",
       "top_committee": "UNITED DEMOCRACY PROJECT ('UDP')",
       "top_committee_type": "O",
       "top_committee_amt": 250000
@@ -625,6 +633,7 @@
       "n_committees": 33,
       "employers": "A16Z; ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00573444",
       "top_committee": "EMMER VICTORY COMMITTEE DBA REPUBLICAN CONGRESSIONAL VICTORY COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 13872
@@ -637,6 +646,7 @@
       "n_committees": 21,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00871368",
       "top_committee": "PROJECT 218",
       "top_committee_type": "O",
       "top_committee_amt": 22500
@@ -649,6 +659,7 @@
       "n_committees": 11,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00788448",
       "top_committee": "TEAM HAGERTY VICTORY",
       "top_committee_type": "N",
       "top_committee_amt": 11600
@@ -661,6 +672,7 @@
       "n_committees": 3,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00770180",
       "top_committee": "CORNYN VICTORY COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 31916
@@ -673,6 +685,7 @@
       "n_committees": 2,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "NV",
+      "top_committee_id": "C00770180",
       "top_committee": "CORNYN VICTORY COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 31917
@@ -685,6 +698,7 @@
       "n_committees": 2,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00770180",
       "top_committee": "CORNYN VICTORY COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 31917
@@ -697,6 +711,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00837435",
       "top_committee": "2024 THUNE REPUBLICAN SENATE VICTORY",
       "top_committee_type": "N",
       "top_committee_amt": 31916
@@ -709,6 +724,7 @@
       "n_committees": 2,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00027466",
       "top_committee": "NRSC",
       "top_committee_type": "Y",
       "top_committee_amt": 13768
@@ -721,8 +737,9 @@
       "n_committees": 5,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
-      "top_committee": "BILL CASSIDY FOR US SENATE",
-      "top_committee_type": "S",
+      "top_committee_id": "C00503185",
+      "top_committee": "RO FOR CONGRESS INC",
+      "top_committee_type": "H",
       "top_committee_amt": 6600
     },
     {
@@ -733,8 +750,9 @@
       "n_committees": 4,
       "employers": "A16Z",
       "states": "NY",
-      "top_committee": "EMMER VICTORY COMMITTEE DBA REPUBLICAN CONGRESSIONAL VICTORY COMMITTEE",
-      "top_committee_type": "N",
+      "top_committee_id": "C00699744",
+      "top_committee": "TORRES FOR CONGRESS",
+      "top_committee_type": "H",
       "top_committee_amt": 6600
     },
     {
@@ -745,6 +763,7 @@
       "n_committees": 6,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "DC",
+      "top_committee_id": "C00543983",
       "top_committee": "BILL CASSIDY FOR US SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -757,6 +776,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00075820",
       "top_committee": "NRCC",
       "top_committee_type": "Y",
       "top_committee_amt": 18768
@@ -769,6 +789,7 @@
       "n_committees": 4,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00343574",
       "top_committee": "MAINSTREAM PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -781,6 +802,7 @@
       "n_committees": 3,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "RI",
+      "top_committee_id": "C00543983",
       "top_committee": "BILL CASSIDY FOR US SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -793,6 +815,7 @@
       "n_committees": 1,
       "employers": "A16Z",
       "states": "CA",
+      "top_committee_id": "C00838912",
       "top_committee": "HARRIS ACTION FUND",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -805,8 +828,9 @@
       "n_committees": 2,
       "employers": "A16Z; ANDREESSEN HOROWITZ",
       "states": "CA",
-      "top_committee": "NATIONAL VENTURE CAPITAL ASSOCIATION VENTUREPAC",
-      "top_committee_type": "Q",
+      "top_committee_id": "C00744946",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
       "top_committee_amt": 5000
     },
     {
@@ -817,6 +841,7 @@
       "n_committees": 4,
       "employers": "A16Z; ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00550970",
       "top_committee": "EQUALITY PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -829,6 +854,7 @@
       "n_committees": 2,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00765164",
       "top_committee": "ALEX PADILLA FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -841,6 +867,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -853,6 +880,7 @@
       "n_committees": 1,
       "employers": "A16Z",
       "states": "NY",
+      "top_committee_id": "C00768762",
       "top_committee": "GILLIBRAND VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -865,6 +893,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00544650",
       "top_committee": "TEAM MCHENRY",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -877,6 +906,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "NV",
+      "top_committee_id": "C00824896",
       "top_committee": "BLOCKCHAIN ASSOCIATION POLITICAL ACTION COMMITTEE (BA PAC)",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -889,6 +919,7 @@
       "n_committees": 2,
       "employers": "A16Z",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -901,6 +932,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "NY",
+      "top_committee_id": "C00768762",
       "top_committee": "GILLIBRAND VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -913,6 +945,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00445023",
       "top_committee": "GUTHRIE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -925,6 +958,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00789834",
       "top_committee": "SINEMA LEADERSHIP FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -937,6 +971,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00558627",
       "top_committee": "GALLEGO FOR ARIZONA",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -949,6 +984,7 @@
       "n_committees": 2,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -961,6 +997,7 @@
       "n_committees": 1,
       "employers": "A16Z CRYPTO",
       "states": "DC",
+      "top_committee_id": "C00540187",
       "top_committee": "INNOVATION POLITICAL ACTION COMMITTEE",
       "top_committee_type": "Q",
       "top_committee_amt": 2900
@@ -973,7 +1010,8 @@
       "n_committees": 2,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
-      "top_committee": "EHASZ FOR CONGRESS",
+      "top_committee_id": "C00851790",
+      "top_committee": "DEREK TRAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
     },
@@ -985,6 +1023,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1032
@@ -997,6 +1036,7 @@
       "n_committees": 1,
       "employers": "A16Z",
       "states": "CA",
+      "top_committee_id": "C00859439",
       "top_committee": "DIXON FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -1009,6 +1049,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "FL",
+      "top_committee_id": "C00551275",
       "top_committee": "FRENCH HILL FOR ARKANSAS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -1021,6 +1062,7 @@
       "n_committees": 2,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "NY",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 531
@@ -1033,6 +1075,7 @@
       "n_committees": 1,
       "employers": "A16Z",
       "states": "ZZ",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 500
@@ -1045,6 +1088,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00441014",
       "top_committee": "ROB WITTMAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 500
@@ -1057,6 +1101,7 @@
       "n_committees": 1,
       "employers": "A16Z",
       "states": "NY",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 500
@@ -1069,6 +1114,7 @@
       "n_committees": 1,
       "employers": "A16Z",
       "states": "DC",
+      "top_committee_id": "C00831164",
       "top_committee": "NEW YORK MAJORITY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 500
@@ -1081,6 +1127,7 @@
       "n_committees": 1,
       "employers": "A16Z",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 400
@@ -1093,6 +1140,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "NY",
+      "top_committee_id": "C00264697",
       "top_committee": "FRIENDS OF SHERROD BROWN",
       "top_committee_type": "S",
       "top_committee_amt": 250
@@ -1105,6 +1153,7 @@
       "n_committees": 1,
       "employers": "ANDREESSEN HOROWITZ",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 150
@@ -1269,8 +1318,8 @@
       "cmte_id": "C00788448",
       "cmte_nm": "TEAM HAGERTY VICTORY",
       "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
       "net_total": 34700,
       "n_donors": 3,

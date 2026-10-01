@@ -21,6 +21,8 @@
   }
 
   var INITIAL_SORT_HEADERS = [
+    "tech account receipts",
+    "account receipts",
     "tech receipts",
     "total ($)",
     "total",
@@ -126,7 +128,9 @@
   function filterTable(table, query) {
     var needle = query.trim().toLowerCase();
     Array.prototype.forEach.call(table.tBodies[0].rows, function (row) {
-      var haystack = row.textContent.toLowerCase();
+      var haystack = Array.prototype.map.call(row.cells, function (cell) {
+        return cell.textContent.trim();
+      }).join(" ").toLowerCase();
       row.hidden = needle !== "" && haystack.indexOf(needle) === -1;
     });
   }

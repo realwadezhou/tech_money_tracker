@@ -1,10 +1,13 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import html
 import json
 import shutil
 from pathlib import Path
+
+from frontend import attribution, layout
 
 
 FRONTEND_ROOT = Path(__file__).resolve().parent
@@ -219,7 +222,7 @@ def cycle_toggle_html(prefix: str) -> str:
     links: list[str] = []
     for cycle in AVAILABLE_CYCLES:
         if cycle == CURRENT_RENDER_CYCLE:
-            links.append(f'<span class="cycle-pill current">{cycle}</span>')
+            links.append(f'<span class="cycle-pill current" aria-current="true">{cycle}</span>')
             continue
         target_rel_dir = resolve_cycle_target_rel_dir(cycle, CURRENT_RENDER_REL_DIR)
         href = f"{site_prefix}{cycle}/"
@@ -228,10 +231,10 @@ def cycle_toggle_html(prefix: str) -> str:
         links.append(f'<a class="cycle-pill" href="{esc(href)}">{cycle}</a>')
 
     return (
-        '<div class="cycle-toggle">'
-        '<span class="cycle-label">Cycle</span>'
+        '<nav class="cycle-toggle" aria-label="Election cycle">'
+        '<span class="cycle-label">Election cycle</span>'
         + "".join(links)
-        + "</div>"
+        + "</nav>"
     )
 
 
@@ -266,6 +269,19 @@ def display_company_name(value: str) -> str:
 def money(value) -> str:
     amount = float(value or 0)
     return "${:,.0f}".format(amount)
+
+
+def account_receipts_value(row: dict, scope: str = "") -> str:
+    """Do not present overlapping parent/memo record sums as receipts."""
+    if is_truthy_flag(row.get(f"{scope}has_unreconciled_memo_attributions")):
+        return "Unreconciled"
+    return money(row.get(f"{scope}total_itemized_receipts"))
+
+
+def account_receipts_total(rows: list[dict]) -> str:
+    if any(is_truthy_flag(row.get("has_unreconciled_memo_attributions")) for row in rows):
+        return "Unreconciled"
+    return money(sum(float_value(row.get("total_itemized_receipts")) for row in rows))
 
 
 def pct(value) -> str:
@@ -320,8 +336,9 @@ def is_truthy_flag(value) -> bool:
 
 
 def display_candidate_rows(rows: list[dict]) -> list[dict]:
-    filtered = [row for row in rows if is_truthy_flag(row.get("is_display_candidate"))]
-    return filtered if filtered else rows
+    if not any("is_display_candidate" in row for row in rows):
+        return rows
+    return [row for row in rows if is_truthy_flag(row.get("is_display_candidate"))]
 
 
 def district_slug(code: str) -> str:
@@ -397,7 +414,7 @@ def nav(prefix: str) -> str:
         (f"{prefix}candidates/", "Candidates"),
         (f"{prefix}races/", "Races"),
         (f"{prefix}political-bodies/", "Political bodies"),
-        (f"{prefix}companies/", "Tech employees"),
+        (f"{prefix}companies/", "Giving by employer"),
     ]
     after_links = [
         (f"{prefix}federal-lobbying/", "Federal lobbying"),
@@ -426,7 +443,18 @@ def nav(prefix: str) -> str:
 
 
 def note(metadata: dict, *lines: str) -> str:
-    items = [f"<strong>Data as of {esc(metadata['data_as_of'])}.</strong>"]
+    items = [f"<strong>Latest tech-matched transaction: {esc(metadata.get('data_as_of') or 'unavailable')}.</strong>"]
+    release = metadata.get("latest_local_bulk_release_utc")
+    if release:
+        items.append(f"Latest installed FEC bulk release: {esc(release)}.")
+    status = metadata.get("source_check_status")
+    if status in {"stale", "unknown", "missing"}:
+        items.append({
+            "stale": "Newer FEC source files are available; this build is behind the latest release.",
+            "unknown": "Freshness against the official FEC releases could not be verified.",
+            "missing": "Some required local FEC source files are missing; source coverage is incomplete.",
+        }[status])
+    items.append("Transaction dates are not filing-completeness dates; late filings and amendments can change earlier totals.")
     items.extend(esc(line) for line in lines if line)
     return '<p class="meta">' + "<br>".join(items) + "</p>"
 
@@ -452,30 +480,42 @@ def shell(
     top_note: str = "",
     include_charts: bool = False,
 ) -> str:
-    chart_script = ""
-    if include_charts:
-        chart_script = f'\n  <script src="{esc(prefix)}static/charts.js"></script>'
+    current_section = CURRENT_RENDER_REL_DIR.strip("/").split("/")[0]
+    return layout.render_shell(
+        title, body,
+        stylesheet_url=static_asset_url("site.css", prefix),
+        tables_script_url=static_asset_url("tables.js", prefix),
+        charts_script_url=static_asset_url("charts.js", prefix) if include_charts else None,
+        navigation_prefix=prefix,
+        home_href=f"{prefix}index.html",
+        current_section=current_section,
+        cycle_label=str(CURRENT_RENDER_CYCLE) if CURRENT_RENDER_CYCLE else "",
+        cycle_controls=cycle_toggle_html(prefix),
+        source_note=top_note,
+        scripts=scripts,
+    )
 
-    return f"""<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{esc(title)}</title>
-  <link rel="stylesheet" href="{esc(prefix)}static/site.css">
-  <script src="{esc(prefix)}static/tables.js" defer></script>
-</head>
-<body>
-  <div class="page">
-    {site_header(prefix)}
-    {top_note}
-    {body}
-  </div>
-  {chart_script}
-  {scripts}
-</body>
-</html>
-"""
+
+def headline_stats(items: list[tuple[str, str, str]]) -> str:
+    return '<dl class="headline-stats">' + ''.join(
+        f'<div class="headline-stat"><dt>{esc(label)}</dt><dd>{value}</dd>'
+        f'<dd class="stat-note">{esc(context)}</dd></div>'
+        for label, value, context in items
+    ) + '</dl>'
+
+
+def compact_money(value) -> str:
+    amount = float_value(value)
+    for threshold, suffix in ((1_000_000_000, "b"), (1_000_000, "m")):
+        if abs(amount) >= threshold:
+            return f'<abbr title="{esc(money(value))}">${amount / threshold:,.1f}{suffix}</abbr>'
+    return money(value)
+
+
+def static_asset_url(name: str, prefix: str = "") -> str:
+    """Keep relative asset routes while invalidating caches when bytes change."""
+    version = hashlib.sha256((ASSET_ROOT / name).read_bytes()).hexdigest()[:12]
+    return f"{prefix}static/{name}?v={version}"
 
 
 def write(path: Path, content: str) -> None:
@@ -529,11 +569,96 @@ def table(headers: list[str], rows: list[list[str]], filterable: bool = True) ->
 
 def candidate_money_note() -> str:
     return (
-        '<p class="small">On candidate pages, <strong>Total Receipts</strong> means all '
-        "itemized individual contributions flowing into linked candidate committees. "
-        '<strong>Tech Receipts</strong> is the tracked tech-employer subset of that same '
-        'pool. <strong>IE Support</strong> and <strong>IE Oppose</strong> are outside '
-        "independent expenditures for or against the candidate, not direct committee receipts.</p>"
+        '<p class="small">On candidate pages, <strong>Account Receipts</strong> means net '
+        "itemized contributions in the FEC individual-contributions file to principal and authorized campaign accounts plus "
+        "FEC-confirmed former campaign accounts linked to that cycle. Former-account totals "
+        "can include post-conversion PAC activity and must not be described as donations received by the candidate's campaign. "
+        '<strong>Tech Account Receipts</strong> combines the employer-matched subset across all tracked companies. '
+        'It does not capture all donor-attributed joint-fundraising allocations. '
+        '<strong>IE Support</strong> and <strong>IE Oppose</strong> are outside '
+        "independent expenditures for or against the candidate, not direct committee receipts. "
+        "Linked committee counts and names also include affiliates whose receipts are excluded. "
+        "Historical account attribution does not set a committee's party label.</p>"
+        '<p class="small">Shared campaign accounts are assigned using the committee master\'s '
+        'candidate association. Receipts are not split by the date an account changed candidates. '
+        'A zero assigned to a former candidate does not establish zero historical giving to that campaign.</p>'
+        '<p class="small"><strong>Unreconciled</strong> replaces the all-record receipt total when '
+        'included nonzero memo attributions may overlap a parent receipt, such as partnership and '
+        'partner records. Tech Share is also omitted for these groups. Downloads preserve the '
+        'selected-record sum and memo diagnostics for review; adding parent and attribution rows '
+        'does not establish unique dollars received. Tech-account amounts remain sums of '
+        'employer-matched records, subject to the same attribution limitations.</p>'
+        '<p class="small">The candidate roster includes master-file election years matching the selected '
+        'even-year cycle. It omits odd-year special-election candidates and candidates fundraising for '
+        'other election years. Receipts use the cycle source file, including any earlier-dated records, '
+        'and are not separated by primary, general, special, or runoff election designation. '
+        'State and district groups can combine multiple contests. Top D/R names identify the largest '
+        'tech-account totals, not nominees or election winners.</p>'
+    )
+
+
+def candidate_account_breakdown(rows: list[dict]) -> str:
+    affected = [row for row in rows if int_value(row.get("former_campaign_account_committee_count")) > 0]
+    if not affected:
+        return ""
+    rendered = []
+    for row in affected:
+        rendered.append([
+            f'<td>{esc(row.get("cand_name"))}</td>',
+            f'<td class="number">{money(row.get("current_campaign_account_tech_itemized_receipts"))}</td>',
+            f'<td class="number">{money(row.get("former_campaign_account_tech_itemized_receipts"))}</td>',
+            f'<td class="number">{account_receipts_value(row, "former_campaign_account_")}</td>',
+            f'<td>{esc(row.get("former_campaign_account_committee_ids"))}</td>',
+        ])
+    return (
+        '<h2>Former Campaign Accounts</h2>'
+        '<p>These candidates have accounts the FEC confirms converted to PACs. The figures below '
+        'separate currently classified campaign accounts from former accounts; they do not split '
+        'receipts before and after conversion. Former-account amounts are already included above.</p>'
+        + table(["Candidate", "Current-Account Tech", "Former-Account Tech", "Former-Account Total", "Former Account IDs"], rendered)
+    )
+
+
+def donor_money_note() -> str:
+    return (
+        '<p class="small">Party dollar totals use all included contributions under each donor name, '
+        'including records with unmatched employers. Party percentages divide by Democratic- plus '
+        'Republican-leaning committee dollars only; Mixed and Unknown committees are excluded. '
+        'Total includes only tech-matched records, so it can differ from the party dollar totals. '
+        'Exact-name grouping can combine different people with the same name and split one person '
+        'across name variants.</p>'
+    )
+
+
+def company_party_note() -> str:
+    return (
+        '<p class="small">Pct Classified measures the share of company-linked dollars going to '
+        'Democratic- or Republican-leaning recipient committees. Pct Dem by Donor instead measures '
+        'dollars from Democratic-leaning donors divided by dollars from Democratic- plus '
+        'Republican-leaning donors; it is not a share of people or all giving. Donor lean uses all '
+        'included contributions under the reported name, including unmatched employers. Mixed and '
+        'Unknown groups are excluded from each Democratic percentage. Blank percentages indicate '
+        'that there is no meaningful split, including some refund-heavy cases.</p>'
+    )
+
+
+def matched_record_scope_note(prefix: str = "") -> str:
+    return (
+        '<p class="small">These totals sum selected employer-matched FEC records, including adjustments; '
+        'they are not fully reconciled totals of unique gifts. Refund matching and routed or attributed '
+        f'gifts remain limitations; see <a href="{esc(prefix)}methodology/">Methodology</a>.</p>'
+    )
+
+
+def undated_contributions_note(metadata: dict, scope: str = "Across this cycle") -> str:
+    count = int_value(metadata.get("undated_tech_contribution_count"))
+    if not count:
+        return ""
+    amount = money(metadata.get("undated_tech_net_total"))
+    return (
+        f'<p class="note">{esc(scope)}, '
+        f'{num(count)} tech-linked contribution rows ({amount} net) have no valid transaction date. '
+        'They are included in contribution totals but excluded from weekly charts.</p>'
     )
 
 
@@ -589,7 +714,7 @@ def candidate_rows_for_office(candidate_rows: list[dict], office: str) -> list[d
     return sorted(rows, key=candidate_sort_key)
 
 
-def page_home(metadata: dict, homepage: dict) -> str:
+def page_home(metadata: dict, homepage: dict, attribution_reports: list[dict] | None = None) -> str:
     display_start = display_start_for_cycle(int(metadata["cycle"]))
     top_company_rows = []
     for row in homepage["top_companies"][:5]:
@@ -647,7 +772,7 @@ def page_home(metadata: dict, homepage: dict) -> str:
     section_rows = [
         [
             '<td><a href="donors/">Donors</a></td>',
-            '<td>Individual contributors whose listed employer matches a tracked tech company.</td>',
+            '<td>Contributors whose listed employer matches a tracked tech company.</td>',
         ],
         [
             '<td><a href="candidates/">Candidates</a></td>',
@@ -662,12 +787,12 @@ def page_home(metadata: dict, homepage: dict) -> str:
             '<td>PACs, Super PACs, party committees, and other non-candidate committees by tech-linked money received.</td>',
         ],
         [
-            '<td><a href="companies/">Tech employees</a></td>',
-            '<td>One page per tracked tech company, showing where that company\'s employees gave (not corporate or PAC money from the company itself).</td>',
+            '<td><a href="companies/">Giving by employer</a></td>',
+            '<td>One page per tracked employer, showing contributions carrying that company\'s employer tag.</td>',
         ],
         [
             '<td><a href="federal-lobbying/">Federal lobbying</a></td>',
-            '<td>Lobbying Disclosure Act data is being prepared for a future build.</td>',
+            '<td>AI issue explorer with original filings, company watchlists, and historical snapshot coverage.</td>',
         ],
         [
             '<td><a href="campaign-finance-101/">Campaign Finance 101</a></td>',
@@ -688,27 +813,37 @@ def page_home(metadata: dict, homepage: dict) -> str:
     ]
 
     body = f"""
-<p>This site follows money from tech-company employees and PACs to federal candidates and committees. The underlying data is from the FEC; employer names are messy there, so they're cleaned and matched to tracked companies by hand &mdash; see <a href="about/">About</a> for the story and <a href="methodology/">Methodology</a> for the rules. New to campaign finance? Start with <a href="campaign-finance-101/">Campaign Finance 101</a>.</p>
-
-<p><strong>Total tech-linked giving:</strong> {money(metadata["total_tech_linked_giving"])}<br>
-<strong>Tech donors:</strong> {num(metadata["tech_donor_count"])}<br>
-<strong>Tracked companies:</strong> {num(metadata["tracked_company_count"])}<br>
-<strong>Committees receiving tech money:</strong> {num(metadata["committees_receiving_tech_money"])}</p>
+<div class="page-intro">
+<div class="eyebrow">Federal campaign finance / {metadata['cycle']}</div>
+<h1>Technology and political money</h1>
+<p class="lede">Explore the people, employers, and political organizations connected by public campaign-finance records. Follow each figure back to its context.</p>
+<div class="page-actions"><a class="button" href="companies/">Explore employers →</a><a class="button" href="federal-lobbying/">Explore federal lobbying</a></div>
+</div>
+{headline_stats([
+    ("Employer-matched giving", compact_money(metadata["total_tech_linked_giving"]), "Net contributions"),
+    ("Donor groups", num(metadata["tech_donor_count"]), "Reported-name groups"),
+    ("Tracked employers", num(metadata["tracked_company_count"]), "Curated employer matches"),
+    ("Recipient committees", num(metadata["committees_receiving_tech_money"]), "Across the selected cycle"),
+])}
+{matched_record_scope_note()}
+{attribution.report_links(attribution_reports)}
 
 <h2>Weekly Tech-Linked Giving</h2>
 <div class="chart-wrap"><div id="weekly-chart"></div></div>
-<p class="note">Chart display begins on {display_start}. The totals above include a small number of earlier rows present in the FEC source files.</p>
+<p class="note">Chart display is limited to weeks ending on or after {display_start}. The cumulative line and totals above include any earlier rows present in the FEC source files.</p>
+{undated_contributions_note(metadata)}
 
 <h2>Start Here</h2>
 {table(["Section", "What It Shows"], section_rows, filterable=False)}
 
-<h2>At A Glance: Tech Employees</h2>
+<h2>At A Glance: Giving by Employer</h2>
 {table(["Company", "Total", "Donors", "Committees", "Pct Classified", "Pct Dem by Donor"], top_company_rows, filterable=False)}
-<p><a href="companies/">See all tech employees by company.</a></p>
+{company_party_note()}
+<p><a href="companies/">See all tracked employers.</a></p>
 
 <h2>At A Glance: Candidates</h2>
 {table(["Candidate Committee", "Type", "Lean", "Tech Receipts", "Tech Share", "Tech Donors"], top_candidate_rows, filterable=False)}
-<p class="small">Committee tech share is a share of itemized individual contribution receipts, not all committee money.</p>
+<p class="small">Committee tech share uses net itemized contributions in the FEC individual-contributions file, not all committee money. It is omitted when refunds or overlapping memo attributions prevent a meaningful denominator.</p>
 <p><a href="candidates/">See featured candidate committees.</a></p>
 
 <h2>At A Glance: Political Bodies</h2>
@@ -718,6 +853,7 @@ def page_home(metadata: dict, homepage: dict) -> str:
 
 <h2>At A Glance: Top Donors</h2>
 {table(["Donor", "$ to Dem", "% to Dem", "$ to Rep", "Total", "Company Tags", "Top Committee"], top_donor_rows, filterable=False)}
+{donor_money_note()}
 <p><a href="donors/">See all major donors.</a></p>
 """
 
@@ -763,18 +899,19 @@ def page_companies_index(metadata: dict, companies: list[dict]) -> str:
         )
 
     body = f"""
-<h1>Tech Employees</h1>
-<p>One page per tracked tech company, showing where that company's <strong>employees</strong> gave &mdash; based on the employer each donor wrote on their contribution form. This is <em>not</em> corporate or PAC money from the company itself. It's the combined individual giving of people who listed that company as their employer. See <a href="../about/">About</a> for how the matching works.</p>
+<h1>Giving by Employer</h1>
+<p>One page per tracked tech company, grouping contributions by the employer listed in each record. Employer matching does not verify employment or identity, and the FEC individual-contributions file also contains some nonindividual contributors. These totals are not a measure of company-directed giving or company PAC spending. See <a href="../about/">About</a> for how the matching works.</p>
 {table(["Company", "Total", "Donors", "Committees", "Sector", "Pct Classified", "Pct Dem by Donor"], rows)}
+{company_party_note()}
 """
     top_note = note(
         metadata,
         f"Figures cover the {metadata['cycle']} cycle. Matching of donors to companies is done by hand against a curated list of tech employers; it is not exhaustive.",
     )
-    return shell("Tech Employees - Tech Money", body, prefix="../", top_note=top_note)
+    return shell("Giving by Employer - Tech Money", body, prefix="../", top_note=top_note)
 
 
-def page_company(metadata: dict, company_payload: dict) -> str:
+def page_company(metadata: dict, company_payload: dict, attribution_reports: list[dict] | None = None) -> str:
     display_start = display_start_for_cycle(int(metadata["cycle"]))
     summary = company_payload["summary"]
     top_donor_rows = []
@@ -804,28 +941,36 @@ def page_company(metadata: dict, company_payload: dict) -> str:
     company_name = display_company_name(company_payload["company"])
     body = f"""
 <h1>{esc(company_name)}</h1>
-
-<p><strong>Total tech-linked giving:</strong> {money(summary["net_total"])}<br>
-<strong>Donors:</strong> {num(summary["n_donors"])}<br>
-<strong>Contribution rows:</strong> {num(summary["n_contributions"])}<br>
-<strong>Recipient committees:</strong> {num(summary["n_committees"])}<br>
-<strong>Sector:</strong> {esc(summary.get("sectors", ""))}</p>
+<p class="lede">Contributions associated with reported employers mapped to {esc(company_name)}.</p>
+{headline_stats([
+    ("Employer-matched giving", compact_money(summary["net_total"]), "Net contributions"),
+    ("Donor groups", num(summary["n_donors"]), "Reported-name groups"),
+    ("Contribution records", num(summary["n_contributions"]), "Selected FEC records"),
+    ("Recipient committees", num(summary["n_committees"]), "Political organizations"),
+])}
+<p class="small"><strong>Sector:</strong> {esc(summary.get("sectors", ""))}</p>
+{matched_record_scope_note("../../")}
+{attribution.report_links(attribution_reports, "../../", company_payload['company'])}
 
 <p><strong>Pct recipient dollars classified:</strong> {pct(summary.get("pct_classified_recipients"))}<br>
 <strong>Pct Dem by inferred recipient lean:</strong> {pct(summary.get("pct_dem"))}<br>
 <strong>Pct Dem by donor classification:</strong> {pct(summary.get("pct_dem_by_donor"))}</p>
+<p class="small">The recipient-based Democratic percentage divides dollars to Democratic-leaning committees by dollars to Democratic- plus Republican-leaning committees.</p>
+{company_party_note()}
 
 <h2>Weekly Giving</h2>
 <div class="chart-wrap"><div id="company-weekly-chart"></div></div>
-<p class="note">Chart display begins on {display_start}. Totals above include earlier rows present in the FEC source files.</p>
+<p class="note">Chart display is limited to weeks ending on or after {display_start}. The cumulative line and totals above include any earlier rows present in the FEC source files.</p>
+{undated_contributions_note(company_payload, "For this company")}
 
 <h2>Top Recipient Committees</h2>
+<p class="small">These tables and their JSON downloads show {num(len(company_payload["top_committees"]))} of {num(summary["n_committees"])} recipient committees and {num(len(company_payload["top_donors"]))} of {num(summary["n_donors"])} reported donor names. Missing rows do not imply zero giving.</p>
 {table(["Committee", "Type", "Bucket", "Lean", "Total", "Donors"], top_committee_rows)}
 
 <h2>Top Donors</h2>
 {table(["Donor", "Total", "Rows", "Top Committee"], top_donor_rows)}
 
-<p class="small"><a href="../">Back to tech employees.</a></p>
+<p class="small"><a href="../">Back to giving by employer.</a></p>
 """
 
     scripts = f"""
@@ -842,7 +987,7 @@ document.addEventListener("DOMContentLoaded", function () {{
 
     top_note = note(
         metadata,
-        f"Figures cover the {metadata['cycle']} cycle. Contributions shown here are from individuals who listed this company as their employer, not from the company or its PAC.",
+        f"Figures cover the {metadata['cycle']} cycle. Contributions shown here carry this company's employer tag; they are not a measure of company-directed giving or company PAC spending.",
     )
     return shell(
         f"{company_name} - Tech Money",
@@ -888,7 +1033,7 @@ def page_candidates(
             [
                 f'<td><a href="{esc(presidential_detail_href())}">{esc(row["cand_name"])}</a></td>',
                 f'<td>{esc(row.get("party_dr", ""))}</td>',
-                f'<td class="number">{money(row.get("total_itemized_receipts"))}</td>',
+                f'<td class="number">{account_receipts_value(row)}</td>',
                 f'<td class="number">{money(row.get("tech_itemized_receipts"))}</td>',
                 f'<td class="number">{money(row.get("ie_support_total"))}</td>',
                 f'<td class="number">{money(row.get("ie_oppose_total"))}</td>',
@@ -904,7 +1049,7 @@ def page_candidates(
                 f'<td>{esc(truncate(row.get("dem_candidate_name", ""), 26))}</td>',
                 f'<td>{esc(truncate(row.get("rep_candidate_name", ""), 26))}</td>',
                 f'<td>{esc(row.get("party_label", ""))}</td>',
-                f'<td class="number">{money(row.get("total_itemized_receipts"))}</td>',
+                f'<td class="number">{account_receipts_value(row)}</td>',
                 f'<td class="number">{money(row.get("tech_itemized_receipts"))}</td>',
                 f'<td class="number">{money(row.get("ie_support_total"))}</td>',
                 f'<td class="number">{money(row.get("ie_oppose_total"))}</td>',
@@ -919,7 +1064,7 @@ def page_candidates(
                 f'<td>{esc(truncate(row.get("dem_candidate_name", ""), 24))}</td>',
                 f'<td>{esc(truncate(row.get("rep_candidate_name", ""), 24))}</td>',
                 f'<td>{esc(row.get("party_label", ""))}</td>',
-                f'<td class="number">{money(row.get("total_itemized_receipts"))}</td>',
+                f'<td class="number">{account_receipts_value(row)}</td>',
                 f'<td class="number">{money(row.get("tech_itemized_receipts"))}</td>',
                 f'<td class="number">{money(row.get("ie_support_total"))}</td>',
                 f'<td class="number">{money(row.get("ie_oppose_total"))}</td>',
@@ -952,7 +1097,7 @@ def page_candidates(
 
     body = f"""
 <h1>Candidates</h1>
-<p>Federal candidates &mdash; President, Senate, and House &mdash; and the tech-linked money flowing to their campaign committees. Use the state tile map to jump to a state page, then drill into Senate races and House districts from there.</p>
+<p>Federal candidates &mdash; President, Senate, and House &mdash; and the tech-linked money flowing to their campaign and confirmed former campaign accounts. Use the state tile map to jump to a state page, then drill into Senate races and House districts from there.</p>
 
 <p><strong>Candidate rows:</strong> {num(len(candidate_race))}<br>
 <strong>States and jurisdictions with House or Senate candidates:</strong> {num(len(candidate_state))}<br>
@@ -964,25 +1109,25 @@ def page_candidates(
 {render_candidate_tile_map(map_states)}
 
 <h2>Presidential</h2>
-{table(["Candidate", "Party", "Total Receipts", "Tech Receipts", "IE Support", "IE Oppose", "Linked Committees"], presidential_rows)}
+{table(["Candidate", "Party", "Account Receipts", "Tech Account Receipts", "IE Support", "IE Oppose", "Linked Committees"], presidential_rows)}
 
 <h2>Senate Snapshot</h2>
-{table(["State", "D Candidate", "R Candidate", "Lean", "Total Receipts", "Tech Receipts", "IE Support", "IE Oppose"], senate_rows)}
+{table(["State", "Top D by Tech", "Top R by Tech", "Lean", "Account Receipts", "Tech Account Receipts", "IE Support", "IE Oppose"], senate_rows)}
 
 <h2>House Snapshot</h2>
-{table(["District", "D Candidate", "R Candidate", "Lean", "Total Receipts", "Tech Receipts", "IE Support", "IE Oppose"], house_rows)}
+{table(["District", "Top D by Tech", "Top R by Tech", "Lean", "Account Receipts", "Tech Account Receipts", "IE Support", "IE Oppose"], house_rows)}
 """
     if jurisdiction_rows:
         body += (
             "\n<h2>Other Jurisdictions</h2>\n"
-            + table(["Jurisdiction", "Lean", "House Districts", "Senate Candidates", "Tech Receipts"], jurisdiction_rows)
+            + table(["Jurisdiction", "Lean", "House Districts", "Senate Candidates", "Tech Account Receipts"], jurisdiction_rows)
         )
 
     body += "\n" + candidate_money_note() + "\n"
 
     top_note = note(
         metadata,
-        f"Figures cover the {metadata['cycle']} cycle. \"Tech Receipts\" are itemized individual contributions from tracked tech donors; \"IE Support\" and \"IE Oppose\" are outside spending for or against the candidate, not direct contributions to their campaign (see Campaign Finance 101).",
+        f"Figures cover the {metadata['cycle']} cycle. \"Tech Account Receipts\" are itemized contributions carrying a tracked tech-employer tag; \"IE Support\" and \"IE Oppose\" are outside spending for or against the candidate, not direct contributions to their campaign (see Campaign Finance 101).",
     )
     return shell("Candidates - Tech Money", body, prefix="../", top_note=top_note)
 
@@ -1020,27 +1165,18 @@ def page_races(
 
 
 def page_federal_lobbying(metadata: dict) -> str:
-    rows = [
-        [
-            "<td>Lobbying registrants and clients</td>",
-            "<td>Not yet included in the public static build.</td>",
-        ],
-        [
-            "<td>Lobbying issue areas</td>",
-            "<td>Placeholder for future LDA-derived summaries.</td>",
-        ],
-        [
-            "<td>Company and political-money joins</td>",
-            "<td>Not yet published as a frontend-ready table.</td>",
-        ],
-    ]
+    from frontend.lobbying import EXPORT as LOBBYING_EXPORT
+    available = (LOBBYING_EXPORT / "explorer.json").exists()
+    action = ('<p><a href="../../lobbying/">Open the AI lobbying explorer &rarr;</a></p>' if available
+              else '<p>The lobbying topic export has not been built in this checkout yet.</p>')
     body = f"""
 <h1>Federal Lobbying</h1>
-<p>Lobbying Disclosure Act data is being prepared for a future build. Nothing published here yet.</p>
-{table(["Topic", "Status"], rows)}
+<p>Explore AI references in federal lobbying reports by client, company watchlist, topic, and reporting quarter.</p>
+{action}
+<p>Lobbying uses calendar reporting years, independent of this page's election cycle. Consult the explorer's source years, snapshot dates, and reporting-period coverage. Current and future quarters are incomplete, and later filings can change earlier periods.</p>
+<p>Matching passages link to original filings. Company names and topic matches have separate review status. Dollar amounts are not allocated to AI or other issues.</p>
 """
-    top_note = note(metadata)
-    return shell("Federal Lobbying - Tech Money", body, prefix="../", top_note=top_note)
+    return shell("Federal Lobbying - Tech Money", body, prefix="../")
 
 
 def page_candidate_state(
@@ -1062,7 +1198,7 @@ def page_candidate_state(
             [
                 f'<td><a href="senate/">{esc(row["cand_name"])}</a></td>',
                 f'<td>{esc(row.get("party_dr", ""))}</td>',
-                f'<td class="number">{money(row.get("total_itemized_receipts"))}</td>',
+                f'<td class="number">{account_receipts_value(row)}</td>',
                 f'<td class="number">{money(row.get("tech_itemized_receipts"))}</td>',
                 f'<td class="number">{money(row.get("ie_support_total"))}</td>',
                 f'<td class="number">{money(row.get("ie_oppose_total"))}</td>',
@@ -1078,7 +1214,7 @@ def page_candidate_state(
                 f'<td>{esc(truncate(row.get("dem_candidate_name", ""), 24))}</td>',
                 f'<td>{esc(truncate(row.get("rep_candidate_name", ""), 24))}</td>',
                 f'<td>{esc(row.get("party_label", ""))}</td>',
-                f'<td class="number">{money(row.get("total_itemized_receipts"))}</td>',
+                f'<td class="number">{account_receipts_value(row)}</td>',
                 f'<td class="number">{money(row.get("tech_itemized_receipts"))}</td>',
                 f'<td class="number">{money(row.get("ie_support_total"))}</td>',
                 f'<td class="number">{money(row.get("ie_oppose_total"))}</td>',
@@ -1087,9 +1223,9 @@ def page_candidate_state(
 
     body = f"""
 <h1>{esc(state_title)}</h1>
-<p><strong>State lean by candidate tech receipts:</strong> {esc(state_row.get("party_label", ""))}<br>
-<strong>Total candidate receipts:</strong> {money(state_row.get("total_itemized_receipts"))}<br>
-<strong>Total candidate tech receipts:</strong> {money(state_row.get("tech_itemized_receipts"))}<br>
+<p><strong>State lean by candidate tech-account receipts:</strong> {esc(state_row.get("party_label", ""))}<br>
+<strong>Total candidate account receipts:</strong> {account_receipts_value(state_row)}<br>
+<strong>Total candidate tech-account receipts:</strong> {money(state_row.get("tech_itemized_receipts"))}<br>
 <strong>House districts:</strong> {num(state_row.get("house_district_count"))}<br>
 <strong>Senate candidates:</strong> {num(state_row.get("senate_candidate_count"))}</p>
 """
@@ -1099,12 +1235,12 @@ def page_candidate_state(
         )
     if senate_rows:
         body += "\n<h2>Senate Candidates</h2>\n" + table(
-            ["Candidate", "Party", "Total Receipts", "Tech Receipts", "IE Support", "IE Oppose", "Linked Committees"],
+            ["Candidate", "Party", "Account Receipts", "Tech Account Receipts", "IE Support", "IE Oppose", "Linked Committees"],
             senate_rows,
         )
 
     body += "\n<h2>House Districts</h2>\n" + table(
-        ["District", "D Candidate", "R Candidate", "Lean", "Total Receipts", "Tech Receipts", "IE Support", "IE Oppose"],
+        ["District", "Top D by Tech", "Top R by Tech", "Lean", "Account Receipts", "Tech Account Receipts", "IE Support", "IE Oppose"],
         district_rows,
     )
     body += "\n" + candidate_money_note()
@@ -1126,9 +1262,6 @@ def page_candidate_state_senate(
     state_title = state_name(state_code)
     senate_candidates = display_candidate_rows(senate_candidates)
     rows = []
-    senate_total_receipts = sum(
-        float_value(row.get("total_itemized_receipts")) for row in senate_candidates
-    )
     senate_tech_receipts = sum(
         float_value(row.get("tech_itemized_receipts")) for row in senate_candidates
     )
@@ -1137,7 +1270,7 @@ def page_candidate_state_senate(
             [
                 f'<td>{esc(row["cand_name"])}</td>',
                 f'<td>{esc(row.get("party_dr", ""))}</td>',
-                f'<td class="number">{money(row.get("total_itemized_receipts"))}</td>',
+                f'<td class="number">{account_receipts_value(row)}</td>',
                 f'<td class="number">{money(row.get("tech_itemized_receipts"))}</td>',
                 f'<td class="number">{money(row.get("ie_support_total"))}</td>',
                 f'<td class="number">{money(row.get("ie_oppose_total"))}</td>',
@@ -1148,10 +1281,11 @@ def page_candidate_state_senate(
 
     body = f"""
 <h1>{esc(state_title)} Senate</h1>
-<p><strong>Total Senate candidate receipts:</strong> {money(senate_total_receipts)}<br>
-<strong>Total Senate candidate tech receipts:</strong> {money(senate_tech_receipts)}<br>
+<p><strong>Total Senate candidate account receipts:</strong> {account_receipts_total(senate_candidates)}<br>
+<strong>Total Senate candidate tech-account receipts:</strong> {money(senate_tech_receipts)}<br>
 <strong>Senate candidates:</strong> {num(len(senate_candidates))}</p>
-{table(["Candidate", "Party", "Total Receipts", "Tech Receipts", "IE Support", "IE Oppose", "Linked Committees", "Committee Names"], rows)}
+{table(["Candidate", "Party", "Account Receipts", "Tech Account Receipts", "IE Support", "IE Oppose", "Linked Committees", "Committee Names"], rows)}
+{candidate_account_breakdown(senate_candidates)}
 {candidate_money_note()}
 <p class="small"><a href="../">Back to the state page.</a></p>
 """
@@ -1177,7 +1311,7 @@ def page_candidate_house_district(
             [
                 f'<td>{esc(row["cand_name"])}</td>',
                 f'<td>{esc(row.get("party_dr", ""))}</td>',
-                f'<td class="number">{money(row.get("total_itemized_receipts"))}</td>',
+                f'<td class="number">{account_receipts_value(row)}</td>',
                 f'<td class="number">{money(row.get("tech_itemized_receipts"))}</td>',
                 f'<td class="number">{money(row.get("ie_support_total"))}</td>',
                 f'<td class="number">{money(row.get("ie_oppose_total"))}</td>',
@@ -1188,11 +1322,12 @@ def page_candidate_house_district(
 
     body = f"""
 <h1>{esc(district_title)}</h1>
-<p><strong>District lean by candidate tech receipts:</strong> {esc(district_row.get("party_label", ""))}<br>
-<strong>Total district candidate receipts:</strong> {money(district_row.get("total_itemized_receipts"))}<br>
-<strong>Total district tech receipts:</strong> {money(district_row.get("tech_itemized_receipts"))}<br>
+<p><strong>District lean by candidate tech-account receipts:</strong> {esc(district_row.get("party_label", ""))}<br>
+<strong>Total district candidate account receipts:</strong> {account_receipts_value(district_row)}<br>
+<strong>Total district tech-account receipts:</strong> {money(district_row.get("tech_itemized_receipts"))}<br>
 <strong>Candidates:</strong> {num(len(district_candidates))}</p>
-{table(["Candidate", "Party", "Total Receipts", "Tech Receipts", "IE Support", "IE Oppose", "Linked Committees", "Committee Names"], rows)}
+{table(["Candidate", "Party", "Account Receipts", "Tech Account Receipts", "IE Support", "IE Oppose", "Linked Committees", "Committee Names"], rows)}
+{candidate_account_breakdown(district_candidates)}
 {candidate_money_note()}
 <p class="small"><a href="../../">Back to the state page.</a></p>
 """
@@ -1211,7 +1346,7 @@ def page_president(metadata: dict, presidential_candidates: list[dict]) -> str:
             [
                 f'<td>{esc(row["cand_name"])}</td>',
                 f'<td>{esc(row.get("party_dr", ""))}</td>',
-                f'<td class="number">{money(row.get("total_itemized_receipts"))}</td>',
+                f'<td class="number">{account_receipts_value(row)}</td>',
                 f'<td class="number">{money(row.get("tech_itemized_receipts"))}</td>',
                 f'<td class="number">{money(row.get("ie_support_total"))}</td>',
                 f'<td class="number">{money(row.get("ie_oppose_total"))}</td>',
@@ -1223,7 +1358,8 @@ def page_president(metadata: dict, presidential_candidates: list[dict]) -> str:
     body = f"""
 <h1>Presidential</h1>
 <p>Presidential candidates for the {metadata['cycle']} cycle.</p>
-{table(["Candidate", "Party", "Total Receipts", "Tech Receipts", "IE Support", "IE Oppose", "Linked Committees", "Committee Names"], rows)}
+{table(["Candidate", "Party", "Account Receipts", "Tech Account Receipts", "IE Support", "IE Oppose", "Linked Committees", "Committee Names"], rows)}
+{candidate_account_breakdown(presidential_candidates)}
 {candidate_money_note()}
 <p class="small"><a href="../">Back to candidates.</a></p>
 """
@@ -1251,9 +1387,9 @@ def page_political_bodies(metadata: dict, committees: list[dict]) -> str:
     body = f"""
 <h1>Political Bodies</h1>
 <p>PACs, Super PACs, party committees, and other non-candidate committees, ranked by tech-linked money received. These groups take contributions and spend money for or against candidates; they aren't candidates themselves. See <a href="../campaign-finance-101/">Campaign Finance 101</a> for the different committee types.</p>
-<p>Included here: featured non-candidate committees that either took in at least {money(100000)} from tracked tech donors or had at least a 10% tech share of itemized individual receipts.</p>
+<p>Included here: featured non-candidate committees that either took in at least {money(100000)} from tracked tech donors or had at least a 10% tech share of net itemized contributions.</p>
 {table(["Committee", "Type", "Bucket", "Lean", "Tech Receipts", "Tech Share", "Tech Donors", "Company Tags"], rows)}
-<p class="small">Tech Share is a share of itemized individual contribution receipts only &mdash; not a share of all committee money.</p>
+<p class="small">Tech Share uses net itemized contributions in the FEC individual-contributions file &mdash; not all committee money. It is omitted when refunds or overlapping memo attributions prevent a meaningful denominator.</p>
 """
     top_note = note(
         metadata,
@@ -1283,7 +1419,8 @@ def page_donors(metadata: dict, donors: list[dict]) -> str:
 
     body = f"""
 <h1>Major Donors</h1>
-<p>Individual people whose listed employer matches a tracked tech company, ranked by total giving. Contributions are itemized (over $200 in a cycle); smaller gifts aren't reported to the FEC by name, so they can't appear here. Listed donors gave at least {money(100000)}.</p>
+<p>Donors whose listed employer matches a tracked tech company, ranked by net tech-matched giving. Only itemized contribution records can be matched; these may include small gifts. Listed donors gave at least {money(100000)} in tech-matched contributions, net of employer-matched refunds.</p>
+{donor_money_note()}
 {table(["Name", "$ to Dem", "% to Dem", "$ to Rep", "% to Rep", "Total ($)", "Company Tags", "Top Committee Funded"], rows)}
 """
     top_note = note(
@@ -1300,16 +1437,17 @@ def page_about(metadata: dict) -> str:
 <p>Tech Money is a personal project to make tech-industry political giving easier to read.</p>
 
 <h2>What's on this site</h2>
-<p>Every number here is built from Federal Election Commission filings &mdash; the disclosures that campaigns, PACs, and party committees submit by law. The focus is contributions where the donor's listed employer matches a tracked tech company (Google, Meta, Nvidia, Anthropic, and so on), plus giving from those companies' own PACs.</p>
+<p>Election-cycle figures are built from Federal Election Commission filings &mdash; the disclosures that campaigns, PACs, and party committees submit by law. The focus is contributions where the donor's listed employer matches a tracked tech company (Google, Meta, Nvidia, Anthropic, and so on). Company-linked totals reflect those matched contributions; company PAC giving is not separately attributed to the company.</p>
+<p>The separate <a href="../federal-lobbying/">federal lobbying explorer</a> uses Lobbying Disclosure Act reports organized by calendar year. It indexes issue passages and report counts; it does not estimate AI lobbying spending.</p>
 
 <h2>Why it's not trivial</h2>
-<p>The FEC publishes raw filings. Employers on those filings are free text &mdash; "Google," "Google LLC," "google inc," "goog," and "alphabet" all come in as different strings. Identifying tech donors means building and maintaining a lookup that maps messy employer strings to clean company names, one by one. That manual tagging is the core of what this site does; it is also the main limit.</p>
+<p>The FEC publishes raw filings. Employers on those filings are free text &mdash; "Google," "Google LLC," "google inc," "goog," and "alphabet" all come in as different strings. Identifying tech-linked records means maintaining a lookup from employer strings to company names. Employer matching is one limit; receipt selection, refunds, routed and attributed gifts, and changing committee relationships also affect the totals.</p>
 
 <h2>What's missing</h2>
 <ul>
   <li>Employer matching is incomplete. Someone who wrote "Self-employed" or an unusual abbreviation of a tech employer won't be counted here.</li>
   <li>The tracked-company list is curated, not exhaustive.</li>
-  <li>Unitemized contributions (under $200 per cycle) aren't reported by name to the FEC at all, so they can't be here either.</li>
+  <li>Contributions reported only as unitemized totals have no donor names or employers attached, so they cannot be matched here.</li>
 </ul>
 
 <h2>Related pages</h2>
@@ -1335,7 +1473,7 @@ def page_campaign_finance_101(metadata: dict) -> str:
 <p>The <strong>Federal Election Commission (FEC)</strong> runs disclosure for federal elections: President, Senate, and House. Every campaign, PAC, and party committee files periodic reports listing money received and money spent. The FEC publishes these reports as bulk data, and this site is built from that bulk data.</p>
 
 <h2>Itemized vs. unitemized contributions</h2>
-<p>Campaigns must name a contributor (name, address, employer, occupation) only when the person gives <strong>more than $200 in a cycle</strong>. Those are <em>itemized</em> contributions. Smaller gifts are reported as one aggregate total &mdash; <em>unitemized</em>. This site can only see itemized giving, because the unitemized total has no names attached.</p>
+<p><em>Itemized</em> contribution records identify the donor and may include employer and occupation. Even small gifts can appear in itemized records. <em>Unitemized</em> contributions are reported as an aggregate total without donor details. This site can only match itemized giving, because unitemized totals have no names or employers attached.</p>
 
 <h2>Kinds of committees</h2>
 <ul>
@@ -1347,7 +1485,7 @@ def page_campaign_finance_101(metadata: dict) -> str:
 </ul>
 
 <h2>Contributions vs. independent expenditures</h2>
-<p>A <strong>contribution</strong> is money given to a candidate's committee &mdash; capped, direct. An <strong>independent expenditure</strong> (IE) is money that an outside group (usually a Super PAC) spends to support or oppose a candidate, without coordinating with the campaign &mdash; uncapped, indirect.</p>
+<p>A <strong>contribution</strong> is money or something of value given to influence an election, including gifts to candidate, party, and PAC committees. Applicable limits depend on the contributor and recipient; contributions are not limited to candidate campaigns. See the <a href="https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/types-contributions/">FEC's contribution definitions</a>. An <strong>independent expenditure</strong> (IE) pays for communications expressly advocating a candidate's election or defeat without coordinating with the campaign; it is reported separately from contributions.</p>
 <p>So when this site shows <em>IE Support</em> or <em>IE Oppose</em> for a candidate, that money did not go <em>to</em> the candidate. It was spent <em>for</em> or <em>against</em> them by an outside group.</p>
 
 <h2>Why employer data is messy</h2>
@@ -1371,43 +1509,45 @@ def page_methodology(metadata: dict) -> str:
         ['<td>District</td>', '<td>A U.S. House district row.</td>'],
         ['<td>Jurisdiction</td>', '<td>A non-state jurisdiction such as DC or a territory.</td>'],
         ['<td>Candidate</td>', '<td>An individual candidate from the FEC candidate master records and candidate-committee link files.</td>'],
-        ['<td>D Candidate</td>', '<td>The Democratic candidate with the most tech receipts in that Senate or House summary row.</td>'],
-        ['<td>R Candidate</td>', '<td>The Republican candidate with the most tech receipts in that Senate or House summary row.</td>'],
         ['<td>Party</td>', '<td>The candidate or committee party label shown in the export.</td>'],
         ['<td>Lean</td>', '<td>A simplified D, R, Mixed, or Unknown label based on where classified tech money flowed, not a race rating.</td>'],
         ['<td>Type</td>', '<td>The committee type from FEC filings, such as candidate committee, PAC, or party committee.</td>'],
-        ['<td>Bucket</td>', '<td>A broad committee category used on this site, such as candidate, party, leadership PAC, or outside group.</td>'],
+        ['<td>Bucket</td>', '<td>A broad committee category used on this site: candidate, party, PAC, outside spending, communication cost, or other.</td>'],
         ['<td>Sector</td>', '<td>The company-sector label from the tracked-company lookup.</td>'],
         ['<td>Total</td>', '<td>The total dollars for that row\'s main entity in that specific table. On company, donor, and committee tables, this is the full amount shown for that entity.</td>'],
-        ['<td>Total ($)</td>', '<td>The donor\'s full total in dollars.</td>'],
-        ['<td>Total Receipts</td>', '<td>All itemized individual contributions flowing into a candidate\'s affiliated committees, not just the tech-matched subset and not outside spending.</td>'],
-        ['<td>Tech Receipts</td>', '<td>The portion of candidate or committee receipts that came from donors whose employer matches a tracked tech company.</td>'],
+        ['<td>Total ($)</td>', '<td>The donor name\'s net tech-matched giving in dollars.</td>'],
+        ['<td>Account Receipts</td>', '<td>The net selected-record sum in the FEC individual-contributions file for principal and authorized campaign accounts plus FEC-confirmed former campaign accounts. Shown as Unreconciled when nonzero memo attributions could overlap parent receipts. Former accounts can include post-conversion PAC activity; outside spending is excluded.</td>'],
+        ['<td>Tech Account Receipts</td>', '<td>The employer-matched subset of Account Receipts, including separately identified former campaign accounts.</td>'],
+        ['<td>Current-Account Tech</td>', '<td>Employer-matched receipts to linked accounts currently classified as principal or authorized campaign committees. This is an account classification, not a verified election-designation total.</td>'],
+        ['<td>Former-Account Tech / Total</td>', '<td>Employer-matched / all included itemized receipts to confirmed former campaign accounts. No conversion-date split is available; these amounts may include later PAC receipts.</td>'],
+        ['<td>Top D by Tech / Top R by Tech</td>', '<td>The Democratic / Republican candidate with the highest tech-account receipts in the geographic group. Not a declaration of nominees or election winners.</td>'],
+        ['<td>Tech Receipts</td>', '<td>The portion of committee receipts carrying a tracked tech-employer tag.</td>'],
         ['<td>Tech-Linked Giving</td>', '<td>The site-wide sum of tech-matched contribution dollars in the current dataset.</td>'],
-        ['<td>Tech Share</td>', '<td>The share of itemized individual receipts coming from tracked tech donors.</td>'],
-        ['<td>Tech Donors</td>', '<td>The count of distinct donors in the tech-matched subset for that row.</td>'],
-        ['<td>Donors</td>', '<td>The count of distinct donors represented by that row.</td>'],
+        ['<td>Tech Share</td>', '<td>The share of net itemized contributions in the FEC individual-contributions file carrying tracked tech-employer tags. Omitted when refunds or retained nonzero memo attributions prevent a meaningful denominator. Selected-record dollar sums remain available in downloads for review.</td>'],
+        ['<td>Tech Donors</td>', '<td>The count of distinct reported donor-name strings in the tech-matched subset. These are not verified unique people.</td>'],
+        ['<td>Donors</td>', '<td>The count of distinct reported donor-name strings represented by that row. Name variants can split a person, and shared names can combine different people.</td>'],
         ['<td>Committees</td>', '<td>The number of committees represented or linked in that table row.</td>'],
-        ['<td>Linked Committees</td>', '<td>The number of committees affiliated with a candidate, from the FEC candidate-committee link file.</td>'],
+        ['<td>Linked Committees</td>', '<td>The number of committees affiliated with a candidate, from the FEC candidate-committee link file. This includes committees whose receipts are excluded from candidate totals.</td>'],
         ['<td>Committee Names</td>', '<td>The names of committees linked to that candidate.</td>'],
         ['<td>Top Committee</td>', '<td>The committee receiving the largest share of money from that donor or company row.</td>'],
         ['<td>Top Committee Funded</td>', '<td>The committee that received the most money from that donor in the public export.</td>'],
         ['<td>Company Tags</td>', '<td>The tracked tech-company labels attached to a donor or committee through matched contributions.</td>'],
         ['<td>Pct Classified</td>', '<td>The share of dollars that could be assigned a party direction under the site\'s classification rules.</td>'],
-        ['<td>Pct Dem by Donor</td>', '<td>The share of classified donors, not dollars, whose giving leaned Democratic in that company summary.</td>'],
-        ['<td>$ to Dem</td>', '<td>Dollars from that donor row that the pipeline classified as Democratic-leaning.</td>'],
+        ['<td>Pct Dem by Donor</td>', '<td>The share of dollars from Democratic-leaning donors among dollars from Democratic- and Republican-leaning donors in that company summary. This uses donor classifications and is not a share of donor counts.</td>'],
+        ['<td>$ to Dem</td>', '<td>Net giving under that donor name to Democratic-leaning committees, including records with unmatched employers.</td>'],
         ['<td>% to Dem</td>', '<td>The Democratic share of that donor\'s classified giving.</td>'],
-        ['<td>$ to Rep</td>', '<td>Dollars from that donor row that the pipeline classified as Republican-leaning.</td>'],
+        ['<td>$ to Rep</td>', '<td>Net giving under that donor name to Republican-leaning committees, including records with unmatched employers.</td>'],
         ['<td>% to Rep</td>', '<td>The Republican share of that donor\'s classified giving.</td>'],
         ['<td>IE Support</td>', '<td>Independent expenditures by outside committees reported as supporting the candidate. These are not direct receipts to the candidate committee.</td>'],
         ['<td>IE Oppose</td>', '<td>Independent expenditures by outside committees reported as opposing the candidate. These are not direct receipts to the candidate committee.</td>'],
-        ['<td>Rows</td>', '<td>The number of individual contribution rows rolled into that summary entry.</td>'],
+        ['<td>Rows</td>', '<td>The number of contribution rows rolled into that summary entry.</td>'],
         ['<td>House Districts</td>', '<td>The number of House districts represented in that state or jurisdiction row.</td>'],
         ['<td>Senate Candidates</td>', '<td>The number of Senate candidates represented in that state or jurisdiction row.</td>'],
         ['<td>File</td>', '<td>A downloadable export file.</td>'],
         ['<td>JSON</td>', '<td>A JSON payload produced for the site.</td>'],
         ['<td>Cycle</td>', '<td>The election cycle this page covers.</td>'],
-        ['<td>Data As Of</td>', '<td>The latest transaction date present in the current dataset.</td>'],
-        ['<td>Tracked Companies</td>', '<td>The number of companies and firms currently in the hand-built employer lookup.</td>'],
+        ['<td>Latest Matched Transaction</td>', '<td>The latest valid transaction date among tech-matched records in the current dataset. This is not the last download date or a statement that all filings through that date are included.</td>'],
+        ['<td>Tracked Companies</td>', '<td>The number of companies and firms with matched contributions in this cycle.</td>'],
     ]
     body = f"""
 <h1>Methodology</h1>
@@ -1415,32 +1555,44 @@ def page_methodology(metadata: dict) -> str:
 <p>How the numbers on this site are built: what's counted, what isn't, and what each column label means. New to campaign finance terms? Start with <a href="../campaign-finance-101/">Campaign Finance 101</a>.</p>
 
 <h2>Where the data comes from</h2>
-<p>Everything on this site comes from Federal Election Commission bulk files: individual contributions, candidate master records, committee master records, candidate-committee links, and independent expenditures. The FEC publishes these as raw CSVs; this site groups and aggregates them.</p>
+<p>This site uses Federal Election Commission bulk files: individual contributions, candidate master records, committee master records, candidate-committee links, and committee transactions including independent expenditures. FEC committee history also confirms former campaign accounts that converted to PACs. This site groups and aggregates those records.</p>
+<p>The FEC individual-contributions file includes some contributions from partnerships, organizations, and other nonindividual sources. Included transaction types, rather than an individual-only entity filter, define the contribution pool. Employer matching does not verify that a contributor is an employee or that a company directed the contribution.</p>
 
 <h2>How donors are matched to tech companies</h2>
-<p>When a donor gives more than $200 in a cycle, the filing committee must record the donor's name, address, and employer. The employer is free text, so "Google," "Google LLC," "google inc," "goog," and "alphabet" all appear as different strings in the raw data. Matching tech donors means keeping a lookup that maps these messy strings to a clean canonical company name, built and maintained by hand. Contributions get counted toward a company only when the employer string matches an entry in that lookup.</p>
+<p>Itemized contribution records contain donor details, including an employer when reported. The employer is free text, so "Google," "Google LLC," "google inc," "goog," and "alphabet" all appear as different strings in the raw data. Matching tech donors means keeping a lookup that maps these messy strings to a clean canonical company name, built and maintained by hand. Contributions get counted toward a company only when the employer string matches an entry in that lookup.</p>
 
 <h2>What is counted</h2>
 <ul>
-  <li>Itemized individual contributions to federal committees, minus refunds of those contributions.</li>
+  <li>Included itemized contribution records to federal committees, with refund transaction types subtracted.</li>
   <li>Contributions are attributed to a tech company when the donor's employer string maps to a tracked company in the hand-built lookup.</li>
-  <li>Candidate-level totals use the FEC's candidate-to-committee links to roll receipts up from each of a candidate's affiliated committees.</li>
-  <li>Independent expenditures (IE Support / IE Oppose) come from the FEC's independent-expenditure file and are reported separately from direct receipts.</li>
+  <li>Candidate-level account receipts include principal and authorized campaign accounts plus FEC-confirmed converted former campaign accounts linked to that election cycle. Current and former account amounts are exported separately and sum to the combined account total. Historical account totals can include post-conversion PAC activity; they must not be quoted as direct campaign contributions without further review.</li>
+  <li>Other joint fundraising, leadership PAC, and unauthorized affiliates are excluded from candidate receipt totals. The committee master and FEC conversion history resolve candidate links; links that remain ambiguous are excluded. Historical account attribution does not determine committee party lean, which is classified separately.</li>
+  <li>When an account changes candidates, the current committee-master association assigns its selected cycle receipts to one candidate. The pipeline does not reconstruct ownership on each receipt date. Zero assigned receipts for a former candidate are not evidence of zero historical campaign giving.</li>
+  <li>Independent expenditures (IE Support / IE Oppose) come from support and opposition records in the FEC's committee-transaction file and are reported separately from account receipts. These totals cover all included reporting committees, not just committees receiving tech contributions.</li>
+  <li>Exported tech-funded IE figures cover spending by committees with any positive net tech receipts. They do not identify which donor's dollars paid for a particular expenditure.</li>
   <li>Party lean for non-party committees (PACs, Super PACs) is inferred from their candidate-facing spending when the committee itself has no direct party affiliation.</li>
 </ul>
 
 <h2>What isn't counted</h2>
 <ul>
-  <li>Unitemized contributions (under $200 per cycle) &mdash; the FEC does not publish these by name.</li>
+  <li>Contributions reported only as unitemized totals &mdash; these have no donor names or employers to match.</li>
   <li>Donors whose employer string doesn't match a tracked tech company &mdash; including "Self-employed," odd abbreviations, blanks, and typos that haven't been mapped yet.</li>
   <li>Companies not on the curated tracked-company list.</li>
+  <li>Company PAC giving is not separately attributed to its connected company in tech-linked contribution totals.</li>
   <li>Outbound spending by committees (ads, operations, transfers) beyond the IE views mentioned above.</li>
 </ul>
 
 <h2>Current limits</h2>
+{undated_contributions_note(metadata)}
 <ul>
   <li>Cycles currently covered: 2024 and 2026.</li>
-  <li>A committee's "Tech Share" is a share of itemized individual receipts only &mdash; not a share of all money received.</li>
+  <li>A committee's "Tech Share" uses net itemized contributions in the FEC individual-contributions file &mdash; not all money received. It is omitted when refunds or included nonzero memo attributions prevent a meaningful denominator.</li>
+  <li>Partnership contributions can include a parent receipt and memo records attributing that receipt to partners. These records can describe the same money. We retain attribution records for employer analysis, but do not display an all-record receipt total or calculate Tech Share for groups with unresolved memo attributions. The downloadable <code>selected_record_net_total</code> preserves the raw selected-record sum; <code>nonmemo_receipt_net_total</code> is a diagnostic, not a fully reconciled substitute. <code>has_unreconciled_memo_attributions</code> and <code>memo_receipt_record_count</code> identify affected groups.</li>
+  <li>The exported tech-dominated committee count requires a valid Tech Share strictly above 50%; an exact 50% or an undefined share does not qualify.</li>
+  <li>Refunds are matched to companies using their own reported employer field. A refund with a blank or unmatched employer reduces the overall contribution pool but cannot reduce a tech-company total through name matching alone. Tech-linked totals therefore mean net employer-matched records, not a fully reconciled donor ledger.</li>
+  <li>Donors are grouped by exact reported name, which can combine different people with the same name and split one person across name variants. Donor party classifications use all included records under that name; company and tech-giving totals use only employer-matched records.</li>
+  <li>District and Senate exports count donor/candidate pairs in <code>tech_donor_candidate_pairs</code>. The older <code>tech_itemized_donors</code> column in those aggregate files is a compatibility alias for the same sum, not distinct people across candidates. Candidate-level donor counts deduplicate reported names across that candidate's included accounts.</li>
+  <li>Candidate navigation requires the candidate master election year to equal the selected even-year cycle. Odd-year special elections and fundraising by candidates for other election years are omitted. State and district groups are geographic summaries, not verified ballots or separate primary/general/special contests.</li>
   <li>Weekly charts begin their display at {display_start}; totals shown include earlier rows present in the source files.</li>
   <li>Per-candidate detail pages beyond national, state, Senate, and House-district views aren't built yet.</li>
 </ul>
@@ -1456,7 +1608,7 @@ def page_methodology(metadata: dict) -> str:
     return shell("Methodology - Tech Money", body, prefix="../", top_note=top_note)
 
 
-def page_data(metadata: dict) -> str:
+def page_data(metadata: dict, attribution_reports: list[dict] | None = None) -> str:
     display_start = display_start_for_cycle(int(metadata["cycle"]))
     files = [
         "site_metadata.json",
@@ -1486,9 +1638,11 @@ def page_data(metadata: dict) -> str:
     body = f"""
 <h1>Data</h1>
 <p>Downloadable CSV and JSON exports of everything rendered on this site, for the {metadata["cycle"]} cycle.</p>
+<p class="small">Legacy receipt-total fields preserve selected-record sums, which can include overlapping parent and memo records. Check the memo-risk flags and account-scope fields before treating a sum as money received. Candidate tech totals combine all tracked companies; company tags alone do not isolate one company's giving. See <a href="../methodology/">Methodology</a>.</p>
 {table(["File"], rows)}
 <p><a href="companies/">Company detail JSON files</a></p>
 <p><a href="charts/companies/">Company chart JSON files</a></p>
+{'<p><a href="../attribution/">Employer-to-candidate attribution reviews and source evidence</a></p>' if attribution_reports else ''}
 """
     top_note = note(
         metadata,
@@ -1539,6 +1693,22 @@ def page_company_chart_data_index(metadata: dict, companies: list[dict]) -> str:
     return shell("Company Chart JSON - Tech Money", body, prefix="../../../", top_note=top_note)
 
 
+def page_attribution_index(metadata: dict, reports: list[dict]) -> str:
+    return shell(
+        "Employer-to-candidate attribution reviews - Tech Money",
+        attribution.index_body(reports, metadata["cycle"]),
+        prefix="../",
+    )
+
+
+def page_attribution(metadata: dict, report: dict) -> str:
+    return shell(
+        f"{attribution.report_title(report)} - Attribution review - Tech Money",
+        attribution.report_body(report, table),
+        prefix="../../",
+    )
+
+
 def load_cycle_bundle(cycle: int) -> dict:
     data_root = EXPORT_ROOT / str(cycle)
     return {
@@ -1553,6 +1723,7 @@ def load_cycle_bundle(cycle: int) -> dict:
         "candidate_state": read_csv(data_root / "candidate_state_summary.csv"),
         "candidate_house_district": read_csv(data_root / "candidate_house_district_summary.csv"),
         "candidate_senate": read_csv(data_root / "candidate_senate_summary.csv"),
+        "attribution_reports": attribution.load_reports(data_root, cycle),
     }
 
 
@@ -1576,6 +1747,10 @@ def collect_cycle_page_dirs(bundle: dict) -> set[str]:
     }
     for row in bundle["companies"]:
         page_dirs.add(normalize_rel_dir(f"companies/{row['slug']}"))
+    if bundle.get("attribution_reports"):
+        page_dirs.add("attribution/")
+        for report in bundle["attribution_reports"]:
+            page_dirs.add(normalize_rel_dir(f"attribution/{report['_slug']}"))
     for row in bundle["candidate_state"]:
         page_dirs.add(normalize_rel_dir(f"candidates/states/{state_slug(row['state_code'])}"))
     for row in bundle["candidate_senate"]:
@@ -1610,28 +1785,26 @@ def page_site_index(cycle_bundles: dict[int, dict]) -> str:
             ]
         )
 
-    return f"""<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tech Money</title>
-  <link rel="stylesheet" href="{default_cycle}/static/site.css">
-  <script src="{default_cycle}/static/tables.js" defer></script>
-</head>
-<body>
-  <div class="page">
-    <div class="site-header">
-      <div class="site-title">Tech Money</div>
-      <p class="site-tagline">Choose a cycle-specific static build.</p>
-      <hr class="rule">
-    </div>
-    <p>The site now builds separate static trees for each included cycle so the pages can switch cleanly between 2024 and 2026.</p>
-    {table(["Cycle", "Data As Of", "Tech-Linked Giving", "Tech Donors", "Tracked Companies"], rows)}
-  </div>
-</body>
-</html>
+    body = f"""
+<div class="page-intro">
+<div class="eyebrow">Technology · Politics · Public records</div>
+<h1>Follow the money. Understand the records.</h1>
+<p class="lede">Explore employer-matched federal campaign contributions and reported lobbying activity, with linked sources and clear definitions.</p>
+<div class="page-actions"><a class="button" href="{default_cycle}/">Explore the {default_cycle} cycle →</a><a class="button" href="lobbying/">Explore federal lobbying</a></div>
+</div>
+<h2>Election cycles</h2>
+{table(["Cycle", "Latest Matched Transaction", "Employer-Matched Giving", "Donor Groups", "Tracked Employers"], rows, filterable=False)}
+<p class="small">Employer-matched contributions describe reported donor records, not spending directed by an employer. Donor groups are based on reported names, not verified unique identities.</p>
 """
+    return layout.render_shell(
+        "Tech Money", body,
+        stylesheet_url=static_asset_url("site.css", f"{default_cycle}/"),
+        tables_script_url=static_asset_url("tables.js", f"{default_cycle}/"),
+        navigation_prefix=f"{default_cycle}/",
+        home_href="index.html",
+        lobbying_href="lobbying/",
+        source_note='<p>Transaction dates do not indicate filing completeness. Late filings and amendments can change earlier totals; each cycle page identifies its installed source releases.</p>',
+    )
 
 
 def rel_dir_for_page(rel_path: str) -> str:
@@ -1672,6 +1845,7 @@ def build_site() -> None:
         candidate_state = bundle["candidate_state"]
         candidate_house_district = bundle["candidate_house_district"]
         candidate_senate = bundle["candidate_senate"]
+        attribution_reports = bundle["attribution_reports"]
         data_root = bundle["data_root"]
         cycle_root = SITE_ROOT / str(cycle)
 
@@ -1685,7 +1859,7 @@ def build_site() -> None:
             CURRENT_RENDER_REL_DIR = rel_dir_for_page(rel_path)
             write(cycle_root / rel_path, content_fn())
 
-        render("index.html", lambda: page_home(metadata, homepage))
+        render("index.html", lambda: page_home(metadata, homepage, attribution_reports))
         render("companies/index.html", lambda: page_companies_index(metadata, companies))
         render("committees/index.html", lambda: page_committees(metadata, committees))
         render(
@@ -1715,7 +1889,7 @@ def build_site() -> None:
         render("federal-lobbying/index.html", lambda: page_federal_lobbying(metadata))
         render("campaign-finance-101/index.html", lambda: page_campaign_finance_101(metadata))
         render("methodology/index.html", lambda: page_methodology(metadata))
-        render("data/index.html", lambda: page_data(metadata))
+        render("data/index.html", lambda: page_data(metadata, attribution_reports))
         render("about/index.html", lambda: page_about(metadata))
         render(
             "data/companies/index.html",
@@ -1726,12 +1900,20 @@ def build_site() -> None:
             lambda: page_company_chart_data_index(metadata, companies),
         )
 
+        if attribution_reports:
+            render("attribution/index.html", lambda: page_attribution_index(metadata, attribution_reports))
+            for report in attribution_reports:
+                render(
+                    f"attribution/{report['_slug']}/index.html",
+                    lambda report=report: page_attribution(metadata, report),
+                )
+
         for row in companies:
             slug = row["slug"]
             payload = read_json(data_root / "companies" / f"{slug}.json")
             render(
                 f"companies/{slug}/index.html",
-                lambda payload=payload: page_company(metadata, payload),
+                lambda payload=payload: page_company(metadata, payload, attribution_reports),
             )
 
         presidential_candidates = candidate_rows_for_office(candidate_race, "P")
@@ -1797,6 +1979,8 @@ def build_site() -> None:
                     page_candidate_house_district(metadata, district_row, district_candidates),
                 )
 
+    from frontend.lobbying import build_lobbying
+    build_lobbying(SITE_ROOT, available_cycles)
     CURRENT_RENDER_CYCLE = None
     CURRENT_RENDER_REL_DIR = ""
     print(f"Built multi-cycle site to {SITE_ROOT}")

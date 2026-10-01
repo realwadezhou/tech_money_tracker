@@ -1,6 +1,8 @@
 {
   "company": "netflix",
   "slug": "netflix",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "netflix",
     "net_total": 15098724,
@@ -8,25 +10,25 @@
     "n_contributions": 2187,
     "n_committees": 209,
     "sectors": "tech_giant",
-    "amt_dem": 10249505,
+    "amt_dem": 10243098,
     "amt_mixed": 0,
-    "amt_rep": 2604,
-    "amt_unknown": 4846615,
-    "amt_other": 4846615,
-    "classified_recipient_total": 10252109,
-    "pct_dem": 99.9746003481,
-    "pct_classified_recipients": 67.9004994064,
-    "donor_amt_D": 14835772,
-    "donor_amt_Mixed": 14408,
-    "donor_amt_R": 14072,
-    "donor_amt_Unknown": 234472,
-    "n_donors_D": 390,
-    "n_donors_Mixed": 19,
-    "n_donors_R": 18,
-    "n_donors_Unknown": 87,
+    "amt_rep": 2594,
+    "amt_unknown": 4853032,
+    "amt_other": 4853032,
+    "classified_recipient_total": 10245692,
+    "pct_dem": 99.974682042,
+    "pct_classified_recipients": 67.8579991263,
+    "donor_amt_D": 14833867,
+    "donor_amt_Mixed": 14658,
+    "donor_amt_R": 13862,
+    "donor_amt_Unknown": 236337,
+    "n_donors_D": 389,
+    "n_donors_Mixed": 20,
+    "n_donors_R": 17,
+    "n_donors_Unknown": 88,
     "donor_amt_total": 15098724,
     "n_donors_total": 514,
-    "pct_dem_by_donor": 99.9052380618,
+    "pct_dem_by_donor": 99.906638921,
     "slug": "netflix"
   },
   "weekly_series": [
@@ -976,6 +978,7 @@
       "n_committees": 13,
       "employers": "NETFLIX",
       "states": "; CA",
+      "top_committee_id": "C00804856",
       "top_committee": "REPUBLICAN ACCOUNTABILITY PAC",
       "top_committee_type": "O",
       "top_committee_amt": 6908816
@@ -988,6 +991,7 @@
       "n_committees": 71,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00631549",
       "top_committee": "FORWARD MAJORITY ACTION",
       "top_committee_type": "O",
       "top_committee_amt": 15000
@@ -1000,6 +1004,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 151625
@@ -1012,6 +1017,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 50000
@@ -1024,7 +1030,8 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "DCCC",
+      "top_committee_id": "C00042366",
+      "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 25000
     },
@@ -1036,6 +1043,7 @@
       "n_committees": 12,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 25000
@@ -1048,6 +1056,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 25812
@@ -1060,6 +1069,7 @@
       "n_committees": 5,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00834226",
       "top_committee": "SLOTKIN VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 15000
@@ -1072,6 +1082,7 @@
       "n_committees": 3,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00834226",
       "top_committee": "SLOTKIN VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -1084,6 +1095,7 @@
       "n_committees": 5,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 13300
@@ -1096,6 +1108,7 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 16000
@@ -1108,8 +1121,9 @@
       "n_committees": 7,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "ACTBLUE",
-      "top_committee_type": "V",
+      "top_committee_id": "C00606939",
+      "top_committee": "ROSEN FOR NEVADA",
+      "top_committee_type": "S",
       "top_committee_amt": 3300
     },
     {
@@ -1120,6 +1134,7 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -1132,6 +1147,7 @@
       "n_committees": 5,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5000
@@ -1144,6 +1160,7 @@
       "n_committees": 7,
       "employers": "NETFLIX",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6532
@@ -1156,6 +1173,7 @@
       "n_committees": 3,
       "employers": "NETFLIX",
       "states": "TN",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6000
@@ -1168,6 +1186,7 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00772517",
       "top_committee": "JACKY ROSEN VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1180,6 +1199,7 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00636027",
       "top_committee": "TECH FOR CAMPAIGNS",
       "top_committee_type": "V",
       "top_committee_amt": 5500
@@ -1192,8 +1212,9 @@
       "n_committees": 3,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "HARRIS VICTORY FUND",
-      "top_committee_type": "N",
+      "top_committee_id": "C00703975",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
       "top_committee_amt": 3500
     },
     {
@@ -1204,6 +1225,7 @@
       "n_committees": 3,
       "employers": "NETFLIX",
       "states": "DC",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6000
@@ -1216,6 +1238,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1228,6 +1251,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00326801",
       "top_committee": "TAMMY BALDWIN FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -1240,8 +1264,9 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "TAMMY BALDWIN FOR SENATE",
-      "top_committee_type": "S",
+      "top_committee_id": "C00703975",
+      "top_committee": "HARRIS FOR PRESIDENT",
+      "top_committee_type": "P",
       "top_committee_amt": 3300
     },
     {
@@ -1252,6 +1277,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "MD",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1264,6 +1290,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "NH",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1276,6 +1303,7 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3750
@@ -1288,6 +1316,7 @@
       "n_committees": 3,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1300,6 +1329,7 @@
       "n_committees": 5,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -1312,6 +1342,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1324,6 +1355,7 @@
       "n_committees": 9,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1250
@@ -1336,6 +1368,7 @@
       "n_committees": 3,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00167130",
       "top_committee": "PENNSYLVANIA DEMOCRATIC PARTY",
       "top_committee_type": "Y",
       "top_committee_amt": 2000
@@ -1348,6 +1381,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 4000
@@ -1360,7 +1394,8 @@
       "n_committees": 8,
       "employers": "NETFLIX",
       "states": "CA",
-      "top_committee": "PENNSYLVANIA DEMOCRATIC PARTY",
+      "top_committee_id": "C00208991",
+      "top_committee": "NEVADA STATE DEMOCRATIC PARTY",
       "top_committee_type": "Y",
       "top_committee_amt": 500
     },
@@ -1372,6 +1407,7 @@
       "n_committees": 3,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00343871",
       "top_committee": "SCHIFF FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 2500
@@ -1384,6 +1420,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00728360",
       "top_committee": "MOVEMENT VOTER PAC",
       "top_committee_type": "V",
       "top_committee_amt": 4000
@@ -1396,6 +1433,7 @@
       "n_committees": 9,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00632133",
       "top_committee": "SWING LEFT",
       "top_committee_type": "W",
       "top_committee_amt": 800
@@ -1408,6 +1446,7 @@
       "n_committees": 4,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2075
@@ -1420,6 +1459,7 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1432,6 +1472,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1444,6 +1485,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "WA",
+      "top_committee_id": "C00652628",
       "top_committee": "DR KIM SCHRIER FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1456,6 +1498,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00711150",
       "top_committee": "MONDAIRE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1468,6 +1511,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00787820",
       "top_committee": "CHRISTINA BOHANNAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1480,6 +1524,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1492,6 +1537,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "FL",
+      "top_committee_id": "C00431056",
       "top_committee": "BOB CASEY FOR SENATE INC",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1504,6 +1550,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "HI",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1516,6 +1563,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1528,6 +1576,7 @@
       "n_committees": 4,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2000
@@ -1540,6 +1589,7 @@
       "n_committees": 2,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2250
@@ -1552,6 +1602,7 @@
       "n_committees": 3,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1400
@@ -1564,6 +1615,7 @@
       "n_committees": 1,
       "employers": "NETFLIX",
       "states": "CA",
+      "top_committee_id": "C00654053",
       "top_committee": "THE PAC FOR AMERICA'S FUTURE",
       "top_committee_type": "V",
       "top_committee_amt": 3040
@@ -1609,7 +1661,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 1000000,
       "n_donors": 1,
       "n_contributions": 1
@@ -1719,7 +1771,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 12750,
       "n_donors": 7,
       "n_contributions": 7
@@ -1741,7 +1793,7 @@
       "cmte_tp": "V",
       "party_dr": "Unknown",
       "classification_source": "",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 11797,
       "n_donors": 13,
       "n_contributions": 51
@@ -1884,7 +1936,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 5500,
       "n_donors": 1,
       "n_contributions": 2
@@ -1904,9 +1956,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 5207,
       "n_donors": 9,
       "n_contributions": 103

@@ -1,6 +1,8 @@
 {
   "company": "other",
   "slug": "other",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "other",
     "net_total": 3017,
@@ -148,6 +150,7 @@
       "n_committees": 1,
       "employers": "TESLA GOVT INC.",
       "states": "MD",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -160,6 +163,7 @@
       "n_committees": 1,
       "employers": "TESLA GOVERNMENT INC.",
       "states": "VA",
+      "top_committee_id": "C00836916",
       "top_committee": "TEAM KENNEDY",
       "top_committee_type": "P",
       "top_committee_amt": 947
@@ -172,6 +176,7 @@
       "n_committees": 1,
       "employers": "TESLAR.COM",
       "states": "CA",
+      "top_committee_id": "C00836916",
       "top_committee": "TEAM KENNEDY",
       "top_committee_type": "P",
       "top_committee_amt": 500
@@ -184,6 +189,7 @@
       "n_committees": 1,
       "employers": "TESLA GOVERNMENT INC.",
       "states": "ME",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 250
@@ -196,6 +202,7 @@
       "n_committees": 1,
       "employers": "TESLA GOVERNMENT INC",
       "states": "VA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 250
@@ -208,6 +215,7 @@
       "n_committees": 1,
       "employers": "PALANTIR.NET",
       "states": "OH",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 60
@@ -220,6 +228,7 @@
       "n_committees": 1,
       "employers": "FORMERLY GOOGLE",
       "states": "FL",
+      "top_committee_id": "C00003418",
       "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 10

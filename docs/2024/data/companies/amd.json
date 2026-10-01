@@ -1,6 +1,8 @@
 {
   "company": "amd",
   "slug": "amd",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "amd",
     "net_total": 676773,
@@ -8,25 +10,25 @@
     "n_contributions": 1431,
     "n_committees": 142,
     "sectors": "semiconductors",
-    "amt_dem": 353734,
+    "amt_dem": 351137,
     "amt_mixed": 0,
-    "amt_rep": 33248,
-    "amt_unknown": 289791,
-    "amt_other": 289791,
-    "classified_recipient_total": 386982,
-    "pct_dem": 91.4083859198,
-    "pct_classified_recipients": 57.1804726252,
-    "donor_amt_D": 568407,
-    "donor_amt_Mixed": 26034,
-    "donor_amt_R": 38539,
-    "donor_amt_Unknown": 43793,
-    "n_donors_D": 171,
-    "n_donors_Mixed": 18,
-    "n_donors_R": 38,
-    "n_donors_Unknown": 42,
+    "amt_rep": 32086,
+    "amt_unknown": 293550,
+    "amt_other": 293550,
+    "classified_recipient_total": 383223,
+    "pct_dem": 91.6273292574,
+    "pct_classified_recipients": 56.6250426657,
+    "donor_amt_D": 571934,
+    "donor_amt_Mixed": 22507,
+    "donor_amt_R": 32986,
+    "donor_amt_Unknown": 49346,
+    "n_donors_D": 173,
+    "n_donors_Mixed": 16,
+    "n_donors_R": 32,
+    "n_donors_Unknown": 48,
     "donor_amt_total": 676773,
     "n_donors_total": 269,
-    "pct_dem_by_donor": 93.6503412165,
+    "pct_dem_by_donor": 94.5470475435,
     "slug": "amd"
   },
   "weekly_series": [
@@ -940,6 +942,7 @@
       "n_committees": 2,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 175000
@@ -952,7 +955,8 @@
       "n_committees": 39,
       "employers": "ADVANCED MICRO DEVICES; ADVANCED MICRO DEVICES, INC.; AMD",
       "states": "TX",
-      "top_committee": "FRIENDS OF RAJA FOR CONGRESS",
+      "top_committee_id": "C00787820",
+      "top_committee": "CHRISTINA BOHANNAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6600
     },
@@ -964,6 +968,7 @@
       "n_committees": 3,
       "employers": "ADVANCED MICRO DEVICES; AMD; AMD, INC.",
       "states": "CA",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -976,6 +981,7 @@
       "n_committees": 1,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00658476",
       "top_committee": "DEMOCRATIC GRASSROOTS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 25000
@@ -988,6 +994,7 @@
       "n_committees": 7,
       "employers": "ADVANCED MICRO DEVICES; AMD",
       "states": "CA",
+      "top_committee_id": "C00680934",
       "top_committee": "ILHAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -1000,6 +1007,7 @@
       "n_committees": 5,
       "employers": "ADVANCED MICRO DEVICES; ADVANCED MICRO DEVICES, INC.; AMD",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -1012,6 +1020,7 @@
       "n_committees": 4,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 10000
@@ -1024,6 +1033,7 @@
       "n_committees": 6,
       "employers": "AMD",
       "states": "TX",
+      "top_committee_id": "C00019331",
       "top_committee": "DEMOCRATIC PARTY OF WISCONSIN FEDERAL",
       "top_committee_type": "Y",
       "top_committee_amt": 9944
@@ -1036,6 +1046,7 @@
       "n_committees": 2,
       "employers": "ADVANCED MICRO DEVICES; AMD",
       "states": "TX",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1048,6 +1059,7 @@
       "n_committees": 5,
       "employers": "AMD; AMD, INC.",
       "states": "CA; IL",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5350
@@ -1060,6 +1072,7 @@
       "n_committees": 4,
       "employers": "AMD",
       "states": "TX",
+      "top_committee_id": "C00836916",
       "top_committee": "TEAM KENNEDY",
       "top_committee_type": "P",
       "top_committee_amt": 6380
@@ -1072,6 +1085,7 @@
       "n_committees": 9,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2500
@@ -1084,6 +1098,7 @@
       "n_committees": 5,
       "employers": "AMD",
       "states": "TX",
+      "top_committee_id": "C00845750",
       "top_committee": "PHIL EHR FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 2000
@@ -1096,6 +1111,7 @@
       "n_committees": 2,
       "employers": "ADVANCED MICRO DEVICES; AMD",
       "states": "VA",
+      "top_committee_id": "C00555888",
       "top_committee": "FRIENDS OF DON BEYER",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1108,6 +1124,7 @@
       "n_committees": 2,
       "employers": "AMD INC.",
       "states": "MA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6250
@@ -1120,6 +1137,7 @@
       "n_committees": 2,
       "employers": "ADVANCED MICRO DEVICES; AMD",
       "states": "CA",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1132,6 +1150,7 @@
       "n_committees": 7,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00852897",
       "top_committee": "STEVE GARVEY FOR US SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 2400
@@ -1144,6 +1163,7 @@
       "n_committees": 1,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5300
@@ -1156,6 +1176,7 @@
       "n_committees": 5,
       "employers": "AMD",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1168,6 +1189,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "CA",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1180,6 +1202,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "TX",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1192,6 +1215,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "VA",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1204,6 +1228,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "TX",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1216,6 +1241,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "TX",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1228,6 +1254,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "CA",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1240,6 +1267,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "CA",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1252,6 +1280,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "TX",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1264,6 +1293,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "CA",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1276,6 +1306,7 @@
       "n_committees": 2,
       "employers": "ADVANCED MICRO DEVICES; AMD",
       "states": "VA",
+      "top_committee_id": "C00495358",
       "top_committee": "KAINE FOR VIRGINIA",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1288,6 +1319,7 @@
       "n_committees": 9,
       "employers": "ADVANCED MICRO DEVICES; ADVANCED MICRO DEVICES, INC.",
       "states": "MA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2810
@@ -1300,6 +1332,7 @@
       "n_committees": 2,
       "employers": "AMD",
       "states": "TX",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -1312,6 +1345,7 @@
       "n_committees": 1,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00770941",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 4000
@@ -1324,6 +1358,7 @@
       "n_committees": 1,
       "employers": "AMD",
       "states": "CO",
+      "top_committee_id": "C00810457",
       "top_committee": "DAWSON FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3705
@@ -1336,6 +1371,7 @@
       "n_committees": 3,
       "employers": "AMD",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2000
@@ -1348,6 +1384,7 @@
       "n_committees": 1,
       "employers": "AMD",
       "states": "CO",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3450
@@ -1360,6 +1397,7 @@
       "n_committees": 1,
       "employers": "AMD",
       "states": "WA",
+      "top_committee_id": "C00498345",
       "top_committee": "MULLIN FOR AMERICA",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1372,6 +1410,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "MA",
+      "top_committee_id": "C00404483",
       "top_committee": "ADVANCED MICRO DEVICES, INC. PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 3200
@@ -1384,6 +1423,7 @@
       "n_committees": 5,
       "employers": "ADVANCED MICRO DEVICES, INC.; AMD",
       "states": "TX",
+      "top_committee_id": "C00839597",
       "top_committee": "COLIN ALLRED FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 1037
@@ -1396,6 +1436,7 @@
       "n_committees": 3,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00709196",
       "top_committee": "BOWMAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 2500
@@ -1408,6 +1449,7 @@
       "n_committees": 4,
       "employers": "ADVANCED MICRO DEVICES; AMD",
       "states": "TX",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1800
@@ -1420,6 +1462,7 @@
       "n_committees": 4,
       "employers": "ADVANCED MICRO DEVICES, INC; AMD",
       "states": "CA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 1000
@@ -1432,6 +1475,7 @@
       "n_committees": 1,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2650
@@ -1444,6 +1488,7 @@
       "n_committees": 2,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "MD",
+      "top_committee_id": "C00027466",
       "top_committee": "NRSC",
       "top_committee_type": "Y",
       "top_committee_amt": 1577
@@ -1456,6 +1501,7 @@
       "n_committees": 1,
       "employers": "AMD",
       "states": "KS",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 2500
@@ -1468,6 +1514,7 @@
       "n_committees": 4,
       "employers": "AMD INC; AMD INC.; AMD, INC",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -1480,6 +1527,7 @@
       "n_committees": 6,
       "employers": "ADVANCED MICRO DEVICES, INC.; AMD",
       "states": "NY",
+      "top_committee_id": "C00680934",
       "top_committee": "ILHAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 600
@@ -1492,6 +1540,7 @@
       "n_committees": 1,
       "employers": "AMD",
       "states": "TX",
+      "top_committee_id": "C00749143",
       "top_committee": "DEFEAT BY TWEET",
       "top_committee_type": "O",
       "top_committee_amt": 1921
@@ -1504,6 +1553,7 @@
       "n_committees": 1,
       "employers": "ADVANCED MICRO DEVICES",
       "states": "MA",
+      "top_committee_id": "C00500843",
       "top_committee": "WARREN FOR SENATE, INC.",
       "top_committee_type": "S",
       "top_committee_amt": 1898
@@ -1516,6 +1566,7 @@
       "n_committees": 3,
       "employers": "AMD",
       "states": "CA",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 1005
@@ -1528,6 +1579,7 @@
       "n_committees": 3,
       "employers": "AMD; AMD INC; AMD INC.",
       "states": "TX",
+      "top_committee_id": "C00847673",
       "top_committee": "STOP THESE OPPRESSIVE PEOPLE: TYRANTS RACISTS UNQUALIFIEDS MISOGYNISTS PROPAGANDISTS (STOP TRUMP)",
       "top_committee_type": "V",
       "top_committee_amt": 800
@@ -2033,9 +2085,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 2597,
       "n_donors": 8,
       "n_contributions": 48

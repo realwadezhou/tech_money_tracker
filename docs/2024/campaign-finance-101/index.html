@@ -3,35 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
   <title>Campaign Finance 101 - Tech Money</title>
-  <link rel="stylesheet" href="../static/site.css">
-  <script src="../static/tables.js" defer></script>
+  <link rel="stylesheet" href="../static/site.css?v=2fce1f17fa7a">
+  <script src="../static/tables.js?v=ed167f7f940a" defer></script>
+  
 </head>
 <body>
-  <div class="page">
-    
-<div class="site-header">
-  <div class="site-title">Tech Money</div>
-  <p class="site-tagline">A plain web document about tech-linked money in federal politics.</p>
-  <div class="cycle-toggle"><span class="cycle-label">Cycle</span><a class="cycle-pill" href="../../2026/campaign-finance-101/">2026</a><span class="cycle-pill current">2024</span></div>
-  <hr class="rule">
-  <div class="navline"><a href="../index.html">Home</a> | <strong>Elections 2024:</strong> <a href="../donors/">Donors</a> | <a href="../candidates/">Candidates</a> | <a href="../races/">Races</a> | <a href="../political-bodies/">Political bodies</a> | <a href="../companies/">Tech employees</a><br><a href="../federal-lobbying/">Federal lobbying</a> | <a href="../campaign-finance-101/">Campaign Finance 101</a> | <a href="../methodology/">Methodology</a> | <a href="../data/">Data</a> | <a href="../about/">About</a></div>
-  <hr class="rule">
-</div>
-
-    <p class="meta"><strong>Data as of 2024-12-31.</strong></p>
-    
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="page app-shell">
+    <header class="site-header">
+      <a class="site-title" href="../index.html">Tech Money</a>
+      <nav class="primary-nav" aria-label="Main navigation"><a href="../index.html">Overview</a><a href="../companies/">Employers</a><a href="../candidates/">Candidates</a><a href="../federal-lobbying/">Lobbying</a><a href="../data/">Sources</a></nav>
+      <nav class="cycle-toggle" aria-label="Election cycle"><span class="cycle-label">Election cycle</span><a class="cycle-pill" href="../../2026/campaign-finance-101/">2026</a><span class="cycle-pill current" aria-current="true">2024</span></nav>
+      <details class="mobile-navigation"><summary>Browse sections</summary><nav aria-label="Browse sections on mobile"><div class="nav-group"><div class="nav-caption">Explore</div><a href="../index.html">Overview</a><a href="../companies/">Giving by employer</a><a href="../donors/">Donors</a><a href="../candidates/">Candidates</a><a href="../races/">Races</a><a href="../committees/">Committees</a><a href="../political-bodies/">Political bodies</a></div><div class="nav-group"><div class="nav-caption">Federal lobbying</div><a href="../federal-lobbying/">Federal lobbying</a></div><div class="nav-group"><div class="nav-caption">Understand the data</div><a href="../campaign-finance-101/" aria-current="page">Campaign Finance 101</a><a href="../methodology/">Methodology</a><a href="../data/">Data &amp; sources</a><a href="../about/">About</a></div></nav></details>
+    </header>
+    <div class="site-layout">
+      <aside class="site-sidebar"><nav aria-label="Browse sections"><div class="nav-group"><div class="nav-caption">Explore</div><a href="../index.html">Overview</a><a href="../companies/">Giving by employer</a><a href="../donors/">Donors</a><a href="../candidates/">Candidates</a><a href="../races/">Races</a><a href="../committees/">Committees</a><a href="../political-bodies/">Political bodies</a></div><div class="nav-group"><div class="nav-caption">Federal lobbying</div><a href="../federal-lobbying/">Federal lobbying</a></div><div class="nav-group"><div class="nav-caption">Understand the data</div><a href="../campaign-finance-101/" aria-current="page">Campaign Finance 101</a><a href="../methodology/">Methodology</a><a href="../data/">Data &amp; sources</a><a href="../about/">About</a></div></nav></aside>
+      <main class="page-main " id="main-content">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../index.html">Tech Money</a><span aria-hidden="true">/</span><span>2024</span><span aria-hidden="true">/</span><span>Campaign Finance 101</span></nav>
+        
+        
 <h1>Campaign Finance 101</h1>
 
 <p>A short plain-English guide to how U.S. federal political money works &mdash; enough to read the rest of this site.</p>
 
-<h2>Who regulates it</h2>
+<h2 id="section-who-regulates-it">Who regulates it</h2>
 <p>The <strong>Federal Election Commission (FEC)</strong> runs disclosure for federal elections: President, Senate, and House. Every campaign, PAC, and party committee files periodic reports listing money received and money spent. The FEC publishes these reports as bulk data, and this site is built from that bulk data.</p>
 
-<h2>Itemized vs. unitemized contributions</h2>
-<p>Campaigns must name a contributor (name, address, employer, occupation) only when the person gives <strong>more than $200 in a cycle</strong>. Those are <em>itemized</em> contributions. Smaller gifts are reported as one aggregate total &mdash; <em>unitemized</em>. This site can only see itemized giving, because the unitemized total has no names attached.</p>
+<h2 id="section-itemized-vs-unitemized-contributions">Itemized vs. unitemized contributions</h2>
+<p><em>Itemized</em> contribution records identify the donor and may include employer and occupation. Even small gifts can appear in itemized records. <em>Unitemized</em> contributions are reported as an aggregate total without donor details. This site can only match itemized giving, because unitemized totals have no names or employers attached.</p>
 
-<h2>Kinds of committees</h2>
+<h2 id="section-kinds-of-committees">Kinds of committees</h2>
 <ul>
   <li><strong>Candidate committee</strong> &mdash; a candidate's own campaign. Takes capped contributions directly.</li>
   <li><strong>Party committee</strong> &mdash; national, state, or local parties (DNC, RNC, DCCC, NRCC, and so on).</li>
@@ -40,13 +43,22 @@
   <li><strong>Leadership PAC</strong> &mdash; a side PAC that an elected official uses to give money to other candidates.</li>
 </ul>
 
-<h2>Contributions vs. independent expenditures</h2>
-<p>A <strong>contribution</strong> is money given to a candidate's committee &mdash; capped, direct. An <strong>independent expenditure</strong> (IE) is money that an outside group (usually a Super PAC) spends to support or oppose a candidate, without coordinating with the campaign &mdash; uncapped, indirect.</p>
+<h2 id="section-contributions-vs-independent-expenditures">Contributions vs. independent expenditures</h2>
+<p>A <strong>contribution</strong> is money or something of value given to influence an election, including gifts to candidate, party, and PAC committees. Applicable limits depend on the contributor and recipient; contributions are not limited to candidate campaigns. See the <a href="https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/types-contributions/">FEC's contribution definitions</a>. An <strong>independent expenditure</strong> (IE) pays for communications expressly advocating a candidate's election or defeat without coordinating with the campaign; it is reported separately from contributions.</p>
 <p>So when this site shows <em>IE Support</em> or <em>IE Oppose</em> for a candidate, that money did not go <em>to</em> the candidate. It was spent <em>for</em> or <em>against</em> them by an outside group.</p>
 
-<h2>Why employer data is messy</h2>
+<h2 id="section-why-employer-data-is-messy">Why employer data is messy</h2>
 <p>Donors fill in their employer as free text on a contribution form. "Google," "Google LLC," "Google Inc.," "alphabet," "GOOG," and "google inc" are all separate strings in the raw FEC data. Grouping those together takes manual work. That cleaning step is the core data task this site is built on &mdash; see <a href="../methodology/">Methodology</a> for the rules.</p>
 
+      </main>
+      <aside class="page-context" aria-label="Page context">
+      <div class="context-label">On this page</div><nav class="context-links" aria-label="On this page"><a href="#section-who-regulates-it">Who regulates it</a><a href="#section-itemized-vs-unitemized-contributions">Itemized vs. unitemized contributions</a><a href="#section-kinds-of-committees">Kinds of committees</a><a href="#section-contributions-vs-independent-expenditures">Contributions vs. independent expenditures</a><a href="#section-why-employer-data-is-messy">Why employer data is messy</a></nav>
+      <details class="source-details" open><summary>Data coverage &amp; definitions</summary><p class="meta"><strong>Latest tech-matched transaction: 2024-12-31.</strong><br>Latest installed FEC bulk release: 2026-09-19T05:47:03+00:00.<br>Transaction dates are not filing-completeness dates; late filings and amendments can change earlier totals.</p></details>
+      <div class="context-note"><strong>Read with context</strong><p>Definitions, source coverage, and limitations matter when comparing these records.</p>
+        <a href="../methodology/">How to use the data →</a></div>
+    </aside>
+    </div>
+    <footer class="site-footer"><span>Tech Money · A public record of tech and politics</span><nav aria-label="Footer"><a href="../methodology/">Methodology</a><a href="../data/">Data &amp; sources</a><a href="../about/">About</a></nav></footer>
   </div>
   
   

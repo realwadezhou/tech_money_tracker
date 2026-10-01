@@ -1,6 +1,8 @@
 {
   "company": "salesforce",
   "slug": "salesforce",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "salesforce",
     "net_total": 802450,
@@ -8,25 +10,25 @@
     "n_contributions": 3909,
     "n_committees": 191,
     "sectors": "",
-    "amt_dem": 517284,
+    "amt_dem": 510856,
     "amt_mixed": 7060,
-    "amt_rep": 31976,
-    "amt_unknown": 246130,
-    "amt_other": 253190,
-    "classified_recipient_total": 549260,
-    "pct_dem": 94.1783490515,
-    "pct_classified_recipients": 68.4478783725,
-    "donor_amt_D": 607318,
-    "donor_amt_Mixed": 52190,
-    "donor_amt_R": 41334,
-    "donor_amt_Unknown": 101608,
+    "amt_rep": 31856,
+    "amt_unknown": 252678,
+    "amt_other": 259738,
+    "classified_recipient_total": 542712,
+    "pct_dem": 94.1302200799,
+    "pct_classified_recipients": 67.6318773755,
+    "donor_amt_D": 608033,
+    "donor_amt_Mixed": 48775,
+    "donor_amt_R": 41295,
+    "donor_amt_Unknown": 104347,
     "n_donors_D": 630,
-    "n_donors_Mixed": 68,
-    "n_donors_R": 59,
-    "n_donors_Unknown": 204,
+    "n_donors_Mixed": 66,
+    "n_donors_R": 55,
+    "n_donors_Unknown": 210,
     "donor_amt_total": 802450,
     "n_donors_total": 961,
-    "pct_dem_by_donor": 93.6277079235,
+    "pct_dem_by_donor": 93.6403481753,
     "slug": "salesforce"
   },
   "weekly_series": [
@@ -985,6 +987,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "WA",
+      "top_committee_id": "C00636027",
       "top_committee": "TECH FOR CAMPAIGNS",
       "top_committee_type": "V",
       "top_committee_amt": 56520
@@ -997,6 +1000,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CO",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 41300
@@ -1009,6 +1013,7 @@
       "n_committees": 17,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 8010
@@ -1021,6 +1026,7 @@
       "n_committees": 6,
       "employers": "SALESFORCE",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5428
@@ -1033,6 +1039,7 @@
       "n_committees": 2,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1045,6 +1052,7 @@
       "n_committees": 2,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 8700
@@ -1057,6 +1065,7 @@
       "n_committees": 3,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6400
@@ -1069,6 +1078,7 @@
       "n_committees": 2,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6000
@@ -1081,6 +1091,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6814
@@ -1093,6 +1104,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1105,6 +1117,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1117,6 +1130,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00843029",
       "top_committee": "COURAGEOUS LEADERS",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1129,6 +1143,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "NY",
+      "top_committee_id": "C00847020",
       "top_committee": "CONOR FOR AZ",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -1141,6 +1156,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "VA",
+      "top_committee_id": "C00851139",
       "top_committee": "BROOKE TAYLOR FOR CONGRESS 2024",
       "top_committee_type": "H",
       "top_committee_amt": 6246
@@ -1153,6 +1169,7 @@
       "n_committees": 5,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2250
@@ -1165,6 +1182,7 @@
       "n_committees": 3,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3500
@@ -1177,6 +1195,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 6000
@@ -1189,6 +1208,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00648220",
       "top_committee": "ANDY KIM FOR NEW JERSEY",
       "top_committee_type": "S",
       "top_committee_amt": 5000
@@ -1201,6 +1221,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CO",
+      "top_committee_id": "C00558627",
       "top_committee": "GALLEGO FOR ARIZONA",
       "top_committee_type": "S",
       "top_committee_amt": 5000
@@ -1213,6 +1234,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1225,6 +1247,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "WA",
+      "top_committee_id": "C00672790",
       "top_committee": "FRIENDS OF TRIDENT SEAFOODS CORPORATION PAC",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1237,6 +1260,7 @@
       "n_committees": 4,
       "employers": "SALESFORCE",
       "states": "MD",
+      "top_committee_id": "C00840017",
       "top_committee": "ALSOBROOKS FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 2500
@@ -1249,6 +1273,7 @@
       "n_committees": 3,
       "employers": "SALESFORCE",
       "states": "WA",
+      "top_committee_id": "C00605592",
       "top_committee": "PRAMILA FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 2175
@@ -1261,6 +1286,7 @@
       "n_committees": 3,
       "employers": "SALESFORCE",
       "states": "IL",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3800
@@ -1273,6 +1299,7 @@
       "n_committees": 3,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3550
@@ -1285,6 +1312,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "WA",
+      "top_committee_id": "C00836916",
       "top_committee": "TEAM KENNEDY",
       "top_committee_type": "P",
       "top_committee_amt": 3854
@@ -1297,6 +1325,7 @@
       "n_committees": 2,
       "employers": "SALESFORCE",
       "states": "MD",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2800
@@ -1309,6 +1338,7 @@
       "n_committees": 2,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2750
@@ -1321,6 +1351,7 @@
       "n_committees": 6,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00401224",
       "top_committee": "ACTBLUE",
       "top_committee_type": "V",
       "top_committee_amt": 2500
@@ -1333,6 +1364,7 @@
       "n_committees": 3,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 2000
@@ -1345,6 +1377,7 @@
       "n_committees": 2,
       "employers": "SALESFORCE",
       "states": "GA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -1357,6 +1390,7 @@
       "n_committees": 4,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -1369,6 +1403,7 @@
       "n_committees": 3,
       "employers": "SALESFORCE",
       "states": "TX",
+      "top_committee_id": "C00839597",
       "top_committee": "COLIN ALLRED FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 1375
@@ -1381,6 +1416,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "MT",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1393,6 +1429,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1405,6 +1442,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00793935",
       "top_committee": "ERIC SORENSEN FOR ILLINOIS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1417,6 +1455,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1429,6 +1468,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1441,6 +1481,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "VA",
+      "top_committee_id": "C00856963",
       "top_committee": "SUHAS FOR VIRGINIA",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1453,6 +1494,7 @@
       "n_committees": 2,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00847715",
       "top_committee": "BLAZAKIS FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3000
@@ -1465,6 +1507,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1477,6 +1520,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "MD",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1489,6 +1533,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1501,6 +1546,7 @@
       "n_committees": 2,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00693515",
       "top_committee": "FAIR FIGHT",
       "top_committee_type": "V",
       "top_committee_amt": 2300
@@ -1513,6 +1559,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "UT",
+      "top_committee_id": "C00851980",
       "top_committee": "FRIENDS OF DAVE MCCORMICK",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1525,6 +1572,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00836916",
       "top_committee": "TEAM KENNEDY",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1537,6 +1585,7 @@
       "n_committees": 2,
       "employers": "SALESFORCE",
       "states": "WA",
+      "top_committee_id": "C00877894",
       "top_committee": "IMRAAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 2000
@@ -1549,6 +1598,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 3030
@@ -1561,6 +1611,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -1573,6 +1624,7 @@
       "n_committees": 1,
       "employers": "SALESFORCE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -1607,7 +1659,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 57770,
       "n_donors": 3,
       "n_contributions": 5
@@ -1673,7 +1725,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 8800,
       "n_donors": 8,
       "n_contributions": 109
@@ -1695,7 +1747,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 8185,
       "n_donors": 12,
       "n_contributions": 24
@@ -1737,9 +1789,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 6178,
       "n_donors": 15,
       "n_contributions": 104
@@ -2003,7 +2055,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 2000,
       "n_donors": 5,
       "n_contributions": 5

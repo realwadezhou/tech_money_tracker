@@ -1,6 +1,8 @@
 {
   "company": "tesla",
   "slug": "tesla",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "tesla",
     "net_total": 294917,
@@ -8,25 +10,25 @@
     "n_contributions": 1942,
     "n_committees": 130,
     "sectors": "cars",
-    "amt_dem": 176425,
+    "amt_dem": 173592,
     "amt_mixed": 218,
-    "amt_rep": 21743,
-    "amt_unknown": 96531,
-    "amt_other": 96749,
-    "classified_recipient_total": 198168,
-    "pct_dem": 89.0279964475,
-    "pct_classified_recipients": 67.1944987912,
-    "donor_amt_D": 224386,
-    "donor_amt_Mixed": 4738,
-    "donor_amt_R": 29132,
-    "donor_amt_Unknown": 36661,
-    "n_donors_D": 139,
+    "amt_rep": 20751,
+    "amt_unknown": 100356,
+    "amt_other": 100574,
+    "classified_recipient_total": 194343,
+    "pct_dem": 89.3224865315,
+    "pct_classified_recipients": 65.8975237101,
+    "donor_amt_D": 222736,
+    "donor_amt_Mixed": 6188,
+    "donor_amt_R": 26225,
+    "donor_amt_Unknown": 39768,
+    "n_donors_D": 138,
     "n_donors_Mixed": 15,
-    "n_donors_R": 45,
-    "n_donors_Unknown": 55,
+    "n_donors_R": 36,
+    "n_donors_Unknown": 65,
     "donor_amt_total": 294917,
     "n_donors_total": 254,
-    "pct_dem_by_donor": 88.5089027209,
+    "pct_dem_by_donor": 89.466221617,
     "slug": "tesla"
   },
   "weekly_series": [
@@ -976,6 +978,7 @@
       "n_committees": 43,
       "employers": "TESLA; TESLA ENERGY",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5023
@@ -988,6 +991,7 @@
       "n_committees": 6,
       "employers": "TESLA",
       "states": "MD; VA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 15000
@@ -1000,7 +1004,8 @@
       "n_committees": 8,
       "employers": "TESLA; TESLA INC",
       "states": "MD",
-      "top_committee": "BACCAM FOR IOWA",
+      "top_committee_id": "C00831537",
+      "top_committee": "DAVE MIN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
     },
@@ -1012,6 +1017,7 @@
       "n_committees": 10,
       "employers": "TESLA INC; TESLA INC.; TESLA, INC; TESLA, INC.",
       "states": "CA; WA",
+      "top_committee_id": "C00835587",
       "top_committee": "VOTE SAVE AMERICA",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1024,6 +1030,7 @@
       "n_committees": 4,
       "employers": "TESLA",
       "states": "DC",
+      "top_committee_id": "C00785816",
       "top_committee": "LIFTOFF PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1036,6 +1043,7 @@
       "n_committees": 2,
       "employers": "TESLA; TESLA INC",
       "states": "CA",
+      "top_committee_id": "C00770941",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 7000
@@ -1048,6 +1056,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1060,6 +1069,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "AL",
+      "top_committee_id": "C00770941",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 6000
@@ -1072,6 +1082,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -1084,6 +1095,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "TX",
+      "top_committee_id": "C00858944",
       "top_committee": "EV BATTERY PAC",
       "top_committee_type": "V",
       "top_committee_amt": 5000
@@ -1096,6 +1108,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 5000
@@ -1108,6 +1121,7 @@
       "n_committees": 3,
       "employers": "TESLA INC.; TESLA, INC.",
       "states": "VA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1120,6 +1134,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00836916",
       "top_committee": "TEAM KENNEDY",
       "top_committee_type": "P",
       "top_committee_amt": 2000
@@ -1132,6 +1147,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00492785",
       "top_committee": "TED CRUZ FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1144,6 +1160,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1156,6 +1173,7 @@
       "n_committees": 1,
       "employers": "TESLA INC.",
       "states": "OR",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1168,6 +1186,7 @@
       "n_committees": 3,
       "employers": "TESLA",
       "states": "DC; VA",
+      "top_committee_id": "C00408534",
       "top_committee": "BILIRAKIS FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1500
@@ -1180,6 +1199,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 2000
@@ -1192,8 +1212,9 @@
       "n_committees": 3,
       "employers": "TESLA INC; TESLA, INC.",
       "states": "DC",
-      "top_committee": "MARTIN HEINRICH FOR SENATE",
-      "top_committee_type": "S",
+      "top_committee_id": "C00856526",
+      "top_committee": "KENNEDY FOR CONGRESS",
+      "top_committee_type": "H",
       "top_committee_amt": 1000
     },
     {
@@ -1204,6 +1225,7 @@
       "n_committees": 3,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2450
@@ -1216,6 +1238,7 @@
       "n_committees": 3,
       "employers": "TESLA",
       "states": "NV",
+      "top_committee_id": "C00003418",
       "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 1145
@@ -1228,6 +1251,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "VA",
+      "top_committee_id": "C00858944",
       "top_committee": "EV BATTERY PAC",
       "top_committee_type": "V",
       "top_committee_amt": 2500
@@ -1240,6 +1264,7 @@
       "n_committees": 1,
       "employers": "TESLA MOTORS INC.",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2150
@@ -1252,6 +1277,7 @@
       "n_committees": 2,
       "employers": "TESLA INC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1500
@@ -1264,6 +1290,7 @@
       "n_committees": 1,
       "employers": "TESLA MOTORS INC",
       "states": "NV",
+      "top_committee_id": "C00770941",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 2026
@@ -1276,6 +1303,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -1288,6 +1316,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "NV",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2000
@@ -1300,6 +1329,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -1312,6 +1342,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "TX",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -1324,6 +1355,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "NV",
+      "top_committee_id": "C00841130",
       "top_committee": "RESTORE OUR NATION (RON PAC)",
       "top_committee_type": "V",
       "top_committee_amt": 1898
@@ -1336,6 +1368,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1075
@@ -1348,6 +1381,7 @@
       "n_committees": 3,
       "employers": "TESLA",
       "states": "MD",
+      "top_committee_id": "C00668608",
       "top_committee": "RASHIDA TLAIB FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -1360,6 +1394,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1600
@@ -1372,6 +1407,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "NV",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 1427
@@ -1384,6 +1420,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "MI",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -1396,6 +1433,7 @@
       "n_committees": 2,
       "employers": "TESLA MOTORS",
       "states": "CA",
+      "top_committee_id": "C00693515",
       "top_committee": "FAIR FIGHT",
       "top_committee_type": "V",
       "top_committee_amt": 1050
@@ -1408,6 +1446,7 @@
       "n_committees": 3,
       "employers": "TESLA; TESLA INC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 988
@@ -1420,6 +1459,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1333
@@ -1432,6 +1472,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "MN",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -1444,6 +1485,7 @@
       "n_committees": 10,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 200
@@ -1456,6 +1498,7 @@
       "n_committees": 1,
       "employers": "TESLA ENERGY",
       "states": "NV",
+      "top_committee_id": "C00836916",
       "top_committee": "TEAM KENNEDY",
       "top_committee_type": "P",
       "top_committee_amt": 1166
@@ -1468,6 +1511,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00835587",
       "top_committee": "VOTE SAVE AMERICA",
       "top_committee_type": "Q",
       "top_committee_amt": 900
@@ -1480,6 +1524,7 @@
       "n_committees": 2,
       "employers": "TESLA; TESLA MOTORS",
       "states": "GA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 650
@@ -1492,6 +1537,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 544
@@ -1504,6 +1550,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 1041
@@ -1516,6 +1563,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00836916",
       "top_committee": "TEAM KENNEDY",
       "top_committee_type": "P",
       "top_committee_amt": 1031
@@ -1528,6 +1576,7 @@
       "n_committees": 2,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00858688",
       "top_committee": "LICCARDO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 825
@@ -1540,6 +1589,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -1552,6 +1602,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00838912",
       "top_committee": "HARRIS ACTION FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -1564,6 +1615,7 @@
       "n_committees": 1,
       "employers": "TESLA",
       "states": "CA",
+      "top_committee_id": "C00847400",
       "top_committee": "GLORIA FOR TENNESSEE",
       "top_committee_type": "S",
       "top_committee_amt": 1000
@@ -1631,7 +1683,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 8750,
       "n_donors": 5,
       "n_contributions": 5
@@ -1818,7 +1870,7 @@
       "cmte_tp": "V",
       "party_dr": "R",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 2898,
       "n_donors": 2,
       "n_contributions": 32
@@ -1827,9 +1879,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 2833,
       "n_donors": 5,
       "n_contributions": 431
@@ -1895,7 +1947,7 @@
       "cmte_tp": "V",
       "party_dr": "Unknown",
       "classification_source": "",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 1921,
       "n_donors": 1,
       "n_contributions": 1
@@ -2049,7 +2101,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 1050,
       "n_donors": 1,
       "n_contributions": 21

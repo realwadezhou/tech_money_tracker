@@ -1,6 +1,6 @@
 {
   "headline_numbers": {
-    "total_tech_linked_giving": 421446050.0,
+    "total_tech_linked_giving": 421406314.0,
     "tech_donor_count": 31306,
     "tracked_company_count": 37,
     "committees_receiving_tech_money": 1741
@@ -13,9 +13,9 @@
       "n_donors": 3497,
       "n_contributions": 20722,
       "n_committees": 114,
-      "pct_dem": 0.0776451576,
-      "pct_classified_recipients": 98.7356106567,
-      "pct_dem_by_donor": 0.1889545554
+      "pct_dem": 0.0769507535,
+      "pct_classified_recipients": 98.7347074607,
+      "pct_dem_by_donor": 0.1867007686
     },
     {
       "tech_canonical_name": "greylock",
@@ -24,9 +24,9 @@
       "n_donors": 17,
       "n_contributions": 362,
       "n_committees": 153,
-      "pct_dem": 98.0707958777,
-      "pct_classified_recipients": 83.9441263516,
-      "pct_dem_by_donor": 99.0537431579
+      "pct_dem": 98.0707734692,
+      "pct_classified_recipients": 83.9431513164,
+      "pct_dem_by_donor": 99.0507920405
     },
     {
       "tech_canonical_name": "google",
@@ -35,9 +35,9 @@
       "n_donors": 5700,
       "n_contributions": 42320,
       "n_committees": 754,
-      "pct_dem": 94.6523540864,
-      "pct_classified_recipients": 61.736082341,
-      "pct_dem_by_donor": 96.4256089746
+      "pct_dem": 94.5754074206,
+      "pct_classified_recipients": 61.4763998292,
+      "pct_dem_by_donor": 96.5118323971
     },
     {
       "tech_canonical_name": "netflix",
@@ -46,9 +46,9 @@
       "n_donors": 514,
       "n_contributions": 2187,
       "n_committees": 209,
-      "pct_dem": 99.9746003481,
-      "pct_classified_recipients": 67.9004994064,
-      "pct_dem_by_donor": 99.9052380618
+      "pct_dem": 99.974682042,
+      "pct_classified_recipients": 67.8579991263,
+      "pct_dem_by_donor": 99.906638921
     },
     {
       "tech_canonical_name": "ripple",
@@ -68,9 +68,9 @@
       "n_donors": 47,
       "n_contributions": 521,
       "n_committees": 188,
-      "pct_dem": 30.6415310116,
-      "pct_classified_recipients": 85.356709721,
-      "pct_dem_by_donor": 29.3640772011
+      "pct_dem": 30.5446855029,
+      "pct_classified_recipients": 85.6273431827,
+      "pct_dem_by_donor": 29.1951895262
     },
     {
       "tech_canonical_name": "sequoia",
@@ -90,20 +90,20 @@
       "n_donors": 5481,
       "n_contributions": 49715,
       "n_committees": 606,
-      "pct_dem": 83.2449010657,
-      "pct_classified_recipients": 47.9330466352,
-      "pct_dem_by_donor": 87.093602931
+      "pct_dem": 83.2053532168,
+      "pct_classified_recipients": 47.6086353187,
+      "pct_dem_by_donor": 87.1633903941
     },
     {
       "tech_canonical_name": "amazon",
       "slug": "amazon",
-      "net_total": 6053040,
+      "net_total": 6046440,
       "n_donors": 4831,
-      "n_contributions": 35880,
+      "n_contributions": 35879,
       "n_committees": 614,
-      "pct_dem": 91.465509266,
-      "pct_classified_recipients": 50.179430501,
-      "pct_dem_by_donor": 90.1331744807
+      "pct_dem": 91.7242158158,
+      "pct_classified_recipients": 49.6454442614,
+      "pct_dem_by_donor": 90.7260415786
     },
     {
       "tech_canonical_name": "khosla",
@@ -112,8 +112,8 @@
       "n_donors": 11,
       "n_contributions": 80,
       "n_committees": 37,
-      "pct_dem": 75.4462492108,
-      "pct_classified_recipients": 39.1719706844,
+      "pct_dem": 75.880023552,
+      "pct_classified_recipients": 38.9480409203,
       "pct_dem_by_donor": 76.3662508438
     }
   ],
@@ -124,11 +124,17 @@
       "cmte_tp": "P",
       "party_dr": "D",
       "tech_receipts": 7701967,
-      "tech_pct": 2.0195422146,
+      "tech_pct": null,
       "tech_donors": 10894,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 381371924,
+      "nonmemo_receipt_net_total": 381338974,
+      "memo_receipt_net_total": 32950,
+      "memo_receipt_record_count": 8467,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00503185",
@@ -136,11 +142,17 @@
       "cmte_tp": "H",
       "party_dr": "D",
       "tech_receipts": 506085,
-      "tech_pct": 5.408035611,
+      "tech_pct": null,
       "tech_donors": 154,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 9358019,
+      "nonmemo_receipt_net_total": 9257620,
+      "memo_receipt_net_total": 100399,
+      "memo_receipt_record_count": 65,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00412304",
@@ -148,11 +160,17 @@
       "cmte_tp": "S",
       "party_dr": "D",
       "tech_receipts": 411601,
-      "tech_pct": 0.8514583785,
+      "tech_pct": null,
       "tech_donors": 410,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 48340707,
+      "nonmemo_receipt_net_total": 48378169,
+      "memo_receipt_net_total": -37462,
+      "memo_receipt_record_count": 274,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00349506",
@@ -160,11 +178,17 @@
       "cmte_tp": "S",
       "party_dr": "D",
       "tech_receipts": 339258,
-      "tech_pct": 3.8071825617,
+      "tech_pct": null,
       "tech_donors": 176,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 8910999,
+      "nonmemo_receipt_net_total": 8899250,
+      "memo_receipt_net_total": 11749,
+      "memo_receipt_record_count": 25,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00839597",
@@ -172,11 +196,17 @@
       "cmte_tp": "S",
       "party_dr": "D",
       "tech_receipts": 302938,
-      "tech_pct": 0.7069760165,
+      "tech_pct": null,
       "tech_donors": 518,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 42849827,
+      "nonmemo_receipt_net_total": 42838546,
+      "memo_receipt_net_total": 11281,
+      "memo_receipt_record_count": 266,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00834218",
@@ -184,23 +214,35 @@
       "cmte_tp": "S",
       "party_dr": "D",
       "tech_receipts": 290815,
-      "tech_pct": 1.0010020519,
+      "tech_pct": null,
       "tech_donors": 248,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 29052388,
+      "nonmemo_receipt_net_total": 29041263,
+      "memo_receipt_net_total": 11125,
+      "memo_receipt_record_count": 133,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00858688",
       "cmte_nm": "LICCARDO FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
-      "tech_receipts": 279825,
-      "tech_pct": 4.892194273,
+      "tech_receipts": 273225,
+      "tech_pct": null,
       "tech_donors": 104,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 5713226,
+      "nonmemo_receipt_net_total": 5584137,
+      "memo_receipt_net_total": 129089,
+      "memo_receipt_record_count": 132,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00264697",
@@ -208,11 +250,17 @@
       "cmte_tp": "S",
       "party_dr": "D",
       "tech_receipts": 271810,
-      "tech_pct": 0.5565391093,
+      "tech_pct": null,
       "tech_donors": 307,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 48839335,
+      "nonmemo_receipt_net_total": 48763787,
+      "memo_receipt_net_total": 75548,
+      "memo_receipt_record_count": 177,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00431056",
@@ -220,11 +268,17 @@
       "cmte_tp": "S",
       "party_dr": "D",
       "tech_receipts": 248964,
-      "tech_pct": 0.9444931049,
+      "tech_pct": null,
       "tech_donors": 217,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 26359536,
+      "nonmemo_receipt_net_total": 26234174,
+      "memo_receipt_net_total": 125362,
+      "memo_receipt_record_count": 991,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00558627",
@@ -232,11 +286,17 @@
       "cmte_tp": "S",
       "party_dr": "D",
       "tech_receipts": 234348,
-      "tech_pct": 0.7807917526,
+      "tech_pct": null,
       "tech_donors": 258,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "candidate"
+      "recipient_bucket": "candidate",
+      "selected_record_net_total": 30014149,
+      "nonmemo_receipt_net_total": 29993607,
+      "memo_receipt_net_total": 20542,
+      "memo_receipt_record_count": 1177,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     }
   ],
   "top_political_bodies": [
@@ -246,11 +306,17 @@
       "cmte_tp": "O",
       "party_dr": "R",
       "tech_receipts": 240023077,
-      "tech_pct": 95.9020702104,
+      "tech_pct": null,
       "tech_donors": 3,
       "is_featured": true,
-      "is_tech_dominated": true,
-      "recipient_bucket": "outside_spending"
+      "is_tech_dominated": false,
+      "recipient_bucket": "outside_spending",
+      "selected_record_net_total": 250279349,
+      "nonmemo_receipt_net_total": 208912036,
+      "memo_receipt_net_total": 41367313,
+      "memo_receipt_record_count": 8,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00669259",
@@ -258,11 +324,17 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "tech_receipts": 26534425,
-      "tech_pct": 4.7007131477,
+      "tech_pct": null,
       "tech_donors": 12,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "pac"
+      "recipient_bucket": "outside_spending",
+      "selected_record_net_total": 564476584,
+      "nonmemo_receipt_net_total": 559270752,
+      "memo_receipt_net_total": 5205832,
+      "memo_receipt_record_count": 15,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00744946",
@@ -270,11 +342,17 @@
       "cmte_tp": "N",
       "party_dr": null,
       "tech_receipts": 19242678,
-      "tech_pct": 2.0766053238,
+      "tech_pct": null,
       "tech_donors": 8264,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "pac"
+      "recipient_bucket": "pac",
+      "selected_record_net_total": 926641080,
+      "nonmemo_receipt_net_total": 922720878,
+      "memo_receipt_net_total": 3920202,
+      "memo_receipt_record_count": 80,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00804856",
@@ -286,7 +364,13 @@
       "tech_donors": 13,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "outside_spending"
+      "recipient_bucket": "outside_spending",
+      "selected_record_net_total": 40768770,
+      "nonmemo_receipt_net_total": 40768770,
+      "memo_receipt_net_total": 0,
+      "memo_receipt_record_count": 0,
+      "has_unreconciled_memo_attributions": false,
+      "tech_share_unavailable_reason": ""
     },
     {
       "cmte_id": "C00571703",
@@ -294,11 +378,17 @@
       "cmte_tp": "O",
       "party_dr": "R",
       "tech_receipts": 10050000,
-      "tech_pct": 3.7889538957,
+      "tech_pct": null,
       "tech_donors": 2,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "outside_spending"
+      "recipient_bucket": "outside_spending",
+      "selected_record_net_total": 265244716,
+      "nonmemo_receipt_net_total": 264244716,
+      "memo_receipt_net_total": 1000000,
+      "memo_receipt_record_count": 5,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00492140",
@@ -310,7 +400,13 @@
       "tech_donors": 13,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "pac"
+      "recipient_bucket": "outside_spending",
+      "selected_record_net_total": 95114180,
+      "nonmemo_receipt_net_total": 95114180,
+      "memo_receipt_net_total": 0,
+      "memo_receipt_record_count": 0,
+      "has_unreconciled_memo_attributions": false,
+      "tech_share_unavailable_reason": ""
     },
     {
       "cmte_id": "C00867036",
@@ -318,11 +414,17 @@
       "cmte_tp": "O",
       "party_dr": "R",
       "tech_receipts": 7000000,
-      "tech_pct": 9.7717032775,
+      "tech_pct": null,
       "tech_donors": 2,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "outside_spending"
+      "recipient_bucket": "outside_spending",
+      "selected_record_net_total": 71635413,
+      "nonmemo_receipt_net_total": 70122769,
+      "memo_receipt_net_total": 1512644,
+      "memo_receipt_record_count": 5,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00484642",
@@ -330,11 +432,17 @@
       "cmte_tp": "O",
       "party_dr": null,
       "tech_receipts": 6321668,
-      "tech_pct": 2.2087310111,
+      "tech_pct": null,
       "tech_donors": 52,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "outside_spending"
+      "recipient_bucket": "outside_spending",
+      "selected_record_net_total": 286212670,
+      "nonmemo_receipt_net_total": 283688166,
+      "memo_receipt_net_total": 2524504,
+      "memo_receipt_record_count": 23,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00867937",
@@ -342,11 +450,17 @@
       "cmte_tp": "N",
       "party_dr": null,
       "tech_receipts": 4077240,
-      "tech_pct": 1.15926442,
+      "tech_pct": null,
       "tech_donors": 20,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "pac"
+      "recipient_bucket": "pac",
+      "selected_record_net_total": 351709233,
+      "nonmemo_receipt_net_total": 346256710,
+      "memo_receipt_net_total": 5452523,
+      "memo_receipt_record_count": 84,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     },
     {
       "cmte_id": "C00495028",
@@ -354,11 +468,17 @@
       "cmte_tp": "W",
       "party_dr": "D",
       "tech_receipts": 3553208,
-      "tech_pct": 1.4554033621,
+      "tech_pct": null,
       "tech_donors": 93,
       "is_featured": true,
       "is_tech_dominated": false,
-      "recipient_bucket": "outside_spending"
+      "recipient_bucket": "outside_spending",
+      "selected_record_net_total": 244139054,
+      "nonmemo_receipt_net_total": 243097618,
+      "memo_receipt_net_total": 1041436,
+      "memo_receipt_record_count": 17,
+      "has_unreconciled_memo_attributions": true,
+      "tech_share_unavailable_reason": "unreconciled_memo_attributions"
     }
   ],
   "top_donors": [
@@ -424,7 +544,7 @@
     },
     {
       "name": "MORITZ, MICHAEL",
-      "D": 8810675,
+      "D": 8810345,
       "R": 0,
       "net_total": 8300000,
       "donor_party": "D",
@@ -470,11 +590,11 @@
     {
       "name": "HOROWITZ, BEN",
       "D": 3693182,
-      "R": 1439415,
+      "R": 1451015,
       "net_total": 3222903,
       "donor_party": "D",
-      "pct_d": 0.7195542529,
-      "pct_r": 0.2804457471,
+      "pct_d": 0.7179316811,
+      "pct_r": 0.2820683189,
       "n_contributions": 168,
       "n_committees": 129,
       "tech_companies": "a16z",
@@ -499,12 +619,12 @@
     },
     {
       "name": "SCHMIDT, ERIC",
-      "D": 2629887,
-      "R": 5353,
+      "D": 2629716,
+      "R": 5323,
       "net_total": 2474040,
       "donor_party": "D",
-      "pct_d": 0.997968686,
-      "pct_r": 0.002031314,
+      "pct_d": 0.997979916,
+      "pct_r": 0.002020084,
       "n_contributions": 29,
       "n_committees": 17,
       "tech_companies": "google",
@@ -560,7 +680,7 @@
     {
       "name": "HELBERG, JACOB",
       "D": 0,
-      "R": 1012850,
+      "R": 1003700,
       "net_total": 1874771,
       "donor_party": "R",
       "pct_d": 0.0,
@@ -574,12 +694,12 @@
     },
     {
       "name": "DEAN, JEFF",
-      "D": 1538860,
-      "R": 110,
+      "D": 1538649,
+      "R": 100,
       "net_total": 1507650,
       "donor_party": "D",
-      "pct_d": 0.9999285236,
-      "pct_r": 7.14764e-05,
+      "pct_d": 0.9999350121,
+      "pct_r": 6.49879e-05,
       "n_contributions": 35,
       "n_committees": 25,
       "tech_companies": "google",
@@ -589,7 +709,7 @@
     },
     {
       "name": "GOLDBERG, EVAN",
-      "D": 333051,
+      "D": 332721,
       "R": 0,
       "net_total": 1350751,
       "donor_party": "D",
@@ -605,7 +725,7 @@
     {
       "name": "RABOIS, KEITH",
       "D": 0,
-      "R": 708477,
+      "R": 714027,
       "net_total": 1309750,
       "donor_party": "R",
       "pct_d": 0.0,

@@ -1,32 +1,34 @@
 {
   "company": "shopify",
   "slug": "shopify",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "shopify",
-    "net_total": 10141,
-    "n_donors": 7,
-    "n_contributions": 26,
-    "n_committees": 7,
+    "net_total": 13134,
+    "n_donors": 13,
+    "n_contributions": 54,
+    "n_committees": 15,
     "sectors": "ecommerce",
-    "amt_dem": 10141,
+    "amt_dem": 12634,
     "amt_mixed": 0,
-    "amt_rep": 0,
+    "amt_rep": 500,
     "amt_unknown": 0,
     "amt_other": 0,
-    "classified_recipient_total": 10141,
-    "pct_dem": 100.0,
+    "classified_recipient_total": 13134,
+    "pct_dem": 96.1930866453,
     "pct_classified_recipients": 100.0,
-    "donor_amt_D": 10141,
-    "donor_amt_Mixed": 0,
-    "donor_amt_R": 0,
+    "donor_amt_D": 12134,
+    "donor_amt_Mixed": 750,
+    "donor_amt_R": 250,
     "donor_amt_Unknown": 0,
-    "n_donors_D": 7,
-    "n_donors_Mixed": 0,
-    "n_donors_R": 0,
+    "n_donors_D": 11,
+    "n_donors_Mixed": 1,
+    "n_donors_R": 1,
     "n_donors_Unknown": 0,
-    "donor_amt_total": 10141,
-    "n_donors_total": 7,
-    "pct_dem_by_donor": 100.0,
+    "donor_amt_total": 13134,
+    "n_donors_total": 13,
+    "pct_dem_by_donor": 97.9812661499,
     "slug": "shopify"
   },
   "weekly_series": [
@@ -50,9 +52,18 @@
     },
     {
       "cycle": 2026,
+      "week_end": "2025-03-09",
+      "net_total": 250,
+      "cumulative_net_total": 450,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
       "week_end": "2025-03-23",
       "net_total": 100,
-      "cumulative_net_total": 300,
+      "cumulative_net_total": 550,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -61,7 +72,7 @@
       "cycle": 2026,
       "week_end": "2025-04-20",
       "net_total": 100,
-      "cumulative_net_total": 400,
+      "cumulative_net_total": 650,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -70,7 +81,7 @@
       "cycle": 2026,
       "week_end": "2025-05-25",
       "net_total": 100,
-      "cumulative_net_total": 500,
+      "cumulative_net_total": 750,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -79,7 +90,7 @@
       "cycle": 2026,
       "week_end": "2025-06-22",
       "net_total": 100,
-      "cumulative_net_total": 600,
+      "cumulative_net_total": 850,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -88,7 +99,7 @@
       "cycle": 2026,
       "week_end": "2025-07-13",
       "net_total": 20,
-      "cumulative_net_total": 620,
+      "cumulative_net_total": 870,
       "gross_positive": 20,
       "n_contributions": 1,
       "n_donors": 1
@@ -97,7 +108,7 @@
       "cycle": 2026,
       "week_end": "2025-07-20",
       "net_total": 100,
-      "cumulative_net_total": 720,
+      "cumulative_net_total": 970,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -106,7 +117,7 @@
       "cycle": 2026,
       "week_end": "2025-07-27",
       "net_total": 7000,
-      "cumulative_net_total": 7720,
+      "cumulative_net_total": 7970,
       "gross_positive": 7000,
       "n_contributions": 2,
       "n_donors": 1
@@ -115,7 +126,7 @@
       "cycle": 2026,
       "week_end": "2025-08-10",
       "net_total": 1000,
-      "cumulative_net_total": 8720,
+      "cumulative_net_total": 8970,
       "gross_positive": 1000,
       "n_contributions": 1,
       "n_donors": 1
@@ -124,7 +135,7 @@
       "cycle": 2026,
       "week_end": "2025-08-17",
       "net_total": 20,
-      "cumulative_net_total": 8740,
+      "cumulative_net_total": 8990,
       "gross_positive": 20,
       "n_contributions": 1,
       "n_donors": 1
@@ -133,7 +144,7 @@
       "cycle": 2026,
       "week_end": "2025-08-24",
       "net_total": 100,
-      "cumulative_net_total": 8840,
+      "cumulative_net_total": 9090,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -142,7 +153,7 @@
       "cycle": 2026,
       "week_end": "2025-09-07",
       "net_total": 500,
-      "cumulative_net_total": 9340,
+      "cumulative_net_total": 9590,
       "gross_positive": 500,
       "n_contributions": 1,
       "n_donors": 1
@@ -151,7 +162,7 @@
       "cycle": 2026,
       "week_end": "2025-09-14",
       "net_total": 20,
-      "cumulative_net_total": 9360,
+      "cumulative_net_total": 9610,
       "gross_positive": 20,
       "n_contributions": 1,
       "n_donors": 1
@@ -160,7 +171,7 @@
       "cycle": 2026,
       "week_end": "2025-09-21",
       "net_total": 100,
-      "cumulative_net_total": 9460,
+      "cumulative_net_total": 9710,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -169,7 +180,7 @@
       "cycle": 2026,
       "week_end": "2025-10-19",
       "net_total": 120,
-      "cumulative_net_total": 9580,
+      "cumulative_net_total": 9830,
       "gross_positive": 120,
       "n_contributions": 2,
       "n_donors": 2
@@ -178,7 +189,7 @@
       "cycle": 2026,
       "week_end": "2025-11-16",
       "net_total": 20,
-      "cumulative_net_total": 9600,
+      "cumulative_net_total": 9850,
       "gross_positive": 20,
       "n_contributions": 1,
       "n_donors": 1
@@ -187,7 +198,7 @@
       "cycle": 2026,
       "week_end": "2025-11-23",
       "net_total": 100,
-      "cumulative_net_total": 9700,
+      "cumulative_net_total": 9950,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -196,7 +207,7 @@
       "cycle": 2026,
       "week_end": "2025-12-14",
       "net_total": 20,
-      "cumulative_net_total": 9720,
+      "cumulative_net_total": 9970,
       "gross_positive": 20,
       "n_contributions": 1,
       "n_donors": 1
@@ -205,28 +216,163 @@
       "cycle": 2026,
       "week_end": "2025-12-21",
       "net_total": 300,
-      "cumulative_net_total": 10020,
+      "cumulative_net_total": 10270,
       "gross_positive": 300,
       "n_contributions": 2,
       "n_donors": 2
     },
     {
       "cycle": 2026,
-      "week_end": "2026-02-22",
-      "net_total": 110,
-      "cumulative_net_total": 10130,
-      "gross_positive": 110,
-      "n_contributions": 2,
+      "week_end": "2026-01-18",
+      "net_total": 500,
+      "cumulative_net_total": 10770,
+      "gross_positive": 500,
+      "n_contributions": 1,
       "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-01-25",
+      "net_total": 100,
+      "cumulative_net_total": 10870,
+      "gross_positive": 100,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-02-22",
+      "net_total": 210,
+      "cumulative_net_total": 11080,
+      "gross_positive": 210,
+      "n_contributions": 3,
+      "n_donors": 2
     },
     {
       "cycle": 2026,
       "week_end": "2026-03-01",
       "net_total": 11,
-      "cumulative_net_total": 10141,
+      "cumulative_net_total": 11091,
       "gross_positive": 11,
       "n_contributions": 1,
       "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 360,
+      "cumulative_net_total": 11451,
+      "gross_positive": 360,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-29",
+      "net_total": 11,
+      "cumulative_net_total": 11462,
+      "gross_positive": 11,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-19",
+      "net_total": 110,
+      "cumulative_net_total": 11572,
+      "gross_positive": 110,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-26",
+      "net_total": 11,
+      "cumulative_net_total": 11583,
+      "gross_positive": 11,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-03",
+      "net_total": 500,
+      "cumulative_net_total": 12083,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-10",
+      "net_total": 650,
+      "cumulative_net_total": 12733,
+      "gross_positive": 650,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-24",
+      "net_total": 186,
+      "cumulative_net_total": 12919,
+      "gross_positive": 186,
+      "n_contributions": 4,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-31",
+      "net_total": 11,
+      "cumulative_net_total": 12930,
+      "gross_positive": 11,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-07",
+      "net_total": 36,
+      "cumulative_net_total": 12966,
+      "gross_positive": 36,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-21",
+      "net_total": 10,
+      "cumulative_net_total": 12976,
+      "gross_positive": 10,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-28",
+      "net_total": 87,
+      "cumulative_net_total": 13063,
+      "gross_positive": 87,
+      "n_contributions": 3,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-19",
+      "net_total": 10,
+      "cumulative_net_total": 13073,
+      "gross_positive": 10,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-26",
+      "net_total": 61,
+      "cumulative_net_total": 13134,
+      "gross_positive": 61,
+      "n_contributions": 2,
+      "n_donors": 2
     }
   ],
   "top_donors": [
@@ -238,21 +384,23 @@
       "n_committees": 1,
       "employers": "SHOPIFY",
       "states": "CA",
+      "top_committee_id": "C00913871",
       "top_committee": "ELKIND FOR NEW YORK",
       "top_committee_type": "H",
       "top_committee_amt": 7000
     },
     {
       "name": "ALVES DE SA, JESSICA",
-      "net_total": 1200,
-      "gross_positive": 1200,
-      "n_contributions": 12,
+      "net_total": 1700,
+      "gross_positive": 1700,
+      "n_contributions": 17,
       "n_committees": 1,
       "employers": "SHOPIFY",
       "states": "DC",
+      "top_committee_id": "C00835587",
       "top_committee": "VOTE SAVE AMERICA",
       "top_committee_type": "Q",
-      "top_committee_amt": 1200
+      "top_committee_amt": 1700
     },
     {
       "name": "SMARR, JOSEPH",
@@ -262,9 +410,36 @@
       "n_committees": 1,
       "employers": "SHOPIFY",
       "states": "CA",
+      "top_committee_id": "C00909465",
       "top_committee": "INDIGO PAC",
       "top_committee_type": "O",
       "top_committee_amt": 1000
+    },
+    {
+      "name": "SADOSKY, JEFF",
+      "net_total": 750,
+      "gross_positive": 750,
+      "n_contributions": 2,
+      "n_committees": 2,
+      "employers": "SHOPIFY",
+      "states": "VA",
+      "top_committee_id": "C00779603",
+      "top_committee": "CAREY FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 500
+    },
+    {
+      "name": "GRASSET, NICOLAS",
+      "net_total": 500,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "NY",
+      "top_committee_id": "C00696526",
+      "top_committee": "MARK KELLY FOR SENATE",
+      "top_committee_type": "S",
+      "top_committee_amt": 500
     },
     {
       "name": "HAFEEZ MALIK, SAARA",
@@ -274,9 +449,62 @@
       "n_committees": 1,
       "employers": "SHOPIFY",
       "states": "NY",
+      "top_committee_id": "C00502179",
       "top_committee": "MARK POCAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 500
+    },
+    {
+      "name": "ZHOU, CHENGYI",
+      "net_total": 400,
+      "gross_positive": 400,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "WA",
+      "top_committee_id": "C00732826",
+      "top_committee": "STRICKLAND FOR WASHINGTON",
+      "top_committee_type": "H",
+      "top_committee_amt": 400
+    },
+    {
+      "name": "MEHL, WAYNE",
+      "net_total": 314,
+      "gross_positive": 314,
+      "n_contributions": 17,
+      "n_committees": 2,
+      "employers": "SHOPIFY",
+      "states": "IN",
+      "top_committee_id": "C00010603",
+      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 226
+    },
+    {
+      "name": "CANO, RAUL REYES",
+      "net_total": 250,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "OR",
+      "top_committee_id": "C00859108",
+      "top_committee": "MAXINE FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 250
+    },
+    {
+      "name": "JOYCE, PATRICK",
+      "net_total": 250,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "SHOPIFY",
+      "states": "MD",
+      "top_committee_id": "C00893776",
+      "top_committee": "BLAKE FOR THE NORTH COUNTRY",
+      "top_committee_type": "H",
+      "top_committee_amt": 250
     },
     {
       "name": "MUELLER, JENNIFER",
@@ -286,21 +514,23 @@
       "n_committees": 1,
       "employers": "SHOPIFY",
       "states": "MT",
+      "top_committee_id": "C00902395",
       "top_committee": "CLEVELAND FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 200
     },
     {
-      "name": "MEHL, WAYNE",
-      "net_total": 121,
-      "gross_positive": 121,
+      "name": "STANTON, WILLIAM",
+      "net_total": 150,
+      "gross_positive": 150,
       "n_contributions": 3,
       "n_committees": 1,
       "employers": "SHOPIFY",
-      "states": "IN",
-      "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "states": "CO",
+      "top_committee_id": "C00000935",
+      "top_committee": "DCCC",
       "top_committee_type": "Y",
-      "top_committee_amt": 121
+      "top_committee_amt": 150
     },
     {
       "name": "FONTAINE, ROBIN",
@@ -310,6 +540,7 @@
       "n_committees": 1,
       "employers": "SHOPIFY",
       "states": "CA",
+      "top_committee_id": "C00341396",
       "top_committee": "MOVEON.ORG POLITICAL ACTION",
       "top_committee_type": "W",
       "top_committee_amt": 120
@@ -334,9 +565,9 @@
       "party_dr": "D",
       "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
-      "net_total": 1200,
+      "net_total": 1700,
       "n_donors": 1,
-      "n_contributions": 12
+      "n_contributions": 17
     },
     {
       "cmte_id": "C00909465",
@@ -361,6 +592,83 @@
       "n_contributions": 1
     },
     {
+      "cmte_id": "C00696526",
+      "cmte_nm": "MARK KELLY FOR SENATE",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00779603",
+      "cmte_nm": "CAREY FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00732826",
+      "cmte_nm": "STRICKLAND FOR WASHINGTON",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 400,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00859108",
+      "cmte_nm": "MAXINE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00893776",
+      "cmte_nm": "BLAKE FOR THE NORTH COUNTRY",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00938670",
+      "cmte_nm": "COONEY FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00010603",
+      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 226,
+      "n_donors": 1,
+      "n_contributions": 13
+    },
+    {
       "cmte_id": "C00902395",
       "cmte_nm": "CLEVELAND FOR CONGRESS",
       "cmte_tp": "H",
@@ -372,13 +680,13 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00010603",
-      "cmte_nm": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "cmte_id": "C00000935",
+      "cmte_nm": "DCCC",
       "cmte_tp": "Y",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 121,
+      "net_total": 150,
       "n_donors": 1,
       "n_contributions": 3
     },
@@ -387,11 +695,22 @@
       "cmte_nm": "MOVEON.ORG POLITICAL ACTION",
       "cmte_tp": "W",
       "party_dr": "D",
-      "classification_source": "24k_contributions",
+      "classification_source": "24k_contributions+ie_spending",
       "recipient_bucket": "outside_spending",
       "net_total": 120,
       "n_donors": 1,
       "n_contributions": 6
+    },
+    {
+      "cmte_id": "C00812792",
+      "cmte_nm": "EVERY STATE",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 88,
+      "n_donors": 1,
+      "n_contributions": 4
     }
   ]
 }

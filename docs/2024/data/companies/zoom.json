@@ -1,6 +1,8 @@
 {
   "company": "zoom",
   "slug": "zoom",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "zoom",
     "net_total": 65643,
@@ -625,6 +627,7 @@
       "n_committees": 2,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00858688",
       "top_committee": "LICCARDO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 6600
@@ -637,6 +640,7 @@
       "n_committees": 1,
       "employers": "ZOOM; ZOOM VIDEO COMMUNICATIONS, INC.",
       "states": "DC",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6498
@@ -649,6 +653,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "WI",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5054
@@ -661,6 +666,7 @@
       "n_committees": 6,
       "employers": "ZOOM; ZOOM VIDEO COMMUNICATIONS, INC.",
       "states": "MA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1500
@@ -673,6 +679,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3096
@@ -685,6 +692,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "GA",
+      "top_committee_id": "C00770941",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 2080
@@ -697,6 +705,7 @@
       "n_committees": 2,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "IL",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1037
@@ -709,6 +718,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00556506",
       "top_committee": "TED LIEU FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1650
@@ -721,6 +731,7 @@
       "n_committees": 2,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 1031
@@ -733,6 +744,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS INC",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1500
@@ -745,6 +757,7 @@
       "n_committees": 2,
       "employers": "ZOOM; ZOOM VIDEO COMMUNICATIONS",
       "states": "CO",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1300
@@ -757,6 +770,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 1250
@@ -769,6 +783,7 @@
       "n_committees": 2,
       "employers": "ZOOM",
       "states": "MI",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 797
@@ -781,6 +796,7 @@
       "n_committees": 3,
       "employers": "ZOOM",
       "states": "FL",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 500
@@ -793,6 +809,7 @@
       "n_committees": 3,
       "employers": "ZOOM",
       "states": "MD",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 689
@@ -805,6 +822,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CO",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1032
@@ -817,6 +835,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1032
@@ -829,6 +848,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "VA",
+      "top_committee_id": "C00609255",
       "top_committee": "SULLIVAN VICTORY",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -841,6 +861,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "NY",
+      "top_committee_id": "C00854778",
       "top_committee": "DEAN 24, INC.",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -853,6 +874,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS INC.",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -865,6 +887,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "MO",
+      "top_committee_id": "C00343871",
       "top_committee": "SCHIFF FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 1000
@@ -877,6 +900,7 @@
       "n_committees": 2,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 754
@@ -889,6 +913,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "MA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 700
@@ -901,6 +926,7 @@
       "n_committees": 3,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00770941",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 409
@@ -913,6 +939,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CO",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 600
@@ -925,6 +952,7 @@
       "n_committees": 2,
       "employers": "ZOOM; ZOOM VIDEO COMMUNICATIONS INC; ZOOM VIDEO COMMUNICATIONS INC.",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 300
@@ -937,6 +965,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "AZ",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 520
@@ -949,8 +978,9 @@
       "n_committees": 2,
       "employers": "ZOOM",
       "states": "NY",
-      "top_committee": "PROGRESSIVE TURNOUT PROJECT",
-      "top_committee_type": "W",
+      "top_committee_id": "C00744946",
+      "top_committee": "HARRIS VICTORY FUND",
+      "top_committee_type": "N",
       "top_committee_amt": 250
     },
     {
@@ -961,6 +991,7 @@
       "n_committees": 2,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 250
@@ -973,6 +1004,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "TX",
+      "top_committee_id": "C00841619",
       "top_committee": "SAM EPPLER FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 500
@@ -985,6 +1017,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "WI",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 500
@@ -997,6 +1030,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "DC",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 500
@@ -1009,6 +1043,7 @@
       "n_committees": 2,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00105668",
       "top_committee": "CALIFORNIA DEMOCRATIC PARTY",
       "top_committee_type": "Y",
       "top_committee_amt": 250
@@ -1021,6 +1056,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 400
@@ -1033,6 +1069,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "AZ",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 400
@@ -1045,6 +1082,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "NJ",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 376
@@ -1057,6 +1095,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "MD",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 375
@@ -1069,6 +1108,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "WA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 367
@@ -1081,6 +1121,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "NC",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 334
@@ -1093,6 +1134,7 @@
       "n_committees": 2,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "MI",
+      "top_committee_id": "C00834218",
       "top_committee": "ELISSA SLOTKIN FOR MICHIGAN",
       "top_committee_type": "S",
       "top_committee_amt": 200
@@ -1105,6 +1147,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CO; MN",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 300
@@ -1117,6 +1160,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "HI",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 300
@@ -1129,6 +1173,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS INC",
       "states": "TN",
+      "top_committee_id": "C00847400",
       "top_committee": "GLORIA FOR TENNESSEE",
       "top_committee_type": "S",
       "top_committee_amt": 300
@@ -1141,6 +1186,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATION",
       "states": "MO",
+      "top_committee_id": "C00771972",
       "top_committee": "HEARTLAND PATRIOTS",
       "top_committee_type": "V",
       "top_committee_amt": 290
@@ -1153,6 +1199,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "NY",
+      "top_committee_id": "C00247403",
       "top_committee": "NORPAC",
       "top_committee_type": "Q",
       "top_committee_amt": 275
@@ -1165,6 +1212,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "CO",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 275
@@ -1177,6 +1225,7 @@
       "n_committees": 1,
       "employers": "ZOOM VIDEO COMMUNICATIONS INC",
       "states": "KS",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 263
@@ -1189,6 +1238,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CO",
+      "top_committee_id": "C00837112",
       "top_committee": "COMMITTEE TO ELECT NASSER BEYDOUN",
       "top_committee_type": "S",
       "top_committee_amt": 250
@@ -1201,6 +1251,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "TX",
+      "top_committee_id": "C00839597",
       "top_committee": "COLIN ALLRED FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 250
@@ -1213,6 +1264,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 250
@@ -1423,7 +1475,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 290,
       "n_donors": 1,
       "n_contributions": 16
@@ -1478,7 +1530,7 @@
       "cmte_tp": "V",
       "party_dr": "Unknown",
       "classification_source": "",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 250,
       "n_donors": 1,
       "n_contributions": 1
@@ -1577,7 +1629,7 @@
       "cmte_tp": "V",
       "party_dr": "D",
       "classification_source": "ie_spending",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 50,
       "n_donors": 1,
       "n_contributions": 1

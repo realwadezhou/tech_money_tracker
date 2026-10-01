@@ -1,32 +1,34 @@
 {
   "company": "coinbase",
   "slug": "coinbase",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "coinbase",
-    "net_total": 2252011,
+    "net_total": 2248711,
     "n_donors": 106,
-    "n_contributions": 511,
+    "n_contributions": 510,
     "n_committees": 156,
     "sectors": "fintech",
-    "amt_dem": 519671,
+    "amt_dem": 519571,
     "amt_mixed": 1009779,
-    "amt_rep": 356983,
-    "amt_unknown": 365578,
-    "amt_other": 1375357,
-    "classified_recipient_total": 876654,
-    "pct_dem": 59.278917338,
-    "pct_classified_recipients": 38.9276073696,
-    "donor_amt_D": 358802,
-    "donor_amt_Mixed": 680999,
-    "donor_amt_R": 180245,
-    "donor_amt_Unknown": 1031965,
-    "n_donors_D": 49,
-    "n_donors_Mixed": 15,
+    "amt_rep": 358673,
+    "amt_unknown": 360688,
+    "amt_other": 1370467,
+    "classified_recipient_total": 878244,
+    "pct_dem": 59.1602106021,
+    "pct_classified_recipients": 39.0554410949,
+    "donor_amt_D": 313552,
+    "donor_amt_Mixed": 722599,
+    "donor_amt_R": 180731,
+    "donor_amt_Unknown": 1031829,
+    "n_donors_D": 50,
+    "n_donors_Mixed": 14,
     "n_donors_R": 19,
     "n_donors_Unknown": 23,
-    "donor_amt_total": 2252011,
+    "donor_amt_total": 2248711,
     "n_donors_total": 106,
-    "pct_dem_by_donor": 66.5622849214,
+    "pct_dem_by_donor": 63.435724069,
     "slug": "coinbase"
   },
   "weekly_series": [
@@ -438,17 +440,17 @@
     {
       "cycle": 2024,
       "week_end": "2024-02-18",
-      "net_total": 9900,
-      "cumulative_net_total": 1406837,
-      "gross_positive": 9900,
-      "n_contributions": 3,
+      "net_total": 6600,
+      "cumulative_net_total": 1403537,
+      "gross_positive": 6600,
+      "n_contributions": 2,
       "n_donors": 2
     },
     {
       "cycle": 2024,
       "week_end": "2024-02-25",
       "net_total": 4331,
-      "cumulative_net_total": 1411168,
+      "cumulative_net_total": 1407868,
       "gross_positive": 4331,
       "n_contributions": 4,
       "n_donors": 4
@@ -457,7 +459,7 @@
       "cycle": 2024,
       "week_end": "2024-03-03",
       "net_total": 16254,
-      "cumulative_net_total": 1427422,
+      "cumulative_net_total": 1424122,
       "gross_positive": 16254,
       "n_contributions": 8,
       "n_donors": 6
@@ -466,7 +468,7 @@
       "cycle": 2024,
       "week_end": "2024-03-10",
       "net_total": 27,
-      "cumulative_net_total": 1427449,
+      "cumulative_net_total": 1424149,
       "gross_positive": 27,
       "n_contributions": 1,
       "n_donors": 1
@@ -475,7 +477,7 @@
       "cycle": 2024,
       "week_end": "2024-03-17",
       "net_total": 15950,
-      "cumulative_net_total": 1443399,
+      "cumulative_net_total": 1440099,
       "gross_positive": 15950,
       "n_contributions": 6,
       "n_donors": 3
@@ -484,7 +486,7 @@
       "cycle": 2024,
       "week_end": "2024-03-31",
       "net_total": 3300,
-      "cumulative_net_total": 1446699,
+      "cumulative_net_total": 1443399,
       "gross_positive": 3300,
       "n_contributions": 1,
       "n_donors": 1
@@ -493,7 +495,7 @@
       "cycle": 2024,
       "week_end": "2024-04-07",
       "net_total": 24900,
-      "cumulative_net_total": 1471599,
+      "cumulative_net_total": 1468299,
       "gross_positive": 24900,
       "n_contributions": 7,
       "n_donors": 1
@@ -502,7 +504,7 @@
       "cycle": 2024,
       "week_end": "2024-04-14",
       "net_total": 9327,
-      "cumulative_net_total": 1480926,
+      "cumulative_net_total": 1477626,
       "gross_positive": 9327,
       "n_contributions": 4,
       "n_donors": 3
@@ -511,7 +513,7 @@
       "cycle": 2024,
       "week_end": "2024-04-21",
       "net_total": 25,
-      "cumulative_net_total": 1480951,
+      "cumulative_net_total": 1477651,
       "gross_positive": 3325,
       "n_contributions": 3,
       "n_donors": 2
@@ -520,7 +522,7 @@
       "cycle": 2024,
       "week_end": "2024-04-28",
       "net_total": 25,
-      "cumulative_net_total": 1480976,
+      "cumulative_net_total": 1477676,
       "gross_positive": 25,
       "n_contributions": 1,
       "n_donors": 1
@@ -529,7 +531,7 @@
       "cycle": 2024,
       "week_end": "2024-05-05",
       "net_total": 25,
-      "cumulative_net_total": 1481001,
+      "cumulative_net_total": 1477701,
       "gross_positive": 25,
       "n_contributions": 1,
       "n_donors": 1
@@ -538,7 +540,7 @@
       "cycle": 2024,
       "week_end": "2024-05-12",
       "net_total": 927,
-      "cumulative_net_total": 1481928,
+      "cumulative_net_total": 1478628,
       "gross_positive": 927,
       "n_contributions": 3,
       "n_donors": 3
@@ -547,7 +549,7 @@
       "cycle": 2024,
       "week_end": "2024-05-19",
       "net_total": 1052,
-      "cumulative_net_total": 1482980,
+      "cumulative_net_total": 1479680,
       "gross_positive": 1052,
       "n_contributions": 2,
       "n_donors": 2
@@ -556,7 +558,7 @@
       "cycle": 2024,
       "week_end": "2024-05-26",
       "net_total": 1425,
-      "cumulative_net_total": 1484405,
+      "cumulative_net_total": 1481105,
       "gross_positive": 1425,
       "n_contributions": 4,
       "n_donors": 4
@@ -565,7 +567,7 @@
       "cycle": 2024,
       "week_end": "2024-06-02",
       "net_total": 4107,
-      "cumulative_net_total": 1488512,
+      "cumulative_net_total": 1485212,
       "gross_positive": 4107,
       "n_contributions": 6,
       "n_donors": 6
@@ -574,7 +576,7 @@
       "cycle": 2024,
       "week_end": "2024-06-09",
       "net_total": 4327,
-      "cumulative_net_total": 1492839,
+      "cumulative_net_total": 1489539,
       "gross_positive": 4327,
       "n_contributions": 3,
       "n_donors": 3
@@ -583,7 +585,7 @@
       "cycle": 2024,
       "week_end": "2024-06-16",
       "net_total": 20825,
-      "cumulative_net_total": 1513664,
+      "cumulative_net_total": 1510364,
       "gross_positive": 20825,
       "n_contributions": 8,
       "n_donors": 4
@@ -592,7 +594,7 @@
       "cycle": 2024,
       "week_end": "2024-06-23",
       "net_total": 1575,
-      "cumulative_net_total": 1515239,
+      "cumulative_net_total": 1511939,
       "gross_positive": 1575,
       "n_contributions": 5,
       "n_donors": 5
@@ -601,7 +603,7 @@
       "cycle": 2024,
       "week_end": "2024-06-30",
       "net_total": 117900,
-      "cumulative_net_total": 1633139,
+      "cumulative_net_total": 1629839,
       "gross_positive": 117900,
       "n_contributions": 29,
       "n_donors": 13
@@ -610,7 +612,7 @@
       "cycle": 2024,
       "week_end": "2024-07-07",
       "net_total": 5000,
-      "cumulative_net_total": 1638139,
+      "cumulative_net_total": 1634839,
       "gross_positive": 5000,
       "n_contributions": 1,
       "n_donors": 1
@@ -619,7 +621,7 @@
       "cycle": 2024,
       "week_end": "2024-07-14",
       "net_total": 141,
-      "cumulative_net_total": 1638280,
+      "cumulative_net_total": 1634980,
       "gross_positive": 141,
       "n_contributions": 3,
       "n_donors": 2
@@ -628,7 +630,7 @@
       "cycle": 2024,
       "week_end": "2024-07-21",
       "net_total": 7010,
-      "cumulative_net_total": 1645290,
+      "cumulative_net_total": 1641990,
       "gross_positive": 7010,
       "n_contributions": 12,
       "n_donors": 10
@@ -637,7 +639,7 @@
       "cycle": 2024,
       "week_end": "2024-07-28",
       "net_total": 19096,
-      "cumulative_net_total": 1664386,
+      "cumulative_net_total": 1661086,
       "gross_positive": 19096,
       "n_contributions": 15,
       "n_donors": 14
@@ -646,7 +648,7 @@
       "cycle": 2024,
       "week_end": "2024-08-04",
       "net_total": 21675,
-      "cumulative_net_total": 1686061,
+      "cumulative_net_total": 1682761,
       "gross_positive": 21675,
       "n_contributions": 14,
       "n_donors": 8
@@ -655,7 +657,7 @@
       "cycle": 2024,
       "week_end": "2024-08-11",
       "net_total": 84994,
-      "cumulative_net_total": 1771055,
+      "cumulative_net_total": 1767755,
       "gross_positive": 85494,
       "n_contributions": 32,
       "n_donors": 10
@@ -664,7 +666,7 @@
       "cycle": 2024,
       "week_end": "2024-08-18",
       "net_total": 3695,
-      "cumulative_net_total": 1774750,
+      "cumulative_net_total": 1771450,
       "gross_positive": 3695,
       "n_contributions": 4,
       "n_donors": 4
@@ -673,7 +675,7 @@
       "cycle": 2024,
       "week_end": "2024-08-25",
       "net_total": 24154,
-      "cumulative_net_total": 1798904,
+      "cumulative_net_total": 1795604,
       "gross_positive": 24154,
       "n_contributions": 18,
       "n_donors": 12
@@ -682,7 +684,7 @@
       "cycle": 2024,
       "week_end": "2024-09-01",
       "net_total": 189047,
-      "cumulative_net_total": 1987951,
+      "cumulative_net_total": 1984651,
       "gross_positive": 189047,
       "n_contributions": 8,
       "n_donors": 7
@@ -691,7 +693,7 @@
       "cycle": 2024,
       "week_end": "2024-09-08",
       "net_total": 10323,
-      "cumulative_net_total": 1998274,
+      "cumulative_net_total": 1994974,
       "gross_positive": 10323,
       "n_contributions": 8,
       "n_donors": 8
@@ -700,7 +702,7 @@
       "cycle": 2024,
       "week_end": "2024-09-15",
       "net_total": 11402,
-      "cumulative_net_total": 2009676,
+      "cumulative_net_total": 2006376,
       "gross_positive": 11402,
       "n_contributions": 12,
       "n_donors": 9
@@ -709,7 +711,7 @@
       "cycle": 2024,
       "week_end": "2024-09-22",
       "net_total": 17150,
-      "cumulative_net_total": 2026826,
+      "cumulative_net_total": 2023526,
       "gross_positive": 17150,
       "n_contributions": 8,
       "n_donors": 4
@@ -718,7 +720,7 @@
       "cycle": 2024,
       "week_end": "2024-09-29",
       "net_total": 65649,
-      "cumulative_net_total": 2092475,
+      "cumulative_net_total": 2089175,
       "gross_positive": 65649,
       "n_contributions": 18,
       "n_donors": 9
@@ -727,7 +729,7 @@
       "cycle": 2024,
       "week_end": "2024-10-06",
       "net_total": 90649,
-      "cumulative_net_total": 2183124,
+      "cumulative_net_total": 2179824,
       "gross_positive": 90649,
       "n_contributions": 27,
       "n_donors": 11
@@ -736,7 +738,7 @@
       "cycle": 2024,
       "week_end": "2024-10-13",
       "net_total": 26787,
-      "cumulative_net_total": 2209911,
+      "cumulative_net_total": 2206611,
       "gross_positive": 26787,
       "n_contributions": 13,
       "n_donors": 9
@@ -745,7 +747,7 @@
       "cycle": 2024,
       "week_end": "2024-10-20",
       "net_total": 6390,
-      "cumulative_net_total": 2216301,
+      "cumulative_net_total": 2213001,
       "gross_positive": 6390,
       "n_contributions": 9,
       "n_donors": 8
@@ -754,7 +756,7 @@
       "cycle": 2024,
       "week_end": "2024-10-27",
       "net_total": 15434,
-      "cumulative_net_total": 2231735,
+      "cumulative_net_total": 2228435,
       "gross_positive": 15434,
       "n_contributions": 12,
       "n_donors": 10
@@ -763,7 +765,7 @@
       "cycle": 2024,
       "week_end": "2024-11-03",
       "net_total": 13344,
-      "cumulative_net_total": 2245079,
+      "cumulative_net_total": 2241779,
       "gross_positive": 23344,
       "n_contributions": 18,
       "n_donors": 10
@@ -772,7 +774,7 @@
       "cycle": 2024,
       "week_end": "2024-11-10",
       "net_total": 3605,
-      "cumulative_net_total": 2248684,
+      "cumulative_net_total": 2245384,
       "gross_positive": 3605,
       "n_contributions": 5,
       "n_donors": 4
@@ -781,7 +783,7 @@
       "cycle": 2024,
       "week_end": "2024-11-17",
       "net_total": 48,
-      "cumulative_net_total": 2248732,
+      "cumulative_net_total": 2245432,
       "gross_positive": 398,
       "n_contributions": 3,
       "n_donors": 2
@@ -790,7 +792,7 @@
       "cycle": 2024,
       "week_end": "2024-12-01",
       "net_total": 679,
-      "cumulative_net_total": 2249411,
+      "cumulative_net_total": 2246111,
       "gross_positive": 679,
       "n_contributions": 1,
       "n_donors": 1
@@ -799,7 +801,7 @@
       "cycle": 2024,
       "week_end": "2024-12-08",
       "net_total": 100,
-      "cumulative_net_total": 2249511,
+      "cumulative_net_total": 2246211,
       "gross_positive": 100,
       "n_contributions": 1,
       "n_donors": 1
@@ -808,7 +810,7 @@
       "cycle": 2024,
       "week_end": "2024-12-15",
       "net_total": 2500,
-      "cumulative_net_total": 2252011,
+      "cumulative_net_total": 2248711,
       "gross_positive": 2500,
       "n_contributions": 1,
       "n_donors": 1
@@ -823,6 +825,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00835959",
       "top_committee": "FAIRSHAKE",
       "top_committee_type": "O",
       "top_committee_amt": 1000000
@@ -835,18 +838,20 @@
       "n_committees": 63,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00837435",
       "top_committee": "2024 THUNE REPUBLICAN SENATE VICTORY",
       "top_committee_type": "N",
       "top_committee_amt": 41300
     },
     {
       "name": "CHOI, EMILIE",
-      "net_total": 183035,
-      "gross_positive": 189635,
-      "n_contributions": 49,
+      "net_total": 179735,
+      "gross_positive": 186335,
+      "n_contributions": 48,
       "n_committees": 39,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00887356",
       "top_committee": "REPUBLICANS FOR A PRO-CRYPTO SENATE MAJORITY",
       "top_committee_type": "N",
       "top_committee_amt": 20000
@@ -859,6 +864,7 @@
       "n_committees": 5,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 100000
@@ -871,6 +877,7 @@
       "n_committees": 21,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00573444",
       "top_committee": "EMMER VICTORY COMMITTEE DBA REPUBLICAN CONGRESSIONAL VICTORY COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 13200
@@ -883,6 +890,7 @@
       "n_committees": 16,
       "employers": "COINBASE",
       "states": "VA",
+      "top_committee_id": "C00887356",
       "top_committee": "REPUBLICANS FOR A PRO-CRYPTO SENATE MAJORITY",
       "top_committee_type": "N",
       "top_committee_amt": 13200
@@ -895,6 +903,7 @@
       "n_committees": 10,
       "employers": "COINBASE",
       "states": "DC",
+      "top_committee_id": "C00887356",
       "top_committee": "REPUBLICANS FOR A PRO-CRYPTO SENATE MAJORITY",
       "top_committee_type": "N",
       "top_committee_amt": 26400
@@ -907,6 +916,7 @@
       "n_committees": 10,
       "employers": "COINBASE",
       "states": "NJ",
+      "top_committee_id": "C00582841",
       "top_committee": "COALITION FOR PROGRESS",
       "top_committee_type": "O",
       "top_committee_amt": 10000
@@ -919,6 +929,7 @@
       "n_committees": 14,
       "employers": "COINBASE",
       "states": "TX",
+      "top_committee_id": "C00632828",
       "top_committee": "CLAUDIA TENNEY FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 5100
@@ -931,6 +942,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 41300
@@ -943,7 +955,8 @@
       "n_committees": 9,
       "employers": "COINBASE",
       "states": "CA",
-      "top_committee": "FRENCH HILL FOR ARKANSAS",
+      "top_committee_id": "C00434191",
+      "top_committee": "HIMES FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
     },
@@ -955,8 +968,9 @@
       "n_committees": 5,
       "employers": "COINBASE",
       "states": "CA",
-      "top_committee": "INNOVATION POLITICAL ACTION COMMITTEE",
-      "top_committee_type": "Q",
+      "top_committee_id": "C00768762",
+      "top_committee": "GILLIBRAND VICTORY FUND",
+      "top_committee_type": "N",
       "top_committee_amt": 3300
     },
     {
@@ -967,6 +981,7 @@
       "n_committees": 3,
       "employers": "COINBASE",
       "states": "VA",
+      "top_committee_id": "C00540302",
       "top_committee": "TIM SCOTT FOR AMERICA",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -979,8 +994,9 @@
       "n_committees": 4,
       "employers": "COINBASE",
       "states": "CA",
-      "top_committee": "FRENCH HILL FOR ARKANSAS",
-      "top_committee_type": "H",
+      "top_committee_id": "C00264564",
+      "top_committee": "MENENDEZ FOR SENATE",
+      "top_committee_type": "S",
       "top_committee_amt": 3300
     },
     {
@@ -991,6 +1007,7 @@
       "n_committees": 9,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1003,8 +1020,9 @@
       "n_committees": 4,
       "employers": "COINBASE",
       "states": "IL",
-      "top_committee": "NEW YORK MAJORITY FUND",
-      "top_committee_type": "N",
+      "top_committee_id": "C00343871",
+      "top_committee": "SCHIFF FOR SENATE",
+      "top_committee_type": "S",
       "top_committee_amt": 3300
     },
     {
@@ -1015,8 +1033,9 @@
       "n_committees": 4,
       "employers": "COINBASE",
       "states": "TX",
-      "top_committee": "GILLIBRAND FOR SENATE",
-      "top_committee_type": "S",
+      "top_committee_id": "C00581074",
+      "top_committee": "DARREN SOTO FOR CONGRESS",
+      "top_committee_type": "H",
       "top_committee_amt": 2500
     },
     {
@@ -1027,6 +1046,7 @@
       "n_committees": 2,
       "employers": "COINBASE",
       "states": "VA",
+      "top_committee_id": "C00623512",
       "top_committee": "IN THE ARENA PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1039,6 +1059,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00857144",
       "top_committee": "SCALISE LEADERSHIP FUND 2024",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1051,6 +1072,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00508804",
       "top_committee": "SINEMA FOR ARIZONA",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -1063,6 +1085,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "VA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -1075,6 +1098,7 @@
       "n_committees": 2,
       "employers": "COINBASE",
       "states": "NJ",
+      "top_committee_id": "C00413914",
       "top_committee": "GILLIBRAND FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1087,6 +1111,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "VA",
+      "top_committee_id": "C00812941",
       "top_committee": "LUMMIS VICTORY COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -1099,6 +1124,7 @@
       "n_committees": 2,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00467571",
       "top_committee": "ANDY BARR FOR CONGRESS, INC.",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1111,6 +1137,7 @@
       "n_committees": 6,
       "employers": "COINBASE",
       "states": "NY",
+      "top_committee_id": "C00816660",
       "top_committee": "DAN GOLDMAN FOR NEW YORK",
       "top_committee_type": "H",
       "top_committee_amt": 3800
@@ -1123,6 +1150,7 @@
       "n_committees": 4,
       "employers": "COINBASE",
       "states": "IL",
+      "top_committee_id": "C00728360",
       "top_committee": "MOVEMENT VOTER PAC",
       "top_committee_type": "V",
       "top_committee_amt": 2500
@@ -1135,6 +1163,7 @@
       "n_committees": 4,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00878454",
       "top_committee": "MAGGIE FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1147,6 +1176,7 @@
       "n_committees": 2,
       "employers": "COINBASE",
       "states": "DC; VA",
+      "top_committee_id": "C00837484",
       "top_committee": "BERNIE MORENO FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 3435
@@ -1159,6 +1189,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "DC; VA",
+      "top_committee_id": "C00623512",
       "top_committee": "IN THE ARENA PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1171,6 +1202,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CT",
+      "top_committee_id": "C00799031",
       "top_committee": "UNITED DEMOCRACY PROJECT ('UDP')",
       "top_committee_type": "O",
       "top_committee_amt": 3600
@@ -1183,6 +1215,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00434191",
       "top_committee": "HIMES FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -1195,6 +1228,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "WA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1207,6 +1241,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00540302",
       "top_committee": "TIM SCOTT FOR AMERICA",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1219,6 +1254,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "NC",
+      "top_committee_id": "C00763045",
       "top_committee": "WILEY NICKEL FOR NORTH CAROLINA",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1231,6 +1267,7 @@
       "n_committees": 4,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00343871",
       "top_committee": "SCHIFF FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 1000
@@ -1243,6 +1280,7 @@
       "n_committees": 2,
       "employers": "COINBASE",
       "states": "NY",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -1255,6 +1293,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "NY",
+      "top_committee_id": "C00816660",
       "top_committee": "DAN GOLDMAN FOR NEW YORK",
       "top_committee_type": "H",
       "top_committee_amt": 2500
@@ -1267,6 +1306,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "VA",
+      "top_committee_id": "C00848028",
       "top_committee": "HAMILTON FOR CONGRESS, INC.",
       "top_committee_type": "H",
       "top_committee_amt": 2082
@@ -1279,6 +1319,7 @@
       "n_committees": 2,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1347
@@ -1291,6 +1332,7 @@
       "n_committees": 2,
       "employers": "COINBASE",
       "states": "ZZ",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1500
@@ -1303,6 +1345,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00836353",
       "top_committee": "NEWSOM FOR CALIFORNIA GOVERNOR 2022",
       "top_committee_type": "V",
       "top_committee_amt": 2000
@@ -1315,7 +1358,8 @@
       "n_committees": 5,
       "employers": "COINBASE",
       "states": "DC",
-      "top_committee": "SUOZZI FOR CONGRESS",
+      "top_committee_id": "C00503185",
+      "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 500
     },
@@ -1327,6 +1371,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1850
@@ -1339,6 +1384,7 @@
       "n_committees": 2,
       "employers": "COINBASE",
       "states": "DC",
+      "top_committee_id": "C00800649",
       "top_committee": "HOUCHIN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -1351,6 +1397,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1450
@@ -1363,6 +1410,7 @@
       "n_committees": 3,
       "employers": "COINBASE",
       "states": "NY",
+      "top_committee_id": "C00835959",
       "top_committee": "FAIRSHAKE",
       "top_committee_type": "O",
       "top_committee_amt": 500
@@ -1375,6 +1423,7 @@
       "n_committees": 3,
       "employers": "COINBASE",
       "states": "NC",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 500
@@ -1387,6 +1436,7 @@
       "n_committees": 3,
       "employers": "COINBASE",
       "states": "CA; HI",
+      "top_committee_id": "C00411330",
       "top_committee": "FRIENDS OF BERNIE SANDERS",
       "top_committee_type": "S",
       "top_committee_amt": 594
@@ -1399,6 +1449,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "VA",
+      "top_committee_id": "C00870139",
       "top_committee": "HOVDE FOR WISCONSIN",
       "top_committee_type": "S",
       "top_committee_amt": 1041
@@ -1411,6 +1462,7 @@
       "n_committees": 1,
       "employers": "COINBASE",
       "states": "DC",
+      "top_committee_id": "C00264564",
       "top_committee": "MENENDEZ FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 1000
@@ -1638,17 +1690,6 @@
       "n_contributions": 4
     },
     {
-      "cmte_id": "C00851980",
-      "cmte_nm": "FRIENDS OF DAVE MCCORMICK",
-      "cmte_tp": "S",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 16500,
-      "n_donors": 3,
-      "n_contributions": 7
-    },
-    {
       "cmte_id": "C00467571",
       "cmte_nm": "ANDY BARR FOR CONGRESS, INC.",
       "cmte_tp": "H",
@@ -1735,6 +1776,17 @@
       "net_total": 13200,
       "n_donors": 2,
       "n_contributions": 4
+    },
+    {
+      "cmte_id": "C00851980",
+      "cmte_nm": "FRIENDS OF DAVE MCCORMICK",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 13200,
+      "n_donors": 3,
+      "n_contributions": 6
     },
     {
       "cmte_id": "C00444620",

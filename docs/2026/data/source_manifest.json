@@ -1,7 +1,10 @@
 {
   "cycle": 2026,
-  "checked_at_utc": "2026-04-21T00:13:35+00:00",
-  "latest_bulk_release_utc": "2026-04-20T05:40:05+00:00",
+  "checked_at_utc": "2026-09-19T10:53:00+00:00",
+  "latest_bulk_release_utc": "2026-09-19T05:47:05+00:00",
+  "latest_local_bulk_release_utc": "2026-09-19T05:47:05+00:00",
+  "source_check_status": "current",
+  "sources_with_unverified_freshness": [],
   "bulk_sources": [
     {
       "key": "committee_master",
@@ -10,10 +13,10 @@
       "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\raw\\2026\\cm26.zip",
       "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2026\\cm26\\cm.txt",
       "local_exists": true,
-      "local_last_modified_utc": "2026-04-20T05:40:02+00:00",
-      "remote_last_modified_utc": "2026-04-20T05:40:02+00:00",
-      "remote_content_length": 813725,
-      "remote_etag": "\"04ee6ecde8cbd4f3c1293d1b6cc5d532\"",
+      "local_last_modified_utc": "2026-09-19T05:47:01+00:00",
+      "remote_last_modified_utc": "2026-09-19T05:47:01+00:00",
+      "remote_content_length": 868234,
+      "remote_etag": "\"1aadad51fc6cfe59e395da8c38fff698\"",
       "remote_is_newer": false,
       "remote_error": ""
     },
@@ -24,10 +27,10 @@
       "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\raw\\2026\\cn26.zip",
       "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2026\\cn26\\cn.txt",
       "local_exists": true,
-      "local_last_modified_utc": "2026-04-20T05:39:57+00:00",
-      "remote_last_modified_utc": "2026-04-20T05:39:57+00:00",
-      "remote_content_length": 284594,
-      "remote_etag": "\"292834c0492b398079b50795f6d022c9\"",
+      "local_last_modified_utc": "2026-09-19T05:46:56+00:00",
+      "remote_last_modified_utc": "2026-09-19T05:46:56+00:00",
+      "remote_content_length": 308469,
+      "remote_etag": "\"b722be2a2caddd849d39289f04cfb57e\"",
       "remote_is_newer": false,
       "remote_error": ""
     },
@@ -38,10 +41,10 @@
       "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\raw\\2026\\ccl26.zip",
       "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2026\\ccl26\\ccl.txt",
       "local_exists": true,
-      "local_last_modified_utc": "2026-04-20T05:40:05+00:00",
-      "remote_last_modified_utc": "2026-04-20T05:40:05+00:00",
-      "remote_content_length": 81257,
-      "remote_etag": "\"227182c33ad6841f318a9e0047470322\"",
+      "local_last_modified_utc": "2026-09-19T05:47:05+00:00",
+      "remote_last_modified_utc": "2026-09-19T05:47:05+00:00",
+      "remote_content_length": 88209,
+      "remote_etag": "\"b4cd2aa4f3102cc98dca2523baccebb8\"",
       "remote_is_newer": false,
       "remote_error": ""
     },
@@ -52,10 +55,10 @@
       "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\raw\\2026\\indiv26.zip",
       "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2026\\indiv26\\itcont.txt",
       "local_exists": true,
-      "local_last_modified_utc": "2026-04-19T16:20:42+00:00",
-      "remote_last_modified_utc": "2026-04-19T16:20:42+00:00",
-      "remote_content_length": 1499782071,
-      "remote_etag": "\"cef45ce5e74a7354b323cd6950a19596-179\"",
+      "local_last_modified_utc": "2026-09-13T15:59:54+00:00",
+      "remote_last_modified_utc": "2026-09-13T15:59:54+00:00",
+      "remote_content_length": 2186550443,
+      "remote_etag": "\"3aa48208d54c6998ac0a62b899200cf0-261\"",
       "remote_is_newer": false,
       "remote_error": ""
     },
@@ -66,10 +69,10 @@
       "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\raw\\2026\\oth26.zip",
       "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2026\\oth26\\itoth.txt",
       "local_exists": true,
-      "local_last_modified_utc": "2026-04-19T16:21:43+00:00",
-      "remote_last_modified_utc": "2026-04-19T16:21:43+00:00",
-      "remote_content_length": 162663579,
-      "remote_etag": "\"9416f627c817dfc8a80179a2e8b0b1ea-20\"",
+      "local_last_modified_utc": "2026-09-13T16:01:25+00:00",
+      "remote_last_modified_utc": "2026-09-13T16:01:25+00:00",
+      "remote_content_length": 212869664,
+      "remote_etag": "\"53d3104bed587d60d532033287bf81e7-26\"",
       "remote_is_newer": false,
       "remote_error": ""
     },
@@ -80,16 +83,30 @@
       "local_zip_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\raw\\2026\\pas226.zip",
       "local_path": "C:\\Users\\Wade\\Documents\\projects\\tech_money\\data\\fec\\interim\\2026\\pas226\\itpas2.txt",
       "local_exists": true,
-      "local_last_modified_utc": "2026-04-19T16:20:58+00:00",
-      "remote_last_modified_utc": "2026-04-19T16:20:58+00:00",
-      "remote_content_length": 5112031,
-      "remote_etag": "\"f67a67ac931d385c53712e50144766c3\"",
+      "local_last_modified_utc": "2026-09-13T16:00:18+00:00",
+      "remote_last_modified_utc": "2026-09-13T16:00:18+00:00",
+      "remote_content_length": 8130657,
+      "remote_etag": "\"209b0109b25a1a9e3205c1887ae71c88\"",
       "remote_is_newer": false,
       "remote_error": ""
     }
   ],
   "sources_with_remote_newer_than_local": [],
   "all_local_bulk_files_present": true,
+  "reviewed_reference_inputs": [
+    {
+      "file": "data/reference/companies/curated.csv",
+      "sha256": "b2e2157c9171246b60f16092a5855467fc07ee8b0617f30ce7fc63775f4cb268"
+    },
+    {
+      "file": "data/reference/committees/converted_campaigns_2026.json",
+      "sha256": "b8ed21e8a493d9ec1226169380a6f9fa89ecb58f964a8bdec319b8e5a8b5872f"
+    },
+    {
+      "file": "data/reference/transactions/reviewed_exclusions.json",
+      "sha256": "0fc423e05ca43ec30e1a85cf33206d540fdcd3cbc32d81fae6c398710c2832f4"
+    }
+  ],
   "openfec": {
     "developers_url": "https://api.open.fec.gov/developers/",
     "base_url": "https://api.open.fec.gov/v1/",

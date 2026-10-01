@@ -1,32 +1,34 @@
 {
   "company": "zoom",
   "slug": "zoom",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "zoom",
-    "net_total": 82378,
-    "n_donors": 15,
-    "n_contributions": 71,
-    "n_committees": 30,
+    "net_total": 99847,
+    "n_donors": 18,
+    "n_contributions": 104,
+    "n_committees": 36,
     "sectors": "communications",
-    "amt_dem": 29700,
+    "amt_dem": 36275,
     "amt_mixed": 12500,
-    "amt_rep": 39177,
-    "amt_unknown": 1001,
-    "amt_other": 13501,
-    "classified_recipient_total": 68877,
-    "pct_dem": 43.1203449628,
-    "pct_classified_recipients": 83.6109155357,
-    "donor_amt_D": 2401,
-    "donor_amt_Mixed": 64500,
-    "donor_amt_R": 7677,
+    "amt_rep": 50052,
+    "amt_unknown": 1020,
+    "amt_other": 13520,
+    "classified_recipient_total": 86327,
+    "pct_dem": 42.0204570992,
+    "pct_classified_recipients": 86.4592827025,
+    "donor_amt_D": 5370,
+    "donor_amt_Mixed": 77625,
+    "donor_amt_R": 9052,
     "donor_amt_Unknown": 7800,
-    "n_donors_D": 6,
-    "n_donors_Mixed": 2,
-    "n_donors_R": 4,
+    "n_donors_D": 7,
+    "n_donors_Mixed": 3,
+    "n_donors_R": 5,
     "n_donors_Unknown": 3,
-    "donor_amt_total": 82378,
-    "n_donors_total": 15,
-    "pct_dem_by_donor": 23.8241714626,
+    "donor_amt_total": 99847,
+    "n_donors_total": 18,
+    "pct_dem_by_donor": 37.2347801969,
     "slug": "zoom"
   },
   "weekly_series": [
@@ -366,9 +368,144 @@
     {
       "cycle": 2026,
       "week_end": "2026-02-22",
+      "net_total": 233,
+      "cumulative_net_total": 82578,
+      "gross_positive": 233,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-08",
+      "net_total": 3517,
+      "cumulative_net_total": 86095,
+      "gross_positive": 3517,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-15",
+      "net_total": 95,
+      "cumulative_net_total": 86190,
+      "gross_positive": 95,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 233,
+      "cumulative_net_total": 86423,
+      "gross_positive": 233,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-05",
+      "net_total": 17,
+      "cumulative_net_total": 86440,
+      "gross_positive": 17,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-12",
+      "net_total": 143,
+      "cumulative_net_total": 86583,
+      "gross_positive": 143,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-26",
       "net_total": 33,
-      "cumulative_net_total": 82378,
+      "cumulative_net_total": 86616,
       "gross_positive": 33,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-10",
+      "net_total": 910,
+      "cumulative_net_total": 87526,
+      "gross_positive": 910,
+      "n_contributions": 5,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-24",
+      "net_total": 33,
+      "cumulative_net_total": 87559,
+      "gross_positive": 33,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-07",
+      "net_total": 17,
+      "cumulative_net_total": 87576,
+      "gross_positive": 17,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-14",
+      "net_total": 3643,
+      "cumulative_net_total": 91219,
+      "gross_positive": 3643,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-28",
+      "net_total": 9533,
+      "cumulative_net_total": 100752,
+      "gross_positive": 9533,
+      "n_contributions": 5,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-05",
+      "net_total": -1283,
+      "cumulative_net_total": 99469,
+      "gross_positive": 3717,
+      "n_contributions": 5,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-12",
+      "net_total": 95,
+      "cumulative_net_total": 99564,
+      "gross_positive": 95,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-26",
+      "net_total": 33,
+      "cumulative_net_total": 99597,
+      "gross_positive": 33,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-08-02",
+      "net_total": 250,
+      "cumulative_net_total": 99847,
+      "gross_positive": 250,
       "n_contributions": 1,
       "n_donors": 1
     }
@@ -376,25 +513,27 @@
   "top_donors": [
     {
       "name": "YUAN, ZHENG",
-      "net_total": 54000,
-      "gross_positive": 54000,
-      "n_contributions": 15,
+      "net_total": 61000,
+      "gross_positive": 61000,
+      "n_contributions": 17,
       "n_committees": 15,
       "employers": "ZOOM",
       "states": "CA",
-      "top_committee": "WITH HONOR PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5000
+      "top_committee_id": "C00858688",
+      "top_committee": "LICCARDO FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
     },
     {
       "name": "YUAN, ERIC",
-      "net_total": 10500,
-      "gross_positive": 10500,
-      "n_contributions": 3,
-      "n_committees": 3,
+      "net_total": 16500,
+      "gross_positive": 21500,
+      "n_contributions": 9,
+      "n_committees": 5,
       "employers": "ZOOM",
       "states": "CA",
-      "top_committee": "THOM TILLIS COMMITTEE",
+      "top_committee_id": "C00443580",
+      "top_committee": "LUMMIS FOR WYOMING INC.",
       "top_committee_type": "S",
       "top_committee_amt": 3500
     },
@@ -406,21 +545,10 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00328369",
       "top_committee": "TECHNOLOGY NETWORK (TECHNET) FEDERAL PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
-    },
-    {
-      "name": "YUAN, ERIC MR.",
-      "net_total": 3500,
-      "gross_positive": 3500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "ZOOM",
-      "states": "CA",
-      "top_committee": "CAPITO FOR WEST VIRGINIA",
-      "top_committee_type": "S",
-      "top_committee_amt": 3500
     },
     {
       "name": "YUAN, ERIC/ZHENG",
@@ -430,8 +558,22 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00721332",
       "top_committee": "DARRELL ISSA FOR CONGRESS",
       "top_committee_type": "H",
+      "top_committee_amt": 3500
+    },
+    {
+      "name": "YUAN, ERIC MR.",
+      "net_total": 3500,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ZOOM",
+      "states": "CA",
+      "top_committee_id": "C00539825",
+      "top_committee": "CAPITO FOR WEST VIRGINIA",
+      "top_committee_type": "S",
       "top_committee_amt": 3500
     },
     {
@@ -442,9 +584,62 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00328369",
       "top_committee": "TECHNOLOGY NETWORK (TECHNET) FEDERAL PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2500
+    },
+    {
+      "name": "PARECKI, JOSH",
+      "net_total": 2000,
+      "gross_positive": 2000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ZOOM",
+      "states": "TX",
+      "top_committee_id": "C00905547",
+      "top_committee": "KEVIN BURGE FOR UNITED STATES CONGRESS CAMPAIGN COMMITTEE",
+      "top_committee_type": "H",
+      "top_committee_amt": 2000
+    },
+    {
+      "name": "LIU, QIJUN",
+      "net_total": 1644,
+      "gross_positive": 1644,
+      "n_contributions": 30,
+      "n_committees": 1,
+      "employers": "ZOOM",
+      "states": "CA",
+      "top_committee_id": "C00003418",
+      "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
+      "top_committee_type": "Y",
+      "top_committee_amt": 1644
+    },
+    {
+      "name": "MILLER, RC",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "ZOOM",
+      "states": "VA",
+      "top_committee_id": "C00256925",
+      "top_committee": "SCOTT FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "AUSTIN, ROGER",
+      "net_total": 720,
+      "gross_positive": 720,
+      "n_contributions": 15,
+      "n_committees": 1,
+      "employers": "ZOOM",
+      "states": "NC",
+      "top_committee_id": "C00873893",
+      "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
+      "top_committee_type": "N",
+      "top_committee_amt": 720
     },
     {
       "name": "WELSH, CHARLES",
@@ -454,45 +649,23 @@
       "n_committees": 2,
       "employers": "ZOOM VIDEO COMMUNICATIONS",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 450
     },
     {
-      "name": "AUSTIN, ROGER",
-      "net_total": 576,
-      "gross_positive": 576,
-      "n_contributions": 12,
-      "n_committees": 1,
-      "employers": "ZOOM",
-      "states": "NC",
-      "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
-      "top_committee_type": "N",
-      "top_committee_amt": 576
-    },
-    {
-      "name": "LIU, QIJUN",
-      "net_total": 519,
-      "gross_positive": 519,
-      "n_contributions": 13,
-      "n_committees": 1,
-      "employers": "ZOOM",
-      "states": "CA",
-      "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
-      "top_committee_amt": 519
-    },
-    {
-      "name": "MILLER, RC",
+      "name": "KALLMER, JONATHAN",
       "net_total": 500,
       "gross_positive": 500,
-      "n_contributions": 1,
-      "n_committees": 1,
+      "n_contributions": 2,
+      "n_committees": 2,
       "employers": "ZOOM",
-      "states": "VA",
-      "top_committee": "SCOTT FOR CONGRESS",
+      "states": "DC",
+      "top_committee_id": "C00906446",
+      "top_committee": "STEFANY SHAHEEN FOR CONGRESS",
       "top_committee_type": "H",
-      "top_committee_amt": 500
+      "top_committee_amt": 250
     },
     {
       "name": "NEAM, QUIARA",
@@ -502,20 +675,22 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CO",
+      "top_committee_id": "C00898395",
       "top_committee": "JUSTICE PAC",
       "top_committee_type": "N",
       "top_committee_amt": 300
     },
     {
-      "name": "KALLMER, JONATHAN",
+      "name": "MIRKOVICH, KATHY",
       "net_total": 250,
       "gross_positive": 250,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "ZOOM",
-      "states": "DC",
-      "top_committee": "HALEY STEVENS FOR SENATE",
-      "top_committee_type": "S",
+      "states": "NV",
+      "top_committee_id": "C00509729",
+      "top_committee": "THOMAS MASSIE FOR CONGRESS",
+      "top_committee_type": "H",
       "top_committee_amt": 250
     },
     {
@@ -526,9 +701,23 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "NC",
+      "top_committee_id": "C00540500",
       "top_committee": "CORY BOOKER FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 250
+    },
+    {
+      "name": "FERGUSON, DUSTIN",
+      "net_total": 200,
+      "gross_positive": 200,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "ZOOM",
+      "states": "NM",
+      "top_committee_id": "C00919084",
+      "top_committee": "TALARICO FOR TEXAS",
+      "top_committee_type": "S",
+      "top_committee_amt": 200
     },
     {
       "name": "MILLS, RICH",
@@ -538,6 +727,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "TX",
+      "top_committee_id": "C00412569",
       "top_committee": "DENTON COUNTY REPUBLICAN VICTORY FUND",
       "top_committee_type": "X",
       "top_committee_amt": 158
@@ -550,6 +740,7 @@
       "n_committees": 1,
       "employers": "ZOOM",
       "states": "CA",
+      "top_committee_id": "C00835041",
       "top_committee": "FORWARD BLUE",
       "top_committee_type": "O",
       "top_committee_amt": 125
@@ -565,6 +756,28 @@
       "recipient_bucket": "pac",
       "net_total": 7500,
       "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00614776",
+      "cmte_nm": "TED BUDD FOR SENATE",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00858688",
+      "cmte_nm": "LICCARDO FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
       "n_contributions": 2
     },
     {
@@ -590,8 +803,8 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00545772",
-      "cmte_nm": "THOM TILLIS COMMITTEE",
+      "cmte_id": "C00539825",
+      "cmte_nm": "CAPITO FOR WEST VIRGINIA",
       "cmte_tp": "S",
       "party_dr": "R",
       "classification_source": "party_field",
@@ -601,10 +814,10 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00503110",
-      "cmte_nm": "SCOTT PETERS FOR CONGRESS",
+      "cmte_id": "C00661561",
+      "cmte_nm": "BEN CLINE FOR CONGRESS, INC.",
       "cmte_tp": "H",
-      "party_dr": "D",
+      "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 3500,
@@ -634,8 +847,19 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00614776",
-      "cmte_nm": "TED BUDD FOR SENATE",
+      "cmte_id": "C00556506",
+      "cmte_nm": "TED LIEU FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00545772",
+      "cmte_nm": "THOM TILLIS COMMITTEE",
       "cmte_tp": "S",
       "party_dr": "R",
       "classification_source": "party_field",
@@ -645,8 +869,19 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00556506",
-      "cmte_nm": "TED LIEU FOR CONGRESS",
+      "cmte_id": "C00800649",
+      "cmte_nm": "HOUCHIN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00503110",
+      "cmte_nm": "SCOTT PETERS FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -667,32 +902,10 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00539825",
-      "cmte_nm": "CAPITO FOR WEST VIRGINIA",
-      "cmte_tp": "S",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00502294",
       "cmte_nm": "SWALWELL FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00720078",
-      "cmte_nm": "JAY OBERNOLTE FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 3500,
@@ -755,17 +968,6 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00858688",
-      "cmte_nm": "LICCARDO FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 3500,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00409581",
       "cmte_nm": "FRIENDS OF JOHN THUNE",
       "cmte_tp": "S",
@@ -777,8 +979,8 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00661561",
-      "cmte_nm": "BEN CLINE FOR CONGRESS, INC.",
+      "cmte_id": "C00720078",
+      "cmte_nm": "JAY OBERNOLTE FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "R",
       "classification_source": "party_field",
@@ -788,15 +990,26 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00873893",
-      "cmte_nm": "TRUMP NATIONAL COMMITTEE JFC, INC.",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 576,
+      "cmte_id": "C00815373",
+      "cmte_nm": "LAUREL LEE FOR CONGRESS, INC.",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 2500,
       "n_donors": 1,
-      "n_contributions": 12
+      "n_contributions": 5
+    },
+    {
+      "cmte_id": "C00905547",
+      "cmte_nm": "KEVIN BURGE FOR UNITED STATES CONGRESS CAMPAIGN COMMITTEE",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 2000,
+      "n_donors": 1,
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00003418",
@@ -805,9 +1018,9 @@
       "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 519,
+      "net_total": 1644,
       "n_donors": 1,
-      "n_contributions": 13
+      "n_contributions": 30
     },
     {
       "cmte_id": "C00256925",
@@ -816,9 +1029,20 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 500,
+      "net_total": 1000,
       "n_donors": 1,
-      "n_contributions": 1
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00873893",
+      "cmte_nm": "TRUMP NATIONAL COMMITTEE JFC, INC.",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 720,
+      "n_donors": 1,
+      "n_contributions": 15
     },
     {
       "cmte_id": "C00010603",
@@ -854,6 +1078,17 @@
       "n_contributions": 1
     },
     {
+      "cmte_id": "C00509729",
+      "cmte_nm": "THOMAS MASSIE FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
       "cmte_id": "C00903039",
       "cmte_nm": "HALEY STEVENS FOR SENATE",
       "cmte_tp": "S",
@@ -861,6 +1096,28 @@
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00906446",
+      "cmte_nm": "STEFANY SHAHEEN FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 250,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00919084",
+      "cmte_nm": "TALARICO FOR TEXAS",
+      "cmte_tp": "S",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 200,
       "n_donors": 1,
       "n_contributions": 1
     },
@@ -879,8 +1136,8 @@
       "cmte_id": "C00835041",
       "cmte_nm": "FORWARD BLUE",
       "cmte_tp": "O",
-      "party_dr": "Unknown",
-      "classification_source": "",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
       "recipient_bucket": "outside_spending",
       "net_total": 125,
       "n_donors": 1,

@@ -1,32 +1,34 @@
 {
   "company": "palantir",
   "slug": "palantir",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "palantir",
-    "net_total": 1799158,
-    "n_donors": 75,
-    "n_contributions": 262,
-    "n_committees": 104,
+    "net_total": 3251479,
+    "n_donors": 93,
+    "n_contributions": 378,
+    "n_committees": 142,
     "sectors": "; defense",
-    "amt_dem": 657740,
+    "amt_dem": 915973,
     "amt_mixed": 0,
-    "amt_rep": 410770,
-    "amt_unknown": 730648,
-    "amt_other": 730648,
-    "classified_recipient_total": 1068510,
-    "pct_dem": 61.5567472462,
-    "pct_classified_recipients": 59.3894477305,
-    "donor_amt_D": 894781,
-    "donor_amt_Mixed": 61000,
-    "donor_amt_R": 466520,
-    "donor_amt_Unknown": 376857,
-    "n_donors_D": 54,
-    "n_donors_Mixed": 4,
-    "n_donors_R": 9,
-    "n_donors_Unknown": 8,
-    "donor_amt_total": 1799158,
-    "n_donors_total": 75,
-    "pct_dem_by_donor": 65.7298422612,
+    "amt_rep": 470285,
+    "amt_unknown": 1865221,
+    "amt_other": 1865221,
+    "classified_recipient_total": 1386258,
+    "pct_dem": 66.0752183216,
+    "pct_classified_recipients": 42.634690244,
+    "donor_amt_D": 1165364,
+    "donor_amt_Mixed": 117100,
+    "donor_amt_R": 1587935,
+    "donor_amt_Unknown": 381080,
+    "n_donors_D": 61,
+    "n_donors_Mixed": 6,
+    "n_donors_R": 14,
+    "n_donors_Unknown": 12,
+    "donor_amt_total": 3251479,
+    "n_donors_total": 93,
+    "pct_dem_by_donor": 42.3260968024,
     "slug": "palantir"
   },
   "weekly_series": [
@@ -474,45 +476,279 @@
     {
       "cycle": 2026,
       "week_end": "2026-01-04",
-      "net_total": 5470,
-      "cumulative_net_total": 1737702,
-      "gross_positive": 5470,
-      "n_contributions": 7,
-      "n_donors": 7
+      "net_total": 6220,
+      "cumulative_net_total": 1738452,
+      "gross_positive": 6220,
+      "n_contributions": 9,
+      "n_donors": 9
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-01-11",
+      "net_total": 18750,
+      "cumulative_net_total": 1757202,
+      "gross_positive": 18750,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-01-18",
+      "net_total": 7775,
+      "cumulative_net_total": 1764977,
+      "gross_positive": 7775,
+      "n_contributions": 5,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-01-25",
+      "net_total": 107032,
+      "cumulative_net_total": 1872009,
+      "gross_positive": 107032,
+      "n_contributions": 4,
+      "n_donors": 3
     },
     {
       "cycle": 2026,
       "week_end": "2026-02-01",
-      "net_total": 15000,
-      "cumulative_net_total": 1752702,
-      "gross_positive": 15000,
+      "net_total": 1018600,
+      "cumulative_net_total": 2890609,
+      "gross_positive": 1018600,
+      "n_contributions": 6,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-02-08",
+      "net_total": 46800,
+      "cumulative_net_total": 2937409,
+      "gross_positive": 46800,
+      "n_contributions": 5,
+      "n_donors": 5
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-02-22",
+      "net_total": 25,
+      "cumulative_net_total": 2937434,
+      "gross_positive": 25,
       "n_contributions": 1,
       "n_donors": 1
     },
     {
       "cycle": 2026,
-      "week_end": "2026-02-08",
-      "net_total": 45300,
-      "cumulative_net_total": 1798002,
-      "gross_positive": 45300,
+      "week_end": "2026-03-01",
+      "net_total": 5377,
+      "cumulative_net_total": 2942811,
+      "gross_positive": 5377,
+      "n_contributions": 8,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-08",
+      "net_total": 61500,
+      "cumulative_net_total": 3004311,
+      "gross_positive": 61500,
+      "n_contributions": 4,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-15",
+      "net_total": 4086,
+      "cumulative_net_total": 3008397,
+      "gross_positive": 4086,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-22",
+      "net_total": 775,
+      "cumulative_net_total": 3009172,
+      "gross_positive": 775,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-29",
+      "net_total": 25532,
+      "cumulative_net_total": 3034704,
+      "gross_positive": 25532,
+      "n_contributions": 7,
+      "n_donors": 5
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-05",
+      "net_total": 31820,
+      "cumulative_net_total": 3066524,
+      "gross_positive": 36820,
+      "n_contributions": 16,
+      "n_donors": 10
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-12",
+      "net_total": 500,
+      "cumulative_net_total": 3067024,
+      "gross_positive": 500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-19",
+      "net_total": 50275,
+      "cumulative_net_total": 3117299,
+      "gross_positive": 50275,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-26",
+      "net_total": 2016,
+      "cumulative_net_total": 3119315,
+      "gross_positive": 2016,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-03",
+      "net_total": 8570,
+      "cumulative_net_total": 3127885,
+      "gross_positive": 8570,
+      "n_contributions": 10,
+      "n_donors": 5
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-10",
+      "net_total": 450,
+      "cumulative_net_total": 3128335,
+      "gross_positive": 450,
       "n_contributions": 2,
       "n_donors": 2
     },
     {
       "cycle": 2026,
-      "week_end": "2026-03-01",
-      "net_total": 1070,
-      "cumulative_net_total": 1799072,
-      "gross_positive": 1070,
+      "week_end": "2026-05-17",
+      "net_total": 3785,
+      "cumulative_net_total": 3132120,
+      "gross_positive": 3785,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-24",
+      "net_total": 390,
+      "cumulative_net_total": 3132510,
+      "gross_positive": 390,
       "n_contributions": 1,
       "n_donors": 1
     },
     {
       "cycle": 2026,
-      "week_end": "2026-03-15",
-      "net_total": 86,
-      "cumulative_net_total": 1799158,
-      "gross_positive": 86,
+      "week_end": "2026-05-31",
+      "net_total": 16566,
+      "cumulative_net_total": 3149076,
+      "gross_positive": 16566,
+      "n_contributions": 5,
+      "n_donors": 5
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-07",
+      "net_total": 62620,
+      "cumulative_net_total": 3211696,
+      "gross_positive": 62620,
+      "n_contributions": 5,
+      "n_donors": 4
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-14",
+      "net_total": 250,
+      "cumulative_net_total": 3211946,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-21",
+      "net_total": 5025,
+      "cumulative_net_total": 3216971,
+      "gross_positive": 5025,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-28",
+      "net_total": 3650,
+      "cumulative_net_total": 3220621,
+      "gross_positive": 3650,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-05",
+      "net_total": 14213,
+      "cumulative_net_total": 3234834,
+      "gross_positive": 14213,
+      "n_contributions": 5,
+      "n_donors": 5
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-12",
+      "net_total": 7030,
+      "cumulative_net_total": 3241864,
+      "gross_positive": 7030,
+      "n_contributions": 3,
+      "n_donors": 3
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-19",
+      "net_total": 500,
+      "cumulative_net_total": 3242364,
+      "gross_positive": 5500,
+      "n_contributions": 4,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-07-26",
+      "net_total": 500,
+      "cumulative_net_total": 3242864,
+      "gross_positive": 500,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-08-02",
+      "net_total": 5000,
+      "cumulative_net_total": 3247864,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-08-09",
+      "net_total": 3615,
+      "cumulative_net_total": 3251479,
+      "gross_positive": 3615,
       "n_contributions": 1,
       "n_donors": 1
     }
@@ -520,15 +756,16 @@
   "top_donors": [
     {
       "name": "SANKAR, SHYAM",
-      "net_total": 413100,
-      "gross_positive": 434100,
-      "n_contributions": 31,
-      "n_committees": 15,
+      "net_total": 1480600,
+      "gross_positive": 1501600,
+      "n_contributions": 37,
+      "n_committees": 20,
       "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
-      "states": "CO",
-      "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
-      "top_committee_amt": 250000
+      "states": "CO; DC",
+      "top_committee_id": "C00858373",
+      "top_committee": "GROW THE MAJORITY",
+      "top_committee_type": "N",
+      "top_committee_amt": 520000
     },
     {
       "name": "KARP, ALEXANDER C. MR.",
@@ -538,6 +775,7 @@
       "n_committees": 2,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "CA",
+      "top_committee_id": "C00542217",
       "top_committee": "TEXANS FOR A CONSERVATIVE MAJORITY",
       "top_committee_type": "O",
       "top_committee_amt": 250000
@@ -550,18 +788,33 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "CA",
+      "top_committee_id": "C00858373",
       "top_committee": "GROW THE MAJORITY",
       "top_committee_type": "N",
       "top_committee_amt": 360000
     },
     {
-      "name": "JAIN, AKASH",
-      "net_total": 160601,
-      "gross_positive": 160601,
-      "n_contributions": 18,
-      "n_committees": 14,
+      "name": "ALHASSANI, MEHDI",
+      "net_total": 256100,
+      "gross_positive": 261100,
+      "n_contributions": 43,
+      "n_committees": 31,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "CA",
+      "top_committee_id": "C00042366",
+      "top_committee": "DSCC",
+      "top_committee_type": "Y",
+      "top_committee_amt": 59300
+    },
+    {
+      "name": "JAIN, AKASH",
+      "net_total": 216401,
+      "gross_positive": 219901,
+      "n_contributions": 25,
+      "n_committees": 18,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "CA",
+      "top_committee_id": "C00000935",
       "top_committee": "DCCC",
       "top_committee_type": "Y",
       "top_committee_amt": 88600
@@ -574,21 +827,23 @@
       "n_committees": 18,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "CA",
+      "top_committee_id": "C00768200",
       "top_committee": "JEFFRIES VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 44300
     },
     {
-      "name": "ALHASSANI, MEHDI",
-      "net_total": 108800,
-      "gross_positive": 108800,
-      "n_contributions": 25,
-      "n_committees": 19,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "CA",
-      "top_committee": "HMP",
-      "top_committee_type": "W",
-      "top_committee_amt": 25000
+      "name": "KARP, ALEXANDER CAEDMON",
+      "net_total": 107000,
+      "gross_positive": 107000,
+      "n_contributions": 4,
+      "n_committees": 2,
+      "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
+      "states": "CO; NH",
+      "top_committee_id": "C00733352",
+      "top_committee": "AMERICANS 4 SECURITY PAC",
+      "top_committee_type": "O",
+      "top_committee_amt": 100000
     },
     {
       "name": "KARP, ALEXANDER",
@@ -598,9 +853,23 @@
       "n_committees": 6,
       "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
       "states": "NH",
-      "top_committee": "WESTERMAN VICTORY FUND",
+      "top_committee_id": "C00744599",
+      "top_committee": "HICKENLOOPER VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 12000
+    },
+    {
+      "name": "HARRIS, JOSH",
+      "net_total": 47600,
+      "gross_positive": 47600,
+      "n_contributions": 7,
+      "n_committees": 6,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "NY",
+      "top_committee_id": "C00796045",
+      "top_committee": "TRUTH AND COURAGE PAC",
+      "top_committee_type": "O",
+      "top_committee_amt": 18000
     },
     {
       "name": "KARP, ALEXANDER C.",
@@ -610,6 +879,7 @@
       "n_committees": 5,
       "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
       "states": "CA; NH",
+      "top_committee_id": "C00895219",
       "top_committee": "MARK WARNER VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 22000
@@ -622,19 +892,34 @@
       "n_committees": 4,
       "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
       "states": "CA; NH",
-      "top_committee": "WICKER FOR SENATE",
+      "top_committee_id": "C00458828",
+      "top_committee": "TEAM GRAHAM, INC.",
       "top_committee_type": "S",
       "top_committee_amt": 7000
     },
     {
       "name": "ROBINSON, SETH",
-      "net_total": 15250,
-      "gross_positive": 18750,
-      "n_contributions": 7,
-      "n_committees": 5,
+      "net_total": 18250,
+      "gross_positive": 21750,
+      "n_contributions": 13,
+      "n_committees": 11,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "NY",
+      "top_committee_id": "C00815290",
       "top_committee": "PAT RYAN FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 7000
+    },
+    {
+      "name": "TAYLOR, RYAN",
+      "net_total": 15500,
+      "gross_positive": 17000,
+      "n_contributions": 6,
+      "n_committees": 3,
+      "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
+      "states": "CA",
+      "top_committee_id": "C00793760",
+      "top_committee": "JOSH RILEY FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 7000
     },
@@ -646,6 +931,7 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "CA",
+      "top_committee_id": "C00838698",
       "top_committee": "TEAM NUNN",
       "top_committee_type": "N",
       "top_committee_amt": 12000
@@ -658,6 +944,7 @@
       "n_committees": 2,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "CA",
+      "top_committee_id": "C00615294",
       "top_committee": "CITIZENS FOR JOHN RUTHERFORD",
       "top_committee_type": "H",
       "top_committee_amt": 7000
@@ -670,21 +957,10 @@
       "n_committees": 2,
       "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
       "states": "DC",
+      "top_committee_id": "C00923706",
       "top_committee": "ALEX BORES FOR NY",
       "top_committee_type": "H",
       "top_committee_amt": 7000
-    },
-    {
-      "name": "HARRIS, JOSH",
-      "net_total": 8600,
-      "gross_positive": 8600,
-      "n_contributions": 3,
-      "n_committees": 2,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "NY",
-      "top_committee": "EVERY VOTE PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5000
     },
     {
       "name": "FLORES, LILA",
@@ -694,6 +970,7 @@
       "n_committees": 3,
       "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
       "states": "TX",
+      "top_committee_id": "C00748673",
       "top_committee": "WESLEY HUNT VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 7000
@@ -706,21 +983,23 @@
       "n_committees": 1,
       "employers": "PALANTIR",
       "states": "NY",
+      "top_committee_id": "C00654509",
       "top_committee": "COMMITTEE TO ELECT DAN KOH",
       "top_committee_type": "H",
       "top_committee_amt": 7000
     },
     {
-      "name": "KARP, ALEXANDER CAEDMON",
-      "net_total": 7000,
-      "gross_positive": 7000,
-      "n_contributions": 3,
-      "n_committees": 1,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "NH",
-      "top_committee": "JASON CROW FOR CONGRESS",
+      "name": "CRAIG, FRANCESCA",
+      "net_total": 6250,
+      "gross_positive": 6250,
+      "n_contributions": 13,
+      "n_committees": 5,
+      "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
+      "states": "DC",
+      "top_committee_id": "C00838060",
+      "top_committee": "GABE AMO FOR CONGRESS",
       "top_committee_type": "H",
-      "top_committee_amt": 7000
+      "top_committee_amt": 3500
     },
     {
       "name": "KARP, ALEXANDER DR.",
@@ -730,19 +1009,8 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "NH",
+      "top_committee_id": "C00404392",
       "top_committee": "CONSERVATIVE OPPORTUNITY LEADERSHIP AND ENTERPRISE PAC",
-      "top_committee_type": "Q",
-      "top_committee_amt": 5000
-    },
-    {
-      "name": "SANKAR, SHYAM MR.",
-      "net_total": 5000,
-      "gross_positive": 5000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "CA",
-      "top_committee": "RESPONSIBILITY AND FREEDOM WORK PAC (RFWPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
     },
@@ -754,6 +1022,7 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "CA",
+      "top_committee_id": "C00443218",
       "top_committee": "WICKER FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 5000
@@ -766,9 +1035,49 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "TX",
+      "top_committee_id": "C00903815",
       "top_committee": "ERIC CHUNG FOR MICHIGAN",
       "top_committee_type": "H",
       "top_committee_amt": 5000
+    },
+    {
+      "name": "SANKAR, SHYAM MR.",
+      "net_total": 5000,
+      "gross_positive": 5000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "CA",
+      "top_committee_id": "C00368696",
+      "top_committee": "RESPONSIBILITY AND FREEDOM WORK PAC (RFWPAC)",
+      "top_committee_type": "Q",
+      "top_committee_amt": 5000
+    },
+    {
+      "name": "MANASCO, SHON J.",
+      "net_total": 3643,
+      "gross_positive": 3643,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "PALANTIR",
+      "states": "FL",
+      "top_committee_id": "C00678854",
+      "top_committee": "WITTMAN VICTORY COMMITTEE",
+      "top_committee_type": "N",
+      "top_committee_amt": 3643
+    },
+    {
+      "name": "ANDREAE, TAYLOR",
+      "net_total": 3615,
+      "gross_positive": 3615,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "VA",
+      "top_committee_id": "C00957308",
+      "top_committee": "DARLINE FOR SENATE",
+      "top_committee_type": "S",
+      "top_committee_amt": 3615
     },
     {
       "name": "LEVINE, ANDREW WEI",
@@ -778,33 +1087,36 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "NY",
+      "top_committee_id": "C00923706",
       "top_committee": "ALEX BORES FOR NY",
       "top_committee_type": "H",
       "top_committee_amt": 3500
     },
     {
-      "name": "TAYLOR, RYAN",
-      "net_total": 3500,
-      "gross_positive": 3500,
-      "n_contributions": 1,
-      "n_committees": 1,
+      "name": "EHRICH, ANDREW",
+      "net_total": 2750,
+      "gross_positive": 2750,
+      "n_contributions": 2,
+      "n_committees": 2,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "CA",
-      "top_committee": "GALLEGO VICTORY FUND",
-      "top_committee_type": "N",
-      "top_committee_amt": 3500
+      "top_committee_id": "C00897165",
+      "top_committee": "REBECCA BENNETT FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 2500
     },
     {
-      "name": "CRAIG, FRANCESCA",
-      "net_total": 3000,
-      "gross_positive": 3000,
-      "n_contributions": 3,
-      "n_committees": 1,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "DC",
-      "top_committee": "GABE AMO FOR CONGRESS",
+      "name": "SRIKANTH, ARJOON",
+      "net_total": 2535,
+      "gross_positive": 2535,
+      "n_contributions": 7,
+      "n_committees": 2,
+      "employers": "PALANTIR",
+      "states": "VA",
+      "top_committee_id": "C00923706",
+      "top_committee": "ALEX BORES FOR NY",
       "top_committee_type": "H",
-      "top_committee_amt": 3000
+      "top_committee_amt": 1750
     },
     {
       "name": "KLEIN, BENJAMIN",
@@ -814,6 +1126,7 @@
       "n_committees": 1,
       "employers": "PALANTIR",
       "states": "VA",
+      "top_committee_id": "C00692111",
       "top_committee": "VELVET HAMMER PAC",
       "top_committee_type": "Q",
       "top_committee_amt": 2500
@@ -826,9 +1139,23 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "CO",
+      "top_committee_id": "C00721449",
       "top_committee": "JAKE AUCHINCLOSS FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 2500
+    },
+    {
+      "name": "CHOUNG, BRYANT",
+      "net_total": 2000,
+      "gross_positive": 2000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "VA",
+      "top_committee_id": "C00793760",
+      "top_committee": "JOSH RILEY FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 2000
     },
     {
       "name": "SINENSKY, SAM",
@@ -838,21 +1165,49 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "NY",
+      "top_committee_id": "C00923706",
       "top_committee": "ALEX BORES FOR NY",
       "top_committee_type": "H",
       "top_committee_amt": 1500
     },
     {
-      "name": "SRIKANTH, ARJOON",
-      "net_total": 1435,
-      "gross_positive": 1435,
-      "n_contributions": 5,
+      "name": "LEITNER, OLIVIA",
+      "net_total": 1250,
+      "gross_positive": 1250,
+      "n_contributions": 2,
       "n_committees": 2,
-      "employers": "PALANTIR",
-      "states": "VA",
-      "top_committee": "ALEX BORES FOR NY",
+      "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
+      "states": "NY",
+      "top_committee_id": "C00926287",
+      "top_committee": "JACK FOR NEW YORK",
       "top_committee_type": "H",
       "top_committee_amt": 1000
+    },
+    {
+      "name": "ANGELINI, DONALD",
+      "net_total": 1250,
+      "gross_positive": 1250,
+      "n_contributions": 2,
+      "n_committees": 2,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "NY",
+      "top_committee_id": "C00815290",
+      "top_committee": "PAT RYAN FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "DIBARI, CHRISTIAN",
+      "net_total": 1250,
+      "gross_positive": 1250,
+      "n_contributions": 3,
+      "n_committees": 2,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "DC",
+      "top_committee_id": "C00904284",
+      "top_committee": "EILEEN FOR COLORADO",
+      "top_committee_type": "H",
+      "top_committee_amt": 650
     },
     {
       "name": "WAMBOLT, TERRY",
@@ -862,21 +1217,23 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "NY",
+      "top_committee_id": "C00919365",
       "top_committee": "ANDRE EASTON FOR CONGRESS 2026",
       "top_committee_type": "H",
       "top_committee_amt": 1156
     },
     {
-      "name": "DIBARI, CHRISTIAN",
+      "name": "HUNTZINGER, CHRISTINA",
       "net_total": 1100,
       "gross_positive": 1100,
-      "n_contributions": 2,
-      "n_committees": 2,
+      "n_contributions": 3,
+      "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
-      "states": "DC",
-      "top_committee": "MARTIN FOR FLORIDA",
+      "states": "CA",
+      "top_committee_id": "C00916452",
+      "top_committee": "LINDSAY FOR IOWA",
       "top_committee_type": "H",
-      "top_committee_amt": 600
+      "top_committee_amt": 1100
     },
     {
       "name": "IMIG, ROBERT MR.",
@@ -886,6 +1243,7 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "DC",
+      "top_committee_id": "C00770180",
       "top_committee": "CORNYN VICTORY COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 1041
@@ -898,31 +1256,99 @@
       "n_committees": 1,
       "employers": "PALANTIR",
       "states": "DC",
+      "top_committee_id": "C00873893",
       "top_committee": "TRUMP NATIONAL COMMITTEE JFC, INC.",
       "top_committee_type": "N",
       "top_committee_amt": 1040
     },
     {
-      "name": "YORK, MARGARET A",
+      "name": "PELAK, MATT",
       "net_total": 1000,
       "gross_positive": 1000,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "PALANTIR",
       "states": "NY",
-      "top_committee": "ALEX BORES FOR NY",
+      "top_committee_id": "C00815290",
+      "top_committee": "PAT RYAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
     },
     {
-      "name": "CHOUNG, BRYANT",
+      "name": "GORDON, LISA",
       "net_total": 1000,
       "gross_positive": 1000,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
+      "states": "CA",
+      "top_committee_id": "C00304709",
+      "top_committee": "ADAM SMITH FOR CONGRESS COMMITTEE",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "SHARZER, CHARLES",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "PALANTIR",
+      "states": "CA",
+      "top_committee_id": "C00923706",
+      "top_committee": "ALEX BORES FOR NY",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "SINENSKY, SAMUEL",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "NY",
+      "top_committee_id": "C00923706",
+      "top_committee": "ALEX BORES FOR NY",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "MANVILLE, MARTIN",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "MD",
+      "top_committee_id": "C00923706",
+      "top_committee": "ALEX BORES FOR NY",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "BECKOFF, SARAH",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "PALANTIR TECHNOLOGIES",
+      "states": "MA",
+      "top_committee_id": "C00923706",
+      "top_committee": "ALEX BORES FOR NY",
+      "top_committee_type": "H",
+      "top_committee_amt": 1000
+    },
+    {
+      "name": "LONG, SEAN",
+      "net_total": 1000,
+      "gross_positive": 1000,
+      "n_contributions": 2,
+      "n_committees": 1,
+      "employers": "PALANTIR TECHNOLOGIES",
       "states": "VA",
-      "top_committee": "JOSH RILEY FOR CONGRESS",
+      "top_committee_id": "C00897165",
+      "top_committee": "REBECCA BENNETT FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
     },
@@ -934,18 +1360,20 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "NY",
+      "top_committee_id": "C00923706",
       "top_committee": "ALEX BORES FOR NY",
       "top_committee_type": "H",
       "top_committee_amt": 1000
     },
     {
-      "name": "ANGELINI, DONALD",
+      "name": "GORDON, KATHERINE",
       "net_total": 1000,
       "gross_positive": 1000,
       "n_contributions": 1,
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "NY",
+      "top_committee_id": "C00815290",
       "top_committee": "PAT RYAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -958,163 +1386,21 @@
       "n_committees": 1,
       "employers": "PALANTIR TECHNOLOGIES",
       "states": "NY",
+      "top_committee_id": "C00815290",
       "top_committee": "PAT RYAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
     },
     {
-      "name": "GORDON, KATHERINE",
+      "name": "GRANT, JOHN",
       "net_total": 1000,
       "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "NY",
-      "top_committee": "PAT RYAN FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "SHARZER, CHARLES",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR",
-      "states": "CA",
-      "top_committee": "ALEX BORES FOR NY",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "WEINER, JOSH",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "NY",
-      "top_committee": "JAY VAINGANKAR FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "TAVAKOLI, KUSHA",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "VA",
-      "top_committee": "ALEX BORES FOR NY",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "KIRSTEIN, ZACHARY",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "DC",
-      "top_committee": "ALEX BORES FOR NY",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "PELAK, MATT",
-      "net_total": 1000,
-      "gross_positive": 1000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR",
-      "states": "NY",
-      "top_committee": "PAT RYAN FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 1000
-    },
-    {
-      "name": "SCHLEIFER, ELIANA SARA",
-      "net_total": 900,
-      "gross_positive": 900,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR",
-      "states": "NY",
-      "top_committee": "ALEX BORES FOR NY",
-      "top_committee_type": "H",
-      "top_committee_amt": 900
-    },
-    {
-      "name": "STACKPOLE, AVRA",
-      "net_total": 750,
-      "gross_positive": 750,
-      "n_contributions": 2,
-      "n_committees": 1,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "NY",
-      "top_committee": "GABE AMO FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 750
-    },
-    {
-      "name": "PENNEYS, LAUREN",
-      "net_total": 750,
-      "gross_positive": 750,
       "n_contributions": 2,
       "n_committees": 2,
       "employers": "PALANTIR; PALANTIR TECHNOLOGIES",
       "states": "DC",
-      "top_committee": "PAT RYAN FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 500
-    },
-    {
-      "name": "GRANT, RORY",
-      "net_total": 650,
-      "gross_positive": 650,
-      "n_contributions": 8,
-      "n_committees": 2,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "CO",
-      "top_committee": "MOVEMENT VOTER PAC",
-      "top_committee_type": "V",
-      "top_committee_amt": 500
-    },
-    {
-      "name": "LOCKE, ANDREW MR.",
-      "net_total": 520,
-      "gross_positive": 520,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR",
-      "states": "VA",
-      "top_committee": "CORNYN VICTORY COMMITTEE",
-      "top_committee_type": "N",
-      "top_committee_amt": 520
-    },
-    {
-      "name": "PARIKH, KEYUR",
-      "net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR TECHNOLOGIES",
-      "states": "VA",
-      "top_committee": "PAT RYAN FOR CONGRESS",
-      "top_committee_type": "H",
-      "top_committee_amt": 500
-    },
-    {
-      "name": "RINDT, GAGE",
-      "net_total": 500,
-      "gross_positive": 500,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "PALANTIR",
-      "states": "VA",
-      "top_committee": "TEXANS FOR JOHN LIRA",
+      "top_committee_id": "C00911347",
+      "top_committee": "JAMES OSYF FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 500
     }
@@ -1127,9 +1413,20 @@
       "party_dr": "Unknown",
       "classification_source": "",
       "recipient_bucket": "pac",
-      "net_total": 380000,
+      "net_total": 880000,
       "n_donors": 2,
-      "n_contributions": 2
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00897918",
+      "cmte_nm": "ONE TEAM SENATE MAJORITY",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "pac",
+      "net_total": 500000,
+      "n_donors": 1,
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00003418",
@@ -1165,15 +1462,48 @@
       "n_contributions": 4
     },
     {
+      "cmte_id": "C00042366",
+      "cmte_nm": "DSCC",
+      "cmte_tp": "Y",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "party",
+      "net_total": 103600,
+      "n_donors": 2,
+      "n_contributions": 6
+    },
+    {
+      "cmte_id": "C00733352",
+      "cmte_nm": "AMERICANS 4 SECURITY PAC",
+      "cmte_tp": "O",
+      "party_dr": "D",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 100000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
       "cmte_id": "C00000935",
       "cmte_nm": "DCCC",
       "cmte_tp": "Y",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "party",
-      "net_total": 88600,
+      "net_total": 93600,
+      "n_donors": 2,
+      "n_contributions": 5
+    },
+    {
+      "cmte_id": "C00898130",
+      "cmte_nm": "FIGHT FOR KENTUCKY",
+      "cmte_tp": "O",
+      "party_dr": "R",
+      "classification_source": "ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 50000,
       "n_donors": 1,
-      "n_contributions": 2
+      "n_contributions": 1
     },
     {
       "cmte_id": "C00075820",
@@ -1187,6 +1517,17 @@
       "n_contributions": 2
     },
     {
+      "cmte_id": "C00492421",
+      "cmte_nm": "NANCY PELOSI VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 50000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
       "cmte_id": "C00768200",
       "cmte_nm": "JEFFRIES VICTORY FUND",
       "cmte_tp": "N",
@@ -1196,6 +1537,17 @@
       "net_total": 44300,
       "n_donors": 1,
       "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00304709",
+      "cmte_nm": "ADAM SMITH FOR CONGRESS COMMITTEE",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 38500,
+      "n_donors": 7,
+      "n_contributions": 14
     },
     {
       "cmte_id": "C00815290",
@@ -1209,15 +1561,37 @@
       "n_contributions": 20
     },
     {
-      "cmte_id": "C00042366",
-      "cmte_nm": "DSCC",
-      "cmte_tp": "Y",
+      "cmte_id": "C00895219",
+      "cmte_nm": "MARK WARNER VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 32500,
+      "n_donors": 3,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00923706",
+      "cmte_nm": "ALEX BORES FOR NY",
+      "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
-      "recipient_bucket": "party",
+      "recipient_bucket": "candidate",
+      "net_total": 26200,
+      "n_donors": 22,
+      "n_contributions": 26
+    },
+    {
+      "cmte_id": "C00860270",
+      "cmte_nm": "JOSH RILEY VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
       "net_total": 25000,
-      "n_donors": 2,
-      "n_contributions": 2
+      "n_donors": 3,
+      "n_contributions": 3
     },
     {
       "cmte_id": "C00495028",
@@ -1231,37 +1605,15 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00895219",
-      "cmte_nm": "MARK WARNER VICTORY FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 22000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00923706",
-      "cmte_nm": "ALEX BORES FOR NY",
+      "cmte_id": "C00793760",
+      "cmte_nm": "JOSH RILEY FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 21400,
-      "n_donors": 16,
-      "n_contributions": 18
-    },
-    {
-      "cmte_id": "C00304709",
-      "cmte_nm": "ADAM SMITH FOR CONGRESS COMMITTEE",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 18500,
-      "n_donors": 3,
-      "n_contributions": 6
+      "net_total": 23000,
+      "n_donors": 4,
+      "n_contributions": 8
     },
     {
       "cmte_id": "C00721449",
@@ -1275,15 +1627,26 @@
       "n_contributions": 8
     },
     {
-      "cmte_id": "C00849414",
-      "cmte_nm": "PEACHES AND PEAKS VICTORY FUND",
+      "cmte_id": "C00796045",
+      "cmte_nm": "TRUTH AND COURAGE PAC",
+      "cmte_tp": "O",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "outside_spending",
+      "net_total": 18000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00678854",
+      "cmte_nm": "WITTMAN VICTORY COMMITTEE",
       "cmte_tp": "N",
       "party_dr": "Unknown",
       "classification_source": "",
       "recipient_bucket": "pac",
-      "net_total": 17500,
-      "n_donors": 2,
-      "n_contributions": 2
+      "net_total": 17643,
+      "n_donors": 4,
+      "n_contributions": 4
     },
     {
       "cmte_id": "C00848317",
@@ -1295,6 +1658,17 @@
       "net_total": 17500,
       "n_donors": 3,
       "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00849414",
+      "cmte_nm": "PEACHES AND PEAKS VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 17500,
+      "n_donors": 2,
+      "n_contributions": 2
     },
     {
       "cmte_id": "C00838698",
@@ -1314,9 +1688,9 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 15650,
+      "net_total": 15800,
       "n_donors": 4,
-      "n_contributions": 12
+      "n_contributions": 18
     },
     {
       "cmte_id": "C00690891",
@@ -1328,17 +1702,6 @@
       "net_total": 15500,
       "n_donors": 2,
       "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00793760",
-      "cmte_nm": "JOSH RILEY FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 15000,
-      "n_donors": 3,
-      "n_contributions": 5
     },
     {
       "cmte_id": "C00878454",
@@ -1374,19 +1737,8 @@
       "n_contributions": 6
     },
     {
-      "cmte_id": "C00696484",
-      "cmte_nm": "YOUNG VICTORY COMMITTEE",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 12000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00706507",
-      "cmte_nm": "WESTERMAN VICTORY FUND",
+      "cmte_id": "C00744599",
+      "cmte_nm": "HICKENLOOPER VICTORY FUND",
       "cmte_tp": "N",
       "party_dr": "Unknown",
       "classification_source": "",
@@ -1407,8 +1759,19 @@
       "n_contributions": 4
     },
     {
-      "cmte_id": "C00744599",
-      "cmte_nm": "HICKENLOOPER VICTORY FUND",
+      "cmte_id": "C00706507",
+      "cmte_nm": "WESTERMAN VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 12000,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00696484",
+      "cmte_nm": "YOUNG VICTORY COMMITTEE",
       "cmte_tp": "N",
       "party_dr": "Unknown",
       "classification_source": "",
@@ -1429,21 +1792,21 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00894600",
-      "cmte_nm": "603 PAC",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
+      "cmte_id": "C00368696",
+      "cmte_nm": "RESPONSIBILITY AND FREEDOM WORK PAC (RFWPAC)",
+      "cmte_tp": "Q",
+      "party_dr": "R",
+      "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
       "net_total": 10000,
       "n_donors": 2,
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00368696",
-      "cmte_nm": "RESPONSIBILITY AND FREEDOM WORK PAC (RFWPAC)",
-      "cmte_tp": "Q",
-      "party_dr": "R",
+      "cmte_id": "C00894600",
+      "cmte_nm": "603 PAC",
+      "cmte_tp": "N",
+      "party_dr": "D",
       "classification_source": "24k_contributions",
       "recipient_bucket": "pac",
       "net_total": 10000,
@@ -1468,42 +1831,9 @@
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 7250,
+      "net_total": 7750,
       "n_donors": 3,
-      "n_contributions": 6
-    },
-    {
-      "cmte_id": "C00919100",
-      "cmte_nm": "ERIC JONES FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 1,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00775015",
-      "cmte_nm": "SCHMITT FOR SENATE",
-      "cmte_tp": "S",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00872473",
-      "cmte_nm": "BRIAN JACK FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 1,
-      "n_contributions": 3
+      "n_contributions": 7
     },
     {
       "cmte_id": "C00787648",
@@ -1517,17 +1847,6 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00845792",
-      "cmte_nm": "SHEEHY VICTORY COMMITTEE",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 7000,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
       "cmte_id": "C00784389",
       "cmte_nm": "IOWANS FOR ZACH NUNN",
       "cmte_tp": "H",
@@ -1537,6 +1856,28 @@
       "net_total": 7000,
       "n_donors": 1,
       "n_contributions": 5
+    },
+    {
+      "cmte_id": "C00775015",
+      "cmte_nm": "SCHMITT FOR SENATE",
+      "cmte_tp": "S",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00919100",
+      "cmte_nm": "ERIC JONES FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 2
     },
     {
       "cmte_id": "C00748673",
@@ -1550,21 +1891,21 @@
       "n_contributions": 1
     },
     {
+      "cmte_id": "C00812602",
+      "cmte_nm": "OBERNOLTE VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 7000,
+      "n_donors": 2,
+      "n_contributions": 2
+    },
+    {
       "cmte_id": "C00458828",
       "cmte_nm": "TEAM GRAHAM, INC.",
       "cmte_tp": "S",
       "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 1,
-      "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00658724",
-      "cmte_nm": "MAURA SULLIVAN FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
       "net_total": 7000,
@@ -1583,28 +1924,6 @@
       "n_contributions": 3
     },
     {
-      "cmte_id": "C00379735",
-      "cmte_nm": "COLE FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "R",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00575092",
-      "cmte_nm": "FRIENDS OF RAJA FOR CONGRESS",
-      "cmte_tp": "H",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 7000,
-      "n_donors": 1,
-      "n_contributions": 2
-    },
-    {
       "cmte_id": "C00615294",
       "cmte_nm": "CITIZENS FOR JOHN RUTHERFORD",
       "cmte_tp": "H",
@@ -1616,8 +1935,8 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00654509",
-      "cmte_nm": "COMMITTEE TO ELECT DAN KOH",
+      "cmte_id": "C00801431",
+      "cmte_nm": "ADAM GRAY FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -1627,48 +1946,15 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00503185",
-      "cmte_nm": "RO FOR CONGRESS INC",
+      "cmte_id": "C00575092",
+      "cmte_nm": "FRIENDS OF RAJA FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
-      "net_total": 6800,
-      "n_donors": 1,
-      "n_contributions": 3
-    },
-    {
-      "cmte_id": "C00849778",
-      "cmte_nm": "TED CRUZ VICTORY FUND",
-      "cmte_tp": "N",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "pac",
-      "net_total": 6600,
-      "n_donors": 1,
-      "n_contributions": 1
-    },
-    {
-      "cmte_id": "C00540732",
-      "cmte_nm": "SCHATZ FOR SENATE",
-      "cmte_tp": "S",
-      "party_dr": "D",
-      "classification_source": "party_field",
-      "recipient_bucket": "candidate",
-      "net_total": 5000,
+      "net_total": 7000,
       "n_donors": 1,
       "n_contributions": 2
-    },
-    {
-      "cmte_id": "C00388934",
-      "cmte_nm": "FUND FOR AMERICA'S FUTURE",
-      "cmte_tp": "Q",
-      "party_dr": "R",
-      "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
-      "net_total": 5000,
-      "n_donors": 1,
-      "n_contributions": 1
     }
   ]
 }

@@ -1,6 +1,8 @@
 {
   "company": "benchmark",
   "slug": "benchmark",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "benchmark",
     "net_total": 1012500,
@@ -67,6 +69,7 @@
       "n_committees": 1,
       "employers": "BENCHMARK CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00842344",
       "top_committee": "BEST OF AMERICA PAC",
       "top_committee_type": "O",
       "top_committee_amt": 1000000
@@ -79,6 +82,7 @@
       "n_committees": 3,
       "employers": "BENCHMARK CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 8200

@@ -1,6 +1,8 @@
 {
   "company": "benchmark",
   "slug": "benchmark",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "benchmark",
     "net_total": 7000,
@@ -49,6 +51,7 @@
       "n_committees": 1,
       "employers": "BENCHMARK CAPITAL",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 7000

@@ -1,0 +1,102 @@
+/* The explorer uses the same quiet, readable Reference treatment as FEC pages. */
+.lobbying-page { line-height: 1.6; }
+.lobbying-intro { max-width: 76ch; }
+.lobbying-coverage {
+  padding: 14px 18px;
+  margin: 22px 0;
+  border-left: 3px solid var(--muted-border);
+  background: var(--subtle);
+  font-size: 14px;
+}
+.lobbying-coverage summary { margin-top: 6px; }
+.lobbying-coverage p, .lobbying-coverage li { line-height: 1.65; }
+.lobbying-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0 16px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--muted-border);
+}
+.lobbying-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.lobbying-filters select, .lobbying-filters input, .lobbying-page button {
+  min-width: 0;
+  max-width: 100%;
+  min-height: 38px;
+  padding: 8px 10px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--muted-border);
+  border-radius: 4px;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.lobbying-filters select, .lobbying-filters input {
+  box-sizing: border-box;
+  width: 100%;
+  font-weight: 400;
+}
+.lobbying-filters input::placeholder { color: var(--muted); opacity: 1; }
+.lobbying-page button { cursor: pointer; }
+.lobbying-page button:hover:not(:disabled) { border-color: var(--link); background: var(--subtle); }
+.lobbying-page button:disabled { color: var(--muted); opacity: .65; cursor: default; }
+.lobbying-search { grid-column: span 2; }
+.lobbying-actions { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 8px; }
+.lobbying-filter-note { font-size: 13px; color: var(--muted); line-height: 1.6; }
+.lobbying-counts {
+  padding-top: 22px;
+  margin-top: 22px;
+  border-top: 1px solid var(--muted-border);
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--text);
+}
+.lobbying-quarter-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin: 12px 0 24px;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+.lobbying-result {
+  padding: 22px 0 24px;
+  border-top: 1px solid var(--muted-border);
+  overflow-wrap: anywhere;
+}
+.lobbying-result h2 { margin: 0; font-size: 20px; line-height: 1.35; font-weight: 600; }
+.lobbying-result > p:not(.passage):not(.result-meta) { font-size: 14px; }
+.lobbying-result .result-meta { font-size: 13px; margin: 6px 0; color: var(--muted); }
+.lobbying-result .passage { margin: 14px 0; white-space: pre-wrap; font-size: 16px; line-height: 1.7; }
+.lobbying-result mark { background: #fff0b4; color: #202124; padding: 0 2px; }
+.lobbying-result .match-labels { display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: 13px; }
+.lobbying-result .match-label { padding: 2px 7px; background: var(--subtle); border: 1px solid var(--muted-border); border-radius: 3px; }
+.lobbying-result details { margin: 12px 0; font-size: 14px; }
+.lobbying-page summary { cursor: pointer; }
+.lobbying-result summary { color: var(--link); }
+.lobbying-result .evidence-list { padding-left: 22px; }
+.lobbying-result .evidence-list li { margin-bottom: 6px; }
+.lobbying-result > a { font-size: 14px; }
+.lobbying-pagination { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 16px; margin: 24px 0 32px; font-size: 14px; }
+.lobbying-methodology { border-top: 1px solid var(--muted-border); padding: 16px 0; scroll-margin-top: 24px; }
+.lobbying-methodology > summary { font-weight: 600; }
+.lobbying-methodology p, .lobbying-methodology li { font-size: 14px; line-height: 1.7; }
+.lobbying-empty { padding: 24px 0; }
+@media (max-width: 1100px) {
+  .lobbying-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lobbying-actions { grid-column: span 2; }
+}
+@media (max-width: 560px) {
+  .lobbying-filters { grid-template-columns: minmax(0, 1fr); }
+  .lobbying-search, .lobbying-actions { grid-column: auto; }
+  .lobbying-coverage { padding: 12px; }
+  .lobbying-result h2 { font-size: 18px; }
+}

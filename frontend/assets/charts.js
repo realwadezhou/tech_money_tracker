@@ -2,9 +2,9 @@
   "use strict";
 
   var SVG_NS = "http://www.w3.org/2000/svg";
-  var TEXT_COLOR = "#1A1A1A";
-  var LINK_COLOR = "#6f4a86";
-  var BAR_COLOR = "#d8d0be";
+  var TEXT_COLOR = "#566170";
+  var LINK_COLOR = "#315f9b";
+  var BAR_COLOR = "#b7c9df";
 
   function createSvgNode(name, attrs) {
     var node = document.createElementNS(SVG_NS, name);
@@ -39,28 +39,52 @@
     });
   }
 
+  function completeWeeklySeries(rows, displayStart) {
+    var weekMs = 7 * 24 * 60 * 60 * 1000;
+    var start = displayStart ? Date.parse(displayStart + "T00:00:00Z") : -Infinity;
+    var datedRows = (rows || []).filter(function (row) {
+      var date = Date.parse(row.week_end + "T00:00:00Z");
+      return Number.isFinite(date) && date >= start;
+    }).slice().sort(function (a, b) {
+      return a.week_end.localeCompare(b.week_end);
+    });
+    var series = [];
+
+    datedRows.forEach(function (row) {
+      var previous = series[series.length - 1];
+      if (previous) {
+        var nextWeek = Date.parse(previous.week_end + "T00:00:00Z") + weekMs;
+        var rowDate = Date.parse(row.week_end + "T00:00:00Z");
+        while (nextWeek < rowDate) {
+          series.push({
+            week_end: new Date(nextWeek).toISOString().slice(0, 10),
+            net_total: 0,
+            cumulative_net_total: previous.cumulative_net_total
+          });
+          nextWeek += weekMs;
+        }
+      }
+      series.push(row);
+    });
+    return series;
+  }
+
   function renderWeeklyChart(targetId, rows, options) {
     var target = document.getElementById(targetId);
     if (!target) {
       return;
     }
 
-    var displayStart = options && options.displayStart ? new Date(options.displayStart + "T00:00:00") : null;
-    var series = (rows || []).filter(function (row) {
-      if (!displayStart) {
-        return true;
-      }
-      return new Date(row.week_end + "T00:00:00") >= displayStart;
-    });
+    var series = completeWeeklySeries(rows, options && options.displayStart);
 
     if (!series.length) {
       target.textContent = "No chart data.";
       return;
     }
 
-    var width = 920;
+    var width = Math.max(260, target.clientWidth || 920);
     var height = 360;
-    var margin = { top: 20, right: 80, bottom: 58, left: 72 };
+    var margin = { top: 20, right: width < 500 ? 64 : 80, bottom: 58, left: width < 500 ? 64 : 72 };
     var innerWidth = width - margin.left - margin.right;
     var innerHeight = height - margin.top - margin.bottom;
 
@@ -70,8 +94,15 @@
     var weeklyMax = Math.max.apply(null, weeklyValues.concat([0]));
     var weeklyMin = Math.min.apply(null, weeklyValues.concat([0]));
     var cumulativeMax = Math.max.apply(null, cumulativeValues.concat([0]));
-    var weeklyRange = weeklyMax - weeklyMin || 1;
-    var cumulativeRange = cumulativeMax || 1;
+    var cumulativeMin = Math.min.apply(null, cumulativeValues.concat([0]));
+    if (weeklyMax === weeklyMin) {
+      weeklyMax = weeklyMin + 1;
+    }
+    if (cumulativeMax === cumulativeMin) {
+      cumulativeMax = cumulativeMin + 1;
+    }
+    var weeklyRange = weeklyMax - weeklyMin;
+    var cumulativeRange = cumulativeMax - cumulativeMin;
     var zeroY = margin.top + ((weeklyMax / weeklyRange) * innerHeight);
     var barStep = innerWidth / series.length;
     var barWidth = Math.max(2, barStep - 1);
@@ -85,7 +116,7 @@
     }
 
     function yCumulative(value) {
-      return margin.top + innerHeight - (value / cumulativeRange) * innerHeight;
+      return margin.top + ((cumulativeMax - value) / cumulativeRange) * innerHeight;
     }
 
     var svg = createSvgNode("svg", {
@@ -144,7 +175,7 @@
       leftLabel.textContent = formatMoneyShort(weeklyTick);
       svg.appendChild(leftLabel);
 
-      var cumulativeTick = cumulativeRange * (1 - fraction);
+      var cumulativeTick = cumulativeMax - (cumulativeRange * fraction);
       var rightTickY = yCumulative(cumulativeTick);
 
       svg.appendChild(createSvgNode("line", {
@@ -174,10 +205,8 @@
         x: x(index),
         y: weeklyValue >= 0 ? y : zeroY,
         width: barWidth,
-        height: Math.max(heightValue, 1),
-        fill: BAR_COLOR,
-        stroke: TEXT_COLOR,
-        "stroke-width": 0.3
+        height: heightValue,
+        fill: BAR_COLOR
       });
       svg.appendChild(rect);
     });
@@ -192,13 +221,27 @@
       stroke: LINK_COLOR,
       "stroke-width": 2
     }));
+    if (series.length === 1) {
+      svg.appendChild(createSvgNode("circle", {
+        cx: x(0) + (barWidth / 2),
+        cy: yCumulative(cumulativeValues[0]),
+        r: 3,
+        fill: LINK_COLOR
+      }));
+    }
 
-    var xTickEvery = Math.max(1, Math.floor(series.length / 8));
+    var xTickEvery = Math.max(1, Math.ceil(series.length / Math.max(2, Math.floor(innerWidth / 85))));
     series.forEach(function (row, index) {
       if (index % xTickEvery !== 0 && index !== series.length - 1) {
         return;
       }
       var tickX = x(index) + (barWidth / 2);
+      // The final week is always labeled. Omit a nearby regular tick so
+      // its month label does not collide with that endpoint label.
+      if (index > 0 && index < series.length - 1 &&
+          x(series.length - 1) + (barWidth / 2) - tickX < 50) {
+        return;
+      }
       svg.appendChild(createSvgNode("line", {
         x1: tickX,
         y1: margin.top + innerHeight,
@@ -255,6 +298,16 @@
       })
       .then(function (rows) {
         renderWeeklyChart(targetId, rows, options || {});
+        if (typeof ResizeObserver !== "undefined") {
+          var previousWidth = target.clientWidth;
+          var observer = new ResizeObserver(function () {
+            if (target.clientWidth !== previousWidth) {
+              previousWidth = target.clientWidth;
+              renderWeeklyChart(targetId, rows, options || {});
+            }
+          });
+          observer.observe(target);
+        }
       })
       .catch(function () {
         target.textContent = "Chart data unavailable.";

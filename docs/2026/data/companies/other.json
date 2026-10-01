@@ -1,6 +1,8 @@
 {
   "company": "other",
   "slug": "other",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "other",
     "net_total": 300,
@@ -67,6 +69,7 @@
       "n_committees": 1,
       "employers": "TESLA GOVERNMENT INC",
       "states": "VA",
+      "top_committee_id": "C00496075",
       "top_committee": "RAND PAUL FOR US SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 300

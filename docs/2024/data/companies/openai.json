@@ -1,6 +1,8 @@
 {
   "company": "openai",
   "slug": "openai",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "openai",
     "net_total": 486082,
@@ -8,14 +10,14 @@
     "n_contributions": 229,
     "n_committees": 44,
     "sectors": "ai",
-    "amt_dem": 176274,
+    "amt_dem": 176174,
     "amt_mixed": 0,
     "amt_rep": 3821,
-    "amt_unknown": 305987,
-    "amt_other": 305987,
-    "classified_recipient_total": 180095,
-    "pct_dem": 97.8783419862,
-    "pct_classified_recipients": 37.0503330714,
+    "amt_unknown": 306087,
+    "amt_other": 306087,
+    "classified_recipient_total": 179995,
+    "pct_dem": 97.8771632545,
+    "pct_classified_recipients": 37.0297604108,
     "donor_amt_D": 257731,
     "donor_amt_Mixed": 2100,
     "donor_amt_R": 215342,
@@ -454,6 +456,7 @@
       "n_committees": 3,
       "employers": "OPENAI",
       "states": "SC",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 200000
@@ -466,6 +469,7 @@
       "n_committees": 5,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 41300
@@ -478,6 +482,7 @@
       "n_committees": 2,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 44600
@@ -490,6 +495,7 @@
       "n_committees": 6,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00834226",
       "top_committee": "SLOTKIN VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -502,7 +508,8 @@
       "n_committees": 3,
       "employers": "OPENAI",
       "states": "CA",
-      "top_committee": "LISA BLUNT ROCHESTER FOR SENATE",
+      "top_committee_id": "C00349506",
+      "top_committee": "FRIENDS OF MARIA",
       "top_committee_type": "S",
       "top_committee_amt": 3300
     },
@@ -514,6 +521,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 9900
@@ -526,6 +534,7 @@
       "n_committees": 2,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 6600
@@ -538,6 +547,7 @@
       "n_committees": 1,
       "employers": "OPEN AI; OPENAI",
       "states": "SC",
+      "top_committee_id": "C00349506",
       "top_committee": "FRIENDS OF MARIA",
       "top_committee_type": "S",
       "top_committee_amt": 6600
@@ -550,6 +560,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 6600
@@ -562,6 +573,7 @@
       "n_committees": 2,
       "employers": "OPENAI LP",
       "states": "CA; MI",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -574,6 +586,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00010603",
       "top_committee": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
       "top_committee_type": "Y",
       "top_committee_amt": 5000
@@ -586,6 +599,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 5000
@@ -598,6 +612,7 @@
       "n_committees": 2,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -610,6 +625,7 @@
       "n_committees": 3,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2000
@@ -622,6 +638,7 @@
       "n_committees": 3,
       "employers": "OPENAI",
       "states": "NY",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -634,6 +651,7 @@
       "n_committees": 4,
       "employers": "OPENAI",
       "states": "CA; NY",
+      "top_committee_id": "C00648220",
       "top_committee": "ANDY KIM FOR NEW JERSEY",
       "top_committee_type": "S",
       "top_committee_amt": 2000
@@ -646,6 +664,7 @@
       "n_committees": 2,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -658,6 +677,7 @@
       "n_committees": 4,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 2000
@@ -670,6 +690,7 @@
       "n_committees": 1,
       "employers": "OPEN AI",
       "states": "CA",
+      "top_committee_id": "C00866947",
       "top_committee": "LONESTAR VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3409
@@ -682,6 +703,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00639146",
       "top_committee": "JOSH HARDER FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -694,6 +716,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "NY",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -706,6 +729,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -718,6 +742,7 @@
       "n_committees": 1,
       "employers": "OPEN AI",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -730,6 +755,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00858688",
       "top_committee": "LICCARDO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
@@ -742,6 +768,7 @@
       "n_committees": 3,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1500
@@ -754,6 +781,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -766,6 +794,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2750
@@ -778,6 +807,7 @@
       "n_committees": 2,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00835587",
       "top_committee": "VOTE SAVE AMERICA",
       "top_committee_type": "Q",
       "top_committee_amt": 1750
@@ -790,6 +820,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2500
@@ -802,6 +833,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 2000
@@ -814,6 +846,7 @@
       "n_committees": 1,
       "employers": "OPEN AI",
       "states": "CA",
+      "top_committee_id": "C00858688",
       "top_committee": "LICCARDO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 2000
@@ -826,6 +859,7 @@
       "n_committees": 2,
       "employers": "OPENAI",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1000
@@ -838,6 +872,7 @@
       "n_committees": 2,
       "employers": "OPENAI",
       "states": "NY",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1215
@@ -850,6 +885,7 @@
       "n_committees": 1,
       "employers": "OPEN AI",
       "states": "PA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1500
@@ -862,6 +898,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "VA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1500
@@ -874,6 +911,7 @@
       "n_committees": 2,
       "employers": "OPENAI",
       "states": "CO",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 850
@@ -886,6 +924,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00858688",
       "top_committee": "LICCARDO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -898,6 +937,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -910,6 +950,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -922,6 +963,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -934,6 +976,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00503185",
       "top_committee": "RO FOR CONGRESS INC",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -946,6 +989,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -958,6 +1002,7 @@
       "n_committees": 1,
       "employers": "OPENAI LP",
       "states": "CA",
+      "top_committee_id": "C00829721",
       "top_committee": "EARLY VOTE ACTION PAC",
       "top_committee_type": "O",
       "top_committee_amt": 1000
@@ -970,6 +1015,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -982,6 +1028,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -994,6 +1041,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00858688",
       "top_committee": "LICCARDO FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1000
@@ -1006,6 +1054,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CO",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1000
@@ -1018,6 +1067,7 @@
       "n_committees": 2,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 500
@@ -1030,6 +1080,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00736876",
       "top_committee": "WARNOCK FOR GEORGIA",
       "top_committee_type": "S",
       "top_committee_amt": 750
@@ -1042,6 +1093,7 @@
       "n_committees": 1,
       "employers": "OPENAI",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 750
@@ -1525,9 +1577,9 @@
       "cmte_id": "C00401224",
       "cmte_nm": "ACTBLUE",
       "cmte_tp": "V",
-      "party_dr": "D",
+      "party_dr": "Unknown",
       "classification_source": "24k_contributions",
-      "recipient_bucket": "pac",
+      "recipient_bucket": "outside_spending",
       "net_total": 100,
       "n_donors": 1,
       "n_contributions": 1

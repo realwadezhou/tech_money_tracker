@@ -1,32 +1,34 @@
 {
   "company": "khosla",
   "slug": "khosla",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "khosla",
-    "net_total": 2540100,
-    "n_donors": 4,
-    "n_contributions": 18,
-    "n_committees": 12,
+    "net_total": 5068350,
+    "n_donors": 5,
+    "n_contributions": 32,
+    "n_committees": 18,
     "sectors": "vc",
-    "amt_dem": 69600,
+    "amt_dem": 84850,
     "amt_mixed": 0,
-    "amt_rep": 443000,
-    "amt_unknown": 2027500,
-    "amt_other": 2027500,
-    "classified_recipient_total": 512600,
-    "pct_dem": 13.5778384705,
-    "pct_classified_recipients": 20.1803078619,
-    "donor_amt_D": 1097100,
+    "amt_rep": 1451500,
+    "amt_unknown": 3532000,
+    "amt_other": 3532000,
+    "classified_recipient_total": 1536350,
+    "pct_dem": 5.5228300843,
+    "pct_classified_recipients": 30.3126263972,
+    "donor_amt_D": 2121850,
     "donor_amt_Mixed": 0,
-    "donor_amt_R": 693000,
-    "donor_amt_Unknown": 750000,
-    "n_donors_D": 2,
+    "donor_amt_R": 1443000,
+    "donor_amt_Unknown": 1503500,
+    "n_donors_D": 3,
     "n_donors_Mixed": 0,
     "n_donors_R": 1,
     "n_donors_Unknown": 1,
-    "donor_amt_total": 2540100,
-    "n_donors_total": 4,
-    "pct_dem_by_donor": 61.2870789341,
+    "donor_amt_total": 5068350,
+    "n_donors_total": 5,
+    "pct_dem_by_donor": 59.5214384897,
     "slug": "khosla"
   },
   "weekly_series": [
@@ -51,17 +53,17 @@
     {
       "cycle": 2026,
       "week_end": "2025-03-23",
-      "net_total": 1000000,
-      "cumulative_net_total": 1010100,
-      "gross_positive": 1000000,
-      "n_contributions": 2,
+      "net_total": 1003500,
+      "cumulative_net_total": 1013600,
+      "gross_positive": 1003500,
+      "n_contributions": 3,
       "n_donors": 2
     },
     {
       "cycle": 2026,
       "week_end": "2025-03-30",
       "net_total": 7000,
-      "cumulative_net_total": 1017100,
+      "cumulative_net_total": 1020600,
       "gross_positive": 7000,
       "n_contributions": 1,
       "n_donors": 1
@@ -70,7 +72,7 @@
       "cycle": 2026,
       "week_end": "2025-06-22",
       "net_total": 7000,
-      "cumulative_net_total": 1024100,
+      "cumulative_net_total": 1027600,
       "gross_positive": 7000,
       "n_contributions": 1,
       "n_donors": 1
@@ -79,7 +81,7 @@
       "cycle": 2026,
       "week_end": "2025-07-06",
       "net_total": 1000000,
-      "cumulative_net_total": 2024100,
+      "cumulative_net_total": 2027600,
       "gross_positive": 1000000,
       "n_contributions": 1,
       "n_donors": 1
@@ -88,7 +90,7 @@
       "cycle": 2026,
       "week_end": "2025-09-07",
       "net_total": 2500,
-      "cumulative_net_total": 2026600,
+      "cumulative_net_total": 2030100,
       "gross_positive": 2500,
       "n_contributions": 1,
       "n_donors": 1
@@ -97,7 +99,7 @@
       "cycle": 2026,
       "week_end": "2025-10-26",
       "net_total": 60000,
-      "cumulative_net_total": 2086600,
+      "cumulative_net_total": 2090100,
       "gross_positive": 60000,
       "n_contributions": 2,
       "n_donors": 1
@@ -106,7 +108,7 @@
       "cycle": 2026,
       "week_end": "2025-12-21",
       "net_total": 3500,
-      "cumulative_net_total": 2090100,
+      "cumulative_net_total": 2093600,
       "gross_positive": 3500,
       "n_contributions": 1,
       "n_donors": 1
@@ -115,7 +117,7 @@
       "cycle": 2026,
       "week_end": "2026-01-04",
       "net_total": 7000,
-      "cumulative_net_total": 2097100,
+      "cumulative_net_total": 2100600,
       "gross_positive": 7000,
       "n_contributions": 2,
       "n_donors": 1
@@ -124,60 +126,140 @@
       "cycle": 2026,
       "week_end": "2026-02-22",
       "net_total": 443000,
-      "cumulative_net_total": 2540100,
+      "cumulative_net_total": 2543600,
       "gross_positive": 443000,
       "n_contributions": 4,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-08",
+      "net_total": 1500000,
+      "cumulative_net_total": 4043600,
+      "gross_positive": 1500000,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-15",
+      "net_total": 1000250,
+      "cumulative_net_total": 5043850,
+      "gross_positive": 1000250,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-03-29",
+      "net_total": 3500,
+      "cumulative_net_total": 5047350,
+      "gross_positive": 3500,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-04-05",
+      "net_total": 4500,
+      "cumulative_net_total": 5051850,
+      "gross_positive": 4500,
+      "n_contributions": 2,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-10",
+      "net_total": 6000,
+      "cumulative_net_total": 5057850,
+      "gross_positive": 6000,
+      "n_contributions": 2,
+      "n_donors": 2
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-05-17",
+      "net_total": 2000,
+      "cumulative_net_total": 5059850,
+      "gross_positive": 2000,
+      "n_contributions": 1,
+      "n_donors": 1
+    },
+    {
+      "cycle": 2026,
+      "week_end": "2026-06-07",
+      "net_total": 8500,
+      "cumulative_net_total": 5068350,
+      "gross_positive": 8500,
+      "n_contributions": 3,
       "n_donors": 1
     }
   ],
   "top_donors": [
     {
       "name": "KHOSLA, VINOD",
-      "net_total": 1076500,
-      "gross_positive": 1076500,
-      "n_contributions": 7,
-      "n_committees": 7,
-      "employers": "KHOSLA VENTURES; KHOSLA VENTURES LLC",
+      "net_total": 2097500,
+      "gross_positive": 2097500,
+      "n_contributions": 16,
+      "n_committees": 11,
+      "employers": "KHOSLA VENTURES; KHOSLA VENTURES LLC; KHOSLA VENTURES, LLC",
       "states": "CA",
+      "top_committee_id": "C00484642",
       "top_committee": "SMP",
       "top_committee_type": "O",
-      "top_committee_amt": 1000000
+      "top_committee_amt": 2000000
     },
     {
       "name": "RABOIS, KEITH",
-      "net_total": 750000,
-      "gross_positive": 750000,
-      "n_contributions": 1,
-      "n_committees": 1,
-      "employers": "KHOSLA VENTURES",
-      "states": "FL",
-      "top_committee": "GROW THE MAJORITY",
-      "top_committee_type": "N",
-      "top_committee_amt": 750000
-    },
-    {
-      "name": "RABOIS, KEITH MR.",
-      "net_total": 693000,
-      "gross_positive": 693000,
-      "n_contributions": 5,
+      "net_total": 1503500,
+      "gross_positive": 1503500,
+      "n_contributions": 3,
       "n_committees": 2,
       "employers": "KHOSLA VENTURES",
       "states": "FL",
-      "top_committee": "REPUBLICAN NATIONAL COMMITTEE",
-      "top_committee_type": "Y",
-      "top_committee_amt": 443000
+      "top_committee_id": "C00858373",
+      "top_committee": "GROW THE MAJORITY",
+      "top_committee_type": "N",
+      "top_committee_amt": 1500000
+    },
+    {
+      "name": "RABOIS, KEITH MR.",
+      "net_total": 1443000,
+      "gross_positive": 1443000,
+      "n_contributions": 6,
+      "n_committees": 2,
+      "employers": "KHOSLA VENTURES",
+      "states": "FL",
+      "top_committee_id": "C00504530",
+      "top_committee": "CLF",
+      "top_committee_type": "W",
+      "top_committee_amt": 1000000
     },
     {
       "name": "KAUL, SAMIR",
-      "net_total": 20600,
-      "gross_positive": 20600,
-      "n_contributions": 5,
-      "n_committees": 3,
+      "net_total": 24100,
+      "gross_positive": 24100,
+      "n_contributions": 6,
+      "n_committees": 4,
       "employers": "KHOSLA VENTURES",
       "states": "CA",
+      "top_committee_id": "C00893230",
       "top_committee": "LICCARDO VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 7000
+    },
+    {
+      "name": "WEIDEN, DAVID",
+      "net_total": 250,
+      "gross_positive": 250,
+      "n_contributions": 1,
+      "n_committees": 1,
+      "employers": "KHOSLA VENTURES",
+      "states": "CA",
+      "top_committee_id": "C00435099",
+      "top_committee": "BILL FOSTER FOR CONGRESS",
+      "top_committee_type": "H",
+      "top_committee_amt": 250
     }
   ],
   "top_committees": [
@@ -188,9 +270,9 @@
       "party_dr": "Unknown",
       "classification_source": "",
       "recipient_bucket": "outside_spending",
-      "net_total": 1000000,
+      "net_total": 2000000,
       "n_donors": 1,
-      "n_contributions": 1
+      "n_contributions": 2
     },
     {
       "cmte_id": "C00858373",
@@ -199,9 +281,20 @@
       "party_dr": "Unknown",
       "classification_source": "",
       "recipient_bucket": "pac",
-      "net_total": 750000,
+      "net_total": 1500000,
       "n_donors": 1,
-      "n_contributions": 1
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00504530",
+      "cmte_nm": "CLF",
+      "cmte_tp": "W",
+      "party_dr": "R",
+      "classification_source": "24k_contributions+ie_spending",
+      "recipient_bucket": "outside_spending",
+      "net_total": 1000000,
+      "n_donors": 1,
+      "n_contributions": 2
     },
     {
       "cmte_id": "C00003418",
@@ -213,17 +306,6 @@
       "net_total": 443000,
       "n_donors": 1,
       "n_contributions": 4
-    },
-    {
-      "cmte_id": "C00504530",
-      "cmte_nm": "CONGRESSIONAL LEADERSHIP FUND",
-      "cmte_tp": "W",
-      "party_dr": "Unknown",
-      "classification_source": "",
-      "recipient_bucket": "outside_spending",
-      "net_total": 250000,
-      "n_donors": 1,
-      "n_contributions": 1
     },
     {
       "cmte_id": "C00495028",
@@ -259,6 +341,28 @@
       "n_contributions": 1
     },
     {
+      "cmte_id": "C00435099",
+      "cmte_nm": "BILL FOSTER FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7250,
+      "n_donors": 2,
+      "n_contributions": 3
+    },
+    {
+      "cmte_id": "C00834028",
+      "cmte_nm": "GEORGE WHITESIDES FOR CONGRESS",
+      "cmte_tp": "H",
+      "party_dr": "D",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 7000,
+      "n_donors": 1,
+      "n_contributions": 3
+    },
+    {
       "cmte_id": "C00904466",
       "cmte_nm": "RAJA FOR ILLINOIS",
       "cmte_tp": "S",
@@ -281,8 +385,30 @@
       "n_contributions": 2
     },
     {
-      "cmte_id": "C00435099",
-      "cmte_nm": "BILL FOSTER FOR CONGRESS",
+      "cmte_id": "C00461822",
+      "cmte_nm": "CHUCK FLEISCHMANN FOR CONGRESS COMMITTEE, INC.",
+      "cmte_tp": "H",
+      "party_dr": "R",
+      "classification_source": "party_field",
+      "recipient_bucket": "candidate",
+      "net_total": 5000,
+      "n_donors": 1,
+      "n_contributions": 2
+    },
+    {
+      "cmte_id": "C00649772",
+      "cmte_nm": "REVIVING AMERICAN JOBS AGAIN PAC DBA EQUAL OPPORTUNITY NOW",
+      "cmte_tp": "V",
+      "party_dr": "D",
+      "classification_source": "24k_contributions",
+      "recipient_bucket": "outside_spending",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00878603",
+      "cmte_nm": "LAMONICA MCIVER FOR CONGRESS",
       "cmte_tp": "H",
       "party_dr": "D",
       "classification_source": "party_field",
@@ -303,13 +429,35 @@
       "n_contributions": 1
     },
     {
-      "cmte_id": "C00834028",
-      "cmte_nm": "GEORGE WHITESIDES FOR CONGRESS",
+      "cmte_id": "C00900910",
+      "cmte_nm": "MARTY FOR CONGRESS",
       "cmte_tp": "H",
-      "party_dr": "D",
+      "party_dr": "R",
       "classification_source": "party_field",
       "recipient_bucket": "candidate",
+      "net_total": 3500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00941708",
+      "cmte_nm": "SETH BODNAR FOR MONTANA",
+      "cmte_tp": "S",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "candidate",
       "net_total": 2500,
+      "n_donors": 1,
+      "n_contributions": 1
+    },
+    {
+      "cmte_id": "C00916296",
+      "cmte_nm": "OHIO GRASSROOTS VICTORY FUND",
+      "cmte_tp": "N",
+      "party_dr": "Unknown",
+      "classification_source": "",
+      "recipient_bucket": "pac",
+      "net_total": 2000,
       "n_donors": 1,
       "n_contributions": 1
     }

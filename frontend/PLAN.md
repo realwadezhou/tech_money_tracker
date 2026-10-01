@@ -2,7 +2,7 @@
 
 ## Goal
 
-Build a low-bloat election-finance website that feels like a plain 1990s hand-made HTML site, while still supporting charts and many generated pages.
+Build a fast, modern election-finance research website using the approved light Reference design. It should combine comfortable reading with dense, connected data views across the complete site.
 
 The site should be:
 
@@ -15,40 +15,36 @@ The site should be:
 
 ## Style Rules
 
-These are not suggestions. They are the design constraints.
+The Reference design and its readability revision replace the original 1990s document treatment. See `DESIGN_DECISIONS.md` for the accepted system.
 
-- `Times New Roman` is the default body font
-- tables use a monospace font, with bold header text
-- background is `#FCF9EA`
-- text is `#1A1A1A`
-- links use `#6f4a86`, with visited links at `#50365f`
-- Democratic and Republican color accents use `#5EABD6` and `#E14434`
-- table headers use `#e3d8bd`
-- no card UI
-- no gradients
-- no rounded-corner component chrome
-- no icon packs
-- minimal images
-- minimal CSS
-- JavaScript only where necessary for charts, table sorting, table filtering, or very light page behavior
+- local system sans-serif text, 16px reading size with 1.7 line height
+- 14px tables with tabular numerals, 13px supporting notes, 24px section headings
+- white background, dark `#202124` text, muted `#566170` notes, and `#315f9b` links
+- subtle borders and table headers, compact rows, and distinct selected navigation
+- Democratic and Republican accents of `#557fae` and `#be7d73`, always accompanied by labels
+- shared header, browse sidebar, breadcrumbs, flexible main content, source context, and footer
+- native mobile navigation and horizontally scrolling wide tables
+- simple headline statistics and full-width charts rather than decorative card containers
+- no gradients, icon packs, external font loading, or unnecessary media
+- JavaScript only where necessary for charts, table sorting, table filtering, and light page behavior
 
-The target is not "retro-themed." The target is "plain serious web document."
+The target is a readable public knowledge base that scales from an overview to detailed entity records, original filings, and methodology.
 
 ## Technical Direction
 
-Preferred direction:
+The production direction:
 
 1. Generate static pages at build time
 2. Host as a static site
-3. Use minimal JavaScript for charts only
+3. Use minimal local JavaScript for charts, tables, and the lobbying explorer
 4. Keep page navigation as normal links to normal HTML pages
 
-Likely stack:
+Current stack:
 
-- static site generation with Astro, used quietly as a build tool
-- or, if Astro feels like overkill, a tiny custom generator later
-- charting with Observable Plot or a similarly small self-hosted JS approach
-- hosting on GitHub Pages or Cloudflare Pages
+- Python generators build the election and lobbying pages from derived exports
+- shared local CSS defines the Reference design across generated page types
+- local JavaScript supports charts, table controls, and filing exploration
+- normal HTML pages and assets support inexpensive static hosting
 
 Important principle:
 
@@ -114,7 +110,7 @@ Possible homepage sections:
 
 ### Home
 
-Plain document page with links, key numbers, and a few embedded charts.
+Reference overview with an introduction, headline statistics, a weekly chart, linked data tables, and clear routes into the rest of the site. All other page types reuse the same navigation, typography, source context, and responsive behavior.
 
 ### Candidate Page
 

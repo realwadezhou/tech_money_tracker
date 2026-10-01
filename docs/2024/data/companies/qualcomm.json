@@ -1,6 +1,8 @@
 {
   "company": "qualcomm",
   "slug": "qualcomm",
+  "undated_tech_contribution_count": 0,
+  "undated_tech_net_total": 0.0,
   "summary": {
     "tech_canonical_name": "qualcomm",
     "net_total": 900854,
@@ -8,25 +10,25 @@
     "n_contributions": 3878,
     "n_committees": 154,
     "sectors": "semiconductors",
-    "amt_dem": 306729,
+    "amt_dem": 304497,
     "amt_mixed": 249725,
-    "amt_rep": 116372,
-    "amt_unknown": 228028,
-    "amt_other": 477753,
-    "classified_recipient_total": 423101,
-    "pct_dem": 72.4954561677,
-    "pct_classified_recipients": 46.9666560841,
-    "donor_amt_D": 543217,
-    "donor_amt_Mixed": 89253,
-    "donor_amt_R": 125284,
-    "donor_amt_Unknown": 143100,
-    "n_donors_D": 192,
-    "n_donors_Mixed": 24,
-    "n_donors_R": 43,
-    "n_donors_Unknown": 91,
+    "amt_rep": 115651,
+    "amt_unknown": 230981,
+    "amt_other": 480706,
+    "classified_recipient_total": 420148,
+    "pct_dem": 72.4737473462,
+    "pct_classified_recipients": 46.6388560188,
+    "donor_amt_D": 538995,
+    "donor_amt_Mixed": 92475,
+    "donor_amt_R": 124907,
+    "donor_amt_Unknown": 144477,
+    "n_donors_D": 188,
+    "n_donors_Mixed": 26,
+    "n_donors_R": 38,
+    "n_donors_Unknown": 98,
     "donor_amt_total": 900854,
     "n_donors_total": 350,
-    "pct_dem_by_donor": 81.2589659552,
+    "pct_dem_by_donor": 81.1859280436,
     "slug": "qualcomm"
   },
   "weekly_series": [
@@ -967,6 +969,7 @@
       "n_committees": 15,
       "employers": "QUALCOMM TECHNOLOGIES INC; QUALCOMM TECHNOLOGIES INC.; QUALCOMM TECHNOLOGIES, INC; QUALCOMM TECHNOLOGIES, INC.",
       "states": "NJ; NY",
+      "top_committee_id": "C00873406",
       "top_committee": "HOUSE VICTORY PROJECT 2024",
       "top_committee_type": "H",
       "top_committee_amt": 108900
@@ -979,6 +982,7 @@
       "n_committees": 2,
       "employers": "QUALCOMM INCORPORATED; QUALCOMM, INC.",
       "states": "CA",
+      "top_committee_id": "C00027466",
       "top_committee": "NRSC",
       "top_committee_type": "Y",
       "top_committee_amt": 77800
@@ -991,6 +995,7 @@
       "n_committees": 9,
       "employers": "QUALCOMM; QUALCOMM INC",
       "states": "CA",
+      "top_committee_id": "C00842104",
       "top_committee": "FIGHT LIKE HELL PAC",
       "top_committee_type": "W",
       "top_committee_amt": 5000
@@ -1003,6 +1008,7 @@
       "n_committees": 10,
       "employers": "QUALCOMM; QUALCOMM INC; QUALCOMM, INC.",
       "states": "DC",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 9600
@@ -1015,6 +1021,7 @@
       "n_committees": 8,
       "employers": "QUALCOMM; QUALCOMM INC.",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 9250
@@ -1027,6 +1034,7 @@
       "n_committees": 6,
       "employers": "QUALCOMM; QUALCOMM INC; QUALCOMM INCORPORATED",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 9600
@@ -1039,6 +1047,7 @@
       "n_committees": 3,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 9600
@@ -1051,6 +1060,7 @@
       "n_committees": 2,
       "employers": "QUALCOMM; QUALCOMM INC.",
       "states": "NY",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 6700
@@ -1063,6 +1073,7 @@
       "n_committees": 6,
       "employers": "QUALCOMM; QUALCOMM INC.",
       "states": "DC",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 4800
@@ -1075,6 +1086,7 @@
       "n_committees": 4,
       "employers": "QUALCOMM; QUALCOMM INC; QUALCOMM INC.",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 8832
@@ -1087,6 +1099,7 @@
       "n_committees": 15,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00042366",
       "top_committee": "DSCC",
       "top_committee_type": "Y",
       "top_committee_amt": 2500
@@ -1099,6 +1112,7 @@
       "n_committees": 5,
       "employers": "QUALCOMM; QUALCOMM, INC.",
       "states": "DC; VA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 6700
@@ -1111,6 +1125,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "FL",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -1123,6 +1138,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "FL",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -1135,6 +1151,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -1147,6 +1164,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -1159,6 +1177,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "IL",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 10000
@@ -1171,6 +1190,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 9600
@@ -1183,6 +1203,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 9600
@@ -1195,6 +1216,7 @@
       "n_committees": 9,
       "employers": "QUALCOMM; QUALCOMM INC",
       "states": "WY",
+      "top_committee_id": "C00752691",
       "top_committee": "ONE FOR ALL COMMITTEE",
       "top_committee_type": "O",
       "top_committee_amt": 5000
@@ -1207,6 +1229,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM TECHNOLOGIES; QUALCOMM TECHNOLOGIES INC",
       "states": "CA",
+      "top_committee_id": "C00770941",
       "top_committee": "TRUMP SAVE AMERICA JOINT FUNDRAISING COMMITTEE",
       "top_committee_type": "N",
       "top_committee_amt": 7500
@@ -1219,6 +1242,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 7500
@@ -1231,6 +1255,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "NH",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 7500
@@ -1243,6 +1268,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "OH",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 7000
@@ -1255,6 +1281,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 6912
@@ -1267,6 +1294,7 @@
       "n_committees": 4,
       "employers": "QUALCOMM; QUALCOMM INC; QUALCOMM INC.",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1279,6 +1307,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 6700
@@ -1291,7 +1320,8 @@
       "n_committees": 2,
       "employers": "QUALCOMM",
       "states": "CA",
-      "top_committee": "SYLVESTER TURNER CAMPAIGN",
+      "top_committee_id": "C00800276",
+      "top_committee": "LANDSMAN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
     },
@@ -1303,7 +1333,8 @@
       "n_committees": 2,
       "employers": "QUALCOMM",
       "states": "CA",
-      "top_committee": "NIKKI FOR CONGRESS",
+      "top_committee_id": "C00711317",
+      "top_committee": "SCHOLTEN FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
     },
@@ -1315,6 +1346,7 @@
       "n_committees": 2,
       "employers": "QUALCOMM; QUALCOMM INC.",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 4800
@@ -1327,6 +1359,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 5670
@@ -1339,6 +1372,7 @@
       "n_committees": 5,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00792507",
       "top_committee": "WILL ROLLINS FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 1500
@@ -1351,6 +1385,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 5000
@@ -1363,6 +1398,7 @@
       "n_committees": 4,
       "employers": "QUALCOMM TECHNOLOGIES INC.; QUALCOMM TECHNOLOGIES, INC; QUALCOMM TECHNOLOGIES, INC.",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3200
@@ -1375,6 +1411,7 @@
       "n_committees": 3,
       "employers": "QUALCOMM; QUALCOMM INC.",
       "states": "CA",
+      "top_committee_id": "C00772624",
       "top_committee": "SHP VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3000
@@ -1387,6 +1424,7 @@
       "n_committees": 2,
       "employers": "QUALCOMM; QUALCOMMM",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 4800
@@ -1399,6 +1437,7 @@
       "n_committees": 3,
       "employers": "QUALCOMM; QUALCOMM INC.",
       "states": "CA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 2200
@@ -1411,6 +1450,7 @@
       "n_committees": 3,
       "employers": "QCOM",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3650
@@ -1423,6 +1463,7 @@
       "n_committees": 12,
       "employers": "QUALCOMM; QUALCOMM, INC.",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 1598
@@ -1435,6 +1476,7 @@
       "n_committees": 9,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00504704",
       "top_committee": "CRAMER FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 1530
@@ -1447,6 +1489,7 @@
       "n_committees": 2,
       "employers": "QUALCOMM INCORPORATED; QUALCOMM, INC.",
       "states": "CA",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1459,6 +1502,7 @@
       "n_committees": 3,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3000
@@ -1471,6 +1515,7 @@
       "n_committees": 2,
       "employers": "QUALCOMM; QUALCOMM, INC.",
       "states": "DC; VA",
+      "top_committee_id": "C00339085",
       "top_committee": "QUALCOMM INCORPORATED POLITICAL ACTION COMMITTEE (QPAC)",
       "top_committee_type": "Q",
       "top_committee_amt": 3162
@@ -1483,6 +1528,7 @@
       "n_committees": 4,
       "employers": "QUALCOMM; QUALCOMM INC.",
       "states": "CA",
+      "top_committee_id": "C00833608",
       "top_committee": "BARBARA LEE FOR US SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 2500
@@ -1495,6 +1541,7 @@
       "n_committees": 10,
       "employers": "QUALCOMM; QUALCOMM INC.; QUALCOMM, INC.",
       "states": "TX",
+      "top_committee_id": "C00744946",
       "top_committee": "HARRIS VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 1900
@@ -1507,6 +1554,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00833392",
       "top_committee": "NIKKI HALEY FOR PRESIDENT INC.",
       "top_committee_type": "P",
       "top_committee_amt": 3367
@@ -1519,6 +1567,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "TX",
+      "top_committee_id": "C00703975",
       "top_committee": "HARRIS FOR PRESIDENT",
       "top_committee_type": "P",
       "top_committee_amt": 3300
@@ -1531,6 +1580,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00443218",
       "top_committee": "WICKER FOR SENATE",
       "top_committee_type": "S",
       "top_committee_amt": 3300
@@ -1543,6 +1593,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "TX",
+      "top_committee_id": "C00862995",
       "top_committee": "COLIN ALLRED VICTORY FUND",
       "top_committee_type": "N",
       "top_committee_amt": 3300
@@ -1555,6 +1606,7 @@
       "n_committees": 1,
       "employers": "QUALCOMM",
       "states": "CA",
+      "top_committee_id": "C00503110",
       "top_committee": "SCOTT PETERS FOR CONGRESS",
       "top_committee_type": "H",
       "top_committee_amt": 3300
