@@ -45,7 +45,9 @@
   }
 
   function draw(svg, points) {
-    var width = 860, height = 320, left = 64, right = 10, top = 14, bottom = 34;
+    // Draw at the element's real width so labels stay a readable size on phones.
+    var width = Math.max(svg.clientWidth || 860, 300), height = width < 520 ? 240 : 320;
+    var left = 58, right = 10, top = 14, bottom = 34;
     var max = axisTop(Math.max.apply(null, points.map(function (p) { return p.total; }).concat([0])));
     var slot = (width - left - right) / Math.max(points.length, 1);
     var y = function (value) { return top + (height - top - bottom) * (1 - value / max); };
@@ -62,7 +64,8 @@
         y: y(point.total), height: Math.max(0, y(0) - y(point.total))});
       bar.appendChild(node("title", {}, point.label + ": $" + Math.round(point.total).toLocaleString("en-US")));
       svg.appendChild(bar);
-      if (point.quarter === 1) {
+      // On narrow screens there is room for every other year only.
+      if (point.quarter === 1 && (slot * 4 >= 44 || point.year % 2 === 0)) {
         svg.appendChild(node("text", {x: x + slot / 2, y: height - 12, "text-anchor": "middle"}, String(point.year)));
       }
     });
@@ -82,6 +85,7 @@
     });
     var update = function () { draw(svg, series(data, select.value)); };
     select.addEventListener("change", update);
+    window.addEventListener("resize", update);
     update();
   }
 

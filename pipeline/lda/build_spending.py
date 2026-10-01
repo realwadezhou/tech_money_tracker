@@ -116,8 +116,8 @@ def build_spending(output: Path = EXPORT, reports: pd.DataFrame | None = None,
             "Amounts are as reported; filers round to the nearest $10,000 and may leave amounts under $5,000 blank.",
             "Latest posted version of each report in the saved snapshot; later amendments can change past quarters.",
             "Dollars cover a whole report and are not assigned to issues.",
-            "Company grouping follows data/reference/companies/lda_clients.csv: subsidiaries roll up to the "
-            "parent; subcontractor reports are excluded.",
+            "Subsidiaries roll up to the parent and subcontractor reports are excluded; the reported names "
+            "counted for each company are listed with the data.",
         ],
     }
     save_json(output / "spending.json", {"metadata": metadata, "quarters": quarters, "companies": company_rows})
