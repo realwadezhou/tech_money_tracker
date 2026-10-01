@@ -1,8 +1,9 @@
 """
 Core data loading and filtering module for tech money analysis.
 
-Loads raw FEC bulk files, applies validated transaction type rules,
-and exposes clean dataframes for downstream analysis.
+Loads raw FEC bulk files and applies the project's selected-record rules.
+These selections are not a fully reconciled ledger of unique gifts or complete
+candidate attribution; see FEC_CONFIDENCE_REVIEW.md before reusing a total.
 
 Usage:
     from pipeline.load_fec import load_cycle
@@ -21,6 +22,7 @@ from typing import Optional
 import pandas as pd
 
 from pipeline.common.paths import FEC_INTERIM_ROOT, company_curated_path
+from pipeline.fec.transaction_reviews import ReviewedExclusionDependencies, reviewed_exclusion_mask
 
 
 # ── Paths ────────────────────────────────────────────────────────────
@@ -55,7 +57,9 @@ CM_COLS = [
 # ── Transaction type rules ──────────────────────────────────────────
 # See transaction_type_observations.md for full rationale on each.
 
-# Types that represent real money entering the political system from donors.
+# Selected donor-receipt and attribution types. A retained row is not always
+# a distinct new gift: memo parents/children and later adjustments need context.
+# This common selection does not include complete candidate JFC attribution.
 INCLUDE_TYPES_ITCONT = {
     "10",   # contribution to super PAC / IE committee
     "15",   # standard contribution
@@ -68,20 +72,26 @@ INCLUDE_TYPES_ITCONT = {
     "30E",  # earmarked convention account
     "31E",  # earmarked headquarters account
     "32E",  # earmarked legal/recount account
-    "30T",  # conduit forward to convention account
-    "31T",  # conduit forward to headquarters account
-    "32T",  # conduit forward to legal/recount account
-    "42Y",  # convention account contribution (alternate code)
-    "41Y",  # headquarters account contribution (alternate code)
+    "30T",  # convention account receipt from Native American tribe
+    "31T",  # headquarters account receipt from Native American tribe
+    "32T",  # legal/recount account receipt from Native American tribe
 }
 
 # Refund types — these represent money leaving the system back to donors.
 # Positive amounts = refund issued, so we subtract them.
-REFUND_TYPES_ITCONT = {"22Y", "21Y"}
+# Include the corresponding party special-account refunds, too. The FEC
+# codebook defines 40/41/42 as convention/headquarters/recount disbursements;
+# Y refunds individuals and T refunds tribes. These are not new receipts.
+# https://www.fec.gov/campaign-finance-data/transaction-type-code-descriptions/
+REFUND_TYPES_ITCONT = {"22Y", "21Y", "40Y", "40T", "41Y", "41T", "42Y", "42T"}
 
-# Memo X handling: only exclude on types where memo X means routing/double-count.
-# Type 10 memo X = real money (in-kind, trust attribution). $180M in 2024.
-# Type 15E memo X = earmark memo on conduit filing — the 24T is the real row.
+# Memo X handling: retain the conservative type-15E exclusion pending a
+# cross-filer attribution resolver. These memos mix aggregate conduit totals,
+# individual redesignations, and in-kind earmarks already recorded upstream.
+# Type 10 memos can describe valid partnership, trust, or in-kind attribution,
+# but can also repeat earlier records. Retaining them does not certify each one.
+# 24T is also excluded: it is an intermediary outflow, not a second receipt.
+# See transaction_type_observations.md for the unresolved 15E audit examples.
 MEMO_X_EXCLUDE_TYPES = {"15E"}
 
 # itoth types for committee spending analysis
@@ -160,22 +170,26 @@ def _load_tech_employers() -> pd.DataFrame:
 
 
 def _filter_donor_contributions(
-    itcont: pd.DataFrame, cm: pd.DataFrame
+    itcont: pd.DataFrame, cm: pd.DataFrame, *, cycle: int | None = None
 ) -> pd.DataFrame:
-    """Apply transaction type rules to itcont and produce clean contributions."""
+    """Select signed records; do not imply unique-gift or full attribution reconciliation."""
+
+    if cm["cmte_id"].duplicated().any():
+        raise pd.errors.MergeError("Committee directory must contain one row per cmte_id")
 
     all_types = INCLUDE_TYPES_ITCONT | REFUND_TYPES_ITCONT
 
-    # Filter to relevant transaction types
-    df = itcont[itcont["transaction_tp"].isin(all_types)].copy()
-
-    # Exclude memo X only on types where it means routing
-    df = df[
-        (df["memo_cd"] != "X") | (~df["transaction_tp"].isin(MEMO_X_EXCLUDE_TYPES))
-    ]
+    # Build one mask before copying the large source table. Validate reviewed
+    # signatures before type/memo selection can hide a changed source record.
+    included = (
+        itcont["transaction_tp"].isin(all_types)
+        & (itcont["memo_cd"].ne("X") | ~itcont["transaction_tp"].isin(MEMO_X_EXCLUDE_TYPES))
+        & ~reviewed_exclusion_mask(itcont, cycle)
+    )
+    df = itcont.loc[included].copy()
 
     # Compute net amount: refund rows get sign flipped
-    # 22Y/21Y positive = refund issued = money left system -> subtract
+    # Positive refund = money left system -> subtract; negative = reversal.
     df["is_refund"] = df["transaction_tp"].isin(REFUND_TYPES_ITCONT)
     df["net_amt"] = df["transaction_amt"].where(
         ~df["is_refund"], -df["transaction_amt"]
@@ -195,6 +209,9 @@ def _filter_committee_spending(
     itoth: pd.DataFrame, cm: pd.DataFrame
 ) -> pd.DataFrame:
     """Filter itoth to outbound committee spending (IEs, contributions)."""
+
+    if cm["cmte_id"].duplicated().any():
+        raise pd.errors.MergeError("Committee directory must contain one row per cmte_id")
 
     df = itoth[itoth["transaction_tp"].isin(INCLUDE_TYPES_ITOTH_SPENDING)].copy()
 
@@ -233,10 +250,14 @@ def load_cycle(cycle: int = 2024) -> FECData:
         - tech_employers: manual employer lookup table
     """
     itcont, itoth, cm = _load_raw(cycle)
+    review_dependencies = ReviewedExclusionDependencies(cycle)
+    review_dependencies.observe(itcont)
+    review_dependencies.finalize()
     tech_employers = _load_tech_employers()
 
     print("Filtering donor contributions...")
-    donor_contributions = _filter_donor_contributions(itcont, cm)
+    donor_contributions = _filter_donor_contributions(itcont, cm, cycle=cycle)
+    del itcont
     print(f"  {len(donor_contributions):,} contribution rows after filtering")
 
     print("Filtering committee spending...")
@@ -252,6 +273,16 @@ def load_cycle(cycle: int = 2024) -> FECData:
     )
 
 
+def validated_tech_lookup(tech_employers: pd.DataFrame) -> pd.DataFrame:
+    """Validate the small right-hand table before joining millions of records."""
+    lookup = tech_employers[["employer_upper", "canonical_name", "sector"]].drop_duplicates()
+    if lookup["employer_upper"].eq("").any():
+        raise ValueError("Included employer aliases must not be blank")
+    if lookup["employer_upper"].duplicated().any():
+        raise ValueError("Conflicting company or sector for an included employer alias")
+    return lookup
+
+
 def tag_tech_donors(
     contributions: pd.DataFrame,
     tech_employers: pd.DataFrame,
@@ -264,9 +295,7 @@ def tag_tech_donors(
     df["employer_upper"] = df["employer"].str.strip().str.upper()
 
     # Join on exact employer string match
-    tech_lookup = tech_employers[
-        ["employer_upper", "canonical_name", "sector"]
-    ].drop_duplicates(subset=["employer_upper"])
+    tech_lookup = validated_tech_lookup(tech_employers)
 
     df = df.merge(
         tech_lookup.rename(columns={

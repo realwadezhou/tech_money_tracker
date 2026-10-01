@@ -1,0 +1,1189 @@
+{
+  "schema_version": 1,
+  "case_id": "musk_partnership_in_kind",
+  "title": "Musk: 14 filed in-kind organizational receipts attributed once to the individual",
+  "cycle": 2026,
+  "scope": "Only 14 selected memo families and their full explicit source parents and children. Not complete employer giving, a committee total, cash gifts, or a refund ledger.",
+  "catalog_checked_at": "2026-09-19T10:44:34.701612+00:00",
+  "api_latest_file_numbers": [
+    1994129,
+    1965287,
+    1947425,
+    1909353
+  ],
+  "sources": [
+    {
+      "file_number": 1909353,
+      "sha256": "27d999e3bcf6a784c70aa5954c05ad0697ce25101ec605d9c25fcb4fe18b5872",
+      "bytes": 44676,
+      "metadata": {
+        "file_number": 1909353,
+        "committee_id": "C00879510",
+        "form_type": "F3X",
+        "format_version": "8.4",
+        "encoding": "utf-8-sig",
+        "original_file_number": 1909353,
+        "amendment_sequence": 0,
+        "coverage_start": "2025-01-01",
+        "coverage_end": "2025-06-30",
+        "report_type": "MY",
+        "sha256": "27d999e3bcf6a784c70aa5954c05ad0697ce25101ec605d9c25fcb4fe18b5872",
+        "url": "https://docquery.fec.gov/dcdev/posted/1909353.fec",
+        "individual_itemized_reported": "45323450.24",
+        "individual_itemized_calculated": "45323450.24",
+        "individual_itemized_reconciles": true,
+        "refunds_reported": "0.00",
+        "refunds_itemized": "0.00",
+        "refunds_unitemized_or_unreconciled": "0.00"
+      },
+      "api_most_recent": true
+    },
+    {
+      "file_number": 1941882,
+      "sha256": "ca1ca97a215987e918d9f4f5617ff05c27c319d6927372f11bea71eb240dc1ec",
+      "bytes": 10529,
+      "metadata": {
+        "file_number": 1941882,
+        "committee_id": "C00879510",
+        "form_type": "F3X",
+        "format_version": "8.5",
+        "encoding": "utf-8-sig",
+        "original_file_number": 1941882,
+        "amendment_sequence": 0,
+        "coverage_start": "2025-10-01",
+        "coverage_end": "2025-12-31",
+        "report_type": "YE",
+        "sha256": "ca1ca97a215987e918d9f4f5617ff05c27c319d6927372f11bea71eb240dc1ec",
+        "url": "https://docquery.fec.gov/dcdev/posted/1941882.fec",
+        "individual_itemized_reported": "2879706.57",
+        "individual_itemized_calculated": "2879706.57",
+        "individual_itemized_reconciles": true,
+        "refunds_reported": "0.00",
+        "refunds_itemized": "0.00",
+        "refunds_unitemized_or_unreconciled": "0.00"
+      },
+      "api_most_recent": false
+    },
+    {
+      "file_number": 1947425,
+      "sha256": "9c0109419a2a6bb6675ab921b11553a3677a5ef3ec43b0b33e5a3e2b107c44de",
+      "bytes": 10541,
+      "metadata": {
+        "file_number": 1947425,
+        "committee_id": "C00879510",
+        "form_type": "F3X",
+        "format_version": "8.5",
+        "encoding": "utf-8-sig",
+        "original_file_number": 1941882,
+        "amendment_sequence": 1,
+        "coverage_start": "2025-07-01",
+        "coverage_end": "2025-12-31",
+        "report_type": "YE",
+        "sha256": "9c0109419a2a6bb6675ab921b11553a3677a5ef3ec43b0b33e5a3e2b107c44de",
+        "url": "https://docquery.fec.gov/dcdev/posted/1947425.fec",
+        "individual_itemized_reported": "2879706.57",
+        "individual_itemized_calculated": "2879706.57",
+        "individual_itemized_reconciles": true,
+        "refunds_reported": "0.00",
+        "refunds_itemized": "0.00",
+        "refunds_unitemized_or_unreconciled": "0.00"
+      },
+      "api_most_recent": true
+    },
+    {
+      "file_number": 1965287,
+      "sha256": "3bb731c1333aa400bca5420a9627811f150bb3c63711c54778a12b8214d3f54f",
+      "bytes": 4907,
+      "metadata": {
+        "file_number": 1965287,
+        "committee_id": "C00879510",
+        "form_type": "F3X",
+        "format_version": "8.5",
+        "encoding": "utf-8-sig",
+        "original_file_number": 1965287,
+        "amendment_sequence": 0,
+        "coverage_start": "2026-01-01",
+        "coverage_end": "2026-03-31",
+        "report_type": "Q1",
+        "sha256": "3bb731c1333aa400bca5420a9627811f150bb3c63711c54778a12b8214d3f54f",
+        "url": "https://docquery.fec.gov/dcdev/posted/1965287.fec",
+        "individual_itemized_reported": "1641447.76",
+        "individual_itemized_calculated": "1641447.76",
+        "individual_itemized_reconciles": true,
+        "refunds_reported": "0.00",
+        "refunds_itemized": "0.00",
+        "refunds_unitemized_or_unreconciled": "0.00"
+      },
+      "api_most_recent": true
+    },
+    {
+      "file_number": 1994129,
+      "sha256": "d11fc17f75e279d54d82523360e99b9b178da69e4e4bc756bd4724a8c6732b94",
+      "bytes": 5949,
+      "metadata": {
+        "file_number": 1994129,
+        "committee_id": "C00879510",
+        "form_type": "F3X",
+        "format_version": "8.5",
+        "encoding": "utf-8-sig",
+        "original_file_number": 1994129,
+        "amendment_sequence": 0,
+        "coverage_start": "2026-04-01",
+        "coverage_end": "2026-06-30",
+        "report_type": "Q2",
+        "sha256": "d11fc17f75e279d54d82523360e99b9b178da69e4e4bc756bd4724a8c6732b94",
+        "url": "https://docquery.fec.gov/dcdev/posted/1994129.fec",
+        "individual_itemized_reported": "466598.80",
+        "individual_itemized_calculated": "466598.80",
+        "individual_itemized_reconciles": true,
+        "refunds_reported": "0.00",
+        "refunds_itemized": "0.00",
+        "refunds_unitemized_or_unreconciled": "0.00"
+      },
+      "api_most_recent": true
+    }
+  ],
+  "amendment_coverage_review": {
+    "original_file_number": 1941882,
+    "amendment_file_number": 1947425,
+    "original_period": [
+      "2025-10-01",
+      "2025-12-31"
+    ],
+    "amended_period": [
+      "2025-07-01",
+      "2025-12-31"
+    ],
+    "api_most_recent_amendment": true,
+    "original_schedule_records": 46,
+    "amended_schedule_records": 46,
+    "removed_transaction_ids": [],
+    "added_transaction_ids": [],
+    "changed_schedule_row_hash_ids": [],
+    "cover_changes": [
+      {
+        "zero_based_position": 0,
+        "original": "F3XN",
+        "amendment": "F3XA"
+      },
+      {
+        "zero_based_position": 13,
+        "original": "20251001",
+        "amendment": "20250701"
+      },
+      {
+        "zero_based_position": 21,
+        "original": "20260131",
+        "amendment": "20260218"
+      }
+    ],
+    "interpretation": "The amendment changes the coverage start from October1 to July1 and the form amendment indicator; all ScheduleA/B transaction rows are byte-field-identical by source-row hash. This explicit source review supports choosing1947425 for the selected memo families; the generic chain validator remains conservative and was not bypassed for a full committee total."
+  },
+  "employer_aliases": {
+    "SPACE EXPLORATION TECHNOLOGIES CORP.": "x_twitter_spacex"
+  },
+  "records": [
+    {
+      "record_id": "1965287:SA11A.215",
+      "committee_id": "C00879510",
+      "file_number": "1965287",
+      "transaction_id": "SA11A.215",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "347996.00",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2026-03-31",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- PETITION INCENTIVES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "b7cfb45031af3a2629b1e3fcc1efd85125e6ca64ab5afa31da2f0ce56f7401fe",
+      "source_record_number": 4,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1965287.fec"
+    },
+    {
+      "record_id": "1965287:SA11A.218",
+      "committee_id": "C00879510",
+      "file_number": "1965287",
+      "transaction_id": "SA11A.218",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "347996.00",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.215",
+      "date": "2026-03-31",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- PETITION INCENTIVES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "d8336a94010cd427c3b0f3238db2e387134d017b73e8dc789b9e7d83d73ca637",
+      "source_record_number": 5,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1965287.fec"
+    },
+    {
+      "record_id": "1965287:SA11A.216",
+      "committee_id": "C00879510",
+      "file_number": "1965287",
+      "transaction_id": "SA11A.216",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "293451.76",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2026-03-31",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- PETITION ADMINISTRATIVE SUPPORT FEES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "12f1ffbed359ec1a26412dc1acfb3abde92de491741457c28109d8d636cd30b9",
+      "source_record_number": 6,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1965287.fec"
+    },
+    {
+      "record_id": "1965287:SA11A.217",
+      "committee_id": "C00879510",
+      "file_number": "1965287",
+      "transaction_id": "SA11A.217",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "293451.76",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.216",
+      "date": "2026-03-31",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- PETITION ADMINISTRATIVE SUPPORT FEES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "6bf6298c1164ac5b6ddece915fe9d7d7248d7444e9e72aee8d46a24c4598c2a9",
+      "source_record_number": 7,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1965287.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.200",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.200",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "17425.00",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2025-04-23",
+      "election": "",
+      "donor_name": "ELON MUSK REVOCABLE TRUST",
+      "organization": "ELON MUSK REVOCABLE TRUST",
+      "memo_text": "INKIND- TRAVEL; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "917dcfb0f09fd8b704054d3a5219d132924b8098680b3640b272b06ef0f92774",
+      "source_record_number": 15,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.201",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.201",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "17425.00",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.200",
+      "date": "2025-04-23",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- TRAVEL; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "83f8d862e4d6bf1888b3245a4e257a26850bc3aa7d20f0ea8ec40cb88b846d7e",
+      "source_record_number": 16,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    },
+    {
+      "record_id": "1994129:SA11A.221",
+      "committee_id": "C00879510",
+      "file_number": "1994129",
+      "transaction_id": "SA11A.221",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "10147.00",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2026-06-30",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- PETITION INCENTIVES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "6b57f005e4c34b237e3deae117dd3820b45cca9c81eddc8b15ee51077e6f9f5b",
+      "source_record_number": 3,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+    },
+    {
+      "record_id": "1994129:SA11A.222",
+      "committee_id": "C00879510",
+      "file_number": "1994129",
+      "transaction_id": "SA11A.222",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "10147.00",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.221",
+      "date": "2026-06-30",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- PETITION INCENTIVES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "f4b1984b52371566690013dc744a78dd928d1c45db8b2102d8901f5359c7d8b3",
+      "source_record_number": 4,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+    },
+    {
+      "record_id": "1994129:SA11A.223",
+      "committee_id": "C00879510",
+      "file_number": "1994129",
+      "transaction_id": "SA11A.223",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "48468.78",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2026-06-30",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- PETITION ADMINISTRATIVE SUPPORT FEES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "a38ca44761e0daee4cf0ff888641da2b3d0819e19176c5abfa137bdfa099aa3c",
+      "source_record_number": 5,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+    },
+    {
+      "record_id": "1994129:SA11A.224",
+      "committee_id": "C00879510",
+      "file_number": "1994129",
+      "transaction_id": "SA11A.224",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "48468.78",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.223",
+      "date": "2026-06-30",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- PETITION ADMINISTRATIVE SUPPORT FEES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "89f375d4e2b81fbe68f647a11246d92ff57dd1e25fbbc6d874d79162f4ffddb2",
+      "source_record_number": 6,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+    },
+    {
+      "record_id": "1994129:SA11A.225",
+      "committee_id": "C00879510",
+      "file_number": "1994129",
+      "transaction_id": "SA11A.225",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "33000.00",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2026-06-30",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- WEB SERVICES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "a0e610b5b4f82fa75418284866f2fd1da6c9159e0b51f0f4bb584dbe848f7fd7",
+      "source_record_number": 7,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+    },
+    {
+      "record_id": "1994129:SA11A.226",
+      "committee_id": "C00879510",
+      "file_number": "1994129",
+      "transaction_id": "SA11A.226",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "33000.00",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.225",
+      "date": "2026-06-30",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- WEB SERVICES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "29119b3af1f519b4c1489195fda8839256f81b8727a7d03f41320535550645cc",
+      "source_record_number": 8,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+    },
+    {
+      "record_id": "1994129:SA11A.227",
+      "committee_id": "C00879510",
+      "file_number": "1994129",
+      "transaction_id": "SA11A.227",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "374983.02",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2026-06-30",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- VOTER DATA CONSULTING; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "b134db1ab8de5dc0665f8c75e524c2fc01ff6025ff6d32342ace9aed5d611334",
+      "source_record_number": 9,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+    },
+    {
+      "record_id": "1994129:SA11A.228",
+      "committee_id": "C00879510",
+      "file_number": "1994129",
+      "transaction_id": "SA11A.228",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "374983.02",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.227",
+      "date": "2026-06-30",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- VOTER DATA CONSULTING; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "130993eb8d035caed879eb49d68140229e8a4b8bc71a62bec7b9a69a9fa87bd6",
+      "source_record_number": 10,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.202",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.202",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "3323.67",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2025-06-30",
+      "election": "",
+      "donor_name": "EXCESSION LLC",
+      "organization": "EXCESSION LLC",
+      "memo_text": "INKIND- TAX SERVICES/SUBSCRIPTIONS; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "30b3d98641970acfc909643b9f45a4c8557c199c5af2a908737603f6b1fa50e9",
+      "source_record_number": 22,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.203",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.203",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "3323.67",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.202",
+      "date": "2025-06-30",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- TAX SERVICES/SUBSCRIPTIONS; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "7d851b580d6a3c3f4d93f7d2a6b9127844f7dd7224bc87e0daf4454724084d55",
+      "source_record_number": 23,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.196",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.196",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "27072484.00",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2025-06-30",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- PETITION INCENTIVES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "4817564a9380eb584f29636f724a6bc839e042f86fce963ad2a32b2cdb249341",
+      "source_record_number": 24,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.197",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.197",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "27072484.00",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.196",
+      "date": "2025-06-30",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- PETITION INCENTIVES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "c49e600475c34ca313fd28792cdb6c6357766fc8a330c54a42ab2111d4157a73",
+      "source_record_number": 25,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.198",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.198",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "273791.99",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2025-06-30",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- PETITION PROCESSING FEES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "c4009ae15baf2e26184ccea153536e3abcbd23170252e41375a993cfa31718ae",
+      "source_record_number": 26,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.199",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.199",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "273791.99",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.198",
+      "date": "2025-06-30",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- PETITION PROCESSING FEES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "9869e701c0d5848e8a434400afd25ac0c0c1f65d0d68e9625fb0ed1991c9add0",
+      "source_record_number": 27,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    },
+    {
+      "record_id": "1947425:SA11A.207",
+      "committee_id": "C00879510",
+      "file_number": "1947425",
+      "transaction_id": "SA11A.207",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "6054.92",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2025-12-31",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- TRAVEL/FOOD/BEVERAGES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "ca14eaf8118e51bd36ae5fecc04f16a3e270fd7b7ff2e174002d451997540b85",
+      "source_record_number": 5,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1947425.fec"
+    },
+    {
+      "record_id": "1947425:SA11A.208",
+      "committee_id": "C00879510",
+      "file_number": "1947425",
+      "transaction_id": "SA11A.208",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "6054.92",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.207",
+      "date": "2025-12-31",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- TRAVEL/FOOD/BEVERAGES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "4bad6f73885dcb36d38437ab26f8f4127b07a921779e2e376e7f4db0681766c2",
+      "source_record_number": 6,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1947425.fec"
+    },
+    {
+      "record_id": "1947425:SA11A.209",
+      "committee_id": "C00879510",
+      "file_number": "1947425",
+      "transaction_id": "SA11A.209",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "1250418.00",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2025-12-31",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- PETITION INCENTIVES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "dfedd59512c7481769e9aefc6ab7688e51d1e849d2eabd9bc3480797177474d1",
+      "source_record_number": 7,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1947425.fec"
+    },
+    {
+      "record_id": "1947425:SA11A.210",
+      "committee_id": "C00879510",
+      "file_number": "1947425",
+      "transaction_id": "SA11A.210",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "1250418.00",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.209",
+      "date": "2025-12-31",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- PETITION INCENTIVES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "c2ffefd7eee0ff79461e207fe96f4baa6ebf81777983fce195e449c7d933812a",
+      "source_record_number": 8,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1947425.fec"
+    },
+    {
+      "record_id": "1947425:SA11A.211",
+      "committee_id": "C00879510",
+      "file_number": "1947425",
+      "transaction_id": "SA11A.211",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "473233.65",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2025-12-31",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- PETITION ADMINISTRATIVE SUPPORT FEES; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "6fa8cd4f9028864e072215b5e6cb3245408650729b0f061807699e29c3020f03",
+      "source_record_number": 9,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1947425.fec"
+    },
+    {
+      "record_id": "1947425:SA11A.212",
+      "committee_id": "C00879510",
+      "file_number": "1947425",
+      "transaction_id": "SA11A.212",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "473233.65",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.211",
+      "date": "2025-12-31",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- PETITION ADMINISTRATIVE SUPPORT FEES; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "5ae33e6fb78a7e5f07372146da7ee3a20f60ba6138ab2e89d26efd007a37bc9a",
+      "source_record_number": 10,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1947425.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.77",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.77",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "4736.58",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "2025-02-18",
+      "election": "",
+      "donor_name": "UNITED STATES OF AMERICA INC",
+      "organization": "UNITED STATES OF AMERICA INC",
+      "memo_text": "INKIND- SUBSCRIPTIONS; SEE ATTRIBUTION BELOW",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "46393a88cb72cd9c33acbdc1cf89e410cd1977081af48038aea5b704fac5c71c",
+      "source_record_number": 4,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    },
+    {
+      "record_id": "1909353:SA11A.78",
+      "committee_id": "C00879510",
+      "file_number": "1909353",
+      "transaction_id": "SA11A.78",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "4736.58",
+      "employer": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.77",
+      "date": "2025-02-18",
+      "election": "",
+      "donor_name": "MUSK, ELON",
+      "organization": "",
+      "memo_text": "INKIND- SUBSCRIPTIONS; PARTNERSHIP ATTRIBUTION",
+      "purpose": "CONTRIBUTION",
+      "source_row_sha256": "ed6d9fb8435f293787eced9a6225d73021d2b0fd5279cf95790ae042438538c1",
+      "source_record_number": 5,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+    }
+  ],
+  "reviewed_context": [
+    {
+      "record_id": "1965287:SA11A.215",
+      "source_row_sha256": "b7cfb45031af3a2629b1e3fcc1efd85125e6ca64ab5afa31da2f0ce56f7401fe",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1965287.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1965287:SA11A.218",
+      "source_row_sha256": "d8336a94010cd427c3b0f3238db2e387134d017b73e8dc789b9e7d83d73ca637",
+      "role": "partnership_attribution",
+      "related_record_id": "1965287:SA11A.215",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1965287.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1965287:SA11A.216",
+      "source_row_sha256": "12f1ffbed359ec1a26412dc1acfb3abde92de491741457c28109d8d636cd30b9",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1965287.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1965287:SA11A.217",
+      "source_row_sha256": "6bf6298c1164ac5b6ddece915fe9d7d7248d7444e9e72aee8d46a24c4598c2a9",
+      "role": "partnership_attribution",
+      "related_record_id": "1965287:SA11A.216",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1965287.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1909353:SA11A.200",
+      "source_row_sha256": "917dcfb0f09fd8b704054d3a5219d132924b8098680b3640b272b06ef0f92774",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1909353:SA11A.201",
+      "source_row_sha256": "83f8d862e4d6bf1888b3245a4e257a26850bc3aa7d20f0ea8ec40cb88b846d7e",
+      "role": "partnership_attribution",
+      "related_record_id": "1909353:SA11A.200",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1994129:SA11A.221",
+      "source_row_sha256": "6b57f005e4c34b237e3deae117dd3820b45cca9c81eddc8b15ee51077e6f9f5b",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1994129:SA11A.222",
+      "source_row_sha256": "f4b1984b52371566690013dc744a78dd928d1c45db8b2102d8901f5359c7d8b3",
+      "role": "partnership_attribution",
+      "related_record_id": "1994129:SA11A.221",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1994129.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1994129:SA11A.223",
+      "source_row_sha256": "a38ca44761e0daee4cf0ff888641da2b3d0819e19176c5abfa137bdfa099aa3c",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1994129:SA11A.224",
+      "source_row_sha256": "89f375d4e2b81fbe68f647a11246d92ff57dd1e25fbbc6d874d79162f4ffddb2",
+      "role": "partnership_attribution",
+      "related_record_id": "1994129:SA11A.223",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1994129.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1994129:SA11A.225",
+      "source_row_sha256": "a0e610b5b4f82fa75418284866f2fd1da6c9159e0b51f0f4bb584dbe848f7fd7",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1994129:SA11A.226",
+      "source_row_sha256": "29119b3af1f519b4c1489195fda8839256f81b8727a7d03f41320535550645cc",
+      "role": "partnership_attribution",
+      "related_record_id": "1994129:SA11A.225",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1994129.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1994129:SA11A.227",
+      "source_row_sha256": "b134db1ab8de5dc0665f8c75e524c2fc01ff6025ff6d32342ace9aed5d611334",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1994129.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1994129:SA11A.228",
+      "source_row_sha256": "130993eb8d035caed879eb49d68140229e8a4b8bc71a62bec7b9a69a9fa87bd6",
+      "role": "partnership_attribution",
+      "related_record_id": "1994129:SA11A.227",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1994129.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1909353:SA11A.202",
+      "source_row_sha256": "30b3d98641970acfc909643b9f45a4c8557c199c5af2a908737603f6b1fa50e9",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1909353:SA11A.203",
+      "source_row_sha256": "7d851b580d6a3c3f4d93f7d2a6b9127844f7dd7224bc87e0daf4454724084d55",
+      "role": "partnership_attribution",
+      "related_record_id": "1909353:SA11A.202",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1909353:SA11A.196",
+      "source_row_sha256": "4817564a9380eb584f29636f724a6bc839e042f86fce963ad2a32b2cdb249341",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1909353:SA11A.197",
+      "source_row_sha256": "c49e600475c34ca313fd28792cdb6c6357766fc8a330c54a42ab2111d4157a73",
+      "role": "partnership_attribution",
+      "related_record_id": "1909353:SA11A.196",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1909353:SA11A.198",
+      "source_row_sha256": "c4009ae15baf2e26184ccea153536e3abcbd23170252e41375a993cfa31718ae",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1909353:SA11A.199",
+      "source_row_sha256": "9869e701c0d5848e8a434400afd25ac0c0c1f65d0d68e9625fb0ed1991c9add0",
+      "role": "partnership_attribution",
+      "related_record_id": "1909353:SA11A.198",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1947425:SA11A.207",
+      "source_row_sha256": "ca14eaf8118e51bd36ae5fecc04f16a3e270fd7b7ff2e174002d451997540b85",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1947425.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1947425:SA11A.208",
+      "source_row_sha256": "4bad6f73885dcb36d38437ab26f8f4127b07a921779e2e376e7f4db0681766c2",
+      "role": "partnership_attribution",
+      "related_record_id": "1947425:SA11A.207",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1947425.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1947425:SA11A.209",
+      "source_row_sha256": "dfedd59512c7481769e9aefc6ab7688e51d1e849d2eabd9bc3480797177474d1",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1947425.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1947425:SA11A.210",
+      "source_row_sha256": "c2ffefd7eee0ff79461e207fe96f4baa6ebf81777983fce195e449c7d933812a",
+      "role": "partnership_attribution",
+      "related_record_id": "1947425:SA11A.209",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1947425.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1947425:SA11A.211",
+      "source_row_sha256": "6fa8cd4f9028864e072215b5e6cb3245408650729b0f061807699e29c3020f03",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1947425.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1947425:SA11A.212",
+      "source_row_sha256": "5ae33e6fb78a7e5f07372146da7ee3a20f60ba6138ab2e89d26efd007a37bc9a",
+      "role": "partnership_attribution",
+      "related_record_id": "1947425:SA11A.211",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1947425.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    },
+    {
+      "record_id": "1909353:SA11A.77",
+      "source_row_sha256": "46393a88cb72cd9c33acbdc1cf89e410cd1977081af48038aea5b704fac5c71c",
+      "role": "context",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec"
+      ],
+      "rationale": "Nonmemo organizational in-kind contribution; its attributed individual share is a separate reporting view, not additional money."
+    },
+    {
+      "record_id": "1909353:SA11A.78",
+      "source_row_sha256": "ed6d9fb8435f293787eced9a6225d73021d2b0fd5279cf95790ae042438538c1",
+      "role": "partnership_attribution",
+      "related_record_id": "1909353:SA11A.77",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1909353.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "The memo explicitly says INKIND and PARTNERSHIP ATTRIBUTION, names the same-file organizational parent by transaction ID, and the sole child equals the complete parent amount."
+    }
+  ],
+  "bulk_comparison": [
+    {
+      "record_id": "1965287:SA11A.218",
+      "bulk_sub_id": "4042820261483875653",
+      "bulk_raw_amount": "347996",
+      "bulk_source_row_sha256": "bd08b46276720148efd0ce783245a36237783650f23295c48aef3a2e2017ab73",
+      "original_amount": "347996.00",
+      "original_source_row_sha256": "d8336a94010cd427c3b0f3238db2e387134d017b73e8dc789b9e7d83d73ca637"
+    },
+    {
+      "record_id": "1965287:SA11A.217",
+      "bulk_sub_id": "4042820261483875655",
+      "bulk_raw_amount": "293451",
+      "bulk_source_row_sha256": "a35506bd96540b103cb97556d1077b6d77ea0d8dc5c1164ebeec115eb5d9851f",
+      "original_amount": "293451.76",
+      "original_source_row_sha256": "6bf6298c1164ac5b6ddece915fe9d7d7248d7444e9e72aee8d46a24c4598c2a9"
+    },
+    {
+      "record_id": "1909353:SA11A.201",
+      "bulk_sub_id": "4081820251218491760",
+      "bulk_raw_amount": "17425",
+      "bulk_source_row_sha256": "021f6d22acba04e9a9af799a8a4fe4389afaca900370b440ee6bcbd7aba25ca1",
+      "original_amount": "17425.00",
+      "original_source_row_sha256": "83f8d862e4d6bf1888b3245a4e257a26850bc3aa7d20f0ea8ec40cb88b846d7e"
+    },
+    {
+      "record_id": "1994129:SA11A.222",
+      "bulk_sub_id": "4080220261540425636",
+      "bulk_raw_amount": "10147",
+      "bulk_source_row_sha256": "be54c854ae3784bd5c861f817c1b2fd0154f29ab629ac0c3d22726a849201a75",
+      "original_amount": "10147.00",
+      "original_source_row_sha256": "f4b1984b52371566690013dc744a78dd928d1c45db8b2102d8901f5359c7d8b3"
+    },
+    {
+      "record_id": "1994129:SA11A.224",
+      "bulk_sub_id": "4080220261540425638",
+      "bulk_raw_amount": "48468",
+      "bulk_source_row_sha256": "aea0e2246a92b925a18852c9a4297edbea74a3340c0e4c28313c44de4d113ac2",
+      "original_amount": "48468.78",
+      "original_source_row_sha256": "89f375d4e2b81fbe68f647a11246d92ff57dd1e25fbbc6d874d79162f4ffddb2"
+    },
+    {
+      "record_id": "1994129:SA11A.226",
+      "bulk_sub_id": "4080220261540425640",
+      "bulk_raw_amount": "33000",
+      "bulk_source_row_sha256": "84a8a7055cf45c65d1d76297a59907d7d43f9d7f773ecedff048eb77ced3b04f",
+      "original_amount": "33000.00",
+      "original_source_row_sha256": "29119b3af1f519b4c1489195fda8839256f81b8727a7d03f41320535550645cc"
+    },
+    {
+      "record_id": "1994129:SA11A.228",
+      "bulk_sub_id": "4080220261540425642",
+      "bulk_raw_amount": "374983",
+      "bulk_source_row_sha256": "4c2cfa97159ccb353f614b12d5adfcaa977c4743e7cb01462460d4ccbb772ad4",
+      "original_amount": "374983.02",
+      "original_source_row_sha256": "130993eb8d035caed879eb49d68140229e8a4b8bc71a62bec7b9a69a9fa87bd6"
+    },
+    {
+      "record_id": "1909353:SA11A.203",
+      "bulk_sub_id": "4081820251218491767",
+      "bulk_raw_amount": "3323",
+      "bulk_source_row_sha256": "85764056fad227abd374ba9aabef1201ae9b7ce272271854cf69af01e5c2ba25",
+      "original_amount": "3323.67",
+      "original_source_row_sha256": "7d851b580d6a3c3f4d93f7d2a6b9127844f7dd7224bc87e0daf4454724084d55"
+    },
+    {
+      "record_id": "1909353:SA11A.197",
+      "bulk_sub_id": "4081820251218491769",
+      "bulk_raw_amount": "27072484",
+      "bulk_source_row_sha256": "fac3070010453377f688c98438ea5943d828df33c95773413a29b8830b1ca284",
+      "original_amount": "27072484.00",
+      "original_source_row_sha256": "c49e600475c34ca313fd28792cdb6c6357766fc8a330c54a42ab2111d4157a73"
+    },
+    {
+      "record_id": "1909353:SA11A.199",
+      "bulk_sub_id": "4081820251218491771",
+      "bulk_raw_amount": "273791",
+      "bulk_source_row_sha256": "f2c814eb52e4c94e0b1a0ab45b96396029a934bd6ea40acf956817c84800a608",
+      "original_amount": "273791.99",
+      "original_source_row_sha256": "9869e701c0d5848e8a434400afd25ac0c0c1f65d0d68e9625fb0ed1991c9add0"
+    },
+    {
+      "record_id": "1947425:SA11A.208",
+      "bulk_sub_id": "4031220261421093479",
+      "bulk_raw_amount": "6054",
+      "bulk_source_row_sha256": "845884a2d44bd8f4a8f453031d721fe68b0580936b6a7e819940e1485c733f0c",
+      "original_amount": "6054.92",
+      "original_source_row_sha256": "4bad6f73885dcb36d38437ab26f8f4127b07a921779e2e376e7f4db0681766c2"
+    },
+    {
+      "record_id": "1947425:SA11A.210",
+      "bulk_sub_id": "4031220261421093481",
+      "bulk_raw_amount": "1250418",
+      "bulk_source_row_sha256": "be537988fa9954e362e118183fe8a1830a4dd33f982a9894ab9b0110bd7f2a53",
+      "original_amount": "1250418.00",
+      "original_source_row_sha256": "c2ffefd7eee0ff79461e207fe96f4baa6ebf81777983fce195e449c7d933812a"
+    },
+    {
+      "record_id": "1947425:SA11A.212",
+      "bulk_sub_id": "4031220261421093483",
+      "bulk_raw_amount": "473233",
+      "bulk_source_row_sha256": "d58f2987fb7f114a8af6f1b6efd7ee27e62126f9d2f995b4b8c5a046aa7ff41b",
+      "original_amount": "473233.65",
+      "original_source_row_sha256": "5ae33e6fb78a7e5f07372146da7ee3a20f60ba6138ab2e89d26efd007a37bc9a"
+    },
+    {
+      "record_id": "1909353:SA11A.78",
+      "bulk_sub_id": "4081820251218491749",
+      "bulk_raw_amount": "4736",
+      "bulk_source_row_sha256": "90bc57618f5da05329b3219ccb45f16bd12f2316447fd8aa3be915e07564ab90",
+      "original_amount": "4736.58",
+      "original_source_row_sha256": "ed6d9fb8435f293787eced9a6225d73021d2b0fd5279cf95790ae042438538c1"
+    }
+  ],
+  "bulk_source_sha256": "8d2c57f932a354a65f42d7b7f6031e3006cb34473eeb4ca882d0e7e70ba13f71",
+  "expected": {
+    "child_count": 14,
+    "parent_count": 14,
+    "partnership_attributions": "30209514.37",
+    "naive_parent_plus_child_sum": "60419028.74",
+    "bulk_selected_memo_sum": "30209509.00",
+    "original_minus_bulk": "5.37",
+    "raw_precision_difference_records": 8,
+    "net_amount": null
+  },
+  "limits": [
+    "All 14 children are reported in-kind partner attributions; they are not 14 independent cash gifts from a corporate employer.",
+    "Parent employers are blank, so this exact employer-match numerator does not also count these parents.",
+    "This preserves the filed allocation treatment without independently verifying legal ownership or valuation of the in-kind goods/services.",
+    "The year-end amendment changes its coverage start. Source review confirms all 46 Schedule A/B rows are unchanged, but the general amendment selector must continue to block an unreviewed changed-period chain.",
+    "The eight raw amount differences are demonstrated in these source pairs; no universal rounding rule for FEC data is asserted."
+  ]
+}

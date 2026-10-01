@@ -62,6 +62,14 @@ def _download(url: str, destination: Path) -> float | None:
                         )
                     else:
                         print(f"    Downloaded {downloaded:,} bytes")
+            if total and downloaded != total:
+                raise OSError(
+                    f"Incomplete download for {url}: expected {total:,} bytes, "
+                    f"received {downloaded:,}"
+                )
+        # Check the archive directory before replacing a usable local ZIP.
+        with zipfile.ZipFile(temp_path):
+            pass
         temp_path.replace(destination)
         if remote_ts is not None:
             os.utime(destination, (remote_ts, remote_ts))
@@ -79,7 +87,13 @@ def _apply_timestamp(path: Path, timestamp: float | None) -> None:
     os.utime(path, (timestamp, timestamp))
 
 
-def _refresh_extract_dir(zip_path: Path, extract_dir: Path, timestamp: float | None) -> None:
+def _refresh_extract_dir(
+    zip_path: Path,
+    extract_dir: Path,
+    timestamp: float | None,
+    *,
+    expected_file: str | None = None,
+) -> None:
     extract_parent = extract_dir.parent
     extract_parent.mkdir(parents=True, exist_ok=True)
     temp_dir = Path(
@@ -93,10 +107,14 @@ def _refresh_extract_dir(zip_path: Path, extract_dir: Path, timestamp: float | N
         with zipfile.ZipFile(zip_path) as zf:
             zf.extractall(temp_dir)
 
+        if expected_file and not (temp_dir / expected_file).is_file():
+            raise FileNotFoundError(
+                f"Expected extracted file missing from {zip_path}: {expected_file}"
+            )
+        _apply_timestamp(temp_dir, timestamp)
         if extract_dir.exists():
             shutil.rmtree(extract_dir)
         temp_dir.replace(extract_dir)
-        _apply_timestamp(extract_dir, timestamp)
     finally:
         if temp_dir.exists():
             shutil.rmtree(temp_dir, ignore_errors=True)
@@ -124,12 +142,11 @@ def update_cycle(cycle: int, *, force: bool = False) -> None:
             continue
 
         print(f"  {spec.label}: downloading {url}")
-        if remote_mtime is None:
-            remote_mtime = _download(url, zip_path)
-        else:
-            remote_mtime = _download(url, zip_path)
+        remote_mtime = _download(url, zip_path)
         print(f"  {spec.label}: extracting to {extract_path.parent}")
-        _refresh_extract_dir(zip_path, extract_path.parent, remote_mtime)
+        _refresh_extract_dir(
+            zip_path, extract_path.parent, remote_mtime, expected_file=spec.local_file
+        )
 
         expected_path = extract_path.parent / spec.local_file
         if not expected_path.exists():

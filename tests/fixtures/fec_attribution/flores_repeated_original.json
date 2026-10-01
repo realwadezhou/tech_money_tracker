@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "case_id": "flores_repeated_original",
+  "title": "Lila Flores: repeated original memo and balanced redesignation",
+  "cycle": 2024,
+  "scope": "Only the explicitly listed source records and reviewed relationships. Not a complete donor, committee, cycle, or all-recipient total.",
+  "field_layout": {
+    "field_layout_url": "https://fecgov.github.io/fecfile-validate/SchA_spec.html",
+    "official_workbook_url": "https://docquery.fec.gov/formatspecs/FEC_EFO_Format_Specifications.xlsx",
+    "reviewed_workbook_sha256": "c667016493df28c186445201cf8a2bcff43563bccc41b75b2bcc06366b69132b",
+    "workbook_reviewed_version": "8.5",
+    "delimiter": "ASCII 28",
+    "columns_one_based": {
+      "schedule": 1,
+      "committee_id": 2,
+      "transaction_id": 3,
+      "back_reference_transaction_id": 4,
+      "back_reference_schedule": 5,
+      "entity_type": 6,
+      "organization": 7,
+      "last_name": 8,
+      "first_name": 9,
+      "middle_name": 10,
+      "prefix": 11,
+      "suffix": 12,
+      "election": 18,
+      "date": 20,
+      "amount": 21,
+      "aggregate": 22,
+      "purpose": 23,
+      "employer": 24,
+      "occupation": 25,
+      "other_committee_id": 26,
+      "memo_code": 43,
+      "memo_text": 44
+    },
+    "note": "Source headers independently record 8.4 or 8.5. These selected Sch A columns have the same observed layout in the reviewed records. This fixture is not a parser specification for arbitrary filing versions."
+  },
+  "sources": [
+    {
+      "file_number": 1751145,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1751145.fec",
+      "source_sha256": "48f941e6d7032cebc82d56327dd537c1219b88e9b9891a49b97720ccad09844e",
+      "source_bytes": 969168,
+      "format_version": "8.4",
+      "source_form_type": "F3N",
+      "original_file_number_from_hdr": "",
+      "amendment_sequence_from_hdr": "",
+      "selected_transaction_ids": [
+        "SA11A.49706"
+      ],
+      "redacted_snippet": "redacted_schedule_a/1751145.schedule_a.redacted.fec",
+      "redacted_snippet_sha256": "30b28ea55a7a655b2af7b3a27bee16f36d1c0c86e8d2609730cb1460c5782325",
+      "redaction": "HDR first seven fields and selected 45-column Schedule A records only; every field not in field_layout.columns_one_based is blank. Full report/form records and all contributor location fields omitted."
+    },
+    {
+      "file_number": 1795001,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1795001.fec",
+      "source_sha256": "459e3111d03db26e859899e0367d2c213bd9c3107fb36dd4ca10161a5a5da8b3",
+      "source_bytes": 2201276,
+      "format_version": "8.4",
+      "source_form_type": "F3A",
+      "original_file_number_from_hdr": "FEC-1770378",
+      "amendment_sequence_from_hdr": "1",
+      "selected_transaction_ids": [
+        "SA11A.49706",
+        "SA11A.84136",
+        "SA11A.84137"
+      ],
+      "redacted_snippet": "redacted_schedule_a/1795001.schedule_a.redacted.fec",
+      "redacted_snippet_sha256": "2c70cce6eef6d7572e50e501cbea7cf6807f807434f14e149245663073aa7b35",
+      "redaction": "HDR first seven fields and selected 45-column Schedule A records only; every field not in field_layout.columns_one_based is blank. Full report/form records and all contributor location fields omitted."
+    }
+  ],
+  "records": [
+    {
+      "record_id": "1751145:SA11A.49706",
+      "file_number": 1751145,
+      "committee_id": "C00851980",
+      "transaction_id": "SA11A.49706",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "6600.00",
+      "employer": "PALANTIR",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "20231212",
+      "election": "P2024",
+      "donor_name": "FLORES, LILA",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1751145.fec"
+      ],
+      "source_record_number": 2286,
+      "source_row_sha256": "4c8e399e71c9642795091c5d727faf23fcea482f912b50c73315f0134aad7737",
+      "redacted_row_sha256": "565715263c292e2877263eeaf7d7bd3f04cb21d18cfbcd9de7cf483c207f006b",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00851980",
+        "transaction_id": "SA11A.49706",
+        "back_reference_transaction_id": "",
+        "back_reference_schedule": "",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "FLORES",
+        "first_name": "LILA",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "P2024",
+        "date": "20231212",
+        "amount": "6600.00",
+        "aggregate": "6600.00",
+        "purpose": "CONTRIBUTION",
+        "employer": "PALANTIR",
+        "occupation": "EXECUTIVE",
+        "other_committee_id": "",
+        "memo_code": "",
+        "memo_text": "REATTRIBUTION / REDESIGNATION REQUESTED"
+      }
+    },
+    {
+      "record_id": "1795001:SA11A.49706",
+      "file_number": 1795001,
+      "committee_id": "C00851980",
+      "transaction_id": "SA11A.49706",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "6600.00",
+      "employer": "PALANTIR",
+      "memo": true,
+      "back_reference_transaction_id": "",
+      "date": "20231212",
+      "election": "P2024",
+      "donor_name": "FLORES, LILA",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1795001.fec"
+      ],
+      "source_record_number": 13,
+      "source_row_sha256": "3f41a7de342dfe0e743ce58e90af23391a05aa330009c5ec1b1a5e417f75b34c",
+      "redacted_row_sha256": "9e13ea5fa57e93db0010aea143fb6cb9369385576a3714522eef7072a87ebb18",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00851980",
+        "transaction_id": "SA11A.49706",
+        "back_reference_transaction_id": "",
+        "back_reference_schedule": "",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "FLORES",
+        "first_name": "LILA",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "P2024",
+        "date": "20231212",
+        "amount": "6600.00",
+        "aggregate": "6600.00",
+        "purpose": "CONTRIBUTION",
+        "employer": "PALANTIR",
+        "occupation": "EXECUTIVE",
+        "other_committee_id": "",
+        "memo_code": "X",
+        "memo_text": "SEE REDESIGNATION"
+      }
+    },
+    {
+      "record_id": "1795001:SA11A.84136",
+      "file_number": 1795001,
+      "committee_id": "C00851980",
+      "transaction_id": "SA11A.84136",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "-3300.00",
+      "employer": "PALANTIR",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.49706",
+      "date": "20240210",
+      "election": "P2024",
+      "donor_name": "FLORES, LILA",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1795001.fec"
+      ],
+      "source_record_number": 14,
+      "source_row_sha256": "1a0d2deb69d749e1c0d6c1cd3b746e73d7459991824f662a4b7201f419bc3a9f",
+      "redacted_row_sha256": "30906e5e94fee66810be3bdee35f048dd22ff3d6bd240b899cc8424cf2d04ab3",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00851980",
+        "transaction_id": "SA11A.84136",
+        "back_reference_transaction_id": "SA11A.49706",
+        "back_reference_schedule": "SA11AI",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "FLORES",
+        "first_name": "LILA",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "P2024",
+        "date": "20240210",
+        "amount": "-3300.00",
+        "aggregate": "6600.00",
+        "purpose": "CONTRIBUTION",
+        "employer": "PALANTIR",
+        "occupation": "EXECUTIVE",
+        "other_committee_id": "",
+        "memo_code": "X",
+        "memo_text": "REDESIGNATION TO GENERAL"
+      }
+    },
+    {
+      "record_id": "1795001:SA11A.84137",
+      "file_number": 1795001,
+      "committee_id": "C00851980",
+      "transaction_id": "SA11A.84137",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "3300.00",
+      "employer": "PALANTIR",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.49706",
+      "date": "20240210",
+      "election": "G2024",
+      "donor_name": "FLORES, LILA",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1795001.fec"
+      ],
+      "source_record_number": 15,
+      "source_row_sha256": "3d13221d1b6255084e2ddf6bd776c476684518eeafbc9e138934c853f93c891e",
+      "redacted_row_sha256": "43103fc46d31b359c881efdc8feb6aacfe5a8317a1304cc5322b1298898ed424",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00851980",
+        "transaction_id": "SA11A.84137",
+        "back_reference_transaction_id": "SA11A.49706",
+        "back_reference_schedule": "SA11AI",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "FLORES",
+        "first_name": "LILA",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "G2024",
+        "date": "20240210",
+        "amount": "3300.00",
+        "aggregate": "6600.00",
+        "purpose": "CONTRIBUTION",
+        "employer": "PALANTIR",
+        "occupation": "EXECUTIVE",
+        "other_committee_id": "",
+        "memo_code": "X",
+        "memo_text": "REDESIGNATION FROM PRIMARY"
+      }
+    }
+  ],
+  "reviewed_context": [
+    {
+      "record_id": "1751145:SA11A.49706",
+      "source_row_sha256": "4c8e399e71c9642795091c5d727faf23fcea482f912b50c73315f0134aad7737",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:lila-flores-SA11A.49706",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1751145.fec"
+      ],
+      "rationale": "Nonmemo original $6,600 receipt before the later redesignation report."
+    },
+    {
+      "record_id": "1795001:SA11A.49706",
+      "source_row_sha256": "3f41a7de342dfe0e743ce58e90af23391a05aa330009c5ec1b1a5e417f75b34c",
+      "role": "repeated_original",
+      "related_record_id": "1751145:SA11A.49706",
+      "identity_key": "review:lila-flores-SA11A.49706",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1795001.fec"
+      ],
+      "rationale": "Same original transaction ID repeated as a memo with SEE REDESIGNATION; the later signed children explicitly reference this transaction ID."
+    },
+    {
+      "record_id": "1795001:SA11A.84136",
+      "source_row_sha256": "1a0d2deb69d749e1c0d6c1cd3b746e73d7459991824f662a4b7201f419bc3a9f",
+      "role": "adjustment",
+      "related_record_id": "1751145:SA11A.49706",
+      "identity_key": "review:lila-flores-SA11A.49706",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1795001.fec"
+      ],
+      "rationale": "Explicit source redesignation child links to original transaction SA11A.49706; signed primary/general adjustments preserve the receipt amount."
+    },
+    {
+      "record_id": "1795001:SA11A.84137",
+      "source_row_sha256": "3d13221d1b6255084e2ddf6bd776c476684518eeafbc9e138934c853f93c891e",
+      "role": "adjustment",
+      "related_record_id": "1751145:SA11A.49706",
+      "identity_key": "review:lila-flores-SA11A.49706",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1795001.fec"
+      ],
+      "rationale": "Explicit source redesignation child links to original transaction SA11A.49706; signed primary/general adjustments preserve the receipt amount."
+    }
+  ],
+  "expected": {
+    "direct_receipts": "6600.00",
+    "jfc_allocations": "0.00",
+    "partnership_attributions": "0.00",
+    "signed_adjustments": "0.00",
+    "attributed_total": "6600.00",
+    "campaign_cash_receipts_in_excerpt": "6600.00",
+    "naive_all_record_signed_sum": "13200.00",
+    "repeated_original_record_count": 1,
+    "election_attribution": {
+      "P2024": "3300.00",
+      "G2024": "3300.00"
+    },
+    "unresolved_receipt_count_after_review": 0
+  },
+  "limits": [
+    "These are distinct reporting periods, not two versions of one report to discard wholesale.",
+    "Suppressing the repeated original requires its exact retained original in the inputs with verified contents.",
+    "This is an explicitly reviewed chain, not a rule that matching name/date/amount proves duplication."
+  ]
+}

@@ -89,8 +89,8 @@ def load_candidate_party_table(cm: pd.DataFrame, cycle: int) -> pd.DataFrame:
     """Build a candidate_id -> party table from the FEC candidate master."""
     cn = load_candidate_master_table(cycle)
     candidates = cn[["cand_id", "cand_name", "cand_pcc", "cand_pty_affiliation"]].copy()
-    candidates = cn[cn["cand_election_yr"] == str(cycle)].copy()
-    candidates = candidates[["cand_id", "cand_name", "cand_pcc", "cand_pty_affiliation"]]
+    # The cycle's master includes candidates raising/spending for other election
+    # years (notably senators). Their activity still supplies partisan evidence.
     candidates["party_dr"] = candidates["cand_pty_affiliation"].map(PARTY_MAP)
     candidates["candidate_source"] = "candidate_master"
     candidates = candidates[candidates["party_dr"].notna()].copy()
@@ -126,6 +126,7 @@ def classify_committees_from_party_field(cm: pd.DataFrame) -> pd.DataFrame:
     has_party = result["party_dr"].notna()
     is_cand_or_party = result["cmte_tp"].isin(["H", "S", "P", "X", "Y"])
     direct = has_party & is_cand_or_party
+    result.loc[~direct, "party_dr"] = pd.NA
     result.loc[direct, "classification_source"] = "party_field"
 
     n_classified = direct.sum()
@@ -162,9 +163,18 @@ def build_behavioral_committee_classification(
     suffix = str(cycle)[2:]
     base = FEC_INTERIM_ROOT / str(cycle)
     ccl = load_candidate_linkage_table(cycle)
+    candidate_links = ccl.loc[
+        ccl["cand_id"].isin(cand_party) &
+        ccl["cmte_dsgn"].isin(["P", "A"]) &
+        ccl["fec_election_yr"].eq(str(cycle)),
+        ["cmte_id", "cand_id"],
+    ].drop_duplicates()
+    # A joint/shared committee must not be assigned to an arbitrary candidate.
+    candidate_links = candidate_links[
+        candidate_links.groupby("cmte_id")["cand_id"].transform("nunique").eq(1)
+    ]
     cmte_to_cand = (
-        ccl.loc[ccl["cand_id"] != "", ["cmte_id", "cand_id"]]
-        .drop_duplicates(subset=["cmte_id"])
+        candidate_links
         .set_index("cmte_id")["cand_id"]
         .to_dict()
     )
@@ -180,7 +190,10 @@ def build_behavioral_committee_classification(
     ).fillna(0.0)
 
     # 24E = support, 24A = oppose
-    ies = itoth[itoth["transaction_tp"].isin(["24E", "24A"])].copy()
+    ies = itoth[
+        itoth["transaction_tp"].isin(["24E", "24A"]) &
+        (itoth["memo_cd"] != "X")
+    ].copy()
     ies["target_cand_id"] = ies["other_id"].map(cmte_to_cand)
     ies["target_cand_id"] = ies["target_cand_id"].where(
         ies["target_cand_id"].notna() & (ies["target_cand_id"] != ""),
@@ -279,15 +292,21 @@ def build_behavioral_committee_classification(
     behavioral["evidence_total"] = (
         behavioral["dem_evidence_amt"] + behavioral["rep_evidence_amt"]
     )
+    valid_evidence = (
+        (behavioral["evidence_total"] > 0) &
+        (behavioral["dem_evidence_amt"] >= 0) &
+        (behavioral["rep_evidence_amt"] >= 0)
+    )
     behavioral["evidence_pct_dem"] = (
         behavioral["dem_evidence_amt"] /
-        behavioral["evidence_total"].replace(0, float("nan"))
+        behavioral["evidence_total"].where(valid_evidence)
     )
     behavioral["evidence_pct_rep"] = (
         behavioral["rep_evidence_amt"] /
-        behavioral["evidence_total"].replace(0, float("nan"))
+        behavioral["evidence_total"].where(valid_evidence)
     )
-    behavioral["behavioral_party"] = "Mixed"
+    behavioral["behavioral_party"] = "Unknown"
+    behavioral.loc[valid_evidence, "behavioral_party"] = "Mixed"
     behavioral.loc[
         behavioral["evidence_pct_dem"] >= PARTISAN_LEAN_THRESHOLD,
         "behavioral_party",
@@ -390,18 +409,25 @@ def classify_donors(
     donor_split["overall_total"] = (
         donor_split["classified_total"] + donor_split["Mixed"] + donor_split["Unknown"]
     )
+    valid_classified = (
+        (donor_split["classified_total"] > 0) &
+        (donor_split["D"] >= 0) & (donor_split["R"] >= 0)
+    )
     donor_split["pct_d"] = (
         donor_split["D"] /
-        donor_split["classified_total"].replace(0, float("nan"))
+        donor_split["classified_total"].where(valid_classified)
     )
     donor_split["pct_classified"] = (
         donor_split["classified_total"] /
-        donor_split["overall_total"].replace(0, float("nan"))
+        donor_split["overall_total"].where(
+            (donor_split["overall_total"] > 0) &
+            donor_split[["D", "R", "Mixed", "Unknown"]].ge(0).all(axis=1)
+        )
     )
 
     donor_split["pct_r"] = (
         donor_split["R"] /
-        donor_split["classified_total"].replace(0, float("nan"))
+        donor_split["classified_total"].where(valid_classified)
     )
 
     donor_split["donor_party"] = "Mixed"
@@ -413,7 +439,7 @@ def classify_donors(
         donor_split["pct_r"] >= PARTISAN_LEAN_THRESHOLD,
         "donor_party",
     ] = "R"
-    donor_split.loc[donor_split["classified_total"] <= 0, "donor_party"] = "Unknown"
+    donor_split.loc[~valid_classified, "donor_party"] = "Unknown"
 
     all_donors = pd.DataFrame({"name": tagged["name"].unique()})
     donor_result = all_donors.merge(

@@ -31,6 +31,58 @@ from pipeline.classify_partisan import (
 )
 from pipeline.common.paths import fec_cycle_derived_dir
 from pipeline.fec.load import load_cycle, tag_tech_donors
+from pipeline.fec.committee_history import load_converted_campaigns
+
+
+RECEIPT_CONTEXT_NUMERIC_COLUMNS = [
+    "selected_record_net_total", "nonmemo_receipt_net_total",
+    "memo_receipt_net_total", "memo_receipt_record_count",
+]
+RECEIPT_MEMO_RISK_COLUMN = "has_unreconciled_memo_attributions"
+
+
+def build_receipt_record_context(tagged: pd.DataFrame) -> pd.DataFrame:
+    """Preserve attribution records without asserting a unique receipt total.
+
+    Partnership receipts and partner memo attributions can describe the same
+    dollars. Their combined sum is not a reconciled denominator. The nonmemo
+    sum is diagnostic, not a complete receipt total for this selected file.
+    https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/
+    """
+    result = tagged.groupby("cmte_id").agg(
+        selected_record_net_total=("net_amt", "sum"),
+    ).reset_index()
+    memo_codes = tagged["memo_cd"] if "memo_cd" in tagged else pd.Series("", index=tagged.index)
+    memo = memo_codes.fillna("").eq("X")
+    memo_summary = tagged.loc[memo, ["cmte_id", "net_amt"]].groupby("cmte_id").agg(
+        memo_receipt_net_total=("net_amt", "sum"),
+        memo_receipt_record_count=("net_amt", "size"),
+        has_unreconciled_memo_attributions=("net_amt", lambda values: values.ne(0).any()),
+    ).reset_index()
+    result = result.merge(memo_summary, on="cmte_id", how="left")
+    result["memo_receipt_net_total"] = result["memo_receipt_net_total"].fillna(0)
+    result["memo_receipt_record_count"] = result["memo_receipt_record_count"].fillna(0).astype(int)
+    result[RECEIPT_MEMO_RISK_COLUMN] = result[RECEIPT_MEMO_RISK_COLUMN].eq(True).fillna(False).astype(bool)
+    result["nonmemo_receipt_net_total"] = (
+        result["selected_record_net_total"] - result["memo_receipt_net_total"]
+    )
+    return result
+
+
+def _attach_receipt_context_rollup(
+    result: pd.DataFrame, candidates: pd.DataFrame, keys: list[str],
+) -> pd.DataFrame:
+    """Carry any candidate's unresolved memo status into regional summaries."""
+    aggregations = {
+        column: (column, "sum") for column in RECEIPT_CONTEXT_NUMERIC_COLUMNS
+        if column in candidates.columns
+    }
+    if RECEIPT_MEMO_RISK_COLUMN in candidates.columns:
+        aggregations[RECEIPT_MEMO_RISK_COLUMN] = (RECEIPT_MEMO_RISK_COLUMN, "max")
+    if aggregations:
+        context = candidates.groupby(keys).agg(**aggregations).reset_index()
+        result = result.merge(context, on=keys, how="left", validate="one_to_one")
+    return result
 
 
 def build_tech_donor_summary(
@@ -48,7 +100,7 @@ def build_tech_donor_summary(
     # Per-donor summary
     donors = tech.groupby("name").agg(
         net_total=("net_amt", "sum"),
-        gross_positive=("transaction_amt", lambda x: x[x > 0].sum()),
+        gross_positive=("net_amt", lambda x: x[x > 0].sum()),
         n_contributions=("net_amt", "size"),
         n_committees=("cmte_id", "nunique"),
         employers=("employer", lambda x: "; ".join(sorted(x.unique()))),
@@ -62,7 +114,7 @@ def build_tech_donor_summary(
 
     # Find each donor's top committee by amount
     top_cmte = (
-        tech.groupby(["name", "cmte_id", "cmte_nm", "cmte_tp"])
+        tech.groupby(["name", "cmte_id", "cmte_nm", "cmte_tp"], dropna=False)
         .agg(cmte_amt=("net_amt", "sum"))
         .reset_index()
         .sort_values("cmte_amt", ascending=False)
@@ -108,7 +160,7 @@ def build_tech_company_summary(
     tagged: pd.DataFrame,
     committee_party_classification: pd.DataFrame,
 ) -> pd.DataFrame:
-    """One row per tech company with employee giving totals and partisan split.
+    """One row per company with selected employer-matched sums and partisan split.
 
     Uses inferred committee partisan lean, not just raw filed party.
     """
@@ -161,14 +213,21 @@ def build_tech_company_summary(
             companies[col] = 0.0
 
     companies["classified_recipient_total"] = companies["amt_dem"] + companies["amt_rep"]
+    valid_classified = (
+        (companies["classified_recipient_total"] > 0) &
+        (companies["amt_dem"] >= 0) & (companies["amt_rep"] >= 0)
+    )
     companies["pct_dem"] = (
         companies["amt_dem"] /
-        companies["classified_recipient_total"].replace(0, float("nan"))
+        companies["classified_recipient_total"].where(valid_classified)
         * 100
     )
     companies["pct_classified_recipients"] = (
         companies["classified_recipient_total"] /
-        companies["net_total"].replace(0, float("nan"))
+        companies["net_total"].where(
+            (companies["net_total"] > 0) &
+            companies[["amt_dem", "amt_rep", "amt_mixed", "amt_unknown"]].ge(0).all(axis=1)
+        )
         * 100
     )
 
@@ -257,7 +316,7 @@ def build_entity_party_lean(
     company_rows["entity_subtype"] = "tech_company"
     company_rows["party_label"] = "Unknown"
     company_rows.loc[
-        company_rows["classified_recipient_total"] > 0, "party_label"
+        company_rows["pct_dem"].notna(), "party_label"
     ] = "Mixed"
     company_rows["pct_rep"] = 100.0 - company_rows["pct_dem"]
     company_rows.loc[
@@ -410,6 +469,17 @@ def _district_sort_value(value: object) -> int:
         return 999
 
 
+def _meaningful_share(part: pd.Series, total: pd.Series) -> pd.Series:
+    """Return a percentage only when signed net amounts define a valid share.
+
+    Refunds can make the total nonpositive or the tech subtotal negative/larger
+    than the total. Preserve those dollar values, but leave the share undefined.
+    Zero tech receipts out of a positive total are a meaningful zero percent.
+    """
+    valid = total.gt(0) & part.ge(0) & part.le(total)
+    return part.div(total.where(valid)).mul(100.0)
+
+
 def _assign_party_label(
     df: pd.DataFrame,
     dem_col: str,
@@ -419,18 +489,22 @@ def _assign_party_label(
     pct_rep_col: str = "pct_rep",
 ) -> pd.DataFrame:
     classified_total = df[dem_col].fillna(0.0) + df[rep_col].fillna(0.0)
+    valid_classified = (
+        (classified_total > 0) &
+        (df[dem_col].fillna(0.0) >= 0) & (df[rep_col].fillna(0.0) >= 0)
+    )
     df[pct_dem_col] = (
         df[dem_col].fillna(0.0) /
-        classified_total.replace(0, float("nan"))
+        classified_total.where(valid_classified)
         * 100
     )
     df[pct_rep_col] = (
         df[rep_col].fillna(0.0) /
-        classified_total.replace(0, float("nan"))
+        classified_total.where(valid_classified)
         * 100
     )
     df[label_col] = "Unknown"
-    df.loc[classified_total > 0, label_col] = "Mixed"
+    df.loc[valid_classified, label_col] = "Mixed"
     df.loc[df[pct_dem_col] >= PARTISAN_LEAN_THRESHOLD * 100.0, label_col] = "D"
     df.loc[df[pct_rep_col] >= PARTISAN_LEAN_THRESHOLD * 100.0, label_col] = "R"
     return df
@@ -441,6 +515,54 @@ def _displayable_candidates(candidate_race: pd.DataFrame) -> pd.DataFrame:
     if "is_display_candidate" not in candidate_race.columns:
         return candidate_race.copy()
     return candidate_race[candidate_race["is_display_candidate"]].copy()
+
+
+def _candidate_receipt_links(
+    linkage: pd.DataFrame,
+    candidates: pd.DataFrame,
+    committees: pd.DataFrame,
+    converted_campaigns: pd.DataFrame | None = None,
+) -> pd.DataFrame:
+    """Resolve one candidate per campaign committee for receipt attribution.
+
+    The linkage file also contains joint fundraisers, leadership PACs, and
+    unauthorized committees. Their full receipts are not a candidate's receipts.
+    Use the committee master's current candidate ID to disambiguate shared or
+    historical links; unresolved shared links cannot safely allocate dollars.
+    See https://www.fec.gov/campaign-finance-data/candidate-committee-linkage-file-description/
+    """
+    links = linkage[linkage["cand_id"].isin(candidates["cand_id"])].copy()
+    historical_links = pd.DataFrame(columns=["cand_id", "cmte_id"])
+    if converted_campaigns is not None:
+        # FEC history explicitly identifies former campaign committees even
+        # when current committee/linkage fields now describe a converted PAC.
+        historical_links = links[["cand_id", "cmte_id"]].merge(
+            converted_campaigns[["cand_id", "cmte_id"]], on=["cand_id", "cmte_id"], how="inner",
+        )
+    links = links.merge(
+        committees[["cmte_id", "cmte_tp", "cmte_dsgn", "cand_id"]].rename(
+            columns={
+                "cmte_tp": "master_cmte_tp",
+                "cmte_dsgn": "master_cmte_dsgn",
+                "cand_id": "master_cand_id",
+            }
+        ),
+        on="cmte_id", how="left", validate="many_to_one",
+    )
+    committee_type = links["master_cmte_tp"].replace("", pd.NA).fillna(links["cmte_tp"])
+    designation = links["master_cmte_dsgn"].replace("", pd.NA).fillna(links["cmte_dsgn"])
+    links = links[
+        committee_type.isin(["H", "S", "P"]) & designation.isin(["P", "A"])
+    ].drop_duplicates(["cand_id", "cmte_id"])
+    master_candidate = links["master_cand_id"].fillna("")
+    links = links[
+        master_candidate.eq("") | links["cand_id"].eq(master_candidate)
+    ].copy()
+    links = pd.concat(
+        [links[["cand_id", "cmte_id"]], historical_links], ignore_index=True,
+    ).drop_duplicates()
+    candidate_count = links.groupby("cmte_id")["cand_id"].transform("nunique")
+    return links.loc[candidate_count.eq(1), ["cand_id", "cmte_id"]].copy()
 
 
 def build_candidate_race_summary(
@@ -490,6 +612,9 @@ def build_candidate_race_summary(
         )
         .reset_index()
     )
+    all_receipts = all_receipts.merge(
+        build_receipt_record_context(tagged), on="cmte_id", validate="one_to_one",
+    )
     tech = tagged[tagged["is_tech_employer"]].copy()
     tech_receipts = (
         tech.groupby("cmte_id")
@@ -502,7 +627,15 @@ def build_candidate_race_summary(
         .reset_index()
     )
 
-    linkage_finance = linkage[["cand_id", "cmte_id"]].drop_duplicates()
+    converted_campaigns = load_converted_campaigns(cycle)
+    receipt_links = _candidate_receipt_links(
+        linkage, candidates, committees, converted_campaigns,
+    )
+    linkage_finance = receipt_links.copy()
+    former_ids = set(converted_campaigns["cmte_id"])
+    linkage_finance["receipt_account_scope"] = linkage_finance["cmte_id"].map(
+        lambda committee: "former_campaign_account" if committee in former_ids else "current_campaign_account"
+    )
     linkage_finance = linkage_finance.merge(all_receipts, on="cmte_id", how="left")
     linkage_finance = linkage_finance.merge(tech_receipts, on="cmte_id", how="left")
     for col in [
@@ -511,8 +644,9 @@ def build_candidate_race_summary(
         "tech_itemized_receipts",
         "tech_itemized_donors",
         "tech_itemized_contributions",
-    ]:
+    ] + RECEIPT_CONTEXT_NUMERIC_COLUMNS:
         linkage_finance[col] = linkage_finance[col].fillna(0)
+    linkage_finance[RECEIPT_MEMO_RISK_COLUMN] = linkage_finance[RECEIPT_MEMO_RISK_COLUMN].eq(True).fillna(False).astype(bool)
     linkage_finance["tech_companies"] = linkage_finance["tech_companies"].fillna("")
 
     receipt_summary = (
@@ -524,16 +658,63 @@ def build_candidate_race_summary(
             tech_itemized_donors=("tech_itemized_donors", "sum"),
             tech_itemized_contributions=("tech_itemized_contributions", "sum"),
             tech_company_tags=("tech_companies", lambda x: "; ".join(sorted({tag for tags in x for tag in tags.split("; ") if tag}))),
+            **{column: (column, "sum") for column in RECEIPT_CONTEXT_NUMERIC_COLUMNS},
+            has_unreconciled_memo_attributions=(RECEIPT_MEMO_RISK_COLUMN, "max"),
         )
         .reset_index()
     )
-    receipt_summary["tech_pct_itemized_receipts"] = (
-        receipt_summary["tech_itemized_receipts"] /
-        receipt_summary["total_itemized_receipts"].replace(0, float("nan"))
-        * 100
+    # Conversion notices establish former ownership, not the conversion date.
+    # Preserve the legacy combined measure but expose separate account groups;
+    # none of a converted account's receipts are asserted to predate conversion.
+    component_number_cols = []
+    component_text_cols = []
+    for scope in ("current_campaign_account", "former_campaign_account"):
+        scoped = linkage_finance[linkage_finance["receipt_account_scope"].eq(scope)]
+        component = scoped.groupby("cand_id").agg(
+            total_itemized_receipts=("total_itemized_receipts", "sum"),
+            tech_itemized_receipts=("tech_itemized_receipts", "sum"),
+            tech_itemized_contributions=("tech_itemized_contributions", "sum"),
+            committee_count=("cmte_id", "nunique"),
+            committee_ids=("cmte_id", lambda x: "; ".join(sorted(x.unique()))),
+            **{column: (column, "sum") for column in RECEIPT_CONTEXT_NUMERIC_COLUMNS},
+            has_unreconciled_memo_attributions=(RECEIPT_MEMO_RISK_COLUMN, "max"),
+        ).reset_index()
+        numeric = [name for name in component.columns
+                   if name not in {"cand_id", "committee_ids", RECEIPT_MEMO_RISK_COLUMN}]
+        component_number_cols.extend(f"{scope}_{name}" for name in numeric)
+        component_text_cols.append(f"{scope}_committee_ids")
+        component = component.rename(columns={name: f"{scope}_{name}" for name in component.columns if name != "cand_id"})
+        receipt_summary = receipt_summary.merge(component, on="cand_id", how="left")
+    # A donor giving to two authorized committees of one candidate is still one
+    # donor. Summing per-committee distinct counts overstates this statistic.
+    cmte_candidate = receipt_links.set_index("cmte_id")["cand_id"]
+    donor_candidates = tagged.loc[
+        tagged["cmte_id"].isin(cmte_candidate.index),
+        ["cmte_id", "name", "is_tech_employer"],
+    ].copy()
+    donor_candidates["cand_id"] = donor_candidates["cmte_id"].map(cmte_candidate)
+    unique_donors = donor_candidates.groupby("cand_id")["name"].nunique()
+    unique_tech_donors = donor_candidates.loc[
+        donor_candidates["is_tech_employer"]
+    ].groupby("cand_id")["name"].nunique()
+    receipt_summary["total_itemized_donors"] = receipt_summary["cand_id"].map(unique_donors).fillna(0)
+    receipt_summary["tech_itemized_donors"] = receipt_summary["cand_id"].map(unique_tech_donors).fillna(0)
+    del donor_candidates
+    receipt_summary["tech_pct_itemized_receipts"] = _meaningful_share(
+        receipt_summary["tech_itemized_receipts"],
+        receipt_summary["total_itemized_receipts"],
     )
+    receipt_summary.loc[
+        receipt_summary[RECEIPT_MEMO_RISK_COLUMN], "tech_pct_itemized_receipts"
+    ] = float("nan")
 
-    cmte_to_cand = linkage.set_index("cmte_id")["cand_id"].to_dict()
+    # A committee-valued IE target can identify a current campaign account.
+    # Former-account ownership alone does not prove that spending targeting a
+    # converted PAC supports its former candidate; explicit candidate IDs still
+    # resolve normally below. No conversion-date cutoff is available here.
+    cmte_to_cand = receipt_links.loc[
+        ~receipt_links["cmte_id"].isin(former_ids)
+    ].set_index("cmte_id")["cand_id"].to_dict()
     ies = committee_spending[
         committee_spending["transaction_tp"].isin(["24E", "24A"])
     ].copy()
@@ -591,22 +772,28 @@ def build_candidate_race_summary(
         "tech_funded_ie_support_total",
         "tech_funded_ie_oppose_total",
         "tech_funded_ie_net_support",
-    ]
+    ] + component_number_cols + RECEIPT_CONTEXT_NUMERIC_COLUMNS
     for col in fill_zero_cols:
-        result[col] = result[col].fillna(0)
-    for col in ["linked_committee_ids", "linked_committee_names", "linked_committee_types", "tech_company_tags"]:
+        result[col] = pd.to_numeric(result[col], errors="raise").fillna(0)
+    for column in [RECEIPT_MEMO_RISK_COLUMN] + [
+        f"{scope}_{RECEIPT_MEMO_RISK_COLUMN}"
+        for scope in ("current_campaign_account", "former_campaign_account")
+    ]:
+        result[column] = result[column].eq(True).fillna(False).astype(bool)
+    for col in ["linked_committee_ids", "linked_committee_names", "linked_committee_types", "tech_company_tags"] + component_text_cols:
         result[col] = result[col].fillna("")
 
     result["has_principal_candidate_committee"] = (
         result["linked_principal_committee_count"] > 0
     )
     result["has_finance_activity"] = (
-        (result["total_itemized_receipts"] > 0) |
-        (result["tech_itemized_receipts"] > 0) |
-        (result["ie_support_total"] > 0) |
-        (result["ie_oppose_total"] > 0) |
-        (result["tech_funded_ie_support_total"] > 0) |
-        (result["tech_funded_ie_oppose_total"] > 0)
+        result["total_itemized_receipts"].ne(0) |
+        result["tech_itemized_receipts"].ne(0) |
+        result["tech_itemized_contributions"].gt(0) |
+        result["ie_support_total"].ne(0) |
+        result["ie_oppose_total"].ne(0) |
+        result["tech_funded_ie_support_total"].ne(0) |
+        result["tech_funded_ie_oppose_total"].ne(0)
     )
     result["is_display_candidate"] = (
         result["has_principal_candidate_committee"] |
@@ -680,6 +867,7 @@ def build_candidate_state_summary(candidate_race: pd.DataFrame) -> pd.DataFrame:
     state_summary["ie_net_support"] = (
         state_summary["ie_support_total"] - state_summary["ie_oppose_total"]
     )
+    state_summary = _attach_receipt_context_rollup(state_summary, candidates, ["state_code"])
     state_summary["tech_funded_ie_net_support"] = (
         state_summary["tech_funded_ie_support_total"] -
         state_summary["tech_funded_ie_oppose_total"]
@@ -783,6 +971,12 @@ def build_candidate_house_district_summary(candidate_race: pd.DataFrame) -> pd.D
     district_summary["ie_net_support"] = (
         district_summary["ie_support_total"] - district_summary["ie_oppose_total"]
     )
+    district_summary = _attach_receipt_context_rollup(
+        district_summary, house, ["state_code", "district_code", "district_sort", "district_label"],
+    )
+    # The same reported name can give to several candidates in a district.
+    # Retain the older count column as a compatibility alias, not unique people.
+    district_summary["tech_donor_candidate_pairs"] = district_summary["tech_itemized_donors"]
     district_summary["tech_funded_ie_net_support"] = (
         district_summary["tech_funded_ie_support_total"] -
         district_summary["tech_funded_ie_oppose_total"]
@@ -878,9 +1072,14 @@ def build_candidate_senate_summary(candidate_race: pd.DataFrame) -> pd.DataFrame
         )
         .reset_index()
     )
+    # Distinct names are counted once per candidate upstream. Their sum is a
+    # donor/candidate pair count, not a deduplicated count of people in a race.
+    # Keep the old field as a compatibility alias for existing CSV consumers.
     senate_summary["ie_net_support"] = (
         senate_summary["ie_support_total"] - senate_summary["ie_oppose_total"]
     )
+    senate_summary = _attach_receipt_context_rollup(senate_summary, senate, ["state_code"])
+    senate_summary["tech_donor_candidate_pairs"] = senate_summary["tech_itemized_donors"]
     senate_summary["tech_funded_ie_net_support"] = (
         senate_summary["tech_funded_ie_support_total"] -
         senate_summary["tech_funded_ie_oppose_total"]
@@ -947,7 +1146,8 @@ def build_committee_tech_receipts(
     This identifies 'tech-dominated' committees — super PACs, PACs, etc.
     where tech money is a large share of total receipts.
     """
-    # Total receipts per committee from all donors
+    # Legacy total_receipts is the selected record sum, not a reconciled
+    # recipient total when memo attributions are present.
     all_receipts = (
         tagged.groupby("cmte_id")
         .agg(
@@ -974,17 +1174,20 @@ def build_committee_tech_receipts(
 
     # Merge
     result = all_receipts.merge(tech_receipts, on="cmte_id", how="left")
+    result = result.merge(build_receipt_record_context(tagged), on="cmte_id", validate="one_to_one")
     result["tech_receipts"] = result["tech_receipts"].fillna(0)
     result["tech_donors"] = result["tech_donors"].fillna(0).astype(int)
     result["tech_contributions"] = result["tech_contributions"].fillna(0).astype(int)
     result["tech_companies"] = result["tech_companies"].fillna("")
 
     # Compute tech share
-    result["tech_pct"] = (
-        result["tech_receipts"] /
-        result["total_receipts"].replace(0, float("nan"))
-        * 100
+    result["tech_pct"] = _meaningful_share(
+        result["tech_receipts"], result["total_receipts"],
     )
+    result.loc[result[RECEIPT_MEMO_RISK_COLUMN], "tech_pct"] = float("nan")
+    result["tech_share_unavailable_reason"] = ""
+    result.loc[result["tech_pct"].isna(), "tech_share_unavailable_reason"] = "invalid_net_receipts"
+    result.loc[result[RECEIPT_MEMO_RISK_COLUMN], "tech_share_unavailable_reason"] = "unreconciled_memo_attributions"
 
     # Join committee metadata
     result = result.merge(
@@ -1195,7 +1398,7 @@ def main(cycle: int = 2024):
     print(f"  Committees receiving tech money: {(cmte_tech['tech_receipts'] > 0).sum():,}")
     print(f"  Tech-dominated committees (>50%): {(cmte_tech['tech_pct'] > 50).sum()}")
     print()
-    print("Top 10 tech companies by employee giving:")
+    print("Top 10 tech companies by selected employer-matched records:")
     print(company_summary.head(10)[
         ["tech_canonical_name", "net_total", "n_donors", "pct_dem"]
     ].to_string(index=False))

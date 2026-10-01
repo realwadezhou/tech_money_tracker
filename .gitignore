@@ -19,7 +19,10 @@ data/lda/interim/*
 !data/lda/interim/.gitkeep
 data/lda/derived/*
 !data/lda/derived/.gitkeep
+data/lda/refresh/
+data/lda/archive/
 exports/site/
+exports/lobbying/
 
 .DS_Store
 Thumbs.db

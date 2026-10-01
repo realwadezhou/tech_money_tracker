@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "case_id": "a16z_partnership",
+  "title": "A16Z: one partnership contribution with two partner attributions",
+  "cycle": 2026,
+  "scope": "Only the explicitly listed source records and reviewed relationships. Not a complete donor, committee, cycle, or all-recipient total.",
+  "field_layout": {
+    "field_layout_url": "https://fecgov.github.io/fecfile-validate/SchA_spec.html",
+    "official_workbook_url": "https://docquery.fec.gov/formatspecs/FEC_EFO_Format_Specifications.xlsx",
+    "reviewed_workbook_sha256": "c667016493df28c186445201cf8a2bcff43563bccc41b75b2bcc06366b69132b",
+    "workbook_reviewed_version": "8.5",
+    "delimiter": "ASCII 28",
+    "columns_one_based": {
+      "schedule": 1,
+      "committee_id": 2,
+      "transaction_id": 3,
+      "back_reference_transaction_id": 4,
+      "back_reference_schedule": 5,
+      "entity_type": 6,
+      "organization": 7,
+      "last_name": 8,
+      "first_name": 9,
+      "middle_name": 10,
+      "prefix": 11,
+      "suffix": 12,
+      "election": 18,
+      "date": 20,
+      "amount": 21,
+      "aggregate": 22,
+      "purpose": 23,
+      "employer": 24,
+      "occupation": 25,
+      "other_committee_id": 26,
+      "memo_code": 43,
+      "memo_text": 44
+    },
+    "note": "Source headers independently record 8.4 or 8.5. These selected Sch A columns have the same observed layout in the reviewed records. This fixture is not a parser specification for arbitrary filing versions."
+  },
+  "sources": [
+    {
+      "file_number": 1939734,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1939734.fec",
+      "source_sha256": "fe90c2e3deef6947ae2209ca5575b70633f917ba33f7af66914db87526e9fbd1",
+      "source_bytes": 7272,
+      "format_version": "8.5",
+      "source_form_type": "F3XN",
+      "original_file_number_from_hdr": "",
+      "amendment_sequence_from_hdr": "",
+      "selected_transaction_ids": [
+        "SA11A.539625",
+        "SA11A.539627",
+        "SA11A.542040"
+      ],
+      "redacted_snippet": "redacted_schedule_a/1939734.schedule_a.redacted.fec",
+      "redacted_snippet_sha256": "2a6871cbfe9b03f69a3e6844eb0ed075ce4dfe6f496dff595fcc0aed84edd138",
+      "redaction": "HDR first seven fields and selected 45-column Schedule A records only; every field not in field_layout.columns_one_based is blank. Full report/form records and all contributor location fields omitted."
+    }
+  ],
+  "records": [
+    {
+      "record_id": "1939734:SA11A.539625",
+      "file_number": 1939734,
+      "committee_id": "C00916114",
+      "transaction_id": "SA11A.539625",
+      "schedule": "SA11AI",
+      "entity_type": "ORG",
+      "amount": "25000000.00",
+      "employer": "",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "20250822",
+      "election": "",
+      "donor_name": "A16Z CAPITAL MANAGEMENT, LLC",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1939734.fec"
+      ],
+      "source_record_number": 5,
+      "source_row_sha256": "6b3172aee004c33e1893d8c5318d3f41963dc8717085a4bfce20f0830bddf532",
+      "redacted_row_sha256": "a11a7b5b532c54ed1e42f524a9deb2cf86f1316e67b386906cfbf75f9c015701",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00916114",
+        "transaction_id": "SA11A.539625",
+        "back_reference_transaction_id": "",
+        "back_reference_schedule": "",
+        "entity_type": "ORG",
+        "organization": "A16Z CAPITAL MANAGEMENT, LLC",
+        "last_name": "",
+        "first_name": "",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "",
+        "date": "20250822",
+        "amount": "25000000.00",
+        "aggregate": "25000000.00",
+        "purpose": "CONTRIBUTION",
+        "employer": "",
+        "occupation": "",
+        "other_committee_id": "",
+        "memo_code": "",
+        "memo_text": "SEE ATTRIBUTION BELOW"
+      }
+    },
+    {
+      "record_id": "1939734:SA11A.542040",
+      "file_number": 1939734,
+      "committee_id": "C00916114",
+      "transaction_id": "SA11A.542040",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "12500000.00",
+      "employer": "ANDREESSEN HOROWITZ",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.539625",
+      "date": "20250822",
+      "election": "",
+      "donor_name": "ANDREESSEN, MARC L.",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1939734.fec"
+      ],
+      "source_record_number": 6,
+      "source_row_sha256": "3dbae604dd3b51b9b7079cf73a3e6a731f850ed2b067166e202bf0c252a4db37",
+      "redacted_row_sha256": "76564249af2e93031c2ddca3217a4a62c46f3cb5be4a7fb897fbc06dff9c1e8a",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00916114",
+        "transaction_id": "SA11A.542040",
+        "back_reference_transaction_id": "SA11A.539625",
+        "back_reference_schedule": "SA11AI",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "ANDREESSEN",
+        "first_name": "MARC",
+        "middle_name": "L.",
+        "prefix": "",
+        "suffix": "",
+        "election": "",
+        "date": "20250822",
+        "amount": "12500000.00",
+        "aggregate": "12500000.00",
+        "purpose": "CONTRIBUTION",
+        "employer": "ANDREESSEN HOROWITZ",
+        "occupation": "CO-FOUNDER",
+        "other_committee_id": "",
+        "memo_code": "X",
+        "memo_text": "PARTNERSHIP ATTRIBUTION"
+      }
+    },
+    {
+      "record_id": "1939734:SA11A.539627",
+      "file_number": 1939734,
+      "committee_id": "C00916114",
+      "transaction_id": "SA11A.539627",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "12500000.00",
+      "employer": "ANDREESSEN HOROWITZ",
+      "memo": true,
+      "back_reference_transaction_id": "SA11A.539625",
+      "date": "20250822",
+      "election": "",
+      "donor_name": "HOROWITZ, BENJAMIN",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1939734.fec"
+      ],
+      "source_record_number": 7,
+      "source_row_sha256": "48aabb1beabf894484f8dac352be083604abf5e625b5ed7ffa00be466b5e05bc",
+      "redacted_row_sha256": "09484f56eac74eb907169b55be49a3545f538a80955f2160cbd922a9b6d6f33d",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00916114",
+        "transaction_id": "SA11A.539627",
+        "back_reference_transaction_id": "SA11A.539625",
+        "back_reference_schedule": "SA11AI",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "HOROWITZ",
+        "first_name": "BENJAMIN",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "",
+        "date": "20250822",
+        "amount": "12500000.00",
+        "aggregate": "12500000.00",
+        "purpose": "CONTRIBUTION",
+        "employer": "ANDREESSEN HOROWITZ",
+        "occupation": "COFOUNDER AND GP",
+        "other_committee_id": "",
+        "memo_code": "X",
+        "memo_text": "PARTNERSHIP ATTRIBUTION"
+      }
+    }
+  ],
+  "reviewed_context": [
+    {
+      "record_id": "1939734:SA11A.539625",
+      "source_row_sha256": "6b3172aee004c33e1893d8c5318d3f41963dc8717085a4bfce20f0830bddf532",
+      "role": "context",
+      "related_record_id": null,
+      "identity_key": "",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1939734.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "ORG nonmemo original cash contribution. It is not an employee cash contribution."
+    },
+    {
+      "record_id": "1939734:SA11A.542040",
+      "source_row_sha256": "3dbae604dd3b51b9b7079cf73a3e6a731f850ed2b067166e202bf0c252a4db37",
+      "role": "partnership_attribution",
+      "related_record_id": "1939734:SA11A.539625",
+      "identity_key": "review:a16z-SA11A.542040",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1939734.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "Explicit PARTNERSHIP ATTRIBUTION memo and back-reference to the $25 million partnership receipt."
+    },
+    {
+      "record_id": "1939734:SA11A.539627",
+      "source_row_sha256": "48aabb1beabf894484f8dac352be083604abf5e625b5ed7ffa00be466b5e05bc",
+      "role": "partnership_attribution",
+      "related_record_id": "1939734:SA11A.539625",
+      "identity_key": "review:a16z-SA11A.539627",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1939734.fec",
+        "https://www.fec.gov/help-candidates-and-committees/filing-reports/partnership-contributions/"
+      ],
+      "rationale": "Explicit PARTNERSHIP ATTRIBUTION memo and back-reference to the $25 million partnership receipt."
+    }
+  ],
+  "expected": {
+    "direct_receipts": "0.00",
+    "jfc_allocations": "0.00",
+    "partnership_attributions": "25000000.00",
+    "signed_adjustments": "0.00",
+    "attributed_total": "25000000.00",
+    "campaign_cash_receipts_in_excerpt": "25000000.00",
+    "naive_all_record_signed_sum": "50000000.00",
+    "independent_employee_cash_contributions_established": "0.00",
+    "unresolved_receipt_count_after_review": 0
+  },
+  "limits": [
+    "Both partner children are included, and their attribution amounts sum to the parent.",
+    "The employer-matched partner attributions do not establish $25 million of independent employee checks.",
+    "This committee receipt is not a candidate contribution or a complete committee fundraising total."
+  ]
+}

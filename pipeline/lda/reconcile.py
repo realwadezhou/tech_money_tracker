@@ -27,7 +27,9 @@ def _read_json(path: Path) -> Any:
 
 def _write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    temp_path = path.with_suffix(path.suffix + ".tmp")
+    temp_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    temp_path.replace(path)
 
 
 def _snapshot_path(base_dir: Path) -> Path:
@@ -67,24 +69,34 @@ def _load_rows_by_id(
             if row_id:
                 rows_by_id.setdefault(row_id, row)
 
-    supplemental_path = _supplemental_path(base_dir)
-    if include_supplemental and supplemental_path.exists():
-        for raw_line in supplemental_path.read_text(encoding="utf-8").splitlines():
-            if not raw_line.strip():
-                continue
-            row = json.loads(raw_line)
-            row_id = row.get(id_field)
-            if row_id:
-                rows_by_id[row_id] = row
+    if include_supplemental:
+        rows_by_id.update(_load_supplemental_rows(base_dir, endpoint))
 
+    return rows_by_id
+
+
+def _load_supplemental_rows(base_dir: Path, endpoint: str) -> dict[str, dict[str, Any]]:
+    rows_by_id: dict[str, dict[str, Any]] = {}
+    supplemental_path = _supplemental_path(base_dir)
+    if supplemental_path.exists():
+        with supplemental_path.open(encoding="utf-8") as handle:
+            for raw_line in handle:
+                if not raw_line.strip():
+                    continue
+                row = json.loads(raw_line)
+                row_id = row.get(ID_FIELD_BY_ENDPOINT[endpoint])
+                if row_id:
+                    rows_by_id[row_id] = row
     return rows_by_id
 
 
 def _write_supplemental(base_dir: Path, rows_by_id: dict[str, dict[str, Any]]) -> None:
     supplemental_path = _supplemental_path(base_dir)
-    with supplemental_path.open("w", encoding="utf-8") as handle:
+    temp_path = supplemental_path.with_suffix(".jsonl.tmp")
+    with temp_path.open("w", encoding="utf-8") as handle:
         for row_id in sorted(rows_by_id):
             handle.write(json.dumps(rows_by_id[row_id]) + "\n")
+    temp_path.replace(supplemental_path)
 
 
 def build_snapshot(year: int, endpoint: str) -> dict[str, Any]:
@@ -93,7 +105,11 @@ def build_snapshot(year: int, endpoint: str) -> dict[str, Any]:
     id_field = ID_FIELD_BY_ENDPOINT[endpoint]
 
     row_ids: list[str] = []
+    missing_id_count = 0
     for _, payload in _iter_page_payloads(base_dir):
+        missing_id_count += sum(
+            1 for row in payload.get("results", []) if not row.get(id_field)
+        )
         row_ids.extend(
             row.get(id_field)
             for row in payload.get("results", [])
@@ -102,23 +118,32 @@ def build_snapshot(year: int, endpoint: str) -> dict[str, Any]:
     duplicate_ids = [row_id for row_id, count in Counter(row_ids).items() if count > 1]
 
     rows_by_id = _load_rows_by_id(base_dir, endpoint)
+    # Probe before replacing the existing snapshot: an API failure must not
+    # leave downstream tables paired with an unverified replacement snapshot.
+    live_api_count = LDAClient().get(f"{endpoint}/", filing_year=year, page_size=1).get("count")
     snapshot_path = _snapshot_path(base_dir)
-    with snapshot_path.open("w", encoding="utf-8") as handle:
+    temp_path = snapshot_path.with_suffix(".jsonl.tmp")
+    with temp_path.open("w", encoding="utf-8") as handle:
         for row_id in sorted(rows_by_id):
             handle.write(json.dumps(rows_by_id[row_id]) + "\n")
+    temp_path.replace(snapshot_path)
 
-    live_api_count = LDAClient().get(f"{endpoint}/", filing_year=year, page_size=1).get("count")
     summary = {
         "endpoint": endpoint,
         "year": year,
         "snapshot_built_at_utc": _iso_utc_now(),
+        # Rebuilding saved pages is not a source refresh, even when the live
+        # unique-ID count happens to agree with the saved snapshot.
+        "snapshot_cutoff_utc": manifest.get("snapshot_cutoff_utc") or manifest.get("fetched_at_utc"),
         "raw_row_count": len(row_ids),
         "raw_unique_id_count": len(set(row_ids)),
         "duplicate_ids": len(duplicate_ids),
+        "missing_id_count": missing_id_count,
         "snapshot_unique_id_count": len(rows_by_id),
         "manifest_api_reported_count": manifest.get("api_reported_count"),
         "live_api_count": live_api_count,
-        "complete_as_of_snapshot": len(rows_by_id) == live_api_count,
+        "complete_as_of_snapshot": len(rows_by_id) == live_api_count and missing_id_count == 0,
+        "verification_scope": "Unique identifier count only; record contents are not compared with the live API.",
         "snapshot_path": str(snapshot_path),
     }
     _write_json(_snapshot_manifest_path(base_dir), summary)
@@ -134,7 +159,6 @@ def top_up_tail_pages(
     client = LDAClient()
     base_dir = lda_year_raw_dir(year) / endpoint
     manifest = _read_json(base_dir / "manifest.json")
-    base_rows = _load_rows_by_id(base_dir, endpoint, include_supplemental=False)
     rows_by_id = _load_rows_by_id(base_dir, endpoint, include_supplemental=True)
     id_field = ID_FIELD_BY_ENDPOINT[endpoint]
 
@@ -144,11 +168,7 @@ def top_up_tail_pages(
     live_page_count = (live_api_count + page_size_effective - 1) // page_size_effective
     start_page = max(1, live_page_count - safety_pages + 1)
 
-    supplemental_rows = {
-        row_id: row
-        for row_id, row in rows_by_id.items()
-        if row_id not in base_rows
-    }
+    supplemental_rows = _load_supplemental_rows(base_dir, endpoint)
     initial_count = len(rows_by_id)
 
     for page in range(start_page, live_page_count + 1):
@@ -161,7 +181,7 @@ def top_up_tail_pages(
         )
         for row in payload.get("results", []):
             row_id = row.get(id_field)
-            if row_id and row_id not in rows_by_id and row_id not in supplemental_rows:
+            if row_id and rows_by_id.get(row_id) != row:
                 supplemental_rows[row_id] = row
 
     _write_supplemental(base_dir, supplemental_rows)
@@ -218,12 +238,12 @@ def repair_filings(
     base_dir = lda_year_raw_dir(year) / endpoint
     manifest = _read_json(base_dir / "manifest.json")
     client = LDAClient()
-    rows_by_id = _load_rows_by_id(base_dir, endpoint, include_supplemental=False)
+    rows_by_id = _load_rows_by_id(base_dir, endpoint, include_supplemental=True)
     initial_unique_count = len(rows_by_id)
 
     boundaries = _tied_timestamp_boundaries(year, endpoint)
     boundary_pages = sorted({item["page_left"] for item in boundaries} | {item["page_right"] for item in boundaries})
-    supplemental_rows: dict[str, dict[str, Any]] = {}
+    supplemental_rows = _load_supplemental_rows(base_dir, endpoint)
 
     target_live_count = client.get("filings/", filing_year=year, ordering="dt_posted", page_size=1).get("count")
     attempts_run = 0
@@ -240,19 +260,16 @@ def repair_filings(
             )
             for row in payload.get("results", []):
                 row_id = row.get("filing_uuid")
-                if row_id and row_id not in rows_by_id and row_id not in supplemental_rows:
+                if row_id and rows_by_id.get(row_id) != row:
                     supplemental_rows[row_id] = row
 
-        combined_unique = len(rows_by_id) + len(supplemental_rows)
+        combined_unique = len(rows_by_id.keys() | supplemental_rows.keys())
         target_live_count = client.get("filings/", filing_year=year, ordering="dt_posted", page_size=1).get("count")
         if combined_unique >= target_live_count:
             break
 
     if supplemental_rows:
-        supplemental_path = _supplemental_path(base_dir)
-        with supplemental_path.open("w", encoding="utf-8") as handle:
-            for row_id in sorted(supplemental_rows):
-                handle.write(json.dumps(supplemental_rows[row_id]) + "\n")
+        _write_supplemental(base_dir, supplemental_rows)
 
     snapshot_summary = build_snapshot(year, endpoint)
     repair_summary = {

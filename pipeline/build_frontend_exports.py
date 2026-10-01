@@ -39,6 +39,8 @@ from pathlib import Path
 import pandas as pd
 
 from pipeline.build_summaries import (
+    RECEIPT_CONTEXT_NUMERIC_COLUMNS,
+    RECEIPT_MEMO_RISK_COLUMN,
     build_candidate_house_district_summary,
     build_candidate_race_summary,
     build_candidate_senate_summary,
@@ -64,6 +66,14 @@ FEATURED_COMMITTEE_RECEIPTS = 100_000
 FEATURED_COMMITTEE_PCT = 10.0
 TOP_DONORS_PER_COMPANY = 50
 TOP_COMMITTEES_PER_COMPANY = 50
+RECEIPT_CONTEXT_EXPORT_COLUMNS = RECEIPT_CONTEXT_NUMERIC_COLUMNS + [
+    RECEIPT_MEMO_RISK_COLUMN, "tech_share_unavailable_reason",
+]
+
+
+def tech_dominated_mask(shares: pd.Series) -> pd.Series:
+    """A strict, available majority; unknown and exactly half are not a majority."""
+    return shares.gt(50).fillna(False)
 
 
 def slugify(value: str) -> str:
@@ -84,9 +94,12 @@ def recipient_bucket(cmte_tp: str) -> str:
         return "candidate"
     if cmte_tp in {"X", "Y"}:
         return "party"
-    if cmte_tp in {"O", "U", "W"}:
+    # Both qualified (W) and nonqualified (V) hybrid PACs have outside-
+    # spending accounts. I/E are independent/electioneering communicators.
+    # https://www.fec.gov/campaign-finance-data/committee-type-code-descriptions/
+    if cmte_tp in {"E", "I", "O", "U", "V", "W"}:
         return "outside_spending"
-    if cmte_tp in {"N", "Q", "V"}:
+    if cmte_tp in {"N", "Q"}:
         return "pac"
     if cmte_tp == "C":
         return "communication_cost"
@@ -96,9 +109,12 @@ def recipient_bucket(cmte_tp: str) -> str:
 def build_company_partisan(
     tagged: pd.DataFrame,
     committee_party_classification: pd.DataFrame,
+    donor_party_classification: pd.DataFrame | None = None,
 ) -> pd.DataFrame:
-    """Rebuild company partisan summary if the saved table is missing."""
-    donor_class = classify_donors(tagged, committee_party_classification)
+    """Summarize company giving using each donor's overall partisan lean."""
+    donor_class = donor_party_classification
+    if donor_class is None:
+        donor_class = classify_donors(tagged, committee_party_classification)
 
     tech_donors = tagged[tagged["is_tech_employer"]].copy()
     tech_donor_parties = tech_donors.merge(
@@ -142,22 +158,32 @@ def build_company_partisan(
 
     if "donor_amt_D" in company_pivot.columns and "donor_amt_R" in company_pivot.columns:
         dr_total = company_pivot["donor_amt_D"] + company_pivot["donor_amt_R"]
+        meaningful_split = (
+            (dr_total > 0)
+            & (company_pivot["donor_amt_D"] >= 0)
+            & (company_pivot["donor_amt_R"] >= 0)
+        )
         company_pivot["pct_dem_by_donor"] = (
             company_pivot["donor_amt_D"] /
-            dr_total.replace(0, float("nan")) * 100
+            dr_total.where(meaningful_split) * 100
         )
 
     return company_pivot.sort_values("donor_amt_total", ascending=False)
 
 
 def parse_dates(df: pd.DataFrame) -> pd.DataFrame:
+    """Attach dates for charts without discarding otherwise valid receipts.
+
+    Missing or malformed filing dates cannot be placed on a weekly chart,
+    but their amounts still belong in donor, company, and committee totals.
+    Weekly groupbys exclude the resulting NaT keys.
+    """
     df = df.copy()
     df["transaction_date"] = pd.to_datetime(
         df["transaction_dt"],
         format="%m%d%Y",
         errors="coerce",
     )
-    df = df[df["transaction_date"].notna()].copy()
     df["week_end"] = df["transaction_date"].dt.to_period("W-SUN").dt.end_time.dt.date
     return df
 
@@ -167,7 +193,7 @@ def build_weekly_totals(tech: pd.DataFrame, cycle: int) -> pd.DataFrame:
         tech.groupby("week_end")
         .agg(
             net_total=("net_amt", "sum"),
-            gross_positive=("transaction_amt", lambda x: x[x > 0].sum()),
+            gross_positive=("net_amt", lambda x: x[x > 0].sum()),
             n_contributions=("net_amt", "size"),
             n_donors=("name", "nunique"),
             n_committees=("cmte_id", "nunique"),
@@ -197,7 +223,7 @@ def build_weekly_by_company(tech: pd.DataFrame, cycle: int) -> pd.DataFrame:
         tech.groupby(["week_end", "tech_canonical_name"])
         .agg(
             net_total=("net_amt", "sum"),
-            gross_positive=("transaction_amt", lambda x: x[x > 0].sum()),
+            gross_positive=("net_amt", lambda x: x[x > 0].sum()),
             n_contributions=("net_amt", "size"),
             n_donors=("name", "nunique"),
         )
@@ -328,7 +354,7 @@ def build_company_payloads(
             company_rows.groupby("name")
             .agg(
                 net_total=("net_amt", "sum"),
-                gross_positive=("transaction_amt", lambda x: x[x > 0].sum()),
+                gross_positive=("net_amt", lambda x: x[x > 0].sum()),
                 n_contributions=("net_amt", "size"),
                 n_committees=("cmte_id", "nunique"),
                 employers=("employer", lambda x: "; ".join(sorted(x.dropna().unique()))),
@@ -340,12 +366,16 @@ def build_company_payloads(
         )
 
         top_donor_committee = (
-            company_rows.groupby(["name", "cmte_nm", "cmte_tp"])
+            company_rows.groupby(["name", "cmte_id", "cmte_nm", "cmte_tp"], dropna=False)
             .agg(top_committee_amt=("net_amt", "sum"))
             .reset_index()
             .sort_values("top_committee_amt", ascending=False)
             .drop_duplicates(subset=["name"], keep="first")
-            .rename(columns={"cmte_nm": "top_committee", "cmte_tp": "top_committee_type"})
+            .rename(columns={
+                "cmte_id": "top_committee_id",
+                "cmte_nm": "top_committee",
+                "cmte_tp": "top_committee_type",
+            })
         )
         top_donors = top_donors.merge(top_donor_committee, on="name", how="left")
 
@@ -358,7 +388,8 @@ def build_company_payloads(
                     "party_dr",
                     "classification_source",
                     "recipient_bucket",
-                ]
+                ],
+                dropna=False,
             )
             .agg(
                 net_total=("net_amt", "sum"),
@@ -373,6 +404,10 @@ def build_company_payloads(
         payload = {
             "company": company,
             "slug": slug,
+            "undated_tech_contribution_count": int(company_rows["transaction_date"].isna().sum()),
+            "undated_tech_net_total": float(
+                company_rows.loc[company_rows["transaction_date"].isna(), "net_amt"].sum()
+            ),
             "summary": json.loads(
                 row.drop(labels=[]).to_json(date_format="iso")
             ),
@@ -412,7 +447,9 @@ def ensure_summary_tables(
         committees,
         committee_party_classification,
     )
-    company_partisan = build_company_partisan(tagged, committee_party_classification)
+    company_partisan = build_company_partisan(
+        tagged, committee_party_classification, donor_party_classification
+    )
     entity_party_lean = build_entity_party_lean(
         cycle,
         committee_party_classification,
@@ -486,9 +523,15 @@ def build_frontend_exports(cycle: int = 2024) -> Path:
     print(f"Loading and tagging cycle {cycle}...")
     data = load_cycle(cycle)
     tagged_all = tag_tech_donors(data.donor_contributions, data.tech_employers)
+    committee_spending = data.committee_spending
+    committee_directory = data.committees
+    # Tagging returns a separate frame; keeping the original contributions
+    # alive throughout export needlessly retains millions of rows in memory.
+    del data
     tagged_all["cycle"] = cycle
-    tagged_all = parse_dates(tagged_all)
-    tagged = tagged_all[tagged_all["is_tech_employer"]].copy()
+    # Only tech-linked chart rows need parsed dates. All receipts, including
+    # undated records, remain available for financial denominators and lean.
+    tagged = parse_dates(tagged_all[tagged_all["is_tech_employer"]])
 
     (
         donor_summary,
@@ -501,7 +544,8 @@ def build_frontend_exports(cycle: int = 2024) -> Path:
         candidate_state_summary,
         candidate_house_district_summary,
         candidate_senate_summary,
-    ) = ensure_summary_tables(tagged_all, data.committee_spending, data.committees, cycle)
+    ) = ensure_summary_tables(tagged_all, committee_spending, committee_directory, cycle)
+    del tagged_all, committee_spending
 
     cmte_party_lookup = committee_party_classification[
         ["cmte_id", "party_dr"]
@@ -529,7 +573,7 @@ def build_frontend_exports(cycle: int = 2024) -> Path:
         (committees["tech_receipts"] >= FEATURED_COMMITTEE_RECEIPTS) |
         (committees["tech_pct"] >= FEATURED_COMMITTEE_PCT)
     )
-    committees["is_tech_dominated"] = committees["tech_pct"] >= 50
+    committees["is_tech_dominated"] = tech_dominated_mask(committees["tech_pct"])
     committees = committees.sort_values("tech_receipts", ascending=False)
     candidate_committees = committees[committees["recipient_bucket"] == "candidate"].copy()
     political_bodies = committees[committees["recipient_bucket"] != "candidate"].copy()
@@ -538,6 +582,7 @@ def build_frontend_exports(cycle: int = 2024) -> Path:
     major_donors = major_donors.sort_values("net_total", ascending=False)
 
     max_txn = tagged["transaction_date"].max()
+    undated_tech = tagged[tagged["transaction_date"].isna()]
     built_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
     site_metadata = {
@@ -546,16 +591,23 @@ def build_frontend_exports(cycle: int = 2024) -> Path:
         "generated_at_utc": built_at,
         "data_as_of": max_txn.date().isoformat() if pd.notna(max_txn) else None,
         "latest_bulk_release_utc": source_manifest["latest_bulk_release_utc"],
+        "latest_local_bulk_release_utc": source_manifest["latest_local_bulk_release_utc"],
+        "source_check_status": source_manifest["source_check_status"],
         "stale_bulk_sources": source_manifest["sources_with_remote_newer_than_local"],
         "total_tech_linked_giving": float(tagged["net_amt"].sum()),
+        "undated_tech_contribution_count": int(len(undated_tech)),
+        "undated_tech_net_total": float(undated_tech["net_amt"].sum()),
         "tech_donor_count": int(donor_summary["name"].nunique()),
         "tracked_company_count": int(companies["tech_canonical_name"].nunique()),
         "committees_receiving_tech_money": int((committees["tech_receipts"] > 0).sum()),
-        "tech_dominated_committees": int((committees["tech_pct"] >= 50).sum()),
+        "tech_dominated_committees": int(committees["is_tech_dominated"].sum()),
+        "committees_with_unreconciled_memo_attributions": int(committees[RECEIPT_MEMO_RISK_COLUMN].sum()),
         "notes": [
-            f"All exports in this folder reflect the validated {cycle} pipeline output.",
-            "Committee tech_pct is based on itemized individual contribution receipts, not all committee money.",
+            f"Exports in this folder use the documented {cycle} pipeline selection and attribution rules.",
+            "Committee tech_pct uses the selected itemized receipt pool; it is unavailable where retained nonzero memo records prevent a reconciled denominator.",
+            "Legacy total_receipts and total_itemized_receipts are selected record sums, aliased as selected_record_net_total; parent receipts and memo attributions may overlap. nonmemo_receipt_net_total is a diagnostic, not a replacement total.",
             "Recipient committee lean is inferred from candidate-facing spending when direct committee party is absent.",
+            "Totals include contributions with missing or invalid dates; weekly charts exclude those contributions.",
             "Candidate navigation now includes national, state, Senate, and House district pages.",
         ],
     }
@@ -595,6 +647,7 @@ def build_frontend_exports(cycle: int = 2024) -> Path:
                     "is_featured",
                     "is_tech_dominated",
                     "recipient_bucket",
+                    *RECEIPT_CONTEXT_EXPORT_COLUMNS,
                 ]
             ].head(10)
         ),
@@ -611,6 +664,7 @@ def build_frontend_exports(cycle: int = 2024) -> Path:
                     "is_featured",
                     "is_tech_dominated",
                     "recipient_bucket",
+                    *RECEIPT_CONTEXT_EXPORT_COLUMNS,
                 ]
             ].head(10)
         ),
@@ -704,6 +758,7 @@ def build_frontend_exports(cycle: int = 2024) -> Path:
                         "tech_donors",
                         "tech_contributions",
                         "total_receipts",
+                        *RECEIPT_CONTEXT_EXPORT_COLUMNS,
                         "total_donors",
                         "tech_pct",
                         "tech_companies",

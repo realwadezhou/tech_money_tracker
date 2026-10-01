@@ -4,7 +4,7 @@ import json
 import os
 import time
 from dataclasses import dataclass
-from typing import Iterator
+from typing import Callable, Iterator
 from urllib.error import HTTPError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -25,6 +25,7 @@ class LDAClient:
     base_url: str = DEFAULT_BASE_URL
     user_agent: str = "tech-money/1.0"
     max_retries: int = 8
+    before_request: Callable[[], None] | None = None
 
     def __post_init__(self) -> None:
         load_project_env()
@@ -46,6 +47,8 @@ class LDAClient:
         url = self.build_url(path, **params)
         request = Request(url, headers=self._headers())
         for attempt in range(self.max_retries + 1):
+            if self.before_request:
+                self.before_request()
             try:
                 with urlopen(request, timeout=30) as response:
                     return json.loads(response.read().decode("utf-8"))

@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "case_id": "vandiver_offsetting_adjustments",
+  "title": "Ben Vandiver: two equal original receipts and balanced adjustments",
+  "cycle": 2026,
+  "scope": "Only the explicitly listed source records and reviewed relationships. Not a complete donor, committee, cycle, or all-recipient total.",
+  "field_layout": {
+    "field_layout_url": "https://fecgov.github.io/fecfile-validate/SchA_spec.html",
+    "official_workbook_url": "https://docquery.fec.gov/formatspecs/FEC_EFO_Format_Specifications.xlsx",
+    "reviewed_workbook_sha256": "c667016493df28c186445201cf8a2bcff43563bccc41b75b2bcc06366b69132b",
+    "workbook_reviewed_version": "8.5",
+    "delimiter": "ASCII 28",
+    "columns_one_based": {
+      "schedule": 1,
+      "committee_id": 2,
+      "transaction_id": 3,
+      "back_reference_transaction_id": 4,
+      "back_reference_schedule": 5,
+      "entity_type": 6,
+      "organization": 7,
+      "last_name": 8,
+      "first_name": 9,
+      "middle_name": 10,
+      "prefix": 11,
+      "suffix": 12,
+      "election": 18,
+      "date": 20,
+      "amount": 21,
+      "aggregate": 22,
+      "purpose": 23,
+      "employer": 24,
+      "occupation": 25,
+      "other_committee_id": 26,
+      "memo_code": 43,
+      "memo_text": 44
+    },
+    "note": "Source headers independently record 8.4 or 8.5. These selected Sch A columns have the same observed layout in the reviewed records. This fixture is not a parser specification for arbitrary filing versions."
+  },
+  "sources": [
+    {
+      "file_number": 1987473,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1987473.fec",
+      "source_sha256": "082bbfd946b45633d8dd22aa2effa19f30bda7e78e6de88afbca037b0a852787",
+      "source_bytes": 23682,
+      "format_version": "8.5",
+      "source_form_type": "F3A",
+      "original_file_number_from_hdr": "FEC-1921694",
+      "amendment_sequence_from_hdr": "3",
+      "selected_transaction_ids": [
+        "R-1090260-A",
+        "R-1090261-A",
+        "R-1090261-ADJ",
+        "R-1445408-A"
+      ],
+      "redacted_snippet": "redacted_schedule_a/1987473.schedule_a.redacted.fec",
+      "redacted_snippet_sha256": "3f080c0b077413997ea49264a88c6f42e6995608ce272a6cc9318971ef5bd47e",
+      "redaction": "HDR first seven fields and selected 45-column Schedule A records only; every field not in field_layout.columns_one_based is blank. Full report/form records and all contributor location fields omitted."
+    }
+  ],
+  "records": [
+    {
+      "record_id": "1987473:R-1090260-A",
+      "file_number": 1987473,
+      "committee_id": "C00909770",
+      "transaction_id": "R-1090260-A",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "3500.00",
+      "employer": "Google",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "20250718",
+      "election": "P2026",
+      "donor_name": "Vandiver, Ben",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1987473.fec"
+      ],
+      "source_record_number": 71,
+      "source_row_sha256": "00b65c98b7a3a0a0803c129c258f7568acc1ac714c7ee5b9a0f7e15f752b78f7",
+      "redacted_row_sha256": "084ae6dec4915fac780924913604cd1fe4378909199b55a1fc8a6bc7ead21703",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00909770",
+        "transaction_id": "R-1090260-A",
+        "back_reference_transaction_id": "",
+        "back_reference_schedule": "SA11AI",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "Vandiver",
+        "first_name": "Ben",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "P2026",
+        "date": "20250718",
+        "amount": "3500.00",
+        "aggregate": "3500.00",
+        "purpose": "",
+        "employer": "Google",
+        "occupation": "Senior Staff Engineer",
+        "other_committee_id": "",
+        "memo_code": "",
+        "memo_text": ""
+      }
+    },
+    {
+      "record_id": "1987473:R-1090261-A",
+      "file_number": 1987473,
+      "committee_id": "C00909770",
+      "transaction_id": "R-1090261-A",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "3500.00",
+      "employer": "Google",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "20250718",
+      "election": "P2026",
+      "donor_name": "Vandiver, Ben",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1987473.fec"
+      ],
+      "source_record_number": 72,
+      "source_row_sha256": "9bef3915dd016537980781643a2f7a2dad75a45a59fea38c39cb0e343803c5d5",
+      "redacted_row_sha256": "4c4817daa798b4f0366488e36f86eea2f197fca32fdca1b0f6c90bcfe1552635",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00909770",
+        "transaction_id": "R-1090261-A",
+        "back_reference_transaction_id": "",
+        "back_reference_schedule": "SA11AI",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "Vandiver",
+        "first_name": "Ben",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "P2026",
+        "date": "20250718",
+        "amount": "3500.00",
+        "aggregate": "3500.00",
+        "purpose": "",
+        "employer": "Google",
+        "occupation": "Senior Staff Engineer",
+        "other_committee_id": "",
+        "memo_code": "",
+        "memo_text": ""
+      }
+    },
+    {
+      "record_id": "1987473:R-1090261-ADJ",
+      "file_number": 1987473,
+      "committee_id": "C00909770",
+      "transaction_id": "R-1090261-ADJ",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "-3500.00",
+      "employer": "Google",
+      "memo": true,
+      "back_reference_transaction_id": "",
+      "date": "20250718",
+      "election": "P2026",
+      "donor_name": "Vandiver, Ben",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1987473.fec"
+      ],
+      "source_record_number": 73,
+      "source_row_sha256": "2a2327b8b6164f4b9e414253d3b13c07cf48214fdf323cf3ea867bded390c6f6",
+      "redacted_row_sha256": "fd63dd4aeb04c912fb4e45a312ad13e88737613a5d7260ae15c5a7e148c6c022",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00909770",
+        "transaction_id": "R-1090261-ADJ",
+        "back_reference_transaction_id": "",
+        "back_reference_schedule": "SA11AI",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "Vandiver",
+        "first_name": "Ben",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "P2026",
+        "date": "20250718",
+        "amount": "-3500.00",
+        "aggregate": "3500.00",
+        "purpose": "",
+        "employer": "Google",
+        "occupation": "Senior Staff Engineer",
+        "other_committee_id": "",
+        "memo_code": "X",
+        "memo_text": "Reattribution adjustment"
+      }
+    },
+    {
+      "record_id": "1987473:R-1445408-A",
+      "file_number": 1987473,
+      "committee_id": "C00909770",
+      "transaction_id": "R-1445408-A",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "3500.00",
+      "employer": "Google",
+      "memo": true,
+      "back_reference_transaction_id": "",
+      "date": "20250718",
+      "election": "G2026",
+      "donor_name": "Vandiver, Ben",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1987473.fec"
+      ],
+      "source_record_number": 74,
+      "source_row_sha256": "3e861660a99e5eef8372fb3c87d0121081b88687aba70a3b57ce3ca120d3165e",
+      "redacted_row_sha256": "0836c8953e275184de1376631701d87ab19a584a52ee44b8c73dd2d90c45f13e",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00909770",
+        "transaction_id": "R-1445408-A",
+        "back_reference_transaction_id": "",
+        "back_reference_schedule": "SA11AI",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "Vandiver",
+        "first_name": "Ben",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "G2026",
+        "date": "20250718",
+        "amount": "3500.00",
+        "aggregate": "7000.00",
+        "purpose": "",
+        "employer": "Google",
+        "occupation": "Senior Staff Engineer",
+        "other_committee_id": "",
+        "memo_code": "X",
+        "memo_text": "Reattribution from Ben Vandiver"
+      }
+    }
+  ],
+  "reviewed_context": [
+    {
+      "record_id": "1987473:R-1090260-A",
+      "source_row_sha256": "00b65c98b7a3a0a0803c129c258f7568acc1ac714c7ee5b9a0f7e15f752b78f7",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:ben-vandiver-1987473",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1987473.fec"
+      ],
+      "rationale": "A separate nonmemo original. Equal donor/date/amount does not justify deleting either original."
+    },
+    {
+      "record_id": "1987473:R-1090261-A",
+      "source_row_sha256": "9bef3915dd016537980781643a2f7a2dad75a45a59fea38c39cb0e343803c5d5",
+      "role": "direct_receipt",
+      "related_record_id": null,
+      "identity_key": "review:ben-vandiver-1987473",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1987473.fec"
+      ],
+      "rationale": "A separate nonmemo original. Equal donor/date/amount does not justify deleting either original."
+    },
+    {
+      "record_id": "1987473:R-1090261-ADJ",
+      "source_row_sha256": "2a2327b8b6164f4b9e414253d3b13c07cf48214fdf323cf3ea867bded390c6f6",
+      "role": "adjustment",
+      "related_record_id": "1987473:R-1090261-A",
+      "identity_key": "review:ben-vandiver-1987473",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1987473.fec"
+      ],
+      "rationale": "Reviewed source chain: negative primary and positive general memos offset; memo text identifies reattribution from Ben Vandiver, with unchanged donor/employer. No transaction back-reference was filed."
+    },
+    {
+      "record_id": "1987473:R-1445408-A",
+      "source_row_sha256": "3e861660a99e5eef8372fb3c87d0121081b88687aba70a3b57ce3ca120d3165e",
+      "role": "adjustment",
+      "related_record_id": "1987473:R-1090261-A",
+      "identity_key": "review:ben-vandiver-1987473",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1987473.fec"
+      ],
+      "rationale": "Reviewed source chain: negative primary and positive general memos offset; memo text identifies reattribution from Ben Vandiver, with unchanged donor/employer. No transaction back-reference was filed."
+    }
+  ],
+  "expected": {
+    "direct_receipts": "7000.00",
+    "jfc_allocations": "0.00",
+    "partnership_attributions": "0.00",
+    "signed_adjustments": "0.00",
+    "attributed_total": "7000.00",
+    "campaign_cash_receipts_in_excerpt": "7000.00",
+    "retained_distinct_original_receipt_count": 2,
+    "election_attribution": {
+      "P2026": "3500.00",
+      "G2026": "3500.00"
+    },
+    "unresolved_receipt_count_after_review": 0
+  },
+  "limits": [
+    "The source calls this reattribution while the filed election changes P2026 to G2026. Preserve the filed text and reviewed interpretation separately.",
+    "There are no transaction back-reference IDs on the adjustment rows; automated name/amount matching alone must leave them unresolved.",
+    "Removing only the positive memo or deduplicating equal original amounts wrongly reduces this chain to $3,500."
+  ]
+}

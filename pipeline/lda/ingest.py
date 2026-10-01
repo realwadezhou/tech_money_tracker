@@ -2,6 +2,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
+import tempfile
+import uuid
 from collections import Counter
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -98,16 +101,62 @@ def ingest_year_endpoint(
     *,
     page_size: int = 100,
     max_pages: int | None = None,
+    refresh: bool = False,
 ) -> dict[str, Any]:
     client = client or LDAClient()
-    base_dir = lda_year_raw_dir(year) / spec.key
-    base_dir.mkdir(parents=True, exist_ok=True)
+    year_dir = lda_year_raw_dir(year)
+    year_dir.mkdir(parents=True, exist_ok=True)
+    base_dir = year_dir / spec.key
+    if base_dir.resolve().parent != year_dir.resolve():
+        raise ValueError("Endpoint directory must be directly inside the requested LDA year.")
     existing_manifest_path = _manifest_path(base_dir)
     if existing_manifest_path.exists():
         existing_manifest = _read_json(existing_manifest_path)
-        if existing_manifest.get("complete") is True:
+        if existing_manifest.get("complete") is True and not refresh:
             return existing_manifest
 
+    with tempfile.TemporaryDirectory(prefix=f".{spec.key}-staging-", dir=year_dir) as temp_dir:
+        staged_dir = Path(temp_dir) / spec.key
+        staged_dir.mkdir()
+        manifest = _fetch_year_endpoint(
+            year, spec, client, staged_dir, page_size=page_size, max_pages=max_pages,
+        )
+        if refresh and not manifest["complete"]:
+            raise RuntimeError(
+                f"Incomplete LDA refresh for {year}/{spec.key}; existing data were preserved. "
+                f"Received {manifest['row_count']} rows and {manifest['unique_id_count']} unique IDs "
+                f"for an API count of {manifest['api_reported_count']}."
+            )
+
+        # A previous snapshot or leftover page must never survive a replacement
+        # download. Keep the original directory available for rollback until the
+        # fully fetched staging directory has been moved into place.
+        backup_dir = year_dir / f".{spec.key}-backup-{uuid.uuid4().hex}"
+        had_previous = base_dir.exists()
+        if had_previous:
+            base_dir.rename(backup_dir)
+        try:
+            staged_dir.rename(base_dir)
+        except Exception:
+            if had_previous:
+                backup_dir.rename(base_dir)
+            raise
+        if had_previous:
+            if backup_dir.resolve().parent != year_dir.resolve():
+                raise ValueError("Backup directory is outside the requested LDA year.")
+            shutil.rmtree(backup_dir)
+        return manifest
+
+
+def _fetch_year_endpoint(
+    year: int,
+    spec: YearEndpointSpec,
+    client: LDAClient,
+    base_dir: Path,
+    *,
+    page_size: int,
+    max_pages: int | None,
+) -> dict[str, Any]:
     page = 1
     page_count = 0
     row_count = 0
@@ -115,6 +164,9 @@ def ingest_year_endpoint(
     last_posted = None
     api_reported_count = None
     stop_reason = "no_results"
+    row_ids: set[str] = set()
+    missing_id_count = 0
+    effective_page_size = None
 
     while True:
         params = {
@@ -130,11 +182,19 @@ def ingest_year_endpoint(
 
         results = payload.get("results", [])
         if not results:
-            stop_reason = "empty_results"
+            stop_reason = "pagination_exhausted" if payload.get("next") is None else "empty_results"
             break
 
+        if effective_page_size is None:
+            effective_page_size = len(results)
         page_count += 1
         row_count += len(results)
+        for row in results:
+            row_id = row.get("filing_uuid") if isinstance(row, dict) else None
+            if row_id:
+                row_ids.add(row_id)
+            else:
+                missing_id_count += 1
 
         posted_values = [
             row.get("dt_posted")
@@ -159,6 +219,8 @@ def ingest_year_endpoint(
         stop_reason == "pagination_exhausted"
         and api_reported_count is not None
         and row_count == api_reported_count
+        and len(row_ids) == row_count
+        and missing_id_count == 0
     )
 
     manifest = {
@@ -166,9 +228,13 @@ def ingest_year_endpoint(
         "path": spec.path,
         "year": year,
         "page_size": page_size,
+        "effective_page_size": effective_page_size,
         "api_reported_count": api_reported_count,
         "page_count": page_count,
         "row_count": row_count,
+        "unique_id_count": len(row_ids),
+        "missing_id_count": missing_id_count,
+        "duplicate_row_count": row_count - missing_id_count - len(row_ids),
         "complete": complete,
         "stop_reason": stop_reason,
         "first_dt_posted": first_posted,
@@ -189,6 +255,7 @@ def ingest_year(
     page_size: int = 100,
     max_pages: int | None = None,
     include_lookups: bool = True,
+    refresh: bool = False,
 ) -> dict[str, Any]:
     client = LDAClient()
     year_dir = lda_year_raw_dir(year)
@@ -201,6 +268,7 @@ def ingest_year(
             client,
             page_size=page_size,
             max_pages=max_pages,
+            refresh=refresh,
         )
         for spec in YEAR_ENDPOINTS
     ]
@@ -214,7 +282,7 @@ def ingest_year(
         "complete": all(row["complete"] for row in endpoint_manifests),
     }
     if include_lookups:
-        run_manifest["lookups"] = fetch_lookup_snapshots(client)
+        run_manifest["lookups"] = fetch_lookup_snapshots(client, force=refresh)
 
     _write_json(year_dir / "run_manifest.json", run_manifest)
     return run_manifest
@@ -240,10 +308,12 @@ def verify_year(year: int) -> dict[str, Any]:
         duplicate_ids = sum(1 for _, count in id_counts.items() if count > 1)
         unique_ids = len([item for item in id_counts.keys() if item is not None])
         live_api_count = client.get(spec.path, filing_year=year, page_size=1).get("count")
+        cursor_overlap = manifest.get("strategy") == "timestamp_cursor_overlap"
+        missing_ids = ids.count(None)
         complete_as_of_verification = (
-            duplicate_ids == 0
-            and unique_ids == counted_rows
-            and counted_rows == live_api_count
+            (cursor_overlap or duplicate_ids == 0)
+            and missing_ids == 0
+            and unique_ids == live_api_count
         )
 
         endpoint_results.append(
@@ -258,9 +328,12 @@ def verify_year(year: int) -> dict[str, Any]:
                 "complete": (
                     manifest.get("complete") is True
                     and counted_rows == manifest.get("row_count")
-                    and counted_rows == manifest.get("api_reported_count")
+                    and unique_ids == manifest.get("api_reported_count")
+                    and (cursor_overlap or duplicate_ids == 0)
+                    and missing_ids == 0
                 ),
                 "complete_as_of_verification": complete_as_of_verification,
+                "intentional_timestamp_overlap": cursor_overlap,
                 "stop_reason": manifest.get("stop_reason"),
                 "page_count": manifest.get("page_count"),
             }
@@ -289,6 +362,10 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("years", nargs="+", type=int, help="Filing years to fetch")
     parser.add_argument("--page-size", type=int, default=100, help="API page size")
+    parser.add_argument(
+        "--refresh", action="store_true",
+        help="Fetch a fresh staged snapshot, replacing existing data only if the endpoint is complete",
+    )
     parser.add_argument(
         "--max-pages",
         type=int,
@@ -323,6 +400,7 @@ def main(argv: list[str] | None = None) -> None:
             page_size=args.page_size,
             max_pages=args.max_pages,
             include_lookups=not args.skip_lookups,
+            refresh=args.refresh,
         )
         print(
             json.dumps(

@@ -61,19 +61,53 @@ class OpenFECClient:
         max_pages: int | None = None,
         **params,
     ) -> Iterator[dict]:
+        """Page ordinary endpoints and follow itemized schedules' seek cursors.
+
+        Schedules A/B ignore page numbers and their counts may be approximate.
+        Continue until an empty response; never add API results to bulk totals
+        without reconciling the overlapping records.
+        """
+        if per_page <= 0 or (max_pages is not None and max_pages <= 0):
+            raise ValueError("per_page and max_pages must be positive")
+        keyset = path.strip("/") in {"schedules/schedule_a", "schedules/schedule_b"}
+        if keyset and "page" in params:
+            raise ValueError("Itemized schedules use last_indexes cursors, not page numbers")
+        cursor = {
+            key: params.pop(key) for key in list(params)
+            if keyset and (key.startswith("last_") or key == "sort_null_only")
+        }
+        seen_cursors = {json.dumps(cursor, sort_keys=True)} if cursor else set()
         page = 1
         while True:
-            payload = self.get(path, page=page, per_page=per_page, **params)
+            request_params = params | cursor | {"per_page": per_page}
+            if not keyset:
+                request_params["page"] = page
+            payload = self.get(path, **request_params)
             results = payload.get("results", [])
+            if not results:
+                break
+            pagination = payload.get("pagination") or {}
+            # Other itemized endpoints can also return keyset pagination.
+            if "last_indexes" in pagination:
+                keyset = True
+            next_cursor = pagination.get("last_indexes")
+            if keyset:
+                if not isinstance(next_cursor, dict) or not next_cursor:
+                    raise OpenFECError("Itemized endpoint returned records without a pagination cursor")
+                signature = json.dumps(next_cursor, sort_keys=True)
+                if signature in seen_cursors:
+                    raise OpenFECError("OpenFEC pagination cursor repeated; refusing duplicate-page totals")
+                seen_cursors.add(signature)
             for row in results:
                 yield row
 
-            pagination = payload.get("pagination") or {}
             total_pages = int(pagination.get("pages") or 0)
-            if not results:
-                break
             if max_pages is not None and page >= max_pages:
                 break
-            if total_pages and page >= total_pages:
+            if not keyset and total_pages and page >= total_pages:
                 break
+            if keyset:
+                # Replace the whole cursor: when entering null-date results,
+                # sort_null_only replaces last_contribution_receipt_date.
+                cursor = next_cursor
             page += 1

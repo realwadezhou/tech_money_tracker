@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "case_id": "unresolved_same_value_memo",
+  "title": "Mohamed Mansuri: unexplained same-filing memo/nonmemo pair",
+  "cycle": 2024,
+  "scope": "Only the explicitly listed source records and reviewed relationships. Not a complete donor, committee, cycle, or all-recipient total.",
+  "field_layout": {
+    "field_layout_url": "https://fecgov.github.io/fecfile-validate/SchA_spec.html",
+    "official_workbook_url": "https://docquery.fec.gov/formatspecs/FEC_EFO_Format_Specifications.xlsx",
+    "reviewed_workbook_sha256": "c667016493df28c186445201cf8a2bcff43563bccc41b75b2bcc06366b69132b",
+    "workbook_reviewed_version": "8.5",
+    "delimiter": "ASCII 28",
+    "columns_one_based": {
+      "schedule": 1,
+      "committee_id": 2,
+      "transaction_id": 3,
+      "back_reference_transaction_id": 4,
+      "back_reference_schedule": 5,
+      "entity_type": 6,
+      "organization": 7,
+      "last_name": 8,
+      "first_name": 9,
+      "middle_name": 10,
+      "prefix": 11,
+      "suffix": 12,
+      "election": 18,
+      "date": 20,
+      "amount": 21,
+      "aggregate": 22,
+      "purpose": 23,
+      "employer": 24,
+      "occupation": 25,
+      "other_committee_id": 26,
+      "memo_code": 43,
+      "memo_text": 44
+    },
+    "note": "Source headers independently record 8.4 or 8.5. These selected Sch A columns have the same observed layout in the reviewed records. This fixture is not a parser specification for arbitrary filing versions."
+  },
+  "sources": [
+    {
+      "file_number": 1860151,
+      "source_url": "https://docquery.fec.gov/dcdev/posted/1860151.fec",
+      "source_sha256": "0858052589a44fe7a19d5934acc1546f0e6936c3d08b28f9c3a00ba491dbbffd",
+      "source_bytes": 51315,
+      "format_version": "8.4",
+      "source_form_type": "F3A",
+      "original_file_number_from_hdr": "FEC-1823042",
+      "amendment_sequence_from_hdr": "1",
+      "selected_transaction_ids": [
+        "A-6019",
+        "A-6071"
+      ],
+      "redacted_snippet": "redacted_schedule_a/1860151.schedule_a.redacted.fec",
+      "redacted_snippet_sha256": "5058214c3717ad8538bfcaba5375ec3ee8e4df3b64ffb5dfecb263cd971bc847",
+      "redaction": "HDR first seven fields and selected 45-column Schedule A records only; every field not in field_layout.columns_one_based is blank. Full report/form records and all contributor location fields omitted."
+    }
+  ],
+  "records": [
+    {
+      "record_id": "1860151:A-6019",
+      "file_number": 1860151,
+      "committee_id": "C00876383",
+      "transaction_id": "A-6019",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "3300.00",
+      "employer": "Amazon.com",
+      "memo": false,
+      "back_reference_transaction_id": "",
+      "date": "20240719",
+      "election": "P2024",
+      "donor_name": "Mansuri, Mohamed",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1860151.fec"
+      ],
+      "source_record_number": 8,
+      "source_row_sha256": "9d7468517feaf0dff189211b76d3e72af7693c82877b51d2090f6b178f179b1d",
+      "redacted_row_sha256": "f78b2a956d922835f8a53bc9e3955b39dbd290566e0a0e668187898997a4e61d",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00876383",
+        "transaction_id": "A-6019",
+        "back_reference_transaction_id": "",
+        "back_reference_schedule": "",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "Mansuri",
+        "first_name": "Mohamed",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "P2024",
+        "date": "20240719",
+        "amount": "3300.00",
+        "aggregate": "6600.00",
+        "purpose": "",
+        "employer": "Amazon.com",
+        "occupation": "General Manager",
+        "other_committee_id": "",
+        "memo_code": "",
+        "memo_text": ""
+      }
+    },
+    {
+      "record_id": "1860151:A-6071",
+      "file_number": 1860151,
+      "committee_id": "C00876383",
+      "transaction_id": "A-6071",
+      "schedule": "SA11AI",
+      "entity_type": "IND",
+      "amount": "3300.00",
+      "employer": "Amazon.com",
+      "memo": true,
+      "back_reference_transaction_id": "",
+      "date": "20240719",
+      "election": "P2024",
+      "donor_name": "Mansuri, Mohamed",
+      "identity_key": "",
+      "role": "auto",
+      "related_record_id": null,
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1860151.fec"
+      ],
+      "source_record_number": 9,
+      "source_row_sha256": "bbd991930211fe297a5f65a0f1ca35a7a96f89fd49915d46a75904df3ae25fcc",
+      "redacted_row_sha256": "e84e3bba4a8d11c3a04c47e6475f15cd9da8bb21bcec1d5e7ea2c0acdcc852bc",
+      "source_fields": {
+        "schedule": "SA11AI",
+        "committee_id": "C00876383",
+        "transaction_id": "A-6071",
+        "back_reference_transaction_id": "",
+        "back_reference_schedule": "",
+        "entity_type": "IND",
+        "organization": "",
+        "last_name": "Mansuri",
+        "first_name": "Mohamed",
+        "middle_name": "",
+        "prefix": "",
+        "suffix": "",
+        "election": "P2024",
+        "date": "20240719",
+        "amount": "3300.00",
+        "aggregate": "6600.00",
+        "purpose": "",
+        "employer": "Amazon.com",
+        "occupation": "General Manager",
+        "other_committee_id": "",
+        "memo_code": "X",
+        "memo_text": ""
+      }
+    }
+  ],
+  "reviewed_context": [
+    {
+      "record_id": "1860151:A-6071",
+      "source_row_sha256": "bbd991930211fe297a5f65a0f1ca35a7a96f89fd49915d46a75904df3ae25fcc",
+      "role": "unresolved",
+      "related_record_id": null,
+      "identity_key": "",
+      "evidence": [
+        "https://docquery.fec.gov/dcdev/posted/1860151.fec"
+      ],
+      "rationale": "Distinct transaction IDs, blank transaction back-references, and no memo explanation. Source similarity and a cash summary excluding memos do not prove the economic relationship."
+    }
+  ],
+  "expected": {
+    "direct_receipts": "3300.00",
+    "jfc_allocations": "0.00",
+    "partnership_attributions": "0.00",
+    "signed_adjustments": "0.00",
+    "attributed_total": null,
+    "campaign_cash_receipts_in_excerpt": "3300.00",
+    "unresolved_receipt_count_after_review": 1,
+    "unresolved_memo_amount": "3300.00",
+    "naive_all_record_signed_sum": "6600.00",
+    "proven_duplicate_correction": null
+  },
+  "limits": [
+    "Do not silently delete the memo or confidently count a second distinct gift.",
+    "One representative pair of 12 unexplained pairs at this committee. The other pairs are outside this fixture.",
+    "Source filing totals exclude memos from cash receipts but do not establish this memo's attribution role."
+  ],
+  "correspondence_source": "https://docquery.fec.gov/pdf/982/202411130300227982/202411130300227982.pdf",
+  "correspondence_scope": "The reviewed November 13 RFAI concerns Schedule B reimbursements; it does not explain these Schedule A pairs."
+}

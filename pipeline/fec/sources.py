@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from hashlib import sha256
 import sys
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
@@ -125,7 +126,8 @@ def _iso_utc_from_header(value: str | None) -> str | None:
 def _head(url: str, timeout: int = 20) -> dict[str, str]:
     request = Request(url, method="HEAD", headers={"User-Agent": "tech-money/1.0"})
     with urlopen(request, timeout=timeout) as response:
-        return dict(response.headers.items())
+        # HTTP field names are case-insensitive, unlike a plain dict.
+        return {key.lower(): value for key, value in response.headers.items()}
 
 
 def get_cycle_source_status(cycle: int) -> list[dict]:
@@ -144,11 +146,11 @@ def get_cycle_source_status(cycle: int) -> list[dict]:
             remote_error = str(exc)
 
         remote_last_modified = _iso_utc_from_header(
-            remote_headers.get("Last-Modified") if remote_headers else None
+            remote_headers.get("last-modified") if remote_headers else None
         )
         remote_content_length = (
-            int(remote_headers["Content-Length"])
-            if remote_headers and remote_headers.get("Content-Length")
+            int(remote_headers["content-length"])
+            if remote_headers and remote_headers.get("content-length")
             else None
         )
 
@@ -167,7 +169,7 @@ def get_cycle_source_status(cycle: int) -> list[dict]:
                 "local_last_modified_utc": local_mtime,
                 "remote_last_modified_utc": remote_last_modified,
                 "remote_content_length": remote_content_length,
-                "remote_etag": remote_headers.get("ETag") if remote_headers else None,
+                "remote_etag": remote_headers.get("etag") if remote_headers else None,
                 "remote_is_newer": remote_is_newer,
                 "remote_error": remote_error,
             }
@@ -184,13 +186,41 @@ def build_source_manifest(cycle: int) -> dict:
         if row["remote_last_modified_utc"]
     ]
     stale_sources = [row["key"] for row in bulk_sources if row["remote_is_newer"]]
+    local_timestamps = [
+        row["local_last_modified_utc"] for row in bulk_sources
+        if row["local_exists"] and row["local_last_modified_utc"]
+    ]
+    missing_sources = [row["key"] for row in bulk_sources if not row["local_exists"]]
+    unverified_sources = [
+        row["key"] for row in bulk_sources
+        if row["remote_error"] or not row["remote_last_modified_utc"]
+    ]
+    # An unsuccessful HEAD request must not certify a local snapshot as current.
+    # Remote release timestamps describe availability, not the installed inputs.
+    check_status = (
+        "missing" if missing_sources else
+        "stale" if stale_sources else
+        "unknown" if unverified_sources else "current"
+    )
     return {
         "cycle": cycle,
         "checked_at_utc": checked_at,
         "latest_bulk_release_utc": max(remote_timestamps) if remote_timestamps else None,
+        "latest_local_bulk_release_utc": max(local_timestamps) if local_timestamps else None,
+        "source_check_status": check_status,
+        "sources_with_unverified_freshness": unverified_sources,
         "bulk_sources": bulk_sources,
         "sources_with_remote_newer_than_local": stale_sources,
         "all_local_bulk_files_present": all(row["local_exists"] for row in bulk_sources),
+        "reviewed_reference_inputs": [
+            {"file": "data/" + path.relative_to(DATA_ROOT).as_posix(),
+             "sha256": sha256(path.read_bytes()).hexdigest()}
+            for path in (
+                DATA_ROOT / "reference/companies/curated.csv",
+                DATA_ROOT / f"reference/committees/converted_campaigns_{cycle}.json",
+                DATA_ROOT / "reference/transactions/reviewed_exclusions.json",
+            ) if path.is_file()
+        ],
         "openfec": {
             "developers_url": "https://api.open.fec.gov/developers/",
             "base_url": "https://api.open.fec.gov/v1/",

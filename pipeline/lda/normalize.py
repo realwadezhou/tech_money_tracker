@@ -278,9 +278,12 @@ def _endpoint_manifest(raw_year_dir: Path, endpoint: str) -> dict[str, Any]:
 def _iter_endpoint_results(raw_year_dir: Path, endpoint: str) -> Iterable[dict[str, Any]]:
     snapshot_path = raw_year_dir / endpoint / "snapshot.jsonl"
     if snapshot_path.exists():
-        for raw_line in snapshot_path.read_text(encoding="utf-8").splitlines():
-            if raw_line.strip():
-                yield json.loads(raw_line)
+        # JSONL records end at physical newlines. str.splitlines() also splits
+        # legal Unicode separators inside JSON strings (e.g. U+2028 in a filing).
+        with snapshot_path.open(encoding="utf-8", newline="\n") as handle:
+            for raw_line in handle:
+                if raw_line.strip():
+                    yield json.loads(raw_line)
         return
 
     manifest = _endpoint_manifest(raw_year_dir, endpoint)
