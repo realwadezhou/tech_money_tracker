@@ -9,6 +9,7 @@ venv/
 .env.*
 
 outputs/
+experiments/individual_review/old/
 frontend/site/
 data/fec/raw/
 data/fec/interim/

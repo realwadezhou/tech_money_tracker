@@ -2,7 +2,7 @@
 
 **September 20, 2026 update:** the current isolated 20-person experiment is
 [evidence first](../../../experiments/individual_review/evidence_first/README.md).
-The previous approach is preserved in [old](../../../experiments/individual_review/old/README.md).
+The previous approach was removed on 2026-09-30; it remains in git history.
 The current methodology supersedes the historical name-plus-state proposal below:
 explicit record assignments follow quantitative evidence and saved contextual
 reviews. This production directory remains an unwired legacy skeleton.

@@ -3,10 +3,10 @@ Core data loading and filtering module for tech money analysis.
 
 Loads raw FEC bulk files and applies the project's selected-record rules.
 These selections are not a fully reconciled ledger of unique gifts or complete
-candidate attribution; see FEC_CONFIDENCE_REVIEW.md before reusing a total.
+candidate attribution; see notes/FEC_CONFIDENCE_REVIEW.md before reusing a total.
 
 Usage:
-    from pipeline.load_fec import load_cycle
+    from pipeline.fec.load import load_cycle
 
     data = load_cycle(2024)
     data.donor_contributions   # individual contributions, filtered and cleaned
@@ -55,7 +55,7 @@ CM_COLS = [
 
 
 # ── Transaction type rules ──────────────────────────────────────────
-# See transaction_type_observations.md for full rationale on each.
+# See notes/transaction_type_observations.md for full rationale on each.
 
 # Selected donor-receipt and attribution types. A retained row is not always
 # a distinct new gift: memo parents/children and later adjustments need context.
@@ -91,7 +91,7 @@ REFUND_TYPES_ITCONT = {"22Y", "21Y", "40Y", "40T", "41Y", "41T", "42Y", "42T"}
 # Type 10 memos can describe valid partnership, trust, or in-kind attribution,
 # but can also repeat earlier records. Retaining them does not certify each one.
 # 24T is also excluded: it is an intermediary outflow, not a second receipt.
-# See transaction_type_observations.md for the unresolved 15E audit examples.
+# See notes/transaction_type_observations.md for the unresolved 15E audit examples.
 MEMO_X_EXCLUDE_TYPES = {"15E"}
 
 # itoth types for committee spending analysis

@@ -22,7 +22,7 @@ spreadsheet. Will need to update soon.
 
 ## How it's used
 
-During `pipeline.load_fec`, every itemized contribution's employer string is
+During `pipeline.fec.load`, every itemized contribution's employer string is
 looked up in the manual-review CSV. If there is a match to a tracked company,
 the contribution is attributed to that company. If there is no match, the
 contribution is simply not counted as tech-linked — it still exists in the raw

@@ -36,7 +36,7 @@ Rules were checked against the [FEC linkage documentation](https://www.fec.gov/c
 
 ## Remaining scope and limits
 
-The exploratory LDA snapshots remain dated April 9, 2026. They are not used by the public site. Their refresh bugs were repaired and live counts checked, but a full refresh of both years (about 8,955 API pages at the observed 25-row limit) was not performed. The [current official download guidance](https://lda.gov/api/) points to the REST API; the [legacy Senate XML archive](https://www.senate.gov/legislative/Public_Disclosure/database_download.htm) stops at 2022 Q1. No current bulk replacement was found. See [LDA status and refresh instructions](data/lda/README.md).
+The exploratory LDA snapshots remain dated April 9, 2026. They are not used by the public site. Their refresh bugs were repaired and live counts checked, but a full refresh of both years (about 8,955 API pages at the observed 25-row limit) was not performed. The [current official download guidance](https://lda.gov/api/) points to the REST API; the [legacy Senate XML archive](https://www.senate.gov/legislative/Public_Disclosure/database_download.htm) stops at 2022 Q1. No current bulk replacement was found. See [LDA status and refresh instructions](../data/lda/README.md).
 
 Employer coverage and donor identity still depend on curated aliases and exact reported names. New alias review, individual identity consolidation, and lobbying integration remain separate work.
 

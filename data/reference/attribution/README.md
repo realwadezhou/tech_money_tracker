@@ -2,8 +2,8 @@
 
 Each top-level JSON file pins one question to specific original FEC reports,
 employer aliases and source-reviewed relationships. It is not a universal donor
-lookup. Start with the [developer guide](../../../FEC_DEVELOPER_GUIDE.md) and
-[old/new validation](../../../FEC_METHODOLOGY_VALIDATION.md).
+lookup. Start with the [developer guide](../../../notes/FEC_DEVELOPER_GUIDE.md) and
+[old/new validation](../../../notes/FEC_METHODOLOGY_VALIDATION.md).
 
 - `nvidia_el_sayed.json`: one campaign account, six latest reports through
   July 15, 2026; $33,500 before refunds.

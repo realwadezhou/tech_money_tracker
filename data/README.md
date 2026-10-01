@@ -47,7 +47,7 @@ the hand-curated part of the project.
 
 ## See also
 
-- [`../FEC_DEVELOPER_GUIDE.md`](../FEC_DEVELOPER_GUIDE.md) — counting assumptions,
+- [`../notes/FEC_DEVELOPER_GUIDE.md`](../notes/FEC_DEVELOPER_GUIDE.md) — counting assumptions,
   API comparisons, joins, and source-review workflow
 - [`fec/README.md`](fec/README.md) — details on the FEC pipeline stages
 - [`lda/README.md`](lda/README.md) — details on lobbying ingestion

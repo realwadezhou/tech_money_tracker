@@ -196,7 +196,7 @@ correction inventories. These checks establish the contracts and reviewed
 answers above, not a complete historical donor ledger.
 
 Compact comparisons and reproduction commands are tracked in
-[`data/reference/attribution/validation/`](data/reference/attribution/validation/README.md).
+[`data/reference/attribution/validation/`](../data/reference/attribution/validation/README.md).
 The larger source files, local raw extracts, independent checking scripts and
 logs are preserved in `outputs/audit_20260919/methodology/`. Its reproduction
 snapshot preserves the code, references and original electronic filings used

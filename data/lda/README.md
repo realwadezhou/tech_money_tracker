@@ -44,7 +44,7 @@ The requested collection covers **2020 onward**, across all clients and sectors,
 including registrations/quarterly activity filings and LD-203 contribution
 reports. Refreshes run only when requested; no recurring refresh is scheduled.
 The full 2020–2026 collection finished on September 19, 2026 at 04:22 UTC;
-the [audit report](../../AUDIT_2026-09-18.md) records each year's actual
+the [audit report](../../notes/AUDIT_2026-09-18.md) records each year's actual
 snapshot cutoff and verification. The 2026 snapshot excludes postings after
 its September 18 cutoff. For any later refresh, use the saved job status,
 rather than this README, to determine which years are ready:

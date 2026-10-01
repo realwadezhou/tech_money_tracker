@@ -73,13 +73,13 @@ python -m pip install -r requirements.txt
 Node.js is also needed to run the frontend regression tests.
 
 Before using the numbers in reporting or changing the FEC joins and filters,
-read the [developer guide to FEC data and our assumptions](FEC_DEVELOPER_GUIDE.md).
+read the [developer guide to FEC data and our assumptions](notes/FEC_DEVELOPER_GUIDE.md).
 It explains how to investigate a company-to-candidate question, which totals
 are comparable, and where source attribution remains unresolved.
-Start with the shorter [FEC confidence review](FEC_CONFIDENCE_REVIEW.md) for
+Start with the shorter [FEC confidence review](notes/FEC_CONFIDENCE_REVIEW.md) for
 what is established, what is still unproven, and the evidence needed before
 quoting a figure.
-The [methodology validation](FEC_METHODOLOGY_VALIDATION.md) explains the expanded
+The [methodology validation](notes/FEC_METHODOLOGY_VALIDATION.md) explains the expanded
 source checks and every observed difference from the old campaign calculations.
 
 ### Rebuild everything from scratch
@@ -210,7 +210,8 @@ updating the bulk committee and candidate directories.
 | `frontend/assets/` | Stylesheet and JS for the site |
 | `exports/site/<cycle>/` | Site-ready bundles produced by `build_frontend_exports` |
 | `docs/` | The committed snapshot GitHub Pages serves |
-| `scripts/` | Ad-hoc investigation scripts and the site → docs publisher |
+| `scripts/` | Site publisher, site validator, and FEC case-audit tools |
+| `notes/` | Audit reports, FEC developer guide, confidence review, methodology validation |
 
 ## Key FEC files (per cycle)
 

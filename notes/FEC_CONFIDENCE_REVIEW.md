@@ -110,10 +110,10 @@ donor's original giving across committees or her share of the campaign's net
 cash transfer. Adding $25 to every global total would be unjustified.
 
 [Official filing 1920909](https://docquery.fec.gov/dcdev/posted/1920909.fec),
-[tracked source fixture](tests/fixtures/fec_attribution/thayer_jfc_allocation.json),
-[reviewed report manifest](data/reference/attribution/meta_delbene_reviewed_allocation.json),
-[source evidence and independent expected amounts](outputs/audit_20260918/fec_confidence_followup/README.md),
-[offline checker](outputs/audit_20260918/fec_confidence_followup/check_thayer_oracle.py).
+[tracked source fixture](../tests/fixtures/fec_attribution/thayer_jfc_allocation.json),
+[reviewed report manifest](../data/reference/attribution/meta_delbene_reviewed_allocation.json),
+[source evidence and independent expected amounts](../outputs/audit_20260918/fec_confidence_followup/README.md),
+[offline checker](../outputs/audit_20260918/fec_confidence_followup/check_thayer_oracle.py).
 
 ## A case with stronger supporting evidence
 
@@ -150,10 +150,10 @@ evidence is the original filing content and reconstruction of its replacement
 chains, compared with expectations established before the new engine. This
 does not make the API catalog an exhaustive source of all possible evidence.
 
-[Frozen source facts and hashes](outputs/audit_20260918/nvidia_el_sayed/source_oracle.json),
-[independent checker](outputs/audit_20260918/nvidia_el_sayed/validate_source_oracle.py),
-[tracked source fixture](tests/fixtures/fec_attribution/nvidia_el_sayed_direct_receipts.json),
-[reviewed report manifest](data/reference/attribution/nvidia_el_sayed.json).
+[Frozen source facts and hashes](../outputs/audit_20260918/nvidia_el_sayed/source_oracle.json),
+[independent checker](../outputs/audit_20260918/nvidia_el_sayed/validate_source_oracle.py),
+[tracked source fixture](../tests/fixtures/fec_attribution/nvidia_el_sayed_direct_receipts.json),
+[reviewed report manifest](../data/reference/attribution/nvidia_el_sayed.json).
 
 Reproduce the new reports from the project root:
 
@@ -211,7 +211,7 @@ A16Z partner attributions, Vandiver's legitimate equal receipts and balanced
 adjustments, Flores's repeated-original memo, an unexplained Mansuri memo, and
 Nvidia receipts with ActBlue context. Original-file and row hashes bind the
 reviews to source contents; address-free excerpts support offline tests.
-[Corpus scope and expected outcomes](tests/fixtures/fec_attribution/README.md).
+[Corpus scope and expected outcomes](../tests/fixtures/fec_attribution/README.md).
 
 The key checks preserve the accounting distinctions: a transfer or conduit
 memo must not create a second gift; a reviewed balanced redesignation keeps

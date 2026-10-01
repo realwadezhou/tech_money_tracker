@@ -64,9 +64,9 @@ Three reviewed manifests are included:
 
 | Manifest | Supported result | Remaining limit |
 |---|---|---|
-| [`nvidia_el_sayed.json`](data/reference/attribution/nvidia_el_sayed.json) | 23 reported-employer receipts, $33,500, in six latest campaign reports covering January 1, 2025–July 15, 2026 | Refunds cannot be fully attributed; net is `null` |
-| [`meta_delbene_full_reports.json`](data/reference/attribution/meta_delbene_full_reports.json) | $4,925 before refunds: $4,900 direct receipts plus $25 JFC allocation, in seven full reports through July 15, 2026 | Later F6 notices are outside scope; refunds and net are `null` |
-| [`meta_delbene_reviewed_allocation.json`](data/reference/attribution/meta_delbene_reviewed_allocation.json) | $25 for the specified Thayer allocation and its balanced adjustments | Four source records only, not all Meta giving to DelBene; refunds and net are `null` |
+| [`nvidia_el_sayed.json`](../data/reference/attribution/nvidia_el_sayed.json) | 23 reported-employer receipts, $33,500, in six latest campaign reports covering January 1, 2025–July 15, 2026 | Refunds cannot be fully attributed; net is `null` |
+| [`meta_delbene_full_reports.json`](../data/reference/attribution/meta_delbene_full_reports.json) | $4,925 before refunds: $4,900 direct receipts plus $25 JFC allocation, in seven full reports through July 15, 2026 | Later F6 notices are outside scope; refunds and net are `null` |
+| [`meta_delbene_reviewed_allocation.json`](../data/reference/attribution/meta_delbene_reviewed_allocation.json) | $25 for the specified Thayer allocation and its balanced adjustments | Four source records only, not all Meta giving to DelBene; refunds and net are `null` |
 
 From the project root, reproduce the reports with:
 
@@ -115,7 +115,7 @@ The FEC distinguishes these [processing stages](https://www.fec.gov/data/filings
 
 To add another case, start with a new manifest under
 `data/reference/attribution/` and an independently reviewed fixture under
-[`tests/fixtures/fec_attribution/`](tests/fixtures/fec_attribution/README.md):
+[`tests/fixtures/fec_attribution/`](../tests/fixtures/fec_attribution/README.md):
 
 1. Define the candidate, account IDs and ownership evidence, employer aliases,
    report coverage, and exact question. Choose a complete supplied report set
@@ -398,8 +398,8 @@ The legacy common selector therefore cannot be treated as complete candidate
 attribution. The new reviewed campaign report correctly preserves $25 for this
 four-record chain, while leaving the legacy selector unchanged. It does not
 add $25 to global origin-giving totals. See the tracked
-[source fixture](tests/fixtures/fec_attribution/thayer_jfc_allocation.json) and
-the earlier [offline comparison](outputs/audit_20260918/fec_confidence_followup/README.md).
+[source fixture](../tests/fixtures/fec_attribution/thayer_jfc_allocation.json) and
+the earlier [offline comparison](../outputs/audit_20260918/fec_confidence_followup/README.md).
 
 There is a separate partnership pitfall. A committee can report one receipt
 from a partnership and memo records allocating that same money to partners.
@@ -466,10 +466,10 @@ exclusion. If later source data change those contents, fail for review rather
 than applying a stale exception to a different record.
 
 The exact reviewed decisions are in
-[`data/reference/transactions/reviewed_exclusions.json`](data/reference/transactions/reviewed_exclusions.json),
+[`data/reference/transactions/reviewed_exclusions.json`](../data/reference/transactions/reviewed_exclusions.json),
 with the contract explained in its
-[README](data/reference/transactions/README.md). The shared
-[`pipeline/fec/transaction_reviews.py`](pipeline/fec/transaction_reviews.py)
+[README](../data/reference/transactions/README.md). The shared
+[`pipeline/fec/transaction_reviews.py`](../pipeline/fec/transaction_reviews.py)
 helper is used by the core loader, narrow candidate rebuild, and candidate
 audit. It checks cycle, source filename, source-row ID, reviewed fields, and a
 hash of all 21 source fields. Each complete source scan also verifies that an
@@ -638,7 +638,7 @@ The confidence follow-up also checked 18 original electronic filings in six
 known amendment chains. The latest versions contain those same 23 nonmemo
 individual receipts; all link to same-report ActBlue memos. Each latest report's
 nonmemo itemized-individual subtotal reconciles exactly to its summary line.
-The standalone [source checker](outputs/audit_20260918/nvidia_el_sayed/validate_source_oracle.py)
+The standalone [source checker](../outputs/audit_20260918/nvidia_el_sayed/validate_source_oracle.py)
 uses original bytes and frozen expectations, without production selection
 constants. A $750 record changes its reported employer from `Nvda` to `Nurse`
 in the latest Q1 amendment, providing a real test of replacement-version
@@ -647,7 +647,7 @@ The September 19 campaign-report workflow reproduces that $33,500 from the
 original files and leaves refunds and net unknown. Its processed inventory
 checks at 10:12:59 and 10:15:00 UTC found the same 18 versions; coverage remains
 July 15.
-The durable [fixture and amendment example](tests/fixtures/fec_attribution/nvidia_el_sayed_direct_receipts.json)
+The durable [fixture and amendment example](../tests/fixtures/fec_attribution/nvidia_el_sayed_direct_receipts.json)
 preserve the expected result without depending on the ignored audit directory.
 
 The broader September 19 review also adjudicated all 57 negative memo records
@@ -710,7 +710,7 @@ The command writes two files, with deliberately different roles:
 
 Neither file is a live API snapshot. The saved September API comparison is a
 separate retrieval described in
-[`fec_journalistic_case.md`](outputs/audit_20260918/fec_journalistic_case.md).
+[`fec_journalistic_case.md`](../outputs/audit_20260918/fec_journalistic_case.md).
 The extract's `evidence_sha256` protects the output contents; it does not by
 itself preserve every raw input, alias table, committee directory, or reviewed
 exception needed to reproduce the result.

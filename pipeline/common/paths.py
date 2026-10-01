@@ -21,7 +21,6 @@ LDA_DERIVED_ROOT = LDA_ROOT / "derived"
 EXPORTS_ROOT = PROJECT_ROOT / "exports"
 SITE_EXPORT_ROOT = EXPORTS_ROOT / "site"
 
-MANUAL_TAGGING_ROOT = PROJECT_ROOT / "manual_tagging"
 
 
 def fec_cycle_raw_dir(cycle: int) -> Path:
