@@ -163,6 +163,16 @@ without rebuilding FEC exports. The full site generator also includes it when
 the lobbying export is present. Rebuilding does not download newer filings.
 See [definitions, data dictionary, and review workflow](data/reference/lobbying/README.md).
 
+### Private lobbying search (local only)
+
+To explore all lobbying reports by phrase or company name on your own computer:
+
+```bash
+python -m tools.lobbying_search
+```
+
+See [tools/lobbying_search/README.md](tools/lobbying_search/README.md). It is not published.
+
 ### Regression checks
 
 ```bash
@@ -210,6 +220,7 @@ updating the bulk committee and candidate directories.
 | `frontend/assets/` | Stylesheet and JS for the site |
 | `exports/site/<cycle>/` | Site-ready bundles produced by `build_frontend_exports` |
 | `docs/` | The committed snapshot GitHub Pages serves |
+| `tools/lobbying_search/` | Private local search page for all LDA reports (not published) |
 | `scripts/` | Site publisher, site validator, and FEC case-audit tools |
 | `notes/` | Audit reports, FEC developer guide, confidence review, methodology validation |
 

@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lobbying Search</title>
+<style>
+:root {
+  --bg: #fafaf8; --panel: #ffffff; --text: #1d1d1b; --muted: #6b6b66; --line: #e2e1dc;
+  --accent: #2456c9; --mark: #ffe58a; --partial: #f1efe9;
+  --c1: #2456c9; --c2: #d1495b; --c3: #1b998b; --c4: #e08e0b; --c5: #7b4fc9; --c6: #5c7a2e; --c7: #c2489f; --c8: #4a4a4a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161615; --panel: #1f1f1e; --text: #ecebe6; --muted: #9a9993; --line: #34332f;
+    --accent: #7ea2ff; --mark: #6b5a12; --partial: #262522;
+    --c1: #7ea2ff; --c2: #ff7b8a; --c3: #4fd1c0; --c4: #ffb547; --c5: #b393ff; --c6: #a5c96a; --c7: #ff8fd8; --c8: #c9c9c4;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1180px; margin: 0 auto; padding: 20px 16px 60px; }
+h1 { font-size: 20px; margin: 0 0 2px; }
+h2 { font-size: 15px; margin: 18px 0 8px; }
+.sub { color: var(--muted); margin: 0 0 16px; }
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 16px; }
+.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px; font: inherit; color: var(--muted); cursor: pointer; }
+.tabs button.on { color: var(--text); border-bottom-color: var(--accent); font-weight: 600; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; margin-bottom: 14px; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+label { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--muted); }
+input[type=text], select { font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; }
+input.wide { width: min(460px, 80vw); }
+button.go { font: inherit; background: var(--accent); color: #fff; border: 0; border-radius: 6px; padding: 7px 14px; cursor: pointer; }
+.check { flex-direction: row; align-items: center; gap: 6px; }
+.help { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
+.help b { color: var(--text); font-weight: 600; }
+svg.chart { width: 100%; height: 340px; display: block; }
+svg.chart text { fill: var(--muted); font-size: 11px; }
+svg.chart .grid { stroke: var(--line); }
+svg.chart .pt { cursor: pointer; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 6px; font-size: 13px; }
+.legend button { background: none; border: 0; font: inherit; color: var(--text); cursor: pointer; padding: 0; display: flex; align-items: center; gap: 6px; }
+.legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+.tip { position: fixed; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font-size: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.15); display: none; z-index: 5; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 12px; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.scroll { max-height: 420px; overflow: auto; }
+.entry { border-bottom: 1px solid var(--line); padding: 10px 0; }
+.entry .meta { font-size: 12px; color: var(--muted); }
+.entry .meta b { color: var(--text); }
+.entry p { margin: 4px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+mark { background: var(--mark); color: inherit; padding: 0 1px; border-radius: 2px; }
+a { color: var(--accent); }
+.err { color: #d1495b; }
+.muted { color: var(--muted); }
+.linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; text-align: left; }
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lobbying Search</h1>
+  <p class="sub" id="meta">Loading…</p>
+
+  <div class="tabs">
+    <button class="on" data-tab="trends">Phrase trends</button>
+    <button data-tab="companies">Company lookup</button>
+  </div>
+
+  <section id="trends">
+    <div class="panel">
+      <form class="controls" id="trend-form">
+        <label>Phrases (comma-separated, up to 8)
+          <input type="text" class="wide" id="terms" value="artificial intelligence, data center, tariff">
+        </label>
+        <label>Match
+          <select id="mode">
+            <option value="word">Whole words (plurals included)</option>
+            <option value="substring">Anywhere (substring)</option>
+            <option value="regex">Regular expression</option>
+          </select>
+        </label>
+        <label>Only clients whose name contains
+          <input type="text" id="client" placeholder="e.g. META PLATFORMS">
+        </label>
+        <label>Measure
+          <select id="metric">
+            <option value="pct_clients">% of clients mentioning</option>
+            <option value="pct_entries">% of issue entries</option>
+            <option value="clients">Number of clients</option>
+            <option value="entries">Number of issue entries</option>
+          </select>
+        </label>
+        <label class="check"><input type="checkbox" id="partial"> Show incomplete quarters</label>
+        <button class="go">Search</button>
+      </form>
+      <p class="help">An <b>issue entry</b> is one topic paragraph inside a quarterly report; one report can have many.
+        A <b>client</b> is the company or group paying for the lobbying (grouped by its name as written).
+        "% of clients" is the safer measure: one lobbying firm pasting the same paragraph for 40 clients
+        inflates entry counts more than client counts. Matching ignores capitalization. Whole-word mode also finds
+        simple plurals ("tariff" finds "tariffs") but not other word forms ("regulate" won't find "regulation").
+        <b>Click any point</b> to see who said it and the actual text.</p>
+    </div>
+    <div class="panel">
+      <svg class="chart" id="trend-chart"></svg>
+      <div class="legend" id="trend-legend"></div>
+    </div>
+    <div class="panel hidden" id="trend-detail"></div>
+  </section>
+
+  <section id="companies" class="hidden">
+    <div class="panel">
+      <form class="controls" id="company-form">
+        <label>Client name contains
+          <input type="text" class="wide" id="company" value="ORACLE">
+        </label>
+        <label class="check"><input type="checkbox" id="partial2"> Show incomplete quarters</label>
+        <button class="go">Look up</button>
+      </form>
+      <p class="help">Filers type client names by hand, so one company appears under several spellings.
+        Tick the names that are really the company you mean; the chart adds up the ticked ones.
+        Two kinds of money appear on reports: <b>outside firms' income</b> (a lobbying firm reports what
+        this client paid it) and <b>in-house expenses</b> (the company reports its own lobbying costs).
+        In-house expense totals usually <b>already include</b> what the company paid outside firms, so adding
+        the two lines together can double count.</p>
+    </div>
+    <div class="panel">
+      <svg class="chart" id="company-chart"></svg>
+      <div class="legend" id="company-legend"></div>
+    </div>
+    <div class="panel" id="company-names"></div>
+    <div class="panel hidden" id="company-detail"></div>
+  </section>
+</main>
+<div class="tip" id="tip"></div>
+
+<script>
+const COLORS = [1,2,3,4,5,6,7,8].map(i => `var(--c${i})`);
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const money = v => v == null ? "—" : "$" + Math.round(v).toLocaleString();
+const qlabel = q => `${Math.floor(q / 10)} Q${q % 10}`;
+let META = null;
+
+async function api(path, params) {
+  const res = await fetch(path + "?" + new URLSearchParams(params));
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || res.statusText);
+  return body;
+}
+
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".tabs button").forEach(x => x.classList.toggle("on", x === b));
+  ["trends", "companies"].forEach(id => $(id).classList.toggle("hidden", id !== b.dataset.tab));
+});
+
+// Generic line chart. series: [{label, color, values}], values aligned with quarters.
+function drawChart(svg, quarters, series, {format, onClick, showPartial}) {
+  const keep = quarters.map((q, i) => (showPartial || !q.partial) ? i : -1).filter(i => i >= 0);
+  const W = svg.clientWidth || 900, H = svg.clientHeight || 340, L = 64, R = 12, T = 12, B = 34;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const vals = series.flatMap(s => keep.map(i => s.values[i])).filter(v => v != null);
+  // Round the axis top up to a 1/2/2.5/5 x 10^n step so tick labels are readable.
+  const raw = (Math.max(...vals, 0) || 1) / 4, mag = 10 ** Math.floor(Math.log10(raw));
+  const step = [1, 2, 2.5, 5, 10].map(f => f * mag).find(s => s >= raw), max = step * 4;
+  const x = k => L + (keep.length < 2 ? 0 : k * (W - L - R) / (keep.length - 1));
+  const y = v => T + (H - T - B) * (1 - v / max);
+  let out = "";
+  for (let t = 0; t <= 4; t++) {
+    const v = max * t / 4;
+    out += `<line class="grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${esc(format(v))}</text>`;
+  }
+  keep.forEach((i, k) => {
+    const q = quarters[i];
+    if (q.partial) out += `<rect x="${x(k) - 6}" y="${T}" width="12" height="${H - T - B}" fill="var(--partial)"/>`;
+    if (q.label.endsWith("Q1")) out += `<text x="${x(k)}" y="${H - 12}" text-anchor="middle">${q.label.slice(0, 4)}</text>`;
+  });
+  series.forEach((s, si) => {
+    const pts = keep.map((i, k) => s.values[i] == null ? null : [x(k), y(s.values[i]), i]);
+    let d = "", pen = false;  // a null value lifts the pen, leaving a gap
+    pts.forEach(p => { if (!p) { pen = false; return; } d += (pen ? "L" : "M") + p[0].toFixed(1) + "," + p[1].toFixed(1); pen = true; });
+    out += `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="2"/>`;
+    pts.forEach(p => { if (p) out += `<circle class="pt" cx="${p[0]}" cy="${p[1]}" r="4" fill="${s.color}" data-s="${si}" data-i="${p[2]}"/>`; });
+  });
+  svg.innerHTML = out;
+  const tip = $("tip");
+  svg.querySelectorAll(".pt").forEach(c => {
+    const s = series[+c.dataset.s], i = +c.dataset.i;
+    c.onmouseenter = e => { tip.style.display = "block"; tip.innerHTML = `<b>${esc(s.label)}</b><br>${quarters[i].label}${quarters[i].partial ? " (incomplete)" : ""}: ${esc(format(s.values[i]))}${s.note ? "<br>" + esc(s.note(i)) : ""}`; };
+    c.onmousemove = e => { tip.style.left = (e.clientX + 12) + "px"; tip.style.top = (e.clientY + 12) + "px"; };
+    c.onmouseleave = () => tip.style.display = "none";
+    if (onClick) c.onclick = () => onClick(+c.dataset.s, quarters[i]);
+  });
+}
+
+function legend(el, series, onClick) {
+  el.innerHTML = series.map((s, i) => `<button data-i="${i}" title="${onClick ? "Show matches in all quarters" : ""}"><i style="background:${s.color}"></i>${esc(s.label)}</button>`).join("");
+  if (onClick) el.querySelectorAll("button").forEach(b => b.onclick = () => onClick(+b.dataset.i, null));
+}
+
+// ---------- Phrase trends ----------
+let TREND = null;
+const METRICS = {
+  pct_clients: {get: (s, t, i) => t.clients[i] ? 100 * s.clients[i] / t.clients[i] : null, fmt: v => v.toFixed(v < 1 ? 2 : 1) + "%"},
+  pct_entries: {get: (s, t, i) => t.entries[i] ? 100 * s.entries[i] / t.entries[i] : null, fmt: v => v.toFixed(v < 1 ? 2 : 1) + "%"},
+  clients: {get: (s, t, i) => s.clients[i], fmt: v => Math.round(v).toLocaleString()},
+  entries: {get: (s, t, i) => s.entries[i], fmt: v => Math.round(v).toLocaleString()},
+};
+
+async function runTrend(e) {
+  e && e.preventDefault();
+  const terms = $("terms").value.split(",").map(t => t.trim()).filter(Boolean);
+  if (!terms.length) return;
+  $("trend-chart").innerHTML = `<text x="20" y="30">Searching…</text>`;
+  try {
+    TREND = await api("/api/trend", {terms: terms.join("|"), mode: $("mode").value, client: $("client").value});
+    drawTrend();
+  } catch (err) { $("trend-chart").innerHTML = `<text x="20" y="30" class="err">${esc(err.message)}</text>`; }
+}
+
+function drawTrend() {
+  if (!TREND) return;
+  const m = METRICS[$("metric").value], t = TREND.totals;
+  const series = TREND.series.map((s, k) => ({
+    label: s.term, color: COLORS[k % 8],
+    values: TREND.quarters.map((q, i) => m.get(s, t, i)),
+    note: i => `${s.entries[i].toLocaleString()} entries from ${s.clients[i].toLocaleString()} of ${t.clients[i].toLocaleString()} clients`,
+  }));
+  const open = (si, q) => showEntries(TREND.series[si].term, q);
+  drawChart($("trend-chart"), TREND.quarters, series, {format: m.fmt, onClick: open, showPartial: $("partial").checked});
+  legend($("trend-legend"), series, open);
+}
+
+async function showEntries(term, quarter) {
+  const box = $("trend-detail");
+  box.classList.remove("hidden");
+  box.innerHTML = "Loading…";
+  const params = {term, mode: $("mode").value, client: $("client").value};
+  if (quarter) params.quarter = quarter.id;
+  try {
+    const r = await api("/api/entries", params);
+    const scope = quarter ? quarter.label + (quarter.partial ? " (incomplete quarter)" : "") : "all quarters";
+    box.innerHTML = `<h2>“${esc(term)}” — ${esc(scope)}</h2>
+      <p class="muted">${r.total_entries.toLocaleString()} issue entries from ${r.total_clients.toLocaleString()} clients.
+      ${r.entries.length < r.total_entries ? `Showing the first ${r.entries.length} below (newest first).` : ""}</p>
+      <h2>Clients mentioning it most</h2>
+      <div class="scroll"><table><tr><th>Client (as written)</th><th class="num">Issue entries</th><th class="num">Reports</th><th class="num">Lobbying firms</th></tr>
+      ${r.top_clients.map(c => `<tr><td>${esc(c.client_name)}</td><td class="num">${c.entries}</td><td class="num">${c.reports}</td><td class="num">${c.registrants}</td></tr>`).join("")}</table></div>
+      <h2>The actual text</h2>
+      ${r.entries.map(entryHtml).join("")}`;
+    box.scrollIntoView({behavior: "smooth", block: "start"});
+  } catch (err) { box.innerHTML = `<p class="err">${esc(err.message)}</p>`; }
+}
+
+function entryHtml(e) {
+  const [a, b] = e.match, s = e.snippet;
+  const text = (e.clipped[0] ? "…" : "") + esc(s.slice(0, a)) + (b > a ? `<mark>${esc(s.slice(a, b))}</mark>` : "") + esc(s.slice(b)) + (e.clipped[1] ? "…" : "");
+  const paid = e.expenses != null ? `in-house ${money(e.expenses)}` : e.income != null ? `paid firm ${money(e.income)}` : "no amount";
+  return `<div class="entry"><div class="meta"><b>${esc(e.client_name)}</b> via ${esc(e.registrant_name)} · ${qlabel(e.quarter)} · ${esc(e.issue)} ·
+    whole report: ${paid} · <a href="${esc(e.filing_url)}" target="_blank" rel="noopener">original filing</a></div><p>${text}</p></div>`;
+}
+
+$("trend-form").onsubmit = runTrend;
+$("metric").onchange = drawTrend;
+$("partial").onchange = drawTrend;
+
+// ---------- Company lookup ----------
+let COMPANY = null, CHECKED = new Set();
+
+async function runCompany(e) {
+  e && e.preventDefault();
+  $("company-names").innerHTML = "Loading…";
+  try {
+    COMPANY = await api("/api/clients", {q: $("company").value});
+    CHECKED = new Set(COMPANY.names.map(n => n.client_name));
+    drawCompanyTable(); drawCompany();
+  } catch (err) { $("company-names").innerHTML = `<p class="err">${esc(err.message)}</p>`; }
+}
+
+function drawCompanyTable() {
+  const sum = arr => arr.some(v => v != null) ? arr.reduce((a, v) => a + (v || 0), 0) : null;
+  $("company-names").innerHTML = `<h2>${COMPANY.total_names} client names contain “${esc($("company").value)}”${COMPANY.total_names > COMPANY.names.length ? ` (showing ${COMPANY.names.length})` : ""}</h2>
+    <p class="muted">Untick names that aren't the company you mean. Click a name to read its reports.</p>
+    <div class="scroll"><table><tr><th></th><th>Client name (as written)</th><th class="num">Reports</th><th class="num">Lobbying firms</th><th>Files itself?</th><th>Active</th><th class="num">Outside firms' income</th><th class="num">In-house expenses</th></tr>
+    ${COMPANY.names.map((n, i) => `<tr><td><input type="checkbox" data-i="${i}" ${CHECKED.has(n.client_name) ? "checked" : ""}></td>
+      <td><button class="linkish" data-i="${i}">${esc(n.client_name)}</button></td><td class="num">${n.reports}</td><td class="num">${n.registrants}</td>
+      <td>${n.self_filed ? "yes" : ""}</td><td>${qlabel(n.first)} – ${qlabel(n.last)}</td>
+      <td class="num">${money(sum(n.income))}</td><td class="num">${money(sum(n.expenses))}</td></tr>`).join("")}</table></div>`;
+  $("company-names").querySelectorAll("input[type=checkbox]").forEach(c => c.onchange = () => {
+    const name = COMPANY.names[+c.dataset.i].client_name;
+    c.checked ? CHECKED.add(name) : CHECKED.delete(name);
+    drawCompany();
+  });
+  $("company-names").querySelectorAll(".linkish").forEach(b => b.onclick = () => showReports(COMPANY.names[+b.dataset.i].client_name, null));
+}
+
+function drawCompany() {
+  if (!COMPANY) return;
+  const chosen = COMPANY.names.filter(n => CHECKED.has(n.client_name));
+  const add = key => COMPANY.quarters.map((q, i) => chosen.some(n => n[key][i] != null) ? chosen.reduce((a, n) => a + (n[key][i] || 0), 0) : null);
+  const series = [
+    {label: "Outside firms' income (paid to lobbying firms)", color: COLORS[0], values: add("income")},
+    {label: "In-house expenses (company's own report)", color: COLORS[1], values: add("expenses")},
+  ];
+  const fmt = v => v >= 1e6 ? "$" + (v / 1e6).toFixed(1) + "M" : "$" + Math.round(v / 1e3) + "K";
+  drawChart($("company-chart"), COMPANY.quarters, series, {format: fmt, showPartial: $("partial2").checked,
+    onClick: (si, q) => chosen.length === 1 ? showReports(chosen[0].client_name, q) : null});
+  legend($("company-legend"), series);
+}
+
+async function showReports(name, quarter) {
+  const box = $("company-detail");
+  box.classList.remove("hidden");
+  box.innerHTML = "Loading…";
+  const params = {name};
+  if (quarter) params.quarter = quarter.id;
+  try {
+    const r = await api("/api/client_reports", params);
+    box.innerHTML = `<h2>${esc(name)} — ${quarter ? esc(quarter.label) : "all reports"}</h2>
+      <p class="muted">${r.reports.length} reports${r.reports.length === 200 ? " (first 200, newest first)" : ""}. Each report is one lobbying firm (or the company itself) for one quarter.</p>
+      ${r.reports.map(p => `<div class="entry"><div class="meta"><b>${qlabel(p.quarter)}</b> · ${esc(p.registrant_name)} · type ${esc(p.filing_type)} ·
+        ${p.expenses != null ? "in-house " + money(p.expenses) : p.income != null ? "paid firm " + money(p.income) : "no amount reported"} ·
+        <a href="${esc(p.filing_url)}" target="_blank" rel="noopener">original filing</a></div>
+        ${p.issues.length ? p.issues.map(x => `<p><b>${esc(x.general_issue_code_display)}:</b> ${esc(x.description)}</p>`).join("") : `<p class="muted">No issues listed (no-activity report).</p>`}</div>`).join("")}`;
+    box.scrollIntoView({behavior: "smooth", block: "start"});
+  } catch (err) { box.innerHTML = `<p class="err">${esc(err.message)}</p>`; }
+}
+
+$("company-form").onsubmit = runCompany;
+$("partial2").onchange = drawCompany;
+window.onresize = () => { drawTrend(); drawCompany(); };
+
+api("/api/meta", {}).then(m => {
+  META = m;
+  $("meta").textContent = `Every federal lobbying quarterly report (LD-2), ${m.quarters[0].label} – ${m.quarters[m.quarters.length - 1].label}: ` +
+    `${m.reports.toLocaleString()} reports, ${m.entries.toLocaleString()} issue entries. Newest filing downloaded was posted ${m.cutoff}; ` +
+    `quarters whose reports weren't all due by then are shaded and hidden by default. Private: runs only on this computer.`;
+  runTrend(); runCompany();
+});
+</script>
+</body>
+</html>
