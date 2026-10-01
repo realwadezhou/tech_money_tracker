@@ -15,7 +15,7 @@ being accurate.
 | Lookup | Maps | Used by |
 |---|---|---|
 | `curated.csv` | FEC **employer** strings → company | The campaign-finance pipeline and site |
-| `lda_clients.csv` | Lobbying **client** names → company | The private lobbying search tool (`tools/lobbying_search/`) |
+| `lda_clients.csv` | Lobbying **client** names → company | The private lobbying search tool (`tools/lobbying_search/`) and the AI lobbying explorer |
 
 To track a new company, add one row to `companies.csv` first, then tag its
 names in either lookup. A test fails if a lookup uses a company that is missing
@@ -36,9 +36,10 @@ text and have not been checked row by row by a person. **The rules behind those
 decisions, and who approved them, are in [DECISIONS.md](DECISIONS.md).** Add an
 entry there whenever a tagging rule is made or changed.
 
-The AI explorer (`pipeline/lda/build_explorer.py`) still reads its own smaller
-list in `data/reference/lobbying/organizations.json`. Every name there is also
-in `lda_clients.csv`; pointing the explorer at this shared list is a follow-up.
+The AI explorer (`pipeline/lda/build_explorer.py`) also reads `companies.csv`
+and `lda_clients.csv`. After editing either, rebuild it:
+`python -m pipeline.lda.build_explorer 2020 2021 2022 2023 2024 2025 2026`,
+then `python -m frontend.lobbying --site-root docs`.
 
 ## The three FEC files
 

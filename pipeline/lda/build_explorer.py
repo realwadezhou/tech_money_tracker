@@ -16,7 +16,7 @@ import re
 import tempfile
 from typing import Iterable
 
-from pipeline.common.paths import PROJECT_ROOT
+from pipeline.common.paths import PROJECT_ROOT, company_registry_path, lda_clients_curated_path
 
 REFERENCE = PROJECT_ROOT / "data/reference/lobbying"
 EXPORT = PROJECT_ROOT / "exports/lobbying"
@@ -250,6 +250,36 @@ class Organizations:
                 "organization_status": status}
 
 
+def load_organizations(reference: Path) -> tuple[dict, dict]:
+    """Organization config built from the shared company list, plus its input hashes.
+
+    Companies and their reviewed LDA client names come from
+    data/reference/companies/ (companies.csv, lda_clients.csv). watchlists.json
+    only groups company IDs. See data/reference/companies/DECISIONS.md.
+    """
+    # Imported here because pipeline.tagging.lda_clients imports this module.
+    from pipeline.tagging.lda_clients import load_curated
+    from pipeline.tagging.registry import load_companies
+
+    curated = load_curated()
+    included = curated[curated.include == "TRUE"]
+    aliases = {company: sorted(group.client_name) for company, group in included.groupby("canonical_name")}
+    organizations = [{"id": c.canonical_name, "name": c.display_name, "aliases": aliases[c.canonical_name]}
+                     for c in load_companies().itertuples() if c.canonical_name in aliases]
+    watchlists = json.loads((reference / "watchlists.json").read_text(encoding="utf-8"))["watchlists"]
+    watchlists.append({"id": "selected", "name": "All tracked companies",
+                       "organization_ids": [org["id"] for org in organizations]})
+    hashes = {"watchlists.json": file_digest(reference / "watchlists.json"),
+              "companies/companies.csv": file_digest(company_registry_path()),
+              "companies/lda_clients.csv": file_digest(lda_clients_curated_path())}
+    return {
+        "version": "companies-" + digest("".join(hashes.values()))[:12],
+        "note": "Built from the shared company list in data/reference/companies/. Exact reviewed "
+                "client names only (case and spacing ignored); subsidiaries roll up to the parent and "
+                "subcontractor reports are excluded. Unmatched clients remain searchable under their reported names.",
+        "organizations": organizations, "watchlists": watchlists}, hashes
+
+
 def load_topic_reviews(path: Path, topics: Topics) -> dict:
     reviews = {}
     known = {topic["id"] for topic in topics.topics}
@@ -411,7 +441,7 @@ def build_year(year: int, root: Path, topics: Topics, orgs: Organizations, revie
 def build_explorer(years: list[int], *, root: Path = PROJECT_ROOT, reference: Path = REFERENCE,
                    output: Path = EXPORT) -> dict:
     topic_config = json.loads((reference / "topics.json").read_text(encoding="utf-8"))
-    org_config = json.loads((reference / "organizations.json").read_text(encoding="utf-8"))
+    org_config, org_hashes = load_organizations(reference)
     topics = Topics(topic_config)
     orgs = Organizations(org_config, list(rows(reference / "organization_reviews.csv")))
     reviews = load_topic_reviews(reference / "topic_reviews.csv", topics)
@@ -429,8 +459,8 @@ def build_explorer(years: list[int], *, root: Path = PROJECT_ROOT, reference: Pa
         "sources": sources, "activity_count": len(items),
         "report_count": len({item["filing_uuid"] for item in items}),
         "selection_method": "Latest dt_posted per source registrant/client/year/quarter; ambiguous families excluded. Registrations excluded. No-activity reports supersede earlier reports.",
-        "reference_sha256": {name: file_digest(reference / name) for name in (
-            "topics.json", "organizations.json", "topic_reviews.csv", "organization_reviews.csv")},
+        "reference_sha256": {**{name: file_digest(reference / name) for name in (
+            "topics.json", "topic_reviews.csv", "organization_reviews.csv")}, **org_hashes},
         "counts_note": "Issue entries and distinct reports are not meetings. Unmapped client IDs are not deduplicated organizations. Dollar amounts are not allocated to topics.",
         "government_entities_note": "For filings posted before February 14, 2021, the API lists government entities for the entire filing, not the individual issue entry. The transition date is treated as unknown scope. Later records link entities to issue entries; none establishes a meeting or policy position.",
         "unused_review_count": sum(1 for (aid, _, version) in reviews

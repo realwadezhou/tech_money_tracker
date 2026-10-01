@@ -5,7 +5,7 @@ import shutil
 import tempfile
 import unittest
 
-from pipeline.lda.build_explorer import (Organizations, Topics, apply_reviews, build_explorer,
+from pipeline.lda.build_explorer import (Organizations, Topics, apply_reviews, build_explorer, load_organizations,
     digest, government_entity_scope, load_topic_reviews, save_csv, select_current_reports, quarter_coverage, REFERENCE, REVIEW_FIELDS)
 
 
@@ -117,7 +117,7 @@ class KeywordTests(unittest.TestCase):
 
 class IdentityTests(unittest.TestCase):
     def test_exact_seeds_do_not_repeat_false_positives(self):
-        config = json.loads((REFERENCE / "organizations.json").read_text())
+        config, _ = load_organizations(REFERENCE)
         orgs = Organizations(config, [])
         for name in ("APPLETON INTERNATIONAL AIRPORT", "U.S. APPLE ASSOCIATION", "RAPPLER INC.",
                      "COHERENT, INC", "MISTRAL GROUP (FORMERLY AS MISTRAL SECURITY, INC.)"):
@@ -127,11 +127,11 @@ class IdentityTests(unittest.TestCase):
         self.assertEqual(match["organization_status"], "name_seed")
 
     def test_historical_exact_company_names_remain_in_watchlists(self):
-        config = json.loads((REFERENCE / "organizations.json").read_text())
+        config, _ = load_organizations(REFERENCE)
         orgs = Organizations(config, [])
         for name, expected in (("MICROSOFT CORP", "microsoft"),
                                ("GOOGLE CLIENT SERVICES LLC (FKA GOOGLE LLC)", "google"),
-                               ("SCALE AI", "scale-ai"), ("COHERE INC.", "cohere")):
+                               ("SCALE AI", "scale_ai"), ("COHERE INC.", "cohere")):
             with self.subTest(name=name):
                 match = orgs.identify(report("a", client_name=name))
                 self.assertEqual(match["organization_id"], expected)
@@ -140,7 +140,7 @@ class IdentityTests(unittest.TestCase):
             client_name="AQUIA GROUP ON BEHALF OF ANTHROPIC, PBC"))["organization_id"])
 
     def test_source_id_rejection_overrides_seed(self):
-        config = json.loads((REFERENCE / "organizations.json").read_text())
+        config, _ = load_organizations(REFERENCE)
         orgs = Organizations(config, [{"registrant_api_id": "2", "client_api_id": "1",
             "organization_id": "apple", "decision": "rejected", "reviewer": "Analyst", "reviewed_at": "2026-09-07"}])
         result = orgs.identify(report("a", client_name="APPLE INC."))

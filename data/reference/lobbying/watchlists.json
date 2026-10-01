@@ -1,0 +1,7 @@
+{
+  "note": "Named groups of companies for the AI lobbying explorer. Company IDs are canonical_name values from data/reference/companies/companies.csv; each company's lobbying client names come from data/reference/companies/lda_clients.csv. The explorer adds an 'All tracked companies' group automatically.",
+  "watchlists": [
+    {"id": "big-tech", "name": "Big Tech", "organization_ids": ["apple", "amazon", "google", "meta", "microsoft"]},
+    {"id": "ai-firms", "name": "AI firms and infrastructure", "organization_ids": ["openai", "anthropic", "cohere", "scale_ai", "nvidia"]}
+  ]
+}

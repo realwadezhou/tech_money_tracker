@@ -118,3 +118,32 @@ blank: `palantir` = defense, `salesforce` = software, `uber` = rideshare,
 that are not in `companies.csv` (Comcast, Verizon, AT&T, T-Mobile, Cisco,
 Adobe, Intuit and others). They stay undecided until someone chooses to track
 those companies.
+
+---
+
+## 2026-09-30: AI explorer switched to the shared list
+
+### Decision 8: the explorer uses the shared company list
+
+*Decided by: Claude, approved by Wade.*
+
+`pipeline/lda/build_explorer.py` now takes companies and name spellings from
+`companies.csv` and `lda_clients.csv`. Its old 10-company
+`data/reference/lobbying/organizations.json` was replaced by `watchlists.json`,
+which only groups company IDs.
+
+- **Effect, checked by rebuilding all seven years:** the same 19,621 AI issue
+  entries are indexed. Entries mapped to a tracked company rose from 1,301 to
+  2,589, because 35 companies are now recognized instead of 10 (Oracle, IBM,
+  a16z, Qualcomm, Intel and others are new) and more spellings are covered.
+- **Kept as they were:** the "Big Tech" (Apple, Amazon, Google, Meta,
+  Microsoft) and "AI firms and infrastructure" (OpenAI, Anthropic, Cohere,
+  Scale AI, NVIDIA) lists. They are hand-picked, not derived from `sector`,
+  because whether Netflix or IBM counts as "Big Tech" is a judgement call that
+  should be made on purpose.
+- **Changed:** the default list, formerly "All selected tech / AI firms" (10
+  companies), is now "All tracked companies" (every company with a reviewed
+  lobbying name, 35 today). Scale AI's ID changed from `scale-ai` to `scale_ai`.
+- **Still labelled "name seed":** the explorer's per-entry status text still
+  says the mapping is an exact-name match awaiting source-ID review. That
+  remains true: names were reviewed, individual registrant/client IDs were not.

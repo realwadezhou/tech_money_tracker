@@ -69,20 +69,24 @@ descriptions are not used as AI topic evidence. `AI`/`A.I.` and `LLM` are
 case-sensitive whole-token abbreviation candidates; other phrases match without
 case sensitivity. Automatic matches are never labeled as human-reviewed.
 
-`organizations.json` contains organization IDs, explicit legal-name aliases,
-and watchlists. The initial alias selections are **name seeds**, not completed
-source-ID reviews or exhaustive corporate-family mappings. In particular,
-Appleton International Airport, U.S. Apple Association, Coherent, and Mistral
-Security are not mapped to similarly named tech/AI companies. Unmapped clients
-remain in the topic index under their reported names. Changing these definitions
-requires changing the organization version and rebuilding.
+**Companies and their name spellings come from the shared company list** in
+[`data/reference/companies/`](../companies/README.md): `companies.csv` (the
+companies) and `lda_clients.csv` (reviewed lobbying client names for each).
+That is the same list the private search tool and the FEC pipeline use. The
+rules behind it are in [DECISIONS.md](../companies/DECISIONS.md). Names match
+exactly after ignoring case and spacing. Subsidiaries roll up to the parent,
+and subcontractor ("on behalf of") reports are excluded. Look-alikes such as
+U.S. Apple Association are explicitly rejected there. Unmapped clients remain
+in the topic index under their reported names.
 
-The September 18, 2026 revision adds four exact historical name seeds found in
-the 2020–2026 source records: `MICROSOFT CORP`, `GOOGLE CLIENT SERVICES LLC (FKA
-GOOGLE LLC)`, `SCALE AI`, and `COHERE INC.` (the source describes artificial
-intelligence software in Ontario). The Cohere grouping explicitly includes
-these Canadian and US operating names. Names containing an intermediary's
-“on behalf of” relationship remain unmapped; no ownership graph is inferred.
+`watchlists.json` in this folder only groups company IDs into named lists
+("Big Tech", "AI firms and infrastructure"). The explorer adds an "All tracked
+companies" list automatically. The organization version in the manifest is a
+fingerprint of these three files, so any edit changes it; rebuild after editing.
+The generated `organizations.json` export shows exactly what a build used.
+
+Before October 2026 this folder held its own 10-company `organizations.json`.
+Every name in it is in the shared list; see git history for the old file.
 
 ## Review workflow
 
@@ -109,7 +113,7 @@ This sample is for qualitative auditing, not a claimed recall estimate.
 
 For company identity review, use `organization_review_queue.csv` and record
 decisions in `data/reference/lobbying/organization_reviews.csv`. An accepted row
-maps the exact registrant/client IDs to an organization ID in organizations.json;
+maps the exact registrant/client IDs to a company's `canonical_name` in `companies.csv`;
 a rejected row prevents the name seed from being applied to that source client.
 Include reviewer, date, and rationale. Source-ID decisions override name seeds.
 Future ownership changes may require effective-dated mappings; this first
