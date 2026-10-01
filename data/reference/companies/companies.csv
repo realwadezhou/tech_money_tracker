@@ -1,0 +1,42 @@
+canonical_name,display_name,sector
+a16z,a16z,vc
+accel,Accel,vc
+amazon,Amazon,tech_giant
+amd,AMD,semiconductors
+anduril,Anduril,defense
+anthropic,Anthropic,ai
+apple,Apple,tech_giant
+benchmark,Benchmark,vc
+bytedance,ByteDance / TikTok,social_media
+cohere,Cohere,ai
+coinbase,Coinbase,fintech
+coreweave,Coreweave,cloud
+dell,Dell,hardware
+ebay,eBay,ecommerce
+google,Google,tech_giant
+greylock,Greylock,vc
+groq,Groq,semiconductors
+ibm,IBM,tech_giant
+intel,Intel,semiconductors
+khosla,Khosla Ventures,vc
+kleiner,Kleiner,vc
+meta,Meta,tech_giant
+microsoft,Microsoft,tech_giant
+netflix,Netflix,tech_giant
+nvidia,NVIDIA,semiconductors
+openai,OpenAI,ai
+oracle,Oracle,cloud
+other,Other,other
+palantir,Palantir,defense
+qualcomm,Qualcomm,semiconductors
+ripple,Ripple,fintech
+salesforce,Salesforce,software
+scale_ai,Scale AI,ai
+sequoia,Sequoia,vc
+shopify,Shopify,ecommerce
+stripe,Stripe,fintech
+tesla,Tesla,cars
+uber,Uber,rideshare
+union_square_ventures,Union Square Ventures,vc
+x_twitter_spacex,X / Twitter / SpaceX,elon_empire
+zoom,Zoom,communications

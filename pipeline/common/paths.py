@@ -83,6 +83,26 @@ def company_review_queue_path() -> Path:
     return company_reference_dir() / "review_queue.csv"
 
 
+def company_registry_path() -> Path:
+    """The one list of tracked companies shared by FEC and lobbying. Edited by hand."""
+    return company_reference_dir() / "companies.csv"
+
+
+def lda_clients_curated_path() -> Path:
+    """Hand-reviewed LDA client name → company lookup. Never overwritten by automation."""
+    return company_reference_dir() / "lda_clients.csv"
+
+
+def lda_clients_candidates_path() -> Path:
+    """LDA client names surfaced by the broad searches. Regenerated; safe to delete."""
+    return company_reference_dir() / "lda_candidates.csv"
+
+
+def lda_clients_review_queue_path() -> Path:
+    """LDA candidates not yet in lda_clients.csv. Regenerated; safe to delete."""
+    return company_reference_dir() / "lda_review_queue.csv"
+
+
 def individual_reference_dir() -> Path:
     return REFERENCE_ROOT / "individuals"
 

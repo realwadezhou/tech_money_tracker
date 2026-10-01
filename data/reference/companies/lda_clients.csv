@@ -1,0 +1,232 @@
+client_name,include,canonical_name,notes
+A16Z,TRUE,a16z,AI first pass 2026-09-30
+A16Z CAPITAL MANAGEMENT,TRUE,a16z,AI first pass 2026-09-30
+"A16Z CAPITAL MANAGEMENT (FORMERLY KNOWN AS AH CAPITAL MANAGEMENT, L.L.C.)",TRUE,a16z,AI first pass 2026-09-30
+A16Z CAPITAL MANAGEMENT FKA ANDREESSEN HOROWITZ,TRUE,a16z,AI first pass 2026-09-30
+A16Z CAPITAL MANAGEMENT LLC,TRUE,a16z,AI first pass 2026-09-30
+A16Z CAPITAL MANAGEMENT LLC (F/K/A AH CAPITAL MANAGEMENT L.L.C.),TRUE,a16z,AI first pass 2026-09-30
+"A16Z CAPITAL MANAGEMENT, L.L.C. (D/B/A ANDREESSEN HOROWITZ) FKA AH CAPITAL MGMT",TRUE,a16z,AI first pass 2026-09-30
+"A16Z CAPITAL MANAGEMENT, LLC",TRUE,a16z,AI first pass 2026-09-30
+ANDREESSEN HOROWITZ,TRUE,a16z,AI first pass 2026-09-30
+AMAZON,TRUE,amazon,AI first pass 2026-09-30
+AMAZON CORPORATE,TRUE,amazon,AI first pass 2026-09-30
+AMAZON CORPORATE LLC,TRUE,amazon,AI first pass 2026-09-30
+"AMAZON CORPORATE, LLC",TRUE,amazon,AI first pass 2026-09-30
+AMAZON WEB SERVICES,TRUE,amazon,AI first pass 2026-09-30
+"AMAZON WEB SERVICES, INC",TRUE,amazon,AI first pass 2026-09-30
+"AMAZON WEB SERVICES, INC.",TRUE,amazon,AI first pass 2026-09-30
+AMAZON.COM,TRUE,amazon,AI first pass 2026-09-30
+AMAZON.COM (FRA PILLPACK AN AMAZON COMPANY),TRUE,amazon,AI first pass 2026-09-30
+AMAZON.COM SERVICES LLC,TRUE,amazon,AI first pass 2026-09-30
+"AMAZON.COM SERVICES, INC.",TRUE,amazon,AI first pass 2026-09-30
+"AMAZON.COM, INC.",TRUE,amazon,AI first pass 2026-09-30
+"AWS PUBLIC POLICY, AMERICAS",TRUE,amazon,AI first pass 2026-09-30
+"ZOOX, INC.",TRUE,amazon,AI first pass 2026-09-30
+ADVANCED MICRO DEVICES (AMD),TRUE,amd,AI first pass 2026-09-30
+"ADVANCED MICRO DEVICES, INC.",TRUE,amd,AI first pass 2026-09-30
+ANDURIL,TRUE,anduril,AI first pass 2026-09-30
+ANDURIL INDUSTRIES,TRUE,anduril,AI first pass 2026-09-30
+ANDURIL INDUSTRIES INC,TRUE,anduril,AI first pass 2026-09-30
+"ANDURIL INDUSTRIES INC. [FKA ADRANOS, INC.]",TRUE,anduril,AI first pass 2026-09-30
+"ANDURIL INDUSTRIES, INC",TRUE,anduril,AI first pass 2026-09-30
+"ANDURIL INDUSTRIES, INC.",TRUE,anduril,AI first pass 2026-09-30
+ANTHROPIC,TRUE,anthropic,AI first pass 2026-09-30
+ANTHROPIC PBC,TRUE,anthropic,AI first pass 2026-09-30
+"ANTHROPIC, PBC",TRUE,anthropic,AI first pass 2026-09-30
+APPLE,TRUE,apple,AI first pass 2026-09-30
+APPLE INC,TRUE,apple,AI first pass 2026-09-30
+APPLE INC.,TRUE,apple,AI first pass 2026-09-30
+"APPLE, INC.",TRUE,apple,AI first pass 2026-09-30
+BYTEDANCE INC.,TRUE,bytedance,AI first pass 2026-09-30
+TIKTOK INC.,TRUE,bytedance,AI first pass 2026-09-30
+COHERE INC.,TRUE,cohere,AI first pass 2026-09-30
+"COHERE US, INC.",TRUE,cohere,AI first pass 2026-09-30
+"COINBASE GLOBAL, INC.",TRUE,coinbase,AI first pass 2026-09-30
+"COINBASE, INC",TRUE,coinbase,AI first pass 2026-09-30
+"COINBASE, INC.",TRUE,coinbase,AI first pass 2026-09-30
+COREWEAVE,TRUE,coreweave,AI first pass 2026-09-30
+"COREWEAVE, INC.",TRUE,coreweave,AI first pass 2026-09-30
+DELL INC,TRUE,dell,AI first pass 2026-09-30
+DELL INC.,TRUE,dell,AI first pass 2026-09-30
+DELL TECHNOLOGIES,TRUE,dell,AI first pass 2026-09-30
+DELL TECHNOLOGIES INC,TRUE,dell,AI first pass 2026-09-30
+DELL TECHNOLOGIES INC.,TRUE,dell,AI first pass 2026-09-30
+"DELL TECHNOLOGIES, INC.",TRUE,dell,AI first pass 2026-09-30
+DELL USA LP,TRUE,dell,AI first pass 2026-09-30
+EBAY,TRUE,ebay,AI first pass 2026-09-30
+EBAY INC,TRUE,ebay,AI first pass 2026-09-30
+EBAY INC.,TRUE,ebay,AI first pass 2026-09-30
+"EBAY, INC.",TRUE,ebay,AI first pass 2026-09-30
+DEEPMIND TECHNOLOGIES LIMITED,TRUE,google,AI first pass 2026-09-30
+GOOGLE CLIENT SERVICES,TRUE,google,AI first pass 2026-09-30
+GOOGLE CLIENT SERVICES (PREVIOUSLY REPORTED AS GOOGLE),TRUE,google,AI first pass 2026-09-30
+GOOGLE CLIENT SERVICES L.L.C.,TRUE,google,AI first pass 2026-09-30
+GOOGLE CLIENT SERVICES LLC,TRUE,google,AI first pass 2026-09-30
+GOOGLE CLIENT SERVICES LLC (FKA GOOGLE LLC),TRUE,google,AI first pass 2026-09-30
+GOOGLE CLIENT SERVICES LLC (FKA GOOGLE),TRUE,google,AI first pass 2026-09-30
+GOOGLE CLIENT SERVICES LLC (FORMERLY REPORTING AS GOOGLE),TRUE,google,AI first pass 2026-09-30
+"GOOGLE CLIENT SERVICES, LLC",TRUE,google,AI first pass 2026-09-30
+GOOGLE CLOUD,TRUE,google,AI first pass 2026-09-30
+GOOGLE INC,TRUE,google,AI first pass 2026-09-30
+GOOGLE INC.,TRUE,google,AI first pass 2026-09-30
+GOOGLE LLC,TRUE,google,AI first pass 2026-09-30
+GOOGLE PUBLIC SECTOR (FKA GOOGLE CLOUD),TRUE,google,AI first pass 2026-09-30
+"GOOGLE, INC.",TRUE,google,AI first pass 2026-09-30
+"GOOGLE, INC. ON BEHALF OF X",TRUE,google,AI first pass 2026-09-30
+VERILY LIFE SCIENCES LLC,TRUE,google,AI first pass 2026-09-30
+"VERILY LIFE SCIENCES, LLC",TRUE,google,AI first pass 2026-09-30
+WAYMO LLC,TRUE,google,AI first pass 2026-09-30
+WING (FORMERLY X (GOOGLE INC )),TRUE,google,AI first pass 2026-09-30
+"GROQ, INC.",TRUE,groq,AI first pass 2026-09-30
+IBM,TRUE,ibm,AI first pass 2026-09-30
+IBM CORPORATION,TRUE,ibm,AI first pass 2026-09-30
+INTERNATIONAL BUSINESS MACHINES CORPORATION (IBM),TRUE,ibm,AI first pass 2026-09-30
+INTEL,TRUE,intel,AI first pass 2026-09-30
+INTEL CORP,TRUE,intel,AI first pass 2026-09-30
+INTEL CORPORATION,TRUE,intel,AI first pass 2026-09-30
+KLEINER PERKINS CAUFIELD & BYERS,TRUE,kleiner,AI first pass 2026-09-30
+FACEBOOK,TRUE,meta,AI first pass 2026-09-30
+"FACEBOOK, INC.",TRUE,meta,AI first pass 2026-09-30
+META PLATFORMS INC (FKA FACEBOOK),TRUE,meta,AI first pass 2026-09-30
+"META PLATFORMS INC (FKA FACEBOOK, INC.)",TRUE,meta,AI first pass 2026-09-30
+META PLATFORMS INC (FORMERLY FACEBOOK INC & VARIOUS SUBSIDIARIES),TRUE,meta,AI first pass 2026-09-30
+META PLATFORMS INC (FORMERLY FACEBOOK INC AND VARIOUS SUBSIDIARIES,TRUE,meta,AI first pass 2026-09-30
+META PLATFORMS INC (FORMERLY FACEBOOK INC AND VARIOUS SUBSIDIARIES),TRUE,meta,AI first pass 2026-09-30
+META PLATFORMS INC FORMERLY REPORTED AS FACEBOOK,TRUE,meta,AI first pass 2026-09-30
+META PLATFORMS INC.,TRUE,meta,AI first pass 2026-09-30
+"META PLATFORMS, INC.",TRUE,meta,AI first pass 2026-09-30
+"META PLATFORMS, INC. (FKA FACEBOOK)",TRUE,meta,AI first pass 2026-09-30
+"META PLATFORMS, INC. (FORMERLY FACEBOOK, INC. AND VARIOUS SUBSIDIARIES)",TRUE,meta,AI first pass 2026-09-30
+"META PLATFORMS, INC. AND VARIOUS SUBSIDIARIES",TRUE,meta,AI first pass 2026-09-30
+LINKEDIN,TRUE,microsoft,AI first pass 2026-09-30
+LINKEDIN CORPORATION,TRUE,microsoft,AI first pass 2026-09-30
+MICROSOFT,TRUE,microsoft,AI first pass 2026-09-30
+MICROSOFT CORP,TRUE,microsoft,AI first pass 2026-09-30
+MICROSOFT CORP.,TRUE,microsoft,AI first pass 2026-09-30
+MICROSOFT CORPORATION,TRUE,microsoft,AI first pass 2026-09-30
+NETFLIX,TRUE,netflix,AI first pass 2026-09-30
+NETFLIX INC,TRUE,netflix,AI first pass 2026-09-30
+NETFLIX INC.,TRUE,netflix,AI first pass 2026-09-30
+"NETFLIX, INC.",TRUE,netflix,AI first pass 2026-09-30
+NVIDIA,TRUE,nvidia,AI first pass 2026-09-30
+NVIDIA CORPORATION,TRUE,nvidia,AI first pass 2026-09-30
+OPEN AI,TRUE,openai,AI first pass 2026-09-30
+OPENAI,TRUE,openai,AI first pass 2026-09-30
+"OPENAI OPCO, LLC",TRUE,openai,AI first pass 2026-09-30
+ORACLE,TRUE,oracle,AI first pass 2026-09-30
+ORACLE AMERICA,TRUE,oracle,AI first pass 2026-09-30
+ORACLE AMERICA INC.,TRUE,oracle,AI first pass 2026-09-30
+ORACLE AMERICA INC. FKA ORACLE CORPORATION,TRUE,oracle,AI first pass 2026-09-30
+"ORACLE AMERICA, INC",TRUE,oracle,AI first pass 2026-09-30
+"ORACLE AMERICA, INC.",TRUE,oracle,AI first pass 2026-09-30
+ORACLE AMERICAN INC.,TRUE,oracle,AI first pass 2026-09-30
+ORACLE CORPORATION,TRUE,oracle,AI first pass 2026-09-30
+HANNEGAN LANDAU POERSCH & ROSENBAUM ADVOCACY LLC (FOR PALANTIR TECHNOLOGIES INC),TRUE,palantir,AI first pass 2026-09-30
+J.A. GREEN AND COMPANY (FOR PALANTIR TECHNOLOGIES INC.),TRUE,palantir,AI first pass 2026-09-30
+PALANTIR,TRUE,palantir,AI first pass 2026-09-30
+PALANTIR TECHNOLOGIES,TRUE,palantir,AI first pass 2026-09-30
+PALANTIR TECHNOLOGIES INC.,TRUE,palantir,AI first pass 2026-09-30
+"PALANTIR TECHNOLOGIES, INC.",TRUE,palantir,AI first pass 2026-09-30
+QUALCOMM INC.,TRUE,qualcomm,AI first pass 2026-09-30
+QUALCOMM INCORPORATED,TRUE,qualcomm,AI first pass 2026-09-30
+"QUALCOMM, INC.",TRUE,qualcomm,AI first pass 2026-09-30
+RIPPLE,TRUE,ripple,AI first pass 2026-09-30
+RIPPLE LABS INC.,TRUE,ripple,AI first pass 2026-09-30
+"RIPPLE LABS, INC.",TRUE,ripple,AI first pass 2026-09-30
+"SALESFORCE, INC.",TRUE,salesforce,AI first pass 2026-09-30
+SALESFORCE.COM INC.,TRUE,salesforce,AI first pass 2026-09-30
+"SALESFORCE.COM, INC",TRUE,salesforce,AI first pass 2026-09-30
+"SALESFORCE.COM, INC.",TRUE,salesforce,AI first pass 2026-09-30
+SCALE AI,TRUE,scale_ai,AI first pass 2026-09-30
+"SCALE AI, INC.",TRUE,scale_ai,AI first pass 2026-09-30
+SEQUOIA CAPITAL OPERATIONS LLC,TRUE,sequoia,AI first pass 2026-09-30
+SHOPIFY,TRUE,shopify,AI first pass 2026-09-30
+SHOPIFY INC,TRUE,shopify,AI first pass 2026-09-30
+SHOPIFY INC.,TRUE,shopify,AI first pass 2026-09-30
+STRIPE,TRUE,stripe,AI first pass 2026-09-30
+"STRIPE, INC.",TRUE,stripe,AI first pass 2026-09-30
+TESLA,TRUE,tesla,AI first pass 2026-09-30
+TESLA INC,TRUE,tesla,AI first pass 2026-09-30
+TESLA INC.,TRUE,tesla,AI first pass 2026-09-30
+"TESLA, INC.",TRUE,tesla,AI first pass 2026-09-30
+UBER TECHNOLOGIES,TRUE,uber,AI first pass 2026-09-30
+UBER TECHNOLOGIES INC.,TRUE,uber,AI first pass 2026-09-30
+"UBER TECHNOLOGIES, INC.",TRUE,uber,AI first pass 2026-09-30
+UBER TECHNOLOGIES. INC.,TRUE,uber,AI first pass 2026-09-30
+SPACE EXPLORATION TECHNOLOGIES,TRUE,x_twitter_spacex,AI first pass 2026-09-30
+SPACE EXPLORATION TECHNOLOGIES CORP,TRUE,x_twitter_spacex,AI first pass 2026-09-30
+SPACE EXPLORATION TECHNOLOGIES CORP.,TRUE,x_twitter_spacex,AI first pass 2026-09-30
+SPACE EXPLORATION TECHNOLOGIES CORPORATION,TRUE,x_twitter_spacex,AI first pass 2026-09-30
+SPACEX,TRUE,x_twitter_spacex,AI first pass 2026-09-30
+SPACEX (AKA SPACE EXPLORATION TECHNOLOGIES CORP.),TRUE,x_twitter_spacex,AI first pass 2026-09-30
+TWITTER INC,TRUE,x_twitter_spacex,AI first pass 2026-09-30
+"TWITTER, INC.",TRUE,x_twitter_spacex,AI first pass 2026-09-30
+"X CORP. (FORMERLY TWITTER, INC.)",TRUE,x_twitter_spacex,AI first pass 2026-09-30
+"X, INC. F/K/A TWITTER, INC.",TRUE,x_twitter_spacex,AI first pass 2026-09-30
+"ZOOM COMMUNICATIONS, INC",TRUE,zoom,AI first pass 2026-09-30
+"ZOOM COMMUNICATIONS, INC.",TRUE,zoom,AI first pass 2026-09-30
+"ZOOM COMMUNICATIONS, INC. (F/K/A ZOOM VIDEO COMMUNICATION INC.)",TRUE,zoom,AI first pass 2026-09-30
+"ZOOM VIDEO COMMUNICATIONS, INC.",TRUE,zoom,AI first pass 2026-09-30
+"ABX AIR, INC -- AIR TRANSPORT SERVICES GROUP",FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+ACCEL,FALSE,,"special-education client, not the VC firm; AI first pass 2026-09-30"
+ADAPDIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+ANALEX CORPORATION DBA ARCFIELD,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+APOTEX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+APOTEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"APPLE HOMECARE MEDICAL SUPPLY, INC.",FALSE,,unrelated company; AI first pass 2026-09-30
+AVX AIRCRAFT COMPANY,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+BRAINBOX AI US LLC,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CAELUX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CAPE FOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CLOROX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+COLFAX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CSX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+CYBERLUX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+DYNAX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"EDGESCALE AI, INC.",FALSE,,different company from Scale AI; AI first pass 2026-09-30
+ENOVIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+FEDEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+FOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+FOX CORPORATION (FORMERLY KNOWN AS 21ST CENTURY FOX),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+GATX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+GDX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+GENRX GENRX CORP D/B/A GENRX PHARMACY,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"GREYLOCK CAPITAL MANAGEMENT, LLC",FALSE,,"hedge fund, not Greylock Partners; AI first pass 2026-09-30"
+IONETIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+LENOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+LUX AIR JET CENTERS,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+MODERN INTEL,FALSE,,unrelated company; AI first pass 2026-09-30
+NATIONAL PHILANTHROPIC TRUST,FALSE,,matches 'anthropic' inside 'philanthropic'; AI first pass 2026-09-30
+NCR VOYIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+NCR VOYIX CORPORATION (FKA NCR CORPORATION),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+NEW BEDFORD PANORAMEX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+O.N.E. AMAZON,FALSE,,"rainforest group, not Amazon.com; AI first pass 2026-09-30"
+ONEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+"PENDULLUM POWERE AMD WATER, LLC",FALSE,,unrelated company; AI first pass 2026-09-30
+PHOENIX AIR GROUP,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+POWEREX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+PROCISEDX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RIPPLE AND FLOW,FALSE,,unrelated company; AI first pass 2026-09-30
+ROBLOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RTX CORP AND AFFILIATES,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RTX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RTX CORPORATION (FKA RAYTHEON TECHNOLOGIES CORPORATION AND AFFILIATES),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RTX CORPORATION (FKA RAYTHEON TECHNOLOGIES CORPORATION),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RTX CORPORATION AND AFFILIATES,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RTX CORPORATION AND AFFILIATES (FKA RAYTHEON TECHNOLOGIES CORP. AND AFFILIATES),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RTX CORPORATION AND AFFILIATES (FKA RAYTHEON TECHNOLOGIES CORPORATION AND AFFIL,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RTX CORPORATION AND AFFILIATES (FKARAYTHEON TECHNOLOGIES CORPORATION),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+RTX CORPORATION AND AFFILIATES(RAYTHEON TECHNOLOGIES CORPORATION AND AFFILIATES),FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+SAALEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+SECUREBOX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+SURDEX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+TANADGUSIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+TDX CORP,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+TDX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+TIKTOK COALITION,FALSE,,"outside coalition, not the company; AI first pass 2026-09-30"
+TRANSPARENCY-RX CORP.,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+U.S. APPLE ASSOCIATION,FALSE,,fruit growers; AI first pass 2026-09-30
+US APPLE ASSOCIATION,FALSE,,fruit growers; AI first pass 2026-09-30
+VUZIX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+XEROX CORP,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30
+XEROX CORPORATION,FALSE,,'X CORP' search matched inside another name; AI first pass 2026-09-30

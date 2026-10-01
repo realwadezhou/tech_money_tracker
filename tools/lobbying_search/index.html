@@ -10,12 +10,18 @@
   --accent: #2456c9; --mark: #ffe58a; --partial: #f1efe9;
   --c1: #2456c9; --c2: #d1495b; --c3: #1b998b; --c4: #e08e0b; --c5: #7b4fc9; --c6: #5c7a2e; --c7: #c2489f; --c8: #4a4a4a;
 }
+/* Dark colors apply when the system is dark, unless the toggle chose light; or when the toggle chose dark. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #161615; --panel: #1f1f1e; --text: #ecebe6; --muted: #9a9993; --line: #34332f;
     --accent: #7ea2ff; --mark: #6b5a12; --partial: #262522;
     --c1: #7ea2ff; --c2: #ff7b8a; --c3: #4fd1c0; --c4: #ffb547; --c5: #b393ff; --c6: #a5c96a; --c7: #ff8fd8; --c8: #c9c9c4;
   }
+}
+:root[data-theme="dark"] {
+    --bg: #161615; --panel: #1f1f1e; --text: #ecebe6; --muted: #9a9993; --line: #34332f;
+    --accent: #7ea2ff; --mark: #6b5a12; --partial: #262522;
+    --c1: #7ea2ff; --c2: #ff7b8a; --c3: #4fd1c0; --c4: #ffb547; --c5: #b393ff; --c6: #a5c96a; --c7: #ff8fd8; --c8: #c9c9c4;
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
@@ -58,10 +64,12 @@ a { color: var(--accent); }
 .muted { color: var(--muted); }
 .linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; text-align: left; }
 .hidden { display: none; }
+.theme { float: right; font: inherit; font-size: 13px; color: var(--text); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; cursor: pointer; }
 </style>
 </head>
 <body>
 <main>
+  <button id="theme" class="theme" type="button"></button>
   <h1>Lobbying Search</h1>
   <p class="sub" id="meta">Loading…</p>
 
@@ -83,8 +91,11 @@ a { color: var(--accent); }
             <option value="regex">Regular expression</option>
           </select>
         </label>
-        <label>Only clients whose name contains
-          <input type="text" id="client" placeholder="e.g. META PLATFORMS">
+        <label>Only this tracked company
+          <select id="company-filter"><option value="">All clients</option></select>
+        </label>
+        <label>…or clients whose name contains
+          <input type="text" id="client" placeholder="e.g. COMCAST">
         </label>
         <label>Measure
           <select id="metric">
@@ -102,7 +113,9 @@ a { color: var(--accent); }
         "% of clients" is the safer measure: one lobbying firm pasting the same paragraph for 40 clients
         inflates entry counts more than client counts. Matching ignores capitalization. Whole-word mode also finds
         simple plurals ("tariff" finds "tariffs") but not other word forms ("regulate" won't find "regulation").
-        <b>Click any point</b> to see who said it and the actual text.</p>
+        <b>Click any point</b> to see who said it and the actual text.
+        A <b>tracked company</b> groups all the reviewed spellings of one company (and its subsidiaries);
+        when you pick one, the chart counts its issue entries.</p>
     </div>
     <div class="panel">
       <svg class="chart" id="trend-chart"></svg>
@@ -115,14 +128,19 @@ a { color: var(--accent); }
   <section id="companies" class="hidden">
     <div class="panel">
       <form class="controls" id="company-form">
-        <label>Client name contains
-          <input type="text" class="wide" id="company" value="ORACLE">
+        <label>Tracked company
+          <select id="company-pick"><option value="">— type a name instead —</option></select>
+        </label>
+        <label>…or client name contains
+          <input type="text" id="company" placeholder="e.g. COMCAST">
         </label>
         <label class="check"><input type="checkbox" id="partial2"> Show incomplete quarters</label>
         <button class="go">Look up</button>
       </form>
       <p class="help">Filers type client names by hand, so one company appears under several spellings.
-        Tick the names that are really the company you mean; the chart adds up the ticked ones.
+        A <b>tracked company</b> already has its spellings reviewed (in <code>data/reference/companies/lda_clients.csv</code>).
+        For anything else, type part of the name and tick the names that are really the company you mean;
+        the chart adds up the ticked ones.
         Two kinds of money appear on reports: <b>outside firms' income</b> (a lobbying firm reports what
         this client paid it) and <b>in-house expenses</b> (the company reports its own lobbying costs).
         In-house expense totals usually <b>already include</b> what the company paid outside firms, so adding
@@ -155,8 +173,34 @@ async function api(path, params) {
   return body;
 }
 
+// Light/dark toggle. Remembers the choice in this browser; falls back to the system setting.
+function theme() {
+  return document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+}
+function setTheme(value) {
+  document.documentElement.dataset.theme = value;
+  $("theme").textContent = value === "dark" ? "☀ Light mode" : "🌙 Dark mode";
+  try { localStorage.setItem("theme", value); } catch (e) {}
+}
+try { const saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
+setTheme(theme());
+$("theme").onclick = () => setTheme(theme() === "dark" ? "light" : "dark");
+
 document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => {
-  document.querySelectorAll(".tabs button").forEach(x => x.classList.toggle("on", x === b));
+  // Light/dark toggle. Remembers the choice in this browser; falls back to the system setting.
+function theme() {
+  return document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+}
+function setTheme(value) {
+  document.documentElement.dataset.theme = value;
+  $("theme").textContent = value === "dark" ? "☀ Light mode" : "🌙 Dark mode";
+  try { localStorage.setItem("theme", value); } catch (e) {}
+}
+try { const saved = localStorage.getItem("theme"); if (saved) document.documentElement.dataset.theme = saved; } catch (e) {}
+setTheme(theme());
+$("theme").onclick = () => setTheme(theme() === "dark" ? "light" : "dark");
+
+document.querySelectorAll(".tabs button").forEach(x => x.classList.toggle("on", x === b));
   ["trends", "companies"].forEach(id => $(id).classList.toggle("hidden", id !== b.dataset.tab));
 });
 
@@ -219,7 +263,9 @@ async function runTrend(e) {
   if (!terms.length) return;
   $("trend-chart").innerHTML = `<text x="20" y="30">Searching…</text>`;
   try {
-    TREND = await api("/api/trend", {terms: terms.join("|"), mode: $("mode").value, client: $("client").value});
+    // Within one company, "% of clients" would just count its name spellings, so count entries instead.
+    if ($("company-filter").value && $("metric").value.endsWith("clients")) $("metric").value = "entries";
+    TREND = await api("/api/trend", {terms: terms.join("|"), mode: $("mode").value, client: $("client").value, company: $("company-filter").value});
     drawTrend();
   } catch (err) { $("trend-chart").innerHTML = `<text x="20" y="30" class="err">${esc(err.message)}</text>`; }
 }
@@ -241,7 +287,7 @@ async function showEntries(term, quarter) {
   const box = $("trend-detail");
   box.classList.remove("hidden");
   box.innerHTML = "Loading…";
-  const params = {term, mode: $("mode").value, client: $("client").value};
+  const params = {term, mode: $("mode").value, client: $("client").value, company: $("company-filter").value};
   if (quarter) params.quarter = quarter.id;
   try {
     const r = await api("/api/entries", params);
@@ -277,7 +323,7 @@ async function runCompany(e) {
   e && e.preventDefault();
   $("company-names").innerHTML = "Loading…";
   try {
-    COMPANY = await api("/api/clients", {q: $("company").value});
+    COMPANY = await api("/api/clients", {q: $("company").value, company: $("company-pick").value});
     CHECKED = new Set(COMPANY.names.map(n => n.client_name));
     drawCompanyTable(); drawCompany();
   } catch (err) { $("company-names").innerHTML = `<p class="err">${esc(err.message)}</p>`; }
@@ -285,11 +331,12 @@ async function runCompany(e) {
 
 function drawCompanyTable() {
   const sum = arr => arr.some(v => v != null) ? arr.reduce((a, v) => a + (v || 0), 0) : null;
-  $("company-names").innerHTML = `<h2>${COMPANY.total_names} client names contain “${esc($("company").value)}”${COMPANY.total_names > COMPANY.names.length ? ` (showing ${COMPANY.names.length})` : ""}</h2>
+  const pick = $("company-pick"), what = [pick.value ? `are reviewed as ${pick.selectedOptions[0].dataset.name}` : "", $("company").value ? `contain “${$("company").value}”` : ""].filter(Boolean).join(" and ");
+  $("company-names").innerHTML = `<h2>${COMPANY.total_names} client names ${esc(what)}${COMPANY.total_names > COMPANY.names.length ? ` (showing ${COMPANY.names.length})` : ""}</h2>
     <p class="muted">Untick names that aren't the company you mean. Click a name to read its reports.</p>
-    <div class="scroll"><table><tr><th></th><th>Client name (as written)</th><th class="num">Reports</th><th class="num">Lobbying firms</th><th>Files itself?</th><th>Active</th><th class="num">Outside firms' income</th><th class="num">In-house expenses</th></tr>
+    <div class="scroll"><table><tr><th></th><th>Client name (as written)</th><th>Tracked as</th><th class="num">Reports</th><th class="num">Lobbying firms</th><th>Files itself?</th><th>Active</th><th class="num">Outside firms' income</th><th class="num">In-house expenses</th></tr>
     ${COMPANY.names.map((n, i) => `<tr><td><input type="checkbox" data-i="${i}" ${CHECKED.has(n.client_name) ? "checked" : ""}></td>
-      <td><button class="linkish" data-i="${i}">${esc(n.client_name)}</button></td><td class="num">${n.reports}</td><td class="num">${n.registrants}</td>
+      <td><button class="linkish" data-i="${i}">${esc(n.client_name)}</button></td><td>${esc(n.company) || '<span class="muted">—</span>'}</td><td class="num">${n.reports}</td><td class="num">${n.registrants}</td>
       <td>${n.self_filed ? "yes" : ""}</td><td>${qlabel(n.first)} – ${qlabel(n.last)}</td>
       <td class="num">${money(sum(n.income))}</td><td class="num">${money(sum(n.expenses))}</td></tr>`).join("")}</table></div>`;
   $("company-names").querySelectorAll("input[type=checkbox]").forEach(c => c.onchange = () => {
@@ -333,6 +380,8 @@ async function showReports(name, quarter) {
 }
 
 $("company-form").onsubmit = runCompany;
+$("company-pick").onchange = () => { $("company").value = ""; runCompany(); };
+$("company-filter").onchange = () => runTrend();
 $("partial2").onchange = drawCompany;
 window.onresize = () => { drawTrend(); drawCompany(); };
 
@@ -341,6 +390,10 @@ api("/api/meta", {}).then(m => {
   $("meta").textContent = `Every federal lobbying quarterly report (LD-2), ${m.quarters[0].label} – ${m.quarters[m.quarters.length - 1].label}: ` +
     `${m.reports.toLocaleString()} reports, ${m.entries.toLocaleString()} issue entries. Newest filing downloaded was posted ${m.cutoff}; ` +
     `quarters whose reports weren't all due by then are shaded and hidden by default. Private: runs only on this computer.`;
+  for (const id of ["company-filter", "company-pick"]) {
+    $(id).insertAdjacentHTML("beforeend", (m.companies || []).map(c => `<option value="${esc(c.id)}" data-name="${esc(c.name)}">${esc(c.name)} (${c.names} names)</option>`).join(""));
+  }
+  if (m.companies) $("company-pick").value = "openai"; else $("company").value = "OPENAI";
   runTrend(); runCompany();
 });
 </script>

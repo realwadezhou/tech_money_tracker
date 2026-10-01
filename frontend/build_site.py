@@ -8,6 +8,7 @@ import shutil
 from pathlib import Path
 
 from frontend import attribution, layout
+from pipeline.tagging.registry import company_labels
 
 
 FRONTEND_ROOT = Path(__file__).resolve().parent
@@ -20,35 +21,8 @@ CYCLE_PAGE_DIRS: dict[int, set[str]] = {}
 CURRENT_RENDER_CYCLE: int | None = None
 CURRENT_RENDER_REL_DIR = ""
 
-COMPANY_LABELS = {
-    "a16z": "a16z",
-    "amd": "AMD",
-    "anthropic": "Anthropic",
-    "apple": "Apple",
-    "amazon": "Amazon",
-    "ebay": "eBay",
-    "google": "Google",
-    "greylock": "Greylock",
-    "ibm": "IBM",
-    "khosla": "Khosla Ventures",
-    "meta": "Meta",
-    "microsoft": "Microsoft",
-    "netflix": "Netflix",
-    "nvidia": "NVIDIA",
-    "openai": "OpenAI",
-    "oracle": "Oracle",
-    "qualcomm": "Qualcomm",
-    "ripple": "Ripple",
-    "salesforce": "Salesforce",
-    "sequoia": "Sequoia",
-    "shopify": "Shopify",
-    "stripe": "Stripe",
-    "tesla": "Tesla",
-    "uber": "Uber",
-    "union_square_ventures": "Union Square Ventures",
-    "x_twitter_spacex": "X / Twitter / SpaceX",
-    "zoom": "Zoom",
-}
+# Display names come from the shared company list (data/reference/companies/companies.csv).
+COMPANY_LABELS = company_labels()
 
 STATE_NAMES = {
     "AL": "Alabama",

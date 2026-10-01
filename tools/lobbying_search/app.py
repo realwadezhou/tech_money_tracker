@@ -29,6 +29,8 @@ import pandas as pd
 
 from pipeline.common.paths import LDA_DERIVED_ROOT, LDA_INTERIM_ROOT
 from pipeline.lda.build_explorer import PERIODS, normalized_name, rows, select_current_reports
+from pipeline.tagging.lda_clients import client_to_company
+from pipeline.tagging.registry import company_labels
 
 HERE = Path(__file__).resolve().parent
 CACHE_PATH = LDA_DERIVED_ROOT / "lobbying_search_cache.pkl"
@@ -78,10 +80,15 @@ def load_year(year: int, root: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
 
 
 class SearchIndex:
-    def __init__(self, reports: pd.DataFrame, activities: pd.DataFrame):
-        self.reports = reports.reset_index(drop=True)
+    def __init__(self, reports: pd.DataFrame, activities: pd.DataFrame,
+                 company_map: dict[str, str] | None = None, labels: dict[str, str] | None = None):
+        # company_map: normalized client name → canonical company (the reviewed lda_clients.csv).
+        reports = reports.reset_index(drop=True)
+        reports["company"] = reports.client_key.map(company_map or {}).fillna("")
+        self.reports = reports
+        self.labels = labels or {}
         entries = activities.merge(
-            reports[["filing_uuid", "quarter", "client_name", "client_key", "registrant_name",
+            reports[["filing_uuid", "quarter", "client_name", "client_key", "company", "registrant_name",
                      "income", "expenses", "filing_url"]], on="filing_uuid", how="inner")
         entries["text"] = entries.description.str.lower()
         self.entries = entries.reset_index(drop=True)
@@ -97,12 +104,14 @@ class SearchIndex:
         if not years:
             raise SystemExit(f"No normalized LDA years found under {root}")
         fingerprint = source_fingerprint(years, root)
+        # The company lookup is applied after loading so edits to lda_clients.csv take effect on restart.
+        tagging = {"company_map": client_to_company(), "labels": company_labels()}
         if cache and cache.exists() and not rebuild:
             with cache.open("rb") as handle:
                 saved = pickle.load(handle)
             if saved["fingerprint"] == fingerprint:
                 print(f"Loaded cached index for {years[0]}-{years[-1]}.")
-                return cls(saved["reports"], saved["activities"])
+                return cls(saved["reports"], saved["activities"], **tagging)
         frames = []
         for year in years:
             print(f"Reading {year}...", flush=True)
@@ -114,7 +123,7 @@ class SearchIndex:
             with cache.open("wb") as handle:
                 pickle.dump({"fingerprint": fingerprint, "reports": reports, "activities": activities},
                             handle, protocol=pickle.HIGHEST_PROTOCOL)
-        return cls(reports, activities)
+        return cls(reports, activities, **tagging)
 
     # Matching
 
@@ -158,13 +167,24 @@ class SearchIndex:
 
         return self._cached(("term", needle if mode != "regex" else term.strip(), mode), compute)
 
-    def client_mask(self, frame: str, client: str) -> np.ndarray:
+    def client_mask(self, frame: str, client: str, company: str = "") -> np.ndarray:
+        """Rows whose client name contains `client` and/or is reviewed as `company`."""
         table = self.entries if frame == "entries" else self.reports
-        if not client.strip():
-            return np.ones(len(table), dtype=bool)
-        needle = normalized_name(client)
-        return self._cached((frame, needle),
-                            lambda: table.client_key.str.contains(needle, regex=False).to_numpy())
+        mask = np.ones(len(table), dtype=bool)
+        if company:
+            mask = mask & self._cached((frame, "company", company), lambda: (table.company == company).to_numpy())
+        if client.strip():
+            needle = normalized_name(client)
+            mask = mask & self._cached((frame, needle),
+                                       lambda: table.client_key.str.contains(needle, regex=False).to_numpy())
+        return mask
+
+    def companies(self) -> list[dict]:
+        """Tracked companies that have at least one reviewed client name with reports."""
+        tagged = self.reports[self.reports.company != ""]
+        counts = tagged.groupby("company").agg(names=("client_key", "nunique"), reports=("filing_uuid", "size"))
+        return sorted(({"id": c, "name": self.labels.get(c, c), "names": int(r.names), "reports": int(r.reports)}
+                       for c, r in counts.iterrows()), key=lambda c: c["name"].lower())
 
     def quarter_info(self) -> list[dict]:
         info = []
@@ -177,8 +197,8 @@ class SearchIndex:
 
     # Queries
 
-    def trend(self, terms: list[str], mode: str, client: str = "") -> dict:
-        base = self.client_mask("entries", client)
+    def trend(self, terms: list[str], mode: str, client: str = "", company: str = "") -> dict:
+        base = self.client_mask("entries", client, company)
         scoped = self.entries[base]
         totals_entries = scoped.groupby("quarter").size()
         totals_clients = scoped.groupby("quarter").client_key.nunique()
@@ -195,8 +215,9 @@ class SearchIndex:
                            "clients": [int(totals_clients.get(q, 0)) for q in self.quarters]},
                 "series": series}
 
-    def matching_entries(self, term: str, mode: str, client: str = "", quarter: int | None = None) -> dict:
-        mask = self.client_mask("entries", client) & self.term_mask(term, mode)
+    def matching_entries(self, term: str, mode: str, client: str = "", quarter: int | None = None,
+                         company: str = "") -> dict:
+        mask = self.client_mask("entries", client, company) & self.term_mask(term, mode)
         hits = self.entries[mask]
         if quarter:
             hits = hits[hits.quarter == quarter]
@@ -211,15 +232,16 @@ class SearchIndex:
                 "top_clients": top.reset_index(drop=True).to_dict("records"),
                 "entries": [entry_row(r, pattern) for r in sample.itertuples()]}
 
-    def clients(self, fragment: str) -> dict:
-        if len(fragment.strip()) < 2:
-            raise ValueError("Type at least two characters")
-        hits = self.reports[self.client_mask("reports", fragment)]
+    def clients(self, fragment: str, company: str = "") -> dict:
+        if not company and len(fragment.strip()) < 2:
+            raise ValueError("Type at least two characters, or pick a tracked company")
+        hits = self.reports[self.client_mask("reports", fragment, company)]
         names = []
         for name, group in hits.groupby("client_name"):
             by_q = group.groupby("quarter")[["income", "expenses"]].sum(min_count=1)
             names.append({
                 "client_name": name,
+                "company": self.labels.get(group.company.iat[0], group.company.iat[0]),
                 "reports": int(len(group)),
                 "registrants": int(group.registrant_name.nunique()),
                 "self_filed": bool((group.registrant_name.map(normalized_name) == normalized_name(name)).any()),
@@ -282,13 +304,15 @@ def make_handler(index: SearchIndex):
             quarter = int(params["quarter"]) if params.get("quarter") else None
             routes = {
                 "/api/trend": lambda: index.trend(
-                    [t for t in params.get("terms", "").split("|") if t.strip()][:8], mode, params.get("client", "")),
+                    [t for t in params.get("terms", "").split("|") if t.strip()][:8], mode, params.get("client", ""),
+                    params.get("company", "")),
                 "/api/entries": lambda: index.matching_entries(
-                    params.get("term", ""), mode, params.get("client", ""), quarter),
-                "/api/clients": lambda: index.clients(params.get("q", "")),
+                    params.get("term", ""), mode, params.get("client", ""), quarter, params.get("company", "")),
+                "/api/clients": lambda: index.clients(params.get("q", ""), params.get("company", "")),
                 "/api/client_reports": lambda: index.client_reports(params.get("name", ""), quarter),
                 "/api/meta": lambda: {"cutoff": index.cutoff.isoformat(), "quarters": index.quarter_info(),
-                                      "reports": int(len(index.reports)), "entries": int(len(index.entries))},
+                                      "reports": int(len(index.reports)), "entries": int(len(index.entries)),
+                                      "companies": index.companies()},
             }
             if url.path in ("/", "/index.html"):
                 return self.send(200, (HERE / "index.html").read_bytes(), "text/html; charset=utf-8")
