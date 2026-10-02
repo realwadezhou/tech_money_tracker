@@ -122,6 +122,8 @@ def page(data: dict, cycles: list[int]) -> str:
         navigation_prefix=f"../../{max(cycles)}/" if cycles else "../../",
         home_href="../../",
         lobbying_href="../spending/",
+        lobbying_root="../",
+        lobbying_page="topics",
         current_section="federal-lobbying",
         cycle_label="Calendar-year reporting",
         cycle_controls=(f'<nav class="cycle-toggle" aria-label="Election cycles">'

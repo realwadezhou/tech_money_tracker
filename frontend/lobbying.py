@@ -134,6 +134,7 @@ def page(metadata: dict, cycles: list[int]) -> str:
         navigation_prefix=f"../{max(cycles)}/" if cycles else "../",
         home_href="../",
         lobbying_href="spending/" if (EXPORT / "spending.json").exists() else "./",
+        lobbying_root="./",
         current_section="federal-lobbying",
         cycle_label="Calendar-year reporting",
         cycle_controls=(f'<nav class="cycle-toggle" aria-label="Election cycles">'

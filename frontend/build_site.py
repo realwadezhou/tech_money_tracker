@@ -1795,6 +1795,7 @@ def page_site_index(cycle_bundles: dict[int, dict]) -> str:
         navigation_prefix=f"{default_cycle}/",
         home_href="index.html",
         lobbying_href=lobbying_landing(),
+        lobbying_root="lobbying/",
         source_note='<p>Transaction dates do not indicate filing completeness. Late filings and amendments can change earlier totals; each cycle page identifies its installed source releases.</p>',
     )
 

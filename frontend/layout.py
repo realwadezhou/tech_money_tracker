@@ -21,6 +21,14 @@ SECTIONS = (
 )
 
 
+# Lobbying pages live outside the election-cycle folders, under /lobbying/.
+# (key, sidebar label, address inside /lobbying/)
+LOBBYING_PAGES = (
+    ("spending", "Lobbying spending", "spending/"),
+    ("topics", "What tech lobbies about", "topics/"),
+)
+
+
 def plain_text(markup: str) -> str:
     return unescape(re.sub(r"<[^>]+>", "", markup)).strip()
 
@@ -51,14 +59,23 @@ def heading_outline(body: str) -> tuple[str, list[tuple[str, str]]]:
     return re.sub(r"<h2\b([^>]*)>(.*?)</h2>", anchor, body, flags=re.I | re.S), outline
 
 
-def section_navigation(prefix: str, current_section: str = "", lobbying_href: str | None = None) -> str:
+def section_navigation(prefix: str, current_section: str = "", lobbying_href: str | None = None,
+                       lobbying_root: str | None = None, lobbying_page: str = "") -> str:
+    # Election-cycle folders sit beside /lobbying/, so it is one level above a cycle's own pages.
+    lobbying_root = lobbying_root if lobbying_root is not None else prefix + "../lobbying/"
     parts: list[str] = []
     for start, end, caption in ((0, 7, "Explore"), (7, 8, "Federal lobbying"), (8, 12, "Understand the data")):
         links = []
         for key, label, route in SECTIONS[start:end]:
-            href = lobbying_href if key == "federal-lobbying" and lobbying_href else prefix + route
+            if key == "federal-lobbying":
+                # One link per lobbying page instead of a single entry page.
+                for page, page_label, page_route in LOBBYING_PAGES:
+                    active = ' aria-current="page"' if page == lobbying_page else ""
+                    links.append(f'<a href="{escape(lobbying_root + page_route, quote=True)}"{active}>'
+                                 f'{escape(page_label)}</a>')
+                continue
             active = ' aria-current="page"' if key == current_section else ""
-            links.append(f'<a href="{escape(href, quote=True)}"{active}>{escape(label)}</a>')
+            links.append(f'<a href="{escape(prefix + route, quote=True)}"{active}>{escape(label)}</a>')
         parts.append(f'<div class="nav-group"><div class="nav-caption">{caption}</div>{"".join(links)}</div>')
     return "".join(parts)
 
@@ -75,6 +92,8 @@ def render_shell(
     navigation_prefix: str = "",
     home_href: str = "index.html",
     lobbying_href: str | None = None,
+    lobbying_root: str | None = None,
+    lobbying_page: str = "",
     current_section: str = "",
     cycle_label: str = "",
     cycle_controls: str = "",
@@ -91,7 +110,7 @@ def render_shell(
     if not heading:
         body = f"<h1>{escape(page_name)}</h1>\n" + body
     section = "data" if current_section == "attribution" else current_section
-    navigation = section_navigation(navigation_prefix, section, lobbying_href)
+    navigation = section_navigation(navigation_prefix, section, lobbying_href, lobbying_root, lobbying_page)
     primary = []
     for key, label in (("", "Overview"), ("companies", "Employers"), ("candidates", "Candidates"), ("federal-lobbying", "Lobbying"), ("data", "Sources")):
         route = next(route for candidate, _, route in SECTIONS if candidate == key)
