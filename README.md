@@ -178,6 +178,21 @@ Which reported names count as which company is set in
 [DECISIONS.md](data/reference/companies/DECISIONS.md). Run both again after a
 lobbying refresh or after editing that file.
 
+### Lobbying topics page ("what tech lobbies about")
+
+Phrase counts by quarter and company, at `docs/lobbying/topics/`:
+
+```bash
+python -m pipeline.lda.build_topics
+python -m frontend.lobbying --site-root docs
+```
+
+The first command does all the counting (about two minutes) and saves the
+results; the page only draws saved numbers. Topics and their search phrases are
+in `data/reference/lobbying/phrase_topics.json`. To add a topic, add an entry
+there, change the version line, and run both commands. See Decision 13 in
+[DECISIONS.md](data/reference/companies/DECISIONS.md).
+
 ### AI lobbying explorer (built locally, not published)
 
 The explorer is switched off for the public site: `PUBLISH_AI_EXPLORER = False`
@@ -219,7 +234,7 @@ See [tools/lobbying_search/README.md](tools/lobbying_search/README.md). It is no
 
 ```bash
 python -m unittest discover -s tests -v
-node --test tests/frontend_assets.test.cjs tests/lobbying_assets.test.cjs tests/lobbying_spending_assets.test.cjs
+node --test tests/frontend_assets.test.cjs tests/lobbying_assets.test.cjs tests/lobbying_spending_assets.test.cjs tests/lobbying_topics_assets.test.cjs
 python scripts/validate_site.py
 ```
 

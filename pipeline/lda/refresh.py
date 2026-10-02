@@ -222,10 +222,12 @@ def rebuild(root, years):
     import tempfile
     from pipeline.lda.build_explorer import build_explorer
     from pipeline.lda.build_spending import build_spending
+    from pipeline.lda.build_topics import build_topics
     from frontend.lobbying import build_lobbying, build_lobbying_pages
-    from scripts.validate_site import validate_lobbying, validate_lobbying_spending
+    from scripts.validate_site import validate_lobbying, validate_lobbying_spending, validate_lobbying_topics
     metadata = build_explorer(years)
     build_spending()
+    build_topics()
     # Validate the explorer in a scratch folder: it is checked on every refresh
     # even while it is not published (frontend.lobbying.PUBLISH_AI_EXPLORER).
     with tempfile.TemporaryDirectory() as scratch:
@@ -240,6 +242,7 @@ def rebuild(root, years):
         errors = []
         validate_lobbying(site, errors)
         validate_lobbying_spending(site, errors)
+        validate_lobbying_topics(site, errors)
         if errors:
             raise RuntimeError("Lobbying site validation failed: " + "; ".join(errors[:10]))
     print(f"{now()} Explorer rebuilt: years {years}, {metadata['activity_count']:,} issue entries", flush=True)

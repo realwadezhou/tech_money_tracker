@@ -178,8 +178,10 @@ REDIRECT_TO_SPENDING = """<!doctype html>
 def build_lobbying_pages(site_root: Path, cycles: list[int]) -> dict:
     """Build the lobbying pages meant for publication into a site folder."""
     from frontend.lobbying_spending import build_spending_page
+    from frontend.lobbying_topics import build_topics_page
     explorer = explorer_published() and build_lobbying(site_root, cycles)
     spending = build_spending_page(site_root, cycles)
+    topics = build_topics_page(site_root, cycles)
     if not explorer:
         # Keep an unpublished explorer out of the folder that gets deployed.
         shutil.rmtree(site_root / "lobbying/data", ignore_errors=True)
@@ -188,7 +190,7 @@ def build_lobbying_pages(site_root: Path, cycles: list[int]) -> dict:
             replace_file(index, REDIRECT_TO_SPENDING.encode("utf-8"))
         else:
             index.unlink(missing_ok=True)
-    return {"explorer": bool(explorer), "spending": spending}
+    return {"explorer": bool(explorer), "spending": spending, "topics": topics}
 
 
 def main() -> None:
@@ -215,6 +217,8 @@ def main() -> None:
         print(f"Built lobbying explorer: {args.site_root / 'lobbying/index.html'}")
     if spending:
         print(f"Built lobbying spending page: {args.site_root / 'lobbying/spending/index.html'}")
+    if built["topics"]:
+        print(f"Built lobbying topics page: {args.site_root / 'lobbying/topics/index.html'}")
 
 
 if __name__ == "__main__":

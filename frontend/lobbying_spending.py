@@ -117,8 +117,10 @@ def page(data: dict, cycles: list[int], explorer_available: bool) -> str:
          if year_ago is not None else [])
         for r in quarterly_rows])
 
-    explorer_link = ('<p>To see <em>what</em> companies lobbied on, use the '
-                     '<a href="../">AI lobbying explorer</a>.</p>') if explorer_available else ""
+    topics_link = ('<p>To see <em>what</em> companies lobbied on, see '
+                   '<a href="../topics/">what tech lobbies about</a>.</p>') if (EXPORT / "phrase_topics.json").exists() else ""
+    explorer_link = topics_link + ('<p>To search individual passages, use the '
+                                   '<a href="../">AI lobbying explorer</a>.</p>' if explorer_available else "")
     links = ''.join(f'<a class="cycle-pill" href="../../{c}/">{c}</a>' for c in cycles)
     sectors = sorted({c["sector"] for c in data["companies"]}, key=sector_label)
     payload = json.dumps({**data, "sectors": [{"id": x, "label": sector_label(x)} for x in sectors]},

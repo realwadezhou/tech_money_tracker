@@ -313,3 +313,40 @@ reviewed-and-rejected ones. Method and columns are in
   unexplained items are the a16z partner memo rows on Fairshake's 2026 filing
   (no matching firm gift in the same file) and gifts labelled "Coinbase" to a
   climate PAC.
+
+---
+
+## 2026-10-01: public topics page
+
+### Decision 13: publish phrase counts, but not the AI explorer
+
+*Decided by: Wade (wanted a quick public page with AI and data-center charts
+by company), Claude (design and topic list).*
+
+`/lobbying/topics/` shows, for 15 topics, how many tracked companies name the
+topic in their lobbying reports each quarter, a company-by-quarter grid, and
+each company's most recent passage with a link to the filing.
+
+- **Why this is published when the AI explorer is not (Decision 10):** the
+  explorer presents keyword hits as classified "AI topic" matches with a
+  review workflow that nobody has run. This page claims less: it says a
+  phrase appears, shows the phrase list, and shows the filer's own words.
+- **The 15 topics and their phrases** were chosen by Claude
+  (`data/reference/lobbying/phrase_topics.json`). Wade asked for AI and data
+  centers "and so on"; the rest are subjects that come up in tech lobbying:
+  preemption of state laws, export controls, semiconductors, energy, privacy,
+  copyright, children's online safety, Section 230, antitrust, crypto,
+  tariffs, immigration, quantum computing.
+- **"AI" is matched as a capitalized whole word** ("AI" or "A.I."), so that
+  "said", "chain" and "FAIR Act" do not count. "Artificial intelligence"
+  ignores capitalization.
+- **Known loose matches,** stated on the page: "energy" also matches the
+  Energy and Commerce Committee; "chips" covers semiconductors and the CHIPS
+  Act; "competition" and "children" are broad. Counts are a floor, since a
+  report can raise a subject without these words.
+- **What is counted.** A company counts in a quarter when at least one of its
+  reports (latest version, subcontractor reports excluded, as elsewhere) has
+  an issue entry containing a phrase. "All lobbying clients" counts reported
+  client names in every industry.
+- **Numbers are baked in at build time.** The page does no searching, so the
+  public site stays static files.

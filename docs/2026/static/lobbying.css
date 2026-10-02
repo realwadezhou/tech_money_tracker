@@ -111,3 +111,25 @@
 .spending-grid { stroke: var(--muted-border); }
 .spending-bar { fill: #b7c9df; }
 .spending-bar:hover { fill: var(--link); }
+
+/* Topics page: company-by-quarter grid and example passages */
+.spending-chart-controls { display: flex; flex-wrap: wrap; gap: 14px 22px; }
+.topic-grid-wrap { overflow-x: auto; margin: 10px 0 26px; }
+.topic-grid { border-collapse: separate; border-spacing: 2px; font-size: 13px; }
+/* Undo the site's roomy table cells: these are small squares, not text cells. */
+.topic-grid th, .topic-grid td { padding: 0; border: 0; background: none; line-height: 1.2; }
+.topic-grid th { font-weight: 500; color: var(--muted); text-align: left; white-space: nowrap; }
+.topic-grid .topic-grid-name { padding: 1px 12px 1px 0; color: var(--text); font-weight: 500; }
+.topic-grid thead .topic-grid-name { color: var(--muted); }
+.topic-grid .topic-grid-quarter { width: 16px; min-width: 16px; font-size: 11px; font-weight: 400; overflow: visible; }
+.topic-grid .topic-grid-count { padding-left: 12px; color: var(--muted); white-space: nowrap; }
+.topic-grid td.topic-cell { width: 16px; min-width: 16px; height: 16px; border-radius: 2px; background: #f1f3f6; }
+.topic-grid td.topic-level-1 { background: #cddcee; }
+.topic-grid td.topic-level-2 { background: #9bb9dc; }
+.topic-grid td.topic-level-3 { background: #5f8cc0; }
+.topic-grid td.topic-level-4 { background: #315f9b; }
+.topic-example { padding: 12px 0; border-top: 1px solid var(--muted-border); }
+.topic-example p { margin: 0; }
+.topic-example-meta { font-size: 13px; color: var(--muted); }
+.topic-example-meta strong { color: var(--text); }
+.topic-example-text { margin-top: 4px !important; font-size: 15px; overflow-wrap: anywhere; }

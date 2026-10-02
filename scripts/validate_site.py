@@ -388,6 +388,34 @@ def validate_lobbying_spending(root: Path, errors: list) -> dict | None:
         return None
 
 
+def validate_lobbying_topics(root: Path, errors: list) -> dict | None:
+    """Topics page data: every series must line up with the quarters and with the company rows."""
+    path = root / "lobbying/topics/data/phrase_topics.json"
+    if not path.exists():
+        return None
+    try:
+        payload = read_json(path)
+        count = len(payload["quarters"])
+        if len(payload["all_clients"]) != count or len(payload["tracked_companies_active"]) != count:
+            errors.append("Lobbying topics totals do not line up with the quarters")
+        for topic in payload["topics"]:
+            mentioning = [sum(1 for c in topic["companies"] if c["entries"][i]) for i in range(count)]
+            if mentioning != topic["tracked_companies_mentioning"]:
+                errors.append(f"Lobbying topic company counts disagree: {topic['id']}")
+            if any(named > total for named, total in zip(topic["all_clients_mentioning"], payload["all_clients"])):
+                errors.append(f"Lobbying topic names more clients than exist: {topic['id']}")
+            if any(named > active for named, active in zip(mentioning, payload["tracked_companies_active"])):
+                errors.append(f"Lobbying topic names more tracked companies than filed: {topic['id']}")
+            for company in topic["companies"]:
+                if len(company["entries"]) != count or not company["example"]["url"].startswith("https://lda.gov/"):
+                    errors.append(f"Invalid lobbying topic company row: {topic['id']} {company['id']}")
+        return {"topics": len(payload["topics"]), "source_cutoff": payload["metadata"]["source_cutoff"],
+                "topics_version": payload["metadata"]["topics_version"]}
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"Invalid lobbying topics export: {exc}")
+        return None
+
+
 def validate(root: Path) -> dict:
     root = root.resolve()
     errors = []
@@ -492,9 +520,10 @@ def validate(root: Path) -> dict:
         errors.append("No generated site pages or cycle data found")
     lobbying = validate_lobbying(root, errors)
     lobbying_spending = validate_lobbying_spending(root, errors)
+    lobbying_topics = validate_lobbying_topics(root, errors)
     attribution = validate_attribution(root, errors)
     return {"html_pages": len(pages), "json_files": len(json_paths), "cycles": cycles,
-            "lobbying": lobbying, "lobbying_spending": lobbying_spending,
+            "lobbying": lobbying, "lobbying_spending": lobbying_spending, "lobbying_topics": lobbying_topics,
             "attribution": attribution, "errors": errors}
 
 

@@ -1154,6 +1154,9 @@ def page_federal_lobbying(metadata: dict) -> str:
                 '<p><a href="../../lobbying/spending/">Open lobbying spending by company &rarr;</a></p>'
                 if (LOBBYING_EXPORT / "spending.json").exists()
                 else '<p>The lobbying spending export has not been built in this checkout yet.</p>')
+    if (LOBBYING_EXPORT / "phrase_topics.json").exists():
+        spending += ('<p>See which subjects they name in their reports, such as artificial intelligence and data centers.</p>'
+                     '<p><a href="../../lobbying/topics/">Open what tech lobbies about &rarr;</a></p>')
     explorer = ('<p>Explore AI references in federal lobbying reports by client, company watchlist, topic, and reporting quarter.</p>'
                 '<p><a href="../../lobbying/">Open the AI lobbying explorer &rarr;</a></p>'
                 '<p>Matching passages link to original filings. Company names and topic matches have separate review status.</p>'

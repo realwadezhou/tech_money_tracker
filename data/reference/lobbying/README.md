@@ -88,6 +88,17 @@ The generated `organizations.json` export shows exactly what a build used.
 Before October 2026 this folder held its own 10-company `organizations.json`.
 Every name in it is in the shared list; see git history for the old file.
 
+## Phrase topics for the public topics page
+
+`phrase_topics.json` is separate from everything above. It defines the topics
+on the public `/lobbying/topics/` page: each topic is a list of search
+patterns, and `python -m pipeline.lda.build_topics` counts the issue entries
+containing them, by quarter and by tracked company. It is a plain word count,
+with no review step and no claim about positions. Patterns ignore
+capitalization unless `case_sensitive` is true (used for the abbreviation
+"AI", so that "said" and "FAIR Act" do not match). Change `version` whenever
+patterns change, then rebuild.
+
 ## Review workflow
 
 1. Download/open `topic_review_queue.csv`. It includes the original passage,

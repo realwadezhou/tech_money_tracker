@@ -131,20 +131,21 @@ class SpendingExportAndPageTests(unittest.TestCase):
 
     def test_unpublished_explorer_is_kept_out_of_the_site(self):
         from unittest.mock import patch
-        from frontend import lobbying, lobbying_spending
+        from frontend import lobbying, lobbying_spending, lobbying_topics
         site = self.output / "switch"
         stale = site / "lobbying/data"
         stale.mkdir(parents=True)
         (stale / "explorer-data.js").write_text("stale", encoding="utf-8")
         (site / "lobbying/index.html").write_text("old explorer page", encoding="utf-8")
         (self.output / "explorer.json").write_text("{}", encoding="utf-8")
-        with patch.object(lobbying, "EXPORT", self.output), patch.object(lobbying_spending, "EXPORT", self.output):
+        with patch.object(lobbying, "EXPORT", self.output), patch.object(lobbying_spending, "EXPORT", self.output), \
+                patch.object(lobbying_topics, "EXPORT", self.output):
             self.assertFalse(lobbying.explorer_published())
             self.assertEqual(lobbying.lobbying_landing(), "lobbying/spending/")
             built = lobbying.build_lobbying_pages(site, [2026])
             with patch.object(lobbying, "PUBLISH_AI_EXPLORER", True):
                 self.assertTrue(lobbying.explorer_published())
-        self.assertEqual(built, {"explorer": False, "spending": True})
+        self.assertEqual(built, {"explorer": False, "spending": True, "topics": False})
         self.assertFalse(stale.exists())
         self.assertIn('url=spending/', (site / "lobbying/index.html").read_text(encoding="utf-8"))
         html = (site / "lobbying/spending/index.html").read_text(encoding="utf-8")
