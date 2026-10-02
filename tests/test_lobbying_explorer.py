@@ -205,6 +205,8 @@ class ExportTests(unittest.TestCase):
             for name in ("manifest.json", "matches.csv"):
                 shutil.copy2(output / name, public / name)
             script = public / "explorer-data.js"
+            # Use the rebuilt index so its build time matches the copied manifest.
+            payload = json.loads((output / "explorer.json").read_text())
             script.write_text("window.TechMoneyLobbyingData=" + json.dumps(payload) + ";\n")
             errors = []
             self.assertEqual(validate_lobbying(root / "site", errors)["topic_matches"], 2)
